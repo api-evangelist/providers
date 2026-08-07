@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
   slug: scotiabank-plans-pricing
-random_paper: 10
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Scotiabank Rate Limits
@@ -248,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png
 security:

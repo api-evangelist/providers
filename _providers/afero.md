@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -189,10 +189,11 @@ overview: 'Afero publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 26 more developer resources.'
-random_paper: 50
+random_paper: 73
 score:
   band: developing
   composite: 51.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.7
@@ -200,6 +201,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +212,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Afero Authentication

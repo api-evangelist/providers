@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-03'
+  score: 35.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -367,7 +367,7 @@ plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
   slug: bitbucket-plans-pricing
-random_paper: 7
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Bitbucket Rate Limits
@@ -404,16 +404,16 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.9
+  composite: 59.1
   delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 80.6
+    contract_quality: 77.7
     developer_ergonomics: 30.4
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -421,8 +421,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:

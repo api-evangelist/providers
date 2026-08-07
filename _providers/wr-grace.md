@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Standard Industries Launches a $1 Million AI Challenge to ...
   url: https://www.prnewswire.com/news-releases/standard-industries-launches-a-1-million-ai-challenge-to-transform-chemical-innovation-302082496.html
-random_paper: 32
+random_paper: 1
 score:
   band: minimal
   composite: 11.2
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wr-grace/refs/heads/main/screenshots/wr-grace-2026-06-20T201630.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -113,7 +113,7 @@ overview: 'Tuva Health publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, support, and 11 more developer resources.'
-random_paper: 78
+random_paper: 106
 score:
   band: emerging
   composite: 20.6
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

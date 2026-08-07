@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Botrista's Wix-hosted content site (botrista.info). It is a platform-provided site MCP — supplied by the Wix website builder rather than authored by Botri
@@ -107,10 +107,11 @@ overview: 'Botrista publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Botrista''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 17
+random_paper: 81
 score:
   band: emerging
   composite: 20.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -118,11 +119,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Botrista Domain Security

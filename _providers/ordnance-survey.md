@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 53
+random_paper: 104
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits
@@ -370,7 +370,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 60.0
       total: 10
     mcp: derived
     skills: derived
@@ -380,8 +380,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

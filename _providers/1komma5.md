@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: '1KOMMA5° publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 65
+random_paper: 70
 scopes:
 - name: 1Komma5 Scopes
   scope_count: 14
@@ -161,6 +161,7 @@ scopes:
 score:
   band: thin
   composite: 35.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 43.4
@@ -168,6 +169,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 10.5
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -179,8 +181,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: 1Komma5 Authentication

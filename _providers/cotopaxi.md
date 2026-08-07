@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,7 +92,7 @@ overview: 'Cotopaxi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cotopaxi''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 16
+random_paper: 80
 scopes:
 - name: Cotopaxi Scopes
   scope_count: 4
@@ -113,8 +113,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/screenshots/cotopaxi-2026-07-25T210504.png
 security:

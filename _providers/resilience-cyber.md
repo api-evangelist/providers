@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The only publicly documented, machine-readable surface Resilience operates. portal.cyberresilience.com — the gated client and broker application — redirects through /v2/api/auth/login to an Auth0 tena
@@ -155,7 +155,7 @@ overview: 'Resilience publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Resilience''s developer surface includes engineering blog, signup flow, authentication, support, YouTube channel, and 24 more developer resources.'
-random_paper: 22
+random_paper: 55
 scopes:
 - name: Resilience Cyber Scopes
   scope_count: 14
@@ -181,8 +181,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

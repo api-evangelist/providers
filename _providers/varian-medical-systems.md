@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: AI-Enabled Radiation Therapy System & 1,000th Patient
   url: https://siteman.wustl.edu/ai-enabled-radiation-therapy-system-at-siteman/
-random_paper: 57
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Varian Medical Systems Rate Limits
@@ -248,8 +248,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/screenshots/varian-medical-systems-2026-06-20T200814.png
 security:

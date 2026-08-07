@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -278,7 +278,7 @@ plans:
 - name: Kajabi Plans Pricing
   plan_count: 4
   slug: kajabi-plans-pricing
-random_paper: 40
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Kajabi Rate Limits
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:

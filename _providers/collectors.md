@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,19 +139,19 @@ overview: 'Collectors publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Collectors'' developer surface includes documentation, API reference, signup flow, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 37
+random_paper: 65
 score:
   band: thin
-  composite: 32.0
+  composite: 33.8
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 39.5
     developer_ergonomics: 40.8
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.0
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -162,8 +162,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/screenshots/collectors-2026-07-25T210048.png
 security:

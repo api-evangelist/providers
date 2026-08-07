@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Emissary Ingress Plans Pricing
   plan_count: 3
   slug: emissary-ingress-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Emissary Ingress Rate Limits
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/screenshots/emissary-ingress-2026-06-20T180636.png
 security:

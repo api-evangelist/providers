@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'BMW ConnectedDrive publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   BMW ConnectedDrive''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 51
+random_paper: 48
 score:
   band: thin
   composite: 31.8
@@ -208,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/screenshots/bmw-connecteddrive-2026-06-20T173542.png
 security:

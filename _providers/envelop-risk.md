@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Envelop Risk is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Envelop Risk''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 12.1
@@ -94,8 +94,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envelop-risk/refs/heads/main/screenshots/envelop-risk-2026-07-25T213445.png
 security:

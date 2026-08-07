@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Rebellion Defense
 nav: Providers
 network: true
 overview: Rebellion Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, Defense, National Security, and Artificial Intelligence.
-random_paper: 21
+random_paper: 36
 score:
   band: minimal
   composite: 9.8
@@ -75,8 +75,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: littlefish
 nav: Providers
 network: true
 overview: littlefish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Merchant Services, Payments, and Fintech.
-random_paper: 35
+random_paper: 63
 score:
   band: minimal
   composite: 11.1
@@ -79,8 +79,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/littlefish/refs/heads/main/screenshots/littlefish-2026-07-25T225345.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ plans:
 - name: Bird Rides Plans Pricing
   plan_count: 4
   slug: bird-rides-plans-pricing
-random_paper: 47
+random_paper: 93
 rate_limits:
 - limit_count: 0
   name: Bird Rides Rate Limits
@@ -313,8 +313,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/screenshots/bird-rides-2026-06-20T173255.png
 security:

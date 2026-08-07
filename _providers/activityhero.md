@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-03'
+  score: 34.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: ActivityHero's provider integration surface — outbound, HMAC-SHA256-signed JSON webhooks that sync registrations and activity schedules between ActivityHero and a provider's own systems (configured un
@@ -107,7 +107,7 @@ overview: 'ActivityHero publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   ActivityHero''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 72
+random_paper: 64
 score:
   band: thin
   composite: 34.2
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 34.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/screenshots/activityhero-2026-07-25T181531.png
 security:

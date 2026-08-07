@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Hosted GraphQL API behind the Q-CTRL Boulder Opal and Fire Opal Python clients. Not published as a public OpenAPI/REST spec; accessed via the official SDKs with an account-issued API key.
@@ -140,7 +140,7 @@ overview: 'Q Ctrl publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Q Ctrl''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, authentication, changelog, and 16 more developer resources.'
-random_paper: 25
+random_paper: 30
 score:
   band: thin
   composite: 35.3
@@ -153,8 +153,8 @@ score:
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 35.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

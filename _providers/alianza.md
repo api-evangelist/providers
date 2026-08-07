@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -158,10 +158,11 @@ overview: 'Alianza publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 58
 score:
   band: developing
   composite: 44.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.8
@@ -169,6 +170,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -185,8 +187,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Alianza Authentication

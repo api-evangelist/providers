@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: CES International
 nav: Providers
 network: true
 overview: CES International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Utilities, Energy, Outage Management, and Operations Management.
-random_paper: 50
+random_paper: 65
 score:
   band: minimal
   composite: 4.3
@@ -58,8 +58,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: ces-international
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Buymeacoffee Plans Pricing
   plan_count: 2
   slug: buymeacoffee-plans-pricing
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Buymeacoffee Rate Limits
@@ -143,8 +143,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/screenshots/buymeacoffee-2026-07-25T204126.png
 security:

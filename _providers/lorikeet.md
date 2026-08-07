@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ plans:
 - name: Lorikeet Plans Pricing
   plan_count: 1
   slug: lorikeet-plans-pricing
-random_paper: 8
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Lorikeet Rate Limits
@@ -141,8 +141,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/screenshots/lorikeet-2026-07-25T225543.png
 security:

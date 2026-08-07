@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-03'
+  score: 56.1
+  scored_at: '2026-08-06'
 api_count: 26
 apis:
 - description: The Advocate Offers API from Talkable — 4 operation(s) for advocate offers.
@@ -238,7 +238,7 @@ overview: 'Talkable publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Talkable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 72
+random_paper: 41
 scopes:
 - name: Talkable Scopes
   scope_count: 3
@@ -265,8 +265,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

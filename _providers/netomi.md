@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-03'
+  score: 41.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -192,10 +192,11 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 27 more developer resources.'
-random_paper: 82
+random_paper: 87
 score:
   band: developing
   composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 49.6
@@ -203,6 +204,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 52.6
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +216,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Netomi Authentication

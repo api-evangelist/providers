@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Federal Statistical Office Germany
@@ -56,7 +56,7 @@ name: GENESIS
 nav: Providers
 network: true
 overview: GENESIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 85
+random_paper: 72
 score:
   band: minimal
   composite: 6.5
@@ -75,8 +75,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesis/refs/heads/main/screenshots/genesis-2026-06-20T181732.png
 security:

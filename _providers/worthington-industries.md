@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Worthington Steel CEO Geoff Gilmore on EVs, AI and tariffs
   url: https://www.bizjournals.com/columbus/news/2025/02/26/worthington-steel-ceo-on-evs-ai-and-m-a.html
-random_paper: 82
+random_paper: 102
 score:
   band: minimal
   composite: 10.7
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worthington-industries/refs/heads/main/screenshots/worthington-industries-2026-06-20T201624.png
 security:

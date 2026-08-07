@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -398,7 +398,7 @@ plans:
 - name: Blockdaemon Plans Pricing
   plan_count: 4
   slug: blockdaemon-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Blockdaemon Rate Limits
@@ -424,8 +424,8 @@ score:
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 48.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 10
 common:
@@ -95,7 +95,7 @@ name: Bain & Company
 nav: Providers
 network: true
 overview: Bain & Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Strategy, and Professional Services.
-random_paper: 46
+random_paper: 97
 score:
   band: minimal
   composite: 10.5
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

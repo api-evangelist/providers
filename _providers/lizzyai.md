@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Lizzyai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lizzyai''s developer surface includes signup flow, pricing, engineering blog, documentation, support, FAQ, YouTube channel, and 7 more developer resources.'
-random_paper: 20
+random_paper: 102
 score:
   band: emerging
   composite: 17.0
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lizzyai/refs/heads/main/screenshots/lizzyai-2026-07-25T225411.png
 security:

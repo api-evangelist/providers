@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Avea Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Avea Robotics'' developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 92
+random_paper: 84
 score:
   band: minimal
   composite: 7.2
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avea-robotics/refs/heads/main/screenshots/avea-robotics-2026-07-25T201915.png
 security:

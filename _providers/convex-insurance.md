@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The partner-gated REST API surface behind Convex Digital Underwriting. Convex publicly describes building "a suite of insurance specific APIs" that let broker and client platforms connect to Convex pr
@@ -111,7 +111,7 @@ overview: 'Convex publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Convex''s developer surface includes documentation, engineering blog, legal docs, and 15 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: emerging
   composite: 18.4
@@ -132,8 +132,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/screenshots/convex-insurance-2026-07-25T210353.png
 security:

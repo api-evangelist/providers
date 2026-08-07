@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OnTheMarket's member-only feed API for estate-agency CRM software. It is modelled on the Rightmove Real Time Datafeed (RTDF/ADF) specification, with OnTheMarket-specific differences in request and res
@@ -131,7 +131,7 @@ overview: 'OnTheMarket publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   OnTheMarket''s developer surface includes engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 46
+random_paper: 56
 score:
   band: emerging
   composite: 17.9
@@ -146,8 +146,8 @@ score:
   previous_composite: 17.9
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Blue Frog Gaming
 nav: Providers
 network: true
 overview: Blue Frog Gaming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Browser Games, and Social Games.
-random_paper: 51
+random_paper: 102
 score:
   band: minimal
   composite: 5.0
@@ -61,8 +61,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-frog-gaming/refs/heads/main/screenshots/blue-frog-gaming-2026-07-25T203427.png
 security:

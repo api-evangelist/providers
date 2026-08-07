@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Analytics, Extensive Financial Metrics, and Benchmarks Against ...
   url: https://www.plunkettresearch.com/core-mark-holding-company-inc-corenas-analytics-extensive-financial-metrics-and-benchmarks-against-averages-and-top-companies-within-its-industry
-random_paper: 68
+random_paper: 101
 score:
   band: minimal
   composite: 7.1
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/core-mark-holding/refs/heads/main/screenshots/core-mark-holding-2026-06-20T175022.png
 security:

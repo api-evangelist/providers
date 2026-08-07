@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ overview: 'Tessian publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessian''s developer surface includes documentation, API reference, authentication, support, and 15 more developer resources.'
-random_paper: 94
+random_paper: 81
 score:
   band: thin
   composite: 35.5
@@ -185,8 +185,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

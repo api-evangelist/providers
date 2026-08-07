@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments to acquire TSYS in $21.5B merger
   url: https://www.atmmarketplace.com/articles/global-payments-to-acquire-tsys-in-215b-merger/
-random_paper: 93
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Total System Services Rate Limits
@@ -233,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

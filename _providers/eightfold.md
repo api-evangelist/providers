@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful API v2 exposing Eightfold's core talent entities (profiles, positions, ATS positions/candidates, demands, bookings, offers, succession plans, courses, campaigns, messages, insights) plus a SCI
@@ -160,7 +160,7 @@ overview: 'Eightfold publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Eightfold''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 0
+random_paper: 46
 scopes:
 - name: Eightfold Scopes
   scope_count: 0
@@ -182,8 +182,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold/refs/heads/main/screenshots/eightfold-2026-07-25T213004.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -81,6 +81,14 @@ collections:
   name: Amazon MSK API
   slug: open-openapi
 common:
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1401,7 +1409,7 @@ jsonld:
   property_count: 129
   slug: amazon-msk-msk-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-06'
 name: Amazon MSK
 nav: Providers
 network: true
@@ -1411,12 +1419,12 @@ overview: 'Amazon MSK publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon MSK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
   slug: amazon-msk-plans-pricing
-random_paper: 72
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits
@@ -1457,8 +1465,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/screenshots/amazon-msk-2026-06-20T171749.png
 security:

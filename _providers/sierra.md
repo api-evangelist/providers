@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Sierra Agent OS is the enterprise platform for building, deploying, and operating customer-facing AI agents. It includes Agent Studio, Ghostwriter, Insights, the Agent Data Platform, Voice Agents, and
@@ -140,7 +140,7 @@ plans:
 - name: Sierra Plans Pricing
   plan_count: 1
   slug: sierra-plans-pricing
-random_paper: 76
+random_paper: 81
 rate_limits:
 - limit_count: 2
   name: Sierra Rate Limits
@@ -163,8 +163,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sierra/refs/heads/main/screenshots/sierra-2026-06-20T193900.png
 security:

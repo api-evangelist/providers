@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Medusa Js Plans Pricing
   plan_count: 1
   slug: medusa-js-plans-pricing
-random_paper: 50
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Medusa Js Rate Limits
@@ -246,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

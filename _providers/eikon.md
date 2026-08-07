@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Eikon is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Eikon''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 59
+random_paper: 82
 score:
   band: minimal
   composite: 9.0
@@ -106,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eikon/refs/heads/main/screenshots/eikon-2026-07-25T213018.png
 security:

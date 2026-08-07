@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -228,7 +228,7 @@ plans:
 - name: Pagseguro Plans Pricing
   plan_count: 2
   slug: pagseguro-plans-pricing
-random_paper: 23
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Pagseguro Rate Limits
@@ -258,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:

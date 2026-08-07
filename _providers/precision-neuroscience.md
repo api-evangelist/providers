@@ -1,0 +1,158 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-06'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/precision-neuroscience-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.precisionneuro.io/
+- group: other
+  title: ''
+  type: Technology
+  url: https://www.precisionneuro.io/our-technology
+- group: company
+  title: ''
+  type: News
+  url: https://www.precisionneuro.io/articles
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.precisionneuro.io/articles/company-news
+- group: other
+  title: ''
+  type: Research
+  url: https://www.precisionneuro.io/articles/research
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/precision-neuroscience
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/precision-neuroscience/layer7-nbme2025
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/precision-neuroscience-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/precision-neuroscience-conformance.yml
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.precisionneuro.io/careers
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.precisionneuro.io/contact
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.precisionneuro.io/partner-with-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.precisionneuro.io/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.precisionneuro.io/privacy-policy
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/precision-neuroscience_stock/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/precision-neuroscience-corporation
+coverage:
+  checked: '2026-08-05'
+  detail: 'Precision Neuroscience ships an FDA-cleared implantable medical device and runs no developer program — every /.well-known/ path, /llms.txt, /openapi.json and /graphql returns a Next.js 404 on www.precisionneuro.io, no api./developer./portal./status. host resolves, the only docs host that does resolve (docs.precisionneuro.io) is a PRIVATE GitHub Pages site that 302s to github.com/pages/auth, and the company''s verified GitHub org holds exactly one public repo: an Apache-2.0 research notebook.'
+  evidence:
+  - status: 404
+    url: https://www.precisionneuro.io/openapi.json
+  - status: 404
+    url: https://www.precisionneuro.io/llms.txt
+  - status: 404
+    url: https://www.precisionneuro.io/.well-known/agent-card.json
+  - status: 302
+    url: https://docs.precisionneuro.io/
+  - status: 200
+    url: https://api.github.com/orgs/precision-neuroscience/repos
+  reason: no-developer-program
+  state: none
+created: '2026-08-05'
+description: 'Precision Neuroscience is a New York City brain-computer interface company founded in 2021 by Benjamin Rapoport, Michael Mager, Demetrios Papageorgiou and Mark Hettick, with additional sites in Santa Clara, California and Addison, Texas. Its product is the Layer 7 Cortical Interface, a thin-film microelectrode array that lies on the surface of the cortex rather than penetrating brain tissue, and is designed to be removable and upgradable. The array received FDA 510(k) clearance for recording, monitoring and stimulating on the brain surface for implantation durations of up to 30 days, and the company reports 95+ clinical study participants across 15+ hospital partnerships — Mount Sinai, Penn Medicine, Johns Hopkins, Mass General Brigham, Northwestern, Emory, Barrow Neurological Institute and others — plus a strategic partnership with Medtronic. Precision sells a regulated medical device, not software services. It runs no developer program: no public API, SDK, webhooks, developer
+  portal or machine-readable specification is published anywhere on its domain. Its only public engineering surface is a verified GitHub organization whose single public repository is an Apache-2.0 research notebook accompanying a 2025 neural-decoding result.'
+image: https://cdn.sanity.io/images/883wn8od/production/27b30ec3135c38d300a7ad288ad4d71b142bdcd1-1200x630.png?fm=webp&w=1200&q=75
+layout: provider
+modified: '2026-08-05'
+name: Precision Neuroscience
+nav: Providers
+network: true
+overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, brain-computer-interface, neurotechnology, medical-devices, and neuroscience.
+
+
+  Precision Neuroscience''s developer surface includes product news, engineering blog, and 15 more developer resources.'
+random_paper: 40
+score:
+  band: minimal
+  composite: 12.6
+  delta: -1.1
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 68.5
+    governance: 3.1
+    operational_transparency: 5.3
+  previous_composite: 13.7
+  provenance:
+    conformance: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: domain-security
+  name: Precision Neuroscience Domain Security
+  slug: precision-neuroscience-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: precision-neuroscience
+tags:
+- Company
+- brain-computer-interface
+- neurotechnology
+- medical-devices
+- neuroscience
+- implantable-devices
+- neural-interfaces
+- health-technology
+- clinical-research
+- deep-tech
+website: https://www.precisionneuro.io/
+---

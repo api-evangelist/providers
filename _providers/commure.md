@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The HL7 FHIR REST API of the Commure Developer Platform, together with its OpenID Connect / SMART App Launch authentication surface. Covers the FHIR RESTful interactions (read, vread, update, delete, '
@@ -195,7 +195,7 @@ overview: 'Commure publishes 1 API on the [APIs.io](https://apis.io/) network: F
 
 
   Commure''s developer surface includes API reference, authentication, signup flow, engineering blog, product news, support, and 30 more developer resources.'
-random_paper: 0
+random_paper: 82
 scopes:
 - name: Commure Scopes
   scope_count: 5
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: 23.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.5
@@ -212,7 +212,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 25.5
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -227,9 +227,9 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: rising
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:
 - kind: authentication

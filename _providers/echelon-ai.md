@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ plans:
 - name: Echelon Ai Plans
   plan_count: 3
   slug: echelon-ai-plans
-random_paper: 31
+random_paper: 77
 score:
   band: emerging
   composite: 25.1
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 25.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echelon-ai/refs/heads/main/screenshots/echelon-ai-2026-07-25T212731.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -139,7 +139,7 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 13 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: thin
   composite: 41.5
@@ -161,8 +161,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

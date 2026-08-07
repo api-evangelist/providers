@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Catalyx Space is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Catalyx Space''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 92
+random_paper: 84
 score:
   band: minimal
   composite: 7.4
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catalyx-space/refs/heads/main/screenshots/catalyx-space-2026-07-25T204753.png
 security:

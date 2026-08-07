@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -472,7 +472,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 2
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -500,17 +500,17 @@ scopes:
   slug: moodys-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.4
+  band: strong
+  composite: 63.7
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.5
+    contract_quality: 57.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 50.0
-  previous_composite: 66.4
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -527,8 +527,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

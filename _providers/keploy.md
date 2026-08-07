@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: REST API for Keploy Cloud providing test generation and execution capabilities, app/test-suite management, recordings/mocks, test reports, schema coverage, API keys, clusters, and account/subscription
@@ -86,7 +86,7 @@ overview: 'Keploy publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Keploy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 90
+random_paper: 95
 score:
   band: minimal
   composite: 9.0
@@ -102,8 +102,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/screenshots/keploy-2026-07-25T223630.png
 security:

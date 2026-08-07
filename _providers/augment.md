@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-03'
+  score: 50.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 88
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Augment Rate Limits
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.5
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.1
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 51.7
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +224,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:

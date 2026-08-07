@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ overview: 'Attio publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 70
+random_paper: 93
 scopes:
 - name: Attio Scopes
   scope_count: 7
@@ -151,7 +151,7 @@ scopes:
 score:
   band: thin
   composite: 28.5
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 57.4
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.9
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-06-20T172546.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -227,7 +227,7 @@ overview: 'GoSpotCheck publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GoSpotCheck''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 38
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Gospotcheck Rate Limits
@@ -235,7 +235,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.8
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.7
@@ -243,19 +243,19 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 71.1
-  previous_composite: 49.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/screenshots/gospotcheck-2026-07-25T220116.png
 security:

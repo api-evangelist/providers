@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Octopus Energy Plans Pricing
   plan_count: 2
   slug: octopus-energy-plans-pricing
-random_paper: 51
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Octopus Energy Rate Limits
@@ -380,8 +380,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-03'
+  score: 38.3
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Programmatic access to Verbit''s transcription and captioning platform: live booking / real-time captioning, post-production transcription jobs, caption control, search, and AI insights.'
@@ -179,7 +179,7 @@ overview: 'VerbIT publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   VerbIT''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 82
+random_paper: 87
 score:
   band: developing
   composite: 55.1
@@ -195,8 +195,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

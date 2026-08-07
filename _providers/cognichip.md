@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ overview: 'Cognichip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cognichip''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 93
+random_paper: 44
 score:
   band: minimal
   composite: 12.3
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognichip/refs/heads/main/screenshots/cognichip-2026-07-25T210003.png
 security:

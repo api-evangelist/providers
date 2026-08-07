@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 16
 common:
@@ -136,7 +136,7 @@ name: Susquehanna International Group (SIG)
 nav: Providers
 network: true
 overview: Susquehanna International Group (SIG) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quantitative Trading, Market Making, Proprietary Trading, Options, and Derivatives.
-random_paper: 13
+random_paper: 79
 score:
   band: emerging
   composite: 14.5
@@ -155,8 +155,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 31.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/susquehanna-international-group/refs/heads/main/screenshots/susquehanna-international-group-2026-06-20T194746.png
 security:

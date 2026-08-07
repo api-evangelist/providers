@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-03'
+  score: 41.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: v2 REST API for submitting candidate screening checks and retrieving report findings (person, profiles, posts, web content, summary, and signed PDF). Bearer-token auth; report completion via HTTP call
@@ -167,7 +167,7 @@ overview: 'Fama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 25
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Fama Rate Limits
@@ -175,7 +175,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.3
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -183,13 +183,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 48.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png
 security:

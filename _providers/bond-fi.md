@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Bond
 nav: Providers
 network: true
 overview: Bond is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Finance, Cards, Issuing, Payments, and Banking.
-random_paper: 6
+random_paper: 106
 score:
   band: minimal
   composite: 8.2
@@ -87,8 +87,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bond-fi/refs/heads/main/screenshots/bond-fi-2026-06-20T173558.png
 security:

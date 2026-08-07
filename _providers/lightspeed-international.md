@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,7 +49,7 @@ name: Lightspeed International
 nav: Providers
 network: true
 overview: Lightspeed International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Voice over IP, Networking, and Data Communications.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 4.3
@@ -68,8 +68,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-international/refs/heads/main/screenshots/lightspeed-international-2026-07-25T225133.png
 slug: lightspeed-international

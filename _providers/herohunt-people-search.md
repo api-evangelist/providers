@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing
@@ -57,7 +57,7 @@ overview: 'HeroHunt People Search publishes 1 API on the [APIs.io](https://apis.
 
 
   HeroHunt People Search''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 57
+random_paper: 95
 score:
   band: minimal
   composite: 5.8
@@ -70,8 +70,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herohunt-people-search/refs/heads/main/screenshots/herohunt-people-search-2026-06-20T182646.png
 security:

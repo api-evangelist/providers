@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: 'Internal API platform built on MuleSoft Anypoint that exposes reusable experience, process, and system APIs across The Coca-Cola Company''s bottling, marketing, ecommerce, and supply-chain operations. '
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Coca-Cola Refreshes Givers of the Season, Embraces AI- ...
   url: https://www.coca-colacompany.com/media-center/coca-cola-refreshes-givers-of-the-season-embraces-ai-powered-storytelling-in-global-holiday-campaign
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Coca Cola Rate Limits
@@ -149,8 +149,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png
 security:

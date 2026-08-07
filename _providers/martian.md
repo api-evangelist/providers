@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Unified, OpenAI- and Anthropic-compatible LLM gateway providing access to 200+ models from leading providers through a single endpoint. Documented operations: POST /v1/chat/completions (OpenAI-compati'
@@ -140,7 +140,7 @@ overview: 'Martian publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Martian''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 83
+random_paper: 70
 score:
   band: emerging
   composite: 27.8
@@ -156,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian/refs/heads/main/screenshots/martian-2026-07-25T230258.png
 security:

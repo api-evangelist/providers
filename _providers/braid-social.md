@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -45,7 +45,7 @@ name: Braid Social
 nav: Providers
 network: true
 overview: Braid Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Social, Messaging, and SMS.
-random_paper: 54
+random_paper: 64
 score:
   band: minimal
   composite: 4.3
@@ -64,8 +64,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/screenshots/braid-social-2026-07-25T203659.png
 slug: braid-social

@@ -1,0 +1,256 @@
+---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 56.3
+  scored_at: '2026-08-06'
+api_count: 6
+apis:
+- description: REST API to manage justtrack apps, campaigns, partners, partner-feature configurations and bids. Published as an OpenAPI 3.1.0 contract (v1.0.0) covering twelve operations across six tags, authenticat
+  name: justtrack Management API
+  slug: justtrack-management-api
+- description: Server-to-server batch ingestion API for in-app events. A single POST /appevents/v1 operation accepts an array of per-app/per-user event batches, each carrying a client-supplied uuid4 batchId and per-
+  name: justtrack AppEvent API
+  slug: justtrack-appevent-api
+- description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
+  name: justtrack Reporting API
+  slug: justtrack-reporting-api
+- description: Server-to-server revenue postback sink. Monetization partners and customers send real-time revenue events as GET requests with query parameters to https://sink.justtrack.io/monetization/v0/{provider}/
+  name: justtrack Revenue Events API
+  slug: justtrack-revenue-events-api
+- description: Publisher-facing reporting API returning daily aggregated Playtime revenue, eCPM, offerwall shows, SDK bootups, first impressions, coin sums and view counts, groupable by up to eighteen dimensions. Tw
+  name: adjoe SSP Revenue API
+  slug: adjoe-ssp-revenue-api
+- description: Per-user ad data report download for Playtime publishers. A single GET /v3/ssp-api/user-ad-data-report/sdk/{sdkHash} endpoint returns a text/csv report for a given date, answering 202 with a JSON body
+  name: adjoe User Ad Data Report API
+  slug: adjoe-user-ad-data-report-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Applike Webhooks
+  slug: applike-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/applike-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://applike-group.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.justtrack.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.justtrack.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.justtrack.io/api/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.justtrack.io/sdk/setup/
+- group: operate
+  title: ''
+  type: Support
+  url: https://justtrack.io/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://adjoe.io/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/justtrackio
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://justtrack.io/pricing/
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.justtrack.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://justtrack.io/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://justtrack.io/privacy-notice/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.justtrack.io/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.justtrack.io/sdk/more/changelog/
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/applike-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/applike-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/applike-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/applike-justtrack-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/applike-adjoe-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/applike-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/applike-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/applike-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/applike-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/applike-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/applike-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/applike-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/applike-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/applike-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/applike-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/applike-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/applike-changelog.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/applike-trust-center.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/applike-components.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/applike-justtrack-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/applike-justtrack-app-events-overlay.yaml
+created: '2026-08-06'
+description: 'AppLike Group is a Hamburg, Germany-based company builder in the mobile app economy, founded in 2015 by Jonas Thiemann and Carlo Szelinsky and backed by Bertelsmann. The group operates four independent businesses that cover the mobile app value chain: adjoe (rewarded user acquisition, the Playtime engagement ad format, the Arcade loyalty layer and a programmatic ads platform), justtrack (mobile attribution, user-acquisition automation, cohort and monetization analytics), JustDice (app-discovery products for mobile gamers) and Sunday (mobile game development and publishing). Two of the four brands publish public developer surfaces: justtrack ships OpenAPI 3.1 contracts for its Management and AppEvent APIs plus documented Reporting, Revenue Events and Raw Data Export interfaces, and adjoe publishes SSP reporting APIs and a server-to-server rewarded-payout callback alongside Android, iOS, Unity, Flutter, React Native and Cordova SDKs.'
+image: https://applike-group.com/wp-content/uploads/2025/04/Applike-Group-881x1024.png
+layout: provider
+modified: '2026-08-06'
+name: AppLike Group
+nav: Providers
+network: true
+overview: 'AppLike Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: justtrack Management API and justtrack AppEvent API. Tagged areas include mobile-attribution, user-acquisition, adtech, mobile-advertising, and app-monetization.
+
+
+  The AppLike Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
+random_paper: 64
+rate_limits:
+- limit_count: 1
+  name: Applike Rate Limits
+  slug: applike-rate-limits
+score:
+  band: strong
+  composite: 62.6
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 64.5
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 73.7
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Applike Authentication
+  slug: applike-authentication
+  summary_line: 6 schemes
+- kind: domain-security
+  name: Applike Domain Security
+  slug: applike-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Applike Trust Center
+  slug: applike-trust-center
+  summary_line: trust center published
+slug: applike
+tags:
+- mobile-attribution
+- user-acquisition
+- adtech
+- mobile-advertising
+- app-monetization
+- rewarded-advertising
+- mobile-sdk
+- mobile-analytics
+- marketing-attribution
+- mobile-games
+- event-tracking
+- company
+website: https://applike-group.com/
+---

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The node-side REST interface for interacting with an AtomicNet node — registering assets and partners, publishing orders and book transfers, requesting and approving escrow and beneficiary authorizati
@@ -128,7 +128,7 @@ overview: 'PolySign publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 30
+random_paper: 94
 scopes:
 - name: Polysign Scopes
   scope_count: 1
@@ -137,6 +137,7 @@ scopes:
 score:
   band: thin
   composite: 31.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 43.7
@@ -144,6 +145,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 31.0
   provenance:
     conformance: derived
     mcp: derived
@@ -154,8 +156,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Polysign Authentication

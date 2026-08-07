@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Keatext is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Keatext''s developer surface includes developer portal, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 93
+random_paper: 80
 score:
   band: emerging
   composite: 21.6
@@ -110,8 +110,8 @@ score:
   previous_composite: 21.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keatext/refs/heads/main/screenshots/keatext-2026-07-25T223541.png
 security:

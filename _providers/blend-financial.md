@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Blend Financial is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Blend Financial''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 70
+random_paper: 26
 score:
   band: emerging
   composite: 13.9
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-financial/refs/heads/main/screenshots/blend-financial-2026-07-25T203311.png
 security:

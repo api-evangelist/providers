@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -162,7 +162,7 @@ overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SimpliVity''s developer surface includes documentation, API reference, and 17 more developer resources.'
-random_paper: 69
+random_paper: 97
 scopes:
 - name: Simplivity Scopes
   scope_count: 2
@@ -170,16 +170,16 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: emerging
-  composite: 24.4
+  composite: 27.6
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.3
+    contract_quality: 45.0
     developer_ergonomics: 25.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 24.4
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

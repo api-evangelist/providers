@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Tinyproxy is a lightweight HTTP/HTTPS proxy daemon for POSIX operating systems with minimal system resource requirements. Provides forward proxying, HTTPS CONNECT tunneling, domain filtering, access c
@@ -108,7 +108,7 @@ plans:
 - name: Tinyproxy Plans Pricing
   plan_count: 3
   slug: tinyproxy-plans-pricing
-random_paper: 80
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Tinyproxy Rate Limits
@@ -134,8 +134,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 34.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/screenshots/tinyproxy-2026-06-20T195408.png
 slug: tinyproxy

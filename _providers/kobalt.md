@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,7 +73,7 @@ name: Kobalt
 nav: Providers
 network: true
 overview: Kobalt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Music Publishing, Rights Management, and Royalties.
-random_paper: 67
+random_paper: 72
 score:
   band: minimal
   composite: 10.9
@@ -86,8 +86,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kobalt/refs/heads/main/screenshots/kobalt-2026-07-25T224028.png
 security:

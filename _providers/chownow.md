@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 25
 common:
@@ -159,7 +159,7 @@ plans:
 - name: Chownow Plans Pricing
   plan_count: 4
   slug: chownow-plans-pricing
-random_paper: 13
+random_paper: 95
 score:
   band: emerging
   composite: 17.1
@@ -172,8 +172,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/screenshots/chownow-2026-06-20T174325.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -128,7 +128,7 @@ overview: 'Bupa Australia is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bupa Australia''s developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 10
+random_paper: 79
 scopes:
 - name: Bupa Australia Scopes
   scope_count: 4
@@ -154,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/screenshots/bupa-australia-2026-07-25T204113.png
 security:

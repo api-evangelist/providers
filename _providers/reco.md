@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Reco is a SaaS security platform using identity-centric analysis to detect threats, prevent data exposure, and manage access across SaaS applications.
@@ -88,7 +88,7 @@ plans:
 - name: Reco Plans Pricing
   plan_count: 3
   slug: reco-plans-pricing
-random_paper: 45
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Reco Rate Limits
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reco/refs/heads/main/screenshots/reco-2026-06-20T192700.png
 security:

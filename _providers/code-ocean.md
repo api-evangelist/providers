@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ overview: 'Code Ocean publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 24
+random_paper: 70
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4
@@ -171,8 +171,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

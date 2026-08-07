@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -170,7 +170,7 @@ overview: 'AMP Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   AMP Bank''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 15
+random_paper: 97
 scopes:
 - name: Amp Bank Scopes
   scope_count: 5
@@ -203,8 +203,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

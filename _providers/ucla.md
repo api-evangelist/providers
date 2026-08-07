@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Information on all classes offered in a selected term, including title, description, notes and final exam details, as well as class sections with meeting times, locations, enrollment details, units an
@@ -115,7 +115,7 @@ plans:
 - name: Ucla Plans Pricing
   plan_count: 2
   slug: ucla-plans-pricing
-random_paper: 41
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Ucla Rate Limits
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png
 security:

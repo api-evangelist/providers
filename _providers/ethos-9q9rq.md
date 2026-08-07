@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Ethos 9q9rq
 nav: Providers
 network: true
 overview: Ethos 9q9rq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Duplicate, Scrape Artifact, and Retire.
-random_paper: 1
+random_paper: 29
 score:
   band: minimal
   composite: 4.1
@@ -52,8 +52,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: ethos-9q9rq
 tags:

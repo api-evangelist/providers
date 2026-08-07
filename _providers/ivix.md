@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'IVIX is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   IVIX''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 68
+random_paper: 109
 score:
   band: emerging
   composite: 20.4
@@ -120,8 +120,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 44.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivix/refs/heads/main/screenshots/ivix-2026-07-25T223019.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ plans:
 - name: National Library Of Medicine Plans Pricing
   plan_count: 3
   slug: national-library-of-medicine-plans-pricing
-random_paper: 34
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: National Library Of Medicine Rate Limits
@@ -130,8 +130,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/screenshots/national-library-of-medicine-2026-06-20T190032.png
 security:

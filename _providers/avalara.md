@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 505
   slug: avalara-agentic-access
   summary_line: 505 operations · 224 acting · 8 human-in-the-loop
-api_count: 71
+api_count: 73
 apis:
 - description: Automate compliance with Avalara MCP servers for AI-driven tax workflows and APIs. Have your agent call our agent.
   name: Avalara
@@ -252,6 +252,12 @@ apis:
 - description: Collect and manage W-9 forms
   name: Avalara W-9 Forms API
   slug: avalara-w-9-forms-api
+- description: The Age Verification API from Avalara — 1 operation(s) for age verification.
+  name: Avalara Age Verification API
+  slug: avalara-age-verification-api
+- description: The Shipping Verification API from Avalara — 3 operation(s) for shipping verification.
+  name: Avalara Shipping Verification API
+  slug: avalara-shipping-verification-api
 arazzos:
 - description: Retrieve a committed transaction and adjust it with a corrected, documented replacement.
   name: Avalara Adjust a Committed Transaction
@@ -289,7 +295,7 @@ arazzos:
 - description: Look up an existing transaction, void it, then recreate a corrected version.
   name: Avalara Void and Recreate a Transaction
   slug: avalara-void-and-recreate-transaction-workflow
-artifact_total: 696
+artifact_total: 698
 asyncapis:
 - description: AsyncAPI description of the Avalara CertCapture event surface. CertCapture does not publish HTTP webhooks; instead, Avalara provisions a unique per-client AWS SQS queue and publishes change-notificati
   name: Avalara CertCapture AWS SQS Notifications
@@ -576,11 +582,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://developer.avalara.com/blogs/
+  url: https://www.avalara.com/blog/en/north-america.html
 - group: operate
   title: ''
   type: Support
-  url: https://developer.avalara.com/resources/support/
+  url: https://help.avalara.com
 - group: operate
   title: ''
   type: Contact
@@ -700,15 +706,15 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/Avalara
-- group: docs
+  url: https://github.com/avadev
+- group: build
   title: ''
-  type: Swagger
-  url: https://github.com/Avalara/Swagger
+  type: GitHubOrganization
+  url: https://github.com/Avalara
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developer.avalara.com/get-started/
+  url: https://developer.avalara.com/avatax/dev-guide/
 - group: operate
   title: ''
   type: StatusPage
@@ -2456,18 +2462,19 @@ modified: '2026-06-20'
 name: Avalara
 nav: Providers
 network: true
-overview: 'Avalara publishes 66 APIs on the [APIs.io](https://apis.io/) network, including 1099 Forms API, Accounts API, Addresses API, and 63 more. Tagged areas include Taxes.
+overview: 'Avalara publishes 68 APIs on the [APIs.io](https://apis.io/) network, including 1099 Forms API, Accounts API, Addresses API, and 65 more. Tagged areas include Taxes.
 
 
   The Avalara catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
   Avalara''s developer surface includes authentication, sandbox, changelog, engineering blog, support, developer portal, training material, and 87 more developer resources.'
+paper_is_own: true
 plans:
 - name: Avalara Plans Pricing
   plan_count: 5
   slug: avalara-plans-pricing
-random_paper: 63
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Avalara Rate Limits
@@ -2504,11 +2511,11 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 75.0
+  delta: -0.7
   facets:
     commercial_clarity: 89.5
-    contract_quality: 76.3
+    contract_quality: 73.4
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 83.3
@@ -2518,13 +2525,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 70.6
       derived: 0
-      marker_coverage: 0.0
-      total: 66
+      marker_coverage: 2.9
+      total: 68
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

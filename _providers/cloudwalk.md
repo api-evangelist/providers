@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-03'
+  score: 51.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,10 +185,11 @@ overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   CloudWalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 16
+random_paper: 62
 score:
   band: strong
   composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 73.6
@@ -196,6 +197,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +214,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Cloudwalk Authentication

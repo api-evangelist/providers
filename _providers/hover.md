@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-03'
+  score: 39.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for creating and managing property capture jobs, retrieving 3D models and measurement deliverables, inspections, estimates, instant-design leads, and webhooks. OAuth 2.0 authenticated. Versio
@@ -139,7 +139,7 @@ overview: 'HOVER publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   HOVER''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 73
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Hover Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.0
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -155,7 +155,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 42.1
-  previous_composite: 43.7
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -165,8 +165,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
 security:

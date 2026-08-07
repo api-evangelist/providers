@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ overview: 'NationGraph publishes 56 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NationGraph''s developer surface includes authentication, documentation, support, engineering blog, API reference, and 18 more developer resources.'
-random_paper: 39
+random_paper: 49
 score:
   band: developing
   composite: 42.6
@@ -345,8 +345,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

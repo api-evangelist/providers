@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -205,7 +205,7 @@ plans:
 - name: Cypress Semiconductor Plans Pricing
   plan_count: 1
   slug: cypress-semiconductor-plans-pricing
-random_paper: 44
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Cypress Semiconductor Rate Limits
@@ -239,8 +239,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 37.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
 security:

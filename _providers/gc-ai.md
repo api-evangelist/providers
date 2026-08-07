@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -211,7 +211,7 @@ overview: 'GC AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 69
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Gc Ai Rate Limits
@@ -238,8 +238,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

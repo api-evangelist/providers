@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Token-authenticated JSON API for the Parsable Connected Worker platform. All calls are HTTP POSTs to https://api.parsable.net/api/<MODULE> carrying a `{ "method", "arguments" }` envelope and an Author
@@ -148,7 +148,7 @@ overview: 'Parsable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Parsable''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, CLI, and 18 more developer resources.'
-random_paper: 82
+random_paper: 51
 score:
   band: thin
   composite: 30.6
@@ -163,8 +163,8 @@ score:
   previous_composite: 30.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

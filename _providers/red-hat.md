@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1201,7 +1201,7 @@ plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 12
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1252,8 +1252,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192716.png
 security:

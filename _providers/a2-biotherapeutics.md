@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The live WordPress REST API served by the A2 Biotherapeutics corporate website. Route discovery is anonymous and advertises 298 routes across 16 namespaces; published content under wp/v2 (posts, pages
@@ -150,7 +150,7 @@ overview: 'A2 Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 93
+random_paper: 108
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1
@@ -159,6 +159,7 @@ scopes:
 score:
   band: thin
   composite: 39.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.7
@@ -166,6 +167,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -181,8 +183,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: A2 Biotherapeutics Authentication

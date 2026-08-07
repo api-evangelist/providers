@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -124,7 +124,7 @@ overview: 'Blackpoint is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blackpoint''s developer surface includes support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 46
 scopes:
 - name: Blackpoint Scopes
   scope_count: 6
@@ -144,8 +144,8 @@ score:
   previous_composite: 24.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/screenshots/blackpoint-2026-07-25T203257.png
 security:

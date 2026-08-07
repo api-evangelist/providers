@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'GraphQL API behind the Shogun Frontend headless commerce product, used to query storefront content, pages, and integration data. Note: Shogun has announced the retirement of the Shogun Frontend produc'
@@ -111,7 +111,7 @@ overview: 'Shogun publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Shogun''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 90
+random_paper: 95
 score:
   band: emerging
   composite: 25.6
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 25.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

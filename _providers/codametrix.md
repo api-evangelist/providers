@@ -1,31 +1,42 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-08-03'
+  score: 42.1
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Codametrix Agentic Access
+  operation_count: 8
+  slug: codametrix-agentic-access
+  summary_line: 8 operations
 api_count: 1
 apis:
 - description: Unauthenticated, publicly callable JSON status API served from CodaMetrix's own status host by Atlassian Statuspage (Page API v2). Exposes overall page status, the CMX-Automate / CMX Automate / CMX-Am
   name: CodaMetrix Status API
   slug: codametrix-status-api
-artifact_total: 9
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/codametrix-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,6 +113,42 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/codametrix-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/codametrix-status-openapi.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://status.codametrix.com/api/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/codametrix-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/codametrix-data-model.yml
+- group: docs
+  title: ''
+  type: OpenAPIOverlay
+  url: overlays/codametrix-status-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: StatusHistory
+  url: https://status.codametrix.com/history.atom
+- group: company
+  title: ''
+  type: About
+  url: https://www.codametrix.com/about
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/CMXCodaMetrix/
 created: '2026-08-02'
 description: CodaMetrix is a Boston-based healthcare AI company that builds CMX CARE, an autonomous medical coding platform that translates clinical documentation into billing and diagnostic codes without human touch. Spun out of Mass General Brigham's physician billing organization in 2019, the platform combines machine learning, deep learning and natural language processing to produce a patient-centric, longitudinal view of the record and code across radiology, pathology, evaluation and management, endoscopy, emergency medicine and surgery. It is delivered as an AWS-hosted SaaS that integrates directly into the EHR (Epic Toolbox member, plus Cerner, Meditech and GE) rather than as a public developer API; the only publicly callable surface CodaMetrix operates is the unauthenticated Atlassian Statuspage Page API on status.codametrix.com. The company has raised $95M across Series A and Series B and was ranked No. 1 in the inaugural Best in KLAS category for autonomous medical coding.
 examples:
@@ -115,6 +162,12 @@ examples:
   name: Codametrix Status Incidents
   slug: codametrix-status-incidents
 - key_count: 2
+  name: Codametrix Status Scheduled Maintenances Active
+  slug: codametrix-status-scheduled-maintenances-active
+- key_count: 2
+  name: Codametrix Status Scheduled Maintenances Upcoming
+  slug: codametrix-status-scheduled-maintenances-upcoming
+- key_count: 2
   name: Codametrix Status Scheduled Maintenances
   slug: codametrix-status-scheduled-maintenances
 - key_count: 2
@@ -125,36 +178,51 @@ examples:
   slug: codametrix-status-summary
 image: https://cdn.prod.website-files.com/684cc6638b0f0abf60033894/6858a1d6db0f8dcba0f11337_CodaMetrix-CodeForBetter.png
 layout: provider
-modified: '2026-08-02'
+modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
 network: true
-overview: 'CodaMetrix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
+overview: 'CodaMetrix publishes 1 API on the [APIs.io](https://apis.io/) network: Status API. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
 
 
-  CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, and 15 more developer resources.'
-random_paper: 27
+  CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 24 more developer resources.'
+random_paper: 55
 score:
-  band: emerging
-  composite: 22.7
+  band: thin
+  composite: 28.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
-    contract_quality: 0.0
-    developer_ergonomics: 17.4
+    contract_quality: 15.3
+    developer_ergonomics: 27.7
     discoverability: 87.0
-    governance: 12.5
+    governance: 20.8
     operational_transparency: 15.8
+  previous_composite: 28.6
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
+- kind: authentication
+  name: Codametrix Authentication
+  slug: codametrix-authentication
+  summary_line: none · 0 schemes
 - kind: domain-security
   name: Codametrix Domain Security
   slug: codametrix-domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -157,7 +157,7 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 3
   slug: artifact-hub-plans-pricing
-random_paper: 70
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Artifact Hub Rate Limits
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.5
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 60.5
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 42.9
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:

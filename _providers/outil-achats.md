@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 created: '2026-03-16'
@@ -39,7 +39,7 @@ name: Outil Achats
 nav: Providers
 network: true
 overview: Outil Achats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include France, Procurement, Purchasing, and Public Sector.
-random_paper: 90
+random_paper: 100
 score:
   band: minimal
   composite: 3.5
@@ -58,8 +58,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: outil-achats
 tags:

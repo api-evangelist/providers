@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Manpower
 nav: Providers
 network: true
 overview: Manpower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Workforce, Staffing, Talent, Human Resources, and Fortune 500.
-random_paper: 18
+random_paper: 82
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manpower/refs/heads/main/screenshots/manpower-2026-06-20T184923.png
 security:

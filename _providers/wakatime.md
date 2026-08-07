@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -658,7 +658,7 @@ plans:
 - name: Wakatime Plans Pricing
   plan_count: 5
   slug: wakatime-plans-pricing
-random_paper: 91
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Wakatime Rate Limits
@@ -704,8 +704,8 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

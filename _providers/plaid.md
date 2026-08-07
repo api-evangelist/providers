@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -493,7 +493,7 @@ plans:
 - name: Plaid Plans Pricing
   plan_count: 3
   slug: plaid-plans-pricing
-random_paper: 47
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Plaid Rate Limits
@@ -543,8 +543,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

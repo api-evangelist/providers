@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Fiscalnote Plans Pricing
   plan_count: 4
   slug: fiscalnote-plans-pricing
-random_paper: 19
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Fiscalnote Rate Limits
@@ -234,8 +234,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/screenshots/fiscalnote-2026-06-20T181249.png
 security:

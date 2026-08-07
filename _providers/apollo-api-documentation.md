@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Apollo Api Documentation Plans Pricing
   plan_count: 3
   slug: apollo-api-documentation-plans-pricing
-random_paper: 78
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Apollo Api Documentation Rate Limits
@@ -196,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:

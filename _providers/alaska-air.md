@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ press:
 - date: '2026-05-25'
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 32
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits
@@ -444,8 +444,8 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:

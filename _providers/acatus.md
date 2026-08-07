@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Acatus
 nav: Providers
 network: true
 overview: Acatus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Financial Services.
-random_paper: 71
+random_paper: 76
 score:
   band: minimal
   composite: 4.1
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acatus/refs/heads/main/screenshots/acatus-2026-07-25T181424.png
 slug: acatus

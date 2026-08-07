@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -477,7 +477,7 @@ plans:
 - name: Tomorrow Io Plans Pricing
   plan_count: 4
   slug: tomorrow-io-plans-pricing
-random_paper: 26
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Tomorrow Io Rate Limits
@@ -518,8 +518,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png
 security:

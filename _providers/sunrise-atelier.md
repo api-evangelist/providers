@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Ip API from Sunrise Atelier — 2 operation(s) for ip.
@@ -83,7 +83,7 @@ overview: 'Sunrise Atelier publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Sunrise Atelier''s developer surface includes support and 7 more developer resources.'
-random_paper: 44
+random_paper: 95
 score:
   band: thin
   composite: 31.6
@@ -105,8 +105,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

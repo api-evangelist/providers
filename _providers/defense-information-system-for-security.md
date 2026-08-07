@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 collections:
@@ -76,7 +76,7 @@ plans:
 - name: Defense Information System For Security Plans Pricing
   plan_count: 1
   slug: defense-information-system-for-security-plans-pricing
-random_paper: 2
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Defense Information System For Security Rate Limits
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/screenshots/defense-information-system-for-security-2026-06-20T175833.png
 security:

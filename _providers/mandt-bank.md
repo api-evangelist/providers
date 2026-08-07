@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'M&T Bank is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   M&T Bank''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 39
+random_paper: 85
 score:
   band: emerging
   composite: 13.1
@@ -110,8 +110,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mandt-bank/refs/heads/main/screenshots/mandt-bank-2026-06-20T184915.png
 security:

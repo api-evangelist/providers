@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'TypeScript Embed SDK plus the server-side launch endpoint used to embed AI-powered medical consultations, dictations and meetings into a healthcare application. The backend mints a short-lived launch '
@@ -144,7 +144,7 @@ overview: 'Tortus publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tortus'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 17 more developer resources.'
-random_paper: 24
+random_paper: 11
 score:
   band: thin
   composite: 31.4
@@ -165,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

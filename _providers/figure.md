@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-03'
+  score: 40.3
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Figure publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Figure''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 72
+random_paper: 77
 score:
   band: developing
   composite: 49.2
@@ -222,8 +222,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:

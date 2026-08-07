@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: B2B HTTP API for generating royalty-free AI music at scale, supporting per-end-user music creation with style, mood, genre, length, and instrument customization. Generated tracks are cleared for perpe
@@ -88,7 +88,7 @@ plans:
 - name: Soundraw Plans Pricing
   plan_count: 1
   slug: soundraw-plans-pricing
-random_paper: 28
+random_paper: 92
 rate_limits:
 - limit_count: 2
   name: Soundraw Rate Limits
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/screenshots/soundraw-2026-06-20T194220.png
 security:

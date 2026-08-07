@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: CRUD operations for collection records including list, view, create, update, delete, and batch operations. Supports filtering, sorting, pagination, relation expansion, field selection, and multipart f
@@ -128,7 +128,7 @@ plans:
 - name: Pocketbase Plans Pricing
   plan_count: 1
   slug: pocketbase-plans-pricing
-random_paper: 12
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Pocketbase Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.6
@@ -144,9 +144,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 36.2
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocketbase/refs/heads/main/screenshots/pocketbase-2026-06-20T191826.png
 security:

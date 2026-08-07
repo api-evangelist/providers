@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Education Holdings 1 (The Princeton Review) is profiled on the [APIs.
 
 
   Education Holdings 1 (The Princeton Review)''s developer surface includes support and 9 more developer resources.'
-random_paper: 53
+random_paper: 88
 score:
   band: emerging
   composite: 14.6
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/education-holdings-1-the-princeton-review/refs/heads/main/screenshots/education-holdings-1-the-princeton-review-2026-07-25T212905.png
 security:

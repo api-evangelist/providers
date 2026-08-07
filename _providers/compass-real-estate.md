@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -144,7 +144,7 @@ overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Compass'' developer surface includes engineering blog, academy / training, GitHub presence, YouTube channel, and 21 more developer resources.'
-random_paper: 14
+random_paper: 106
 score:
   band: minimal
   composite: 8.2
@@ -163,8 +163,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

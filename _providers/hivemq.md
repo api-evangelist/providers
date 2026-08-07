@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -135,7 +135,7 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 9 more developer resources.'
-random_paper: 80
+random_paper: 85
 rules:
 - name: HiveMQ API Rules
   rule_count: 2
@@ -170,8 +170,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-06-20T182802.png
 security:

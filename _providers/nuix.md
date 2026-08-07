@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -1173,7 +1173,7 @@ plans:
 - name: Nuix Plans Pricing
   plan_count: 4
   slug: nuix-plans-pricing
-random_paper: 72
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Nuix Rate Limits
@@ -1206,8 +1206,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

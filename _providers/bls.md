@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Bls Plans Pricing
   plan_count: 2
   slug: bls-plans-pricing
-random_paper: 36
+random_paper: 95
 rate_limits:
 - limit_count: 6
   name: Bls Rate Limits
@@ -180,7 +180,7 @@ rules:
 score:
   band: developing
   composite: 49.7
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.9
@@ -188,7 +188,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 46.2
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png
 security:

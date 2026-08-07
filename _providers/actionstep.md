@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ plans:
 - name: Actionstep Plans Pricing
   plan_count: 5
   slug: actionstep-plans-pricing
-random_paper: 37
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Actionstep Rate Limits
@@ -273,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

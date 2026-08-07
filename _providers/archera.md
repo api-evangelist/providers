@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -194,7 +194,7 @@ overview: 'Archera publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 61
+random_paper: 48
 scopes:
 - name: Archera Scopes
   scope_count: 4
@@ -222,8 +222,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

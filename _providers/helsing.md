@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: 'Altra is Helsing''s reconnaissance-strike software platform. It fuses multi-sensor and multi-drone data feeds to cover wider areas, identify targets, and coordinate strikes. Altra is the AI layer that '
@@ -142,7 +142,7 @@ plans:
 - name: Helsing Plans Pricing
   plan_count: 1
   slug: helsing-plans-pricing
-random_paper: 81
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Helsing Rate Limits
@@ -159,8 +159,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

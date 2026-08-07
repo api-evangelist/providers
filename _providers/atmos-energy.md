@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Online account management portal for Atmos Energy customers providing access to billing, payment, usage history, service requests, and account settings for residential and commercial natural gas custo
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Atmos Energy raises annual profit forecast on strong ...
   url: https://www.reuters.com/business/energy/atmos-energy-raises-annual-profit-forecast-strong-natural-gas-demand-2026-05-06/
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Atmos Energy Rate Limits
@@ -146,8 +146,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/screenshots/atmos-energy-2026-06-20T172533.png
 security:

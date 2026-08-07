@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Why is Dollar Tree sign removed from Family Dollar?
   url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
-random_paper: 47
+random_paper: 8
 score:
   band: minimal
   composite: 9.0
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/screenshots/family-dollar-stores-2026-06-20T181033.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Family of OAuth 2.0 secured REST APIs for the iHotelier Booking Engine 4.0 (CRS). Enables B2C / web-client applications to search availability, hold and create reservations (including group reservatio
@@ -92,7 +92,7 @@ overview: 'TravelClick (Amadeus) publishes 1 API on the [APIs.io](https://apis.i
 
 
   TravelClick (Amadeus)''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 6 more developer resources.'
-random_paper: 53
+random_paper: 32
 score:
   band: emerging
   composite: 23.5
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 23.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

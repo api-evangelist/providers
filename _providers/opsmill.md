@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 8
+random_paper: 90
 score:
   band: developing
   composite: 51.3
@@ -243,8 +243,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

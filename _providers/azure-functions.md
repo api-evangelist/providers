@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-03'
+  score: 38.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ plans:
 - name: Azure Functions Plans Pricing
   plan_count: 3
   slug: azure-functions-plans-pricing
-random_paper: 61
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Azure Functions Rate Limits
@@ -338,16 +338,16 @@ rules:
   slug: azure-functions-spectral-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 54.9
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.0
+    contract_quality: 57.4
     developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 53.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -355,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/screenshots/azure-functions-2026-06-20T172856.png
 security:

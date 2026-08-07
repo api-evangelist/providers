@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -163,7 +163,7 @@ overview: 'Koko publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cou
 
 
   Koko''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 56
+random_paper: 97
 score:
   band: developing
   composite: 46.1
@@ -191,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/screenshots/koko-2026-07-25T224124.png
 security:

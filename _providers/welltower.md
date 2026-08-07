@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Investors Press Releases Details | ...
   url: https://welltower.com/investors/press-release-details/
-random_paper: 47
+random_paper: 93
 score:
   band: minimal
   composite: 9.9
@@ -108,8 +108,8 @@ score:
     governance: 10.4
     operational_transparency: 5.3
   previous_composite: 9.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/screenshots/welltower-2026-06-20T201351.png
 security:

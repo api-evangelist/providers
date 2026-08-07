@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Irhythmtech is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Irhythmtech''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 53
+random_paper: 63
 score:
   band: emerging
   composite: 15.2
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/irhythmtech/refs/heads/main/screenshots/irhythmtech-2026-07-25T222906.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-03'
+  score: 45.3
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -182,7 +182,7 @@ overview: 'Jiko publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jiko''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, developer portal, and 23 more developer resources.'
-random_paper: 49
+random_paper: 90
 rate_limits:
 - limit_count: 16
   name: Jiko Rate Limits
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -203,7 +203,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 50.8
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -214,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: RESTful API for programmatic access to an Amperity tenant — list and manage campaigns, campaign drafts, segments, ingest jobs, audit events, and workflow runs. Authenticated with an OAuth2 client-cred
@@ -135,7 +135,7 @@ overview: 'Amperity publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Amperity''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, and 14 more developer resources.'
-random_paper: 20
+random_paper: 84
 score:
   band: emerging
   composite: 26.1
@@ -151,8 +151,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
 security:

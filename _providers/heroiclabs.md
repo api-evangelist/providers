@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -200,7 +200,7 @@ plans:
 - name: Heroiclabs Plans Pricing
   plan_count: 5
   slug: heroiclabs-plans-pricing
-random_paper: 7
+random_paper: 35
 rate_limits:
 - limit_count: 6
   name: Heroiclabs Rate Limits
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-06-20T182648.png
 security:

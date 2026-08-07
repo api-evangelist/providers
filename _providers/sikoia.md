@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-03'
+  score: 57.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ overview: 'Sikoia publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sikoia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 70
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Sikoia Rate Limits
@@ -260,7 +260,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.3
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 72.7
@@ -268,7 +268,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 55.9
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,8 +285,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

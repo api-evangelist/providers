@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Embed forensic watermarking into applications, internal tools, and custom workflows, and programmatically retrieve forensic results to identify leaked artifacts and attribute which recipient''s marked '
@@ -124,7 +124,7 @@ overview: 'EchoMark publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EchoMark''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 12 more developer resources.'
-random_paper: 82
+random_paper: 51
 score:
   band: thin
   composite: 30.5
@@ -139,8 +139,8 @@ score:
   previous_composite: 30.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echomark/refs/heads/main/screenshots/echomark-2026-07-25T212737.png
 security:

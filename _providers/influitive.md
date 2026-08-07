@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-03'
+  score: 48.0
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Events API from Influitive — 1 operation(s) for events.
@@ -151,7 +151,7 @@ overview: 'Influitive publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Influitive''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 42
+random_paper: 70
 score:
   band: developing
   composite: 47.7
@@ -173,8 +173,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/screenshots/influitive-2026-07-25T222413.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Access OSHA enforcement data including inspections, violations, and penalties through the Department of Labor's API.
@@ -84,7 +84,7 @@ plans:
 - name: Osha Plans Pricing
   plan_count: 3
   slug: osha-plans-pricing
-random_paper: 47
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Osha Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

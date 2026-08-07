@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -458,7 +458,7 @@ plans:
 - name: Fred Plans Pricing
   plan_count: 1
   slug: fred-plans-pricing
-random_paper: 37
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Fred Rate Limits
@@ -505,8 +505,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/screenshots/fred-2026-06-20T181515.png
 security:

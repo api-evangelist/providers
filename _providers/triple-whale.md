@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -132,10 +132,6 @@ common:
   url: finops/triple-whale-finops.yml
 - group: design
   title: ''
-  type: Vocabulary
-  url: vocabulary/triple-whale-vocabulary.yml
-- group: design
-  title: ''
   type: JSONLDContext
   url: json-ld/triple-whale-context.jsonld
 created: '2026-06-13'
@@ -168,12 +164,12 @@ overview: 'Triple Whale publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Triple Whale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
   slug: triple-whale-plans-pricing
-random_paper: 90
+random_paper: 100
 rate_limits:
 - limit_count: 3
   name: Triple Whale Rate Limits
@@ -189,16 +185,16 @@ rules:
   slug: triple-whale-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.7
+  composite: 57.4
   delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 77.5
     developer_ergonomics: 26.1
     discoverability: 74.1
-    governance: 68.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:

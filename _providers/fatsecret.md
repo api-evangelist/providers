@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Fatsecret Plans Pricing
   plan_count: 3
   slug: fatsecret-plans-pricing
-random_paper: 11
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Fatsecret Rate Limits
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/screenshots/fatsecret-2026-06-20T181056.png
 security:

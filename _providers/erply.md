@@ -19,16 +19,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-03'
+  score: 46.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -379,23 +379,23 @@ overview: 'Erply publishes 64 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Erply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 81
+random_paper: 104
 rate_limits:
 - limit_count: 1
   name: Erply Rate Limits
   slug: erply-rate-limits
 score:
   band: developing
-  composite: 53.0
-  delta: 2.8
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.6
+    contract_quality: 55.2
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 50.2
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,8 +406,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 7
 common:
@@ -227,7 +227,7 @@ overview: 'The Vanguard Group is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Vanguard Group''s developer surface includes YouTube channel, GitHub presence, and 33 more developer resources.'
-random_paper: 33
+random_paper: 102
 score:
   band: emerging
   composite: 19.3
@@ -246,8 +246,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanguard-group/refs/heads/main/screenshots/vanguard-group-2026-06-20T200810.png
 security:

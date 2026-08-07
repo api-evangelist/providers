@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -884,7 +884,7 @@ plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
   slug: microsoft-azure-devops-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Devops Rate Limits
@@ -925,8 +925,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

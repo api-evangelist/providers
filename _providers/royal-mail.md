@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 65
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -180,16 +180,16 @@ rules:
   slug: royal-mail-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 47.3
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 56.9
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 45.6
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png
 security:

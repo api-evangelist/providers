@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query pr
@@ -103,7 +103,7 @@ overview: 'Grafast publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Grafast''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 79
+random_paper: 66
 score:
   band: emerging
   composite: 25.8
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafast/refs/heads/main/screenshots/grafast-2026-06-20T182315.png
 security:

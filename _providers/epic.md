@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: 'Epic Account Services (EAS) provides authentication and identity for players using Epic Games accounts. Supports OAuth 2.0 authorization code, device, and exchange code flows, account info retrieval, '
@@ -135,7 +135,7 @@ plans:
 - name: Epic Plans Pricing
   plan_count: 3
   slug: epic-plans-pricing
-random_paper: 37
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Epic Rate Limits
@@ -152,8 +152,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/screenshots/epic-2026-06-20T180752.png
 security:

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-03'
+  score: 41.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -175,10 +175,11 @@ overview: 'GumGum publishes 1 API on the [APIs.io](https://apis.io/) network: Co
 
 
   GumGum''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 88
+random_paper: 93
 score:
   band: developing
   composite: 54.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 74.4
@@ -186,6 +187,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 44.7
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -196,8 +198,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Gumgum Authentication

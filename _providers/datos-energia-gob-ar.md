@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Datos Energia Argentina, a consistent JSON-over-HTTP interface over a catalog of 178 datasets. Standard actions include package_search, package_show, package_list, organization_lis
@@ -84,7 +84,7 @@ plans:
 - name: Datos Energia Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-energia-gob-ar-plans-pricing
-random_paper: 28
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Datos Energia Gob Ar Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-energia-gob-ar/refs/heads/main/screenshots/datos-energia-gob-ar-2026-06-20T175718.png
 security:

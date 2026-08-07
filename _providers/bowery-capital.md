@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Bowery Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bowery Capital''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 18
+random_paper: 87
 score:
   band: minimal
   composite: 7.3
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bowery-capital/refs/heads/main/screenshots/bowery-capital-2026-07-25T203648.png
 security:

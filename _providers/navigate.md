@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -125,7 +125,7 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Navigate''s developer surface includes support and 7 more developer resources.'
-random_paper: 87
+random_paper: 56
 score:
   band: thin
   composite: 32.0
@@ -147,8 +147,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

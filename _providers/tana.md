@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 40
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
@@ -209,8 +209,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The U.S. Cyber Command Cyber National Mission Force (CNMF) shares unclassified malware samples on VirusTotal via the CYBERCOM_Malware_Alert account. This public threat intelligence sharing program pos
@@ -149,7 +149,7 @@ plans:
 - name: Us Cyber Command Plans Pricing
   plan_count: 3
   slug: us-cyber-command-plans-pricing
-random_paper: 70
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Us Cyber Command Rate Limits
@@ -175,8 +175,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 37.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-cyber-command/refs/heads/main/screenshots/us-cyber-command-2026-06-20T200614.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ overview: 'PicsArt (Socialin) publishes 23 APIs on the [APIs.io](https://apis.io
 
 
   PicsArt (Socialin)''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 38
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Picsart Socialin Rate Limits
@@ -296,8 +296,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

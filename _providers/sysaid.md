@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 83
+random_paper: 88
 score:
   band: thin
   composite: 29.8
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/screenshots/sysaid-2026-06-20T194835.png
 security:

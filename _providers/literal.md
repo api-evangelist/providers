@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: GraphQL API for Literal Club that provides access to book data, reading states, shelves, reviews, highlights, reading goals, clubs, and user profiles. Supports both public read operations and authenti
@@ -92,7 +92,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 84
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 31.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/literal/refs/heads/main/screenshots/literal-2026-06-20T184602.png
 security:

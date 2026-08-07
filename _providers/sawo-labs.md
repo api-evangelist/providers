@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Simplify login and improve user experience by integrating passwordless authentication in your app
@@ -56,7 +56,7 @@ name: SAWO Labs
 nav: Providers
 network: true
 overview: SAWO Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication And Authorization and Public APIs.
-random_paper: 50
+random_paper: 1
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

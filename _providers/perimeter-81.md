@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -163,7 +163,7 @@ overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 78
+random_paper: 106
 score:
   band: thin
   composite: 40.6
@@ -186,8 +186,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

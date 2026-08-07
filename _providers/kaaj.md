@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Kaaj's REST API for submitting borrower application packages and receiving decision-ready credit analysis, with webhook callbacks. Access is authenticated (the base host requires credentials) and prov
@@ -119,7 +119,7 @@ overview: 'Kaaj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kaaj''s developer surface includes documentation, engineering blog, pricing, support, YouTube channel, and 13 more developer resources.'
-random_paper: 27
+random_paper: 68
 score:
   band: emerging
   composite: 25.3
@@ -140,8 +140,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaaj/refs/heads/main/screenshots/kaaj-2026-07-25T223400.png
 security:

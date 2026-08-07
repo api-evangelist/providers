@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The VKS JSON REST API provides programmatic access to pull guidebook and production information out of VKS and manage Work Orders and operations. It supports integration with ERP, MES, and other manuf
@@ -104,7 +104,7 @@ plans:
 - name: Vks Integrations Plans Pricing
   plan_count: 3
   slug: vks-integrations-plans-pricing
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Vks Integrations Rate Limits
@@ -129,7 +129,7 @@ rules:
 score:
   band: developing
   composite: 48.5
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.6
@@ -137,15 +137,15 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 48.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:

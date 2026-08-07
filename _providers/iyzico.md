@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-03'
+  score: 40.1
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for accepting card payments (NON-3DS and 3D Secure), hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions, marketplace submerchant payments and payouts, card storage/toke
@@ -183,7 +183,7 @@ overview: 'Iyzico publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Iyzico''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 6
   name: Iyzico Rate Limits
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.6
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -199,7 +199,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 68.4
-  previous_composite: 47.1
+  previous_composite: 50.6
   provenance:
     conformance: derived
     mcp: derived
@@ -209,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/screenshots/iyzico-2026-07-25T223026.png
 security:

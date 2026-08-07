@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Microsoft Power Automate is a cloud-based workflow automation platform that lets organizations build automated workflows, robotic process automation, business process flows, and AI-assisted automation
@@ -141,7 +141,7 @@ plans:
 - name: Power Automate Plans Pricing
   plan_count: 3
   slug: power-automate-plans-pricing
-random_paper: 41
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Power Automate Rate Limits
@@ -158,8 +158,8 @@ score:
     governance: 0.0
     operational_transparency: 63.2
   previous_composite: 35.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-automate/refs/heads/main/screenshots/power-automate-2026-06-20T192028.png
 security:

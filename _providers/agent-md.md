@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -83,7 +83,7 @@ overview: 'AGENT.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AGENT.md''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 21
+random_paper: 103
 rules:
 - name: AGENT.md API Rules
   rule_count: 5
@@ -105,8 +105,8 @@ score:
     governance: 68.8
     operational_transparency: 0.0
   previous_composite: 18.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-md/refs/heads/main/screenshots/agent-md-2026-06-20T165904.png
 slug: agent-md

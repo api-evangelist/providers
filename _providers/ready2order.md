@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-03'
+  score: 48.0
+  scored_at: '2026-08-06'
 api_count: 36
 apis:
 - description: Account Token
@@ -268,7 +268,7 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 78
+random_paper: 106
 score:
   band: developing
   composite: 45.8
@@ -296,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -153,7 +153,7 @@ overview: 'Songtradr publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Songtradr Rate Limits
@@ -161,6 +161,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.6
@@ -168,6 +169,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 26.3
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,8 +180,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Songtradr Authentication

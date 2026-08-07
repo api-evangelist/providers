@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-03'
+  score: 47.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Shapeshift publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 26
+random_paper: 54
 score:
   band: developing
   composite: 47.0
@@ -207,8 +207,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

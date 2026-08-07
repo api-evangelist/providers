@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: First American developer APIs include Find an Office (locate offices by city, state, or ZIP), Order Management (open new orders), Document Exchange (send and receive order-related documents), Messagin
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Patents for artificial intelligence-driven analysis of property ...
   url: https://www.firstam.com/news/2021/faf-patents-ai-automated-title-production-20211201.html
-random_paper: 32
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: First American Financial Rate Limits
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 20.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,7 +127,7 @@ overview: 'Apiiro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Apiiro''s developer surface includes documentation, engineering blog, CLI, signup flow, and 17 more developer resources.'
-random_paper: 74
+random_paper: 79
 score:
   band: emerging
   composite: 26.2
@@ -140,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 26.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiiro/refs/heads/main/screenshots/apiiro-2026-07-25T200624.png
 security:

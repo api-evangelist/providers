@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ overview: 'MOVE Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 41
+random_paper: 105
 scopes:
 - name: Move Bank Scopes
   scope_count: 9
@@ -218,8 +218,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

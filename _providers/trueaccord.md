@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 23
+random_paper: 51
 score:
   band: thin
   composite: 38.8
@@ -158,12 +158,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

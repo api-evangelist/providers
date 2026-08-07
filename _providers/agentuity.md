@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-03'
+  score: 38.7
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Direct HTTP access to Agentuity platform services — projects, deployments, API keys, OAuth applications, storage (key-value, vector, object, Postgres), message queues, durable streams, sandboxes, sche
@@ -183,7 +183,7 @@ overview: 'Agentuity publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Agentuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 36
+random_paper: 82
 score:
   band: strong
   composite: 56.0
@@ -199,8 +199,8 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentuity/refs/heads/main/screenshots/agentuity-2026-07-25T195301.png
 security:

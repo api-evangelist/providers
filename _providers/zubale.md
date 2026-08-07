@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-03'
+  score: 39.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Zubale''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 73
+random_paper: 78
 scopes:
 - name: Zubale Scopes
   scope_count: 0
@@ -134,8 +134,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

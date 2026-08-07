@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Keyboardio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Keyboardio''s developer surface includes support, engineering blog, signup flow, pricing, authentication, and 8 more developer resources.'
-random_paper: 20
+random_paper: 48
 scopes:
 - name: Keyboardio Scopes
   scope_count: 4
@@ -114,8 +114,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

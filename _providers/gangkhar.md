@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Gangkhar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gangkhar''s developer surface includes FAQ, support, engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 75
+random_paper: 44
 score:
   band: minimal
   composite: 11.5
@@ -112,8 +112,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gangkhar/refs/heads/main/screenshots/gangkhar-2026-07-25T215436.png
 security:

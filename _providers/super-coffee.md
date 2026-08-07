@@ -1,0 +1,164 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 28.6
+  scored_at: '2026-08-06'
+api_count: 1
+apis:
+- description: The Universal Commerce Protocol (UCP) shopping service that Super Coffee's storefront implements over MCP transport. An anonymous tools/list returns 13 tools covering catalog search and lookup, produc
+  name: Super Coffee UCP Commerce MCP
+  slug: super-coffee-ucp-mcp
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/super-coffee-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.drinksupercoffee.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.drinksupercoffee.com/agents.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.drinksupercoffee.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.drinksupercoffee.com/blogs/news
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.drinksupercoffee.com/collections/all
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.drinksupercoffee.com/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.drinksupercoffee.com/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.drinksupercoffee.com/policies/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/super-coffee-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/super-coffee-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/super-coffee-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/super-coffee-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/super-coffee-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/super-coffee-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/super-coffee-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/super-coffee-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/super-coffee-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-05'
+description: 'Super Coffee is the ready-to-drink coffee brand operated by Kitu Life, Inc., founded in 2015 by brothers Jordan, Jake and Jim DeCicco and distributed across tens of thousands of US retail locations alongside a direct-to-consumer online store at drinksupercoffee.com. The company is not a software vendor and publishes no developer program, but its Shopify-hosted storefront exposes a real, anonymous, machine-readable agent commerce surface: an /llms.txt and /agents.md agent instruction set, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a live MCP endpoint at /api/ucp/mcp serving 13 catalog, cart, checkout and order tools with full JSON Schema inputs, and OAuth 2.0 / OpenID Connect discovery documents for Shopify customer accounts. Checkout is explicitly gated on contemporaneous human approval.'
+image: https://www.drinksupercoffee.com/cdn/shop/files/super_coffee_logo_49f6a156-94a1-46e2-9440-f09c07a4bf74.jpg?v=1623443564&width=2048
+layout: provider
+mcp_servers:
+- description: ''
+  name: super-coffee-mcp.yml
+  slug: super-coffee-mcpyml
+modified: '2026-08-05'
+name: Super Coffee
+nav: Providers
+network: true
+overview: 'Super Coffee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Retail, and E-Commerce.
+
+
+  Super Coffee''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
+random_paper: 90
+scopes:
+- name: Super Coffee Scopes
+  scope_count: 4
+  slug: super-coffee-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 26.4
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 36.4
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Super Coffee Authentication
+  slug: super-coffee-authentication
+  summary_line: oauth2/openIdConnect/none · 3 schemes
+- kind: domain-security
+  name: Super Coffee Domain Security
+  slug: super-coffee-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: super-coffee
+tags:
+- Company
+- Food and Beverage
+- Consumer Packaged Goods
+- Retail
+- E-Commerce
+- Agentic Commerce
+- Universal Commerce Protocol
+- Model Context Protocol
+- Shopify
+website: https://www.drinksupercoffee.com/
+---

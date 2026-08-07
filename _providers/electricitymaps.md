@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Electricitymaps Plans Pricing
   plan_count: 4
   slug: electricitymaps-plans-pricing
-random_paper: 3
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Electricitymaps Rate Limits
@@ -156,8 +156,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ overview: 'Doczen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Doczen''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 73
+random_paper: 78
 score:
   band: emerging
   composite: 14.7
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doczen/refs/heads/main/screenshots/doczen-2026-07-25T212226.png
 security:

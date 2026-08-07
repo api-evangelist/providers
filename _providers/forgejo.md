@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -947,7 +947,7 @@ plans:
 - name: Forgejo Plans Pricing
   plan_count: 2
   slug: forgejo-plans-pricing
-random_paper: 83
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Forgejo Rate Limits
@@ -963,16 +963,16 @@ rules:
   slug: forgejo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
+  composite: 40.4
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 44.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 37.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -980,8 +980,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/screenshots/forgejo-2026-06-20T181426.png
 security:

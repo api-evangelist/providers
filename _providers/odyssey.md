@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Real-time world-model API. Embeds continuous, interactive video simulations into applications via interactive streams, viewable/broadcast streams, and asynchronous simulations, over WebRTC + WebSocket
@@ -132,7 +132,7 @@ overview: 'Odyssey publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Odyssey''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 24
+random_paper: 106
 score:
   band: thin
   composite: 28.9
@@ -145,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

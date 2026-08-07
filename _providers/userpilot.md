@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Userpilot Plans Pricing
   plan_count: 1
   slug: userpilot-plans-pricing
-random_paper: 49
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Userpilot Rate Limits
@@ -236,8 +236,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:

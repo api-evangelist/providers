@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Utah Web API for geocoding Utah addresses
@@ -63,7 +63,7 @@ overview: 'Utah AGRC publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Utah AGRC''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 37
+random_paper: 101
 score:
   band: minimal
   composite: 6.2
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utah-agrc/refs/heads/main/screenshots/utah-agrc-2026-06-20T200725.png
 security:

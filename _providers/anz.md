@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the
 
 
   Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 22 more developer resources.'
-random_paper: 44
+random_paper: 103
 scopes:
 - name: Anz Scopes
   scope_count: 5
@@ -242,8 +242,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

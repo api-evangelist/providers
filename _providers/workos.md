@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -1205,7 +1205,7 @@ plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 12
+random_paper: 112
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits
@@ -1246,8 +1246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:

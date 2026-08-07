@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -309,7 +309,7 @@ plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
   slug: td-bank-plans-pricing
-random_paper: 8
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Td Bank Rate Limits
@@ -361,8 +361,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

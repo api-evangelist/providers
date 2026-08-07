@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Arxiv Plans Pricing
   plan_count: 1
   slug: arxiv-plans-pricing
-random_paper: 79
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Arxiv Rate Limits
@@ -287,8 +287,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/screenshots/arxiv-2026-06-20T172448.png
 security:

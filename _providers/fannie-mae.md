@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Mortgage Lender Sentiment Survey
   url: https://www.fanniemae.com/data-and-insights/surveys/mortgage-lender-sentiment-survey
-random_paper: 27
+random_paper: 73
 score:
   band: minimal
   composite: 12.1
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fannie-mae/refs/heads/main/screenshots/fannie-mae-2026-06-20T181035.png
 security:

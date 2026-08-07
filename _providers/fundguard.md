@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A Model Context Protocol server served from FundGuard's own corporate web host via the WordPress MCP adapter, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-res
@@ -143,7 +143,7 @@ overview: 'FundGuard publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   FundGuard''s developer surface includes documentation, support, engineering blog, signup flow, YouTube channel, authentication, and 19 more developer resources.'
-random_paper: 10
+random_paper: 56
 scopes:
 - name: Fundguard Scopes
   scope_count: 1
@@ -152,6 +152,7 @@ scopes:
 score:
   band: emerging
   composite: 26.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -159,11 +160,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Fundguard Authentication

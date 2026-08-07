@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The Bluetooth Core Specification defines the complete Bluetooth wireless communication protocol stack including BLE (LE) and Classic Bluetooth. The current stable version is Bluetooth 6.0. The specifi
@@ -161,7 +161,7 @@ plans:
 - name: Ble Plans Pricing
   plan_count: 3
   slug: ble-plans-pricing
-random_paper: 22
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Ble Rate Limits
@@ -195,8 +195,8 @@ score:
     governance: 68.8
     operational_transparency: 31.6
   previous_composite: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ble/refs/heads/main/screenshots/ble-2026-06-20T173347.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Spectrum Brands fusionne avec HRG dans une opération à $10 ...
   url: https://www.reuters.com/article/spectrum-hrg-idFRL8N1QG5C4/
-random_paper: 68
+random_paper: 19
 score:
   band: minimal
   composite: 2.7
@@ -83,8 +83,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: hrg-group
 tags:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Replica API v2 (OpenAPI 3.0.0) — REST API for AI text-to-speech, speech-to-speech, and voice-library operations. Historical; the service was sunset on 2025-06-30.
@@ -88,7 +88,7 @@ overview: 'Replica Studios publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Replica Studios'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 5 more developer resources.'
-random_paper: 40
+random_paper: 91
 score:
   band: emerging
   composite: 17.5
@@ -107,8 +107,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

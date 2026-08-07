@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Cryptocurrency prices and technical analysis
@@ -56,7 +56,7 @@ name: Technical Analysis
 nav: Providers
 network: true
 overview: Technical Analysis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 47
+random_paper: 44
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/technical-analysis/refs/heads/main/screenshots/technical-analysis-2026-06-20T195008.png
 security:

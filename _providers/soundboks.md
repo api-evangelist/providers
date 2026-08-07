@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect customer-account surface exposed on the soundboks.com store domain by the Shopify Customer Accounts platform. Discovered via the standard /.well-known/openid-configuration a
@@ -80,7 +80,7 @@ overview: 'Soundboks publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Soundboks'' developer surface includes support, authentication, and 6 more developer resources.'
-random_paper: 34
+random_paper: 80
 scopes:
 - name: Soundboks Scopes
   scope_count: 4
@@ -98,8 +98,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

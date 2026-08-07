@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Complir is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Complir''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 93
+random_paper: 80
 score:
   band: emerging
   composite: 19.1
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 19.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complir/refs/heads/main/screenshots/complir-2026-07-25T210152.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Western Power publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 21 more developer resources.'
-random_paper: 48
+random_paper: 22
 score:
   band: thin
   composite: 39.4
@@ -202,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

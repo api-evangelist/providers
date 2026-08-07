@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,7 +136,7 @@ overview: 'Definity Financial is profiled on the [APIs.io](https://apis.io/) net
 
 
   Definity Financial''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 33
+random_paper: 30
 score:
   band: emerging
   composite: 24.8
@@ -157,8 +157,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definity-financial/refs/heads/main/screenshots/definity-financial-2026-07-25T211640.png
 security:

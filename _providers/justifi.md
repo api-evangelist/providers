@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 6
+random_paper: 88
 score:
   band: developing
   composite: 51.4
@@ -281,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

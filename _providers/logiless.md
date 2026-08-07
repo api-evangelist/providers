@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: 商品マスタ / 商品対応表 — product master and mapping
@@ -184,7 +184,7 @@ overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Logiless'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Logiless Rate Limits
@@ -215,8 +215,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:

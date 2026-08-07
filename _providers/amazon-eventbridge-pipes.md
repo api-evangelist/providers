@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1687,7 +1687,7 @@ plans:
 - name: Amazon Eventbridge Pipes Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-pipes-plans-pricing
-random_paper: 73
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Pipes Rate Limits
@@ -1734,8 +1734,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ overview: 'Inductive Bio is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Inductive Bio''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 0
+random_paper: 87
 score:
   band: emerging
   composite: 13.7
@@ -101,8 +101,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-bio/refs/heads/main/screenshots/inductive-bio-2026-07-25T222341.png
 security:

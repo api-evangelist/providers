@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: FHIR R4 API enabling patients and authorized applications to access clinical health records from Netsmart provider EHR systems including myAvatar, myEvolv, myUnity, GEHRIMED, and TheraOffice. Implemen
@@ -144,7 +144,7 @@ plans:
 - name: Netsmart Plans Pricing
   plan_count: 2
   slug: netsmart-plans-pricing
-random_paper: 23
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Netsmart Rate Limits
@@ -167,8 +167,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsmart/refs/heads/main/screenshots/netsmart-2026-06-20T190207.png
 security:

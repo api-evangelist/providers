@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, user
@@ -112,7 +112,7 @@ plans:
 - name: Taiga Plans Pricing
   plan_count: 6
   slug: taiga-plans-pricing
-random_paper: 43
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Taiga Rate Limits
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 26.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/screenshots/taiga-2026-06-20T194855.png
 security:

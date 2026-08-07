@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 26
 apis:
 - description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
@@ -284,7 +284,7 @@ press:
 - date: ''
   title: JPMorganChase announces $24 million to help strengthen shipbuilding in Philadelphia and America’s defense industrial base
   url: https://www.jpmorganchase.com/newsroom/press-releases/2026/24-million-strengthening-shipbuilding-philadelphia
-random_paper: 26
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Jp Morgan Chase Rate Limits
@@ -305,7 +305,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 26
   regulatory:
     applies: true
@@ -313,8 +313,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

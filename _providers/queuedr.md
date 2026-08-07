@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: QueueDr
 nav: Providers
 network: true
 overview: QueueDr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Appointment Scheduling, and Patient Engagement.
-random_paper: 3
+random_paper: 85
 score:
   band: minimal
   composite: 7.6
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

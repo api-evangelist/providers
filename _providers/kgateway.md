@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Kgateway Plans Pricing
   plan_count: 3
   slug: kgateway-plans-pricing
-random_paper: 6
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Kgateway Rate Limits
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/screenshots/kgateway-2026-06-20T184018.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Octobat Plans Pricing
   plan_count: 4
   slug: octobat-plans-pricing
-random_paper: 83
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Octobat Rate Limits
@@ -162,8 +162,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

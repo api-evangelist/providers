@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Quality Standards
 nav: Providers
 network: true
-random_paper: 56
+random_paper: 94
 slug: data-quality-standards
 tags:
 - Data Governance

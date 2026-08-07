@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Spreadsheets
 nav: Providers
 network: true
-random_paper: 56
+random_paper: 48
 slug: spreadsheets
 tags:
 - Spreadsheets

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The public, unauthenticated JSON browsing surface of the Cometeer online store — products, collections, search and sitemap. Cometeer documents these endpoints for agents itself, under "Read-Only Brows
@@ -121,7 +121,7 @@ overview: 'Cometeer publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 92
+random_paper: 61
 scopes:
 - name: Cometeer Scopes
   scope_count: 4
@@ -130,6 +130,7 @@ scopes:
 score:
   band: thin
   composite: 28.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 14.9
@@ -137,6 +138,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 28.4
   provenance:
     conformance: first-party
     contracts:
@@ -146,8 +148,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Cometeer Authentication

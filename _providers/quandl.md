@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Quandl Plans Pricing
   plan_count: 1
   slug: quandl-plans-pricing
-random_paper: 75
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Quandl Rate Limits
@@ -203,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/screenshots/quandl-2026-06-20T192403.png
 security:

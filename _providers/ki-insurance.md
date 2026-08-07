@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -172,7 +172,7 @@ overview: 'Ki Insurance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 85
+random_paper: 95
 scopes:
 - name: Ki Insurance Scopes
   scope_count: 14
@@ -206,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

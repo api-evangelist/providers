@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Victoria State Government Open Data
@@ -56,7 +56,7 @@ name: Open Government, Victoria State Government
 nav: Providers
 network: true
 overview: Open Government, Victoria State Government publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 30
+random_paper: 29
 score:
   band: minimal
   composite: 6.5
@@ -75,8 +75,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-government-victoria-state-government/refs/heads/main/screenshots/open-government-victoria-state-government-2026-06-20T190838.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ overview: 'MakerDAO is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MakerDAO''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 12 more developer resources.'
-random_paper: 76
+random_paper: 45
 score:
   band: emerging
   composite: 18.4
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 18.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerdao/refs/heads/main/screenshots/makerdao-2026-07-25T225943.png
 security:

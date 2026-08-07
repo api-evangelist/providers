@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ overview: 'Latent Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Latent Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 88
+random_paper: 80
 score:
   band: emerging
   composite: 16.8
@@ -103,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latent-health/refs/heads/main/screenshots/latent-health-2026-07-25T224557.png
 security:

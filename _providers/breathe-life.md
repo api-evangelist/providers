@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ name: Breathe Life
 nav: Providers
 network: true
 overview: Breathe Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Insurtech, and Core Systems.
-random_paper: 52
+random_paper: 62
 score:
   band: minimal
   composite: 10.2
@@ -109,8 +109,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-life/refs/heads/main/screenshots/breathe-life-2026-07-25T203742.png
 security:

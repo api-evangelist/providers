@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Op
 
 
   Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 81
+random_paper: 86
 scopes:
 - name: Mettle Scopes
   scope_count: 4
@@ -185,16 +185,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.6
+  composite: 44.7
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 37.2
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -211,8 +211,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

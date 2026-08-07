@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: Facebook Ads content and metrics
@@ -125,7 +125,7 @@ overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 32
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Socialbakers Rate Limits
@@ -156,8 +156,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

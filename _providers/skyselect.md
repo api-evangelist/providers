@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'SkySelect is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SkySelect''s developer surface includes pricing, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 33
+random_paper: 79
 score:
   band: emerging
   composite: 18.5
@@ -101,8 +101,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

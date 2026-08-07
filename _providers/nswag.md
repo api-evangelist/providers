@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
-- description: NSwag is an open source .NET toolchain for generating C# and TypeScript API clients and Swagger/OpenAPI specifications from ASP.NET controllers and vice versa.
+- description: NSwag is an open source .NET toolchain for generating C# and TypeScript API clients and Swagger/OpenAPI specifications from ASP.NET controllers and vice versa. It ships as NuGet packages, MSBuild targ
   name: NSwag
   slug: nswag
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -44,56 +44,127 @@ common:
   title: ''
   type: Documentation
   url: https://github.com/RicoSuter/NSwag/wiki
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/RicoSuter/NSwag/wiki/Getting-Started
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/RicoSuter/NSwag
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/RicoSuter/NSwag
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/RicoSuter/NSwag/wiki/Roadmap
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/RicoSuter/NSwag/issues
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.gg/BxQNy25WF6
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/RicoSuter/NSwag/blob/master/LICENSE.md
+- group: build
+  title: ''
+  type: Packages
+  url: packages/nswag-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/nswag-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/nswag-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/nswag-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/nswag-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nswag-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nswag-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/nswag-llms.txt
 created: '2026-03-25'
-description: NSwag is an open source .NET toolchain for generating C# and TypeScript API clients and Swagger/OpenAPI specifications from ASP.NET controllers and vice versa.
+description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from ASP.NET (Core) controllers, Web API assemblies and plain .NET types, and generating C# clients, ASP.NET Web API controllers and TypeScript clients back out of those documents. It combines what Swashbuckle and AutoRest do separately into a single toolchain, which is how it avoids the incompatibility seams between the two and gets better fidelity on inheritance, enums and reference handling via NJsonSchema. NSwag operates no hosted API of its own — it is consumed as NuGet packages, MSBuild targets, an npm-distributed CLI and NSwagStudio, a Windows GUI that authors and executes the same nswag.json configuration document the CLI runs.'
 finops:
 - name: Nswag Finops
   service_category: API
   slug: nswag-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nswag.png
+json_schemas:
+- name: Nswag Configuration Document.Schema
+  property_count: 2
+  slug: nswag-configuration-document.schema
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-06'
 name: NSwag
 nav: Providers
 network: true
-overview: 'NSwag publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, Code Generation, OpenAPI, SDKs, and TypeScript.
+overview: 'NSwag publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, ASP.NET Core, C#, Code Generation, and Developer Tools.
 
 
-  NSwag''s developer surface includes documentation and 2 more developer resources.'
+  NSwag''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 12 more developer resources.'
 plans:
 - name: Nswag Plans Pricing
   plan_count: 3
   slug: nswag-plans-pricing
-random_paper: 69
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Nswag Rate Limits
   slug: nswag-rate-limits
 score:
-  band: emerging
-  composite: 19.4
-  delta: 0.0
+  band: thin
+  composite: 32.1
+  delta: 12.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 37.0
+    discoverability: 77.8
+    governance: 12.5
+    operational_transparency: 57.9
   previous_composite: 19.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nswag/refs/heads/main/screenshots/nswag-2026-06-20T190459.png
+security:
+- kind: domain-security
+  name: Nswag Domain Security
+  slug: nswag-domain-security
+  summary_line: no transport/DNS hardening detected
 slug: nswag
 tags:
 - .NET
+- ASP.NET Core
+- C#
 - Code Generation
+- Developer Tools
+- JSON Schema
+- Open Source
 - OpenAPI
 - SDKs
+- Swagger
 - TypeScript
 ---

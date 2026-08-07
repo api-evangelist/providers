@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: 'Vornado Realty: Valued On Depressed Earnings, Not ...'
   url: https://seekingalpha.com/article/4899203-vornado-realty-valued-on-depressed-earnings-not-stabilized-noi
-random_paper: 91
+random_paper: 52
 rules:
 - name: Vornado Realty Trust API Rules
   rule_count: 5
@@ -122,8 +122,8 @@ score:
     governance: 58.3
     operational_transparency: 0.0
   previous_composite: 14.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vornado-realty-trust/refs/heads/main/screenshots/vornado-realty-trust-2026-06-20T201136.png
 security:

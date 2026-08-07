@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'COSCO Shipping is profiled on the [APIs.io](https://apis.io/) network
 
 
   COSCO Shipping''s developer surface includes product news and 11 more developer resources.'
-random_paper: 21
+random_paper: 90
 score:
   band: minimal
   composite: 9.3
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png
 security:

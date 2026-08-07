@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governa
@@ -91,7 +91,7 @@ plans:
 - name: Kitex Plans Pricing
   plan_count: 3
   slug: kitex-plans-pricing
-random_paper: 74
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Kitex Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 32.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/screenshots/kitex-2026-06-20T184050.png
 security:

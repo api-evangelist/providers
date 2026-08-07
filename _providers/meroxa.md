@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -131,7 +131,7 @@ overview: 'Meroxa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meroxa''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 82
+random_paper: 87
 score:
   band: thin
   composite: 28.6
@@ -146,8 +146,8 @@ score:
   previous_composite: 28.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST APIs for the full embedded insurance lifecycle including quoting, rating, binding, policy management, claims intake through settlement, premium payments (card, ACH, bank rail, escrow), and compli
@@ -104,7 +104,7 @@ plans:
 - name: Sure Plans Pricing
   plan_count: 2
   slug: sure-plans-pricing
-random_paper: 67
+random_paper: 108
 rate_limits:
 - limit_count: 0
   name: Sure Rate Limits
@@ -127,8 +127,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sure/refs/heads/main/screenshots/sure-2026-06-20T194803.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ overview: 'BETA Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   BETA Technologies'' developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 31
+random_paper: 46
 score:
   band: minimal
   composite: 10.4
@@ -136,8 +136,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beta-technologies/refs/heads/main/screenshots/beta-technologies-2026-06-20T173157.png
 security:

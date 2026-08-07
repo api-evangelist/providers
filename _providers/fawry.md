@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ overview: 'Fawry publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 32 more developer resources.'
-random_paper: 78
+random_paper: 101
 score:
   band: emerging
   composite: 27.8
@@ -261,8 +261,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/screenshots/fawry-2026-06-20T181100.png
 security:

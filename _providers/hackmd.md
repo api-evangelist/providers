@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: Operations related to user's note history.
@@ -197,7 +197,7 @@ overview: 'HackMD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 46
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Hackmd Rate Limits
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.8
@@ -213,7 +213,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 49.5
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
 security:

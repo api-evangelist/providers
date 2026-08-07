@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The US Capitol Visitor Center provides visitor information, guided tours, educational programs, and specialty tours of the United States Capitol building. While no public developer API is available, t
@@ -69,7 +69,7 @@ plans:
 - name: Us Capitol Visitor Center Plans Pricing
   plan_count: 3
   slug: us-capitol-visitor-center-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Us Capitol Visitor Center Rate Limits
@@ -86,8 +86,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/screenshots/us-capitol-visitor-center-2026-06-20T200616.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Routific Plans Pricing
   plan_count: 4
   slug: routific-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Routific Rate Limits
@@ -241,7 +241,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 79.3
@@ -249,7 +249,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.1
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:

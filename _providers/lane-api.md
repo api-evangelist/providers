@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 177
 apis:
 - description: The Accord API from Lane API — 1 operation(s) for accord.
@@ -585,7 +585,7 @@ plans:
 - name: Lane Api Plans Pricing
   plan_count: 3
   slug: lane-api-plans-pricing
-random_paper: 15
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Lane Api Rate Limits
@@ -608,8 +608,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 177
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane-api/refs/heads/main/screenshots/lane-api-2026-06-20T184300.png
 security:

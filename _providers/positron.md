@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -165,10 +165,11 @@ overview: 'Positron publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 39
+random_paper: 103
 score:
   band: thin
   composite: 37.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.4
@@ -176,6 +177,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +188,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Positron Authentication

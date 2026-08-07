@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Health promotion and prevention in the digital era
   url: https://eurohealthnet.eu/publication/eurohealthnet-annual-seminar-2026-health-promotion-and-prevention-in-the-digital-era/
-random_paper: 52
+random_paper: 98
 score:
   band: minimal
   composite: 5.6
@@ -91,8 +91,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/health-net/refs/heads/main/screenshots/health-net-2026-06-20T182555.png
 security:

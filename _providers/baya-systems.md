@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Baya Systems
 nav: Providers
 network: true
 overview: Baya Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chiplets, Network on Chip, and Interconnect IP.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 5.7
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baya-systems/refs/heads/main/screenshots/baya-systems-2026-07-25T202449.png
 security:

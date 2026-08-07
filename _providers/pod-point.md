@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Pod''s Open Charge Point Interface (OCPI) 2.2.1 service in the Charge Point Operator role, used for e-mobility roaming and as the technical vehicle named by the UK Public Charge Point Regulations 2023 '
@@ -148,7 +148,7 @@ overview: 'Pod Point publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pod Point''s developer surface includes engineering blog, support, authentication, code examples, and 20 more developer resources.'
-random_paper: 67
+random_paper: 18
 score:
   band: emerging
   composite: 24.4
@@ -169,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

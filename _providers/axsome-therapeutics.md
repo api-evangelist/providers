@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 19
 common:
@@ -194,7 +194,7 @@ overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The Axsome Therapeutics catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 0
+random_paper: 74
 score:
   band: emerging
   composite: 16.2
@@ -213,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axsome-therapeutics/refs/heads/main/screenshots/axsome-therapeutics-2026-06-20T172821.png
 security:

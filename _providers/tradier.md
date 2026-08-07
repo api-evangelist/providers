@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ plans:
 - name: Tradier Plans Pricing
   plan_count: 3
   slug: tradier-plans-pricing
-random_paper: 82
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Tradier Rate Limits
@@ -269,7 +269,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.3
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 64.2
@@ -277,7 +277,7 @@ score:
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 78.9
-  previous_composite: 74.5
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,8 +294,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
 security:

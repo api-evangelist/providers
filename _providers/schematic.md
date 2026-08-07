@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -165,8 +165,12 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.schematichq.com/llms.txt
+- group: docs
+  title: ''
+  type: X-OpenAPI-Source
+  url: https://docs.schematichq.com/openapi.json
 created: '2026-03-27'
-description: Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code changes. Schematic raised $6.5M in April 2026 and launched an official Stripe App for entitlement management as a first-class billing primitive. Customers include Plotly, Automox, Florence, Blackcloak, Sema4.ai, and Pagos.
+description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance then define plans, feature access and usage limits without shipping a release. The platform covers feature flags and entitlement checks, plan and package definition, usage metering and billing integration, with an official Stripe App for entitlement management. Schematic raised $6.5M in April 2026.'
 examples:
 - key_count: 10
   name: Schematic Check Flag Example
@@ -209,7 +213,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-04'
 name: Schematic
 nav: Providers
 network: true
@@ -219,12 +223,12 @@ overview: 'Schematic publishes 20 APIs on the [APIs.io](https://apis.io/) networ
   The Schematic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Schematic''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, code examples, and 8 more developer resources.'
+  Schematic''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, code examples, and 9 more developer resources.'
 plans:
 - name: Schematic Plans Pricing
   plan_count: 3
   slug: schematic-plans-pricing
-random_paper: 90
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Schematic Rate Limits
@@ -248,25 +252,25 @@ rules:
   slug: schematic-rules
 score:
   band: strong
-  composite: 56.1
+  composite: 56.8
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.6
+    contract_quality: 70.4
     developer_ergonomics: 37.0
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.1
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 95.2
       derived: 0
-      marker_coverage: 0.0
-      total: 20
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+      marker_coverage: 4.8
+      total: 21
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Abe AI
 nav: Providers
 network: true
 overview: Abe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Financial Services, Banking, and Chatbot.
-random_paper: 68
+random_paper: 91
 score:
   band: minimal
   composite: 6.3
@@ -71,8 +71,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abe-ai/refs/heads/main/screenshots/abe-ai-2026-07-25T181342.png
 security:

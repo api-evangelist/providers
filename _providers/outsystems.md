@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -241,7 +241,7 @@ overview: 'OutSystems publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 91
+random_paper: 6
 rate_limits:
 - limit_count: 12
   name: Outsystems Rate Limits
@@ -254,6 +254,7 @@ scopes:
 score:
   band: strong
   composite: 62.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.3
@@ -261,6 +262,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 86.8
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +273,9 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Outsystems Authentication

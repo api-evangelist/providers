@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -180,31 +180,31 @@ overview: '99designs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   99designs'' developer surface includes authentication, documentation, API reference, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 8
+random_paper: 72
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 46.6
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 15.9
+    contract_quality: 63.6
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 34.6
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 0
       marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

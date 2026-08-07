@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The FTC Developer Portal is the central hub for developer documentation, data dictionaries, and access program details for FTC-managed datasets and services.
@@ -101,7 +101,7 @@ plans:
 - name: Federal Trade Commission Plans Pricing
   plan_count: 3
   slug: federal-trade-commission-plans-pricing
-random_paper: 55
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Federal Trade Commission Rate Limits
@@ -124,8 +124,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-trade-commission/refs/heads/main/screenshots/federal-trade-commission-2026-06-20T181129.png
 security:

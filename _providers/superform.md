@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Superform publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Superform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 45
+random_paper: 91
 score:
   band: thin
   composite: 36.5
@@ -196,8 +196,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

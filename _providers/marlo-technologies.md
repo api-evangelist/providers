@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Marlo Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Marlo Technologies'' developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 63
+random_paper: 60
 score:
   band: emerging
   composite: 19.8
@@ -112,8 +112,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marlo-technologies/refs/heads/main/screenshots/marlo-technologies-2026-07-25T230251.png
 security:

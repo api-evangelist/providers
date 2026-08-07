@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ press:
 - date: '2026-05-25'
   title: 6 Nuanced Takeaways from Acuity's Boldest Year Yet
   url: https://inside.lighting/news/25-10/6-nuanced-takeaways-acuitys-boldest-year-yet
-random_paper: 4
+random_paper: 91
 rate_limits:
 - limit_count: 0
   name: Acuity Brands Rate Limits
@@ -278,8 +278,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

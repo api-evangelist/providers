@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Artian''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 69
+random_paper: 74
 score:
   band: emerging
   composite: 20.1
@@ -113,8 +113,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/screenshots/artian-2026-07-25T201333.png
 security:

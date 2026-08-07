@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ plans:
 - name: Hmrc Plans Pricing
   plan_count: 2
   slug: hmrc-plans-pricing
-random_paper: 46
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Hmrc Rate Limits
@@ -267,8 +267,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png
 security:

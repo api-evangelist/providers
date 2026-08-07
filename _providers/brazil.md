@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Community driven API for Brazil Public Data
@@ -56,7 +56,7 @@ name: Brazil
 nav: Providers
 network: true
 overview: Brazil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 74
+random_paper: 79
 score:
   band: minimal
   composite: 6.5
@@ -75,8 +75,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brazil/refs/heads/main/screenshots/brazil-2026-06-20T173640.png
 security:

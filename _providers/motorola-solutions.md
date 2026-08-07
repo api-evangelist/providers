@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Motorola Solutions Opens New AI and Resilience Software ...
   url: https://www.businesswire.com/news/home/20260521618405/en/Motorola-Solutions-Opens-New-AI-and-Resilience-Software-Hub-in-Boston-Massachusetts
-random_paper: 30
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Motorola Solutions Rate Limits
@@ -132,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/screenshots/motorola-solutions-2026-06-20T185835.png
 security:

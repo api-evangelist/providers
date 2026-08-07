@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: 'General Motors: Iconic Vehicles for Every Drive'
   url: https://www.gm.com/
-random_paper: 20
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: General Dynamics Rate Limits
@@ -132,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1291,11 +1291,12 @@ overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 99 more developer resources.'
+paper_is_own: true
 plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 48
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits
@@ -1351,8 +1352,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

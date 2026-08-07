@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ plans:
 - name: Backstage Plans Pricing
   plan_count: 4
   slug: backstage-plans-pricing
-random_paper: 78
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: Backstage Rate Limits
@@ -423,8 +423,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ plans:
 - name: Log10 Plans Pricing
   plan_count: 3
   slug: log10-plans-pricing
-random_paper: 39
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Log10 Rate Limits
@@ -219,7 +219,7 @@ rules:
 score:
   band: developing
   composite: 52.0
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 59.6
@@ -227,7 +227,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 49.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png
 security:

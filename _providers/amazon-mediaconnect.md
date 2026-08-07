@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -2300,7 +2300,7 @@ plans:
 - name: Amazon Mediaconnect Plans Pricing
   plan_count: 3
   slug: amazon-mediaconnect-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconnect Rate Limits
@@ -2341,8 +2341,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/screenshots/amazon-mediaconnect-2026-06-20T171739.png
 security:

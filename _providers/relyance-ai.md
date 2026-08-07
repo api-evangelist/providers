@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Relyance Ai is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Relyance Ai''s developer surface includes engineering blog, pricing, support, and 11 more developer resources.'
-random_paper: 53
+random_paper: 81
 score:
   band: emerging
   composite: 19.8
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

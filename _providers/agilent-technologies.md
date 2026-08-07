@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -364,7 +364,7 @@ press:
 - date: '2026-05-25'
   title: Lunit and Agilent Technologies Announce Collaboration to ...
   url: https://www.prnewswire.com/news-releases/lunit-and-agilent-technologies-announce-collaboration-to-enhance-development-of-companion-diagnostic-solutions-powered-with-ai-for-precision-medicine-302562617.html
-random_paper: 74
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Agilent Technologies Rate Limits
@@ -411,8 +411,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

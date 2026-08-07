@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Google Tasks Plans Pricing
   plan_count: 3
   slug: google-tasks-plans-pricing
-random_paper: 92
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Google Tasks Rate Limits
@@ -195,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
 security:

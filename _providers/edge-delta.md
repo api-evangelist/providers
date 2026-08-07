@@ -17,7 +17,7 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-03'
+  score: 50.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -233,19 +233,19 @@ overview: 'Edge Delta publishes 19 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Edge Delta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 22
+random_paper: 68
 score:
   band: developing
-  composite: 51.5
+  composite: 54.9
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 32.3
+    contract_quality: 46.1
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +256,8 @@ score:
       total: 19
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:

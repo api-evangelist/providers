@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ plans:
 - name: Rxnt Plans Pricing
   plan_count: 4
   slug: rxnt-plans-pricing
-random_paper: 80
+random_paper: 8
 score:
   band: thin
   composite: 28.9
@@ -124,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

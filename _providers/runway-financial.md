@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'Runway Financial publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Runway Financial''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Runway Financial Rate Limits
@@ -190,8 +190,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

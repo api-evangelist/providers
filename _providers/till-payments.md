@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-03'
+  score: 48.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
-random_paper: 33
+random_paper: 7
 score:
   band: developing
   composite: 46.1
@@ -204,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

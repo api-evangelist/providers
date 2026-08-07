@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: JSON REST API for the Propertybase GO / Lone Wolf Front Office real estate CRM. Read and write CRM records - leads, agents, employees, teams, offices, properties, tasks, events, messages, saved search
@@ -108,7 +108,7 @@ overview: 'propertybase publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   propertybase''s developer surface includes documentation, API reference, authentication, changelog, support, signup flow, and 9 more developer resources.'
-random_paper: 77
+random_paper: 69
 score:
   band: emerging
   composite: 22.9
@@ -123,8 +123,8 @@ score:
   previous_composite: 22.9
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

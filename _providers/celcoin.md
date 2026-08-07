@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: Celcoin Plans Pricing
   plan_count: 4
   slug: celcoin-plans-pricing
-random_paper: 68
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Celcoin Rate Limits
@@ -212,8 +212,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:

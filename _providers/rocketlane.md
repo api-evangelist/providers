@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-03'
+  score: 57.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ overview: 'Rocketlane publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rocketlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 19
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Rocketlane Rate Limits
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.1
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 58.5
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +273,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

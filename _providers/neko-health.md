@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ overview: 'Neko Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Neko Health''s developer surface includes support, signup flow, pricing, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 59
+random_paper: 87
 scopes:
 - name: Neko Health Scopes
   scope_count: 4
@@ -130,8 +130,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

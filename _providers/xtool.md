@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'xTool is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   xTool''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 91
+random_paper: 1
 score:
   band: emerging
   composite: 15.0
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

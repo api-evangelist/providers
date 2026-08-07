@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
@@ -43,7 +43,7 @@ name: Listings API
 nav: Providers
 network: true
 overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include business-listings, local-seo, locations, reviews, and google-business-profile.'
-random_paper: 1
+random_paper: 106
 score:
   band: emerging
   composite: 14.4
@@ -56,8 +56,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/screenshots/listings-api-2026-07-25T225325.png
 slug: listings-api

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
   slug: onebusaway-plans-pricing
-random_paper: 41
+random_paper: 69
 rules:
 - name: OneBusAway API Rules
   rule_count: 5
@@ -485,8 +485,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/screenshots/onebusaway-2026-06-20T190710.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Vongi Health (芝兰健康) is profiled on the [APIs.io](https://apis
 
 
   Vongi Health (芝兰健康)''s developer surface includes support and 6 more developer resources.'
-random_paper: 37
+random_paper: 47
 score:
   band: minimal
   composite: 11.2
@@ -92,8 +92,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

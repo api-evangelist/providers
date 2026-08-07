@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 34
+random_paper: 75
 score:
   band: thin
   composite: 39.1
@@ -172,8 +172,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:

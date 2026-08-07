@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ plans:
 - name: Avision Plans
   plan_count: 3
   slug: avision-plans
-random_paper: 1
+random_paper: 83
 score:
   band: emerging
   composite: 21.6
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 21.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avision/refs/heads/main/screenshots/avision-2026-07-25T201942.png
 security:

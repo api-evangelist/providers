@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 102
 score:
   band: developing
   composite: 49.4
@@ -236,8 +236,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:

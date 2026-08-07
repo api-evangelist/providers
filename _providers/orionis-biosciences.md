@@ -1,0 +1,206 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 50
+  human_in_the_loop: 0
+  name: Orionis Biosciences Agentic Access
+  operation_count: 85
+  slug: orionis-biosciences-agentic-access
+  summary_line: 85 operations · 50 acting
+api_count: 1
+apis:
+- description: The anonymously readable WordPress REST API that orionisbio.com serves at /wp-json/wp/v2 — company news posts (22 published), corporate and platform pages (16 published, covering the Allo-Glue, A-Kine
+  name: Orionis Biosciences Website Content API (WordPress REST wp/v2)
+  slug: content
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://orionisbio.com/
+- group: company
+  title: ''
+  type: About
+  url: https://orionisbio.com/about-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://orionisbio.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://orionisbio.com/feed/
+- group: company
+  title: ''
+  type: News
+  url: https://orionisbio.com/news/
+- group: operate
+  title: ''
+  type: Support
+  url: https://orionisbio.com/contact/
+- group: other
+  title: ''
+  type: Team
+  url: https://orionisbio.com/about-us/executive-team/
+- group: other
+  title: ''
+  type: Technology
+  url: https://orionisbio.com/platforms/
+- group: other
+  title: ''
+  type: Pipeline
+  url: https://orionisbio.com/pipeline/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://orionisbio.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://orionisbio.com/privacy-policy/
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://orionisbio.com/cookie-policy/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/orionis-biosciences/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/orionisbio
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/orionis-biosciences_stock/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/orionis-biosciences-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/orionis-biosciences-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/orionis-biosciences-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/orionis-biosciences-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/orionis-biosciences-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/orionis-biosciences-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/orionis-biosciences-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/orionis-biosciences-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/orionis-biosciences-agentic-access.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-04'
+description: Orionis Biosciences is a privately held biotechnology company headquartered at 950 Winter Street in Waltham, Massachusetts, with a research site in Ghent, Belgium, co-founded by Niko Kley and Jan Tavernier. It develops precision medicines across three modalities — small molecule molecular glues built on its Allo-Glue platform, conditional and cis-targeted cytokines built on its A-Kine platform, and multi-specific cell engagers built on its MCE platform — combining disease biology, immunology, chemistry, protein engineering, computational science and machine learning at genome scale. Its lead A-Kine program ORB-011, an attenuated cis-targeted interferon immunotherapy, has entered Phase 1. Orionis has run multi-year molecular-glue discovery collaborations with Genentech (2023, and a 2025 expansion with $105M upfront and more than $2B in potential milestones) and Novartis (from 2020, expanded in 2026 with $40M upfront and up to $1.4B in milestones). Orionis Biosciences publishes
+  no developer program, no product API and no OpenAPI of its own; the only machine-readable surface on orionisbio.com is the WordPress REST API (wp/v2) that serves the company newsroom, corporate and platform pages, leadership and scientific-team profiles and the media library as anonymously readable JSON, alongside a WordPress Abilities API (wp-abilities/v1) registry that is present but authentication-gated.
+image: https://orionisbio.com/wp-content/uploads/2020/02/cropped-favicon-coast-192x192.png
+layout: provider
+modified: '2026-08-04'
+name: Orionis Biosciences
+nav: Providers
+network: true
+overview: 'Orionis Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: Website Content API (WordPress REST wp/v2). Tagged areas include Company, Biotechnology, Life Sciences, Drug Discovery, and Pharmaceuticals.
+
+
+  Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 21 more developer resources.'
+random_paper: 54
+score:
+  band: emerging
+  composite: 23.3
+  delta: -10.6
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 15.1
+    developer_ergonomics: 19.0
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 0.0
+  previous_composite: 33.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: falling
+security:
+- kind: authentication
+  name: Orionis Biosciences Authentication
+  slug: orionis-biosciences-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Orionis Biosciences Domain Security
+  slug: orionis-biosciences-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: orionis-biosciences
+tags:
+- Company
+- Biotechnology
+- Life Sciences
+- Drug Discovery
+- Pharmaceuticals
+- Oncology
+- Immunotherapy
+- Protein Engineering
+- Molecular Glues
+- Computational Biology
+- Machine Learning
+- Clinical Trials
+- Content
+website: https://orionisbio.com/
+---

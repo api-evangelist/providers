@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The unified REST entry point for all crosschain operations on Across — request swap/bridge quotes and approval data, execute embedded crosschain actions on the destination chain, run gasless flows, en
@@ -120,7 +120,7 @@ overview: 'Across publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Across'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 81
+random_paper: 86
 score:
   band: emerging
   composite: 26.4
@@ -141,8 +141,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/across/refs/heads/main/screenshots/across-2026-07-25T181521.png
 security:

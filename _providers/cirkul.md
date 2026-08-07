@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Cirkul serves from its own drinkcirkul.com host. It comprises an anonymous Model Context Protocol (MCP) server at /api/mcp exposing five tools with real JSON Schema i
@@ -155,7 +155,7 @@ overview: 'Cirkul publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cirkul''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 80
+random_paper: 85
 scopes:
 - name: Cirkul Scopes
   scope_count: 4
@@ -164,6 +164,7 @@ scopes:
 score:
   band: thin
   composite: 29.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -171,12 +172,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Cirkul Authentication

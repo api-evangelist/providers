@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Check24 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Check24''s developer surface includes support and 4 more developer resources.'
-random_paper: 42
+random_paper: 47
 score:
   band: minimal
   composite: 10.6
@@ -82,8 +82,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check24/refs/heads/main/screenshots/check24-2026-07-25T205132.png
 security:

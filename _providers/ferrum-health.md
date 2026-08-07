@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Ferrum Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ferrum Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 89
 score:
   band: emerging
   composite: 16.4
@@ -104,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferrum-health/refs/heads/main/screenshots/ferrum-health-2026-07-25T214349.png
 security:

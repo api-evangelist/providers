@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 16
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -209,7 +209,7 @@ overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https:/
 
 
   Venminder (Digital Comply)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 77
+random_paper: 79
 scopes:
 - name: Venminder Digital Comply Scopes
   scope_count: 1
@@ -236,8 +236,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

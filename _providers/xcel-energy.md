@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ press:
 - date: '2026-05-25'
   title: 'Xcel Energy: Brings AI-driven wildfire detection to Wisconsin'
   url: https://www.wispolitics.com/2026/xcel-energy-brings-ai-driven-wildfire-detection-to-wisconsin/
-random_paper: 78
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Xcel Energy Rate Limits
@@ -298,8 +298,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png
 security:

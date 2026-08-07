@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: AMC Networks delivers entertainment content through cable networks and streaming platforms. Affiliate partners access marketing materials, launch documents, and technical resources through the affilia
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: As AMC Networks Embraces AI, CEO Kristin Dolan ...
   url: https://deadline.com/2025/08/amc-networks-embraces-ai-ceo-kristin-dolan-technology-ip-1236482175/
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Amc Networks Rate Limits
@@ -127,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems including data sources, tools, and workflows. Originally developed by Anthropic and donat
@@ -132,7 +132,7 @@ plans:
 - name: Agentic Ai Foundation Plans Pricing
   plan_count: 3
   slug: agentic-ai-foundation-plans-pricing
-random_paper: 12
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Agentic Ai Foundation Rate Limits
@@ -158,8 +158,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 32.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:

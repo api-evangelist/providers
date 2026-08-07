@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs
@@ -56,7 +56,7 @@ name: FTX
 nav: Providers
 network: true
 overview: FTX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 53
+random_paper: 112
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ftx/refs/heads/main/screenshots/ftx-2026-06-20T181602.png
 security:

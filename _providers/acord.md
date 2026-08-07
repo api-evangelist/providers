@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: Acord Plans Pricing
   plan_count: 1
   slug: acord-plans-pricing
-random_paper: 46
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Acord Rate Limits
@@ -389,8 +389,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Index of HTTP application programming interfaces.
@@ -96,7 +96,7 @@ plans:
 - name: Demo Openapi Plans Pricing
   plan_count: 3
   slug: demo-openapi-plans-pricing
-random_paper: 74
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Demo Openapi Rate Limits
@@ -128,8 +128,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/screenshots/demo-openapi-2026-06-20T175908.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Fastify is a fast and low-overhead web framework for Node.js, designed for building high-performance APIs and microservices. It features a powerful plugin architecture, JSON Schema-based request and r
@@ -110,7 +110,7 @@ plans:
 - name: Fastify Plans Pricing
   plan_count: 3
   slug: fastify-plans-pricing
-random_paper: 93
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Fastify Rate Limits
@@ -136,8 +136,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 34.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/screenshots/fastify-2026-06-20T181051.png
 security:

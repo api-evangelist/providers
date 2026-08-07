@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-03'
+  score: 64.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ overview: 'LawVu publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LawVu''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 84
+random_paper: 107
 score:
   band: strong
   composite: 61.3
@@ -308,8 +308,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/screenshots/lawvu-2026-07-25T224645.png
 security:

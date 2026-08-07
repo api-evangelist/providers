@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -295,7 +295,7 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
-random_paper: 55
+random_paper: 96
 score:
   band: strong
   composite: 59.9
@@ -317,8 +317,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

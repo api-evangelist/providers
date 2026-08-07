@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Trust Token is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Trust Token''s developer surface includes support and 13 more developer resources.'
-random_paper: 28
+random_paper: 38
 score:
   band: emerging
   composite: 17.9
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 17.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

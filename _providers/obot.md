@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -132,7 +132,7 @@ overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Obot''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
-random_paper: 56
+random_paper: 97
 score:
   band: thin
   composite: 29.0
@@ -148,8 +148,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ overview: 'SynFutures publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 83
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Synfutures Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.7
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 58.9
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 26.3
-  previous_composite: 36.4
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

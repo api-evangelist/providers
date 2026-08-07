@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -355,7 +355,7 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StatsD''s developer surface includes GitHub presence, changelog, and 49 more developer resources.'
-random_paper: 89
+random_paper: 94
 rules:
 - name: StatsD API Rules
   rule_count: 7
@@ -400,8 +400,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

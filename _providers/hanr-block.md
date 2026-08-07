@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The H&R Block API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
   slug: hanr-block-plans-pricing
-random_paper: 43
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Hanr Block Rate Limits
@@ -82,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 14.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/screenshots/hanr-block-2026-06-20T182508.png
 security:

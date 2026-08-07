@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ overview: 'Hyperbeat publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Hyperbeat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 14
+random_paper: 60
 score:
   band: developing
   composite: 45.2
@@ -178,8 +178,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/screenshots/hyperbeat-2026-07-25T221845.png
 security:

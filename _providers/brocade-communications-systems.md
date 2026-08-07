@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: World's first successful AI-assisted automated network ...
   url: https://www.kddi-research.jp/english/newsrelease/2016/022201.html
-random_paper: 75
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Brocade Communications Systems Rate Limits
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/screenshots/brocade-communications-systems-2026-06-20T173715.png
 security:

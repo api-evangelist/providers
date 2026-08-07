@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Ladder API is an embedded term-life-insurance distribution surface for partner platforms. It is delivered primarily as a client-side JavaScript integration — a partner loads Ladder's v3 bundle, co
@@ -145,7 +145,7 @@ overview: 'Ladder publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ladder''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 50
+random_paper: 55
 score:
   band: emerging
   composite: 26.8
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/screenshots/ladder-2026-07-25T224426.png
 security:

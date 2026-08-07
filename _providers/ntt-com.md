@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Unified API gateway for NTT Communications / NTT DOCOMO BUSINESS enterprise services. Catalogs APIs across Network, Cloud, Voice, App, Management, and Core categories — including Arcstar Universal One
@@ -160,7 +160,7 @@ overview: 'NTT publishes 1 API on the [APIs.io](https://apis.io/) network: Commu
 
 
   NTT''s developer surface includes YouTube channel and 23 more developer resources.'
-random_paper: 41
+random_paper: 28
 score:
   band: emerging
   composite: 15.7
@@ -179,8 +179,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntt-com/refs/heads/main/screenshots/ntt-com-2026-06-20T190459.png
 security:

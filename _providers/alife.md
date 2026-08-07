@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,7 +91,7 @@ overview: 'Alife is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alife''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 38
+random_paper: 61
 score:
   band: emerging
   composite: 20.3
@@ -110,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alife/refs/heads/main/screenshots/alife-2026-07-25T195619.png
 security:

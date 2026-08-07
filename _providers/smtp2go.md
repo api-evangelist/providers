@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ plans:
 - name: Smtp2Go Plans Pricing
   plan_count: 4
   slug: smtp2go-plans-pricing
-random_paper: 51
+random_paper: 38
 rate_limits:
 - limit_count: 8
   name: Smtp2Go Rate Limits
@@ -222,8 +222,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:

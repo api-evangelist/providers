@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-03'
+  score: 42.1
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -234,7 +234,7 @@ plans:
 - name: Nextroll Plans
   plan_count: 2
   slug: nextroll-plans
-random_paper: 33
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Nextroll Rate Limits
@@ -247,6 +247,7 @@ scopes:
 score:
   band: strong
   composite: 59.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 51.6
@@ -254,12 +255,14 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 60.5
+  previous_composite: 59.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Nextroll Authentication

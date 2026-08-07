@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Americans Trust Advisors More Than AI for Financial ...
   url: https://news.northwesternmutual.com/2025-08-05-Human-Connection-Over-Machines-Americans-Trust-Advisors-More-Than-AI-for-Financial-Advice,-Finds-Northwestern-Mutuals-2025-Planning-Progress-Study
-random_paper: 45
+random_paper: 6
 score:
   band: minimal
   composite: 4.2
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 4.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

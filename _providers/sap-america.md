@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'SAP NS2 is an independent US subsidiary of SAP SE that operates SAP cloud and software workloads for the US federal government, the Department of Defense, the Intelligence Community, and commercially '
@@ -124,7 +124,7 @@ overview: 'SAP America publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SAP America''s developer surface includes privacy policy, legal docs, engineering blog, and 16 more developer resources.'
-random_paper: 46
+random_paper: 74
 score:
   band: emerging
   composite: 16.3
@@ -143,8 +143,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png
 security:

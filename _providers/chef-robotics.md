@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ overview: 'Chef Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Chef Robotics'' developer surface includes engineering blog, GitHub presence, support, and 14 more developer resources.'
-random_paper: 85
+random_paper: 77
 score:
   band: minimal
   composite: 7.0
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-robotics/refs/heads/main/screenshots/chef-robotics-2026-06-20T174307.png
 security:

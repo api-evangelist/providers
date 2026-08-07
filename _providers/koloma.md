@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A Model Context Protocol (MCP) endpoint served from the Koloma California regional website at https://www.kolomacalifornia.com/_api/mcp and advertised in that host's own llms.txt. The endpoint is prov
@@ -107,10 +107,11 @@ overview: 'Koloma publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Koloma''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 73
+random_paper: 78
 score:
   band: emerging
   composite: 19.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -118,6 +119,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -127,8 +129,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Koloma Authentication

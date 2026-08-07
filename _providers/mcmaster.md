@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Institutional API management developer portal operated by McMaster University Technology Services. Access requires sign-in with a MacID and password plus a short registration step; APIs and products c
@@ -115,7 +115,7 @@ plans:
 - name: Mcmaster Plans Pricing
   plan_count: 2
   slug: mcmaster-plans-pricing
-random_paper: 5
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Mcmaster Rate Limits
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/screenshots/mcmaster-2026-06-20T185102.png
 security:

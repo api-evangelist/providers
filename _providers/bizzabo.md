@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to '
@@ -100,7 +100,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 88
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/screenshots/bizzabo-2026-06-20T173329.png
 security:

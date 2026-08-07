@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Hilltop Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -72,7 +72,7 @@ plans:
 - name: Hilltop Holdings Plans Pricing
   plan_count: 1
   slug: hilltop-holdings-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Hilltop Holdings Rate Limits
@@ -95,8 +95,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

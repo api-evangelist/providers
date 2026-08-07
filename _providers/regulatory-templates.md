@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Regulatory Templates
 nav: Providers
 network: true
-random_paper: 32
+random_paper: 88
 slug: regulatory-templates
 tags:
 - Compliance

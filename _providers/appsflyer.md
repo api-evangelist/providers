@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: 'Report-pull endpoints that export AppsFlyer attribution and analytics data as CSV/JSON: raw-data installs, in-app events, re-engagements, retargeting, uninstalls, ad-revenue and protect360 reports (V1'
@@ -232,10 +232,11 @@ overview: 'AppsFlyer publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   AppsFlyer''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 32
+random_paper: 78
 score:
   band: strong
   composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.4
@@ -243,6 +244,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
+  previous_composite: 61.3
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +254,9 @@ score:
       total: 39
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Appsflyer Authentication

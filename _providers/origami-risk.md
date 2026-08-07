@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-03'
+  score: 44.8
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: Token issuance and session verification for the Origami Risk platform APIs. Two documented token formats — a simple JSON payload (Account, User, Password, ClientName) and an OAuth-style client_credent
@@ -218,7 +218,7 @@ overview: 'Origami Risk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Origami Risk''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 90
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Origami Risk Rate Limits
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.6
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
@@ -234,7 +234,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 51.1
+  previous_composite: 54.6
   provenance:
     conformance: derived
     mcp: derived
@@ -245,8 +245,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

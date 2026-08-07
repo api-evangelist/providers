@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-03'
+  score: 51.1
+  scored_at: '2026-08-06'
 api_count: 100
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -533,7 +533,7 @@ overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 4
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Lithium Rate Limits
@@ -546,7 +546,7 @@ scopes:
 score:
   band: strong
   composite: 65.3
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.1
@@ -554,7 +554,7 @@ score:
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 86.8
-  previous_composite: 61.8
+  previous_composite: 65.3
   provenance:
     conformance: first-party
     contracts:
@@ -570,8 +570,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

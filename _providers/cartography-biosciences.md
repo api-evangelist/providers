@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Cartography Biosciences is profiled on the [APIs.io](https://apis.io/
 
 
   Cartography Biosciences'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: minimal
   composite: 10.8
@@ -86,8 +86,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography-biosciences/refs/heads/main/screenshots/cartography-biosciences-2026-07-25T204658.png
 security:

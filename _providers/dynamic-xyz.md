@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 23
@@ -229,7 +229,7 @@ plans:
 - name: Dynamic Xyz Plans Pricing
   plan_count: 3
   slug: dynamic-xyz-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Dynamic Xyz Rate Limits
@@ -253,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png
 security:

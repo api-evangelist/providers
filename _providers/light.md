@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -245,7 +245,7 @@ overview: 'Light publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Light''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 61
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Light Rate Limits
@@ -253,7 +253,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.3
@@ -261,7 +261,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 46.1
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,8 +272,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

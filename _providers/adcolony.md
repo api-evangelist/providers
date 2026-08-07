@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ name: AdColony
 nav: Providers
 network: true
 overview: AdColony is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile Advertising, AdTech, and SDK.
-random_paper: 2
+random_paper: 66
 score:
   band: minimal
   composite: 9.1
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adcolony/refs/heads/main/screenshots/adcolony-2026-07-25T181608.png
 security:

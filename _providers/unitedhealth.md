@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Unitedhealth Plans Pricing
   plan_count: 1
   slug: unitedhealth-plans-pricing
-random_paper: 44
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Unitedhealth Rate Limits
@@ -210,8 +210,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 34.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png
 security:

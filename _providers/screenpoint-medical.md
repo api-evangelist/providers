@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'ScreenPoint Medical is profiled on the [APIs.io](https://apis.io/) ne
 
 
   ScreenPoint Medical''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 58
+random_paper: 37
 score:
   band: emerging
   composite: 15.1
@@ -96,8 +96,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

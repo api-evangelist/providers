@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Cheerio implements a subset of core jQuery designed for the server. It parses markup into a traversable, manipulable DOM-like data structure and exposes a familiar jQuery-style API for selecting eleme
@@ -131,7 +131,7 @@ plans:
 - name: Cheerio Plans Pricing
   plan_count: 3
   slug: cheerio-plans-pricing
-random_paper: 70
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Cheerio Rate Limits
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 23.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheerio/refs/heads/main/screenshots/cheerio-2026-06-20T174246.png
 security:

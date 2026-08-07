@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for syncing customers (multi-ID), purchases, products, categories, branches, coupons, benefits, points, user events, custom attributes, abandoned carts, blacklists, segment exports, and integ
@@ -140,7 +140,7 @@ overview: 'WoowUp publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   WoowUp''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 24
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Woowup Rate Limits
@@ -159,8 +159,8 @@ score:
   previous_composite: 31.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

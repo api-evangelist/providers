@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Blameless is an SRE and incident management platform for reliability, incident resolution, and blameless retrospectives.
@@ -80,7 +80,7 @@ plans:
 - name: Blameless Plans Pricing
   plan_count: 3
   slug: blameless-plans-pricing
-random_paper: 2
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Blameless Rate Limits
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blameless/refs/heads/main/screenshots/blameless-2026-06-20T173342.png
 security:

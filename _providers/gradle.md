@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
@@ -218,7 +218,7 @@ overview: 'Gradle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 53
+random_paper: 58
 score:
   band: strong
   composite: 58.4
@@ -240,8 +240,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
 security:

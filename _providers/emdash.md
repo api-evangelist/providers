@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ overview: 'Emdash is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Emdash''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, signup flow, and 13 more developer resources.'
-random_paper: 56
+random_paper: 61
 score:
   band: emerging
   composite: 24.1
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emdash/refs/heads/main/screenshots/emdash-2026-07-25T213231.png
 security:

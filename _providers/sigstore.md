@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Sigstore Plans Pricing
   plan_count: 1
   slug: sigstore-plans-pricing
-random_paper: 25
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Sigstore Rate Limits
@@ -182,17 +182,17 @@ rules:
     warn: 5
   slug: sigstore-rules
 score:
-  band: thin
-  composite: 41.8
+  band: developing
+  composite: 43.5
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 45.2
+    contract_quality: 51.9
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/screenshots/sigstore-2026-06-20T193917.png
 security:

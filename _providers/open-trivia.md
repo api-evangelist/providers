@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ overview: 'Open Trivia Database publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 16 more developer resources.'
-random_paper: 89
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits
@@ -286,8 +286,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:

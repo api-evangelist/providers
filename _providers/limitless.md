@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Limitless'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, privacy policy, authentication, and 27 more developer resources.'
-random_paper: 32
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Limitless Rate Limits
@@ -217,16 +217,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: 3.5
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 47.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 42.2
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +243,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png
 security:

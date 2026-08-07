@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Cloudevents Plans Pricing
   plan_count: 1
   slug: cloudevents-plans-pricing
-random_paper: 56
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Cloudevents Rate Limits
@@ -246,8 +246,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

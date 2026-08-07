@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Denbury Resources
   url: https://en.wikipedia.org/wiki/Denbury_Resources
-random_paper: 83
+random_paper: 98
 score:
   band: minimal
   composite: 4.3
@@ -95,8 +95,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/screenshots/denbury-resources-2026-06-20T175910.png
 slug: denbury-resources

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Evermore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Evermore''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 14
+random_paper: 78
 score:
   band: minimal
   composite: 10.3
@@ -86,8 +86,8 @@ score:
     regime: Health
     regime_id: health
     score: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evermore/refs/heads/main/screenshots/evermore-2026-07-25T213736.png
 slug: evermore

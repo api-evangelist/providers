@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'Placer publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 61
+random_paper: 66
 rate_limits:
 - limit_count: 7
   name: Placer Rate Limits
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.4
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.6
@@ -204,7 +204,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 48.3
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-03'
+  score: 53.2
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: The core Bolt merchant API. Covers Bolt shopper accounts (profile, addresses, payment methods), merchant configuration and callbacks, order token creation, shipment tracking, transaction authorize/cap
@@ -197,7 +197,7 @@ overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 81
+random_paper: 55
 scopes:
 - name: Bolt Financial Scopes
   scope_count: 4
@@ -206,6 +206,7 @@ scopes:
 score:
   band: strong
   composite: 64.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 69.9
@@ -213,6 +214,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
+  previous_composite: 64.3
   provenance:
     conformance: first-party
     contracts:
@@ -228,8 +230,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Bolt Financial Authentication

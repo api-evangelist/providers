@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: V7 Labs Plans Pricing
   plan_count: 3
   slug: v7-labs-plans-pricing
-random_paper: 66
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: V7 Labs Rate Limits
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

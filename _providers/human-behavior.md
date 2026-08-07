@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ overview: 'Human Behavior is profiled on the [APIs.io](https://apis.io/) network
 
 
   Human Behavior''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 8 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: emerging
   composite: 21.2
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-behavior/refs/heads/main/screenshots/human-behavior-2026-07-25T221646.png
 security:

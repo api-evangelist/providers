@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 10
 common:
@@ -89,7 +89,7 @@ name: Regeneron
 nav: Providers
 network: true
 overview: Regeneron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biotechnology, Healthcare, and Genomics.
-random_paper: 15
+random_paper: 61
 score:
   band: minimal
   composite: 7.2
@@ -108,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron/refs/heads/main/screenshots/regeneron-2026-06-20T192817.png
 security:

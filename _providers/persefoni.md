@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Persefoni's Integration Hub connects the CMAP platform to enterprise systems so emissions-relevant activity data flows in automatically rather than via manual upload. It bundles pre-built connectors f
@@ -112,7 +112,7 @@ plans:
 - name: Persefoni Plans Pricing
   plan_count: 1
   slug: persefoni-plans-pricing
-random_paper: 21
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Persefoni Rate Limits
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 28.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persefoni/refs/heads/main/screenshots/persefoni-2026-06-20T191612.png
 security:

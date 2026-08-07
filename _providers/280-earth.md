@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,10 +78,11 @@ overview: '280 Earth is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   280 Earth''s developer surface includes product news and 10 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: minimal
   composite: 10.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -89,14 +90,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: 280 Earth Domain Security

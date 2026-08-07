@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
@@ -241,7 +241,7 @@ overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 38
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits
@@ -249,6 +249,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.9
@@ -256,12 +257,14 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 57.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Nord Security Authentication

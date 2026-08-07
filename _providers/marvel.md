@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,6 +99,14 @@ common:
   title: ''
   type: Website
   url: https://www.marvel.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/marvel-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/marvel-lifecycle.yml
 created: '2026-03-16'
 description: The Marvel Comics API is a tool for developers to access data from over 70 years of Marvel comics, including characters, series, events, creators, and stories. The API requires authentication via an API key and is available through the Marvel Developer Portal.
 finops:
@@ -107,26 +115,26 @@ finops:
   slug: marvel-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marvel.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-03'
 name: Marvel
 nav: Providers
 network: true
 overview: 'Marvel publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Comics API, Creators API, and 3 more. Tagged areas include Characters, Comics, Creators, Entertainment, and Events.
 
 
-  Marvel''s developer surface includes authentication, developer portal, signup flow, documentation, and 5 more developer resources.'
+  Marvel''s developer surface includes authentication, developer portal, signup flow, documentation, and 7 more developer resources.'
 plans:
 - name: Marvel Plans Pricing
   plan_count: 3
   slug: marvel-plans-pricing
-random_paper: 77
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Marvel Rate Limits
   slug: marvel-rate-limits
 score:
   band: thin
-  composite: 40.6
+  composite: 41.6
   delta: 0.0
   facets:
     commercial_clarity: 50.0
@@ -134,8 +142,8 @@ score:
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 40.6
+    operational_transparency: 39.5
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +151,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

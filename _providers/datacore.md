@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Datacore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datacore''s developer surface includes documentation, support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 75
+random_paper: 44
 score:
   band: emerging
   composite: 15.6
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 15.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacore/refs/heads/main/screenshots/datacore-2026-07-25T211310.png
 security:

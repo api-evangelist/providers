@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +119,7 @@ overview: 'Altimate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Altimate''s developer surface includes documentation, engineering blog, pricing, signup flow, support, CLI, changelog, and 11 more developer resources.'
-random_paper: 89
+random_paper: 58
 score:
   band: thin
   composite: 28.1
@@ -135,8 +135,8 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate/refs/heads/main/screenshots/altimate-2026-07-25T195830.png
 security:

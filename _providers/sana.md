@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-03'
+  score: 37.6
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: The Assignments API from Sana — 1 operation(s) for assignments.
@@ -170,7 +170,7 @@ overview: 'Sana publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 16 more developer resources.'
-random_paper: 39
+random_paper: 80
 scopes:
 - name: Sana Scopes
   scope_count: 2
@@ -197,8 +197,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: API information and health
@@ -133,7 +133,7 @@ overview: 'MetaDAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   MetaDAO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 66
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.8
@@ -149,7 +149,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 33.3
+  previous_composite: 35.6
   provenance:
     conformance: first-party
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

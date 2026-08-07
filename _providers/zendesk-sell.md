@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ overview: 'Zendesk Sell publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zendesk Sell''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 93
+random_paper: 103
 scopes:
 - name: Zendesk Sell Scopes
   scope_count: 2
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:

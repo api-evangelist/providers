@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -510,7 +510,7 @@ plans:
 - name: Interswitch Plans Pricing
   plan_count: 5
   slug: interswitch-plans-pricing
-random_paper: 64
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Interswitch Rate Limits
@@ -557,8 +557,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
 security:

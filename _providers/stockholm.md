@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -185,7 +185,7 @@ plans:
 - name: Stockholm Plans Pricing
   plan_count: 2
   slug: stockholm-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Stockholm Rate Limits
@@ -231,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png
 security:

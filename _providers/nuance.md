@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: 'Automatic Speech Recognition as a Service — convert speech to text in real time over a gRPC streaming API (Recognizer service), with wordsets, training and ForgetMe operations. Secured with OAuth 2.0 '
@@ -128,7 +128,7 @@ overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 10 more developer resources.'
-random_paper: 64
+random_paper: 69
 score:
   band: emerging
   composite: 24.9
@@ -150,8 +150,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,10 +65,11 @@ name: Callisto Media
 nav: Providers
 network: true
 overview: Callisto Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Publishing, Book Publishing, Educational Publishing, and Children's Books.
-random_paper: 86
+random_paper: 60
 score:
   band: minimal
   composite: 6.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -76,8 +77,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 6.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Callisto Media Domain Security

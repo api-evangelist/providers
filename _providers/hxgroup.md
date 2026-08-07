@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Hexing Electrical Co., Ltd.
 nav: Providers
 network: true
 overview: Hexing Electrical Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Smart Grid, Smart Metering, and AMI.
-random_paper: 21
+random_paper: 103
 score:
   band: minimal
   composite: 6.1
@@ -71,8 +71,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hxgroup/refs/heads/main/screenshots/hxgroup-2026-07-25T221804.png
 security:

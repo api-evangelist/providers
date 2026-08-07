@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: HealthSouth is now Encompass Health
   url: https://www.beckershospitalreview.com/hospital-management-administration/healthsouth-is-now-encompass-health/
-random_paper: 53
+random_paper: 63
 score:
   band: minimal
   composite: 7.9
@@ -123,8 +123,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsouth/refs/heads/main/screenshots/healthsouth-2026-06-20T182602.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: PrisonDB is a project that aims to provide information and tools to help folks gain access to data about prisons, jails, immigrant detention centers and other correctional institutions in the United S
@@ -57,7 +57,7 @@ plans:
 - name: Prisondb Plans Pricing
   plan_count: 3
   slug: prisondb-plans-pricing
-random_paper: 10
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Prisondb Rate Limits
@@ -80,8 +80,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisondb/refs/heads/main/screenshots/prisondb-2026-06-20T192119.png
 slug: prisondb

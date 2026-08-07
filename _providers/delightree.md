@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Delightree is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Delightree''s developer surface includes documentation, support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 8
+random_paper: 36
 score:
   band: emerging
   composite: 18.3
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delightree/refs/heads/main/screenshots/delightree-2026-07-25T211647.png
 security:

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-03'
+  score: 50.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'Salsify publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 3
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Salsify Rate Limits
@@ -227,6 +227,7 @@ scopes:
 score:
   band: strong
   composite: 60.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.7
@@ -234,6 +235,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,8 +246,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Salsify Authentication

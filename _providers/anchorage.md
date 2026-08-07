@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-03'
+  score: 66.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ overview: 'Anchorage Digital publishes 28 APIs on the [APIs.io](https://apis.io/
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 25 more developer resources.'
-random_paper: 81
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
@@ -293,7 +293,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 73.1
@@ -301,7 +301,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 53.7
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +318,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:

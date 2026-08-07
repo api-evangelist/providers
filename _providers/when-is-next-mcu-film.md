@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Upcoming MCU film information
@@ -52,7 +52,7 @@ name: When is next MCU film
 nav: Providers
 network: true
 overview: When is next MCU film publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 35
+random_paper: 109
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/when-is-next-mcu-film/refs/heads/main/screenshots/when-is-next-mcu-film-2026-06-20T201432.png
 slug: when-is-next-mcu-film

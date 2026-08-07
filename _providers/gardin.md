@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-03'
+  score: 40.5
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -165,7 +165,7 @@ overview: 'Gardin publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Gardin''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 59
+random_paper: 64
 scopes:
 - name: Gardin Scopes
   scope_count: 11
@@ -186,8 +186,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/screenshots/gardin-2026-07-25T215444.png
 security:

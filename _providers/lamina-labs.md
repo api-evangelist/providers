@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Lamina Labs'' developer surface includes documentation, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Lamina Labs Rate Limits
@@ -148,7 +148,7 @@ scopes:
 score:
   band: emerging
   composite: 22.4
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -156,14 +156,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 19.7
+  previous_composite: 22.4
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

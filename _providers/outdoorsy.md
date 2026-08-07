@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -164,21 +164,23 @@ overview: 'Outdoorsy publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 66
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Outdoorsy Rate Limits
   slug: outdoorsy-rate-limits
 score:
-  band: thin
-  composite: 41.2
+  band: developing
+  composite: 43.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 40.7
     developer_ergonomics: 66.8
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 26.3
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +197,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Outdoorsy Authentication

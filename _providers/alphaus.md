@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -209,7 +209,7 @@ overview: 'Alphaus publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 20 more developer resources.'
-random_paper: 85
+random_paper: 72
 scopes:
 - name: Alphaus Scopes
   scope_count: 1
@@ -217,16 +217,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 42.1
+  composite: 44.1
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 40.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 42.1
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:

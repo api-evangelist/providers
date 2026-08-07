@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-03'
+  score: 41.7
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -210,7 +210,7 @@ overview: 'IESO publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   IESO''s developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 52
+random_paper: 93
 scopes:
 - name: Ieso Scopes
   scope_count: 7
@@ -238,8 +238,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

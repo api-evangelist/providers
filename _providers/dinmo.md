@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -132,7 +132,7 @@ overview: 'DinMo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   DinMo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 13 more developer resources.'
-random_paper: 60
+random_paper: 83
 score:
   band: thin
   composite: 30.6
@@ -147,8 +147,8 @@ score:
   previous_composite: 30.6
   provenance:
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png
 security:

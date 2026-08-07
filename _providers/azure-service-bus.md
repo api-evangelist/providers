@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 3
   slug: azure-service-bus-plans-pricing
-random_paper: 14
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Azure Service Bus Rate Limits
@@ -308,8 +308,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:

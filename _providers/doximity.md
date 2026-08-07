@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -191,7 +191,7 @@ overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 32
+random_paper: 96
 rate_limits:
 - limit_count: 1
   name: Doximity Rate Limits
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 53.5
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.5
@@ -212,7 +212,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,8 +229,8 @@ score:
     regime: Health
     regime_id: health
     score: 72.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:

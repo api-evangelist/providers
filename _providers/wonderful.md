@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Wonderful is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wonderful''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 32
+random_paper: 78
 score:
   band: minimal
   composite: 10.0
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

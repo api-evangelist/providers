@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-03'
+  score: 46.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that pipes a Jam's recording, console logs, network requests, user events, transcript, and metadata into AI coding tools (Claude, Cursor, VS Code). OAuth2 (PKCE) o
@@ -187,7 +187,7 @@ overview: 'Jam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Jam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 25 more developer resources.'
-random_paper: 27
+random_paper: 86
 scopes:
 - name: Jam Scopes
   scope_count: 2
@@ -209,8 +209,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/screenshots/jam-2026-07-25T223045.png
 security:

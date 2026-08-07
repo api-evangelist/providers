@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Image generation with query string
@@ -52,7 +52,7 @@ name: Bruzu
 nav: Providers
 network: true
 overview: Bruzu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 93
+random_paper: 3
 score:
   band: minimal
   composite: 5.7
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: bruzu
 tags:

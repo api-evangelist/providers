@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ overview: 'Grandhood is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Grandhood''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 46
 score:
   band: emerging
   composite: 15.8
@@ -99,8 +99,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grandhood/refs/heads/main/screenshots/grandhood-2026-07-25T220222.png
 security:

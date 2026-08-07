@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -136,7 +136,7 @@ overview: 'CentralReach publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   CentralReach''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 25
+random_paper: 17
 scopes:
 - name: Centralreach Scopes
   scope_count: 4
@@ -162,8 +162,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/screenshots/centralreach-2026-07-25T204931.png
 security:

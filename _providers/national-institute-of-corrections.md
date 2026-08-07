@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: National Institute of Corrections
 nav: Providers
 network: true
 overview: National Institute of Corrections is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal Government, and Justice.
-random_paper: 73
+random_paper: 8
 score:
   band: minimal
   composite: 4.1
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-corrections/refs/heads/main/screenshots/national-institute-of-corrections-2026-06-20T190025.png
 security:

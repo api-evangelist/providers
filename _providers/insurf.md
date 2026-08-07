@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -115,7 +115,7 @@ overview: 'Insurf is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Insurf''s developer surface includes documentation, changelog, support, and 15 more developer resources.'
-random_paper: 93
+random_paper: 98
 score:
   band: emerging
   composite: 25.5
@@ -134,8 +134,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurf/refs/heads/main/screenshots/insurf-2026-07-25T222627.png
 security:

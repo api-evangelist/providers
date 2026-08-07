@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Caya is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Caya''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 34
+random_paper: 75
 score:
   band: emerging
   composite: 18.0
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caya/refs/heads/main/screenshots/caya-2026-07-25T204819.png
 security:

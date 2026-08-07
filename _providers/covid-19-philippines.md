@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Unofficial Covid-19 Web API for Philippines from data collected by DOH
@@ -52,7 +52,7 @@ name: Covid-19 Philippines
 nav: Providers
 network: true
 overview: Covid-19 Philippines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 18
+random_paper: 110
 score:
   band: minimal
   composite: 4.3
@@ -71,8 +71,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-philippines/refs/heads/main/screenshots/covid-19-philippines-2026-06-20T175138.png
 slug: covid-19-philippines

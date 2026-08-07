@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 11
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits
@@ -219,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:

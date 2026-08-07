@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Biden Administration Actions on AI
   url: https://www.epi.org/database-of-biden-administration-actions-on-ai/
-random_paper: 79
+random_paper: 84
 score:
   band: minimal
   composite: 5.6
@@ -95,8 +95,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harris/refs/heads/main/screenshots/harris-2026-06-20T182519.png
 security:

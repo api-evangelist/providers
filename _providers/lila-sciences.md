@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'Lila Sciences is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lila Sciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 73
+random_paper: 65
 score:
   band: minimal
   composite: 12.6
@@ -115,8 +115,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lila-sciences/refs/heads/main/screenshots/lila-sciences-2026-07-25T225152.png
 security:

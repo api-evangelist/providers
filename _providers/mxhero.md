@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: AI email knowledge-recovery service. Captured company email is optimized and stored in an isolated per-tenant vector database, then exposed to AI agents through an official MCP server (email_search to
@@ -112,7 +112,7 @@ overview: 'mxHero publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   mxHero''s developer surface includes documentation, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 89
+random_paper: 94
 score:
   band: emerging
   composite: 21.9
@@ -128,8 +128,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

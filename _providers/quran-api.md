@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Free Quran API Service with 90+ different languages and 400+ translations
@@ -52,7 +52,7 @@ name: Quran-api
 nav: Providers
 network: true
 overview: Quran-api publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 55
+random_paper: 6
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quran-api/refs/heads/main/screenshots/quran-api-2026-06-20T192451.png
 slug: quran-api

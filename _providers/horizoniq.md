@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -195,7 +195,7 @@ overview: 'HorizonIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   HorizonIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 45
+random_paper: 91
 score:
   band: developing
   composite: 48.8
@@ -218,8 +218,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
 security:

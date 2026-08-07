@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for the Polymer embedded analytics platform. Manage workspaces and users, connect and sync data sources (Snowflake, BigQuery, uploads), create and update datasets, compose boards from visuali
@@ -152,7 +152,7 @@ overview: 'Polymer publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Polymer''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 16
+random_paper: 98
 score:
   band: thin
   composite: 33.7
@@ -168,8 +168,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

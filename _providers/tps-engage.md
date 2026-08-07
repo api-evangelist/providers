@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Play API from TPS Engage — 1 operation(s) for play.
@@ -106,7 +106,7 @@ overview: 'TPS Engage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 53
+random_paper: 99
 score:
   band: thin
   composite: 37.3
@@ -128,8 +128,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 10
 common:
@@ -99,7 +99,7 @@ name: Bloomingdale's
 nav: Providers
 network: true
 overview: Bloomingdale's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, Department Store, and Luxury.
-random_paper: 46
+random_paper: 20
 score:
   band: minimal
   composite: 9.9
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomingdales/refs/heads/main/screenshots/bloomingdales-2026-06-20T173522.png
 security:

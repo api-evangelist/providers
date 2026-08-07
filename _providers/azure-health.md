@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ plans:
 - name: Microsoft Azure Health Data Services Plans
   plan_count: 5
   slug: microsoft-azure-health-data-services-plans
-random_paper: 86
+random_paper: 96
 rate_limits:
 - limit_count: 9
   name: Microsoft Azure Health Data Services Rate Limits
@@ -311,16 +311,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 51.8
+  composite: 53.0
   delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 45.2
+    contract_quality: 51.1
     developer_ergonomics: 37.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 51.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Partner-facing data API from Dott (formerly TIER), providing vehicle and availability data (GBFS-style) to authorized partners. Access requires a per-partner API Key issued through Dott's registration
@@ -80,7 +80,7 @@ overview: 'Tier publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tier''s developer surface includes engineering blog, support, authentication, and 5 more developer resources.'
-random_paper: 56
+random_paper: 97
 score:
   band: emerging
   composite: 15.3
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

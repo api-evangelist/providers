@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -214,10 +214,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/mobileapi-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: vocabulary/mobileapi-dev-vocabulary.yml
 - group: commercial
   title: ''
   type: Plans
@@ -408,12 +404,12 @@ overview: 'MobileAPI.dev publishes 9 APIs on the [APIs.io](https://apis.io/) net
   The MobileAPI.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MobileAPI.dev''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 26 more developer resources.'
+  MobileAPI.dev''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 25 more developer resources.'
 plans:
 - name: Mobileapi Dev Plans Pricing
   plan_count: 3
   slug: mobileapi-dev-plans-pricing
-random_paper: 75
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Mobileapi Dev Rate Limits
@@ -437,16 +433,16 @@ rules:
   slug: mobileapi-rules
 score:
   band: strong
-  composite: 64.0
+  composite: 62.7
   delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.5
     developer_ergonomics: 39.1
     discoverability: 68.5
-    governance: 68.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.0
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
@@ -454,8 +450,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/screenshots/mobileapi-dev-2026-06-20T185631.png
 security:

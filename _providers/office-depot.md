@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: The ODP Corporation Expands Collaboration with Microsoft to ...
   url: https://newsroom.officedepot.com/news-releases/news-release-details/odp-corporation-expands-collaboration-microsoft-leverage-power
-random_paper: 65
+random_paper: 75
 score:
   band: minimal
   composite: 3.8
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 3.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-depot/refs/heads/main/screenshots/office-depot-2026-06-20T190628.png
 security:

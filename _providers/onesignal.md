@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Apps API from OneSignal — 21 operation(s) for apps.
@@ -113,7 +113,7 @@ plans:
 - name: Onesignal Plans Pricing
   plan_count: 1
   slug: onesignal-plans-pricing
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Onesignal Rate Limits
@@ -142,8 +142,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

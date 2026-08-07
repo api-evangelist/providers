@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Plans
   plan_count: 8
   slug: plans
-random_paper: 76
+random_paper: 68
 rate_limits:
 - limit_count: 11
   name: Rate Limits
@@ -184,7 +184,7 @@ rules:
 score:
   band: developing
   composite: 47.7
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.9
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 44.2
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +206,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 33.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png
 security:

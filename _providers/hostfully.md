@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
@@ -180,7 +180,7 @@ overview: 'Hostfully publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hostfully''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 52
+random_paper: 98
 score:
   band: emerging
   composite: 20.3
@@ -193,8 +193,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/screenshots/hostfully-2026-06-20T182842.png
 security:

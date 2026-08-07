@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Greenbrier Cos. (GBX,N) reports earnings for Qtr to Aug 31
   url: https://www.nytimes.com/1994/11/11/business/greenbrier-cos-gbxn-reports-earnings-for-qtr-to-aug-31.html
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 5.4
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/screenshots/greenbrier-cos-2026-06-20T182356.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-03'
+  score: 54.3
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -192,7 +192,7 @@ overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Spreadshirt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 53
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Spreadshirt Rate Limits
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.9
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 70.8
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 46.1
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

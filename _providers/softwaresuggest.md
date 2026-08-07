@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -140,7 +140,7 @@ plans:
 - name: Softwaresuggest Plans Pricing
   plan_count: 3
   slug: softwaresuggest-plans-pricing
-random_paper: 30
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Softwaresuggest Rate Limits
@@ -166,8 +166,8 @@ score:
     governance: 58.3
     operational_transparency: 31.6
   previous_composite: 37.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

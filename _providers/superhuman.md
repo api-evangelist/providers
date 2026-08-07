@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -115,7 +115,7 @@ overview: 'Superhuman is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Superhuman''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 51
+random_paper: 79
 score:
   band: emerging
   composite: 27.0
@@ -130,8 +130,8 @@ score:
   previous_composite: 27.0
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

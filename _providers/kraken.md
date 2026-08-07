@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1414,7 +1414,7 @@ plans:
 - name: Kraken Plans Pricing
   plan_count: 8
   slug: kraken-plans-pricing
-random_paper: 66
+random_paper: 71
 rate_limits:
 - limit_count: 16
   name: Kraken Rate Limits
@@ -1471,8 +1471,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 83.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

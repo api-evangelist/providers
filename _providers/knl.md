@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ overview: 'KNL is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   KNL''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 40
+random_paper: 99
 score:
   band: emerging
   composite: 16.1
@@ -103,8 +103,8 @@ score:
   previous_composite: 16.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knl/refs/heads/main/screenshots/knl-2026-07-25T224001.png
 security:

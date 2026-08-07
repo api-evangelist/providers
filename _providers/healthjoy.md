@@ -1,0 +1,134 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-06'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/healthjoy-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.healthjoy.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.healthjoy.com/resources
+- group: operate
+  title: ''
+  type: Support
+  url: https://healthjoymemberservices.zendesk.com/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://www.healthjoy.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.healthjoy.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.healthjoy.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/healthjoy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.healthjoy.com/privacy-security
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/healthjoy-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/healthjoy-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/healthjoy-conformance.yml
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/healthjoy_stock/
+created: '2026-08-04'
+description: HealthJoy is a Chicago-based employee-benefits engagement, healthcare navigation, and cost-containment platform founded in 2014, which markets itself as a "Benefits Operating System" (BOS) for employers and benefit consultants. It unifies fragmented health benefits into a single member-facing app combining Joy AI — a 24/7 AI assistant trained on each client's benefits plan — with a licensed human healthcare concierge team, provider search with cost scores and quality ratings, prescription savings, medical bill review, and an intelligent steerage engine that routes members to high-value, fair-priced care. Employers and consultants get a client dashboard reporting engagement, utilization, savings, and ROI. HealthJoy reports 1,800+ client companies and 1.25M+ members. It publishes no public developer API, developer portal, or machine-readable API contract; integrations with benefits-administration and TPA vendors (e.g. Employee Navigator) are delivered as managed eligibility/census
+  data feeds set up by its implementation team rather than as a self-serve API.
+image: https://framerusercontent.com/images/V67oySpbzNWmW6h5NeKzMj7v8.png
+layout: provider
+modified: '2026-08-04'
+name: HealthJoy
+nav: Providers
+network: true
+overview: 'HealthJoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Employee Benefits, and Benefits Administration.
+
+
+  HealthJoy''s developer surface includes engineering blog, support, and 11 more developer resources.'
+random_paper: 64
+score:
+  band: emerging
+  composite: 21.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 5.3
+  previous_composite: 21.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 36.4
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: domain-security
+  name: Healthjoy Domain Security
+  slug: healthjoy-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: healthjoy
+tags:
+- Company
+- Health
+- Healthcare
+- Employee Benefits
+- Benefits Administration
+- Health Insurance
+- Healthcare Navigation
+- Human Resources
+- Insurance
+- Artificial Intelligence
+- HIPAA
+- Cost Containment
+website: https://www.healthjoy.com/
+---

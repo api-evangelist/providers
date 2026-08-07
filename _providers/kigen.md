@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Kigen is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kigen''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 51
+random_paper: 74
 score:
   band: minimal
   composite: 9.5
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 9.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kigen/refs/heads/main/screenshots/kigen-2026-07-25T223726.png
 security:

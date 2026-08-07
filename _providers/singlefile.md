@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-03'
+  score: 43.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'SingleFile publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SingleFile''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 23 more developer resources.'
-random_paper: 13
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Singlefile Rate Limits
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 53.9
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.0
@@ -225,19 +225,19 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 49.8
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

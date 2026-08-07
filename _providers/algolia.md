@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: Core indexing and search API for adding, updating, and deleting records and querying them with typo-tolerant, faceted, geo-aware, and rule-driven search served from globally distributed search nodes (
@@ -130,7 +130,7 @@ plans:
 - name: Algolia Plans Pricing
   plan_count: 4
   slug: algolia-plans-pricing
-random_paper: 64
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Algolia Rate Limits
@@ -147,8 +147,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/screenshots/algolia-2026-06-20T171526.png
 security:

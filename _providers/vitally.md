@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-03'
+  score: 54.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 13
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Vitally Rate Limits
@@ -230,7 +230,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.8
@@ -238,7 +238,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 59.9
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,8 +249,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

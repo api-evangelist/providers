@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Avery Dennison's atma.io adds new ChatGPT and AI ...
   url: https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennisons-atma-io-adds-new-chatgpt-and-ai-features-to-help-manage-billion-of-items-across-its-connected-product-cloud.html
-random_paper: 33
+random_paper: 102
 score:
   band: minimal
   composite: 6.5
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 6.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avery-dennison/refs/heads/main/screenshots/avery-dennison-2026-07-25T202123.png
 security:

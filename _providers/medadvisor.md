@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -190,19 +190,19 @@ overview: 'MedAdvisor publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
-random_paper: 25
+random_paper: 53
 score:
   band: thin
-  composite: 34.7
+  composite: 37.8
   delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 32.3
+    contract_quality: 46.5
     developer_ergonomics: 34.2
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 34.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +219,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Gp Connect Plans
   plan_count: 3
   slug: gp-connect-plans
-random_paper: 56
+random_paper: 102
 rate_limits:
 - limit_count: 3
   name: Gp Connect Rate Limits
@@ -198,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png
 security:

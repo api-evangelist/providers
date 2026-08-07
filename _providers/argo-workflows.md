@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -3964,7 +3964,7 @@ plans:
 - name: Argo Workflows Plans Pricing
   plan_count: 3
   slug: argo-workflows-plans-pricing
-random_paper: 51
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Argo Workflows Rate Limits
@@ -3988,16 +3988,16 @@ rules:
   slug: argo-workflows-spectral-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 51.6
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.0
+    contract_quality: 48.5
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 52.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -4005,8 +4005,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/screenshots/argo-workflows-2026-06-20T172418.png
 security:

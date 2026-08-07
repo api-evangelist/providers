@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, and 9 more developer resources.'
-random_paper: 79
+random_paper: 76
 scopes:
 - name: Sap Successfactors Scopes
   scope_count: 0
@@ -155,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/screenshots/sap-successfactors-2026-06-20T193430.png
 security:

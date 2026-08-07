@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Public REST API on appws.picpay.com that lets merchants charge a PicPay user's wallet from an ecommerce checkout. Creates a payment with a referenceId, returns a payment URL plus a QR code for the buy
@@ -181,7 +181,7 @@ overview: 'PicPay publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   PicPay''s developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 26 more developer resources.'
-random_paper: 76
+random_paper: 81
 score:
   band: emerging
   composite: 19.0
@@ -200,8 +200,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picpay/refs/heads/main/screenshots/picpay-2026-06-20T191659.png
 security:

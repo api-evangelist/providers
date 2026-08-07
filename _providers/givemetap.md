@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -43,6 +43,12 @@ common:
   title: ''
   type: WellKnown
   url: well-known/givemetap-well-known.yml
+coverage:
+  checked: '2026-08-04'
+  detail: consumer physical-products e-commerce brand (Shopify storefront); no developer API surface
+  migrated: true
+  reason: not-a-software-company
+  state: none
 created: '2026-07-17'
 description: GiveMeTap is a UK-based social-enterprise consumer brand that designs and sells reusable, BPA-free stainless-steel and insulated water bottles (500ml and 700ml, plus custom co-branded bottles for businesses). For every bottle sold, GiveMeTap funds five years of clean drinking water for a person in Ghana, giving 20% of its revenue to water projects in Africa; the company reports 116,391 people reached with clean water for life. It operates a direct-to-consumer e-commerce storefront on the Shopify platform. GiveMeTap is a physical-products company with no first-party developer API, developer portal, or public API documentation; it was surfaced as a Y Combinator portfolio lead and added to the API Evangelist network as a stub.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/givemetap.png
@@ -52,7 +58,7 @@ name: Givemetap
 nav: Providers
 network: true
 overview: Givemetap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Products, E-Commerce, Sustainability, and Social Enterprise.
-random_paper: 12
+random_paper: 58
 score:
   band: minimal
   composite: 6.1
@@ -65,8 +71,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

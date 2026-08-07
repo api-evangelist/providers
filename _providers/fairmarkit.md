@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-03'
+  score: 43.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ overview: 'Fairmarkit publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 21
+random_paper: 49
 score:
   band: developing
   composite: 49.8
@@ -248,8 +248,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:

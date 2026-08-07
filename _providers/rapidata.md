@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 55
 apis:
 - description: The Asset API from Rapidata — 3 operation(s) for asset.
@@ -326,7 +326,7 @@ overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 78
+random_paper: 47
 scopes:
 - name: Rapidata Scopes
   scope_count: 9
@@ -353,8 +353,8 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

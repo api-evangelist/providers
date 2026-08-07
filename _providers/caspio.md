@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 69
+random_paper: 74
 score:
   band: thin
   composite: 30.8
@@ -144,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
 security:

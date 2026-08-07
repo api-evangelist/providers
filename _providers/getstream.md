@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -166,7 +166,7 @@ plans:
 - name: Getstream Plans Pricing
   plan_count: 4
   slug: getstream-plans-pricing
-random_paper: 22
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Getstream Rate Limits
@@ -205,8 +205,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:

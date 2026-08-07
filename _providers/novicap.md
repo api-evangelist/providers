@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Confirming (reverse factoring) invoices and payment instructions.
@@ -131,7 +131,7 @@ overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 87
+random_paper: 74
 score:
   band: emerging
   composite: 25.8
@@ -153,8 +153,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

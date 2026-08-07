@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -208,7 +208,7 @@ plans:
 - name: Chase Plans Pricing
   plan_count: 2
   slug: chase-plans-pricing
-random_paper: 41
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Chase Rate Limits
@@ -252,8 +252,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

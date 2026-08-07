@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 1
@@ -210,7 +210,7 @@ overview: 'Lucid publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lucid''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 54
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Lucid Rate Limits
@@ -223,6 +223,7 @@ scopes:
 score:
   band: strong
   composite: 63.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.7
@@ -230,18 +231,20 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 78.9
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 75.0
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Lucid Authentication

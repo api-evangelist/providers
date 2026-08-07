@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: 'Tracks bottles, ingredients, and SKUs with counts, par levels, and variance across the venue''s item catalog. Exposed in the WISK product and apps; not published as a public, self-serve developer API. '
@@ -100,7 +100,7 @@ plans:
 - name: Wisk Ai Plans Pricing
   plan_count: 5
   slug: wisk-ai-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Wisk Ai Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

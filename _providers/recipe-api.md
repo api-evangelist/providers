@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-04'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: B2B Recipe API providing structured recipes with comprehensive nutrition data.
@@ -94,7 +94,7 @@ plans:
 - name: Recipe Api Plans
   plan_count: 4
   slug: recipe-api-plans
-random_paper: 31
+random_paper: 87
 rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
@@ -102,6 +102,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 63.6
@@ -109,6 +110,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 31.6
+  previous_composite: 48.5
   provenance:
     contracts:
       callable: 100.0
@@ -116,8 +118,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-04'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Recipe Api Authentication

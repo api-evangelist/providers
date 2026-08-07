@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -93,23 +93,23 @@ plans:
 - name: Zot Plans Pricing
   plan_count: 1
   slug: zot-plans-pricing
-random_paper: 64
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Zot Rate Limits
   slug: zot-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 24.2
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 42.2
     developer_ergonomics: 0.0
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.7
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -117,8 +117,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/screenshots/zot-2026-06-20T201959.png
 slug: zot

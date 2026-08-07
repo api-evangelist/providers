@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ plans:
 - name: Pusher Plans Pricing
   plan_count: 9
   slug: pusher-plans-pricing
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 9
   name: Pusher Rate Limits
@@ -190,8 +190,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/screenshots/pusher-2026-06-20T192318.png
 security:

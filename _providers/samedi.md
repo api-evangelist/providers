@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OAuth2 / OpenID-Connect secured API to discover bookable resources and book and manage patient appointments for a clinic. Versioned in the URL path (booking v3, auth v2).
@@ -116,7 +116,7 @@ overview: 'samedi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   samedi''s developer surface includes signup flow, authentication, and 15 more developer resources.'
-random_paper: 57
+random_paper: 62
 scopes:
 - name: Samedi Scopes
   scope_count: 10
@@ -142,8 +142,8 @@ score:
     regime: Health
     regime_id: health
     score: 62.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

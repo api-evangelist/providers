@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Kiva Systems (Amazon Robotics since 2012) is profiled on the [APIs.io
 
 
   Kiva Systems (Amazon Robotics since 2012)''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: minimal
   composite: 8.7
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 8.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiva-systems-amazon-robotics-since-2012/refs/heads/main/screenshots/kiva-systems-amazon-robotics-since-2012-2026-07-25T223921.png
 security:

@@ -9,16 +9,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-03'
+  score: 44.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -295,19 +295,19 @@ overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](h
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 34
+random_paper: 39
 score:
   band: developing
-  composite: 49.3
+  composite: 49.6
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.1
+    contract_quality: 55.2
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 49.3
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,8 +324,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

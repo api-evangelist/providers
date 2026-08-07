@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Making Health Care Work Smarter, For Everyone
   url: https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html
-random_paper: 76
+random_paper: 73
 score:
   band: minimal
   composite: 7.5
@@ -102,8 +102,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/screenshots/unitedhealth-group-2026-06-20T200102.png
 security:

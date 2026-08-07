@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Cleardata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cleardata''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 74
+random_paper: 25
 score:
   band: emerging
   composite: 15.8
@@ -98,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleardata/refs/heads/main/screenshots/cleardata-2026-07-25T205539.png
 security:

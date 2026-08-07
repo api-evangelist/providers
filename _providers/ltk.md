@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: LTK's partner/affiliate API served from the rewardStyle Developer Portal, secured with OAuth2 (client-credentials token endpoint at /oauth/token). The full API reference and specification are gated be
@@ -100,7 +100,7 @@ overview: 'LTK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LTK''s developer surface includes signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 46
+random_paper: 105
 score:
   band: emerging
   composite: 21.7
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ltk/refs/heads/main/screenshots/ltk-2026-07-25T225629.png
 security:

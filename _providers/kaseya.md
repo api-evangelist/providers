@@ -9,16 +9,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-03'
+  score: 51.6
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: The Kaseya BMS (Business Management Solution) V2 REST API exposes the professional services automation surface of BMS — tickets, accounts, contacts, contracts, opportunities, projects, timesheets, exp
@@ -215,21 +215,23 @@ overview: 'Kaseya publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Kaseya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, legal docs, and 30 more developer resources.'
-random_paper: 68
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Kaseya Rate Limits
   slug: kaseya-rate-limits
 score:
   band: strong
-  composite: 58.8
+  composite: 58.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.1
+    contract_quality: 54.5
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 86.8
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -239,8 +241,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Kaseya Authentication

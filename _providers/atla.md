@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The SDK API from Atla — 3 operation(s) for sdk.
@@ -132,7 +132,7 @@ overview: 'Atla publishes 1 API on the [APIs.io](https://apis.io/) network: SDK 
 
 
   Atla''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 38
+random_paper: 79
 score:
   band: thin
   composite: 39.6
@@ -154,8 +154,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/screenshots/atla-2026-07-25T201538.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Niagara Open Data, a consistent JSON-over-HTTP interface over a catalog of 529 datasets. Standard actions include package_search, package_show, package_list, organization_list, gro
@@ -84,7 +84,7 @@ plans:
 - name: Niagaraopendata Ca Plans Pricing
   plan_count: 1
   slug: niagaraopendata-ca-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Niagaraopendata Ca Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niagaraopendata-ca/refs/heads/main/screenshots/niagaraopendata-ca-2026-06-20T190319.png
 security:

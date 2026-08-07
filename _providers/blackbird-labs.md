@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Blackbird Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Blackbird Labs'' developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 59
+random_paper: 33
 score:
   band: emerging
   composite: 14.1
@@ -86,8 +86,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird-labs/refs/heads/main/screenshots/blackbird-labs-2026-07-25T203244.png
 security:

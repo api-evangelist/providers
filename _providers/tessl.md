@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -148,7 +148,7 @@ overview: 'Tessl is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tessl''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, changelog, CLI, and 18 more developer resources.'
-random_paper: 80
+random_paper: 103
 score:
   band: thin
   composite: 33.0
@@ -164,8 +164,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

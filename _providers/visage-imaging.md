@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Open API for integrating third-party and customer AI algorithms into the Visage 7 platform and Visage AI Accelerator research server, unifying research and diagnostic imaging. Publicly described as su
@@ -83,7 +83,7 @@ overview: 'Visage Imaging publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Visage Imaging''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 86
+random_paper: 60
 score:
   band: minimal
   composite: 8.1
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'Cloverleaf AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Cloverleaf AI''s developer surface includes signup flow, getting-started guide, support, and 10 more developer resources.'
-random_paper: 71
+random_paper: 63
 score:
   band: emerging
   composite: 20.8
@@ -115,8 +115,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/screenshots/cloverleaf-ai-2026-07-25T205722.png
 security:

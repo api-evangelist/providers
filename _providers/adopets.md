@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
-random_paper: 87
+random_paper: 74
 score:
   band: thin
   composite: 34.5
@@ -188,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:

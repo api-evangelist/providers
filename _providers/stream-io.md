@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -159,7 +159,7 @@ plans:
 - name: Stream Io Plans Pricing
   plan_count: 8
   slug: stream-io-plans-pricing
-random_paper: 58
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Stream Io Rate Limits
@@ -198,8 +198,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:

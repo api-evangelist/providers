@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Very proud to share this story from our customer Helmerich ...
   url: https://www.linkedin.com/posts/botanosman_very-proud-to-share-this-story-from-our-customer-activity-7391856907306803200-2Kzu
-random_paper: 78
+random_paper: 75
 score:
   band: minimal
   composite: 2.6
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: helmerich-and-payne
 website: https://www.helmerich-and-payne.com

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Apache Sqoop provides a command-line interface for bulk data transfer between Hadoop and relational databases. Commands include sqoop-import for loading data into HDFS or Hive, sqoop-export for writin
@@ -100,7 +100,7 @@ plans:
 - name: Apache Sqoop Plans Pricing
   plan_count: 3
   slug: apache-sqoop-plans-pricing
-random_paper: 77
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Apache Sqoop Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/screenshots/apache-sqoop-2026-06-20T172147.png
 security:

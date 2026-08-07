@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -112,7 +112,7 @@ overview: 'Meals In Minutes, MIM is profiled on the [APIs.io](https://apis.io/) 
 
 
   Meals In Minutes, MIM''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 76
+random_paper: 55
 scopes:
 - name: Meals In Minutes Mim Scopes
   scope_count: 4
@@ -134,8 +134,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

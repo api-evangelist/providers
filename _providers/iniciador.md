@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Iniciador's regulated Open Finance Brasil API surface for payment initiation and financial data sharing (accounts, credit cards, loans, financings, investments, exchanges, and more), authorized via FA
@@ -136,7 +136,7 @@ overview: 'Iniciador publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Iniciador''s developer surface includes documentation, API reference, authentication, YouTube channel, and 18 more developer resources.'
-random_paper: 91
+random_paper: 42
 scopes:
 - name: Iniciador Scopes
   scope_count: 16
@@ -162,8 +162,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png
 security:

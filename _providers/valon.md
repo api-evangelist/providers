@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -144,7 +144,7 @@ overview: 'Valon is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Valon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 69
+random_paper: 92
 score:
   band: thin
   composite: 35.1
@@ -166,8 +166,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

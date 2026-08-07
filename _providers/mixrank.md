@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Mixrank Plans
   plan_count: 6
   slug: mixrank-plans
-random_paper: 2
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Mixrank Rate Limits
@@ -213,7 +213,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.2
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 55.0
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 51.1
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,8 +232,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

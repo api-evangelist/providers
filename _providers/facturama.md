@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for generating, stamping, downloading, and cancelling CFDI 4.0 electronic invoices, payroll receipts, payment complements, and related Mexican tax documents, plus management of clients, produ
@@ -137,7 +137,7 @@ overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Facturama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 93
+random_paper: 44
 score:
   band: thin
   composite: 32.6
@@ -152,8 +152,8 @@ score:
   previous_composite: 32.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/screenshots/facturama-2026-07-25T214144.png
 security:

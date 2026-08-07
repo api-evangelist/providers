@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -117,7 +117,7 @@ plans:
 - name: Govee Plans Pricing
   plan_count: 2
   slug: govee-plans-pricing
-random_paper: 59
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Govee Rate Limits
@@ -141,8 +141,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/screenshots/govee-2026-07-25T220132.png
 security:

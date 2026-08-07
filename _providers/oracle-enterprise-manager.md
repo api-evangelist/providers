@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -887,7 +887,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -930,8 +930,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

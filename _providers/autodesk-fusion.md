@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -252,7 +252,7 @@ plans:
 - name: Autodesk Fusion Plans Pricing
   plan_count: 5
   slug: autodesk-fusion-plans-pricing
-random_paper: 49
+random_paper: 100
 rate_limits:
 - limit_count: 2
   name: Autodesk Fusion Rate Limits
@@ -265,7 +265,7 @@ scopes:
 score:
   band: thin
   composite: 39.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.2
@@ -273,7 +273,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.9
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png
 security:

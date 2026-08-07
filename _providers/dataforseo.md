@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -197,7 +197,7 @@ plans:
 - name: Dataforseo Plans Pricing
   plan_count: 0
   slug: dataforseo-plans-pricing
-random_paper: 19
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Dataforseo Rate Limits
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png
 security:

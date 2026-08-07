@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-03'
+  score: 45.7
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The management REST API served by every InfiniBox and InfiniBox SSA array on its own management interface at https://<array>/api/rest. It exposes system health and readiness, capacity and statistics, '
@@ -149,10 +149,11 @@ overview: 'Infinidat publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Infinidat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 19 more developer resources.'
-random_paper: 0
+random_paper: 46
 score:
   band: developing
   composite: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 66.7
@@ -160,6 +161,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 46.2
   provenance:
     conformance: derived
     contracts:
@@ -169,8 +171,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Infinidat Authentication

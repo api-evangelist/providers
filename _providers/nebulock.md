@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -174,7 +174,7 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 91
+random_paper: 60
 score:
   band: thin
   composite: 36.4
@@ -197,8 +197,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

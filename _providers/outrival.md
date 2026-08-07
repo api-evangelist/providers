@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-03'
+  score: 40.3
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -258,7 +258,7 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 31
+random_paper: 95
 score:
   band: developing
   composite: 49.8
@@ -287,8 +287,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Current and historical MLB statistics
@@ -52,7 +52,7 @@ name: MLB Records and Stats
 nav: Providers
 network: true
 overview: MLB Records and Stats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 75
+random_paper: 36
 score:
   band: minimal
   composite: 5.7
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlb-records-and-stats/refs/heads/main/screenshots/mlb-records-and-stats-2026-06-20T185624.png
 slug: mlb-records-and-stats

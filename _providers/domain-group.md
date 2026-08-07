@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-03'
+  score: 53.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Domain Group''s developer surface includes authentication, documentation, API reference, signup flow, getting-started guide, sandbox, support, and 44 more developer resources.'
-random_paper: 94
+random_paper: 104
 scopes:
 - name: Domain Group Scopes
   scope_count: 25
@@ -329,8 +329,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png
 security:

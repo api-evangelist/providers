@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Chariot Defense
 nav: Providers
 network: true
 overview: Chariot Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Energy, and Power Systems.
-random_paper: 1
+random_paper: 52
 score:
   band: minimal
   composite: 5.5
@@ -75,8 +75,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot-defense/refs/heads/main/screenshots/chariot-defense-2026-07-25T205059.png
 security:

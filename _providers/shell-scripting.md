@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: A static analysis tool for shell scripts that provides API access for linting and validation.
@@ -64,7 +64,7 @@ plans:
 - name: Shell Scripting Plans Pricing
   plan_count: 3
   slug: shell-scripting-plans-pricing
-random_paper: 40
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Shell Scripting Rate Limits
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 25.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell-scripting/refs/heads/main/screenshots/shell-scripting-2026-06-20T193800.png
 slug: shell-scripting

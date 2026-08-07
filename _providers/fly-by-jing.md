@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The live machine surface on the flybyjing.com domain: a Shopify Storefront MCP server for agentic product search and cart/checkout, plus a Shopify Customer Account API secured with OAuth 2.0 / OpenID '
@@ -116,7 +116,7 @@ overview: 'Fly By Jing publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Fly By Jing''s developer surface includes engineering blog, support, pricing, authentication, and 12 more developer resources.'
-random_paper: 19
+random_paper: 47
 scopes:
 - name: Fly By Jing Scopes
   scope_count: 0
@@ -136,8 +136,8 @@ score:
   previous_composite: 22.1
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

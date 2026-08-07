@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Federal Highway Administration provides stewardship over the Nation's highways, bridges and tunnels.
@@ -69,7 +69,7 @@ plans:
 - name: Federal Highway Administration Plans Pricing
   plan_count: 3
   slug: federal-highway-administration-plans-pricing
-random_paper: 36
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Federal Highway Administration Rate Limits
@@ -86,8 +86,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/screenshots/federal-highway-administration-2026-06-20T181115.png
 security:

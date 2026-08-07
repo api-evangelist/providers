@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'Kadena publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
-random_paper: 42
+random_paper: 47
 score:
   band: thin
   composite: 36.9
@@ -222,8 +222,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/screenshots/kadena-2026-07-25T223401.png
 security:

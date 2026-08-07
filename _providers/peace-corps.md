@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API for accessing Peace Corps volunteer statistics, country programs, and development data.
@@ -73,7 +73,7 @@ plans:
 - name: Peace Corps Plans Pricing
   plan_count: 3
   slug: peace-corps-plans-pricing
-random_paper: 61
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Peace Corps Rate Limits
@@ -96,8 +96,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peace-corps/refs/heads/main/screenshots/peace-corps-2026-06-20T191524.png
 security:

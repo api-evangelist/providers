@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for City of Milan Open Data, a consistent JSON-over-HTTP interface over a catalog of 2,594 datasets. Standard actions include package_search, package_show, package_list, organization_l
@@ -84,7 +84,7 @@ plans:
 - name: Dati Comune Milano It Plans Pricing
   plan_count: 1
   slug: dati-comune-milano-it-plans-pricing
-random_paper: 66
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Dati Comune Milano It Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/screenshots/dati-comune-milano-it-2026-06-20T175655.png
 security:

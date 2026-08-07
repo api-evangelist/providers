@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) to manage programmatic advertising objects — advertisers, insertion orders, line items, packages and creatives. OAuth2 client-credentia
@@ -112,7 +112,7 @@ overview: 'Tremor Video publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Tremor Video''s developer surface includes documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 20.4
@@ -128,8 +128,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

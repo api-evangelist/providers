@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Searchable attack surface database of the entire internet
@@ -60,7 +60,7 @@ name: FullHunt
 nav: Providers
 network: true
 overview: FullHunt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 27
+random_paper: 91
 score:
   band: minimal
   composite: 5.7
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullhunt/refs/heads/main/screenshots/fullhunt-2026-06-20T181609.png
 security:

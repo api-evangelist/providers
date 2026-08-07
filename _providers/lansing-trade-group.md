@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: The Andersons, Inc. Completes Acquisition of Lansing ...
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-completes-acquisition-of-lansing-trade-group-llc-announces-inducement-grants-under-nasdaq-listing-rule-5635-300771803.html
-random_paper: 23
+random_paper: 2
 score:
   band: minimal
   composite: 5.5
@@ -102,8 +102,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lansing-trade-group/refs/heads/main/screenshots/lansing-trade-group-2026-06-20T184313.png
 security:

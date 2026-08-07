@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for data.gov.hr, a consistent JSON-over-HTTP interface over a catalog of roughly 3,858 datasets. Standard actions include package_search, package_show, package_list, organization_list,
@@ -63,7 +63,7 @@ overview: 'data.gov.hr publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   data.gov.hr''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 5
+random_paper: 33
 score:
   band: minimal
   composite: 9.0
@@ -82,8 +82,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-hr/refs/heads/main/screenshots/data-gov-hr-2026-07-25T211249.png
 security:

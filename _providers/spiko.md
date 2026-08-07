@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-03'
+  score: 51.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -284,7 +284,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 75
+random_paper: 98
 scopes:
 - name: Spiko Scopes
   scope_count: 3
@@ -318,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

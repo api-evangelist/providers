@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
-random_paper: 8
+random_paper: 77
 scopes:
 - name: Shawbrook Bank Scopes
   scope_count: 3
@@ -147,16 +147,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.8
+  composite: 34.6
   delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 59.7
+    contract_quality: 54.1
     developer_ergonomics: 19.0
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -172,8 +172,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-03'
+  score: 50.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ overview: 'Blockchain.com publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 73
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Blockchain.Com Rate Limits
@@ -234,14 +234,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 60.9
+  composite: 59.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.4
+    contract_quality: 63.6
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +260,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Blockchain.Com Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -210,7 +210,7 @@ plans:
 - name: Tuya Plans Pricing
   plan_count: 1
   slug: tuya-plans-pricing
-random_paper: 71
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Tuya Rate Limits
@@ -251,8 +251,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/screenshots/tuya-2026-06-20T195841.png
 security:

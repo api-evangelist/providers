@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ overview: 'Mutiny is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mutiny''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: emerging
   composite: 19.5
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

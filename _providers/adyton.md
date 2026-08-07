@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ overview: 'Adyton is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Adyton''s developer surface includes engineering blog, support, authentication, and 6 more developer resources.'
-random_paper: 85
+random_paper: 90
 score:
   band: emerging
   composite: 21.1
@@ -101,8 +101,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyton/refs/heads/main/screenshots/adyton-2026-07-25T181712.png
 security:

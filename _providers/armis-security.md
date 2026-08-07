@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ overview: 'Armis Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Armis Security''s developer surface includes documentation, engineering blog, CLI, authentication, and 10 more developer resources.'
-random_paper: 48
+random_paper: 4
 score:
   band: emerging
   composite: 19.0
@@ -120,8 +120,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armis-security/refs/heads/main/screenshots/armis-security-2026-07-25T201219.png
 security:

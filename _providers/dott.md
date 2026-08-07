@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Auto-discovery of available feeds and cities
@@ -168,7 +168,7 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 16 more developer resources.'
-random_paper: 63
+random_paper: 104
 score:
   band: thin
   composite: 39.1
@@ -190,8 +190,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

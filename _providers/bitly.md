@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Bitly publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bitly''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 73
+random_paper: 96
 score:
   band: thin
   composite: 37.3
@@ -178,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/screenshots/bitly-2026-06-20T173312.png
 security:

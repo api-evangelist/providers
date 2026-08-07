@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: It was designed to solve the problem of calculating the future income trajectory of applicants in real-time.
@@ -57,7 +57,7 @@ plans:
 - name: Pulse Us Income Api Plans Pricing
   plan_count: 3
   slug: pulse-us-income-api-plans-pricing
-random_paper: 64
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Pulse Us Income Api Rate Limits
@@ -80,8 +80,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-us-income-api/refs/heads/main/screenshots/pulse-us-income-api-2026-06-20T192257.png
 security:

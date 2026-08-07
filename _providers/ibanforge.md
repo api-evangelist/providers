@@ -1,39 +1,66 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: high
+  label: Paid (free tier) · Self-serve signup
+  onboarding: self-serve
   pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  public: true
+  source:
+  - https://ibanforge.com/pricing
+  - https://api.ibanforge.com/v1/demo
+  - https://api.ibanforge.com/mcp
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: false
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-03'
-api_count: 1
+  score: 44.0
+  scored_at: '2026-08-06'
+api_count: 9
 apis:
-- description: IBAN validation and BIC/SWIFT lookup for 75+ countries with 121K+ bank entries
+- description: 'Pre-payout IBAN screening: validation, issuing-bank identification, Swiss clearing, bank-level sanctions, SEPA and VoP reachability, and risk scoring.'
   name: IBANforge
   slug: ibanforge
-artifact_total: 3
+- description: API key management — generate free keys and check usage
+  name: IBANforge API Keys API
+  slug: ibanforge-api-keys-api
+- description: BIC/SWIFT lookup endpoints (paid via x402)
+  name: IBANforge BIC API
+  slug: ibanforge-bic-api
+- description: Compliance check endpoint — IBAN validation + sanctions + SEPA + VoP + risk score (paid via x402)
+  name: IBANforge Compliance API
+  slug: ibanforge-compliance-api
+- description: Prepaid credit bundles — pay once in USDC (x402), get an API key with N credits; batch validation debits 1 credit per IBAN
+  name: IBANforge Credits API
+  slug: ibanforge-credits-api
+- description: Free endpoints — no payment required
+  name: IBANforge Free API
+  slug: ibanforge-free-api
+- description: IBAN validation endpoints (paid via x402)
+  name: IBANforge IBAN API
+  slug: ibanforge-iban-api
+- description: Model Context Protocol endpoint for AI agents (Streamable HTTP)
+  name: IBANforge MCP API
+  slug: ibanforge-mcp-api
+- description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
+  name: IBANforge Swiss Clearing API
+  slug: ibanforge-swiss-clearing-api
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -46,7 +73,51 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://api.ibanforge.com
+  url: https://ibanforge.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://ibanforge.com/docs
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ibanforge-mcp.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/ibanforge-a2a.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/ibanforge-well-known.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: llms/ibanforge-llms.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://api.ibanforge.com/.well-known/security.txt
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://ibanforge.com/status
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ibanforge.com/en/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ibanforge.com/en/legal/dpa
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://ibanforge.com/pricing
+- group: other
+  title: ''
+  type: x402
+  url: https://api.ibanforge.com/.well-known/x402
 - group: other
   title: ''
   type: PublicAPIsListing
@@ -56,33 +127,43 @@ common:
   type: Blog
   url: https://ibanforge.com/en/blog
 created: '2026-05-28'
-description: IBAN validation and BIC/SWIFT lookup for 75+ countries with 121K+ bank entries
+description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89 IBAN countries.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibanforge.png
 layout: provider
-modified: '2026-05-28'
+mcp_servers:
+- description: ''
+  name: ibanforge-mcp.yml
+  slug: ibanforge-mcpyml
+modified: '2026-08-06'
 name: IBANforge
 nav: Providers
 network: true
-overview: 'IBANforge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
+overview: 'IBANforge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including IBANforge, API Keys API, BIC API, and 6 more. Tagged areas include Finance, Banking, Compliance, and MCP.
 
 
-  IBANforge''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 86
+  IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
+random_paper: 37
 score:
-  band: minimal
-  composite: 6.2
-  delta: 0.0
+  band: thin
+  composite: 34.7
+  delta: 28.5
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
+    commercial_clarity: 31.6
+    contract_quality: 60.1
+    developer_ergonomics: 19.6
+    discoverability: 90.7
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 6.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 25.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:
 - kind: domain-security
@@ -96,6 +177,8 @@ security:
 slug: ibanforge
 tags:
 - Finance
-- Public APIs
-website: https://api.ibanforge.com
+- Banking
+- Compliance
+- MCP
+website: https://ibanforge.com
 ---

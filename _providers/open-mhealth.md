@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -144,7 +144,7 @@ overview: 'Open mHealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Open mHealth''s developer surface includes documentation, engineering blog, and 23 more developer resources.'
-random_paper: 78
+random_paper: 88
 score:
   band: minimal
   composite: 7.8
@@ -163,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-mhealth/refs/heads/main/screenshots/open-mhealth-2026-06-20T190842.png
 security:

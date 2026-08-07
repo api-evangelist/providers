@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 13
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -206,19 +206,19 @@ overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 90
+random_paper: 82
 score:
   band: developing
-  composite: 45.6
+  composite: 46.7
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 37.2
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 45.6
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     contracts:
@@ -232,8 +232,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

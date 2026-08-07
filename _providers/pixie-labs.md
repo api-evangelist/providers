@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Pixie''s gRPC API for programmatically running PxL scripts against live Kubernetes clusters and managing Pixie Cloud resources. Two services: Pixie Cloud (cluster discovery, API/deploy keys, artifacts,'
@@ -124,7 +124,7 @@ overview: 'Pixie Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Pixie Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 12 more developer resources.'
-random_paper: 56
+random_paper: 102
 score:
   band: emerging
   composite: 25.2
@@ -140,8 +140,8 @@ score:
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

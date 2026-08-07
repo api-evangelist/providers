@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: Repository issues (collaborative objects)
@@ -174,7 +174,7 @@ overview: 'Radicle publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Radicle''s developer surface includes documentation, getting-started guide, API reference, engineering blog, FAQ, support, CLI, and 19 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: developing
   composite: 44.2
@@ -192,12 +192,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

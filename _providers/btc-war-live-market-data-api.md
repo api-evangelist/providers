@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Read-only REST/HTTP JSON and JSON-LD API for live Binance Spot market snapshots and single-market observations across nine USDT pairs. Keyless, cached to at most 30 seconds, fail-closed on stale data.
@@ -33,7 +33,7 @@ name: BTC War Live Market Data API
 nav: Providers
 network: true
 overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include finance, cryptocurrency, market-data, bitcoin, and crypto-price.'
-random_paper: 8
+random_paper: 69
 score:
   band: minimal
   composite: 11.9
@@ -52,8 +52,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: btc-war-live-market-data-api
 tags:

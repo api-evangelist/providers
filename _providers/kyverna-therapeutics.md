@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: 'Kyverna Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Kyverna Therapeutics'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 20
+random_paper: 76
 score:
   band: minimal
   composite: 9.9
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyverna-therapeutics/refs/heads/main/screenshots/kyverna-therapeutics-2026-07-25T224356.png
 security:

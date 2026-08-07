@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-03'
+  score: 44.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'REST API for embedded mobile connectivity: manage projects, plans, users, subscriptions, SIMs (eSIM/pSIM), devices, number portings, add-ons, usage and vouchers. Bearer API-key auth, cursor pagination'
@@ -187,7 +187,7 @@ overview: 'Gigs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gigs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 46
+random_paper: 87
 score:
   band: developing
   composite: 49.3
@@ -210,8 +210,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigs/refs/heads/main/screenshots/gigs-2026-07-25T215810.png
 security:

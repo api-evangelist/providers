@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ overview: 'Memorick is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Memorick''s developer surface includes authentication, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 64
 score:
   band: minimal
   composite: 11.9
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

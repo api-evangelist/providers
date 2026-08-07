@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Multi-chain REST API providing NFT metadata, ownership, transfers, floor prices, listings, bids, spam scores, and fungible token market prices across 80+ blockchains and testnets. Supports bulk lookup
@@ -116,7 +116,7 @@ plans:
 - name: Simplehash Plans Pricing
   plan_count: 2
   slug: simplehash-plans-pricing
-random_paper: 25
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Simplehash Rate Limits
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplehash/refs/heads/main/screenshots/simplehash-2026-06-20T193931.png
 security:

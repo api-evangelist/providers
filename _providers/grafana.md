@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -1146,7 +1146,7 @@ plans:
 - name: Grafana Plans Pricing
   plan_count: 3
   slug: grafana-plans-pricing
-random_paper: 55
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Grafana Rate Limits
@@ -1181,8 +1181,8 @@ score:
       marker_coverage: 0.0
       total: 138
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

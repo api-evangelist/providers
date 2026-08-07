@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: News Releases | Boeing Newsroom
   url: https://boeing.mediaroom.com/news-releases-statements?item=131225
-random_paper: 58
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Boeing Rate Limits
@@ -141,8 +141,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 17.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/screenshots/boeing-2026-06-20T173551.png
 security:

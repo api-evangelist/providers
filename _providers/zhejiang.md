@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Zhejiang University's unified identity authentication platform, a Central Authentication Service (CAS) single sign-on login used to access campus systems. It supports username/password, QR-code scanni
@@ -111,7 +111,7 @@ plans:
 - name: Zhejiang Plans Pricing
   plan_count: 2
   slug: zhejiang-plans-pricing
-random_paper: 88
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Zhejiang Rate Limits
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:

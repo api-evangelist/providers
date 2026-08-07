@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful JSON API to manage the TrojAI platform programmatically (users, groups, roles/permissions, datasets, models, firewall policies/configs, firewall events, red team jobs and results, and secrets)
@@ -128,7 +128,7 @@ overview: 'TrojAI publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   TrojAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 79
+random_paper: 84
 score:
   band: thin
   composite: 37.7
@@ -143,8 +143,8 @@ score:
   previous_composite: 37.7
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

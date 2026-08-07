@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -186,19 +186,19 @@ overview: 'Bell Canada publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 23 more developer resources.'
-random_paper: 15
+random_paper: 43
 score:
   band: developing
-  composite: 44.7
+  composite: 46.1
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 58.1
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 44.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -80,6 +80,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/canaan-partners-api-portfolio.png"
   },
   {
+    "slug": "change-on-the-agent-surface",
+    "title": "Change on the Agent Surface",
+    "tagline": "Governing versioning, breaking changes, and deprecation for the MCP tools an agent binds to.",
+    "area": "Fundamentals",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/change-on-the-agent-surface.png"
+  },
+  {
     "slug": "conversational-api-governance",
     "title": "Making API Governance Conversational",
     "tagline": "Publish an MCP server for your Spectral rules so copilots and agents can govern APIs the way you do.",
@@ -208,12 +216,44 @@
     "cover": "https://papers.apievangelist.com/assets/covers/insights-autodesk.png"
   },
   {
+    "slug": "insights-avalara",
+    "title": "Avalara — Enterprise Insights Bundle",
+    "tagline": "What Avalara is actually buying, read from all 108 of its own job postings — and why a company that publishes 2,469 markdown documents for AI agents has machine-readable contracts for barely a third of them.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-avalara.png"
+  },
+  {
     "slug": "insights-jp-morgan-chase",
     "title": "JPMorgan Chase — Enterprise Insights Bundle",
     "tagline": "What JPMorgan Chase is actually buying, read from 7,799 of its own job postings — and what its API surface says back.",
     "area": "Insights Bundle",
     "price": "1,500",
     "cover": "https://papers.apievangelist.com/assets/covers/insights-jp-morgan-chase.png"
+  },
+  {
+    "slug": "insights-oracle",
+    "title": "Oracle — Enterprise Insights Bundle",
+    "tagline": "What Oracle is actually buying, read from its own job postings — and why one of the largest published API surfaces in the Fortune 1000 was effectively invisible to machines.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-oracle.png"
+  },
+  {
+    "slug": "insights-palo-alto-networks",
+    "title": "Palo Alto Networks — Enterprise Insights Bundle",
+    "tagline": "What Palo Alto Networks is actually buying, read from 1,207 of its own job postings — and why the product line it hires hardest around is the one it publishes no contract for.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-palo-alto-networks.png"
+  },
+  {
+    "slug": "insights-postman",
+    "title": "Postman — Enterprise Insights Bundle",
+    "tagline": "What Postman is actually buying, read from all 116 of its own job postings — and why the company whose product is API specification tooling publishes a specification of its own API with no examples in it.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-postman.png"
   },
   {
     "slug": "insights-salesforce",
@@ -238,6 +278,14 @@
     "area": "Insights Bundle",
     "price": "1,500",
     "cover": "https://papers.apievangelist.com/assets/covers/insights-splunk.png"
+  },
+  {
+    "slug": "insights-workday",
+    "title": "Workday — Enterprise Insights Bundle",
+    "tagline": "What Workday is actually buying, read from all 341 of its own job postings — and why the only machine-readable contract you can download from it without a login is SOAP.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-workday.png"
   },
   {
     "slug": "kleiner-perkins-api-portfolio",
@@ -360,6 +408,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/speedinvest-api-portfolio.png"
   },
   {
+    "slug": "state-of-api-clients",
+    "title": "The State of API Clients",
+    "tagline": "The market that consumes APIs rather than publishing them — why only three of thirty-five publish an API of their own, and why that is a deliberate market movement rather than a measurement failure.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-api-clients.png"
+  },
+  {
     "slug": "state-of-artificial-intelligence-apis",
     "title": "The State of Artificial Intelligence APIs",
     "tagline": "4,904 AI companies scored — the industry selling agents produces a machine-readability distribution indistinguishable from the average of every other industry in the catalog.",
@@ -422,6 +478,22 @@
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-travel-apis.png"
+  },
+  {
+    "slug": "state-of-authentication-apis",
+    "title": "The State of API Authentication",
+    "tagline": "What forty identity, authentication and authorization providers actually publish, scored — the strongest-publishing market in this series, and the one where the scarcest artifact is the thing it sells.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-authentication-apis.png"
+  },
+  {
+    "slug": "state-of-blockchain-crypto-apis",
+    "title": "The State of Blockchain & Crypto APIs",
+    "tagline": "The highest-publishing market in the catalog — median 25.7 against 15.8, idempotency at nearly three times the catalog rate — and OAuth scopes published by 10.2% of its leaders.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-blockchain-crypto-apis.png"
   },
   {
     "slug": "state-of-canadian-banking-apis",
@@ -496,12 +568,36 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-cybersecurity-apis.png"
   },
   {
+    "slug": "state-of-data-analytics-apis",
+    "title": "The State of Data & Analytics APIs",
+    "tagline": "One of the best-scoring markets in the catalog — and the segment selling \"know your data\" is the worst-scoring segment inside it, publishing a contract 13.4% of the time against the warehouses' 53.1%.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-data-analytics-apis.png"
+  },
+  {
     "slug": "state-of-developer-tools-apis",
     "title": "The State of Developer Tools APIs",
     "tagline": "The best-scoring industry in the catalog — first of twenty-five — and it publishes idempotency at the same 2.8% rate as the worst. The gap was never competence.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-developer-tools-apis.png"
+  },
+  {
+    "slug": "state-of-digital-health-apis",
+    "title": "The State of Digital Health APIs",
+    "tagline": "The market with the best standard and the most mandates publishes consent as a machine-readable surface at 3.4% — the same rate as the rest of the catalog, in the one market built on it.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-digital-health-apis.png"
+  },
+  {
+    "slug": "state-of-documentation-apis",
+    "title": "The State of API Documentation",
+    "tagline": "What twenty-nine documentation platforms, reference renderers and docs-as-code frameworks actually publish, scored — the market whose entire job is making APIs legible, measured on whether its own products are.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-documentation-apis.png"
   },
   {
     "slug": "state-of-headless-apis",
@@ -528,6 +624,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-market-data-apis.png"
   },
   {
+    "slug": "state-of-marketing-advertising-apis",
+    "title": "The State of Marketing & Advertising APIs",
+    "tagline": "The industry whose tracking wrote the world's consent laws describes consent in its own APIs at 3.1% — below the whole-catalog rate, and at zero across the consent-management segment itself.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-marketing-advertising-apis.png"
+  },
+  {
     "slug": "state-of-supply-chain-apis",
     "title": "The State of Supply Chain APIs",
     "tagline": "The industry that moves the physical economy publishes idempotency at 1.2% — thirteen companies out of 1,124 — in the one market where a retried request dispatches a second truck.",
@@ -542,6 +646,14 @@
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-telecom-apis.png"
+  },
+  {
+    "slug": "state-of-testing-apis",
+    "title": "The State of API Testing",
+    "tagline": "What thirty-seven API testing platforms, mocking tools, load generators, contract frameworks and scanners actually publish, scored — the first market in this series that is genuinely building for agents, and the weakest-scoring one measured.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-testing-apis.png"
   },
   {
     "slug": "state-of-uk-banking-apis",
@@ -664,6 +776,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/techstars-api-portfolio.png"
   },
   {
+    "slug": "the-a2a-standard",
+    "title": "The A2A Standard",
+    "tagline": "65 organizations publish an Agent Card. Ten publish one a conformant client can read. And the ten that got it right score lower on API maturity than the forty-one that got it wrong.",
+    "area": "Standard Report",
+    "price": "0",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-a2a-standard.png"
+  },
+  {
     "slug": "the-agent-era-standards-onramp",
     "title": "The Agent-Era API Standards Onramp",
     "tagline": "A sequenced path through the standards a first public API now has to speak — one rung at a time, in order.",
@@ -684,7 +804,7 @@
     "title": "The ARD Standard",
     "tagline": "Eleven of the largest agent builders specified the discovery layer. Nine companies publish it, seven of them are outsiders, none is fully conformant — and two fail on the specification's own stale documentation.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-ard-standard.png"
   },
   {
@@ -692,7 +812,7 @@
     "title": "The AsyncAPI Standard",
     "tagline": "Across 25,574 providers, not one publishes an AsyncAPI document — but 125 describe their events in OpenAPI instead. In its own strongest segment, AsyncAPI is losing 87 to nothing.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-asyncapi-standard.png"
   },
   {
@@ -700,7 +820,7 @@
     "title": "The CAMARA Standard",
     "tagline": "The industry that standardised itself without being told to — 1,369 participants, 487 organizations, 93 repositories, nothing graduated, and exactly one operator on earth publishing a contract you can call.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-camara-standard.png"
   },
   {
@@ -708,7 +828,7 @@
     "title": "The JSON Schema Standard",
     "tagline": "9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-json-schema-standard.png"
   },
   {
@@ -716,7 +836,7 @@
     "title": "The Model Context Protocol Standard",
     "tagline": "3,060 providers carry an MCP artifact. 672 publish a server you can actually reach. And the median server exposes 11 tools while the largest exposes 588.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-mcp-standard.png"
   },
   {
@@ -724,7 +844,7 @@
     "title": "The OAuth 2.0 Standard",
     "tagline": "775 published contracts still declare the implicit flow — 28.9% of every OAuth-using contract in the corpus, for a flow removed from OAuth 2.1.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-oauth-2-standard.png"
   },
   {
@@ -732,7 +852,7 @@
     "title": "The OpenAPI Standard",
     "tagline": "14,257 real OpenAPI documents, read as published. One in three carries no callable address, and OAS 3.2.0 reached four of them in ten months.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-openapi-standard.png"
   },
   {
@@ -740,7 +860,7 @@
     "title": "The OpenID Connect Standard",
     "tagline": "The identity layer under everything, declared in 102 of 14,195 published API contracts — 0.72%.",
     "area": "Standard Report",
-    "price": "500",
+    "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-openid-connect-standard.png"
   },
   {

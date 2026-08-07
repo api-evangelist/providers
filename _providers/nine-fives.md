@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Attenuation setpoint control
@@ -144,7 +144,7 @@ overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 62
+random_paper: 108
 score:
   band: developing
   composite: 42.0
@@ -166,8 +166,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: General Growth Properties Inc.(GGP,N) reports earnings for Qtr ...
   url: https://www.nytimes.com/1995/04/27/business/general-growth-properties-inc-ggpn-reports-earnings-for-qtr-to-mar-31.html
-random_paper: 27
+random_paper: 106
 score:
   band: minimal
   composite: 5.0
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/screenshots/general-growth-properties-2026-06-20T181726.png
 slug: general-growth-properties

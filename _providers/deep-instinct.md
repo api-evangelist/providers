@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -137,7 +137,7 @@ overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Deep Instinct''s developer surface includes support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 92
 scopes:
 - name: Deep Instinct Scopes
   scope_count: 2
@@ -146,6 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 27.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -153,11 +154,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 27.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Deep Instinct Authentication

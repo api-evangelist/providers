@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -3645,7 +3645,7 @@ plans:
 - name: Amazon Ec2 Image Builder Plans Pricing
   plan_count: 3
   slug: amazon-ec2-image-builder-plans-pricing
-random_paper: 9
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Image Builder Rate Limits
@@ -3686,8 +3686,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:

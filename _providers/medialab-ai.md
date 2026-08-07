@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -194,7 +194,7 @@ overview: 'MediaLab.AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 30 more developer resources.'
-random_paper: 17
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Medialab Ai Rate Limits
@@ -207,6 +207,7 @@ scopes:
 score:
   band: developing
   composite: 43.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -214,6 +215,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 71.1
+  previous_composite: 43.8
   provenance:
     conformance: derived
     mcp: derived
@@ -224,8 +226,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Medialab Ai Authentication

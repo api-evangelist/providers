@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-03'
+  score: 47.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -187,7 +187,7 @@ overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Numerai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 25 more developer resources.'
-random_paper: 88
+random_paper: 75
 rate_limits:
 - limit_count: 150
   name: Numerai Rate Limits
@@ -213,8 +213,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

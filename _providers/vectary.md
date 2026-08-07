@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: JavaScript API for programmatic control of Vectary 3D scenes embedded on websites. The VctrModelApi class (an ES module served from app.vectary.com) wraps postMessage communication with the embedded i
@@ -136,7 +136,7 @@ overview: 'Vectary publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Vectary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 6
+random_paper: 88
 score:
   band: thin
   composite: 34.9
@@ -149,8 +149,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

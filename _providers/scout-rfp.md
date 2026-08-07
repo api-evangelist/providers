@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Scout Rfp Plans Pricing
   plan_count: 1
   slug: scout-rfp-plans-pricing
-random_paper: 76
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Scout Rfp Rate Limits
@@ -245,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/screenshots/scout-rfp-2026-06-20T193553.png
 security:

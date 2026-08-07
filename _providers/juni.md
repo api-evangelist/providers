@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Juni is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juni''s developer surface includes support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 58
+random_paper: 99
 score:
   band: emerging
   composite: 23.5
@@ -116,8 +116,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
   slug: veritas-infoscale-plans-pricing
-random_paper: 49
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Veritas Infoscale Rate Limits
@@ -349,8 +349,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:

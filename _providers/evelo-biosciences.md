@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Evelo Biosciences *
 nav: Providers
 network: true
 overview: Evelo Biosciences * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Microbiome, and Pharmaceuticals.
-random_paper: 33
+random_paper: 48
 score:
   band: minimal
   composite: 5.4
@@ -67,8 +67,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evelo-biosciences/refs/heads/main/screenshots/evelo-biosciences-2026-07-25T213711.png
 security:

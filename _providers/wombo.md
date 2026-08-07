@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Text and vision-language chat completions
@@ -157,7 +157,7 @@ overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 73
+random_paper: 96
 score:
   band: thin
   composite: 31.1
@@ -179,8 +179,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ plans:
 - name: Workable Plans Pricing
   plan_count: 7
   slug: workable-plans-pricing
-random_paper: 0
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Workable Rate Limits
@@ -273,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/screenshots/workable-2026-06-20T201548.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Smart hospital beds, ICU beds, med-surg beds, and patient support systems including Centrella, Progressa, and VersaCare platforms. Integrates with hospital IT systems for fall risk monitoring, pressur
@@ -87,7 +87,7 @@ name: Hill-Rom Holdings
 nav: Providers
 network: true
 overview: Hill-Rom Holdings publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Hospital Beds, Patient Monitoring, and Vital Signs.
-random_paper: 90
+random_paper: 10
 score:
   band: minimal
   composite: 6.6
@@ -106,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hill-rom-holdings/refs/heads/main/screenshots/hill-rom-holdings-2026-06-20T182736.png
 security:

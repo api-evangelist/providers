@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Public REST API for programmatically accessing AlphaGeo climate risk scoring data for global locations and portfolios. Location-Level Data APIs (Scores/CRRI, Physical Risk, Resilience-adjusted Risk, G
@@ -148,7 +148,7 @@ overview: 'Alphageo publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Alphageo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
-random_paper: 73
+random_paper: 42
 rate_limits:
 - limit_count: 6
   name: Alphageo Rate Limits
@@ -167,8 +167,8 @@ score:
   previous_composite: 37.1
   provenance:
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/screenshots/alphageo-2026-07-25T195759.png
 security:

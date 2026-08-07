@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The machine-readable grid data behind ENMAX Power's public Hosting Capacity, Load Capacity and Service Area maps. The three maps published at enmax.com/system-resources are ArcGIS Online Web AppBuilde
@@ -152,7 +152,7 @@ overview: 'ENMAX publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   ENMAX''s developer surface includes authentication, code examples, documentation, engineering blog, signup flow, support, status page, and 15 more developer resources.'
-random_paper: 62
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Enmax Rate Limits
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.4
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 23.0
+  previous_composite: 25.4
   provenance:
     conformance: first-party
   regulatory:
@@ -177,8 +177,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

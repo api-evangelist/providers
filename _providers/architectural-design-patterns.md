@@ -21,7 +21,7 @@ modified: '2026-05-19'
 name: Architectural Design Patterns
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 54
 slug: architectural-design-patterns
 tags:
 - Design Patterns

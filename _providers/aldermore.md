@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -171,24 +171,24 @@ overview: 'Aldermore Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Aldermore Bank''s developer surface includes authentication, support, legal docs, and 25 more developer resources.'
-random_paper: 5
+random_paper: 51
 scopes:
 - name: Aldermore Scopes
   scope_count: 3
   slug: aldermore-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 40.9
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 59.7
+    contract_quality: 54.1
     developer_ergonomics: 19.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 42.1
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png
 security:

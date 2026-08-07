@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Courier Plans Pricing
   plan_count: 1
   slug: courier-plans-pricing
-random_paper: 1
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Courier Rate Limits
@@ -225,8 +225,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

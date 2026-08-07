@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 82
 apis:
 - description: The activity-center API from Tessell — 2 operation(s) for activity-center.
@@ -442,7 +442,7 @@ overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 4
+random_paper: 86
 score:
   band: developing
   composite: 46.7
@@ -464,8 +464,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

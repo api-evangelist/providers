@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ overview: 'Sphinx is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sphinx''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 1
+random_paper: 101
 score:
   band: thin
   composite: 28.6
@@ -134,8 +134,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

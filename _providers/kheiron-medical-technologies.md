@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Kheiron Medical Technologies is profiled on the [APIs.io](https://api
 
 
   Kheiron Medical Technologies'' developer surface includes support and 9 more developer resources.'
-random_paper: 90
+random_paper: 20
 score:
   band: emerging
   composite: 14.4
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/screenshots/kheiron-medical-technologies-2026-07-25T223710.png
 security:

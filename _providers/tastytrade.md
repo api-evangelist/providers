@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 33.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -541,7 +541,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 48
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -557,16 +557,16 @@ rules:
   slug: tastytrade-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 47.9
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.2
+    contract_quality: 48.1
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 47.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -580,8 +580,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/screenshots/tastytrade-2026-06-20T194927.png
 security:

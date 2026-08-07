@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: The Ola Ride Booking API enables affiliates and partners to let users find, book, and manage Ola rides directly within their applications. It covers ride availability checks, fare estimates, booking c
@@ -140,7 +140,7 @@ plans:
 - name: Ola Plans Pricing
   plan_count: 5
   slug: ola-plans-pricing
-random_paper: 31
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Ola Rate Limits
@@ -157,8 +157,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 33.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

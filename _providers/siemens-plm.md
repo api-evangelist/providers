@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 157
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ plans:
 - name: Siemens Plm Plans Pricing
   plan_count: 4
   slug: siemens-plm-plans-pricing
-random_paper: 85
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Siemens Plm Rate Limits
@@ -340,8 +340,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 49
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

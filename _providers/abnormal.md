@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-03'
+  score: 45.7
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for managing the security threats, cases and posture that Abnormal AI detects for an organization. Covers threats and threat actions, Abnormal cases and case analysis, message detail and atta
@@ -181,10 +181,11 @@ overview: 'Abnormal AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 84
+random_paper: 53
 score:
   band: developing
   composite: 55.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.7
@@ -192,6 +193,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 55.3
+  previous_composite: 55.8
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +203,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Abnormal Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 27 more developer resources.'
-random_paper: 38
+random_paper: 79
 scopes:
 - name: Kard Scopes
   scope_count: 13
@@ -275,8 +275,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

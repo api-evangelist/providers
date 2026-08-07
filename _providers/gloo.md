@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Gloo Edge is a feature-rich, Kubernetes-native ingress controller and API gateway built on Envoy Proxy, supporting advanced routing, security policies, and observability for cloud-native workloads. It
@@ -121,7 +121,7 @@ plans:
 - name: Gloo Plans Pricing
   plan_count: 3
   slug: gloo-plans-pricing
-random_paper: 53
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Gloo Rate Limits
@@ -138,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 33.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/screenshots/gloo-2026-06-20T181923.png
 security:

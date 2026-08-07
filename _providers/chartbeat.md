@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Live audience and traffic data updated every three seconds — top pages, referrers, geographies, engaged time, loyalty, and live concurrent visitors — the data behind the Real-Time Dashboard. HTTP GET,
@@ -152,7 +152,7 @@ overview: 'Chartbeat publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Chartbeat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 87
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Chartbeat Rate Limits
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -168,9 +168,9 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 32.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 35.4
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png
 security:

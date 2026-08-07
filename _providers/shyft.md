@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 56
 apis:
 - description: The Authentication > Email API from Shyft — 2 operation(s) for authentication > email.
@@ -285,7 +285,7 @@ overview: 'Shyft publishes 56 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Shyft''s developer surface includes authentication, documentation, API reference, pricing, signup flow, sandbox, and 11 more developer resources.'
-random_paper: 83
+random_paper: 106
 score:
   band: thin
   composite: 34.1
@@ -307,8 +307,8 @@ score:
       total: 56
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

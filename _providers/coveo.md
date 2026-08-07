@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -1258,7 +1258,7 @@ plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 65
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits
@@ -1304,8 +1304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 152
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:

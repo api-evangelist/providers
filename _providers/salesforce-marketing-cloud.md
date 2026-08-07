@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -584,7 +584,7 @@ plans:
 - name: Salesforce Marketing Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-marketing-cloud-plans-pricing
-random_paper: 85
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Salesforce Marketing Cloud Rate Limits
@@ -630,8 +630,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

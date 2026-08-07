@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 36.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -601,7 +601,7 @@ plans:
 - name: Azure Storage Account Plans Pricing
   plan_count: 5
   slug: azure-storage-account-plans-pricing
-random_paper: 57
+random_paper: 0
 rate_limits:
 - limit_count: 13
   name: Azure Storage Account Rate Limits
@@ -629,17 +629,17 @@ scopes:
   slug: azure-storage-account-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 55.1
+  band: strong
+  composite: 57.6
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.0
+    contract_quality: 59.7
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 55.1
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -647,8 +647,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-account/refs/heads/main/screenshots/azure-storage-account-2026-06-20T172908.png
 security:

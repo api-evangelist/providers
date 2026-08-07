@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -124,6 +124,18 @@ collections:
   name: Customer.io Track API
   slug: open-customer-io-track-api
 common:
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/customer-io-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/customer-io-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/customer-io-finops.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,7 +212,7 @@ created: '2024-01-01'
 description: Customer.io is a customer engagement platform that combines a customer data platform, marketing automation, and messaging delivery to send behavior-triggered email, push, SMS, and in-app messages. Its API surface includes the Track API for sending behavioral data and customer profile updates, the App API for managing workspace resources and sending transactional and broadcast messages, the Pipelines API which is a Segment-spec data ingestion interface, and outbound reporting webhooks that deliver message lifecycle events.
 finops:
 - name: Customer Io Finops
-  service_category: Marketing Automation
+  service_category: Marketing and Customer Engagement
   slug: customer-io-finops
 graphqls:
 - description: 'This conceptual GraphQL schema represents the Customer.io messaging and marketing automation platform. Customer.io provides APIs for tracking behavioral data, managing customer profiles and segments, '
@@ -233,14 +245,14 @@ overview: 'Customer.io publishes 23 APIs on the [APIs.io](https://apis.io/) netw
   The Customer.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Customer.io''s developer surface includes authentication, documentation, and 16 more developer resources.'
+  Customer.io''s developer surface includes authentication, documentation, and 19 more developer resources.'
 plans:
 - name: Customer Io Plans Pricing
   plan_count: 3
   slug: customer-io-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
-- limit_count: 4
+- limit_count: 6
   name: Customer Io Rate Limits
   slug: customer-io-rate-limits
 rules:
@@ -293,8 +305,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:

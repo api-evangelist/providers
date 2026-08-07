@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Bruno is an open-source API client for exploring and testing REST, GraphQL, and gRPC APIs. Collections are stored as plain text Bru files on the filesystem, enabling Git-based version control, team co
@@ -120,7 +120,7 @@ plans:
 - name: Bruno Plans Pricing
   plan_count: 3
   slug: bruno-plans-pricing
-random_paper: 75
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Bruno Rate Limits
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 30.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bruno/refs/heads/main/screenshots/bruno-2026-06-20T173730.png
 security:

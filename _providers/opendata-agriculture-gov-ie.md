@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Irish Agriculture Open Data, ~56 datasets. Base URL https://opendata.agriculture.gov.ie/api/3/action/.
@@ -83,7 +83,7 @@ plans:
 - name: Opendata Agriculture Gov Ie Plans Pricing
   plan_count: 0
   slug: opendata-agriculture-gov-ie-plans-pricing
-random_paper: 48
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Opendata Agriculture Gov Ie Rate Limits
@@ -106,8 +106,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-agriculture-gov-ie/refs/heads/main/screenshots/opendata-agriculture-gov-ie-2026-06-20T190926.png
 security:

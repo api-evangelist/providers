@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,7 +124,7 @@ overview: 'TensorZero is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TensorZero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 13 more developer resources.'
-random_paper: 70
+random_paper: 98
 score:
   band: emerging
   composite: 26.3
@@ -139,8 +139,8 @@ score:
   previous_composite: 26.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

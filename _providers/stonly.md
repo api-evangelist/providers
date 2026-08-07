@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -139,7 +139,7 @@ overview: 'Stonly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stonly''s developer surface includes documentation, support, engineering blog, pricing, signup flow, CLI, changelog, and 17 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: thin
   composite: 32.6
@@ -154,8 +154,8 @@ score:
   previous_composite: 32.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

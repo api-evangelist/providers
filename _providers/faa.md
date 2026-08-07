@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-03'
+  score: 53.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -284,7 +284,7 @@ plans:
 - name: Faa Plans
   plan_count: 5
   slug: faa-plans
-random_paper: 11
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Faa Rate Limits
@@ -292,7 +292,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.1
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 55.4
@@ -300,7 +300,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 54.8
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +317,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

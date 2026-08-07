@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Automate and schedule predictive query training and batch predictions. Retrain a predictive query (re-ingesting data from the source), trigger recurring batch predictions, monitor job status and evalu
@@ -166,7 +166,7 @@ overview: 'Kumo.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Kumo.AI''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 76
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Kumoai Rate Limits
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.7
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -182,13 +182,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 36.5
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumoai/refs/heads/main/screenshots/kumoai-2026-07-25T224329.png
 security:

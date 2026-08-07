@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-03'
+  score: 61.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -248,7 +248,7 @@ overview: 'Tricentis publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
-random_paper: 31
+random_paper: 77
 scopes:
 - name: Tricentis Scopes
   scope_count: 1
@@ -256,14 +256,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 63.6
+  composite: 62.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.9
+    contract_quality: 57.9
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +276,9 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Tricentis Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -94,7 +94,7 @@ plans:
 - name: Accord Plans Pricing
   plan_count: 1
   slug: accord-plans-pricing
-random_paper: 50
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Accord Rate Limits
@@ -117,8 +117,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: accord
 tags:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,19 +153,19 @@ overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Tr
 
 
   Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 78
+random_paper: 83
 score:
   band: thin
-  composite: 33.6
+  composite: 35.2
   delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 32.3
+    contract_quality: 38.8
     developer_ergonomics: 42.9
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 33.6
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -176,8 +176,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

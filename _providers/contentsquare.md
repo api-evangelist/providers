@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ overview: 'Contentsquare publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Contentsquare''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 90
+random_paper: 64
 score:
   band: thin
   composite: 31.1
@@ -146,8 +146,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/screenshots/contentsquare-2026-06-20T175028.png
 security:

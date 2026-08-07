@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for searching and downloading free stock photos, vectors, icons, videos, and fonts for commercial and personal use projects without attribution requirements.
@@ -104,7 +104,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 4
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockio/refs/heads/main/screenshots/stockio-2026-06-20T194554.png
 security:

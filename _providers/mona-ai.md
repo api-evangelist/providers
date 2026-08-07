@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Mona Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mona Ai''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 9
+random_paper: 109
 score:
   band: emerging
   composite: 16.7
@@ -114,8 +114,8 @@ score:
   previous_composite: 16.7
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

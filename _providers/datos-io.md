@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Datos Io
 nav: Providers
 network: true
 overview: Datos Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management, Backup and Recovery, Data Protection, and Cloud Databases.
-random_paper: 40
+random_paper: 9
 score:
   band: minimal
   composite: 6.4
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 6.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-io/refs/heads/main/screenshots/datos-io-2026-07-25T211417.png
 slug: datos-io

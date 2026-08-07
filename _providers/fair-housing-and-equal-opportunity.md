@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Office of Fair Housing and Equal Opportunity (FHEO) administers and enforces federal laws that prohibit discrimination in housing based on race, color, national origin, religion, sex, familial sta
@@ -81,7 +81,7 @@ plans:
 - name: Fair Housing And Equal Opportunity Plans Pricing
   plan_count: 3
   slug: fair-housing-and-equal-opportunity-plans-pricing
-random_paper: 31
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Fair Housing And Equal Opportunity Rate Limits
@@ -98,8 +98,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 18.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/screenshots/fair-housing-and-equal-opportunity-2026-06-20T181015.png
 security:

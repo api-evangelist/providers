@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: McKesson ties AI, automation, specialty tech to Q3 sales ...
   url: https://www.digitalcommerce360.com/2026/02/05/mckesson-ai-automation-specialty-tech-q3-sales/
-random_paper: 12
+random_paper: 76
 score:
   band: minimal
   composite: 7.1
@@ -95,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/screenshots/mckesson-2026-06-20T185100.png
 security:

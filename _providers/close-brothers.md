@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ overview: 'Close Brothers is profiled on the [APIs.io](https://apis.io/) network
 
 
   Close Brothers'' developer surface includes support and 5 more developer resources.'
-random_paper: 27
+random_paper: 96
 score:
   band: minimal
   composite: 11.2
@@ -77,8 +77,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/close-brothers/refs/heads/main/screenshots/close-brothers-2026-07-25T205645.png
 security:

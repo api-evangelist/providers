@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Greylock Partners
 nav: Providers
 network: true
-random_paper: 9
+random_paper: 73
 slug: greylock
 tags:
 - Venture Capital

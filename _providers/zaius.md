@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 17
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
@@ -228,7 +228,7 @@ overview: 'Zaius publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Zaius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 81
+random_paper: 104
 score:
   band: strong
   composite: 59.4
@@ -250,8 +250,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

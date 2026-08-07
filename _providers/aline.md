@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Aline is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aline''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 46
+random_paper: 69
 score:
   band: emerging
   composite: 22.2
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 22.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aline/refs/heads/main/screenshots/aline-2026-07-25T195622.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ plans:
 - name: Apache Pig Plans Pricing
   plan_count: 3
   slug: apache-pig-plans-pricing
-random_paper: 25
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Apache Pig Rate Limits
@@ -237,8 +237,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png
 security:

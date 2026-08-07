@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Vim publishes 1 API on the [APIs.io](https://apis.io/) network: Data 
 
 
   Vim''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 47
+random_paper: 106
 scopes:
 - name: Vim Scopes
   scope_count: 4
@@ -242,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

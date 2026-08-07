@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-03'
+  score: 7.7
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -37,7 +37,7 @@ apis:
 - description: The type-safe REST library for .NET that Refitter generates interfaces for. Refit turns REST APIs into live interfaces by decorating C# interfaces with attributes describing the HTTP endpoints, then g
   name: Refit
   slug: refit
-artifact_total: 9
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -65,6 +65,70 @@ common:
   url: https://github.com/christianhelle/refitter/blob/main/LICENSE
 - group: docs
   title: ''
+  type: APIReference
+  url: https://refitter.github.io/api/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://refitter.github.io/articles/cli-tool.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/christianhelle/refitter/discussions
+- group: build
+  title: ''
+  type: Packages
+  url: packages/refitter-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/refitter-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/refitter-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/refitter-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/refitter-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://refitter.github.io/articles/breaking-changes-v2-0-0.html
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/refitter-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/christianhelle/refitter/security/policy
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/refitter-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/refitter-llms.txt
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/refitter-refitter-file-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/refitter-format-mappings-schema.json
+- group: docs
+  title: ''
   type: JSONSchema
   url: json-schema/refitter-settings-schema.json
 - group: design
@@ -87,6 +151,12 @@ finops:
   slug: refitter-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/refitter.png
 json_schemas:
+- name: Refitter Format Mappings
+  property_count: 0
+  slug: refitter-format-mappings
+- name: Refitter Refitter File
+  property_count: 52
+  slug: refitter-refitter-file
 - name: Refitter Settings
   property_count: 18
   slug: refitter-settings
@@ -100,7 +170,7 @@ jsonld:
   property_count: 7
   slug: refitter-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-08-06'
 name: Refitter
 nav: Providers
 network: true
@@ -110,12 +180,12 @@ overview: 'Refitter publishes 2 APIs on the [APIs.io](https://apis.io/) network.
   The Refitter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Refitter''s developer surface includes documentation and 9 more developer resources.'
+  Refitter''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, and 20 more developer resources.'
 plans:
 - name: Refitter Plans Pricing
   plan_count: 3
   slug: refitter-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Refitter Rate Limits
@@ -130,21 +200,26 @@ rules:
     warn: 4
   slug: refitter-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.2
-  delta: 0.0
+  band: developing
+  composite: 47.2
+  delta: 16.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
-    developer_ergonomics: 8.7
-    discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 31.6
+    developer_ergonomics: 50.0
+    discoverability: 77.8
+    governance: 81.3
+    operational_transparency: 65.8
   previous_composite: 31.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/screenshots/refitter-2026-06-20T192745.png
+security:
+- kind: vulnerability-disclosure
+  name: Refitter Vulnerability Disclosure
+  slug: refitter-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: refitter
 tags:
 - .NET

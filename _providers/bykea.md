@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Bykea
 nav: Providers
 network: true
 overview: Bykea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Logistics, Delivery, and Ride Hailing.
-random_paper: 49
+random_paper: 72
 score:
   band: minimal
   composite: 9.2
@@ -83,8 +83,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

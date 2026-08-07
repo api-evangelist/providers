@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-03'
+  score: 35.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
   slug: microsoft-quantum-plans-pricing
-random_paper: 1
+random_paper: 111
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits
@@ -467,16 +467,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 64.5
+  composite: 64.3
   delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 56.5
+    contract_quality: 55.8
     developer_ergonomics: 60.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.5
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     contracts:
@@ -484,8 +484,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/screenshots/microsoft-quantum-2026-06-20T185529.png
 security:

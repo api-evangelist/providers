@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -359,7 +359,7 @@ overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 83
+random_paper: 70
 score:
   band: developing
   composite: 51.1
@@ -382,8 +382,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:

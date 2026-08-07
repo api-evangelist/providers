@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 8
 common:
@@ -124,7 +124,7 @@ overview: 'Iambic Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Iambic Therapeutics'' developer surface includes engineering blog, authentication, and 10 more developer resources.'
-random_paper: 43
+random_paper: 48
 score:
   band: minimal
   composite: 9.2
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iambic/refs/heads/main/screenshots/iambic-2026-06-20T183104.png
 security:

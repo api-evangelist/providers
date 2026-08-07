@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns a paged summary of all current, generally available retail energy plans for one retailer
@@ -217,7 +217,7 @@ overview: 'Australian Energy Regulator publishes 3 APIs on the [APIs.io](https:/
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
-random_paper: 27
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Aer Rate Limits
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.8
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.3
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 81.6
-  previous_composite: 47.3
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
@@ -249,8 +249,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

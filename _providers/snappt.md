@@ -1,0 +1,238 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 40.8
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 22
+  human_in_the_loop: 3
+  name: Snappt Agentic Access
+  operation_count: 48
+  slug: snappt-agentic-access
+  summary_line: 48 operations · 22 acting · 3 human-in-the-loop
+api_count: 1
+apis:
+- description: 'Partner REST API for the Snappt fraud-detection, income-verification and identity-verification platform. Covers account lookup, property creation and feature configuration, applicant sessions (create '
+  name: Snappt Enterprise API
+  slug: snappt-enterprise-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Snappt Enterprise Api Webhooks
+  slug: snappt-enterprise-api-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://snappt.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://snappt-enterprise-api.readme.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://snappt-enterprise-api.readme.io/docs/getting-started-fraud-detection
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://snappt-enterprise-api.readme.io/reference/get_account
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://snappt-enterprise-api.readme.io/docs/getting-started-fraud-detection
+- group: operate
+  title: ''
+  type: Support
+  url: https://snappt.com/contact-support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://snappt.com/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Snappt
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://snappt.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://client.snappt.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://snappt.com/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://snappt.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.snappt.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/snappt-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://snappt.com/security/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/snappt-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/snappt-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/snappt-changelog.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/snappt-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/snappt-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/snappt-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/snappt-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/snappt-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/snappt-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/snappt-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/snappt-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/snappt-sandbox.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/snappt-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/snappt-agentic-access.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/snappt-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/snappt-enterprise-api-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snappt-enterprise-api-overlay.yaml
+created: '2026-08-05'
+description: Snappt is a Los Angeles-based applicant-screening and document-fraud-detection company serving the multifamily rental and property-management industry. Its Applicant Trust Platform combines proprietary AI document forensics with human review to detect edited pay stubs and bank statements, verify applicant income from traditional and connected payroll sources, verify identity with biometric and document checks, and confirm rental payment history. Snappt exposes this to property-management systems and partners through the Snappt Enterprise API — a partner API-key-authenticated REST API covering properties, applicant sessions, document upload, fraud and income reports, ID-verification sessions and outbound webhooks — plus an embeddable browser SDK that launches the applicant verification flow as a modal inside a partner's own leasing flow.
+image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
+layout: provider
+modified: '2026-08-05'
+name: Snappt
+nav: Providers
+network: true
+overview: 'Snappt publishes 1 API on the [APIs.io](https://apis.io/) network: Enterprise API. Tagged areas include Company, fraud-detection, document-verification, identity-verification, and income-verification.
+
+
+  The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+random_paper: 97
+score:
+  band: strong
+  composite: 59.2
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 62.8
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 52.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Snappt Authentication
+  slug: snappt-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Snappt Domain Security
+  slug: snappt-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Snappt Trust Center
+  slug: snappt-trust-center
+  summary_line: SOC 2 Type II
+slug: snappt
+tags:
+- Company
+- fraud-detection
+- document-verification
+- identity-verification
+- income-verification
+- property-management
+- multifamily
+- real-estate
+- proptech
+- tenant-screening
+- rental-applications
+- webhooks
+website: https://snappt.com/
+---

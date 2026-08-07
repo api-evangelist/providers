@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-03'
+  score: 50.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ overview: 'General Translation publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 78
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: General Translation Rate Limits
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 66.1
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 71.8
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 62.0
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,8 +277,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:

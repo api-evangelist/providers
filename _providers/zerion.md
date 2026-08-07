@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Zerion Rate Limits
@@ -277,7 +277,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 73.5
@@ -285,7 +285,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 68.4
-  previous_composite: 60.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

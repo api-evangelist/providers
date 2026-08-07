@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-03'
+  score: 61.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: REST API for embedding Clearspeed voice-based risk assessment into an existing system. Create participants against a questionnaire, update outcome tracking, and create or delete scoped API keys. Asses
   name: Clearspeed Integration API
   slug: integration-api
-artifact_total: 5
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Clearspeed Webhooks
+  slug: clearspeed-webhooks
 common:
 - group: company
   title: ''
@@ -81,6 +85,14 @@ common:
   title: ''
   type: TrustCenter
   url: security/clearspeed-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://compliance.clearspeed.com/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clearspeed-vulnerability-disclosure.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -161,41 +173,49 @@ mcp_servers:
 - description: ''
   name: clearspeed-mcp.yml
   slug: clearspeed-mcpyml
-modified: '2026-08-02'
+modified: '2026-08-04'
 name: Clearspeed
 nav: Providers
 network: true
 overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network: Integration API. Tagged areas include Company, Risk Assessment, Fraud Detection, Voice Analytics, and Artificial Intelligence.
 
 
-  Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 3
+  The Clearspeed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+random_paper: 31
 score:
   band: developing
-  composite: 49.4
+  composite: 54.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
-    developer_ergonomics: 67.4
+    contract_quality: 72.9
+    developer_ergonomics: 62.5
     discoverability: 87.0
-    governance: 8.3
-    operational_transparency: 7.9
+    governance: 11.5
+    operational_transparency: 18.4
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+    score: 62.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Clearspeed Authentication
@@ -205,6 +225,14 @@ security:
   name: Clearspeed Domain Security
   slug: clearspeed-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Clearspeed Vulnerability Disclosure
+  slug: clearspeed-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Clearspeed Trust Center
+  slug: clearspeed-trust-center
+  summary_line: SOC 2 Type 2, ISO 27001:2022, UK Cyber Essentials
 slug: clearspeed
 tags:
 - Company

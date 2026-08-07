@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 12
 apis:
 - description: Gong's primary REST API for reading and writing platform data — calls, users, stats, library content, settings, workspaces, permissions, data privacy, CRM data, audit logs, and engagement. Authenticat
@@ -161,7 +161,7 @@ plans:
 - name: Gong Io Plans Pricing
   plan_count: 1
   slug: gong-io-plans-pricing
-random_paper: 23
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Gong Io Rate Limits
@@ -178,8 +178,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong-io/refs/heads/main/screenshots/gong-io-2026-06-20T182025.png
 security:

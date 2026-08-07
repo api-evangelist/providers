@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Buyout firm Apollo to buy Smart & Final Stores for $1.1 billion
   url: https://www.reuters.com/article/world/buyout-firm-apollo-to-buy-smart-final-stores-for-11-billion-idUSKCN1RS2C7/
-random_paper: 2
+random_paper: 40
 score:
   band: minimal
   composite: 7.1
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-and-final-stores/refs/heads/main/screenshots/smart-and-final-stores-2026-06-20T194041.png
 security:

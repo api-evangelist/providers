@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -241,17 +241,19 @@ overview: 'Aleph Alpha publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 40
+random_paper: 68
 score:
   band: developing
-  composite: 49.5
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
-    contract_quality: 54.9
+    contract_quality: 54.4
     developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +270,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Aleph Alpha Authentication

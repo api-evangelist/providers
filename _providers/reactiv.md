@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Reactiv is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Reactiv''s developer surface includes documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 85
+random_paper: 72
 score:
   band: emerging
   composite: 20.6
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 20.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

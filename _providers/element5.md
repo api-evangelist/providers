@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 19 more developer resources.'
-random_paper: 39
+random_paper: 8
 score:
   band: developing
   composite: 44.5
@@ -207,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-03'
+  score: 65.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ overview: 'Hubflo publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hubflo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 70
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Hubflo Rate Limits
@@ -263,7 +263,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.4
@@ -271,7 +271,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,8 +282,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png
 security:

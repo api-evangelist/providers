@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -119,7 +119,7 @@ plans:
 - name: Bland Ai Plans Pricing
   plan_count: 5
   slug: bland-ai-plans-pricing
-random_paper: 0
+random_paper: 82
 rate_limits:
 - limit_count: 9
   name: Bland Ai Rate Limits
@@ -149,8 +149,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/screenshots/bland-ai-2026-06-20T173346.png
 security:

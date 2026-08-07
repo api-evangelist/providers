@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-03'
+  score: 40.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -153,21 +153,23 @@ overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: Get
 
 
   Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
-random_paper: 64
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Getir Rate Limits
   slug: getir-rate-limits
 score:
   band: developing
-  composite: 46.6
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 51.6
+    contract_quality: 46.5
     developer_ergonomics: 58.2
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 76.3
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,8 +180,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Getir Authentication

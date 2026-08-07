@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-03'
+  score: 61.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -233,7 +233,7 @@ overview: 'MINE publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 23 more developer resources.'
-random_paper: 45
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Mine Rate Limits
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.3
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 59.8
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 52.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,8 +260,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

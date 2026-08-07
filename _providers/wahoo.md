@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -186,7 +186,7 @@ plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
   slug: wahoo-plans-pricing
-random_paper: 67
+random_paper: 90
 rate_limits:
 - limit_count: 6
   name: Wahoo Rate Limits
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

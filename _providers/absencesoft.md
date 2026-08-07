@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-03'
+  score: 30.6
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API-first REST API powering leave and accommodations case management, employee data, employer configuration, and communications. OpenAPI 3.1, OAuth2 (password and client credentials flows), HTTPS-only
@@ -123,7 +123,7 @@ overview: 'AbsenceSoft publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   AbsenceSoft''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 25
+random_paper: 35
 score:
   band: thin
   composite: 39.2
@@ -138,8 +138,8 @@ score:
   previous_composite: 39.2
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absencesoft/refs/heads/main/screenshots/absencesoft-2026-07-25T181408.png
 security:

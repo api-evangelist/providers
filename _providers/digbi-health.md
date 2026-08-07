@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Digbi Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Digbi Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 46
+random_paper: 56
 score:
   band: emerging
   composite: 15.4
@@ -98,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

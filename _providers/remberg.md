@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-03'
+  score: 47.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -232,7 +232,7 @@ overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remberg''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Remberg Rate Limits
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 69.3
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 47.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +259,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

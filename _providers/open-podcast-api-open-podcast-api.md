@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Authenticate users against an Open Podcast compliant server, establishing the session used for subsequent subscription, action, and device endpoints.
@@ -95,7 +95,7 @@ plans:
 - name: Open Podcast Api Open Podcast Api Plans Pricing
   plan_count: 3
   slug: open-podcast-api-open-podcast-api-plans-pricing
-random_paper: 86
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Open Podcast Api Open Podcast Api Rate Limits
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-podcast-api-open-podcast-api/refs/heads/main/screenshots/open-podcast-api-open-podcast-api-2026-06-20T190848.png
 security:

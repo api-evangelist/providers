@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -694,7 +694,7 @@ plans:
 - name: Gitea Plans Pricing
   plan_count: 3
   slug: gitea-plans-pricing
-random_paper: 47
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Gitea Rate Limits
@@ -723,16 +723,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.8
+  composite: 73.0
   delta: 0.0
   facets:
     commercial_clarity: 86.8
-    contract_quality: 61.3
+    contract_quality: 57.8
     developer_ergonomics: 67.4
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 78.9
-  previous_composite: 73.8
+  previous_composite: 73.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -742,8 +742,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -1156,7 +1156,7 @@ plans:
 - name: Amazon Payment Cryptography Plans Pricing
   plan_count: 3
   slug: amazon-payment-cryptography-plans-pricing
-random_paper: 71
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Payment Cryptography Rate Limits
@@ -1203,8 +1203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/screenshots/amazon-payment-cryptography-2026-06-20T171758.png
 security:

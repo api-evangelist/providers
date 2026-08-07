@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Substrate/Polkadot JSON-RPC interface to the Parallel Finance parachain, accessed over WebSocket with the polkadot.js API and Parallel's @parallel-finance/api SDK. Exposes chain state, extrinsics (len
@@ -76,7 +76,7 @@ name: Parallel Finance
 nav: Providers
 network: true
 overview: Parallel Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Polkadot, and Lending.
-random_paper: 94
+random_paper: 32
 score:
   band: minimal
   composite: 10.7
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

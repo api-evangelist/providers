@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,7 +144,7 @@ plans:
 - name: Nx Plans
   plan_count: 3
   slug: nx-plans
-random_paper: 40
+random_paper: 4
 score:
   band: thin
   composite: 39.4
@@ -159,8 +159,8 @@ score:
   previous_composite: 39.4
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

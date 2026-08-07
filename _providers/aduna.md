@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Aduna's aggregated implementation of the CAMARA Number Verification API (v2.1), confirming possession of a mobile phone number in real time by verifying it directly against the carrier network with mi
@@ -169,7 +169,7 @@ overview: 'Aduna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aduna''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
-random_paper: 46
+random_paper: 69
 scopes:
 - name: Aduna Scopes
   scope_count: 4
@@ -195,8 +195,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Protocol Buffers (Protobuf) is Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. It defines a schema language for specifying message structures in .pro
@@ -95,7 +95,7 @@ plans:
 - name: Protocol Buffers Plans Pricing
   plan_count: 3
   slug: protocol-buffers-plans-pricing
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Protocol Buffers Rate Limits
@@ -121,8 +121,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 35.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protocol-buffers/refs/heads/main/screenshots/protocol-buffers-2026-06-20T192219.png
 security:

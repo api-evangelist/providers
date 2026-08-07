@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Versioned REST API behind the Rentberry rental marketplace, described by an OpenAPI 3.0.0 document published in the Swagger UI at https://api.rentberry.com/docs. 188 paths / 220 operations across 44 t
@@ -161,10 +161,11 @@ overview: 'Rentberry publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 39
+random_paper: 85
 score:
   band: thin
   composite: 41.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 47.9
@@ -172,6 +173,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
@@ -187,8 +189,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Rentberry Authentication

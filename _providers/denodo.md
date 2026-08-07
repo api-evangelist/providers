@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The Solution Manager REST API provides programmatic access to administer the Denodo Platform across environments and clusters. It exposes endpoints for cluster lifecycle management, environment config
@@ -175,7 +175,7 @@ plans:
 - name: Denodo Plans Pricing
   plan_count: 3
   slug: denodo-plans-pricing
-random_paper: 63
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Denodo Rate Limits
@@ -192,8 +192,8 @@ score:
     governance: 10.4
     operational_transparency: 63.2
   previous_composite: 45.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/screenshots/denodo-2026-06-20T175914.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Fwb is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Fwb''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 34
+random_paper: 93
 score:
   band: minimal
   composite: 8.1
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fwb/refs/heads/main/screenshots/fwb-2026-07-25T215337.png
 slug: fwb

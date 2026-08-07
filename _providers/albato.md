@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -294,7 +294,7 @@ plans:
 - name: Albato Plans Pricing
   plan_count: 3
   slug: albato-plans-pricing
-random_paper: 57
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Albato Rate Limits
@@ -335,8 +335,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/screenshots/albato-2026-06-20T171504.png
 security:

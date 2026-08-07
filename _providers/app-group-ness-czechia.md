@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: APP Group  Ness Czechia
 nav: Providers
 network: true
 overview: APP Group  Ness Czechia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Systems Integration, SAP, and ERP.
-random_paper: 91
+random_paper: 34
 score:
   band: minimal
   composite: 5.0
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/app-group-ness-czechia/refs/heads/main/screenshots/app-group-ness-czechia-2026-07-25T200706.png
 security:

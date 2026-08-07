@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: TrueBlue's PeopleScout Advances Proprietary Talent Tech ...
   url: https://investor.trueblue.com/news-events/press-releases/detail/403/trueblues-peoplescout-advances-proprietary-talent-tech
-random_paper: 17
+random_paper: 81
 score:
   band: minimal
   composite: 9.9
@@ -124,8 +124,8 @@ score:
     governance: 10.4
     operational_transparency: 0.0
   previous_composite: 9.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trueblue/refs/heads/main/screenshots/trueblue-2026-06-20T195751.png
 security:

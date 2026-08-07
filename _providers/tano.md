@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -61,11 +61,11 @@ name: Tano
 nav: Providers
 network: true
 overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Brand Signups API, Contact API, Creator Signups API, and 2 more. Tagged areas include Company.
-random_paper: 54
+random_paper: 95
 score:
   band: emerging
   composite: 21.2
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 58.5
@@ -73,7 +73,7 @@ score:
     discoverability: 51.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -84,8 +84,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

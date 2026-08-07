@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 38
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -389,8 +389,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:

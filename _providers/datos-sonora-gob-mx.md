@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Sonora Open Data, ~90 datasets. Base URL https://datos.sonora.gob.mx/api/3/action/.
@@ -83,7 +83,7 @@ plans:
 - name: Datos Sonora Gob Mx Plans Pricing
   plan_count: 0
   slug: datos-sonora-gob-mx-plans-pricing
-random_paper: 68
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Datos Sonora Gob Mx Rate Limits
@@ -106,8 +106,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/screenshots/datos-sonora-gob-mx-2026-06-20T175726.png
 security:

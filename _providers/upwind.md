@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-03'
+  score: 51.1
+  scored_at: '2026-08-06'
 api_count: 12
 apis:
 - description: The access-management API from Upwind — 10 operation(s) for access-management.
@@ -265,7 +265,7 @@ overview: 'Upwind publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 27 more developer resources.'
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Upwind Rate Limits
@@ -292,12 +292,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

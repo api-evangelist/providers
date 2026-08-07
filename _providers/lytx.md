@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-03'
+  score: 61.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -266,7 +266,7 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 18 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: developing
   composite: 45.4
@@ -289,8 +289,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

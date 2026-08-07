@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for authenticating machine and human identities, retrieving and rotating secrets, loading policy-as-code, and inspecting RBAC roles and resources. Compatible with Conjur OSS and CyberArk Secr
@@ -132,7 +132,7 @@ overview: 'Conjur publishes 1 API on the [APIs.io](https://apis.io/) network: / 
 
 
   Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 15 more developer resources.'
-random_paper: 87
+random_paper: 92
 score:
   band: thin
   composite: 31.4
@@ -149,8 +149,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/screenshots/conjur-2026-07-25T210258.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -166,7 +166,7 @@ overview: 'Nasdaq Data Link publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Nasdaq Data Link''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 42
+random_paper: 93
 rate_limits:
 - limit_count: 10
   name: Nasdaq Data Link Rate Limits
@@ -179,7 +179,7 @@ scopes:
 score:
   band: developing
   composite: 43.1
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -187,7 +187,7 @@ score:
     discoverability: 100.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 39.6
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:

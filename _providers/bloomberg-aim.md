@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -1000,7 +1000,7 @@ plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 74
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits
@@ -1052,8 +1052,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

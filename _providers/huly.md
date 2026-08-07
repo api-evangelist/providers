@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The @hcengineering/api-client Node.js package provides typed programmatic access to the Huly Platform. It exposes a WebSocket client (connect) holding a persistent transactor connection and a REST cli
@@ -101,7 +101,7 @@ plans:
 - name: Huly Plans Pricing
   plan_count: 6
   slug: huly-plans-pricing
-random_paper: 70
+random_paper: 111
 rate_limits:
 - limit_count: 4
   name: Huly Rate Limits
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/screenshots/huly-2026-07-25T221637.png
 security:

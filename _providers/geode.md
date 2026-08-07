@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Geode is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Geode''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 41
+random_paper: 64
 score:
   band: minimal
   composite: 12.6
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 12.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geode/refs/heads/main/screenshots/geode-2026-07-25T215649.png
 security:

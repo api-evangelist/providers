@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Listed in the Aviva API Developer Portal service catalogue as an API that calculates premiums for Aviva consumer Private Medical Insurance policies — the quote/rating verb of the Aviva Health API fami
@@ -139,7 +139,7 @@ overview: 'Aviva plc publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aviva plc''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, developer portal, engineering blog, and 17 more developer resources.'
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Aviva Plc Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -155,7 +155,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 26.0
+  previous_composite: 28.4
   provenance:
     conformance: first-party
   regulatory:
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/screenshots/aviva-plc-2026-07-25T201951.png
 security:

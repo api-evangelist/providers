@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'REST API exposing asynchronous forecasts with quantile bands and driver attribution, ranked external drivers, alerts, account/usage, tiers, API keys, and billing. Uses HTTP Bearer authentication with '
@@ -46,7 +46,7 @@ name: Sybilion
 nav: Providers
 network: true
 overview: 'Sybilion publishes 1 API on the [APIs.io](https://apis.io/) network: Operational API. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic forecasting, Time-series forecasting, and Procurement.'
-random_paper: 18
+random_paper: 82
 score:
   band: emerging
   composite: 14.4
@@ -59,8 +59,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: sybilion
 tags:

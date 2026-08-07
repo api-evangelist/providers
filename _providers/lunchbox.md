@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -476,7 +476,7 @@ plans:
 - name: Lunchbox Plans Pricing
   plan_count: 2
   slug: lunchbox-plans-pricing
-random_paper: 12
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Lunchbox Rate Limits
@@ -517,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
 security:

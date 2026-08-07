@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -148,7 +148,7 @@ overview: 'Copado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Copado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 19 more developer resources.'
-random_paper: 60
+random_paper: 65
 score:
   band: thin
   composite: 38.5
@@ -163,8 +163,8 @@ score:
   previous_composite: 38.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/screenshots/copado-2026-07-25T210407.png
 security:

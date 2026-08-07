@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -120,7 +120,7 @@ overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 12 more developer resources.'
-random_paper: 10
+random_paper: 74
 score:
   band: emerging
   composite: 13.1
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 13.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
 security:

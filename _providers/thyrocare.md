@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Partner order-booking API used by Thyrocare's DSA (Direct Selling Agent) franchise network for booking diagnostic tests and retrieving reports. A Swashbuckle (.NET) Swagger UI is publicly reachable, b
@@ -79,7 +79,7 @@ overview: 'Thyrocare publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Thyrocare''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 27
+random_paper: 73
 score:
   band: emerging
   composite: 14.0
@@ -98,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

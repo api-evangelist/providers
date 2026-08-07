@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Simply Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 25 more developer resources.'
-random_paper: 35
+random_paper: 9
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.3
@@ -193,7 +193,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 81.6
-  previous_composite: 45.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

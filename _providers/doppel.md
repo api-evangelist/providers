@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: The alerts API from Doppel — 3 operation(s) for alerts.
@@ -197,7 +197,7 @@ overview: 'Doppel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 23 more developer resources.'
-random_paper: 74
+random_paper: 79
 score:
   band: developing
   composite: 55.9
@@ -219,8 +219,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
 security:

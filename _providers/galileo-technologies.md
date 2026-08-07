@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -351,7 +351,7 @@ overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.
 
 
   Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 67
+random_paper: 28
 scopes:
 - name: Galileo Technologies Scopes
   scope_count: 0
@@ -379,8 +379,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-07-25T215359.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -112,7 +112,7 @@ plans:
 - name: Dice Fm Plans Pricing
   plan_count: 2
   slug: dice-fm-plans-pricing
-random_paper: 91
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Dice Fm Rate Limits
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dice-fm/refs/heads/main/screenshots/dice-fm-2026-07-25T211936.png
 security:

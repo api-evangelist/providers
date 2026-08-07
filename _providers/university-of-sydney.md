@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The University of Sydney's institutional repository, Sydney eScholarship, exposes an OAI-PMH metadata harvesting interface for open-access theses, research outputs, and digital collections. The interf
@@ -110,7 +110,7 @@ plans:
 - name: University Of Sydney Plans Pricing
   plan_count: 2
   slug: university-of-sydney-plans-pricing
-random_paper: 3
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: University Of Sydney Rate Limits
@@ -133,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sydney/refs/heads/main/screenshots/university-of-sydney-2026-06-20T200254.png
 security:

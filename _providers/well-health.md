@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: apps.health is WELL Health's digital health marketplace through which third-party apps and services integrate with WELL's network of EMRs (OSCAR Pro, Profile), which support HL7 FHIR and other interop
@@ -83,7 +83,7 @@ overview: 'WELL Health Technologies publishes 1 API on the [APIs.io](https://api
 
 
   WELL Health Technologies'' developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 66
+random_paper: 94
 score:
   band: emerging
   composite: 23.6
@@ -104,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

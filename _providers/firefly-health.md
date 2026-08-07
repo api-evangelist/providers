@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Private first-party HTTP API that backs the Firefly Health member web app and iOS/Android apps. Observed at https://api-prod.firefly.health with an /api/v2/ base path referenced by the members.firefly
@@ -130,10 +130,11 @@ overview: 'Firefly Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Firefly Health''s developer surface includes signup flow, support, FAQ, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 3
+random_paper: 72
 score:
   band: emerging
   composite: 23.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -141,6 +142,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -149,8 +151,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Firefly Health Domain Security

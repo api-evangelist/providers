@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-03'
+  score: 40.3
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -270,19 +270,19 @@ overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io
 
 
   LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 79
+random_paper: 76
 score:
   band: developing
-  composite: 43.9
+  composite: 44.0
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 51.9
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 43.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +299,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -64,7 +64,7 @@ name: Mytos
 nav: Providers
 network: true
 overview: Mytos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cell Therapy, Regenerative Medicine, and Manufacturing Automation.
-random_paper: 2
+random_paper: 7
 score:
   band: minimal
   composite: 11.3
@@ -83,8 +83,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

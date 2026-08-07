@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 17
 common:
@@ -105,7 +105,7 @@ overview: 'Mitchell & Ness is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mitchell & Ness'' developer surface includes authentication and 5 more developer resources.'
-random_paper: 73
+random_paper: 106
 score:
   band: minimal
   composite: 8.8
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

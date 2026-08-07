@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-03'
+  score: 38.3
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -64,7 +64,7 @@ apis:
 - description: Apollo MCP Server provides Model Context Protocol integration for Apollo GraphQL, enabling AI agents and large language models to interact with GraphQL APIs through the MCP standard.
   name: Apollo MCP Server
   slug: apollo-mcp-server
-artifact_total: 58
+artifact_total: 62
 common:
 - group: auth
   title: ''
@@ -230,8 +230,33 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/apollographql/skills
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/apollo-graphql-graphos.graphql
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/apollo-graphql-mcp.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://www.apollographql.com/llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/apollo-graphql-api-catalog.json
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/apollo-graphql-api-catalog.json
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/apollo-graph_stock/
 created: '2025-06-10T00:00:00.000Z'
-description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
+description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo Federation for composing many subgraphs into one graph, Apollo Connectors for bringing REST endpoints into a graph without writing resolvers, Apollo Server for Node.js, and the Apollo Client families for Web/React, iOS, and Kotlin. More recently the company has pushed into agent infrastructure with the Apollo MCP Server and GraphOS MCP Server, positioning a governed GraphQL schema as the orchestration layer AI agents call instead of raw REST. The company has raised more than $180 million, including a $130 million Series D in 2021, and its shares trade on secondary marketplaces such as Forge Global, Hiive, and Nasdaq Private Market. "Apollo Graph" is the legal entity name that appears
+  on those private-stock listings; the operating brand is Apollo GraphQL.'
 features:
 - name: Build GraphQL APIs
 - name: Deploy GraphQL APIs
@@ -265,11 +290,21 @@ integrations:
 - name: Stripe
 - name: AWS Lambda
 - name: Strapi
+json_schemas:
+- name: Apollo Router Configuration
+  property_count: 8
+  slug: router-configuration
+- name: Apollo Federation Supergraph Configuration
+  property_count: 2
+  slug: supergraph-configuration
 layout: provider
 mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: ''
+  name: apollo-graphql-mcp.yml
+  slug: apollo-graphql-mcpyml
 modified: '2026-05-19'
 name: Apollo GraphQL
 nav: Providers
@@ -277,33 +312,45 @@ network: true
 overview: 'Apollo GraphQL publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Orchestration, Clients, Connectors, Federation, and Graph.
 
 
-  Apollo GraphQL''s developer surface includes pricing, documentation, engineering blog, support, signup flow, product news, legal docs, and 34 more developer resources.'
+  The Apollo GraphQL catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Apollo GraphQL''s developer surface includes pricing, documentation, engineering blog, support, signup flow, product news, legal docs, and 40 more developer resources.'
 plans:
 - name: Apollo Graphql Plans Pricing
   plan_count: 3
   slug: apollo-graphql-plans-pricing
-random_paper: 18
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Apollo Graphql Rate Limits
   slug: apollo-graphql-rate-limits
+rules:
+- name: Apollo GraphQL API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: apollo-federation-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.1
-  delta: 13.9
+  band: exemplar
+  composite: 66.1
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 48.1
+    contract_quality: 60.5
     developer_ergonomics: 34.8
-    discoverability: 74.1
-    governance: 0.0
+    discoverability: 83.3
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 41.2
+  previous_composite: 66.1
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: rising
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
 security:
 - kind: domain-security

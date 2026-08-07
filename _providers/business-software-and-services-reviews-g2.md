@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The G2 API V2 provides programmatic access to G2's software reviews, buyer intent signals, competitive intelligence, and product data. Uses OAuth 2.0 for authentication. Enables integration of G2 buye
@@ -90,7 +90,7 @@ plans:
 - name: Business Software And Services Reviews G2 Plans Pricing
   plan_count: 3
   slug: business-software-and-services-reviews-g2-plans-pricing
-random_paper: 87
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Business Software And Services Reviews G2 Rate Limits
@@ -113,8 +113,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:

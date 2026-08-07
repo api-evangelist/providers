@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A web service for integrating USC Schedule of Classes content (terms, departments, courses, and sections) into other web sites and applications. The online USC Schedule of Classes is itself a consumer
@@ -112,7 +112,7 @@ plans:
 - name: Usc Plans Pricing
   plan_count: 2
   slug: usc-plans-pricing
-random_paper: 46
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Usc Rate Limits
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usc/refs/heads/main/screenshots/usc-2026-06-20T200656.png
 security:

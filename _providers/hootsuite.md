@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'Hootsuite publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hootsuite''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 10 more developer resources.'
-random_paper: 46
+random_paper: 92
 scopes:
 - name: Hootsuite Scopes
   scope_count: 1
@@ -164,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png
 security:

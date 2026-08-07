@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ plans:
 - name: Radio Mast Plans Pricing
   plan_count: 3
   slug: radio-mast-plans-pricing
-random_paper: 59
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Radio Mast Rate Limits
@@ -128,8 +128,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/screenshots/radio-mast-2026-06-20T192524.png
 security:

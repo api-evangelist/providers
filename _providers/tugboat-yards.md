@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-03'
+  score: 21.6
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Publisher-scoped REST API for the Tugboat audience-funding platform, covering API-key verification, pages, offers and offer issues, subscribers, orders, the deprecated WePay checkouts interface, per-k
@@ -68,7 +68,7 @@ overview: 'Tugboat Yards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   The Tugboat Yards catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 20
+random_paper: 107
 score:
   band: emerging
   composite: 18.8
@@ -87,8 +87,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

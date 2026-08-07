@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 58
+random_paper: 104
 scopes:
 - name: Metro Bank Scopes
   scope_count: 4
@@ -154,16 +154,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.1
+  composite: 36.1
   delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 32.3
+    contract_quality: 37.2
     developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 35.1
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -180,8 +180,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

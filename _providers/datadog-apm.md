@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Datadog APM REST API for traces, spans, services, service definitions, and SLOs. Provides endpoints for searching traces, managing service catalog entries, and configuring service level objectives.
@@ -124,7 +124,7 @@ plans:
 - name: Datadog Apm Plans Pricing
   plan_count: 3
   slug: datadog-apm-plans-pricing
-random_paper: 42
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Datadog Apm Rate Limits
@@ -149,7 +149,7 @@ rules:
 score:
   band: developing
   composite: 53.3
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 73.6
@@ -157,15 +157,15 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 53.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

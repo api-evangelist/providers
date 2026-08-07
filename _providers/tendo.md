@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Tendo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tendo''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 63
+random_paper: 86
 score:
   band: emerging
   composite: 18.4
@@ -110,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

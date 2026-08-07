@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Aalto's 3scale-based API gateway exposing open interfaces about Aalto and its operations, sourced from systems such as Oodi and ASIO. Access requires signing in with an Aalto account (and the develope
@@ -109,7 +109,7 @@ plans:
 - name: Aalto Plans Pricing
   plan_count: 2
   slug: aalto-plans-pricing
-random_paper: 54
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Aalto Rate Limits
@@ -132,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/screenshots/aalto-2026-06-20T162945.png
 security:

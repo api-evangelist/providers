@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Morning Consult publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 63
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
@@ -194,6 +194,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.0
@@ -201,6 +202,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 55.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -211,8 +213,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Morning Consult Authentication

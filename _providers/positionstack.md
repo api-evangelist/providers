@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ plans:
 - name: Positionstack Plans Pricing
   plan_count: 5
   slug: positionstack-plans-pricing
-random_paper: 89
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Positionstack Rate Limits
@@ -290,7 +290,7 @@ rules:
 score:
   band: exemplar
   composite: 67.0
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 78.3
@@ -298,7 +298,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.9
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -306,8 +306,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-06-20T191943.png
 security:

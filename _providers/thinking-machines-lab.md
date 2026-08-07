@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -164,7 +164,7 @@ overview: 'Thinking Machines Lab is profiled on the [APIs.io](https://apis.io/) 
 
 
   Thinking Machines Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 3
+random_paper: 59
 scopes:
 - name: Thinking Machines Lab Scopes
   scope_count: 4
@@ -184,8 +184,8 @@ score:
   previous_composite: 35.1
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

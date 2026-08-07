@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -107,7 +107,7 @@ plans:
 - name: Flask Plans Pricing
   plan_count: 3
   slug: flask-plans-pricing
-random_paper: 54
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Flask Rate Limits
@@ -133,8 +133,8 @@ score:
     governance: 58.3
     operational_transparency: 52.6
   previous_composite: 34.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/screenshots/flask-2026-06-20T181302.png
 security:

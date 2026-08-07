@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -934,7 +934,7 @@ plans:
 - name: Upvest Plans Pricing
   plan_count: 3
   slug: upvest-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Upvest Rate Limits
@@ -994,8 +994,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

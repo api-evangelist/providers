@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 9
 common:
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Emerging AI - The Nucleus | Regeneron Stories
   url: https://www.regeneron.com/stories/the-nucleus-emerging-ai-tools
-random_paper: 35
+random_paper: 1
 rules:
 - name: regeneron-pharmaceuticals API Rules
   rule_count: 5
@@ -143,8 +143,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-03'
+  score: 54.5
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -166,7 +166,7 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   hi.health''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 79
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Hihealth Rate Limits
@@ -179,7 +179,7 @@ scopes:
 score:
   band: developing
   composite: 51.0
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 51.6
@@ -187,7 +187,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 78.9
-  previous_composite: 48.7
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +197,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 68.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:

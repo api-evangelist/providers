@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -148,23 +148,23 @@ overview: 'Apptentive publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
-random_paper: 43
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Apptentive Rate Limits
   slug: apptentive-rate-limits
 score:
-  band: thin
-  composite: 37.8
-  delta: 2.7
+  band: developing
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
-    contract_quality: 32.3
+    contract_quality: 53.5
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 35.1
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -175,8 +175,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
 security:

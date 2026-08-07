@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'National Telecommunications and Information Administration is profile
 
 
   National Telecommunications and Information Administration''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 90
+random_paper: 104
 score:
   band: minimal
   composite: 6.3
@@ -82,8 +82,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-telecommunications-and-information-administration/refs/heads/main/screenshots/national-telecommunications-and-information-administration-2026-06-20T190043.png
 security:

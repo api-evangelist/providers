@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Multus CNI is a meta-plugin for Kubernetes that enables attaching multiple network interfaces to pods. It supports delegating to other CNI plugins and allows pods to connect to multiple networks for a
@@ -72,7 +72,7 @@ plans:
 - name: Multus Cni Plans Pricing
   plan_count: 3
   slug: multus-cni-plans-pricing
-random_paper: 91
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Multus Cni Rate Limits
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multus-cni/refs/heads/main/screenshots/multus-cni-2026-06-20T185858.png
 slug: multus-cni

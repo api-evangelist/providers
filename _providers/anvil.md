@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ plans:
 - name: Anvil Plans Pricing
   plan_count: 4
   slug: anvil-plans-pricing
-random_paper: 63
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Anvil Rate Limits
@@ -214,7 +214,7 @@ rules:
 score:
   band: strong
   composite: 57.7
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 76.4
@@ -222,7 +222,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 53.6
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets an AI assistant create finished video and image ads from a plain-language brief. Streamable HTTP transport with browser-based OAuth 2.0 (PKCE + d
@@ -108,7 +108,7 @@ overview: 'Sesame Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Sesame Labs'' developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 8 more developer resources.'
-random_paper: 56
+random_paper: 84
 score:
   band: emerging
   composite: 27.8
@@ -124,8 +124,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

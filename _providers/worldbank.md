@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'World Bank publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Bank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 14
+random_paper: 60
 rate_limits:
 - limit_count: 9
   name: Worldbank Rate Limits
@@ -190,8 +190,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

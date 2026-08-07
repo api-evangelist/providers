@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Messina Open Data, ~109 datasets. Base URL https://opendata.comune.messina.it/api/3/action/.
@@ -84,7 +84,7 @@ plans:
 - name: Opendata Comune Messina It Plans Pricing
   plan_count: 1
   slug: opendata-comune-messina-it-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Opendata Comune Messina It Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png
 security:

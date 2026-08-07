@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Testcontainers Cloud Agent API enables CI/CD pipelines and desktop environments to allocate hosted Docker container workers in the cloud. Authentication is performed via TC_CLOUD_TOKEN service acc
@@ -131,7 +131,7 @@ plans:
 - name: Testcontainers Plans Pricing
   plan_count: 5
   slug: testcontainers-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 6
   name: Testcontainers Rate Limits
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testcontainers/refs/heads/main/screenshots/testcontainers-2026-06-20T195150.png
 security:

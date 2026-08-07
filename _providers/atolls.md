@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Atolls is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atolls'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 85
+random_paper: 90
 score:
   band: minimal
   composite: 10.0
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atolls/refs/heads/main/screenshots/atolls-2026-07-25T201556.png
 security:

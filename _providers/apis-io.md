@@ -1,17 +1,6 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +11,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-03'
+  score: 44.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,41 +26,44 @@ agentic_access:
   operation_count: 64
   slug: apis-io-agentic-access
   summary_line: 64 operations · 1 acting
-api_count: 11
+api_count: 12
 apis:
-- description: Index of HTTP application programming interfaces.
-  name: APIs.io APIs API
-  slug: apis-io-apis-api
-- description: The API Evangelist areas taxonomy — curated topic collections (authentication, webhooks, payments, …), each a scored provider index with its own site. Pro.
-  name: APIs.io Areas API
-  slug: apis-io-areas-api
-- description: First-class, per-type artifact collections (OpenAPI, AsyncAPI, Arazzo, Postman, JSON Schema, and more). Each path filters and normalizes one artifact type across all providers.
-  name: APIs.io Artifact Types API
-  slug: apis-io-artifact-types-api
-- description: Industry verticals grouping providers across the catalog.
-  name: APIs.io Industries API
-  slug: apis-io-industries-api
-- description: Demand-side intelligence — what ~5,800 companies (Fortune 1000 + API providers) build, buy, and hire for around APIs, data, and AI, derived from job postings, press, and engineering blogs. Discovery i
-  name: APIs.io Insights API
-  slug: apis-io-insights-api
-- description: Organizations publishing APIs on the network.
+- description: Organizations publishing APIs on the network. 6 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
   name: APIs.io Providers API
-  slug: apis-io-providers-api
+  slug: providers
+- description: Individual APIs, each owned by a provider and described by artifacts. 5 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+  name: APIs.io APIs API
+  slug: apis
+- description: The tag taxonomy, with network-wide ranking metadata. 2 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+  name: APIs.io Tags API
+  slug: tags
+- description: Industry verticals grouping providers across the catalog. 3 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+  name: APIs.io Industries API
+  slug: industries
+- description: Geographic regions grouping providers across the catalog. 3 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+  name: APIs.io Regions API
+  slug: regions
+- description: The API Evangelist areas taxonomy — curated topic collections (authentication, webhooks, payments, …), each a scored provider index with its own site. Pro. 3 operations of the APIs.io API, split out b
+  name: APIs.io Areas API
+  slug: areas
+- description: Decision-grade composites over the catalog — provider comparison, gap analysis, catalog change feed, and recommended-stack design. Pro. 6 operations of the APIs.io API, split out by tag so this surfac
+  name: APIs.io Synthesis API
+  slug: synthesis
 - description: 'The APIs.io API rating system — a 0–100 composite score, five bands, a trend marker, and six weighted facets measuring how complete, governed, and integration-ready each provider''s public API surface '
   name: APIs.io Ratings API
-  slug: apis-io-ratings-api
-- description: Geographic regions grouping providers across the catalog.
-  name: APIs.io Regions API
-  slug: apis-io-regions-api
-- description: Search using a cloud search engine.
+  slug: ratings
+- description: First-class, per-type artifact collections (OpenAPI, AsyncAPI, Arazzo, Postman, JSON Schema, and more). Each path filters and normalizes one artifact type across all providers. 20 operations of the AP
+  name: APIs.io Artifact Types API
+  slug: artifact-types
+- description: Unified cross-resource search. 1 operation of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
   name: APIs.io Search API
-  slug: apis-io-search-api
-- description: Decision-grade composites over the catalog — provider comparison, gap analysis, catalog change feed, and recommended-stack design. Pro.
-  name: APIs.io Synthesis API
-  slug: apis-io-synthesis-api
-- description: The tag taxonomy, with network-wide ranking metadata.
-  name: APIs.io Tags API
-  slug: apis-io-tags-api
+  slug: search
+- description: Demand-side intelligence — what ~5,800 companies (Fortune 1000 + API providers) build, buy, and hire for around APIs, data, and AI, derived from job postings, press, and engineering blogs. Discovery i
+  name: APIs.io Insights API
+  slug: insights
+- description: 'Adding an API to the network — discover a target''s public artifacts, then submit it for review. 2 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on '
+  name: APIs.io Submit API
+  slug: submit
 arazzos:
 - description: Run two keyword searches against APIs.io and compare how many APIs the index holds for each term.
   name: APIs.io Compare Keyword Coverage
@@ -85,46 +77,8 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 92
-collections:
-- collection_type: postman
-  name: .io Search APIs API
-  slug: postman-apis-io-apis-api
-- collection_type: postman
-  name: .io Search APIs Areas API
-  slug: postman-apis-io-areas-api
-- collection_type: postman
-  name: .io Search APIs Artifact Types API
-  slug: postman-apis-io-artifact-types-api
-- collection_type: postman
-  name: .io Search APIs Industries API
-  slug: postman-apis-io-industries-api
-- collection_type: postman
-  name: .io Search APIs Insights API
-  slug: postman-apis-io-insights-api
-- collection_type: postman
-  name: .io Search APIs Providers API
-  slug: postman-apis-io-providers-api
-- collection_type: postman
-  name: .io Search APIs Ratings API
-  slug: postman-apis-io-ratings-api
-- collection_type: postman
-  name: .io Search APIs Regions API
-  slug: postman-apis-io-regions-api
-- collection_type: postman
-  name: .io APIs Search API
-  slug: postman-apis-io-search-api
-- collection_type: postman
-  name: .io Search APIs Synthesis API
-  slug: postman-apis-io-synthesis-api
-- collection_type: postman
-  name: .io Search APIs Tags API
-  slug: postman-apis-io-tags-api
+artifact_total: 83
 common:
-- group: build
-  title: ''
-  type: PostmanWorkspace
-  url: https://www.postman.com/kinlaneapi/apisio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -241,7 +195,55 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/vocabulary/apis-io-vocabulary.yaml
-created: '2026-03-26'
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://apis.io/developer/documentation/
+- group: agent
+  title: APIs.io MCP Server
+  type: MCPServer
+  url: https://apis.io/mcp
+- group: agent
+  title: ''
+  type: MCPServerCard
+  url: https://apis.io/.well-known/mcp/server-card.json
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://apis.io/skills/
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://raw.githubusercontent.com/api-commons/agent-skills/main/apis-io-discovery/SKILL.md
+- group: agent
+  title: APIs.io Agent Skills
+  type: AgentSkills
+  url: https://raw.githubusercontent.com/api-commons/agent-skills/main/apis-json-author/SKILL.md
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: https://www.postman.com/api-evangelist/apis-io-api-evangelist-engine/collection/hn8xpmd/apis-io-search-api
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.postman.com/api-evangelist/apis-io/monitor/APIs-io-Search---Status~1ef6bc29-9da9-4040-b98b-cef03be1155e
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://apis.io/developer/plans/
+- group: docs
+  title: Search Response Schema
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/json-schema/apis-io-search-search-schema.json
+- group: docs
+  title: APIs.json Schema
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/json-schema/apis-io-search-ap-is-json-schema.json
+- group: other
+  title: ''
+  type: X-GovernanceReport
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/governance/README.md
+created: 2026-03-26
 description: APIs.io is an open source API search engine and directory that uses APIs.json files to discover, index, and catalog APIs across the web. Built on the APIs.json specification, it provides a searchable entry point for developers to find public APIs by keyword, resource, action, persona, domain, and schema. The platform indexes 779 providers, 3,188 APIs, 587 capabilities, 36,602 schemas, 49 event specs, 2,078 vocabularies, and 450 rulesets. It is maintained by Kin Lane, Nicolas Grenier, and Steven Willmott and supports both API producers (submitting APIs) and API consumers (discovering APIs). APIs.io uses a Spectral-powered rating system to evaluate API documentation quality.
 examples:
 - key_count: 1
@@ -302,7 +304,7 @@ finops:
 - name: Apis Io Finops
   service_category: API
   slug: apis-io-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apis-io.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 integrations:
 - description: Core integration with the APIs.json specification for machine-readable API description and discovery across the web.
   name: APIs.json
@@ -402,22 +404,26 @@ jsonld:
   property_count: 34
   slug: apis-io-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: Read-only MCP server over the APIs.io catalog, served over Streamable HTTP at https://apis.io/mcp. 15 curated tools led by apis_io_search let agents discover APIs, providers, tags, ratings, industries
+  name: APIs.io MCP Server
+  slug: mcp-server
+modified: 2026-07-15
 name: APIs.io
 nav: Providers
 network: true
-overview: 'APIs.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Areas API, Artifact Types API, and 8 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
+overview: 'APIs.io publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Providers API, APIs API, Tags API, and 9 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
 
 
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, and 24 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, documentation, and 34 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
   plan_count: 3
   slug: apis-io-plans-pricing
-random_paper: 25
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apis Io Rate Limits
@@ -441,16 +447,16 @@ rules:
   slug: apis-io-spectral-rules
 score:
   band: strong
-  composite: 62.6
+  composite: 65.4
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 79.0
-    developer_ergonomics: 41.3
+    contract_quality: 68.2
+    developer_ergonomics: 58.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
-  previous_composite: 62.6
+    operational_transparency: 68.4
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     contracts:
@@ -458,8 +464,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:

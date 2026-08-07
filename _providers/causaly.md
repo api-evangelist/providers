@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Computational access to Causaly's biomedical knowledge graph — 500 million relationships across biomedical concepts (targets, diseases, biomarkers, organ systems) with directional cause-and-effect rel
@@ -96,7 +96,7 @@ overview: 'Causaly publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Causaly''s developer surface includes engineering blog, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 89
+random_paper: 76
 score:
   band: emerging
   composite: 21.1
@@ -115,8 +115,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/screenshots/causaly-2026-07-25T204815.png
 security:

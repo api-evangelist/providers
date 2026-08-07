@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'RESTful API for Bitsight security ratings, portfolio and company data, findings, alerts, and cyber threat intelligence. Authenticated with an API token via HTTP Basic over HTTPS; versioned in the URL '
@@ -136,7 +136,7 @@ overview: 'BitSight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   BitSight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 7
+random_paper: 71
 score:
   band: thin
   composite: 30.5
@@ -149,8 +149,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 30.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/screenshots/bitsight-2026-07-25T203206.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Create, list, run, evaluate, download, and publish adaptive datasets.
@@ -150,7 +150,7 @@ overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Adaption''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 57
 score:
   band: developing
   composite: 45.4
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/screenshots/adaption-2026-07-25T181551.png
 security:

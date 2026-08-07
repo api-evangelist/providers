@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -2492,7 +2492,7 @@ plans:
 - name: Apideck Plans Pricing
   plan_count: 3
   slug: apideck-plans-pricing
-random_paper: 56
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Apideck Rate Limits
@@ -2509,7 +2509,7 @@ rules:
 score:
   band: exemplar
   composite: 66.5
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 63.4
@@ -2517,7 +2517,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 66.2
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2525,8 +2525,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:

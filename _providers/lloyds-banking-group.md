@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-03'
+  score: 48.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 45
+random_paper: 6
 scopes:
 - name: Lloyds Banking Group Scopes
   scope_count: 3
@@ -164,16 +164,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.3
+  composite: 43.4
   delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 69.0
+    contract_quality: 64.5
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.3
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

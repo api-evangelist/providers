@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The signed-request platform API behind the UrbanLogiq community intelligence platform — data catalog objects, aggregate queries, and streams served in Apache Arrow, Parquet, CSV, XLSX, JSON, text, and
@@ -152,7 +152,7 @@ overview: 'UrbanLogiq publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   UrbanLogiq''s developer surface includes documentation, engineering blog, support, CLI, authentication, sandbox, and 19 more developer resources.'
-random_paper: 31
+random_paper: 59
 score:
   band: thin
   composite: 34.8
@@ -174,8 +174,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST over HTTPS with JSON request/response (CSV supported on specific bulk-load endpoints) for integrating Guidewheel with external ERP, MES and CMMS systems. Covers devices and equipment details, min
@@ -142,7 +142,7 @@ plans:
 - name: Guidewheel Plans
   plan_count: 1
   slug: guidewheel-plans
-random_paper: 14
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Guidewheel Rate Limits
@@ -150,6 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 0.0
@@ -157,6 +158,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 52.6
+  previous_composite: 38.3
   provenance:
     conformance: derived
   regulatory:
@@ -165,8 +167,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Guidewheel Authentication

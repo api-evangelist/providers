@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Datacurve
 nav: Providers
 network: true
 overview: Datacurve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, Datasets, and Reinforcement Learning.
-random_paper: 9
+random_paper: 55
 score:
   band: minimal
   composite: 6.1
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacurve/refs/heads/main/screenshots/datacurve-2026-07-25T211318.png
 security:

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-03'
+  score: 52.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -212,10 +212,11 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 
 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 83
+random_paper: 88
 score:
   band: strong
   composite: 59.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.0
@@ -223,6 +224,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +235,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Immuta Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'TaTiO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   TaTiO''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 70
+random_paper: 93
 score:
   band: emerging
   composite: 14.3
@@ -94,8 +94,8 @@ score:
   previous_composite: 14.3
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

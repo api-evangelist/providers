@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Complete is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Complete''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 2
+random_paper: 66
 score:
   band: emerging
   composite: 21.9
@@ -115,8 +115,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complete/refs/heads/main/screenshots/complete-2026-07-25T210153.png
 security:

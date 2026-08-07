@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -537,7 +537,7 @@ plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 45
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits
@@ -584,8 +584,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:

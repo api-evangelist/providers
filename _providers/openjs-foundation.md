@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Node.js is a JavaScript runtime built on Chrome's V8 engine that powers server-side applications and tooling across the JavaScript ecosystem.
@@ -99,7 +99,7 @@ plans:
 - name: Openjs Foundation Plans Pricing
   plan_count: 3
   slug: openjs-foundation-plans-pricing
-random_paper: 69
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Openjs Foundation Rate Limits
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/screenshots/openjs-foundation-2026-06-20T191008.png
 security:

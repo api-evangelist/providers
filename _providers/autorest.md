@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -49,7 +49,7 @@ apis:
 - description: The AutoRest Go generator (@autorest/go) produces Go client libraries from OpenAPI specifications, generating idiomatic Go code compatible with the Azure SDK for Go and azure-sdk-for-go ecosystem.
   name: AutoRest Go Generator
   slug: autorest-go
-artifact_total: 20
+artifact_total: 21
 common:
 - group: company
   title: ''
@@ -75,6 +75,66 @@ common:
   title: ''
   type: ReleaseNotes
   url: https://github.com/Azure/autorest/releases
+- group: docs
+  title: Index of AutoRest Flags
+  type: APIReference
+  url: https://github.com/Azure/autorest/blob/main/docs/generate/flags.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/Azure/autorest/issues
+- group: operate
+  title: ''
+  type: Community
+  url: https://github.com/Azure/autorest/discussions
+- group: commercial
+  title: MIT License
+  type: License
+  url: https://github.com/Azure/autorest/blob/main/LICENSE
+- group: build
+  title: ''
+  type: Packages
+  url: packages/autorest-packages.yml
+- group: build
+  title: First-party npm packages and language generators
+  type: SDKs
+  url: packages/autorest-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/autorest-cli.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/autorest-lifecycle.yml
+- group: operate
+  title: AutoRest deprecation and retirement (2026-07-01)
+  type: Deprecation
+  url: https://github.com/Azure/autorest/issues/5175
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/autorest-changelog.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/autorest-vulnerability-disclosure.yml
+- group: auth
+  title: Microsoft Security Response Center disclosure policy
+  type: Security
+  url: https://github.com/Azure/autorest/blob/main/SECURITY.md
+- group: design
+  title: AutoRest x-ms-* extensions for OpenAPI 2.0
+  type: Vocabulary
+  url: vocabulary/autorest-openapi-extensions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/autorest-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autorest-llms.txt
 created: '2026-03-25'
 description: 'AutoRest is an open source tool from Microsoft (MIT License) that generates client libraries for accessing RESTful APIs from OpenAPI specifications. It powers generation of Azure SDKs across C#, Python, Java, TypeScript, Go, PowerShell, and Swift with an extensible plugin architecture. Note: AutoRest is deprecated as of 2026 with retirement on July 1, 2026. The recommended successor is TypeSpec, a modern API description language and code generation platform from Microsoft.'
 features:
@@ -101,39 +161,44 @@ integrations:
 - description: AutoRest and all language generator plugins are distributed as npm packages under the @autorest scope.
   name: npm
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-06'
 name: AutoRest
 nav: Providers
 network: true
 overview: 'AutoRest publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK Generation, and Azure SDK.
 
 
-  AutoRest''s developer surface includes documentation, getting-started guide, release notes, and 3 more developer resources.'
+  AutoRest''s developer surface includes documentation, getting-started guide, release notes, API reference, support, CLI, changelog, and 14 more developer resources.'
 plans:
 - name: Autorest Plans Pricing
   plan_count: 3
   slug: autorest-plans-pricing
-random_paper: 32
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Autorest Rate Limits
   slug: autorest-rate-limits
 score:
-  band: emerging
-  composite: 25.1
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: 10.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 19.6
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 52.6
+    developer_ergonomics: 43.5
+    discoverability: 72.2
+    governance: 22.9
+    operational_transparency: 71.1
   previous_composite: 25.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/screenshots/autorest-2026-06-20T172707.png
+security:
+- kind: vulnerability-disclosure
+  name: Autorest Vulnerability Disclosure
+  slug: autorest-vulnerability-disclosure
+  summary_line: contact published
 slug: autorest
 tags:
 - Code Generation

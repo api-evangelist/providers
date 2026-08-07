@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Cyberattacks Are Growing: What Businesses Can Do'
   url: https://www.auto-owners.com/ao-blog/-/blogs/ai-cyberattacks-are-growing-what-businesses-can-do
-random_paper: 79
+random_paper: 22
 score:
   band: emerging
   composite: 13.6
@@ -132,8 +132,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/screenshots/auto-owners-insurance-2026-06-20T172622.png
 security:

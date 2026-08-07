@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -3655,7 +3655,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 6
+random_paper: 106
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits
@@ -3696,8 +3696,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

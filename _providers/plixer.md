@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for Plixer Scrutinizer flow analytics — run flow reports, manage alarms, tune detections, trigger packet captures, and work with Collections. Scrutinizer is deployed as a self-hosted applianc
@@ -108,7 +108,7 @@ plans:
 - name: Plixer Plans
   plan_count: 3
   slug: plixer-plans
-random_paper: 90
+random_paper: 95
 score:
   band: thin
   composite: 30.5
@@ -123,8 +123,8 @@ score:
   previous_composite: 30.5
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

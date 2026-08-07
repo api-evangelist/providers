@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -146,7 +146,7 @@ overview: 'Auswide Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Auswide Bank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
-random_paper: 71
+random_paper: 81
 scopes:
 - name: Auswide Bank Scopes
   scope_count: 5
@@ -179,8 +179,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

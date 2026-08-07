@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: FOCUS defines a common normalized data schema for cloud and technology billing data. The specification is delivered as a set of normative documents and supporting artifacts (column library, requiremen
@@ -87,7 +87,7 @@ plans:
 - name: Focus Spec Plans Pricing
   plan_count: 3
   slug: focus-spec-plans-pricing
-random_paper: 66
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Focus Spec Rate Limits
@@ -113,8 +113,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 29.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/screenshots/focus-spec-2026-06-20T181352.png
 security:

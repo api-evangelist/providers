@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Fictiv is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fictiv''s developer surface includes engineering blog, changelog, support, signup flow, and 7 more developer resources.'
-random_paper: 75
+random_paper: 80
 score:
   band: emerging
   composite: 16.6
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fictiv/refs/heads/main/screenshots/fictiv-2026-07-25T214408.png
 security:

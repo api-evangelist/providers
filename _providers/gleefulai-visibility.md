@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Audits how visible a website is to AI assistants and agents. 36 operations across 22 paths — every path answers both GET and POST — covering audit scoring at score/full/deep depths, fix generation, co
@@ -57,10 +57,11 @@ overview: 'Visibility (GleefulAI) publishes 1 API on the [APIs.io](https://apis.
 
 
   Visibility (GleefulAI)''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 88
+random_paper: 49
 score:
   band: emerging
   composite: 18.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 38.8
@@ -68,8 +69,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 18.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 slug: gleefulai-visibility
 tags:
 - AI Visibility

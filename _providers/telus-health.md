@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: GraphQL API for the TELUS Collaborative Health Record (CHR) that lets partners build integrations against clinic data. Queries retrieve and mutations create or update CHR records (patients, appointmen
@@ -110,7 +110,7 @@ overview: 'TELUS Health publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   TELUS Health''s developer surface includes documentation, API reference, getting-started guide, authentication, and 12 more developer resources.'
-random_paper: 92
+random_paper: 102
 score:
   band: thin
   composite: 29.0
@@ -133,8 +133,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

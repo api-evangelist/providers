@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Carezone
 nav: Providers
 network: true
 overview: Carezone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Health, Medication Management, Digital Health, and Pharmacy.
-random_paper: 0
+random_paper: 64
 score:
   band: minimal
   composite: 9.2
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carezone/refs/heads/main/screenshots/carezone-2026-07-25T204602.png
 security:

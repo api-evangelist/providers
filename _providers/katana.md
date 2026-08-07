@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-03'
+  score: 43.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 139
@@ -375,7 +375,7 @@ overview: 'Katana publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Katana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 54
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Katana Rate Limits
@@ -402,8 +402,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/screenshots/katana-2026-07-25T223530.png
 security:

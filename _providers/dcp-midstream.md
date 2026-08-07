@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ name: DCP Midstream (Acquired by Phillips 66)
 nav: Providers
 network: true
 overview: DCP Midstream (Acquired by Phillips 66) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct, Acquired, Phillips 66, Midstream, and Natural Gas.
-random_paper: 87
+random_paper: 79
 score:
   band: minimal
   composite: 4.3
@@ -79,8 +79,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcp-midstream/refs/heads/main/screenshots/dcp-midstream-2026-06-20T175738.png
 slug: dcp-midstream

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,10 +118,11 @@ overview: 'Bellwether Coffee is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bellwether Coffee''s developer surface includes pricing, support, engineering blog, FAQ, and 17 more developer resources.'
-random_paper: 21
+random_paper: 36
 score:
   band: emerging
   composite: 19.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -129,10 +130,12 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 19.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Bellwether Coffee Domain Security

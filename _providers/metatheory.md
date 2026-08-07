@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Metatheory is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Metatheory''s developer surface includes support and 2 more developer resources.'
-random_paper: 45
+random_paper: 73
 score:
   band: minimal
   composite: 5.9
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

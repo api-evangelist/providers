@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API for creating and managing CloudShell environments — browser-based terminal sessions for AWS resource management.
@@ -182,7 +182,7 @@ overview: 'Amazon CloudShell publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Amazon CloudShell''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 52
+random_paper: 67
 rules:
 - name: Amazon CloudShell API Rules
   rule_count: 19
@@ -207,8 +207,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/screenshots/amazon-cloudshell-2026-07-25T195948.png
 security:

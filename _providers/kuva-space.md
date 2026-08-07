@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -141,7 +141,7 @@ overview: 'Kuva Space is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kuva Space''s developer surface includes GitHub presence, YouTube channel, and 22 more developer resources.'
-random_paper: 58
+random_paper: 104
 score:
   band: minimal
   composite: 5.7
@@ -154,8 +154,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuva-space/refs/heads/main/screenshots/kuva-space-2026-06-20T184221.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 95.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-07'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -37,7 +37,14 @@ apis:
 - description: Read-only hosted MCP server for searching Xquik documentation.
   name: Xquik Docs MCP Server
   slug: xquik-docs-mcp-server
-artifact_total: 10
+artifact_total: 15
+asyncapis:
+- description: ''
+  name: Xquik Asyncapi Provenance
+  slug: xquik-asyncapi-provenance
+- description: Xquik sends signed monitor events to customer-managed HTTPS webhook endpoints. Xquik is not affiliated with or endorsed by X Corp.
+  name: Xquik Monitor Webhooks
+  slug: xquik-asyncapi
 common:
 - group: company
   title: ''
@@ -239,6 +246,22 @@ common:
   title: ''
   type: Conformance
   url: conformance/xquik-conformance.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/xquik-asyncapi.yaml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/xquik-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/xquik-webhook-event.schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/xquik-webhook-endpoint.schema.json
 created: '2026-04-14'
 description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
 finops:
@@ -246,6 +269,18 @@ finops:
   service_category: Social Media Data
   slug: xquik-finops
 image: https://xquik.com/logo-square.png
+json_schemas:
+- name: Xquik Webhook Endpoint
+  property_count: 8
+  slug: xquik-webhook-endpoint.schema
+- name: Xquik Webhook Event
+  property_count: 8
+  slug: xquik-webhook-event.schema
+jsonld:
+- class_count: 18
+  name: Xquik Context
+  property_count: 4
+  slug: xquik-context
 layout: provider
 mcp_servers:
 - description: ''
@@ -254,22 +289,22 @@ mcp_servers:
 - description: ''
   name: mcp
   slug: mcp
-modified: '2026-08-01'
+modified: '2026-08-07'
 name: Xquik
 nav: Providers
 network: true
 overview: 'Xquik publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include social media data, X / Twitter, social listening, data extraction, and automation.
 
 
-  The Xquik catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Xquik catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Xquik''s developer surface includes documentation, API reference, getting-started guide, authentication, SDKs, CLI, sandbox, and 43 more developer resources.'
+  Xquik''s developer surface includes documentation, API reference, getting-started guide, authentication, SDKs, CLI, sandbox, and 47 more developer resources.'
 plans:
 - name: Xquik Plans
   plan_count: 4
   slug: xquik-plans
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Xquik Rate Limits
@@ -285,29 +320,29 @@ rules:
   slug: xquik-rules
 score:
   band: exemplar
-  composite: 86.7
-  delta: 1.8
+  composite: 90.5
+  delta: 43.5
   facets:
     commercial_clarity: 100.0
-    contract_quality: 69.8
+    contract_quality: 85.3
     developer_ergonomics: 100.0
     discoverability: 100.0
     governance: 68.8
     operational_transparency: 84.2
-  previous_composite: 84.9
+  previous_composite: 47.0
   provenance:
     agentic_access: unknown
     conformance: unknown
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
     mcp: first-party
     skills: unknown
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-07'
+  trend: rising
 slug: xquik-api
 tags:
 - social media data

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 29 more developer resources.'
-random_paper: 7
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
@@ -236,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

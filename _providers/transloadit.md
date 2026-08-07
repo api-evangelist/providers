@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Core REST API for creating and managing Assemblies (processing jobs), Templates, Template Credentials, Webhooks, Billing, and Queue monitoring. Uses bearer token authentication. Supports video encodin
@@ -136,7 +136,7 @@ plans:
 - name: Transloadit Plans Pricing
   plan_count: 6
   slug: transloadit-plans-pricing
-random_paper: 49
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Transloadit Rate Limits
@@ -153,8 +153,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 41.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transloadit/refs/heads/main/screenshots/transloadit-2026-06-20T195627.png
 security:

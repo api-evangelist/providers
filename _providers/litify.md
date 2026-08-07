@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Provides access to the Litify legal operating system via the Salesforce REST API. Supports managing matters, intakes, documents, tasks, time tracking, billing, and client communications for law firms.
@@ -99,7 +99,7 @@ plans:
 - name: Litify Plans Pricing
   plan_count: 2
   slug: litify-plans-pricing
-random_paper: 87
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Litify Rate Limits
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litify/refs/heads/main/screenshots/litify-2026-06-20T184607.png
 security:

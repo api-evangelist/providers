@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -128,7 +128,7 @@ overview: 'Chainflip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chainflip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 14 more developer resources.'
-random_paper: 87
+random_paper: 38
 score:
   band: emerging
   composite: 24.0
@@ -141,8 +141,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/screenshots/chainflip-2026-07-25T205022.png
 security:

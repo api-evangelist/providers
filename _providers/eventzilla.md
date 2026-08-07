@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Unlimited
   plan_count: 0
   slug: unlimited
-random_paper: 41
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Default
@@ -214,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/screenshots/eventzilla-2026-06-20T180909.png
 security:

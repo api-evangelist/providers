@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 15
 apis:
 - description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
@@ -162,7 +162,7 @@ overview: 'Mark43 publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mark43''s developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 55
+random_paper: 78
 score:
   band: thin
   composite: 31.0
@@ -190,8 +190,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

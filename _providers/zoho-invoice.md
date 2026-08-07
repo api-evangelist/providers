@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for managing organizations, contacts, items, invoices, estimates, credit notes, recurring invoices, expenses, projects, time entries, and customer payments. Authentication is OAuth 2.0 with O
@@ -83,11 +83,11 @@ overview: 'Zoho Invoice publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Zoho Invoice''s developer surface includes documentation, pricing, signup flow, developer console, engineering blog, and 4 more developer resources.'
-random_paper: 7
+random_paper: 112
 score:
   band: emerging
   composite: 25.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.2
@@ -95,15 +95,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.2
+  previous_composite: 25.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/screenshots/zoho-invoice-2026-06-20T201940.png
 security:

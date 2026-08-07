@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Board''s storefront agent-commerce API, provided natively by Shopify via the Universal Commerce Protocol (UCP 2026-04-08). Exposes an MCP endpoint for AI agents to search the catalog, build carts, and '
@@ -104,7 +104,7 @@ overview: 'Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Board''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 45
+random_paper: 68
 scopes:
 - name: Board Scopes
   scope_count: 4
@@ -126,8 +126,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

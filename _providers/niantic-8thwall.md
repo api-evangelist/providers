@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: '8th Wall is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   8th Wall''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, and 14 more developer resources.'
-random_paper: 70
+random_paper: 26
 score:
   band: minimal
   composite: 10.0
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niantic-8thwall/refs/heads/main/screenshots/niantic-8thwall-2026-06-20T190318.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Fraugster
 nav: Providers
 network: true
 overview: Fraugster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Payments, Machine Learning, and Artificial Intelligence.
-random_paper: 29
+random_paper: 75
 score:
   band: minimal
   composite: 5.7
@@ -67,8 +67,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fraugster/refs/heads/main/screenshots/fraugster-2026-07-25T215134.png
 security:

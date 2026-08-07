@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-03'
+  score: 34.2
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -142,10 +142,11 @@ overview: 'Aryaka is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aryaka''s developer surface includes documentation, getting-started guide, support, engineering blog, FAQ, legal docs, authentication, and 18 more developer resources.'
-random_paper: 63
+random_paper: 68
 score:
   band: thin
   composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -153,6 +154,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -162,8 +164,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Aryaka Authentication

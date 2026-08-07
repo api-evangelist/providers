@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Executes EdgeQL queries over HTTP against a Gel/EdgeDB instance. Supports GET and POST requests with query, variables, globals, and config fields. Authentication uses HTTP Basic (password), Bearer tok
@@ -122,7 +122,7 @@ plans:
 - name: Edgedb Plans Pricing
   plan_count: 3
   slug: edgedb-plans-pricing
-random_paper: 33
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Edgedb Rate Limits
@@ -139,8 +139,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 38.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgedb/refs/heads/main/screenshots/edgedb-2026-06-20T180552.png
 security:

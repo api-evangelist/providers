@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 36.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -667,7 +667,7 @@ plans:
 - name: Azure Networking Services Plans Pricing
   plan_count: 3
   slug: azure-networking-services-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Azure Networking Services Rate Limits
@@ -696,16 +696,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 56.4
+  composite: 58.9
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.0
+    contract_quality: 59.7
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 56.4
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -713,8 +713,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/screenshots/azure-networking-services-2026-06-20T172903.png
 security:

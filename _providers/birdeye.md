@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -735,7 +735,7 @@ plans:
 - name: Birdeye Plans Pricing
   plan_count: 4
   slug: birdeye-plans-pricing
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Birdeye Rate Limits
@@ -752,7 +752,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.7
@@ -760,7 +760,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 44.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -774,8 +774,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:

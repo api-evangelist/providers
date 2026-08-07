@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Gated partner API library for integrating the Woebot Health Platform into a partner's digital front door, EMR, or care pathway. Supports transmission of aggregated data including patient-reported outc
@@ -132,7 +132,7 @@ plans:
 - name: Woebot Plans Pricing
   plan_count: 1
   slug: woebot-plans-pricing
-random_paper: 86
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Woebot Rate Limits
@@ -155,8 +155,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/screenshots/woebot-2026-06-20T201534.png
 security:

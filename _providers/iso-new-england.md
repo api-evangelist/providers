@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ overview: 'ISO New England publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 36 more developer resources.'
-random_paper: 55
+random_paper: 11
 score:
   band: developing
   composite: 51.8
@@ -319,8 +319,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

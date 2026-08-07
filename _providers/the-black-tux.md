@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'The Black Tux is profiled on the [APIs.io](https://apis.io/) network.
 
 
   The Black Tux''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 38
+random_paper: 30
 score:
   band: emerging
   composite: 17.1
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

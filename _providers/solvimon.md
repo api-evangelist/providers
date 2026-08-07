@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -380,7 +380,7 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 26 more developer resources.'
-random_paper: 32
+random_paper: 96
 score:
   band: developing
   composite: 52.6
@@ -409,8 +409,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

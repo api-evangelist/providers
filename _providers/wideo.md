@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ overview: 'Wideo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Wideo''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 61
+random_paper: 84
 score:
   band: developing
   composite: 46.9
@@ -179,8 +179,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

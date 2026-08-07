@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bombas Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://shop.bombas.com/.well-known/ucp declaring UCP versions
@@ -78,7 +78,7 @@ overview: 'Bombas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bombas'' developer surface includes documentation, support, signup flow, and 6 more developer resources.'
-random_paper: 58
+random_paper: 63
 scopes:
 - name: Bombas Scopes
   scope_count: 4
@@ -87,6 +87,7 @@ scopes:
 score:
   band: emerging
   composite: 20.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -94,12 +95,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 20.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Bombas Authentication

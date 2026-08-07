@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 16 APIs on the [
 
 
   Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 24
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Epignosis Talentlms Efront Talentcards Talentlms Rate Limits
@@ -242,8 +242,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/screenshots/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
 security:

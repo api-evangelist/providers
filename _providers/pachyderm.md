@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Pachyderm's platform API, exposed over gRPC/protobuf. Core services are PFS (data versioning — repos, commits, branches, files) and PPS (pipelines — jobs, datums, pipelines, logs), plus an Auth servic
@@ -104,7 +104,7 @@ overview: 'Pachyderm publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pachyderm''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 53
 score:
   band: emerging
   composite: 18.5
@@ -119,8 +119,8 @@ score:
   previous_composite: 18.5
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

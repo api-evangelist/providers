@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: GraphQL API for querying IT asset, software, user, and site data discovered and inventoried by Lansweeper. Authentication is via Personal Access Token or OAuth Bearer token; all requests are HTTP POST
@@ -83,7 +83,7 @@ overview: 'Lansweeper publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lansweeper''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 33
+random_paper: 61
 score:
   band: minimal
   composite: 11.8
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lansweeper/refs/heads/main/screenshots/lansweeper-2026-06-20T184316.png
 security:

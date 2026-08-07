@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Public SPARQL query endpoint for the University of Southampton Open Data Service, backed by a triple store (Sesame) with an arc2 front end. Allows querying of campus, building, organizational, catalog
@@ -126,7 +126,7 @@ plans:
 - name: University Of Southampton Plans Pricing
   plan_count: 2
   slug: university-of-southampton-plans-pricing
-random_paper: 78
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: University Of Southampton Rate Limits
@@ -149,8 +149,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png
 security:

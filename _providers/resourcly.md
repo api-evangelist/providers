@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -210,19 +210,19 @@ overview: 'Resourcly publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Resourcly''s developer surface includes authentication, documentation, API reference, support, changelog, and 17 more developer resources.'
-random_paper: 50
+random_paper: 96
 score:
   band: thin
-  composite: 33.4
+  composite: 38.6
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 53.2
     developer_ergonomics: 34.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 33.4
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

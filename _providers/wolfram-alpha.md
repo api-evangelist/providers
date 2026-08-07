@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Wolfram Alpha Plans Pricing
   plan_count: 3
   slug: wolfram-alpha-plans-pricing
-random_paper: 88
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Wolfram Alpha Rate Limits
@@ -280,8 +280,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/screenshots/wolfram-alpha-2026-06-20T201535.png
 security:

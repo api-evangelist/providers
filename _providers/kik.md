@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Kik
 nav: Providers
 network: true
 overview: Kik is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Messaging, Chat, and Mobile.
-random_paper: 34
+random_paper: 93
 score:
   band: minimal
   composite: 11.7
@@ -75,8 +75,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kik/refs/heads/main/screenshots/kik-2026-07-25T223731.png
 security:

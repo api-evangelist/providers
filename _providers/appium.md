@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -278,7 +278,7 @@ plans:
 - name: Appium Plans Pricing
   plan_count: 1
   slug: appium-plans-pricing
-random_paper: 82
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Appium Rate Limits
@@ -319,8 +319,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:

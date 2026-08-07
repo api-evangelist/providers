@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Knight Fintech is profiled on the [APIs.io](https://apis.io/) network
 
 
   Knight Fintech''s developer surface includes engineering blog, FAQ, and 14 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: emerging
   composite: 15.4
@@ -126,8 +126,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-fintech/refs/heads/main/screenshots/knight-fintech-2026-07-25T224006.png
 security:

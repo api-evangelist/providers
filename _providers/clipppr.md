@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: ClippPR
 nav: Providers
 network: true
 overview: ClippPR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Monitoring, Press Clipping, and Marketing.
-random_paper: 2
+random_paper: 84
 score:
   band: minimal
   composite: 5.7
@@ -61,8 +61,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clipppr/refs/heads/main/screenshots/clipppr-2026-07-25T205633.png
 slug: clipppr

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Fastest and most advanced public holiday and observance service on the market
@@ -63,7 +63,7 @@ overview: 'Festivo Public Holidays publishes 1 API on the [APIs.io](https://apis
 
 
   Festivo Public Holidays'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 78
+random_paper: 98
 score:
   band: minimal
   composite: 6.2
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/festivo-public-holidays/refs/heads/main/screenshots/festivo-public-holidays-2026-07-25T214352.png
 security:

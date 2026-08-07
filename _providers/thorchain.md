@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -351,7 +351,7 @@ overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) networ
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 21 more developer resources.'
-random_paper: 10
+random_paper: 56
 score:
   band: thin
   composite: 38.8
@@ -374,8 +374,8 @@ score:
       total: 65
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

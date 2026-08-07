@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: REST API surface exposing Lynx Fleet telematics and control data for diesel and electric transport refrigeration units (TRUs). Enables systems integrators to pull asset inventory, setpoints, temperatu
@@ -132,7 +132,7 @@ plans:
 - name: Carrier Global Plans Pricing
   plan_count: 3
   slug: carrier-global-plans-pricing
-random_paper: 84
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Carrier Global Rate Limits
@@ -149,8 +149,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 27.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/screenshots/carrier-global-2026-06-20T174016.png
 security:

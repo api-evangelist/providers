@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Signed, service-based JSON API for vendors, developers, and ISVs to integrate with VIPShop's e-commerce systems — orders, commodities/products, inventory, warehouse & logistics, marketplace, multi-cha
@@ -116,7 +116,7 @@ overview: 'VIPShop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   VIPShop''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, sandbox, and 10 more developer resources.'
-random_paper: 17
+random_paper: 99
 score:
   band: emerging
   composite: 25.3
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

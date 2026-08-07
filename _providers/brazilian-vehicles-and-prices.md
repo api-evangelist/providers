@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe
@@ -52,7 +52,7 @@ name: Brazilian Vehicles and Prices
 nav: Providers
 network: true
 overview: Brazilian Vehicles and Prices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Vehicle and Public APIs.
-random_paper: 45
+random_paper: 70
 score:
   band: minimal
   composite: 5.7
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brazilian-vehicles-and-prices/refs/heads/main/screenshots/brazilian-vehicles-and-prices-2026-06-20T173644.png
 slug: brazilian-vehicles-and-prices

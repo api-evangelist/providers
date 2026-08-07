@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Khazna
 nav: Providers
 network: true
 overview: Khazna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Financial Inclusion, and Earned Wage Access.
-random_paper: 67
+random_paper: 72
 score:
   band: minimal
   composite: 5.7
@@ -67,8 +67,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/khazna/refs/heads/main/screenshots/khazna-2026-07-25T223706.png
 security:

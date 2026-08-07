@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-03'
+  score: 61.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
 
 
   lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 25 more developer resources.'
-random_paper: 63
+random_paper: 55
 score:
   band: developing
   composite: 49.2
@@ -271,8 +271,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -194,22 +194,27 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
-random_paper: 60
+random_paper: 83
 score:
   band: developing
-  composite: 50.9
+  composite: 50.8
   delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 41.9
+    contract_quality: 41.1
     developer_ergonomics: 40.8
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 50.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -218,8 +223,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:

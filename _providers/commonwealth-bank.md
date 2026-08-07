@@ -18,17 +18,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-03'
+  score: 44.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -296,24 +296,24 @@ overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/
 
 
   Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
-random_paper: 41
+random_paper: 56
 scopes:
 - name: Commonwealth Bank Scopes
   scope_count: 10
   slug: commonwealth-bank-scopes
   summary_line: 10 scopes
 score:
-  band: thin
-  composite: 41.6
+  band: developing
+  composite: 42.4
   delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 8.1
+    contract_quality: 12.2
     developer_ergonomics: 56.0
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 41.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -330,8 +330,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

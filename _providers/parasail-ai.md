@@ -46,7 +46,7 @@ modified: '2026-05-25'
 name: Parasail
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 75
 slug: parasail-ai
 tags:
 - AI

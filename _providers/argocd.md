@@ -17,7 +17,7 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-03'
+  score: 25.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -241,23 +241,23 @@ plans:
 - name: Argocd Plans Pricing
   plan_count: 2
   slug: argocd-plans-pricing
-random_paper: 54
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Argocd Rate Limits
   slug: argocd-rate-limits
 score:
   band: thin
-  composite: 32.6
+  composite: 34.2
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 38.8
     developer_ergonomics: 28.3
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 32.6
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/screenshots/argocd-2026-06-20T172419.png
 security:

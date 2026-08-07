@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -714,7 +714,7 @@ overview: 'PokéAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 13 more developer resources.'
-random_paper: 80
+random_paper: 67
 rules:
 - name: PokéAPI API Rules
   rule_count: 5
@@ -757,8 +757,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/screenshots/pokeapi-2026-06-20T191844.png
 security:

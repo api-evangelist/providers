@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -174,7 +174,7 @@ plans:
 - name: Saviynt Plans Pricing
   plan_count: 3
   slug: saviynt-plans-pricing
-random_paper: 22
+random_paper: 104
 rate_limits:
 - limit_count: 1
   name: Saviynt Rate Limits
@@ -191,7 +191,7 @@ rules:
 score:
   band: developing
   composite: 47.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 58.9
@@ -199,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 45.1
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/screenshots/saviynt-2026-06-20T193458.png
 security:

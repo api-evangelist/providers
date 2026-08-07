@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Brighthouse Financial
 nav: Providers
 network: true
 overview: Brighthouse Financial is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 76
+random_paper: 19
 score:
   band: minimal
   composite: 2.6
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brighthouse-financial/refs/heads/main/screenshots/brighthouse-financial-2026-06-20T173700.png
 slug: brighthouse-financial

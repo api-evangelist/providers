@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: REST API for managing KakaoBank accounts including demand deposits, savings accounts, and group accounts. Provides access to account balances, transaction history, and account holder information for a
@@ -116,7 +116,7 @@ plans:
 - name: Kakaobank Plans Pricing
   plan_count: 3
   slug: kakaobank-plans-pricing
-random_paper: 76
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Kakaobank Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.6
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -132,15 +132,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 20.1
+  previous_composite: 23.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakaobank/refs/heads/main/screenshots/kakaobank-2026-06-20T183912.png
 security:

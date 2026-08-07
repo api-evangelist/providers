@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Dixa Plans Pricing
   plan_count: 3
   slug: dixa-plans-pricing
-random_paper: 42
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Dixa Rate Limits
@@ -269,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/screenshots/dixa-2026-06-20T180054.png
 security:

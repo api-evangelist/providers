@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
@@ -142,7 +142,7 @@ overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 94
+random_paper: 81
 scopes:
 - name: Havenly Scopes
   scope_count: 0
@@ -168,8 +168,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

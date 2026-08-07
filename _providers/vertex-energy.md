@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Vertex Energy
 nav: Providers
 network: true
 overview: Vertex Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Refining, Petroleum, Renewable Diesel, and Specialty Chemicals.
-random_paper: 35
+random_paper: 9
 score:
   band: minimal
   composite: 5.0
@@ -71,8 +71,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertex-energy/refs/heads/main/screenshots/vertex-energy-2026-06-20T200959.png
 security:

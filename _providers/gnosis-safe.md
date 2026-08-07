@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -554,7 +554,7 @@ plans:
 - name: Gnosis Safe Plans Pricing
   plan_count: 4
   slug: gnosis-safe-plans-pricing
-random_paper: 74
+random_paper: 102
 rate_limits:
 - limit_count: 8
   name: Gnosis Safe Rate Limits
@@ -593,8 +593,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/screenshots/gnosis-safe-2026-06-20T181937.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: ValCtrl
 nav: Providers
 network: true
 overview: ValCtrl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Prediction Markets, Fintech, Trading, and Market Infrastructure.
-random_paper: 0
+random_paper: 82
 score:
   band: minimal
   composite: 7.3
@@ -75,8 +75,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

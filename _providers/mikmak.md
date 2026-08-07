@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: MikMak Commerce enables checkout across retailers through various channels including social media, retail media, brand websites, search, CTV, display, QR codes, and more, with AI-powered inventory acc
@@ -90,7 +90,7 @@ plans:
 - name: Mikmak Plans Pricing
   plan_count: 3
   slug: mikmak-plans-pricing
-random_paper: 64
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Mikmak Rate Limits
@@ -107,8 +107,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 21.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:

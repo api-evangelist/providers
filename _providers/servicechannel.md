@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-03'
+  score: 39.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -357,7 +357,7 @@ overview: 'ServiceChannel publishes 66 APIs on the [APIs.io](https://apis.io/) n
 
 
   ServiceChannel''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 57
+random_paper: 13
 scopes:
 - name: Servicechannel Scopes
   scope_count: 0
@@ -365,16 +365,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.0
+  composite: 46.0
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 55.8
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 45.0
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,8 +385,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Public Cosmos SDK REST (LCD / gRPC-gateway), gRPC, and Tendermint RPC interface to the Provenance Blockchain. Query and broadcast transactions against the marker, metadata, exchange, ledger, name, att
@@ -128,7 +128,7 @@ overview: 'Provenance publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Provenance''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 13 more developer resources.'
-random_paper: 28
+random_paper: 56
 score:
   band: emerging
   composite: 23.6
@@ -144,8 +144,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

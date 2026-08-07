@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: 'Python API for scripting and extending Maya functionality, providing access to Maya''s scene graph and node architecture. Includes Python API 2.0 with a more Pythonic workflow and improved performance '
@@ -126,7 +126,7 @@ plans:
 - name: Autodesk Maya Plans Pricing
   plan_count: 3
   slug: autodesk-maya-plans-pricing
-random_paper: 3
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Autodesk Maya Rate Limits
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 28.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/screenshots/autodesk-maya-2026-06-20T172637.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -4401,7 +4401,7 @@ plans:
 - name: Amazon Proton Plans Pricing
   plan_count: 3
   slug: amazon-proton-plans-pricing
-random_paper: 35
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Proton Rate Limits
@@ -4442,8 +4442,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 84
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:

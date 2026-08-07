@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'Mailgun publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mailgun''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 84
+random_paper: 71
 score:
   band: thin
   composite: 31.4
@@ -161,8 +161,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/screenshots/mailgun-2026-06-20T184856.png
 security:

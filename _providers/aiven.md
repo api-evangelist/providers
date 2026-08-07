@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -293,7 +293,7 @@ plans:
 - name: Aiven Plans Pricing
   plan_count: 7
   slug: aiven-plans-pricing
-random_paper: 56
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Aiven Rate Limits
@@ -331,8 +331,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:

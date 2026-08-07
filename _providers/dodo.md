@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ overview: 'DODO publishes 1 API on the [APIs.io](https://apis.io/) network: Trad
 
 
   DODO''s developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 42
+random_paper: 83
 score:
   band: thin
   composite: 35.1
@@ -160,8 +160,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/screenshots/dodo-2026-07-25T212227.png
 security:

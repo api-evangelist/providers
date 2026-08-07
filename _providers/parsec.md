@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -212,35 +212,35 @@ overview: 'Parsec publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 68
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
   slug: parsec-rate-limits
 score:
-  band: developing
-  composite: 45.6
-  delta: 2.8
+  band: strong
+  composite: 57.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 15.5
+    contract_quality: 62.0
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 42.8
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 0
       marker_coverage: 100.0
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

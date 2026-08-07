@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -121,7 +121,7 @@ plans:
 - name: Leanplum Plans Pricing
   plan_count: 2
   slug: leanplum-plans-pricing
-random_paper: 7
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: Leanplum Rate Limits
@@ -151,8 +151,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:

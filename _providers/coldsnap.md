@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-03'
+  score: 46.6
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 10
+  human_in_the_loop: 2
+  name: Coldsnap Agentic Access
+  operation_count: 16
+  slug: coldsnap-agentic-access
+  summary_line: 16 operations · 10 acting · 2 human-in-the-loop
 api_count: 3
 apis:
 - description: 'The live Shopify Storefront GraphQL API served from the ColdSnap primary domain. Anonymously introspectable: a full introspection query returns 428 types, 35 root query fields and 41 mutations coverin'
@@ -30,7 +37,7 @@ apis:
 - description: 'The unauthenticated read-only JSON surface Shopify serves from the ColdSnap storefront and which the store''s own agents.md advertises to agents: /products.json and /collections.json catalog listings, '
   name: ColdSnap Store JSON (Ajax) API
   slug: coldsnap-store-json-ajax-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -168,6 +175,18 @@ common:
   title: ''
   type: Deprecation
   url: https://shopify.dev/docs/api/usage/versioning
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.shopifystatus.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/coldsnap-changelog.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://shopify.dev/docs/api/storefront
 - group: design
   title: ''
   type: DataModel
@@ -185,34 +204,40 @@ mcp_servers:
 - description: ''
   name: coldsnap-mcp.yml
   slug: coldsnap-mcpyml
-modified: '2026-08-02'
+modified: '2026-08-04'
 name: ColdSnap
 nav: Providers
 network: true
 overview: 'ColdSnap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Retail, and Food and Beverage.
 
 
-  ColdSnap''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
-random_paper: 92
+  ColdSnap''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, YouTube channel, authentication, and 32 more developer resources.'
+random_paper: 61
 scopes:
 - name: Coldsnap Scopes
   scope_count: 4
   slug: coldsnap-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.7
+  band: developing
+  composite: 47.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.1
-    developer_ergonomics: 52.2
+    developer_ergonomics: 53.8
     discoverability: 92.6
-    governance: 0.0
-    operational_transparency: 7.9
+    governance: 12.5
+    operational_transparency: 39.5
+  previous_composite: 47.6
   provenance:
+    agentic_access: derived
+    conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Coldsnap Authentication

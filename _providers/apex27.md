@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 60
+random_paper: 83
 score:
   band: developing
   composite: 45.5
@@ -175,8 +175,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

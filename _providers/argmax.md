@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A local transcription server for macOS that is API-compatible with the Deepgram Speech-to-Text (Live) API, exposing a WebSocket streaming interface (default ws://localhost:50060) driven by the officia
@@ -140,7 +140,7 @@ overview: 'Argmax publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Argmax''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, sandbox, and 16 more developer resources.'
-random_paper: 70
+random_paper: 75
 score:
   band: thin
   composite: 33.4
@@ -153,8 +153,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argmax/refs/heads/main/screenshots/argmax-2026-07-25T201142.png
 security:

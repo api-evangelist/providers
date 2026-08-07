@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-03'
+  score: 57.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Wunderkind publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 24 more developer resources.'
-random_paper: 38
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Wunderkind Rate Limits
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 64.1
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 51.6
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +241,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Command-line tool and Go library that converts OpenAPI 3.0 and 3.1 specifications into Go server-side, client-side, and HTTP model code with support for multiple Go web frameworks.
   name: Oapi-Codegen
   slug: oapi-codegen
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -44,14 +44,86 @@ common:
   title: ''
   type: Documentation
   url: https://github.com/oapi-codegen/oapi-codegen#readme
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2/pkg/codegen
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/oapi-codegen/oapi-codegen#install
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/oapi-codegen
 - group: other
   title: ''
   type: GoDoc
   url: https://pkg.go.dev/github.com/oapi-codegen/oapi-codegen/v2
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/oapi-codegen/oapi-codegen/discussions
+- group: other
+  title: ''
+  type: Governance
+  url: https://github.com/oapi-codegen/governance
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/oapi-codegen/oapi-codegen/blob/main/LICENSE
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/oapi-codegen-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://github.com/oapi-codegen/oapi-codegen/releases
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/oapi-codegen-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://github.com/oapi-codegen/oapi-codegen#backwards-compatibility
+- group: build
+  title: ''
+  type: Packages
+  url: packages/oapi-codegen-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/oapi-codegen-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/oapi-codegen-cli.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/oapi-codegen-configuration-schema.json
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/oapi-codegen-openapi-extensions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/oapi-codegen-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/oapi-codegen-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/oapi-codegen/.github/blob/main/SECURITY.md
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/oapi-codegen-llms.txt
 created: '2026-03-25'
 description: oapi-codegen is an open source Go code generator that produces client and server boilerplate from OpenAPI 3.0 and 3.1 specifications with support for Echo, Chi, Gin, Gorilla/Mux, Iris, Fiber, and the standard library net/http router.
 finops:
@@ -59,40 +131,49 @@ finops:
   service_category: API
   slug: oapi-codegen-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oapi-codegen.png
+json_schemas:
+- name: Oapi Codegen Configuration
+  property_count: 7
+  slug: oapi-codegen-configuration
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-06'
 name: Oapi-Codegen
 nav: Providers
 network: true
 overview: 'Oapi-Codegen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Developer Tools, Go, OpenAPI, and SDKs.
 
 
-  Oapi-Codegen''s developer surface includes documentation and 3 more developer resources.'
+  Oapi-Codegen''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, CLI, and 15 more developer resources.'
 plans:
 - name: Oapi Codegen Plans Pricing
   plan_count: 3
   slug: oapi-codegen-plans-pricing
-random_paper: 55
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Oapi Codegen Rate Limits
   slug: oapi-codegen-rate-limits
 score:
-  band: emerging
-  composite: 20.4
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  delta: 17.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 36.8
+    contract_quality: 9.7
+    developer_ergonomics: 43.5
+    discoverability: 66.7
+    governance: 22.9
+    operational_transparency: 71.1
   previous_composite: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/screenshots/oapi-codegen-2026-06-20T190551.png
+security:
+- kind: vulnerability-disclosure
+  name: Oapi Codegen Vulnerability Disclosure
+  slug: oapi-codegen-vulnerability-disclosure
+  summary_line: contact published
 slug: oapi-codegen
 tags:
 - Code Generation

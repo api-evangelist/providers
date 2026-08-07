@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Corporate Responsibility Report
   url: https://flowersfoods.com/wp-content/uploads/2025/08/Flowers-Foods-2024-Corporate-Responsibility-Report.pdf
-random_paper: 24
+random_paper: 111
 score:
   band: minimal
   composite: 4.1
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowers-foods/refs/heads/main/screenshots/flowers-foods-2026-06-20T181333.png
 slug: flowers-foods

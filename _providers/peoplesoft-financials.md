@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
@@ -105,7 +105,7 @@ plans:
 - name: Peoplesoft Financials Plans Pricing
   plan_count: 3
   slug: peoplesoft-financials-plans-pricing
-random_paper: 92
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Peoplesoft Financials Rate Limits
@@ -122,8 +122,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 27.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/screenshots/peoplesoft-financials-2026-06-20T191554.png
 security:

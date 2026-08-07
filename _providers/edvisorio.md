@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-03'
+  score: 38.1
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Single GraphQL API for the Edvisor.io education-recruitment platform, covering students, quotes, school offerings, enrollments, invoices, and agency/school company management. Bearer API-key authentic
@@ -175,7 +175,7 @@ overview: 'Edvisor.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Edvisor.io''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 30
+random_paper: 76
 score:
   band: developing
   composite: 48.3
@@ -192,8 +192,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/screenshots/edvisorio-2026-07-25T212910.png
 security:

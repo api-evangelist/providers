@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: 'Single POST endpoint at lastpass.com/enterpriseapi.php that accepts a JSON payload selecting one of many command names (batchadd, batchchange, deluser, disableuser, getuserdata, getsfdata, getreport, '
@@ -107,7 +107,7 @@ plans:
 - name: Lastpass Plans Pricing
   plan_count: 7
   slug: lastpass-plans-pricing
-random_paper: 20
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Lastpass Rate Limits
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastpass/refs/heads/main/screenshots/lastpass-2026-06-20T184323.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -239,7 +239,7 @@ overview: 'Obol publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Obol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 26 more developer resources.'
-random_paper: 48
+random_paper: 89
 score:
   band: developing
   composite: 50.8
@@ -262,8 +262,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

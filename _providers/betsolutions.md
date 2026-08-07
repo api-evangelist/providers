@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -338,7 +338,7 @@ plans:
 - name: Betsolutions Plans Pricing
   plan_count: 1
   slug: betsolutions-plans-pricing
-random_paper: 88
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Betsolutions Rate Limits
@@ -379,8 +379,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/screenshots/betsolutions-2026-06-20T173201.png
 security:

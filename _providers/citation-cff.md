@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -135,7 +135,7 @@ plans:
 - name: Citation Cff Plans Pricing
   plan_count: 3
   slug: citation-cff-plans-pricing
-random_paper: 67
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Citation Cff Rate Limits
@@ -169,8 +169,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 35.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/screenshots/citation-cff-2026-06-20T174407.png
 security:

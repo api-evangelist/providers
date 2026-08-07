@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The BMS Medical Information portal provides US healthcare providers with access to product medical information, clinical data, and scientific resources for BMS medicines across oncology, immunology, a
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Our technologies
   url: https://www.bms.com/about-us/our-company/our-technologies.html
-random_paper: 68
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Bristol Myers Squibb Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 15.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png
 security:

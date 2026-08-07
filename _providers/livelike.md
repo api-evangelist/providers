@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-03'
+  score: 46.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for managing LiveLike applications, user profiles, programs, interactive widgets (polls, quizzes, predictions, alerts), chat rooms, gamification, and rewards. OAuth 2.0 Bearer authentication;
@@ -163,7 +163,7 @@ overview: 'LiveLike publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LiveLike''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 19 more developer resources.'
-random_paper: 93
+random_paper: 62
 score:
   band: developing
   composite: 47.1
@@ -179,8 +179,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/screenshots/livelike-2026-07-25T225358.png
 security:

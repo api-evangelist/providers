@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ plans:
 - name: Shopify Admin Plans Pricing
   plan_count: 5
   slug: shopify-admin-plans-pricing
-random_paper: 6
+random_paper: 93
 rate_limits:
 - limit_count: 13
   name: Shopify Admin Rate Limits
@@ -273,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: American Tower Advances Network Operations With AI ...
   url: https://www.americantower.com/media-hub/blog/american-tower-advances-network-operations-ai-and-analytics
-random_paper: 13
+random_paper: 82
 score:
   band: minimal
   composite: 5.5
@@ -105,8 +105,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-tower/refs/heads/main/screenshots/american-tower-2026-07-25T200050.png
 security:

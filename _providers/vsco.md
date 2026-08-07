@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 34
 apis:
 - description: The Brands API from VSCO — 2 operation(s) for brands.
@@ -238,7 +238,7 @@ overview: 'VSCO publishes 34 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   VSCO''s developer surface includes documentation, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 63
+random_paper: 104
 score:
   band: developing
   composite: 43.4
@@ -260,8 +260,8 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

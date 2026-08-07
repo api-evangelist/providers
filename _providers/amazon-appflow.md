@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -781,7 +781,7 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
-random_paper: 27
+random_paper: 96
 rules:
 - name: Amazon AppFlow API Rules
   rule_count: 6
@@ -820,8 +820,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

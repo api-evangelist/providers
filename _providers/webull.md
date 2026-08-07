@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-03'
+  score: 57.2
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -161,7 +161,7 @@ overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Webull''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, CLI, sandbox, and 17 more developer resources.'
-random_paper: 81
+random_paper: 86
 score:
   band: thin
   composite: 40.3
@@ -184,8 +184,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

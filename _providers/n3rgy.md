@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-03'
+  score: 50.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -167,7 +167,7 @@ overview: 'n3rgy publishes 1 API on the [APIs.io](https://apis.io/) network: Cus
 
 
   n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 15 more developer resources.'
-random_paper: 24
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: N3Rgy Rate Limits
@@ -200,8 +200,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

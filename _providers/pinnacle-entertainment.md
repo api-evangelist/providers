@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Boyd Gaming Completes Acquisition Of Four Pinnacle ...
   url: https://www.prnewswire.com/news-releases/boyd-gaming-completes-acquisition-of-four-pinnacle-entertainment-assets-300730881.html
-random_paper: 13
+random_paper: 33
 score:
   band: minimal
   composite: 2.6
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle-entertainment/refs/heads/main/screenshots/pinnacle-entertainment-2026-06-20T191717.png
 security:

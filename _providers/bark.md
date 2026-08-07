@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Bark is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bark''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 36
+random_paper: 77
 score:
   band: emerging
   composite: 16.6
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 16.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bark/refs/heads/main/screenshots/bark-2026-07-25T202414.png
 security:

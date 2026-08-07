@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Amwell's Converge platform REST APIs, which leverage HL7 FHIR and single sign-on, let partners embed and orchestrate virtual care — urgent, scheduled, behavioral, and specialty visits — into their own
@@ -100,7 +100,7 @@ overview: 'Amwell publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Amwell''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 72
+random_paper: 77
 score:
   band: thin
   composite: 28.2
@@ -121,8 +121,8 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amwell/refs/heads/main/screenshots/amwell-2026-07-25T200143.png
 security:

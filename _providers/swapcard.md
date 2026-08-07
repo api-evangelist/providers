@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Organizer-facing GraphQL API (the Event Admin endpoint) to fetch, create, modify, and delete event content - events, people, exhibitors, plannings/sessions, and groups. Single GraphQL endpoint over HT
@@ -103,7 +103,7 @@ plans:
 - name: Swapcard Plans Pricing
   plan_count: 3
   slug: swapcard-plans-pricing
-random_paper: 93
+random_paper: 62
 rate_limits:
 - limit_count: 7
   name: Swapcard Rate Limits
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 33.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

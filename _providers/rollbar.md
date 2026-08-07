@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ plans:
 - name: Rollbar Plans Pricing
   plan_count: 4
   slug: rollbar-plans-pricing
-random_paper: 85
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Rollbar Rate Limits
@@ -375,8 +375,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:

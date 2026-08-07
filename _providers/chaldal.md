@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -103,19 +103,19 @@ overview: 'Chaldal publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 4 more developer resources.'
-random_paper: 48
+random_paper: 35
 score:
   band: emerging
-  composite: 24.8
+  composite: 26.3
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.3
+    contract_quality: 38.3
     developer_ergonomics: 32.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 24.8
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -126,8 +126,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

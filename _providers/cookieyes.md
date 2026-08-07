@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -132,7 +132,7 @@ overview: 'Cookieyes is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cookieyes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 21
+random_paper: 67
 scopes:
 - name: Cookieyes Scopes
   scope_count: 5
@@ -153,8 +153,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/screenshots/cookieyes-2026-07-25T210357.png
 security:

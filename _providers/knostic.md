@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -190,7 +190,7 @@ overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 22 more developer resources.'
-random_paper: 3
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Knostic Rate Limits
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.1
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.2
@@ -206,7 +206,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 54.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:

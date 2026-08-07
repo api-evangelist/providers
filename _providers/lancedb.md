@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Lancedb Plans Pricing
   plan_count: 4
   slug: lancedb-plans-pricing
-random_paper: 48
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Lancedb Rate Limits
@@ -249,7 +249,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.2
@@ -257,7 +257,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 46.4
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/screenshots/lancedb-2026-06-20T184404.png
 security:

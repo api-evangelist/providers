@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -108,7 +108,7 @@ overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
-random_paper: 73
+random_paper: 96
 score:
   band: emerging
   composite: 18.3
@@ -123,8 +123,8 @@ score:
   previous_composite: 18.3
   provenance:
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

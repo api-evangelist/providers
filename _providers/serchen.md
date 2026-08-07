@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Serchen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Serchen''s developer surface includes getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 79
+random_paper: 66
 score:
   band: minimal
   composite: 9.9
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serchen/refs/heads/main/screenshots/serchen-2026-06-20T193716.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: EDGE Sound Research
 nav: Providers
 network: true
 overview: EDGE Sound Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Sound, Audio Infrastructure, and Audio Technology.
-random_paper: 88
+random_paper: 85
 score:
   band: minimal
   composite: 5.0
@@ -61,8 +61,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-sound-research/refs/heads/main/screenshots/edge-sound-research-2026-07-25T212830.png
 security:

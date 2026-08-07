@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 6
 common:
@@ -113,7 +113,7 @@ plans:
 - name: Ivalua Plans Pricing
   plan_count: 1
   slug: ivalua-plans-pricing
-random_paper: 72
+random_paper: 77
 rate_limits:
 - limit_count: 3
   name: Ivalua Rate Limits
@@ -130,8 +130,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 25.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/screenshots/ivalua-2026-06-20T183638.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -130,6 +130,50 @@ collections:
   name: Segment Public API
   slug: open-segment-public-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://segment.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.twilio.com/docs/segment
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.twilio.com/docs/segment
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.segmentapis.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.twilio.com/docs/segment/api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://segment.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.segment.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://segment.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://segment.com/legal/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://segment.com/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.segment.com
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +210,9 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/segment-destination-schema.json
-description: Segment is a customer data platform that helps companies collect, clean, and route customer data to hundreds of tools used for analytics, marketing, and data warehousing.
+created: '2026-05-19'
+description: 'Twilio Segment is a customer data platform that collects, cleans, and routes customer data to hundreds of downstream tools for analytics, marketing, and data warehousing. Its surface spans event collection (the HTTP Tracking API with identify, track, page, screen, group and alias calls, plus a pixel endpoint for environments where JavaScript cannot run), a Public API for programmatic management of workspaces, sources, destinations, warehouses, tracking plans, functions and transformations, Unify for identity resolution, Engage for audiences, Protocols for tracking-plan governance, Reverse ETL for warehouse-to-tool syncs, and connections to 90+ warehouses including BigQuery, Snowflake and Databricks. Segment was acquired by Twilio in a $3.2B all-stock deal completed in 2020 and now sits inside Twilio''s platform; Twilio completed an operational review in March 2024 and retained the business despite activist-investor pressure to divest. The docs, pricing and legal pages have
+  moved onto twilio.com, and the legacy Segment Analytics libraries for iOS and Android reached full sunset on 2026-03-31. The older Config API is deprecated — no new tokens have been issued since early 2024 — with the Public API as the recommended replacement. The Public API host is authenticated: api.segmentapis.com returns 401 anonymously, and no OpenAPI is publicly fetchable (see x-evidence).'
 features:
 - Free Developer plan up to ~1,000 visitors and 2 sources
 - Customer Data Pipeline custom-quoted via sales
@@ -295,27 +341,27 @@ jsonld:
   slug: segment-context
 layout: provider
 modified: '2026-05-19'
-name: segment
+name: Twilio Segment
 nav: Providers
 network: true
-overview: 'segment publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Pixel Tracking API, Alias API, Batch API, and 20 more.
+overview: 'Twilio Segment publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Segment Pixel Tracking API, segment Alias API, segment Batch API, and 20 more. Tagged areas include Company, Customer Data Platform, CDP, Identity Resolution, and Event Streaming.
 
 
-  The segment catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Twilio Segment catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  segment''s developer surface includes authentication and 8 more developer resources.'
+  Twilio Segment''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 14 more developer resources.'
 plans:
 - name: Segment Plans Pricing
   plan_count: 3
   slug: segment-plans-pricing
-random_paper: 90
+random_paper: 77
 rate_limits:
 - limit_count: 4
   name: Segment Rate Limits
   slug: segment-rate-limits
 rules:
-- name: segment API Rules
+- name: Twilio Segment API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -323,7 +369,7 @@ rules:
     info: 1
     warn: 6
   slug: segment-asyncapi-spectral-rules
-- name: segment API Rules
+- name: Twilio Segment API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -332,17 +378,17 @@ rules:
     warn: 4
   slug: segment-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.1
+  band: strong
+  composite: 65.8
   delta: 0.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 84.2
     contract_quality: 77.8
-    developer_ergonomics: 10.9
-    discoverability: 50.0
+    developer_ergonomics: 47.8
+    discoverability: 74.1
     governance: 47.9
-    operational_transparency: 36.8
-  previous_composite: 45.1
+    operational_transparency: 52.6
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     contracts:
@@ -350,8 +396,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:
@@ -364,4 +410,16 @@ security:
   slug: segment-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: segment
+tags:
+- Company
+- Customer Data Platform
+- CDP
+- Identity Resolution
+- Event Streaming
+- Reverse ETL
+- Data Pipeline
+- Customer Data
+- Analytics
+- Acquired
+website: https://segment.com
 ---

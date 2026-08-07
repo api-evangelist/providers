@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-03'
+  score: 58.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ overview: 'Elation Health publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 93
+random_paper: 67
 scopes:
 - name: Elation Health Scopes
   scope_count: 5
@@ -318,7 +318,7 @@ scopes:
 score:
   band: strong
   composite: 59.9
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.1
@@ -326,7 +326,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 60.0
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +338,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

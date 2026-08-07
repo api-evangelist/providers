@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Claimglide is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Claimglide''s developer surface includes support and 2 more developer resources.'
-random_paper: 85
+random_paper: 18
 score:
   band: minimal
   composite: 6.3
@@ -74,8 +74,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claimglide/refs/heads/main/screenshots/claimglide-2026-07-25T205453.png
 security:

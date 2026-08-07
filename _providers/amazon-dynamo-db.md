@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ overview: 'Amazon DynamoDB publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Amazon DynamoDB''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 62
+random_paper: 0
 score:
   band: thin
   composite: 30.7
@@ -118,8 +118,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/screenshots/amazon-dynamo-db-2026-06-20T171631.png
 security:

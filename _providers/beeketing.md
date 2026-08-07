@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-03'
+  score: 41.0
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST Admin API (and GraphQL Admin API) for building apps, themes, and payment gateways on ShopBase — products, orders, transactions, fulfillments, customers, inventory, checkouts, shipping, price rule
@@ -163,7 +163,7 @@ overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Beeketing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 87
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Beeketing Rate Limits
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -184,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 50.0
-  previous_composite: 48.6
+  previous_composite: 50.9
   provenance:
     conformance: first-party
   regulatory:
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Howmet Aerospace
 nav: Providers
 network: true
 overview: Howmet Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Fortune 500, Manufacturing, and Transportation.
-random_paper: 37
+random_paper: 70
 score:
   band: minimal
   composite: 4.1
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howmet-aerospace/refs/heads/main/screenshots/howmet-aerospace-2026-06-20T182851.png
 security:

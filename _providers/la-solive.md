@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'La Solive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   La Solive''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 53
+random_paper: 4
 score:
   band: minimal
   composite: 12.4
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-solive/refs/heads/main/screenshots/la-solive-2026-07-25T224411.png
 security:

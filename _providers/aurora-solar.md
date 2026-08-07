@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Aurora Solar Plans Pricing
   plan_count: 5
   slug: aurora-solar-plans-pricing
-random_paper: 5
+random_paper: 110
 rate_limits:
 - limit_count: 3
   name: Aurora Solar Rate Limits
@@ -163,8 +163,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/screenshots/aurora-solar-2026-07-25T201754.png
 security:

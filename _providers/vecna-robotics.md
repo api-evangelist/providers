@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OpenID Connect / OAuth 2.0 identity endpoints served from the Vecna Robotics partner portal host (vecnarobotics.my.site.com), a Salesforce Experience Cloud community. The discovery document at /.well-
@@ -115,7 +115,7 @@ overview: 'Vecna Robotics publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vecna Robotics'' developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 14
+random_paper: 83
 scopes:
 - name: Vecna Robotics Scopes
   scope_count: 36
@@ -124,6 +124,7 @@ scopes:
 score:
   band: emerging
   composite: 19.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -131,10 +132,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 19.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Vecna Robotics Authentication

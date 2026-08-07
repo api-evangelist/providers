@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: ko is a simple, fast container image builder for Go applications that does not require Docker, producing small images by building Go binaries and layering them on a minimal base image for deployment t
@@ -76,7 +76,7 @@ plans:
 - name: Ko Plans Pricing
   plan_count: 3
   slug: ko-plans-pricing
-random_paper: 28
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Ko Rate Limits
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ko/refs/heads/main/screenshots/ko-2026-06-20T184116.png
 security:

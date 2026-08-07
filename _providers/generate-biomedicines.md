@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -133,7 +133,7 @@ overview: 'Generate Biomedicines is profiled on the [APIs.io](https://apis.io/) 
 
 
   Generate Biomedicines'' developer surface includes developer portal, engineering blog, YouTube channel, and 19 more developer resources.'
-random_paper: 57
+random_paper: 0
 score:
   band: minimal
   composite: 9.2
@@ -146,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

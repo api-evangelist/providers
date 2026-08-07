@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Mantle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mantle''s developer surface includes documentation, engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 71
+random_paper: 76
 score:
   band: emerging
   composite: 18.6
@@ -98,8 +98,8 @@ score:
   previous_composite: 18.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantle/refs/heads/main/screenshots/mantle-2026-07-25T230108.png
 security:

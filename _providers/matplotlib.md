@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Python API for creating publication-quality figures and plots, including the pyplot state-based interface and the object-oriented Axes API.
@@ -73,7 +73,7 @@ plans:
 - name: Matplotlib Plans Pricing
   plan_count: 3
   slug: matplotlib-plans-pricing
-random_paper: 35
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Matplotlib Rate Limits
@@ -90,8 +90,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 19.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matplotlib/refs/heads/main/screenshots/matplotlib-2026-06-20T185036.png
 security:

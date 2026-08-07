@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Halter is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Halter''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 70
+random_paper: 75
 score:
   band: emerging
   composite: 15.9
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halter/refs/heads/main/screenshots/halter-2026-07-25T220554.png
 security:

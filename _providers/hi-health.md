@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API (Customer) is the REST API that powers hi.health by Pliant. It lets a customer programmatically access Pliant credit-card data and features: issue and manage virtual and physical card'
@@ -152,7 +152,7 @@ overview: 'Hi Health publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hi Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 29
+random_paper: 93
 score:
   band: thin
   composite: 39.7
@@ -173,8 +173,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hi-health/refs/heads/main/screenshots/hi-health-2026-07-25T221130.png
 security:

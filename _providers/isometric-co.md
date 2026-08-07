@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Isometric''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, changelog, pricing, and 35 more developer resources.'
-random_paper: 90
+random_paper: 100
 score:
   band: thin
   composite: 36.5
@@ -363,8 +363,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/screenshots/isometric-co-2026-06-20T183621.png
 security:

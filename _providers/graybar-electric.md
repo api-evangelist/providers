@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Explore how Graybar stays connected to customers
   url: https://www.sap.com/asset/dynamic/2025/03/febfef39-f87e-0010-bca6-c68f7e60039b.html
-random_paper: 17
+random_paper: 50
 score:
   band: minimal
   composite: 3.3
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 3.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The hosted Runtime Cloud API — manage sandboxed coding-agent sessions, org templates, deployments, guardrails, secrets, knowledge and skill directives, and activity telemetry. Authenticated with scope
@@ -160,7 +160,7 @@ overview: 'Runtime publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Runtime''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 12
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Runtime Rate Limits
@@ -173,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 37.5
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -181,11 +181,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 34.8
+  previous_composite: 37.5
   provenance:
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

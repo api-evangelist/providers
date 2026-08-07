@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-03'
+  score: 45.3
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
@@ -171,7 +171,7 @@ overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   August Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 10
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: August Health Rate Limits
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.8
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -187,7 +187,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 50.0
-  previous_composite: 46.5
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -198,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:

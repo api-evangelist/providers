@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'August is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   August''s developer surface includes support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 0
+random_paper: 100
 score:
   band: emerging
   composite: 20.6
@@ -110,8 +110,8 @@ score:
   previous_composite: 20.6
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august/refs/heads/main/screenshots/august-2026-07-25T201715.png
 security:

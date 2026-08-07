@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Open Kraken is the integration layer of the Kraken utility operating system. Kraken publicly describes it as "APIs, events and MCP" for building apps and experiences against data and capabilities insi
@@ -182,7 +182,7 @@ overview: 'Kraken Technologies publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Kraken Technologies'' developer surface includes authentication, changelog, documentation, SDKs, engineering blog, support, legal docs, and 27 more developer resources.'
-random_paper: 65
+random_paper: 44
 score:
   band: thin
   composite: 31.9
@@ -204,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

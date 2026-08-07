@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ plans:
 - name: Rea Group Plans
   plan_count: 2
   slug: rea-group-plans
-random_paper: 59
+random_paper: 10
 rate_limits:
 - limit_count: 16
   name: Rea Group Rate Limits
@@ -253,7 +253,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.1
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 62.1
@@ -261,7 +261,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 52.0
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +272,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:

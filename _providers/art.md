@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ overview: 'Artsy publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Artsy''s developer surface includes documentation, API reference, authentication, engineering blog, and 21 more developer resources.'
-random_paper: 42
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Art Rate Limits
@@ -246,7 +246,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.8
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 61.0
@@ -254,7 +254,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 42.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +265,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

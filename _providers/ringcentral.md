@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -836,7 +836,7 @@ plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
   slug: ringcentral-plans-pricing
-random_paper: 37
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Ringcentral Rate Limits
@@ -882,8 +882,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

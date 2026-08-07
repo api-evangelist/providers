@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The automation and control interface built into Lifesize Icon video systems (models 300, 400, 450, 500, 600, 700, 800). It exposes a REST method for accessing a set of resources through a fixed set of
@@ -140,7 +140,7 @@ overview: 'Lifesize publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Lifesize''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 15 more developer resources.'
-random_paper: 4
+random_paper: 68
 score:
   band: thin
   composite: 32.4
@@ -155,8 +155,8 @@ score:
   previous_composite: 32.4
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/screenshots/lifesize-2026-07-25T225048.png
 security:

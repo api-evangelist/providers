@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Matterport's public GraphQL API family. The Model API reads and manages 3D models (spaces, meshes, assets, labels/tags, sweeps); the Account API manages account, folders and users; the Import API inge
@@ -160,7 +160,7 @@ overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MatterPort''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 61
+random_paper: 89
 score:
   band: thin
   composite: 39.9
@@ -175,8 +175,8 @@ score:
   previous_composite: 39.9
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matterport/refs/heads/main/screenshots/matterport-2026-07-25T230424.png
 security:

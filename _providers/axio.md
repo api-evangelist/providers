@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Axio Biosolutions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Axio Biosolutions'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 53
+random_paper: 94
 score:
   band: minimal
   composite: 7.1
@@ -82,8 +82,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axio/refs/heads/main/screenshots/axio-2026-07-25T202038.png
 security:

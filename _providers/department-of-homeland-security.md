@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
   slug: department-of-homeland-security-plans-pricing
-random_paper: 17
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Department Of Homeland Security Rate Limits
@@ -251,8 +251,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -135,7 +135,7 @@ plans:
 - name: Dbos Plans Pricing
   plan_count: 3
   slug: dbos-plans-pricing
-random_paper: 44
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Dbos Rate Limits
@@ -169,8 +169,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 38.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/screenshots/dbos-2026-06-20T175736.png
 security:

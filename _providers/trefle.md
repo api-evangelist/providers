@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Trefle Plans Pricing
   plan_count: 3
   slug: trefle-plans-pricing
-random_paper: 72
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Trefle Rate Limits
@@ -204,8 +204,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/screenshots/trefle-2026-06-20T195651.png
 security:

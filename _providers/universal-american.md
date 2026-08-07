@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 'Universal American : Stockholders Approve Pending Merger with ...'
   url: https://www.marketscreener.com/quote/stock/UNIVERSAL-AMERICAN-CORPOR-7908721/news/Universal-American-Stockholders-Approve-Pending-Merger-with-WellCare-23892248/
-random_paper: 57
+random_paper: 54
 score:
   band: minimal
   composite: 8.1
@@ -95,8 +95,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: universal-american
 tags:

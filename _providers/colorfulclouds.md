@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -559,7 +559,7 @@ plans:
 - name: Colorfulclouds Plans Pricing
   plan_count: 3
   slug: colorfulclouds-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Colorfulclouds Rate Limits
@@ -600,8 +600,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:

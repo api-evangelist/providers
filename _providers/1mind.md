@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   1mind''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 93
+random_paper: 21
 score:
   band: emerging
   composite: 21.0
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 21.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
 security:

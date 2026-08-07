@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
@@ -191,7 +191,7 @@ overview: 'Emerge Tools publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 0
+random_paper: 105
 score:
   band: developing
   composite: 53.8
@@ -209,12 +209,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -7916,7 +7916,7 @@ plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
   slug: hubspot-plans-pricing
-random_paper: 13
+random_paper: 95
 rate_limits:
 - limit_count: 6
   name: Hubspot Rate Limits
@@ -7970,8 +7970,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

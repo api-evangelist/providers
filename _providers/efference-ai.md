@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Efference AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Efference AI''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 38
+random_paper: 48
 score:
   band: minimal
   composite: 8.3
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efference-ai/refs/heads/main/screenshots/efference-ai-2026-07-25T212933.png
 security:

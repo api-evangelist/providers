@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -4154,7 +4154,7 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 86
+random_paper: 78
 rules:
 - name: Amazon Config API Rules
   rule_count: 5
@@ -4193,8 +4193,8 @@ score:
       marker_coverage: 0.0
       total: 92
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:

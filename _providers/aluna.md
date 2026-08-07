@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Aluna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aluna''s developer surface includes support, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 54
+random_paper: 77
 score:
   band: emerging
   composite: 15.9
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aluna/refs/heads/main/screenshots/aluna-2026-07-25T195851.png
 security:

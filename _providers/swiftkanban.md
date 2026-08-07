@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity
@@ -56,7 +56,7 @@ name: SwiftKanban
 nav: Providers
 network: true
 overview: SwiftKanban publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 36
+random_paper: 46
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swiftkanban/refs/heads/main/screenshots/swiftkanban-2026-06-20T194808.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -4113,7 +4113,7 @@ plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 62
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits
@@ -4154,8 +4154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:

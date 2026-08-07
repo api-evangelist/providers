@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ overview: 'Science Applications International Corporation (SAIC) is profiled on 
 
 
   Science Applications International Corporation (SAIC)''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 36
+random_paper: 77
 score:
   band: minimal
   composite: 5.4
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saic/refs/heads/main/screenshots/saic-2026-06-20T193330.png
 security:

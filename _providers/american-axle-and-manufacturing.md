@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Demand AAM provides access to genuine AAM OE replacement driveline parts for the aftermarket. The portal serves automotive parts distributors and repair shops with OE-quality driveline components.
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: AAM Announces Combination with Dowlais for $1.44 ...
   url: https://www.aam.com/media/story/aam-announces-combination-with-dowlais
-random_paper: 56
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: American Axle And Manufacturing Rate Limits
@@ -127,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/screenshots/american-axle-and-manufacturing-2026-06-20T171904.png
 security:

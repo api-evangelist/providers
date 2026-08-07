@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Downloadable budget and economic data accompanying CBO's Budget and Economic Outlook reports. Includes 10-year projections of revenues, outlays, deficits, debt, employment, GDP, interest rates, and hi
@@ -94,7 +94,7 @@ plans:
 - name: Congressional Budget Office Plans Pricing
   plan_count: 3
   slug: congressional-budget-office-plans-pricing
-random_paper: 84
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Congressional Budget Office Rate Limits
@@ -117,8 +117,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/congressional-budget-office/refs/heads/main/screenshots/congressional-budget-office-2026-07-25T210253.png
 security:

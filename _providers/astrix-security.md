@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Astrix Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Astrix Security''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
-random_paper: 80
+random_paper: 18
 score:
   band: emerging
   composite: 16.1
@@ -122,8 +122,8 @@ score:
   previous_composite: 16.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrix-security/refs/heads/main/screenshots/astrix-security-2026-07-25T201514.png
 security:

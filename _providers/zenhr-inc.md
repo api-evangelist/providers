@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 58
 apis:
 - description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
@@ -343,7 +343,7 @@ overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ZenHR Inc''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 24 more developer resources.'
-random_paper: 55
+random_paper: 6
 scopes:
 - name: Zenhr Inc Scopes
   scope_count: 9
@@ -370,8 +370,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

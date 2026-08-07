@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Query and manage recurring subscriptions - list and fetch subscriptions and their lines, then create, cancel, pause, unpause, reactivate, skip, ship now, swap product variants, edit interval, apply di
@@ -97,7 +97,7 @@ plans:
 - name: Skio Plans Pricing
   plan_count: 2
   slug: skio-plans-pricing
-random_paper: 58
+random_paper: 99
 rate_limits:
 - limit_count: 3
   name: Skio Rate Limits
@@ -114,8 +114,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

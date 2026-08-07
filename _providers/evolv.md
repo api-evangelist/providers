@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
@@ -116,7 +116,7 @@ overview: 'Evolv publishes 1 API on the [APIs.io](https://apis.io/) network: Par
 
 
   Evolv''s developer surface includes documentation, CLI, authentication, sandbox, changelog, and 11 more developer resources.'
-random_paper: 81
+random_paper: 104
 score:
   band: emerging
   composite: 20.7
@@ -132,8 +132,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
 security:

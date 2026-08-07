@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1557,7 +1557,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1620,8 +1620,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:

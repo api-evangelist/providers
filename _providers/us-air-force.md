@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research findings, and operational information. The pro
@@ -84,7 +84,7 @@ plans:
 - name: Us Air Force Plans Pricing
   plan_count: 3
   slug: us-air-force-plans-pricing
-random_paper: 25
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Us Air Force Rate Limits
@@ -116,8 +116,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/screenshots/us-air-force-2026-06-20T200539.png
 security:

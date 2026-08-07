@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Lura Project is an open source framework for building ultra-performant API gateways with middlewares.
@@ -72,7 +72,7 @@ plans:
 - name: Lura Plans Pricing
   plan_count: 3
   slug: lura-plans-pricing
-random_paper: 56
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Lura Rate Limits
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lura/refs/heads/main/screenshots/lura-2026-06-20T184801.png
 security:

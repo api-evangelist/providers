@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The ECI Solutions platform exposes integration points across its ERP and business management suites (including JobBOSS2, M1, Macola, DDMSPLUS, RockSolid, Bolt, and others) to connect with third-party '
@@ -100,7 +100,7 @@ plans:
 - name: Eci Solutions Plans Pricing
   plan_count: 3
   slug: eci-solutions-plans-pricing
-random_paper: 28
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Eci Solutions Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 20.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/screenshots/eci-solutions-2026-06-20T180423.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -715,7 +715,7 @@ plans:
 - name: Modern Treasury Plans Pricing
   plan_count: 1
   slug: modern-treasury-plans-pricing
-random_paper: 65
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Modern Treasury Rate Limits
@@ -754,8 +754,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:

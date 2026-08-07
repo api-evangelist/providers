@@ -27,7 +27,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -83,7 +83,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -165,7 +165,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -252,7 +252,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

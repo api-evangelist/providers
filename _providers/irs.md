@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Allows payers to submit Taxpayer Identification Number (TIN) and name combinations to be matched against IRS records before filing information returns. Supports interactive matching of up to 25 combin
@@ -120,7 +120,7 @@ plans:
 - name: Irs Plans Pricing
   plan_count: 2
   slug: irs-plans-pricing
-random_paper: 49
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Irs Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.2
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 23.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 26.2
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/irs/refs/heads/main/screenshots/irs-2026-06-20T183613.png
 security:

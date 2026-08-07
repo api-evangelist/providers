@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
@@ -168,7 +168,7 @@ overview: 'Dext publishes 1 API on the [APIs.io](https://apis.io/) network: Clie
 
 
   Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 57
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Dext Rate Limits
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.6
@@ -184,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

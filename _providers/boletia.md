@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Boletia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boletia''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 71
+random_paper: 58
 score:
   band: emerging
   composite: 15.0
@@ -94,8 +94,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

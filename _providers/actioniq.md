@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'The ActionIQ Profile API provides real-time access to customer identities, attributes, and audience membership within milliseconds. It powers inbound decisioning use cases such as web personalization '
@@ -111,7 +111,7 @@ plans:
 - name: Actioniq Plans Pricing
   plan_count: 1
   slug: actioniq-plans-pricing
-random_paper: 1
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Actioniq Rate Limits
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actioniq/refs/heads/main/screenshots/actioniq-2026-06-20T164035.png
 security:

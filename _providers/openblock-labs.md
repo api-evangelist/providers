@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The OB-1 coding-agent platform. The only publicly reachable API surface is the OAuth 2.0 / OpenID Connect authorization server; the platform data API and manual sit behind authenticated dashboard acce
@@ -116,7 +116,7 @@ overview: 'OpenBlock Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   OpenBlock Labs'' developer surface includes documentation, pricing, signup flow, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 90
+random_paper: 64
 scopes:
 - name: Openblock Labs Scopes
   scope_count: 0
@@ -136,8 +136,8 @@ score:
   previous_composite: 27.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

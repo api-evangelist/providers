@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -1001,7 +1001,7 @@ plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
   slug: commerce-layer-plans-pricing
-random_paper: 4
+random_paper: 73
 rate_limits:
 - limit_count: 13
   name: Commerce Layer Rate Limits
@@ -1040,8 +1040,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

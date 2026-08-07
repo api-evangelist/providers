@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Trope is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Trope''s developer surface includes CLI, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 79
+random_paper: 102
 score:
   band: emerging
   composite: 22.4
@@ -126,8 +126,8 @@ score:
   previous_composite: 22.4
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

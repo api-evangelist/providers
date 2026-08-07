@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'IKANO Communications is profiled on the [APIs.io](https://apis.io/) n
 
 
   IKANO Communications'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 93
+random_paper: 54
 score:
   band: minimal
   composite: 9.2
@@ -86,8 +86,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ikano-communications/refs/heads/main/screenshots/ikano-communications-2026-07-25T222054.png
 security:

@@ -22,12 +22,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-03'
+  score: 24.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -193,19 +193,19 @@ overview: 'Takealot publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Takealot''s developer surface includes GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 93
+random_paper: 62
 score:
   band: emerging
-  composite: 18.3
+  composite: 22.2
   delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 32.3
+    contract_quality: 48.1
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.3
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

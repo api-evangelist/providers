@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,7 +144,7 @@ overview: 'LegalZoom is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LegalZoom''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 20
+random_paper: 66
 score:
   band: emerging
   composite: 14.7
@@ -157,8 +157,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legalzoom/refs/heads/main/screenshots/legalzoom-2026-06-20T184405.png
 security:

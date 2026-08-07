@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ name: Valid
 nav: Providers
 network: true
 overview: Valid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Artificial Intelligence, and Creative.
-random_paper: 53
+random_paper: 76
 score:
   band: emerging
   composite: 13.7
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

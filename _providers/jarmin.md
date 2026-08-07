@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +61,7 @@ name: Jarmin
 nav: Providers
 network: true
 overview: Jarmin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic Systems, and Machine Learning.
-random_paper: 71
+random_paper: 76
 score:
   band: minimal
   composite: 10.8
@@ -74,8 +74,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jarmin/refs/heads/main/screenshots/jarmin-2026-07-25T223056.png
 security:

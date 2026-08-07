@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits products. The API supports automated data exchan
@@ -134,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: Sumitomo Life to Acquire Symetra for $3.76 Billion - Best's News
   url: https://news.ambest.com/newscontent.aspx?refnum=185237&altsrc=114&SrvId=156
-random_paper: 41
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Symetra Financial Rate Limits
@@ -157,8 +157,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

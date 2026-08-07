@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-03'
+  score: 51.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'UVeye publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 83
+random_paper: 106
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
@@ -193,6 +193,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 78.7
@@ -200,6 +201,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 71.1
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,8 +212,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Uveye Authentication

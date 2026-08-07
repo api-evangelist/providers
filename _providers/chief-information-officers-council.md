@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The CIOC publishes its charter, leadership roster, committee output, playbooks (e.g., Cloud Smart, Modular Contracting, IT Modernization), and federal IT guidance through cio.gov and councils.gov. The
@@ -127,7 +127,7 @@ plans:
 - name: Chief Information Officers Council Plans Pricing
   plan_count: 3
   slug: chief-information-officers-council-plans-pricing
-random_paper: 14
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Chief Information Officers Council Rate Limits
@@ -150,8 +150,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/screenshots/chief-information-officers-council-2026-06-20T174309.png
 security:

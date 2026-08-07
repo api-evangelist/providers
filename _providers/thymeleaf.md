@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The core Thymeleaf template engine library providing HTML, XML, TEXT, JavaScript, and CSS template mode processing. Includes the Standard Dialect with th:text, th:each, th:if, th:unless, th:switch, th
@@ -82,10 +82,6 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/json-ld/thymeleaf-context.jsonld
-- group: design
-  title: ''
-  type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/vocabulary/thymeleaf-vocabulary.yml
 created: '2026-03-16'
 description: Thymeleaf is a modern server-side Java template engine for both web and standalone environments, capable of processing HTML, XML, JavaScript, CSS, and plain text. Its primary goal is to bring elegant natural templates to development workflows — HTML pages that can be correctly displayed in browsers as static prototypes while also working as dynamic server-side templates. With over 3,000 GitHub stars, Thymeleaf 3.1 offers deep Spring Framework integration via the Spring Standard Dialect using Spring EL, extensive tool support for Eclipse and IntelliJ IDEA, and an extensible dialect system. It is widely used in Spring Boot web applications as the standard server-side rendering solution.
 examples:
@@ -121,12 +117,12 @@ overview: 'Thymeleaf publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Thymeleaf catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Thymeleaf''s developer surface includes documentation and 10 more developer resources.'
+  Thymeleaf''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Thymeleaf Plans Pricing
   plan_count: 3
   slug: thymeleaf-plans-pricing
-random_paper: 9
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Thymeleaf Rate Limits
@@ -142,18 +138,18 @@ rules:
   slug: thymeleaf-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 32.3
   delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
     developer_ergonomics: 8.7
     discoverability: 64.8
-    governance: 68.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 33.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 32.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/screenshots/thymeleaf-2026-06-20T195323.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -128,7 +128,7 @@ overview: 'Check Point Software publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Check Point Software''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 64
+random_paper: 92
 score:
   band: emerging
   composite: 25.8
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/screenshots/check-point-2026-07-25T205125.png
 security:

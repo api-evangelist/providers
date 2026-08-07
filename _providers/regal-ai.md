@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -365,7 +365,7 @@ plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
   slug: regal-ai-plans-pricing
-random_paper: 10
+random_paper: 92
 rate_limits:
 - limit_count: 6
   name: Regal Ai Rate Limits
@@ -398,7 +398,7 @@ rules:
 score:
   band: strong
   composite: 62.3
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 83.2
@@ -406,7 +406,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 58.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -420,8 +420,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:

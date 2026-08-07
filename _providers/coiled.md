@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for submitting Coiled batch jobs (single job scripts) to run on cloud VMs and Dask clusters.
@@ -144,7 +144,7 @@ overview: 'Coiled publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Coiled''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
-random_paper: 54
+random_paper: 59
 score:
   band: thin
   composite: 35.5
@@ -157,8 +157,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 35.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coiled/refs/heads/main/screenshots/coiled-2026-07-25T210020.png
 security:

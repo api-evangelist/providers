@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-03'
+  score: 46.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Inthegame''s developer surface includes documentation, API reference, authentication, code examples, sandbox, engineering blog, support, and 17 more developer resources.'
-random_paper: 91
+random_paper: 42
 score:
   band: developing
   composite: 43.0
@@ -249,8 +249,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:

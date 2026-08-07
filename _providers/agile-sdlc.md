@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 20
 common:
@@ -105,7 +105,7 @@ overview: 'Agile SDLC is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Agile SDLC''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 31
+random_paper: 77
 rules:
 - name: Agile SDLC API Rules
   rule_count: 4
@@ -127,8 +127,8 @@ score:
     governance: 58.3
     operational_transparency: 5.3
   previous_composite: 16.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-sdlc/refs/heads/main/screenshots/agile-sdlc-2026-06-20T170228.png
 security:

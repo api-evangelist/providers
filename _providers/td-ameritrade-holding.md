@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ press:
 - date: '2026-05-25'
   title: TD Bank Financial Group - Media Room - Media Releases
   url: https://td.mediaroom.com/index.php?s=19518&%3Bitem=35847&o=965
-random_paper: 11
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Td Ameritrade Holding Rate Limits
@@ -239,8 +239,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:

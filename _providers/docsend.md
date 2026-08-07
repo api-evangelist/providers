@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -88,7 +88,7 @@ overview: 'DocSend is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DocSend''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 71
+random_paper: 58
 scopes:
 - name: Docsend Scopes
   scope_count: 2
@@ -109,8 +109,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

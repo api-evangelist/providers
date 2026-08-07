@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API-Football provides comprehensive football data including leagues, fixtures, standings, events, line-ups, players, pre-match odds, live odds, and historical statistics for 1,200+ leagues and cups wo
@@ -106,7 +106,7 @@ plans:
 - name: Api Football Plans Pricing
   plan_count: 3
   slug: api-football-plans-pricing
-random_paper: 70
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Api Football Rate Limits
@@ -123,8 +123,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

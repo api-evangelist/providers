@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Partner-gated programmatic access to Helix Exome+ sequencing data - more than 100 million base pairs including SNPs, indels, and copy number variants, with panel-grade coverage of clinically important
@@ -70,7 +70,7 @@ overview: 'Helix publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Helix''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: minimal
   composite: 8.1
@@ -89,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helix-genomics/refs/heads/main/screenshots/helix-genomics-2026-07-25T220915.png
 security:

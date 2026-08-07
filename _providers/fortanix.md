@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -191,7 +191,7 @@ overview: 'Fortanix publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 28 more developer resources.'
-random_paper: 20
+random_paper: 84
 scopes:
 - name: Fortanix Scopes
   scope_count: 0
@@ -199,14 +199,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.6
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.6
+    contract_quality: 55.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +219,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Fortanix Authentication

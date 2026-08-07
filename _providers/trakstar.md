@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
   slug: trakstar-plans-pricing
-random_paper: 21
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Trakstar Rate Limits
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/screenshots/trakstar-2026-06-20T195534.png
 security:

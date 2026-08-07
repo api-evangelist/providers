@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Retrieve individual and company wealth-intelligence dossiers.
@@ -130,7 +130,7 @@ overview: 'Wealth-X publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Wealth-X''s developer surface includes documentation, API reference, developer portal, support, authentication, and 13 more developer resources.'
-random_paper: 50
+random_paper: 19
 score:
   band: thin
   composite: 28.3
@@ -152,8 +152,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

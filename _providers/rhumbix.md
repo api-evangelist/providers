@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-03'
+  score: 22.5
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Export Data from Rhumbix
@@ -114,19 +114,19 @@ overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 7
+random_paper: 89
 score:
   band: thin
-  composite: 35.4
+  composite: 40.3
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 51.9
     developer_ergonomics: 30.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 35.4
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -136,8 +136,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

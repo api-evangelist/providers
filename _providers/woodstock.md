@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,7 +112,7 @@ overview: 'Woodstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Woodstock''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 39
+random_paper: 85
 score:
   band: thin
   composite: 29.3
@@ -134,8 +134,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

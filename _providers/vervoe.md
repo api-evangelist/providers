@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Retrieve the assessments available to an employer - both content the employer has authored and items selected from Vervoe's public Assessment Library - so an external system such as an ATS can display
@@ -101,7 +101,7 @@ plans:
 - name: Vervoe Plans Pricing
   plan_count: 2
   slug: vervoe-plans-pricing
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Vervoe Rate Limits
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 19.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

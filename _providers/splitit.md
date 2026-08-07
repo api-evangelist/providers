@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 17
+random_paper: 99
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -264,8 +264,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png
 security:

@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Defense in Depth
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 99
 slug: defense-in-depth
 tags:
 - Cybersecurity

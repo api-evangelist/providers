@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-03'
+  score: 31.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/meditech-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/meditech-greenfield-conformance.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: conformance/meditech-greenfield-capabilitystatement.json
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/meditech-greenfield-smart-configuration.json
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/meditech-greenfield-oauth.yml
 - group: auth
   title: ''
   type: Authentication
@@ -199,8 +215,8 @@ overview: 'MEDITECH publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The MEDITECH catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 19 more developer resources.'
-random_paper: 75
+  MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 23 more developer resources.'
+random_paper: 44
 rules:
 - name: MEDITECH API Rules
   rule_count: 6
@@ -216,15 +232,15 @@ scopes:
   slug: meditech-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 44.5
+  delta: 5.9
   facets:
     commercial_clarity: 23.7
-    contract_quality: 26.5
+    contract_quality: 31.4
     developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 58.3
+    discoverability: 85.2
+    governance: 70.8
     operational_transparency: 0.0
   previous_composite: 38.6
   provenance:
@@ -239,10 +255,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 47.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+    score: 65.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:
 - kind: authentication

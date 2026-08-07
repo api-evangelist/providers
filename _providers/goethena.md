@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Learner training campaign information and operations.
@@ -178,7 +178,7 @@ overview: 'Goethena publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Goethena''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 83
+random_paper: 52
 score:
   band: developing
   composite: 53.3
@@ -200,8 +200,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/screenshots/goethena-2026-07-25T220018.png
 security:

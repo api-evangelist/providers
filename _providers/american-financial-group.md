@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 13
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: American Financial Group Acquires InsurTech Verikai in ...
   url: https://www.carriermanagement.com/news/2022/01/20/231630.htm
-random_paper: 37
+random_paper: 39
 score:
   band: minimal
   composite: 5.6
@@ -105,8 +105,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

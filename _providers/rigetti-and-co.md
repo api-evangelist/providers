@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -199,7 +199,7 @@ overview: 'Rigetti & Co publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rigetti & Co''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: developing
   composite: 49.0
@@ -222,8 +222,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

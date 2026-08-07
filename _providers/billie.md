@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-03'
+  score: 44.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'OAuth2 client-credentials REST API for B2B BNPL: checkout sessions, hosted payment page, backend order creation, order management, captures (invoices), payment confirmation, refunds/credit notes, and '
@@ -195,7 +195,7 @@ overview: 'Billie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Billie''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 27 more developer resources.'
-random_paper: 55
+random_paper: 60
 score:
   band: developing
   composite: 45.1
@@ -218,8 +218,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/screenshots/billie-2026-07-25T202942.png
 security:

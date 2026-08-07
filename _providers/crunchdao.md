@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 2
@@ -350,7 +350,7 @@ overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 14 more developer resources.'
-random_paper: 1
+random_paper: 47
 score:
   band: developing
   composite: 44.1
@@ -373,8 +373,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
 security:

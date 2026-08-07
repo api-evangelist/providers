@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: DP World's APIs provide access to shipping schedules, container status, terminal operations, freight rates, and supply chain visibility data across the company's global port and logistics network. Thr
@@ -73,7 +73,7 @@ plans:
 - name: Dp World Plans Pricing
   plan_count: 3
   slug: dp-world-plans-pricing
-random_paper: 49
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Dp World Rate Limits
@@ -90,8 +90,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 17.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/screenshots/dp-world-2026-06-20T180227.png
 security:

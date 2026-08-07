@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ overview: 'Seeq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Seeq''s developer surface includes documentation, support, engineering blog, authentication, changelog, and 11 more developer resources.'
-random_paper: 50
+random_paper: 91
 score:
   band: emerging
   composite: 24.3
@@ -123,8 +123,8 @@ score:
   previous_composite: 24.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

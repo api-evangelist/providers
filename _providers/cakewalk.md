@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-03'
+  score: 49.3
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
@@ -167,7 +167,7 @@ overview: 'Cakewalk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Cakewalk''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 75
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Cakewalk Rate Limits
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 46.0
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.6
@@ -188,13 +188,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 43.2
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
 security:

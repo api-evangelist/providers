@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,10 +145,11 @@ overview: 'Ather Energy publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ather Energy''s developer surface includes engineering blog, support, FAQ, pricing, and 20 more developer resources.'
-random_paper: 87
+random_paper: 97
 score:
   band: emerging
   composite: 22.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -156,6 +157,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 15.8
+  previous_composite: 22.5
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -166,8 +168,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Ather Energy Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 11
 apis:
 - description: Category terms used to classify posts.
@@ -151,7 +151,7 @@ overview: 'Lish publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 52
+random_paper: 93
 score:
   band: emerging
   composite: 25.2
@@ -173,8 +173,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

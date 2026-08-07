@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The PowerSync Service exposes a streaming sync protocol over HTTP/WebSocket that client SDKs connect to using JWT authentication. Clients submit their current bucket state and the service streams real
@@ -131,7 +131,7 @@ plans:
 - name: Powersync Plans Pricing
   plan_count: 4
   slug: powersync-plans-pricing
-random_paper: 52
+random_paper: 98
 rate_limits:
 - limit_count: 10
   name: Powersync Rate Limits
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 30.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powersync/refs/heads/main/screenshots/powersync-2026-06-20T192032.png
 security:

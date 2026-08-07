@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -232,7 +232,7 @@ plans:
 - name: Withings Plans Pricing
   plan_count: 2
   slug: withings-plans-pricing
-random_paper: 22
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Withings Rate Limits
@@ -249,7 +249,7 @@ rules:
 score:
   band: developing
   composite: 46.3
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.8
@@ -257,7 +257,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 43.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:

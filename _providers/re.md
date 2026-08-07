@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -160,7 +160,7 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 
 
   Re''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 18 more developer resources.'
-random_paper: 25
+random_paper: 102
 score:
   band: thin
   composite: 41.6
@@ -188,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

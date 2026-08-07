@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: YapStone
 nav: Providers
 network: true
 overview: YapStone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Payments.
-random_paper: 28
+random_paper: 92
 score:
   band: minimal
   composite: 3.5
@@ -63,8 +63,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: yapstone
 tags:

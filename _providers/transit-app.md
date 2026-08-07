@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Transit publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Transit''s developer surface includes authentication, developer portal, documentation, engineering blog, tooling, and 26 more developer resources.'
-random_paper: 94
+random_paper: 9
 score:
   band: thin
   composite: 33.1
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/screenshots/transit-app-2026-06-20T195546.png
 security:

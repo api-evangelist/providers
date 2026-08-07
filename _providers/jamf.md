@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-03'
+  score: 47.7
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The modern Jamf Pro API, built on the OpenAPI 3.0 standard, for programmatically managing computers, mobile devices, policies, groups, inventory, and configuration on a Jamf Pro instance. Authenticate
@@ -185,7 +185,7 @@ overview: 'JAMF publishes 1 API on the [APIs.io](https://apis.io/) network: Pro 
 
 
   JAMF''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 34
+random_paper: 75
 score:
   band: strong
   composite: 56.2
@@ -201,8 +201,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/screenshots/jamf-2026-07-25T223052.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -376,6 +376,10 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/TykTechnologies/tyk-dashboard-mcp
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://tyk.io/docs/llms.txt
 created: '2026-03-18'
 description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
 examples:
@@ -2365,7 +2369,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-03'
 name: Tyk
 nav: Providers
 network: true
@@ -2375,12 +2379,12 @@ overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, inc
   The Tyk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Tyk''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 15 more developer resources.'
+  Tyk''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 16 more developer resources.'
 plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2405,7 +2409,7 @@ rules:
 score:
   band: strong
   composite: 63.1
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.0
@@ -2413,7 +2417,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     contracts:
@@ -2421,8 +2425,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

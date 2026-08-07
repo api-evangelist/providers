@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   PHP-FPM''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: emerging
   composite: 21.8
@@ -116,8 +116,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:

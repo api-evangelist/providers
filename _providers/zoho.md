@@ -8,17 +8,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-03'
+  score: 39.2
+  scored_at: '2026-08-06'
 api_count: 34
 apis:
 - description: The Zoho Inventory API allows you to perform all the operations that you do with our web client. It is built using REST principles which ensures predictable URLs for accessing resources, and uses HTTP
@@ -234,31 +234,31 @@ plans:
 - name: Zoho Plans Pricing
   plan_count: 5
   slug: zoho-plans-pricing
-random_paper: 68
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Zoho Rate Limits
   slug: zoho-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.5
+  composite: 43.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.3
+    contract_quality: 32.4
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 49.1
+  previous_composite: 43.9
   provenance:
     contracts:
       callable: 2.3
       derived: 0
       marker_coverage: 0.0
       total: 442
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png
 security:

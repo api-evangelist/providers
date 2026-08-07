@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ overview: 'Getaround is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Getaround''s developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 3
+random_paper: 90
 score:
   band: minimal
   composite: 7.0
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaround-com/refs/heads/main/screenshots/getaround-com-2026-06-20T181802.png
 security:

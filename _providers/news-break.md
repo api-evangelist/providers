@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'News Break publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 57
+random_paper: 103
 rate_limits:
 - limit_count: 9
   name: News Break Rate Limits
@@ -179,6 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.5
@@ -186,6 +187,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +198,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: News Break Authentication

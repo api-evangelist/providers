@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-03'
+  score: 44.4
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: カスタム家族項目テンプレートを操作します
@@ -214,19 +214,19 @@ overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カ
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 63
+random_paper: 104
 score:
   band: developing
-  composite: 52.7
+  composite: 53.6
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 55.0
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.7
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:

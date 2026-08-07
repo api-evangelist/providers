@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 0
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
@@ -223,8 +223,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

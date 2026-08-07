@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
   slug: oura-ring-plans-pricing
-random_paper: 61
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Oura Ring Rate Limits
@@ -428,8 +428,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png
 security:

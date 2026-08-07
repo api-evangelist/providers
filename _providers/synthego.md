@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,19 +143,19 @@ overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 26
+random_paper: 90
 score:
   band: thin
-  composite: 32.7
+  composite: 36.1
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 48.1
     developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.7
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -172,8 +172,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

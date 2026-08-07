@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-03'
+  score: 44.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,12 @@ apis:
 - description: Operations for working with CloudFormation templates
   name: Amazon CloudFormation Templates API
   slug: amazon-cloudformation-templates-api
-artifact_total: 72
+artifact_total: 73
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/awslabs/mcp/tree/main/src/aws-iac-mcp-server
 - group: agent
   title: ''
   type: AgenticAccess
@@ -320,7 +324,11 @@ jsonld:
   property_count: 50
   slug: amazon-cloudformation-context
 layout: provider
-modified: '2026-06-20'
+mcp_servers:
+- description: ''
+  name: AWS IaC MCP Server
+  slug: aws-iac-mcp-server
+modified: '2026-08-06'
 name: Amazon CloudFormation
 nav: Providers
 network: true
@@ -330,8 +338,8 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
   The Amazon CloudFormation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
-random_paper: 16
+  Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
+random_paper: 54
 rules:
 - name: Amazon CloudFormation API Rules
   rule_count: 6
@@ -351,12 +359,12 @@ rules:
   slug: amazon-cloudformation-spectral-rules
 score:
   band: strong
-  composite: 59.3
-  delta: 0.0
+  composite: 61.0
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 81.4
-    developer_ergonomics: 41.3
+    developer_ergonomics: 50.0
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
@@ -370,8 +378,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:

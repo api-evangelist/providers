@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-03'
+  score: 50.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 50
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
@@ -226,16 +226,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.5
+  composite: 52.9
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.5
+    contract_quality: 60.4
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.5
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

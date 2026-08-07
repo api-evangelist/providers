@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-03'
+  score: 27.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Incus Plans Pricing
   plan_count: 3
   slug: incus-plans-pricing
-random_paper: 71
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Incus Rate Limits
@@ -185,16 +185,16 @@ rules:
   slug: incus-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 37.0
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 51.8
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 31.6
-  previous_composite: 32.2
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incus/refs/heads/main/screenshots/incus-2026-06-20T183310.png
 security:

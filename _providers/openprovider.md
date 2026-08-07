@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -218,23 +218,23 @@ plans:
 - name: Openprovider Plans Pricing
   plan_count: 3
   slug: openprovider-plans-pricing
-random_paper: 74
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Openprovider Rate Limits
   slug: openprovider-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 39.6
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 32.3
+    contract_quality: 46.5
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.0
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/screenshots/openprovider-2026-06-20T191025.png
 security:

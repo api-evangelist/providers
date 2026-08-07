@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -242,7 +242,7 @@ overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 3
+random_paper: 67
 scopes:
 - name: Datastax Scopes
   scope_count: 15
@@ -270,8 +270,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

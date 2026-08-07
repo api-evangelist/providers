@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Bsquare
 nav: Providers
 network: true
 overview: Bsquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Edge Computing, Device Management, and Windows IoT.
-random_paper: 90
+random_paper: 77
 score:
   band: minimal
   composite: 7.5
@@ -77,8 +77,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bsquare/refs/heads/main/screenshots/bsquare-2026-07-25T204012.png
 security:

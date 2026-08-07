@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Fixed Format
 nav: Providers
 network: true
 overview: Fixed Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Exchange, Data Formats, File Formats, Fixed Format, and Fixed Width.
-random_paper: 82
+random_paper: 92
 score:
   band: minimal
   composite: 6.3
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixed-format/refs/heads/main/screenshots/fixed-format-2026-06-20T181257.png
 slug: fixed-format

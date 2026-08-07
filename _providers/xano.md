@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Xano Plans Pricing
   plan_count: 4
   slug: xano-plans-pricing
-random_paper: 58
+random_paper: 99
 rate_limits:
 - limit_count: 4
   name: Xano Rate Limits
@@ -158,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/screenshots/xano-2026-06-20T201653.png
 security:

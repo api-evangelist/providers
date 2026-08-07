@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ plans:
 - name: Zoho Cliq Plans Pricing
   plan_count: 4
   slug: zoho-cliq-plans-pricing
-random_paper: 63
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Zoho Cliq Rate Limits
@@ -371,8 +371,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/screenshots/zoho-cliq-2026-06-20T201935.png
 security:

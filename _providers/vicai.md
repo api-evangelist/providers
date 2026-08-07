@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 49
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits
@@ -282,7 +282,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.5
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.1
@@ -290,7 +290,7 @@ score:
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 52.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

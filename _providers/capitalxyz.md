@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Capital.xyz
 nav: Providers
 network: true
 overview: Capital.xyz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Startups, and Fundraising.
-random_paper: 52
+random_paper: 80
 score:
   band: minimal
   composite: 4.8
@@ -67,8 +67,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitalxyz/refs/heads/main/screenshots/capitalxyz-2026-07-25T204417.png
 slug: capitalxyz

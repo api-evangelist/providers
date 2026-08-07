@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Patient IO
 nav: Providers
 network: true
 overview: Patient IO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Engagement, Care Coordination, and Digital Health.
-random_paper: 68
+random_paper: 1
 score:
   band: minimal
   composite: 4.3
@@ -63,8 +63,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: patient-io
 tags:

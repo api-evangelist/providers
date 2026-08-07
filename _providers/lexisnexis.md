@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: 'The LexisNexis Developer Portal provides access to legal research and content APIs, allowing partners to integrate LexisNexis legal data and services directly into customer workflows. Access requires '
@@ -106,7 +106,7 @@ plans:
 - name: Lexisnexis Plans Pricing
   plan_count: 3
   slug: lexisnexis-plans-pricing
-random_paper: 55
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Lexisnexis Rate Limits
@@ -123,8 +123,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/screenshots/lexisnexis-2026-06-20T184446.png
 security:

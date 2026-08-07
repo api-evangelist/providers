@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'O1labs is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   O1labs'' developer surface includes documentation, engineering blog, CLI, changelog, sandbox, and 10 more developer resources.'
-random_paper: 8
+random_paper: 13
 score:
   band: emerging
   composite: 17.4
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

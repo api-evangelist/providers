@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -456,7 +456,7 @@ overview: 'MethodFi publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   MethodFi''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 88
+random_paper: 57
 rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits
@@ -464,7 +464,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.4
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 75.0
@@ -472,7 +472,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 59.9
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -489,8 +489,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

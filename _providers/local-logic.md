@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for location intelligence — location scores, neighborhood profiles, geographies, points of interest, demographics, schools, value drivers, similar neighborhoods, location snapshot, market sta
@@ -100,7 +100,7 @@ overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 6 more developer resources.'
-random_paper: 49
+random_paper: 77
 score:
   band: emerging
   composite: 23.5
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/screenshots/local-logic-2026-07-25T225422.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'CloudKitchens publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   CloudKitchens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 62
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Cloudkitchens Rate Limits
@@ -182,6 +182,7 @@ scopes:
 score:
   band: developing
   composite: 48.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 62.0
@@ -189,6 +190,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +201,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Cloudkitchens Authentication

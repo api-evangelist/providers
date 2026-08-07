@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The Jakarta EE specification for XML web services, formerly JSR 224 JAX-WS. Defines annotations such as @WebService, @WebMethod, and @WebParam, as well as runtime APIs for SOAP-based web service provi
@@ -78,7 +78,7 @@ plans:
 - name: Jax Ws Plans Pricing
   plan_count: 3
   slug: jax-ws-plans-pricing
-random_paper: 32
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Jax Ws Rate Limits
@@ -95,8 +95,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jax-ws/refs/heads/main/screenshots/jax-ws-2026-06-20T183703.png
 security:

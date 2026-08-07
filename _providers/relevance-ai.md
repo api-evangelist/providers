@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Relevance AI is a platform for building and deploying AI agents and AI-powered workflows.
@@ -76,7 +76,7 @@ plans:
 - name: Relevance Ai Plans Pricing
   plan_count: 3
   slug: relevance-ai-plans-pricing
-random_paper: 56
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Relevance Ai Rate Limits
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/screenshots/relevance-ai-2026-06-20T192832.png
 security:

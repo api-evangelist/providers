@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Ivella
 nav: Providers
 network: true
 overview: Ivella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Consumer Finance, and Banking.
-random_paper: 67
+random_paper: 72
 score:
   band: minimal
   composite: 4.3
@@ -63,8 +63,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivella/refs/heads/main/screenshots/ivella-2026-07-25T223019.png
 slug: ivella

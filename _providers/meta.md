@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -317,6 +317,14 @@ common:
   title: ''
   type: Reference
   url: https://developers.facebook.com/docs/graph-api/reference
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://developers.facebook.com/llms.txt
+- group: other
+  title: ''
+  type: AgentGuidance
+  url: llms/meta-llms-index.yml
 - group: company
   title: ''
   type: Blog
@@ -555,12 +563,12 @@ overview: 'Meta publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cus
   The Meta catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Meta''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 76 more developer resources.'
+  Meta''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 78 more developer resources.'
 plans:
 - name: Meta Plans Pricing
   plan_count: 3
   slug: meta-plans-pricing
-random_paper: 43
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Meta Rate Limits
@@ -606,8 +614,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

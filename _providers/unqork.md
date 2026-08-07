@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-03'
+  score: 38.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -172,7 +172,7 @@ overview: 'Unqork publishes 1 API on the [APIs.io](https://apis.io/) network: Cu
 
 
   Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 23 more developer resources.'
-random_paper: 7
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Unqork Rate Limits
@@ -185,6 +185,7 @@ scopes:
 score:
   band: strong
   composite: 59.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.7
@@ -192,6 +193,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 76.3
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,8 +210,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Unqork Authentication

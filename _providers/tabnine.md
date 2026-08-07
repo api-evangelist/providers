@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: VS Code, JetBrains (IntelliJ, PhpStorm, etc.), and Eclipse plugins surfacing autocomplete, chat, and agentic workflows. Communicates with Tabnine's hosted or self-hosted backend over a proprietary pro
@@ -99,7 +99,7 @@ plans:
 - name: Tabnine Plans Pricing
   plan_count: 1
   slug: tabnine-plans-pricing
-random_paper: 72
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Tabnine Rate Limits
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/screenshots/tabnine-2026-06-20T194849.png
 security:

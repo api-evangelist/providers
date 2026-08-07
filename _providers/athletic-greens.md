@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -144,7 +144,7 @@ overview: 'AG1 publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AG1''s developer surface includes FAQ, support, signup flow, documentation, authentication, and 18 more developer resources.'
-random_paper: 15
+random_paper: 66
 scopes:
 - name: Athletic Greens Scopes
   scope_count: 4
@@ -153,6 +153,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 48.1
@@ -160,6 +161,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,8 +172,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Athletic Greens Authentication

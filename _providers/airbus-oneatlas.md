@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -1994,7 +1994,7 @@ plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
   slug: airbus-oneatlas-plans-pricing
-random_paper: 26
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Airbus Oneatlas Rate Limits
@@ -2043,8 +2043,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ overview: 'Virtue Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Virtue Ai''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 63
+random_paper: 14
 score:
   band: emerging
   composite: 24.5
@@ -131,8 +131,8 @@ score:
   previous_composite: 24.5
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

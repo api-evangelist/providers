@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Inworld Plans Pricing
   plan_count: 5
   slug: inworld-plans-pricing
-random_paper: 7
+random_paper: 89
 rate_limits:
 - limit_count: 4
   name: Inworld Rate Limits
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.9
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 59.4
@@ -152,7 +152,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.6
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +166,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:

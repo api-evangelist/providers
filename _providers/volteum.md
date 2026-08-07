@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Volteum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Volteum''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 20
+random_paper: 102
 score:
   band: minimal
   composite: 12.3
@@ -106,8 +106,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

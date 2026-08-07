@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Office of the Comptroller of the Currency
 nav: Providers
 network: true
 overview: Office of the Comptroller of the Currency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Banking, and Financial Regulation.
-random_paper: 46
+random_paper: 81
 score:
   band: minimal
   composite: 4.6
@@ -71,8 +71,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-the-comptroller-of-the-currency/refs/heads/main/screenshots/office-of-the-comptroller-of-the-currency-2026-06-20T190636.png
 security:

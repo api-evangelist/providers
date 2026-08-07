@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -254,22 +254,22 @@ plans:
 - name: Alloy Plans Pricing
   plan_count: 2
   slug: alloy-plans-pricing
-random_paper: 70
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Alloy Rate Limits
   slug: alloy-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: -3.5
+  composite: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 56.4
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 63.2
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -284,8 +284,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-com-2026-06-20T171534.png
 security:

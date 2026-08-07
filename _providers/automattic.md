@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-03'
+  score: 61.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -257,7 +257,7 @@ overview: 'Automattic publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
-random_paper: 38
+random_paper: 66
 scopes:
 - name: Automattic Scopes
   scope_count: 21
@@ -266,6 +266,7 @@ scopes:
 score:
   band: strong
   composite: 56.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 37.0
@@ -273,6 +274,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +285,9 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Automattic Authentication

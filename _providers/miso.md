@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -28,12 +28,9 @@ agentic_access:
   summary_line: 69 operations
 api_count: 6
 apis:
-- description: 'The anonymous half of MISO''s data posture and the reason market_data_open is true. Twenty-six JSON endpoints publishing the source data behind MISO''s public Operations Displays: area control error at '
-  name: MISO Public API - Operations Displays
-  slug: miso-public-api-operations-displays
-- description: 'Eleven JSON endpoints publishing the source data behind MISO''s public Markets Displays: ancillary services market clearing prices for all eight reserve zones across regulation, spin, supplemental, sho'
-  name: MISO Public API - Markets Displays
-  slug: miso-public-api-markets-displays
+- description: Real-time market and operations data displays, served from one host under /api/ with no authentication. Covers both the Markets and Operations display tables MISO documents together.
+  name: MISO Public API
+  slug: miso-public-api
 - description: The pricing half of MISO Data Exchange, MISO's Azure API Management developer programme over Market Report data. Ten documented GET operations covering day-ahead and real-time ex-ante and ex-post loca
   name: MISO Data Exchange Pricing API
   slug: miso-data-exchange-pricing-api
@@ -46,6 +43,9 @@ apis:
 - description: The closed counterpart to everything else in this profile — MISO's programmatic JSON web API for registered market participants to submit energy supply offers and demand bids, query submissions, and q
   name: MISO Market User Interface (MUI) 2.0 API
   slug: miso-mui-2-0-api
+- description: The bulk file-retrieval counterpart to MUI 2.0, on the same two client-certificate-gated hosts and documented only in a PDF. MISO's File Download Specification lays out a consistent pair of operations
+  name: MISO File Download API
+  slug: miso-file-download-api
 artifact_total: 75
 common:
 - group: agent
@@ -379,11 +379,11 @@ mcp_servers:
 - description: ''
   name: miso-mcp.yml
   slug: miso-mcpyml
-modified: '2026-07-27'
+modified: '2026-08-04'
 name: MISO
 nav: Providers
 network: true
-overview: 'MISO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API - Operations Displays, Public API - Markets Displays, Data Exchange Pricing API, and 1 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'MISO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API, Data Exchange Pricing API, Data Exchange Load, Generation, and Interchange API, and 1 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   MISO''s developer surface includes authentication, code examples, sandbox, documentation, API reference, signup flow, getting-started guide, and 26 more developer resources.'
@@ -391,31 +391,31 @@ plans:
 - name: Miso Plans
   plan_count: 5
   slug: miso-plans
-random_paper: 60
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Miso Rate Limits
   slug: miso-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 49.7
   delta: 0.0
   facets:
     commercial_clarity: 65.8
-    contract_quality: 13.8
+    contract_quality: 30.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 46.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 4
+      callable: 80.0
+      derived: 3
+      marker_coverage: 80.0
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -424,8 +424,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

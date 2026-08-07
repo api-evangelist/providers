@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,7 +103,7 @@ overview: 'Insight Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Insight Health''s developer surface includes engineering blog, pricing, support, and 12 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: emerging
   composite: 23.0
@@ -124,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insighthealth/refs/heads/main/screenshots/insighthealth-2026-07-25T222535.png
 security:

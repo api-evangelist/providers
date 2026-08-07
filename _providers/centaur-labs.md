@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Public REST API for importing data and managing labeling projects, tasks, cases, assets, gold standards, prelabels, tags and for downloading aggregated labeling results. Split across several versioned
@@ -112,7 +112,7 @@ overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Centaur Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 8 more developer resources.'
-random_paper: 77
+random_paper: 87
 score:
   band: emerging
   composite: 27.0
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/screenshots/centaur-labs-2026-07-25T204921.png
 security:

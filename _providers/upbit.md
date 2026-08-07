@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Upbit Plans Pricing
   plan_count: 2
   slug: upbit-plans-pricing
-random_paper: 73
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Upbit Rate Limits
@@ -191,8 +191,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: API for managing general ledger operations including journals, budgets, and financial reporting.
@@ -109,7 +109,7 @@ plans:
 - name: Oracle Financials 12 Plans Pricing
   plan_count: 3
   slug: oracle-financials-12-plans-pricing
-random_paper: 62
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Oracle Financials 12 Rate Limits
@@ -126,8 +126,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 35.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/screenshots/oracle-financials-12-2026-06-20T191134.png
 security:

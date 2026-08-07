@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -1466,7 +1466,7 @@ plans:
 - name: Letta Plans Pricing
   plan_count: 3
   slug: letta-plans-pricing
-random_paper: 63
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Letta Rate Limits
@@ -1499,8 +1499,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-06-20T184428.png
 security:

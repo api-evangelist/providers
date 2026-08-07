@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Partner-gated interface announced September 2025 that delivers real-time SM300 vessel telemetry and data feeds (position, heading, mechanical and navigational state) to external command-and-control an
@@ -104,7 +104,7 @@ plans:
 - name: Sea Machines Plans Pricing
   plan_count: 1
   slug: sea-machines-plans-pricing
-random_paper: 58
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Sea Machines Rate Limits
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/screenshots/sea-machines-2026-06-20T193612.png
 security:

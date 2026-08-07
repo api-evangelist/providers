@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'Lena Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Lena Health''s developer surface includes support and 10 more developer resources.'
-random_paper: 46
+random_paper: 74
 score:
   band: emerging
   composite: 20.8
@@ -109,8 +109,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lena-health/refs/heads/main/screenshots/lena-health-2026-07-25T224853.png
 security:

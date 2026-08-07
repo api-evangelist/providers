@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -153,7 +153,7 @@ overview: 'Lineage is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lineage''s developer surface includes support, engineering blog, YouTube channel, authentication, and 23 more developer resources.'
-random_paper: 60
+random_paper: 47
 scopes:
 - name: Lineage Scopes
   scope_count: 21
@@ -173,8 +173,8 @@ score:
   previous_composite: 17.5
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lineage/refs/heads/main/screenshots/lineage-2026-07-25T225222.png
 security:

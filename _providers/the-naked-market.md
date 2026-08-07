@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -89,7 +89,7 @@ overview: 'The Naked Market is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   The Naked Market''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 50
+random_paper: 101
 scopes:
 - name: The Naked Market Scopes
   scope_count: 4
@@ -110,8 +110,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

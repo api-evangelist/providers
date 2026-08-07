@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ overview: 'Basic Capital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Basic Capital''s developer surface includes engineering blog, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 58
+random_paper: 50
 score:
   band: emerging
   composite: 21.6
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basic-capital/refs/heads/main/screenshots/basic-capital-2026-07-25T202426.png
 security:

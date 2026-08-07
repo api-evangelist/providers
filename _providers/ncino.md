@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-04'
+  score: 56.5
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: REST API for the nCino Mortgage platform (formerly SimpleNexus) covering loans, loan applications, borrowers, loan officers, team members, partners, organizations (companies, regions, branches), state
@@ -194,7 +194,7 @@ overview: 'nCino publishes 3 APIs on the [APIs.io](https://apis.io/) network: Mo
 
 
   nCino''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 45
+random_paper: 83
 scopes:
 - name: Ncino Scopes
   scope_count: 1
@@ -203,6 +203,7 @@ scopes:
 score:
   band: strong
   composite: 56.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.8
@@ -210,6 +211,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -226,7 +228,8 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.9.1
-  scored_at: '2026-08-04'
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Ncino Authentication

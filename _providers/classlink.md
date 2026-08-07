@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and resources—between ClassLink Roster Server and third-pa
@@ -137,7 +137,7 @@ plans:
 - name: Classlink Plans Pricing
   plan_count: 3
   slug: classlink-plans-pricing
-random_paper: 14
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Classlink Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 45.2
@@ -153,9 +153,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 35.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 37.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/screenshots/classlink-2026-06-20T174447.png
 security:

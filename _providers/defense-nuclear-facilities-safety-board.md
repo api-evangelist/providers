@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Nuclear Facilities Safety Board providing organizational information, board members, hearings, and publications. The site does not expose a developer API.
@@ -94,7 +94,7 @@ plans:
 - name: Defense Nuclear Facilities Safety Board Plans Pricing
   plan_count: 3
   slug: defense-nuclear-facilities-safety-board-plans-pricing
-random_paper: 81
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Defense Nuclear Facilities Safety Board Rate Limits
@@ -117,8 +117,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/screenshots/defense-nuclear-facilities-safety-board-2026-06-20T175836.png
 security:

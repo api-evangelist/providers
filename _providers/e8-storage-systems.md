@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -44,7 +44,7 @@ name: E8 Storage Systems
 nav: Providers
 network: true
 overview: E8 Storage Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Storage, NVMe, and Flash Storage.
-random_paper: 86
+random_paper: 101
 score:
   band: minimal
   composite: 5.0
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ plans:
 - name: Ariba Guided Buying Plans Pricing
   plan_count: 3
   slug: ariba-guided-buying-plans-pricing
-random_paper: 76
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Ariba Guided Buying Rate Limits
@@ -400,8 +400,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/screenshots/ariba-guided-buying-2026-07-25T201151.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'Noded AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Noded AI''s developer surface includes engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 9
+random_paper: 91
 score:
   band: emerging
   composite: 17.5
@@ -101,8 +101,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

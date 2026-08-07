@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-03'
+  score: 59.9
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: The Gloo Portal Server REST API backs the Solo.io developer portal for Kgateway Enterprise / Gloo Gateway. It lets portal users look up their session user, browse API products and product versions, cr
@@ -221,10 +221,11 @@ overview: 'Solo.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 41
+random_paper: 28
 score:
   band: strong
   composite: 61.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.9
@@ -232,6 +233,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 61.2
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +243,9 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Solo Io Authentication

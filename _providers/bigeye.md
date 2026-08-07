@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-03'
+  score: 52.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -213,10 +213,11 @@ overview: 'Bigeye publishes 3 APIs on the [APIs.io](https://apis.io/) network: M
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 59
+random_paper: 64
 score:
   band: strong
   composite: 57.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.1
@@ -224,13 +225,15 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Bigeye Authentication

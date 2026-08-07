@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: Sidecar Health
 nav: Providers
 network: true
 overview: Sidecar Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Health Insurance, Insurance, and Healthcare.
-random_paper: 31
+random_paper: 5
 score:
   band: emerging
   composite: 16.7
@@ -91,8 +91,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

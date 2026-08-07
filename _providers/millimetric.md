@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 39
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 67.9
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 59.9
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

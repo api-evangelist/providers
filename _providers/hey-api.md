@@ -10,94 +10,203 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-03'
-api_count: 1
+  score: 59.9
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 23
+  human_in_the_loop: 0
+  name: Hey Api Agentic Access
+  operation_count: 38
+  slug: hey-api-agentic-access
+  summary_line: 38 operations · 23 acting
+api_count: 2
 apis:
-- description: '@hey-api/openapi-ts is an OpenAPI to TypeScript codegen tool that generates reliable API clients and SDKs from OpenAPI specifications. It is MIT-licensed and supports over 1,000,000 monthly downloads.'
+- description: 'The Hey API Platform REST backend. Stores OpenAPI specifications against an organization and project with full CI provenance (repository, branch, commit SHA, workflow, run, actor, tags, version), and '
+  name: Hey API Platform API
+  slug: hey-api-platform
+- description: '@hey-api/openapi-ts is an OpenAPI to TypeScript code generator that emits production-grade SDKs, types, validators, query hooks, mocks and web framework handlers from any OpenAPI 2.0, 3.0 or 3.1 docum'
   name: Hey API Openapi-Ts
   slug: hey-api
-artifact_total: 5
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Hey Api Platform Webhooks
+  slug: hey-api-platform-webhooks
 common:
-- group: auth
+- group: agent
   title: ''
-  type: DomainSecurity
-  url: security/hey-api-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/heyapi
+  type: AgenticAccess
+  url: agentic-access/hey-api-agentic-access.yml
 - group: company
   title: ''
   type: Website
   url: https://heyapi.dev/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://heyapi.dev/docs
 - group: docs
   title: ''
   type: Documentation
   url: https://heyapi.dev/openapi-ts/get-started
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://heyapi.dev/docs/openapi/typescript/integrations
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://heyapi.dev/docs/openapi/typescript/get-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.heyapi.dev
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/orgs/hey-api/discussions
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/hey-api
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/heyapi
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hey-api-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://heyapi.dev/docs/openapi/typescript/migrating
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hey-api-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hey-api-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hey-api-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/hey-api-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hey-api-sandbox.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hey-api-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hey-api-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hey-api-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hey-api-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/hey-api-platform-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hey-api-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hey-api-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hey-api-llms.txt
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/hey-api-robots.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2025-05-02'
-description: Hey API provides @hey-api/openapi-ts, an OpenAPI to TypeScript codegen trusted over 1,000,000 times each month to generate reliable API clients and SDKs. The code is MIT-licensed and free to use, supporting multiple HTTP clients and customization options.
+description: 'Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hono/Express server handlers — across more than twenty plugins and eight HTTP client runtimes, with a sibling Python generator emitting Pydantic models. It draws over four million npm downloads a week and is used by Vercel, PayPal, AWS, Autodesk and OpenCode. The Hey API Platform (api.heyapi.dev) adds a build-attested registry: CI uploads each OpenAPI document with its repository, branch, commit and workflow provenance, and consumers resolve it back by branch, tag, version or exact commit for reproducible client generation.'
 finops:
 - name: Hey Api Finops
   service_category: API
   slug: hey-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hey-api.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-06'
 name: Hey API
 nav: Providers
 network: true
-overview: 'Hey API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDKs, and TypeScript.
+overview: 'Hey API publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDKs, and TypeScript.
 
 
-  Hey API''s developer surface includes documentation and 4 more developer resources.'
+  The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 20 more developer resources.'
 plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
   slug: hey-api-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Hey Api Rate Limits
   slug: hey-api-rate-limits
 score:
-  band: emerging
-  composite: 20.4
-  delta: 0.0
+  band: strong
+  composite: 58.1
+  delta: 37.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 52.6
+    contract_quality: 52.7
+    developer_ergonomics: 76.1
+    discoverability: 77.8
+    governance: 20.8
+    operational_transparency: 68.4
   previous_composite: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:
+- kind: authentication
+  name: Hey Api Authentication
+  slug: hey-api-authentication
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Hey Api Domain Security
   slug: hey-api-domain-security
@@ -109,5 +218,10 @@ tags:
 - OpenAPI
 - SDKs
 - TypeScript
+- Python
+- API Design
+- Specifications
+- Registry
+- Open Source
 website: https://heyapi.dev/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Elsevier Plans Pricing
   plan_count: 3
   slug: elsevier-plans-pricing
-random_paper: 8
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Elsevier Rate Limits
@@ -172,8 +172,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:

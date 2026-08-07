@@ -21,7 +21,7 @@ modified: '2026-07-25'
 name: RESTful Web Services
 nav: Providers
 network: true
-random_paper: 54
+random_paper: 15
 slug: restful-web-services
 tags:
 - Architecture

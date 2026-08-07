@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-03'
+  score: 30.6
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for accepting crypto and stablecoin payments — customers, entities, merchants, tokens, payments, payouts, and webhooks. Authenticated with api-key and entity-id headers; URI-path versioned (v
@@ -131,7 +131,7 @@ overview: 'Loop Crypto publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Loop Crypto''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 12 more developer resources.'
-random_paper: 20
+random_paper: 30
 score:
   band: thin
   composite: 36.3
@@ -150,8 +150,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The HealthEquity API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Healthequity Plans Pricing
   plan_count: 1
   slug: healthequity-plans-pricing
-random_paper: 68
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Healthequity Rate Limits
@@ -92,8 +92,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthequity/refs/heads/main/screenshots/healthequity-2026-07-25T220836.png
 security:

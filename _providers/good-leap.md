@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 33
+random_paper: 97
 score:
   band: thin
   composite: 41.8
@@ -246,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

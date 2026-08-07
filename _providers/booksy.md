@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-03'
+  score: 37.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Booksy Public API is a partner-facing REST API for managing Booksy businesses and their booking data. It is organized around resource-oriented URLs, returns JSON, uses standard HTTP verbs and stat
@@ -154,7 +154,7 @@ plans:
 - name: Booksy Plans
   plan_count: 2
   slug: booksy-plans
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Booksy Rate Limits
@@ -162,6 +162,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 51.6
@@ -169,6 +170,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 60.5
+  previous_composite: 53.1
   provenance:
     conformance: derived
   regulatory:
@@ -177,8 +179,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Booksy Authentication

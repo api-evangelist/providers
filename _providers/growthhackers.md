@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'GrowthHackers is profiled on the [APIs.io](https://apis.io/) network.
 
 
   GrowthHackers'' developer surface includes engineering blog, developer portal, signup flow, and 6 more developer resources.'
-random_paper: 74
+random_paper: 48
 score:
   band: minimal
   composite: 6.3
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 6.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/screenshots/growthhackers-2026-06-20T182419.png
 security:

@@ -1,0 +1,226 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Accelsius Agentic Access
+  operation_count: 23
+  slug: accelsius-agentic-access
+  summary_line: 23 operations
+api_count: 7
+apis:
+- description: The public WordPress REST collection behind https://accelsius.com/resources/ - the Accelsius resource library, holding 154 published items at time of capture across eight content classes carried as ca
+  name: Accelsius Resources Content API
+  slug: content
+- description: The `news` WordPress custom post type Accelsius registered for curated third-party press coverage, surfaced at https://accelsius.com/in-the-news/ and served from accelsius.com/wp-json/wp/v2/news. Eigh
+  name: Accelsius News API
+  slug: news
+- description: Public read access to the 30 static marketing, product, company and legal pages of accelsius.com via the WordPress REST API - the NeuCool IR150 and MR250 product pages, the Thermal Simulation Rack and
+  name: Accelsius Pages API
+  slug: pages
+- description: Public read access to the 903-item accelsius.com media library - NeuCool product renders and photography, thermal diagrams, partner and customer logos, and the PDF white papers, studies and infographi
+  name: Accelsius Media API
+  slug: media
+- description: 'The classification layer behind the Accelsius content API: the eight category terms that separate content classes, the five post_tag topic terms (2pd2c-education, neucool-products, accelsius-news, sci'
+  name: Accelsius Taxonomy API
+  slug: taxonomy
+- description: Site-wide search across every searchable object on accelsius.com - resource-library posts, static pages and news items, 192 objects at time of capture. Returns a lightweight uniform record (id, title,
+  name: Accelsius Search API
+  slug: search
+- description: The WordPress REST route-discovery documents served at accelsius.com/wp-json/ and accelsius.com/wp-json/wp/v2 - the only machine-readable API description documents Accelsius serves. They enumerate 387
+  name: Accelsius API Discovery
+  slug: discovery
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/accelsius-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/accelsius-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://accelsius.com/
+- group: company
+  title: ''
+  type: About
+  url: https://accelsius.com/company/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://accelsius.com/contact/
+- group: operate
+  title: ''
+  type: Support
+  url: https://accelsius.com/customer-support/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://accelsius.com/faq/
+- group: company
+  title: ''
+  type: Blog
+  url: https://accelsius.com/resources/
+- group: company
+  title: ''
+  type: BlogFeeds
+  url: https://accelsius.com/feed/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://accelsius.com/in-the-news/
+- group: other
+  title: ''
+  type: WhitePapers
+  url: https://accelsius.com/papers-studies/
+- group: company
+  title: ''
+  type: Partners
+  url: https://accelsius.com/our-partners/
+- group: company
+  title: ''
+  type: Careers
+  url: https://accelsius.com/careers/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/accelsius
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://accelsius.com/privacy-policy/
+- group: other
+  title: ''
+  type: Sitemap
+  url: https://accelsius.com/sitemap_index.xml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/accelsius-agentic-access.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/accelsius-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/accelsius-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/accelsius-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/accelsius-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/accelsius-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/accelsius-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/accelsius-llms.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/accelsius-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/accelsius-examples.yml
+- group: other
+  title: ''
+  type: Robots
+  url: well-known/accelsius-robots.txt
+created: '2026-08-06'
+description: 'Accelsius LLC is an Austin, Texas thermal-management company founded in 2022 by Innventure to commercialize two-phase, direct-to-chip liquid cooling for AI, HPC and mission-critical data centers. Its NeuCool platform circulates a non-conductive dielectric refrigerant through cold plates mounted directly on CPUs and GPUs, removing heat by evaporation rather than by bringing water into the IT rack, and supports 4,500W+ per socket and rack densities up to 250kW. The product line includes the IR150 in-rack CDU, the MR250 medium-rack CDU, the NeuCool Thermal Simulation Rack and Liquid Simulation System used for evaluation and deployment planning, and multi-GPU cold plate assemblies, backed by professional services spanning system architecture, integration, deployment and maintenance. Accelsius is a hardware manufacturer, not a software or data company: it publishes no developer program, product API, SDK or machine-readable product specification. The only machine-readable interface
+  on its public surface is the WordPress core REST API behind accelsius.com, which serves the company''s own blog, news, white-paper, case-study, podcast and video content anonymously and read-only.'
+image: https://accelsius.com/wp-content/uploads/Accelsius_Logo_Footer-1.svg
+layout: provider
+modified: '2026-08-06'
+name: Accelsius
+nav: Providers
+network: true
+overview: 'Accelsius publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Resources Content API, News API, Pages API, and 4 more. Tagged areas include Company, Data Centers, Liquid Cooling, Thermal Management, and Direct-to-Chip Cooling.
+
+
+  Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 23 more developer resources.'
+random_paper: 52
+score:
+  band: thin
+  composite: 32.1
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 62.3
+    developer_ergonomics: 19.0
+    discoverability: 92.6
+    governance: 11.5
+    operational_transparency: 0.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Accelsius Authentication
+  slug: accelsius-authentication
+  summary_line: none/http/cookie · 3 schemes
+- kind: domain-security
+  name: Accelsius Domain Security
+  slug: accelsius-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: accelsius
+tags:
+- Company
+- Data Centers
+- Liquid Cooling
+- Thermal Management
+- Direct-to-Chip Cooling
+- Two-Phase Cooling
+- Artificial Intelligence Infrastructure
+- High Performance Computing
+- Hardware
+- Manufacturing
+- Content
+- WordPress
+website: https://accelsius.com/
+---

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -153,7 +153,7 @@ overview: 'TAL publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TAL''s developer surface includes authentication, support, FAQ, engineering blog, and 23 more developer resources.'
-random_paper: 2
+random_paper: 89
 scopes:
 - name: Tal Australia Scopes
   scope_count: 7
@@ -179,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

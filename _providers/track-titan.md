@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Track Titan is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Track Titan''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 77
+random_paper: 105
 score:
   band: emerging
   composite: 17.1
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

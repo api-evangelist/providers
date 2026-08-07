@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Travelguru
 nav: Providers
 network: true
 overview: Travelguru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hotels, Booking, and India.
-random_paper: 60
+random_paper: 88
 score:
   band: minimal
   composite: 6.9
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

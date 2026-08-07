@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -80,7 +80,7 @@ plans:
 - name: Manifest Cyber Plans Pricing
   plan_count: 3
   slug: manifest-cyber-plans-pricing
-random_paper: 8
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Manifest Cyber Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: 4.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 57.4
@@ -96,15 +96,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.7
+  previous_composite: 35.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/screenshots/manifest-cyber-2026-06-20T184923.png
 security:

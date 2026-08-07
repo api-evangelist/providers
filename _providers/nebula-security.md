@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -132,7 +132,7 @@ overview: 'Nebula Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Nebula Security''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 95
 score:
   band: emerging
   composite: 23.1
@@ -147,8 +147,8 @@ score:
   previous_composite: 23.1
   provenance:
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

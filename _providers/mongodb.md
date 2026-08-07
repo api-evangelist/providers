@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -322,7 +322,7 @@ plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
   slug: mongodb-plans-pricing
-random_paper: 77
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Mongodb Rate Limits
@@ -351,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:

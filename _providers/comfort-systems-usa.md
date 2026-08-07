@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Comfort Systems USA API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Comfort Systems Usa Plans Pricing
   plan_count: 1
   slug: comfort-systems-usa-plans-pricing
-random_paper: 73
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Comfort Systems Usa Rate Limits
@@ -82,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comfort-systems-usa/refs/heads/main/screenshots/comfort-systems-usa-2026-06-20T174811.png
 security:

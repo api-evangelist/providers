@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,30 +154,30 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 33
+random_paper: 74
 scopes:
 - name: Calm Scopes
   scope_count: 2
   slug: calm-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: thin
-  composite: 34.7
+  band: developing
+  composite: 44.9
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 16.0
+    contract_quality: 64.0
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 34.7
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 0
       marker_coverage: 100.0
       total: 2
     mcp: derived
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:

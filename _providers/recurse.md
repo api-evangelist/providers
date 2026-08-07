@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: 'Recurse is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Recurse''s developer surface includes documentation, getting-started guide, CLI, engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 1
+random_paper: 83
 score:
   band: emerging
   composite: 21.2
@@ -118,8 +118,8 @@ score:
   previous_composite: 21.2
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

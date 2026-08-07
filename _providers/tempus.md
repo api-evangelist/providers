@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Tempus Edge is a secure gateway that establishes bidirectional interfaces with provider EHRs using HL7, FHIR, API, and PACS connectivity so genomic test orders and results flow directly inside the cli
@@ -83,7 +83,7 @@ overview: 'Tempus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Tempus'' developer surface includes documentation, getting-started guide, engineering blog, and 4 more developer resources.'
-random_paper: 5
+random_paper: 105
 score:
   band: minimal
   composite: 11.5
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

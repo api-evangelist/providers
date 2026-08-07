@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'Teya publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Teya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 55
+random_paper: 96
 scopes:
 - name: Teya Scopes
   scope_count: 2
@@ -258,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

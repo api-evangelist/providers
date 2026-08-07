@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -131,7 +131,7 @@ overview: 'Aescape is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aescape''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 57
+random_paper: 44
 scopes:
 - name: Aescape Scopes
   scope_count: 6
@@ -140,6 +140,7 @@ scopes:
 score:
   band: emerging
   composite: 21.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -147,10 +148,12 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 21.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Aescape Authentication

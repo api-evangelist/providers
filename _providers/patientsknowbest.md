@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: HL7 FHIR RESTful API for reading and writing patient health records in the PKB personal health record, secured with OAuth 2.0 / SMART on FHIR.
@@ -112,7 +112,7 @@ overview: 'Patients Know Best publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Patients Know Best''s developer surface includes documentation, API reference, changelog, support, authentication, sandbox, and 10 more developer resources.'
-random_paper: 39
+random_paper: 54
 score:
   band: emerging
   composite: 27.3
@@ -133,8 +133,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Us Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: us-bureau-of-labor-statistics-plans-pricing
-random_paper: 46
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Us Bureau Of Labor Statistics Rate Limits
@@ -160,8 +160,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:

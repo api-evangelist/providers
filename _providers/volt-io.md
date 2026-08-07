@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-03'
+  score: 51.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -223,11 +223,11 @@ overview: 'Volt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Acc
 
 
   Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 30 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: developing
   composite: 52.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.7
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 55.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

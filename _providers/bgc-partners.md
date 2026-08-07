@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: FMX Futures Exchange launched September 23, 2024, initially listing SOFR futures (the largest notional futures contract in the world) and adding U.S. Treasury futures in Q1 2025. Equity partners inclu
@@ -170,7 +170,7 @@ plans:
 - name: Bgc Partners Plans Pricing
   plan_count: 6
   slug: bgc-partners-plans-pricing
-random_paper: 84
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Bgc Partners Rate Limits
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-03'
+  score: 51.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -272,7 +272,7 @@ overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 42 more developer resources.'
-random_paper: 22
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Green Button Alliance Rate Limits
@@ -310,8 +310,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 82.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

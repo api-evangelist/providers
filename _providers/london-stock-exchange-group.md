@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -242,23 +242,23 @@ plans:
 - name: London Stock Exchange Group Plans Pricing
   plan_count: 3
   slug: london-stock-exchange-group-plans-pricing
-random_paper: 65
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: London Stock Exchange Group Rate Limits
   slug: london-stock-exchange-group-rate-limits
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 57.9
   delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 32.3
+    contract_quality: 51.7
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 53.7
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

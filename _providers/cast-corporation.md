@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Cast Corporation is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cast Corporation''s developer surface includes documentation, support, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: emerging
   composite: 20.5
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/screenshots/cast-corporation-2026-07-25T204732.png
 security:

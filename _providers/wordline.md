@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,17 +19,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 41.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 429
   human_in_the_loop: 29
@@ -374,7 +374,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 13
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -386,16 +386,16 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.7
+  composite: 40.2
   delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 32.3
+    contract_quality: 49.2
     developer_ergonomics: 26.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.7
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -408,9 +408,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+    score: 53.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -1,0 +1,262 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 57.9
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 57
+  human_in_the_loop: 0
+  name: Fieldpulse Agentic Access
+  operation_count: 109
+  slug: fieldpulse-agentic-access
+  summary_line: 109 operations · 57 acting
+api_count: 2
+apis:
+- description: The FieldPulse Open API is a REST API for the FieldPulse field service management platform. It exposes 109 operations across 57 paths covering assets, asset categories, comments, company profile, cont
+  name: FieldPulse API
+  slug: fieldpulse-api
+- description: FieldPulse serves an anonymous, publicly reachable Model Context Protocol server from its documentation host at https://help.fieldpulse.com/mcp. The server reports protocol version 2025-06-18 and expo
+  name: FieldPulse Docs MCP Server
+  slug: fieldpulse-docs-mcp
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Fieldpulse Events Webhooks
+  slug: fieldpulse-events-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fieldpulse.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://help.fieldpulse.com/api-reference/overview
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.fieldpulse.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.fieldpulse.com/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.fieldpulse.com/api-reference/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.fieldpulse.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.fieldpulse.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.fieldpulse.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://webapp.fieldpulse.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fieldpulse.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fieldpulse.com/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.fieldpulse.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://help.fieldpulse.com/what-s-new/fieldpulse-feature-roadmap
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/fieldpulse-changelog.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/35988189/2sA3XLEjFd
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/fieldpulse-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fieldpulse-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fieldpulse-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fieldpulse-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fieldpulse-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fieldpulse-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fieldpulse-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fieldpulse-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fieldpulse-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fieldpulse-packages.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/fieldpulse-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fieldpulse-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fieldpulse-plans.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/fieldpulse-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/fieldpulse-events-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fieldpulse-rate-limits.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/fieldpulse-examples.yml
+created: '2026-08-04'
+description: FieldPulse is an all-in-one field service management (FSM) platform, founded in 2015 and headquartered in Dallas, Texas, serving residential and commercial service contractors across HVAC/R, electrical, plumbing, garage door, locksmith, appliance repair, fire and security, septic, glass, and property management trades. The platform combines scheduling and dispatch, customer and job management, estimates, invoices, payments, purchase orders, material lists, timesheets, projects, custom forms, reporting, and workflow automation, with add-on products for VoIP (Engage), Operator AI, Pricebook, FieldPulse Payments, and fleet tracking. FieldPulse publishes a public REST API — the "Open API", available on the Enterprise plan — documented on a Mintlify docs site with a machine-readable OpenAPI 3.0 definition covering 57 paths and 109 operations across 25 resource areas, authenticated with an x-api-key header issued by support, rate limited to 50 requests per second, plus an outbound
+  webhook surface for job, estimate, and invoice events.
+image: https://www.fieldpulse.com/logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: fieldpulse-mcp.yml
+  slug: fieldpulse-mcpyml
+modified: '2026-08-04'
+name: FieldPulse
+nav: Providers
+network: true
+overview: 'FieldPulse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service Management, Service Management, Scheduling, and Dispatch.
+
+
+  The FieldPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  FieldPulse''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 26 more developer resources.'
+plans:
+- name: Fieldpulse Plans
+  plan_count: 3
+  slug: fieldpulse-plans
+random_paper: 52
+rate_limits:
+- limit_count: 1
+  name: Fieldpulse Rate Limits
+  slug: fieldpulse-rate-limits
+score:
+  band: strong
+  composite: 59.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 76.3
+    contract_quality: 68.2
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 65.8
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Fieldpulse Authentication
+  slug: fieldpulse-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Fieldpulse Domain Security
+  slug: fieldpulse-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: fieldpulse
+tags:
+- Company
+- Field Service Management
+- Service Management
+- Scheduling
+- Dispatch
+- Invoicing
+- Estimates
+- Payments
+- Contractors
+- HVAC
+- Plumbing
+- Electrical
+- Work Order Management
+- CRM
+- SaaS
+website: https://www.fieldpulse.com/
+---

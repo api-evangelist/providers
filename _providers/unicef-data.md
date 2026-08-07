@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 33.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Unicef Data Plans Pricing
   plan_count: 3
   slug: unicef-data-plans-pricing
-random_paper: 44
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Unicef Data Rate Limits
@@ -262,16 +262,16 @@ rules:
   slug: unicef-data-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.4
+  composite: 41.0
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.2
+    contract_quality: 52.8
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 39.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +285,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

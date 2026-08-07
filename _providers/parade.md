@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ overview: 'Parade publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 51
+random_paper: 56
 score:
   band: developing
   composite: 42.2
@@ -191,8 +191,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

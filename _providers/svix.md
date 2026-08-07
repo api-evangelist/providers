@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -515,7 +515,7 @@ plans:
 - name: Svix Plans Pricing
   plan_count: 3
   slug: svix-plans-pricing
-random_paper: 78
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Svix Rate Limits
@@ -540,7 +540,7 @@ rules:
 score:
   band: exemplar
   composite: 74.6
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 68.1
@@ -548,7 +548,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 71.2
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
     contracts:
@@ -562,8 +562,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:

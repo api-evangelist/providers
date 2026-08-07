@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for managing warehouse programs, inventory, fulfillment orders, and supply chain operations across Flexe's distributed network of warehouse operators in North America. Supports integration vi
@@ -112,7 +112,7 @@ plans:
 - name: Flexe Plans Pricing
   plan_count: 1
   slug: flexe-plans-pricing
-random_paper: 57
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Flexe Rate Limits
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexe/refs/heads/main/screenshots/flexe-2026-06-20T181406.png
 security:

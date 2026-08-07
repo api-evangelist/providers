@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization surface in front of the Introhive platform. Introhive publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata document at /.well-known/oauth-authorization-server on e
@@ -118,10 +118,11 @@ overview: 'Introhive publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Introhive''s developer surface includes support, engineering blog, YouTube channel, authentication, and 16 more developer resources.'
-random_paper: 34
+random_paper: 80
 score:
   band: emerging
   composite: 23.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -129,10 +130,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 23.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Introhive Authentication

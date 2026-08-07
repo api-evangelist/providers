@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Account and wallet service.
@@ -127,7 +127,7 @@ overview: 'Gameflip publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 9 more developer resources.'
-random_paper: 77
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Gameflip Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.9
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.5
@@ -143,7 +143,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API for managing and accessing operation support equipment data, inventory, maintenance records, and deployment information for operational logistics and equipment lifecycle management.
@@ -57,7 +57,7 @@ plans:
 - name: Operation Support Equipment Plans Pricing
   plan_count: 3
   slug: operation-support-equipment-plans-pricing
-random_paper: 93
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Operation Support Equipment Rate Limits
@@ -74,8 +74,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 17.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/operation-support-equipment/refs/heads/main/screenshots/operation-support-equipment-2026-06-20T191100.png
 security:

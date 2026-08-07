@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -949,7 +949,7 @@ plans:
 - name: Amazon S3 Plans Pricing
   plan_count: 4
   slug: amazon-s3-plans-pricing
-random_paper: 2
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Amazon S3 Rate Limits
@@ -992,8 +992,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:

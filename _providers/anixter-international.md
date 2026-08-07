@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Anixter International Inc. Announces the Acquisition of Tri-Ed
   url: https://securitytoday.com/articles/2014/08/11/anixter-international-inc-announces-the-acquisition-of-tri-ed.aspx?admgarea=ht.accesscontrol
-random_paper: 23
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Anixter International Rate Limits
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 21.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/screenshots/anixter-international-2026-06-20T172016.png
 security:

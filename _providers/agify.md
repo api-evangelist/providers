@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Agify Plans Pricing
   plan_count: 3
   slug: agify-plans-pricing
-random_paper: 53
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Agify Rate Limits
@@ -163,7 +163,7 @@ rules:
 score:
   band: developing
   composite: 47.0
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.9
@@ -171,7 +171,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 44.2
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify/refs/heads/main/screenshots/agify-2026-06-20T170124.png
 security:

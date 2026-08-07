@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -223,7 +223,7 @@ overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endp
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 55
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Kandji Rate Limits
@@ -231,6 +231,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 50.7
@@ -238,6 +239,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
+  previous_composite: 60.1
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -248,8 +250,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Kandji Authentication

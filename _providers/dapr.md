@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 43
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -304,8 +304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

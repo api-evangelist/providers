@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: Campfire Hq Plans Pricing
   plan_count: 2
   slug: campfire-hq-plans-pricing
-random_paper: 56
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Campfire Hq Rate Limits
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire-hq/refs/heads/main/screenshots/campfire-hq-2026-07-25T204316.png
 security:

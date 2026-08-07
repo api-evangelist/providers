@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Annual Report
   url: https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/Robert%20Half_2023%20Annual%20Report.pdf
-random_paper: 85
+random_paper: 69
 score:
   band: emerging
   composite: 14.1
@@ -120,8 +120,8 @@ score:
     governance: 10.4
     operational_transparency: 0.0
   previous_composite: 14.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/screenshots/robert-half-international-2026-06-20T193138.png
 security:

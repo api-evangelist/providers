@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -510,7 +510,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 25
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -567,8 +567,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-justice-statistics-plans-pricing
-random_paper: 0
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bureau Of Justice Statistics Rate Limits
@@ -135,8 +135,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/screenshots/bureau-of-justice-statistics-2026-06-20T173810.png
 security:

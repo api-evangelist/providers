@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'AcuityMD is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AcuityMD''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 9
+random_paper: 73
 score:
   band: emerging
   composite: 20.4
@@ -116,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuitymd/refs/heads/main/screenshots/acuitymd-2026-07-25T181538.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Squarespace Plans Pricing
   plan_count: 1
   slug: squarespace-plans-pricing
-random_paper: 41
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Squarespace Rate Limits
@@ -251,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

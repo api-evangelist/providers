@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Avnet's 5th Annual AI Adoption Research Series ...
   url: https://www.linkedin.com/posts/heather-vana-apr-93704a5_mediarelations-aiadoption-electroniccomponents-activity-7418000006252556288-yHY-
-random_paper: 67
+random_paper: 90
 score:
   band: minimal
   composite: 6.5
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 6.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/screenshots/avnet-2026-07-25T202003.png
 security:

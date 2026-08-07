@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
@@ -191,7 +191,7 @@ overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 21 more developer resources.'
-random_paper: 72
+random_paper: 77
 score:
   band: developing
   composite: 48.2
@@ -213,8 +213,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

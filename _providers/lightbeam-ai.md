@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'Lightbeam is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lightbeam''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 48
+random_paper: 58
 score:
   band: emerging
   composite: 13.9
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightbeam-ai/refs/heads/main/screenshots/lightbeam-ai-2026-07-25T225105.png
 security:

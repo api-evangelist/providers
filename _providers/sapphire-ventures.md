@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Sapphire Ventures
 nav: Providers
 network: true
-random_paper: 87
+random_paper: 102
 slug: sapphire-ventures
 tags:
 - Venture Capital

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-03'
+  score: 52.3
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful loyalty & gamification API for managing customers, events, orders, payments, points transactions, holds, coupons, reward campaigns, VIP tiers, redemption options, leaderboards and batch operat
@@ -171,7 +171,7 @@ overview: 'Gameball publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gameball''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 61
+random_paper: 30
 rate_limits:
 - limit_count: 8
   name: Gameball Rate Limits
@@ -191,8 +191,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:

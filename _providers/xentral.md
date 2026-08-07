@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 90
 apis:
 - description: Account configurations
@@ -443,7 +443,7 @@ overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 6
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Xentral Rate Limits
@@ -474,8 +474,8 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

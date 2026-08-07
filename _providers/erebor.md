@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Erebor's developer API for programmatic access to banking, money-movement, and stablecoin operations. The gateway at api.erebor.bank authenticates requests with an API key and returns a structured JSO
@@ -104,7 +104,7 @@ overview: 'Erebor publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Erebor''s developer surface includes documentation, API reference, signup flow, authentication, sandbox, and 9 more developer resources.'
-random_paper: 69
+random_paper: 74
 score:
   band: emerging
   composite: 26.2
@@ -125,8 +125,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/screenshots/erebor-2026-07-25T213607.png
 security:

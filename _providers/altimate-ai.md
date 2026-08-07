@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -549,7 +549,7 @@ overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) net
 
 
   Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 51
+random_paper: 79
 score:
   band: developing
   composite: 50.2
@@ -572,8 +572,8 @@ score:
       total: 123
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195829.png
 security:

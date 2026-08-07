@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: semantha's standardized RESTful web service for semantic processing of text documents and structured data extraction. Resources are organized under /api (info, domains/{domain}/referencedocuments, set
@@ -124,7 +124,7 @@ overview: 'Thingsthinking publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Thingsthinking''s developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 88
+random_paper: 44
 score:
   band: thin
   composite: 28.9
@@ -139,8 +139,8 @@ score:
   previous_composite: 28.9
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

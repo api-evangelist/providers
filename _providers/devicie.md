@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Devicie is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Devicie''s developer surface includes documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: emerging
   composite: 22.0
@@ -126,8 +126,8 @@ score:
   previous_composite: 22.0
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devicie/refs/heads/main/screenshots/devicie-2026-07-25T211816.png
 security:

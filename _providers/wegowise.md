@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Wegowise Plans Pricing
   plan_count: 1
   slug: wegowise-plans-pricing
-random_paper: 19
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Wegowise Rate Limits
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/screenshots/wegowise-2026-06-20T201345.png
 security:

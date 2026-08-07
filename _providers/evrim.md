@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 18
 apis:
 - description: The answers API from Evrim — 2 operation(s) for answers.
@@ -171,7 +171,7 @@ overview: 'Evrim publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Evrim''s developer surface includes documentation, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 72
+random_paper: 95
 score:
   band: thin
   composite: 29.7
@@ -199,8 +199,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/screenshots/evrim-2026-07-25T213819.png
 security:

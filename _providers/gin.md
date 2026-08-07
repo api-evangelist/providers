@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Gin is a high-performance HTTP web framework for Go that provides a fast and productive way to build microservices and APIs.
@@ -72,7 +72,7 @@ plans:
 - name: Gin Plans Pricing
   plan_count: 3
   slug: gin-plans-pricing
-random_paper: 33
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Gin Rate Limits
@@ -98,8 +98,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 26.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gin/refs/heads/main/screenshots/gin-2026-06-20T181824.png
 security:

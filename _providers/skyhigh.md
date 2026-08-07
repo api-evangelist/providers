@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'Skyhigh Security publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Skyhigh Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 94
+random_paper: 81
 scopes:
 - name: Skyhigh Scopes
   scope_count: 3
@@ -159,16 +159,16 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: thin
-  composite: 36.4
+  composite: 38.8
   delta: 0.0
   facets:
     commercial_clarity: 15.8
-    contract_quality: 32.3
+    contract_quality: 41.9
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 36.4
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -179,8 +179,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ name: Foodology
 nav: Providers
 network: true
 overview: Foodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Cloud Kitchen, Virtual Restaurants, and Food Tech.
-random_paper: 28
+random_paper: 74
 score:
   band: minimal
   composite: 7.1
@@ -66,8 +66,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foodology/refs/heads/main/screenshots/foodology-2026-07-25T214917.png
 security:

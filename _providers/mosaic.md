@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: MOSAIC Coalition Launches to Operationalize AI Security ...
   url: https://www.cisecurity.org/about-us/media/press-release/mosaic-coalition-launches-to-operationalize-ai-security-standards-and-reduce-industry-fragmentation
-random_paper: 66
+random_paper: 71
 score:
   band: minimal
   composite: 4.1
@@ -77,8 +77,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic/refs/heads/main/screenshots/mosaic-2026-06-20T185813.png
 slug: mosaic

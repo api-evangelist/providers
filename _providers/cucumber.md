@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -136,7 +136,7 @@ plans:
 - name: Cucumber Plans Pricing
   plan_count: 3
   slug: cucumber-plans-pricing
-random_paper: 94
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Cucumber Rate Limits
@@ -162,8 +162,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 36.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/screenshots/cucumber-2026-06-20T175327.png
 security:

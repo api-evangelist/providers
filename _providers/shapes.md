@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The Chat API from Shapes — 1 operation(s) for chat.
@@ -150,7 +150,7 @@ overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 74
+random_paper: 79
 score:
   band: developing
   composite: 45.6
@@ -178,8 +178,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Programmatic access to the JuliaHub platform — jobs, datasets, applications, projects, and package registries — via the official JuliaHub.jl Julia client and the jh CLI, authenticated with OAuth2 / Op
@@ -156,7 +156,7 @@ overview: 'Juliahub publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Juliahub''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 92
+random_paper: 61
 scopes:
 - name: Juliahub Scopes
   scope_count: 5
@@ -176,8 +176,8 @@ score:
   previous_composite: 38.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juliahub/refs/heads/main/screenshots/juliahub-2026-07-25T223308.png
 security:

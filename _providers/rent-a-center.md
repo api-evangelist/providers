@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Rent-A-Center Acquires Acima For Lease-To-Own
   url: https://www.pymnts.com/news/partnerships-acquisitions/2020/rent-a-center-acquires-acima-for-virtual-lease-to-own-platform/
-random_paper: 34
+random_paper: 26
 rules:
 - name: Rent-A-Center API Rules
   rule_count: 5
@@ -153,8 +153,8 @@ score:
     governance: 68.8
     operational_transparency: 5.3
   previous_composite: 21.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rent-a-center/refs/heads/main/screenshots/rent-a-center-2026-06-20T192849.png
 security:

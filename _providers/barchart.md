@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 79
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits
@@ -286,7 +286,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.4
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 62.4
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 60.5
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,8 +311,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

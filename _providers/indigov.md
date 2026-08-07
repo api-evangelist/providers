@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ overview: 'Indigov is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Indigov''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 87
+random_paper: 74
 score:
   band: minimal
   composite: 12.7
@@ -90,8 +90,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indigov/refs/heads/main/screenshots/indigov-2026-07-25T222319.png
 security:

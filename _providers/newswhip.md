@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -170,7 +170,7 @@ overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 12 more developer resources.'
-random_paper: 30
+random_paper: 94
 score:
   band: developing
   composite: 43.1
@@ -192,8 +192,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

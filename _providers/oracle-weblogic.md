@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -468,7 +468,7 @@ plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
   slug: oracle-weblogic-plans-pricing
-random_paper: 94
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Oracle Weblogic Rate Limits
@@ -501,8 +501,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

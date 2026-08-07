@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -118,7 +118,7 @@ plans:
 - name: Mgid Plans Pricing
   plan_count: 3
   slug: mgid-plans-pricing
-random_paper: 37
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Mgid Rate Limits
@@ -135,8 +135,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/screenshots/mgid-2026-06-20T185319.png
 security:

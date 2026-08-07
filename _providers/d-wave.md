@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -480,7 +480,7 @@ plans:
 - name: D Wave Plans Pricing
   plan_count: 3
   slug: d-wave-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: D Wave Rate Limits
@@ -510,7 +510,7 @@ scopes:
 score:
   band: strong
   composite: 65.5
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 74.4
@@ -518,7 +518,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.4
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -526,8 +526,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:

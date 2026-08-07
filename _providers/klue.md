@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Klue Content API returns an organization's published Klue cards and battlecards to external tools and agents, filterable by competitor, battlecard, tag and date range. Access is authenticated with
@@ -159,7 +159,7 @@ overview: 'Klue publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Klue''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 53
+random_paper: 94
 score:
   band: thin
   composite: 36.5
@@ -176,8 +176,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klue/refs/heads/main/screenshots/klue-2026-07-25T223952.png
 security:

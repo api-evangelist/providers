@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -567,7 +567,7 @@ plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
   slug: tvmaze-plans-pricing
-random_paper: 93
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Tvmaze Rate Limits
@@ -592,7 +592,7 @@ rules:
 score:
   band: exemplar
   composite: 67.0
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 75.2
@@ -600,7 +600,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 64.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -608,8 +608,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

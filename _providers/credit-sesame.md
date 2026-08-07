@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Credit Sesame is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Credit Sesame''s developer surface includes signup flow, support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 83
+random_paper: 75
 score:
   band: emerging
   composite: 16.7
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credit-sesame/refs/heads/main/screenshots/credit-sesame-2026-07-25T210724.png
 security:

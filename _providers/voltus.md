@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-03'
+  score: 47.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -247,7 +247,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 32 more developer resources.'
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Voltus Rate Limits
@@ -255,7 +255,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.2
@@ -263,14 +263,14 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 51.3
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
@@ -280,8 +280,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

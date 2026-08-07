@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Acquire.com (fka MicroAcquire) is profiled on the [APIs.io](https://a
 
 
   Acquire.com (fka MicroAcquire)''s developer surface includes signup flow, pricing, documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 85
+random_paper: 33
 score:
   band: emerging
   composite: 18.8
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquirecom-fka-microacquire/refs/heads/main/screenshots/acquirecom-fka-microacquire-2026-07-25T181512.png
 security:

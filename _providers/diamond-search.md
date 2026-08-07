@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Diamond Search Plans Pricing
   plan_count: 4
   slug: diamond-search-plans-pricing
-random_paper: 77
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Diamond Search Rate Limits
@@ -142,8 +142,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/screenshots/diamond-search-2026-06-20T180003.png
 security:

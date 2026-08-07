@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The CIA's FOIA Electronic Reading Room (CREST - CIA Records Search Tool) is a publicly searchable interface to declassified CIA records released under the Freedom of Information Act. The site provides
@@ -129,7 +129,7 @@ plans:
 - name: Central Intelligence Agency Plans Pricing
   plan_count: 3
   slug: central-intelligence-agency-plans-pricing
-random_paper: 73
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Central Intelligence Agency Rate Limits
@@ -152,8 +152,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/central-intelligence-agency/refs/heads/main/screenshots/central-intelligence-agency-2026-06-20T174128.png
 security:

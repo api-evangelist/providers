@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: A seller's orders (authenticated).
@@ -130,7 +130,7 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 
 
   Tindie''s developer surface includes API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 67
+random_paper: 72
 score:
   band: thin
   composite: 34.1
@@ -152,8 +152,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

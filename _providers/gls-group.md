@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: RESTful shipping API for printing labels and manifesting shipping data for GLS Netherlands. Covers login validation, label creation (parcel ShipType "P" and freight ShipType "F"), label deletion, sing
@@ -85,10 +85,11 @@ overview: 'GLS Group publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 6 more developer resources.'
-random_paper: 73
+random_paper: 24
 score:
   band: thin
   composite: 30.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.1
@@ -96,14 +97,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 30.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 slug: gls-group
 tags:
 - Logistics

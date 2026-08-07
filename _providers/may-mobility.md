@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-03'
+  score: 40.5
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: A WebSocket streaming API that delivers live May Mobility vehicle data in two modes. Telemetry mode streams JSON messages for a comma-separated list of per-vehicle topics (GPS, POSE, DRIVE_STATUS, RUN
@@ -173,7 +173,7 @@ overview: 'May Mobility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   May Mobility''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
-random_paper: 10
+random_paper: 2
 scopes:
 - name: May Mobility Scopes
   scope_count: 0
@@ -182,6 +182,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.6
@@ -189,10 +190,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 55.3
+  previous_composite: 48.3
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: May Mobility Fleet Authentication

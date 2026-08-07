@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: Vegrow
 nav: Providers
 network: true
 overview: Vegrow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Agriculture, Marketplace, and B2B.
-random_paper: 1
+random_paper: 101
 score:
   band: minimal
   composite: 9.0
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

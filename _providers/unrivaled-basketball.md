@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
@@ -158,30 +158,30 @@ overview: 'Unrivaled Basketball publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Unrivaled Basketball''s developer surface includes authentication, engineering blog, support, documentation, API reference, getting-started guide, changelog, and 15 more developer resources.'
-random_paper: 65
+random_paper: 26
 score:
-  band: thin
-  composite: 32.4
+  band: developing
+  composite: 43.8
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.2
+    contract_quality: 60.8
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 32.4
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 0
       marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

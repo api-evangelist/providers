@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: LogicMonitor is an AI-powered infrastructure monitoring and observability platform for hybrid IT environments.
@@ -80,7 +80,7 @@ plans:
 - name: Logicmonitor Plans Pricing
   plan_count: 3
   slug: logicmonitor-plans-pricing
-random_paper: 67
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Logicmonitor Rate Limits
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/screenshots/logicmonitor-2026-06-20T184653.png
 security:

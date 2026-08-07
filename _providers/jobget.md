@@ -1,0 +1,183 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-08-06'
+api_count: 2
+apis:
+- description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
+  name: JobGet Platform API
+  slug: platform-api
+- description: A Model Context Protocol endpoint served from JobGet's own blog host at https://blog.jobget.com/_api/mcp and advertised in JobGet's published llms.txt. It is the Wix Site MCP server provided by the un
+  name: JobGet Site MCP Server
+  slug: site-mcp
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jobget-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jobget.com/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/jobget_stock/
+- group: company
+  title: ''
+  type: About
+  url: https://www.jobget.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.jobget.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.jobget.com/blog-feed.xml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.jobget.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.jobget.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://jobget.com/hire
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.jobget.com/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.jobget.com/privacy-policy
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://www.jobget.com/accessibility-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/jobgetapp
+- group: company
+  title: ''
+  type: Press
+  url: https://www.jobget.com/press
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobget.notion.site/jobget/Careers-Join-JobGet-c7dce8e7d9b9404c91352381fc8d3fed
+- group: other
+  title: ''
+  type: Enterprise
+  url: https://www.jobget.com/employer
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/jobget-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/jobget-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jobget-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/jobget-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/jobget-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/jobget-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/jobget-conformance.yml
+created: '2026-08-04'
+description: JobGet is a Boston, Massachusetts based hourly and frontline hiring network that operates a mobile-first job marketplace for workers in food service, retail, hospitality, healthcare, warehousing and trucking. Job seekers build a profile in the JobGet app, receive AI matched recommendations from the JobGenie assistant, apply with one tap, and message or interview with hiring managers directly in the app. On the employer side JobGet sells SMB self-serve job posting and an enterprise suite (SpendSmart budget reallocation, HireReady screening and interview scheduling, and Network Access) that plugs into existing applicant tracking systems including Workday, Greenhouse, ADP, UKG, SAP SuccessFactors, SmartRecruiters, Bullhorn and Fountain. Through its acquisitions of Snagajob, Seasoned and Foh&Boh the company reaches a stated network of 100M+ everyday workers. JobGet publishes no public developer portal, API documentation or machine-readable API specification; its production API host
+  api.jobget.com is publicly reachable but undocumented, and ATS connectivity is delivered as a managed integration rather than a self-serve API.
+image: https://jobget.com/jobget-logo-purple.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: jobget-mcp.yml
+  slug: jobget-mcpyml
+modified: '2026-08-04'
+name: JobGet
+nav: Providers
+network: true
+overview: 'JobGet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruiting, Hiring, and Human Resources.
+
+
+  JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
+random_paper: 70
+score:
+  band: emerging
+  composite: 25.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 5.3
+  previous_composite: 25.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Jobget Authentication
+  slug: jobget-authentication
+  summary_line: visitor-token · 1 scheme
+- kind: domain-security
+  name: Jobget Domain Security
+  slug: jobget-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: jobget
+tags:
+- Company
+- Jobs
+- Recruiting
+- Hiring
+- Human Resources
+- Talent Acquisition
+- Job Search
+- Hourly Work
+- Applicant Tracking
+- Marketplace
+- Mobile
+website: https://www.jobget.com/
+---

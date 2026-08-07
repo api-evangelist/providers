@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 19
 common:
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Alcoa Stock Jumps. How Its CEO Plans to Cash in on the AI ...
   url: https://www.barrons.com/articles/alcoa-stock-price-ai-electricity-ceo-875a9f7a
-random_paper: 37
+random_paper: 60
 score:
   band: minimal
   composite: 11.4
@@ -142,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alcoa/refs/heads/main/screenshots/alcoa-2026-06-20T171511.png
 security:

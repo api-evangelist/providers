@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-03'
+  score: 66.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 30 more developer resources.'
-random_paper: 64
+random_paper: 87
 scopes:
 - name: Slash Scopes
   scope_count: 0
@@ -402,8 +402,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

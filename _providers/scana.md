@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Dominion Energy, SCANA Announce All-Stock Merger ...
   url: https://www.prnewswire.com/news-releases/dominion-energy-scana-announce-all-stock-merger-with-1000-immediate-cash-payment-to-average-south-carolina-electric--gas-residential-electric-customer-after-closing-300576938.html
-random_paper: 43
+random_paper: 66
 score:
   band: minimal
   composite: 10.3
@@ -111,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scana/refs/heads/main/screenshots/scana-2026-06-20T193508.png
 security:

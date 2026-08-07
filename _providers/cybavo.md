@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: CYBAVO
 nav: Providers
 network: true
 overview: CYBAVO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Asset Security, Wallet, and Custody.
-random_paper: 74
+random_paper: 79
 score:
   band: minimal
   composite: 7.4
@@ -79,8 +79,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/screenshots/cybavo-2026-07-25T211020.png
 security:

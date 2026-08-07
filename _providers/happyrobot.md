@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 51
+random_paper: 79
 scopes:
 - name: Happyrobot Scopes
   scope_count: 8
@@ -249,6 +249,7 @@ scopes:
 score:
   band: strong
   composite: 58.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.5
@@ -256,13 +257,15 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Happyrobot Authentication

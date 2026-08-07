@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 12 more developer resources.'
-random_paper: 30
+random_paper: 71
 rules:
 - name: IKEA API Rules
   rule_count: 5
@@ -344,8 +344,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

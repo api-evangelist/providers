@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'La Fraise Pro is profiled on the [APIs.io](https://apis.io/) network.
 
 
   La Fraise Pro''s developer surface includes documentation, pricing, and 11 more developer resources.'
-random_paper: 31
+random_paper: 23
 score:
   band: emerging
   composite: 23.9
@@ -116,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

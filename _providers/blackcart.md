@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Blackcart is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blackcart''s developer surface includes API reference, documentation, and 2 more developer resources.'
-random_paper: 80
+random_paper: 31
 score:
   band: minimal
   composite: 6.8
@@ -78,8 +78,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackcart/refs/heads/main/screenshots/blackcart-2026-07-25T203254.png
 slug: blackcart

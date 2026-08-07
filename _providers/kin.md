@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Kin Insurance platform provides data-driven home insurance services including property data enrichment, automated underwriting, online quote generation, policy binding, and claims management for h
@@ -104,7 +104,7 @@ plans:
 - name: Kin Plans Pricing
   plan_count: 4
   slug: kin-plans-pricing
-random_paper: 37
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Kin Rate Limits
@@ -127,8 +127,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kin/refs/heads/main/screenshots/kin-2026-06-20T184037.png
 security:

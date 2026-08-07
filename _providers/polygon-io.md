@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Polygon Io Plans Pricing
   plan_count: 5
   slug: polygon-io-plans-pricing
-random_paper: 87
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Polygon Io Rate Limits
@@ -183,8 +183,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/screenshots/polygon-io-2026-06-20T191906.png
 security:

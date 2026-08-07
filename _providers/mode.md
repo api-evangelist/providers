@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -185,19 +185,19 @@ overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
-random_paper: 41
+random_paper: 82
 score:
-  band: thin
-  composite: 40.5
+  band: developing
+  composite: 46.7
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 57.0
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.5
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

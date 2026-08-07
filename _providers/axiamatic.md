@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ overview: 'Axiamatic is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Axiamatic''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 90
+random_paper: 41
 score:
   band: emerging
   composite: 13.1
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 13.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiamatic/refs/heads/main/screenshots/axiamatic-2026-07-25T202038.png
 security:

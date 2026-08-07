@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 18
 common:
@@ -108,7 +108,7 @@ plans:
 - name: Anheuser Busch Plans Pricing
   plan_count: 2
   slug: anheuser-busch-plans-pricing
-random_paper: 12
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Anheuser Busch Rate Limits
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 17.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/screenshots/anheuser-busch-2026-06-20T172001.png
 security:

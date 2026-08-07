@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 72
+random_paper: 41
 scopes:
 - name: Landgate Scopes
   scope_count: 6
@@ -205,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

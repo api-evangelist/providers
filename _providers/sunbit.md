@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-03'
+  score: 41.7
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -168,10 +168,11 @@ overview: 'Sunbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Sunbit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 91
+random_paper: 96
 score:
   band: developing
   composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -179,6 +180,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 34.2
+  previous_composite: 48.7
   provenance:
     conformance: derived
     skills: derived
@@ -188,8 +190,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Sunbit Authentication

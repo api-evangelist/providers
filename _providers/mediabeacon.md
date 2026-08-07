@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The MediaBeacon REST API provides programmatic access to the MediaBeacon Digital Asset Management platform, enabling integration with other products and automated data transfer between services.
@@ -72,7 +72,7 @@ plans:
 - name: Mediabeacon Plans Pricing
   plan_count: 3
   slug: mediabeacon-plans-pricing
-random_paper: 83
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Mediabeacon Rate Limits
@@ -89,8 +89,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 18.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediabeacon/refs/heads/main/screenshots/mediabeacon-2026-06-20T185117.png
 security:

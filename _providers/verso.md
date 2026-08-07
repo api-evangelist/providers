@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Coated groundwood and coated freesheet paper grades used by magazine publishers, catalog retailers, and commercial printers. Legacy Verso brands and grades are now produced and sold through Billerud A
@@ -82,7 +82,7 @@ name: Verso Corporation
 nav: Providers
 network: true
 overview: Verso Corporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Paper, Coated Paper, Specialty Paper, Pulp, and Manufacturing.
-random_paper: 84
+random_paper: 107
 score:
   band: minimal
   composite: 6.5
@@ -95,8 +95,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verso/refs/heads/main/screenshots/verso-2026-06-20T200945.png
 security:

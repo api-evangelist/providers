@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Chief Executive Vicki Hollub said last week that Occidental ...
   url: https://www.facebook.com/forbes/posts/chief-executive-vicki-hollub-said-last-week-that-occidental-petroleum-engineers-/1062382229085100/
-random_paper: 85
+random_paper: 46
 score:
   band: minimal
   composite: 2.6
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occidental-petroleum/refs/heads/main/screenshots/occidental-petroleum-2026-06-20T190556.png
 security:

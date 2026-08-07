@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract medical codes (ICD-10, CPT, SNOMED), and receiv'
@@ -124,7 +124,7 @@ overview: 'Sully AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sully AI''s developer surface includes documentation, engineering blog, support, GitHub presence, and 15 more developer resources.'
-random_paper: 56
+random_paper: 25
 score:
   band: minimal
   composite: 12.4
@@ -143,8 +143,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/screenshots/sully-ai-2026-06-20T194647.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -91,7 +91,7 @@ overview: 'Westlake is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Westlake''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
-random_paper: 9
+random_paper: 73
 score:
   band: minimal
   composite: 11.4
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westlake/refs/heads/main/screenshots/westlake-2026-06-20T201407.png
 security:

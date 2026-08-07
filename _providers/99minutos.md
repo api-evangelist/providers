@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-03'
+  score: 36.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API v3 for ecommerce logistics — orders, shipments, tracking, shipping-rate and coverage calculation, PDF/ZPL label generation, location resolution and webhook subscriptions.
@@ -155,7 +155,7 @@ overview: '99minutos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   99minutos'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 17 more developer resources.'
-random_paper: 42
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: 99Minutos Rate Limits
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.0
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -171,12 +171,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 47.3
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99minutos/refs/heads/main/screenshots/99minutos-2026-07-25T181252.png
 security:

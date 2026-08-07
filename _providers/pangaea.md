@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 52
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -135,8 +135,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/screenshots/pangaea-2026-06-20T191337.png
 security:

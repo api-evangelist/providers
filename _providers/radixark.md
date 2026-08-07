@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'RadixArk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RadixArk''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 94
+random_paper: 63
 score:
   band: emerging
   composite: 13.8
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

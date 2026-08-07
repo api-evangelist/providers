@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Pushwoosh Plans Pricing
   plan_count: 1
   slug: pushwoosh-plans-pricing
-random_paper: 58
+random_paper: 104
 rate_limits:
 - limit_count: 1
   name: Pushwoosh Rate Limits
@@ -153,8 +153,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/screenshots/pushwoosh-2026-06-20T192320.png
 security:

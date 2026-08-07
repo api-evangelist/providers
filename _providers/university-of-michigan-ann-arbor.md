@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Enterprise API directory and gateway operated by U-M Information and Technology Services on Apigee X, providing access to institutional data APIs spanning teaching & learning, research, clinical care,
@@ -126,7 +126,7 @@ plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
   slug: university-of-michigan-ann-arbor-plans-pricing
-random_paper: 63
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: University Of Michigan Ann Arbor Rate Limits
@@ -149,8 +149,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

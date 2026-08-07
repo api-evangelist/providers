@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Microsoft Stream (on SharePoint) provides video management capabilities through Microsoft Graph and SharePoint APIs. Videos are stored in OneDrive and SharePoint, enabling developers to upload, manage
@@ -92,7 +92,7 @@ plans:
 - name: Microsoft Stream Plans Pricing
   plan_count: 3
   slug: microsoft-stream-plans-pricing
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Microsoft Stream Rate Limits
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-stream/refs/heads/main/screenshots/microsoft-stream-2026-06-20T185535.png
 security:

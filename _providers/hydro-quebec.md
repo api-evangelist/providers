@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'Hydro-Québec publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
-random_paper: 84
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Hydro Quebec Rate Limits
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 54.5
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 58.9
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 71.1
-  previous_composite: 52.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

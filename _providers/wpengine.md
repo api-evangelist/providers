@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 33.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -513,7 +513,7 @@ plans:
 - name: Wpengine Plans Pricing
   plan_count: 5
   slug: wpengine-plans-pricing
-random_paper: 6
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Wpengine Rate Limits
@@ -529,16 +529,16 @@ rules:
   slug: wpengine-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 48.9
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 32.3
+    contract_quality: 53.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 43.7
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -546,8 +546,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:

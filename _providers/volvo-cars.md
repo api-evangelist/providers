@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Receive vehicle data and send commands to the vehicle. Vehicle data covers status, diagnostics, statistics, and metadata — including odometer, fuel amount, tyre pressures, brake status, engine status,
@@ -198,7 +198,7 @@ overview: 'Volvo Cars publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Volvo Cars'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, code examples, tooling, support, and 21 more developer resources.'
-random_paper: 86
+random_paper: 19
 score:
   band: thin
   composite: 28.6
@@ -211,8 +211,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volvo-cars/refs/heads/main/screenshots/volvo-cars-2026-06-20T201139.png
 security:

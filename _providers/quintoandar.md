@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: Quintoandar
 nav: Providers
 network: true
 overview: Quintoandar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Rentals, and Marketplace.
-random_paper: 50
+random_paper: 60
 score:
   band: minimal
   composite: 10.3
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 10.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

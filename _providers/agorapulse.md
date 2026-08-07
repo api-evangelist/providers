@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -486,7 +486,7 @@ plans:
 - name: Agorapulse Plans Pricing
   plan_count: 4
   slug: agorapulse-plans-pricing
-random_paper: 30
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Agorapulse Rate Limits
@@ -519,8 +519,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png
 security:

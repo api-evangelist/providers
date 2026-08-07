@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Nova Benefits is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nova Benefits'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 94
+random_paper: 86
 score:
   band: emerging
   composite: 15.9
@@ -92,8 +92,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

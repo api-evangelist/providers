@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -495,7 +495,7 @@ plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
   slug: microsoft-teams-plans-pricing
-random_paper: 45
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Microsoft Teams Rate Limits
@@ -551,8 +551,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

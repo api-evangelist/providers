@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -111,7 +111,7 @@ plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
   slug: qualia-title-plans-pricing
-random_paper: 88
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Qualia Title Rate Limits
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

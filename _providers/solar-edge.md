@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 45
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Solar Edge Rate Limits
@@ -188,7 +188,7 @@ rules:
 score:
   band: developing
   composite: 44.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.4
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 41.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:

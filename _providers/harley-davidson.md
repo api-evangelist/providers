@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Harley-Davidson Delivers First Quarter Financial Results
   url: https://www.prnewswire.com/news-releases/harley-davidson-delivers-first-quarter-financial-results-302762342.html
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 10.1
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harley-davidson/refs/heads/main/screenshots/harley-davidson-2026-06-20T182521.png
 security:

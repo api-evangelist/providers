@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'Back Market publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Back Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 45
+random_paper: 73
 rate_limits:
 - limit_count: 13
   name: Back Market Rate Limits
@@ -206,6 +206,7 @@ rules:
 score:
   band: developing
   composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.6
@@ -213,6 +214,7 @@ score:
     discoverability: 87.0
     governance: 32.3
     operational_transparency: 47.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +225,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Back Market Authentication

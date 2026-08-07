@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
@@ -160,7 +160,7 @@ overview: 'CareAcademy publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 90
+random_paper: 5
 score:
   band: developing
   composite: 45.2
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

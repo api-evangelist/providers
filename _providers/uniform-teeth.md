@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Uniform Teeth
 nav: Providers
 network: true
 overview: Uniform Teeth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Orthodontics, and Clear Aligners.
-random_paper: 21
+random_paper: 108
 score:
   band: minimal
   composite: 5.4
@@ -71,8 +71,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

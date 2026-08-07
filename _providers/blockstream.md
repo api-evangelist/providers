@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: The Addresses API from Blockstream — 11 operation(s) for addresses.
@@ -146,7 +146,7 @@ overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 35
+random_paper: 45
 score:
   band: thin
   composite: 32.2
@@ -168,8 +168,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/screenshots/blockstream-2026-07-25T203345.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Bloomberg Emsx Plans Pricing
   plan_count: 3
   slug: bloomberg-emsx-plans-pricing
-random_paper: 18
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Bloomberg Emsx Rate Limits
@@ -179,8 +179,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:

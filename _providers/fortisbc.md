@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'FortisBC is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FortisBC''s developer surface includes engineering blog, documentation, support, and 12 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: emerging
   composite: 20.7
@@ -116,8 +116,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Andalusia Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Andalusia Labs'' developer surface includes documentation, getting-started guide, sandbox, support, and 10 more developer resources.'
-random_paper: 79
+random_paper: 53
 score:
   band: emerging
   composite: 21.9
@@ -118,8 +118,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andalusia-labs/refs/heads/main/screenshots/andalusia-labs-2026-07-25T200216.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OAI-PMH metadata harvesting endpoint documented for UT Research Information, the University of Twente's Pure-based research information system at research.utwente.nl. It is intended to expose research
@@ -104,7 +104,7 @@ plans:
 - name: University Of Twente Plans Pricing
   plan_count: 2
   slug: university-of-twente-plans-pricing
-random_paper: 93
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: University Of Twente Rate Limits
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 18.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/screenshots/university-of-twente-2026-06-20T200328.png
 security:

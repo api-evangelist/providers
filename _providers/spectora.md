@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ plans:
 - name: Spectora Plans Pricing
   plan_count: 4
   slug: spectora-plans-pricing
-random_paper: 10
+random_paper: 74
 score:
   band: emerging
   composite: 14.1
@@ -90,8 +90,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 14.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

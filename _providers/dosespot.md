@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Dosespot Plans Pricing
   plan_count: 2
   slug: dosespot-plans-pricing
-random_paper: 26
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Dosespot Rate Limits
@@ -153,8 +153,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:

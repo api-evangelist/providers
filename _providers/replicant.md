@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'Replicant is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Replicant''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 12
+random_paper: 58
 score:
   band: emerging
   composite: 20.3
@@ -114,8 +114,8 @@ score:
   previous_composite: 20.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

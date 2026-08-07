@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: ExxonMobil + Intel | ExxonMobil Product Solutions
   url: https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids/intel
-random_paper: 93
+random_paper: 8
 score:
   band: minimal
   composite: 7.1
@@ -110,8 +110,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exxon-mobil/refs/heads/main/screenshots/exxon-mobil-2026-06-20T180951.png
 security:

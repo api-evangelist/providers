@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'Windfall Data publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Windfall Data''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 69
+random_paper: 61
 score:
   band: developing
   composite: 49.4
@@ -174,8 +174,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

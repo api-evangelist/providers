@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Bitfount Python SDK wraps the Bitfount REST API (hub.bitfount.com) to connect data sources as pods, run federated tasks and algorithms, and manage models and datasets across a federated data colla
@@ -128,7 +128,7 @@ overview: 'Bitfount publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bitfount''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 20
+random_paper: 84
 score:
   band: thin
   composite: 30.9
@@ -149,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/screenshots/bitfount-2026-07-25T203150.png
 security:

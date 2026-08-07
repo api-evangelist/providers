@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -140,7 +140,7 @@ overview: 'Artificial Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Artificial Labs'' developer surface includes documentation, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 86
+random_paper: 42
 scopes:
 - name: Artificial Labs Scopes
   scope_count: 14
@@ -166,8 +166,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/screenshots/artificial-labs-2026-07-25T201337.png
 security:

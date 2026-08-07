@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -84,6 +84,26 @@ collections:
   name: Revert Unified API
   slug: open-revert-unified-api
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/revertinc
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/revertdev
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/revert-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/revert-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/revert-finops.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -119,7 +139,7 @@ examples:
   slug: revert-get-contacts-example
 finops:
 - name: Revert Finops
-  service_category: API
+  service_category: Integration and Automation
   slug: revert-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revert.png
 json_schemas:
@@ -149,14 +169,14 @@ overview: 'Revert publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Revert catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Revert''s developer surface includes authentication, GitHub presence, documentation, and 3 more developer resources.'
+  Revert''s developer surface includes authentication, GitHub presence, documentation, and 8 more developer resources.'
 plans:
 - name: Revert Plans Pricing
   plan_count: 3
   slug: revert-plans-pricing
-random_paper: 94
+random_paper: 99
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Revert Rate Limits
   slug: revert-rate-limits
 rules:
@@ -195,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

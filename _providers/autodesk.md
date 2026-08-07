@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -1297,7 +1297,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 25
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits
@@ -1345,8 +1345,8 @@ score:
       marker_coverage: 0.0
       total: 48
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

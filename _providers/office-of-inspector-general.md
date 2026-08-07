@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Office of Inspector General
 nav: Providers
 network: true
 overview: Office of Inspector General is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Government, Inspector General, and Oversight.
-random_paper: 25
+random_paper: 86
 score:
   band: minimal
   composite: 5.1
@@ -71,8 +71,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-inspector-general/refs/heads/main/screenshots/office-of-inspector-general-2026-06-20T190638.png
 security:

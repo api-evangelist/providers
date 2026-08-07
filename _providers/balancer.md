@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -113,7 +113,7 @@ plans:
 - name: Balancer Plans Pricing
   plan_count: 2
   slug: balancer-plans-pricing
-random_paper: 64
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Balancer Rate Limits
@@ -130,8 +130,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balancer/refs/heads/main/screenshots/balancer-2026-06-20T172932.png
 security:

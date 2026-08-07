@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-03'
+  score: 54.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 19
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Wetravel Rate Limits
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.4
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 67.5
@@ -234,14 +234,14 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 47.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 17
     mcp: first-party
     skills: derived
@@ -251,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

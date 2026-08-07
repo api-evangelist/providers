@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,10 +99,11 @@ overview: 'Bright Machines is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Bright Machines'' developer surface includes engineering blog, product news, support, and 13 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 13.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -110,8 +111,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 13.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Bright Machines Domain Security

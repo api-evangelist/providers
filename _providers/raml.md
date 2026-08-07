@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The RAML (RESTful API Modeling Language) specification defines a YAML 1.2-based language for describing HTTP-based APIs. RAML 1.0 introduces a unified type system, annotations, libraries, overlays, ex
@@ -131,7 +131,7 @@ plans:
 - name: Raml Plans Pricing
   plan_count: 3
   slug: raml-plans-pricing
-random_paper: 48
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Raml Rate Limits
@@ -157,8 +157,8 @@ score:
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 35.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raml/refs/heads/main/screenshots/raml-2026-06-20T192542.png
 security:

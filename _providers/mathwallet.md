@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'MathWallet is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MathWallet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 3 more developer resources.'
-random_paper: 30
+random_paper: 58
 score:
   band: minimal
   composite: 11.1
@@ -90,8 +90,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathwallet/refs/heads/main/screenshots/mathwallet-2026-07-25T230410.png
 security:

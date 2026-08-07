@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Deepseek Plans Pricing
   plan_count: 2
   slug: deepseek-plans-pricing
-random_paper: 78
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Deepseek Rate Limits
@@ -235,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/screenshots/deepseek-2026-06-20T175812.png
 security:

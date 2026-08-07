@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Fashion AI
 nav: Providers
 network: true
-random_paper: 41
+random_paper: 87
 slug: fashion-ai
 tags:
 - Clothing

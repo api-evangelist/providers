@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'Didimo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Didimo''s developer surface includes documentation, getting-started guide, CLI, support, signup flow, and 10 more developer resources.'
-random_paper: 60
+random_paper: 65
 score:
   band: emerging
   composite: 22.8
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 22.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didimo/refs/heads/main/screenshots/didimo-2026-07-25T211942.png
 security:

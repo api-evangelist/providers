@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: DKAN API for Opolskie Open Data.
@@ -87,7 +87,7 @@ plans:
 - name: Maps Opolskie Pl Plans Pricing
   plan_count: 0
   slug: maps-opolskie-pl-plans-pricing
-random_paper: 93
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Maps Opolskie Pl Rate Limits
@@ -110,8 +110,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/screenshots/maps-opolskie-pl-2026-06-20T184952.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ overview: 'Topgolf Callaway Brands is profiled on the [APIs.io](https://apis.io/
 
 
   Topgolf Callaway Brands'' developer surface includes GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 3
+random_paper: 85
 score:
   band: minimal
   composite: 5.7
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

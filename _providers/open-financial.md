@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: Programmatic creation and management of virtual accounts used as transfer wallets, collection wallets, and collection tools on top of partner-bank infrastructure. Virtual accounts give platforms a uni
@@ -147,7 +147,7 @@ overview: 'Open (open.money) publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Open (open.money)''s developer surface includes documentation, getting-started guide, authentication, developer console, signup flow, GitHub presence, engineering blog, and 11 more developer resources.'
-random_paper: 82
+random_paper: 56
 score:
   band: emerging
   composite: 22.2
@@ -166,8 +166,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/screenshots/open-financial-2026-06-20T190743.png
 security:

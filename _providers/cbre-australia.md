@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,7 +127,7 @@ overview: 'CBRE Australia is profiled on the [APIs.io](https://apis.io/) network
 
 
   CBRE Australia''s developer surface includes privacy policy, engineering blog, support, and 20 more developer resources.'
-random_paper: 93
+random_paper: 67
 score:
   band: emerging
   composite: 14.4
@@ -140,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cbre-australia/refs/heads/main/screenshots/cbre-australia-2026-07-27T125331.png
 security:

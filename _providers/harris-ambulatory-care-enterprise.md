@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Pulse §170.315(g)(10) ONC Certified FHIR API enables third-party application developers to register, authenticate, and integrate with providers using Harris Pulse EHR software. The documentation d
@@ -94,7 +94,7 @@ plans:
 - name: Harris Ambulatory Care Enterprise Plans Pricing
   plan_count: 3
   slug: harris-ambulatory-care-enterprise-plans-pricing
-random_paper: 47
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Harris Ambulatory Care Enterprise Rate Limits
@@ -117,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/screenshots/harris-ambulatory-care-enterprise-2026-06-20T182518.png
 security:

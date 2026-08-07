@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -188,10 +188,11 @@ overview: 'Brightseed publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Brightseed''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
-random_paper: 12
+random_paper: 40
 score:
   band: thin
   composite: 33.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.6
@@ -199,6 +200,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +217,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Brightseed Authentication

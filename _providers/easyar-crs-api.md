@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for cloud image recognition: target management endpoints (/targets/, /target/<id>, /grade/detection/, /ping) and a recognition endpoint (/search), plus a token exchange service. Uses per'
@@ -33,7 +33,7 @@ name: EasyAR CRS API
 nav: Providers
 network: true
 overview: EasyAR CRS API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include augmented-reality, ar-sdk, cloud-recognition, image-recognition, and spatial-computing.
-random_paper: 47
+random_paper: 21
 score:
   band: minimal
   composite: 5.9
@@ -46,8 +46,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyar-crs-api/refs/heads/main/screenshots/easyar-crs-api-2026-07-25T212712.png
 slug: easyar-crs-api

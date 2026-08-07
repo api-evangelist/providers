@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Centers For Medicare And Medicaid Services Plans Pricing
   plan_count: 3
   slug: centers-for-medicare-and-medicaid-services-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Centers For Medicare And Medicaid Services Rate Limits
@@ -200,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/screenshots/centers-for-medicare-and-medicaid-services-2026-06-20T174129.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Electio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Electio''s developer surface includes support and 3 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: minimal
   composite: 8.8
@@ -78,8 +78,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electio/refs/heads/main/screenshots/electio-2026-07-25T213101.png
 security:

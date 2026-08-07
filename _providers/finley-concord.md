@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Finley (Concord) is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Finley (Concord)''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: emerging
   composite: 14.4
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finley-concord/refs/heads/main/screenshots/finley-concord-2026-07-25T214527.png
 security:

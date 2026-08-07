@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -120,7 +120,7 @@ plans:
 - name: Partykit Plans Pricing
   plan_count: 1
   slug: partykit-plans-pricing
-random_paper: 33
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Partykit Rate Limits
@@ -146,8 +146,8 @@ score:
     governance: 52.1
     operational_transparency: 26.3
   previous_composite: 45.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partykit/refs/heads/main/screenshots/partykit-2026-06-20T191429.png
 security:

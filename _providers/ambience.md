@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Gated integration API for embedding Ambience''s ambient AI clinical documentation into EHR and partner workflows — medical encounter transcription, clinical note generation, integrated CDI with ICD-10 '
@@ -95,7 +95,7 @@ overview: 'Ambience publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ambience''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 60
+random_paper: 29
 score:
   band: emerging
   composite: 19.6
@@ -114,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience/refs/heads/main/screenshots/ambience-2026-07-25T200021.png
 security:

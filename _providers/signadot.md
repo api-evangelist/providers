@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -186,19 +186,19 @@ overview: 'Signadot publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 2
+random_paper: 66
 score:
   band: developing
-  composite: 50.2
+  composite: 55.7
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 32.3
+    contract_quality: 54.3
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 50.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,8 +209,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

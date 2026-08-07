@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Aircall Plans Pricing
   plan_count: 1
   slug: aircall-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Aircall Rate Limits
@@ -212,8 +212,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 47.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/screenshots/aircall-2026-06-20T171433.png
 security:

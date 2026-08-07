@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: FilSekka
 nav: Providers
 network: true
 overview: FilSekka is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pregnancy, Maternal Health, Health, and Mobile App.
-random_paper: 82
+random_paper: 51
 score:
   band: minimal
   composite: 8.9
@@ -91,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filsekka/refs/heads/main/screenshots/filsekka-2026-07-25T214451.png
 security:

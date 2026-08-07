@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -144,10 +144,11 @@ overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 27
+random_paper: 55
 score:
   band: developing
   composite: 44.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.3
@@ -155,6 +156,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -171,8 +173,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Intelycare Authentication

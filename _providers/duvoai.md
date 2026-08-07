@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: true
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-03'
+  score: 64.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -253,7 +253,7 @@ overview: 'duvo.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
-random_paper: 78
+random_paper: 83
 scopes:
 - name: Duvoai Scopes
   scope_count: 8
@@ -281,8 +281,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

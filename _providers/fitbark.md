@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 11 more developer resources.'
-random_paper: 74
+random_paper: 61
 scopes:
 - name: Fitbark Scopes
   scope_count: 1
@@ -165,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/screenshots/fitbark-2026-07-25T214628.png
 security:

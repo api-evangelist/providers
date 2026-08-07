@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -106,23 +106,23 @@ plans:
 - name: Openfga Plans Pricing
   plan_count: 3
   slug: openfga-plans-pricing
-random_paper: 71
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Openfga Rate Limits
   slug: openfga-rate-limits
 score:
   band: thin
-  composite: 30.2
+  composite: 34.5
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 49.6
     developer_ergonomics: 10.9
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.2
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -130,8 +130,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png
 security:

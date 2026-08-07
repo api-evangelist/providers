@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-03'
+  score: 32.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,12 +53,20 @@ apis:
 - description: OVAL XML definitions for vulnerability scanning
   name: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: Red Hat Security Data API
   slug: open-red-hat-enterprise-linux-8-security-data
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/rhel-lightspeed/linux-mcp-server
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://rhel-lightspeed.github.io/linux-mcp-server/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +202,11 @@ jsonld:
   property_count: 19
   slug: red-hat-enterprise-linux-8-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: MCP Server for Red Hat Enterprise Linux
+  slug: mcp-server-for-red-hat-enterprise-linux
+modified: '2026-08-06'
 name: Red Hat Enterprise Linux 8
 nav: Providers
 network: true
@@ -204,12 +216,12 @@ overview: 'Red Hat Enterprise Linux 8 publishes 3 APIs on the [APIs.io](https://
   The Red Hat Enterprise Linux 8 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 17 more developer resources.'
+  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 19 more developer resources.'
 plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
   slug: red-hat-enterprise-linux-8-plans-pricing
-random_paper: 47
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Red Hat Enterprise Linux 8 Rate Limits
@@ -233,12 +245,12 @@ rules:
   slug: red-hat-enterprise-linux-8-rules
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 58.2
+  delta: 1.7
   facets:
     commercial_clarity: 68.4
     contract_quality: 65.9
-    developer_ergonomics: 23.9
+    developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
@@ -250,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:

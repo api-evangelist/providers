@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,17 +19,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-03'
+  score: 41.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -5784,7 +5784,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 17
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits
@@ -5808,16 +5808,16 @@ rules:
   slug: mastercard-spectral-rules
 score:
   band: developing
-  composite: 46.4
+  composite: 48.8
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.1
+    contract_quality: 60.9
     developer_ergonomics: 41.3
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 46.4
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -5830,9 +5830,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+    score: 36.7
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:

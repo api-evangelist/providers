@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Red Planet Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Red Planet Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 42
+random_paper: 111
 score:
   band: emerging
   composite: 19.0
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

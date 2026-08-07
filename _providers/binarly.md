@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -222,7 +222,7 @@ overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Binarly''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 88
+random_paper: 75
 score:
   band: developing
   composite: 48.5
@@ -245,8 +245,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/screenshots/binarly-2026-07-25T202957.png
 security:

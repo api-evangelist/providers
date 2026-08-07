@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'CPower, Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CPower, Inc.''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 65
+random_paper: 111
 score:
   band: emerging
   composite: 17.7
@@ -102,8 +102,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cpower-inc/refs/heads/main/screenshots/cpower-inc-2026-07-25T210624.png
 security:

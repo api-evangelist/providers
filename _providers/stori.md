@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ name: Stori
 nav: Providers
 network: true
 overview: Stori is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Neobank, Digital Bank, Consumer Finance, and Credit Cards.
-random_paper: 86
+random_paper: 109
 score:
   band: minimal
   composite: 5.4
@@ -112,8 +112,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stori/refs/heads/main/screenshots/stori-2026-06-20T194603.png
 security:

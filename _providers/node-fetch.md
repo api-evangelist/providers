@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests.
@@ -68,7 +68,7 @@ plans:
 - name: Node Fetch Plans Pricing
   plan_count: 3
   slug: node-fetch-plans-pricing
-random_paper: 39
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Node Fetch Rate Limits
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 19.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png
 slug: node-fetch

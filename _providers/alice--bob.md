@@ -1,0 +1,185 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-08-06'
+api_count: 1
+apis:
+- description: The Felis Cloud API runs quantum circuits on Alice & Bob's emulators and real cat-qubit quantum hardware. A client creates a job against a named target (listed by List Targets), uploads the circuit as
+  name: Felis Cloud API
+  slug: felis-cloud-api
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alice--bob-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alice-bob.com/
+- group: other
+  title: ''
+  type: SecondaryMarketListing
+  url: https://www.hiive.com/securities/alice--bob-stock
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-gcp.alice-bob.com/console/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://felis.alice-bob.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-gcp.alice-bob.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://felis.alice-bob.com/docs/getting_started/install_the_qiskit_provider/
+- group: operate
+  title: ''
+  type: Support
+  url: https://felis.alice-bob.com/docs/contact_us/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Alice-Bob-SW
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://felis.alice-bob.com/docs/felis_cloud/about_felis_cloud/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.cloud.google.com/marketplace/product/cloud-prod-0/felis-cloud
+- group: start
+  title: ''
+  type: Login
+  url: https://api-gcp.alice-bob.com/console/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://api-gcp.alice-bob.com/console/status
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/alice--bob-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/alice--bob-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/alice--bob-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/alice--bob-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/alice--bob-plans.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alice--bob-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/alice--bob-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/alice--bob-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/alice--bob-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/alice--bob-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/alice--bob-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/alice--bob-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-06'
+description: Alice & Bob is a quantum computing company headquartered in Paris with a presence in Boston, founded in 2020, building a universal fault-tolerant quantum computer on cat qubits — superconducting qubits that are intrinsically protected against bit-flip errors. Its commercial developer surface is Felis Cloud, a Quantum Computing as a Service (QCaaS) product that executes quantum circuits on Boson 4 cat-qubit QPUs hosted in Alice & Bob's own premises and on cloud-hosted physical and logical qubit emulators. Felis Cloud is reached through a public REST API (jobs, targets, availability and health) that accepts circuits in QIR format, and through the open-source qiskit-alice-bob-provider Qiskit provider that wraps it.
+image: https://avatars.githubusercontent.com/u/72556371?v=4
+layout: provider
+modified: '2026-08-06'
+name: Alice Bob
+nav: Providers
+network: true
+overview: 'Alice Bob publishes 1 API on the [APIs.io](https://apis.io/) network: Felis Cloud API. Tagged areas include Company, Quantum Computing, Quantum, Cloud Computing, and Emulation.
+
+
+  Alice Bob''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
+plans:
+- name: Alice  Bob Plans
+  plan_count: 3
+  slug: alice--bob-plans
+random_paper: 3
+score:
+  band: developing
+  composite: 53.4
+  facets:
+    commercial_clarity: 55.3
+    contract_quality: 49.6
+    developer_ergonomics: 69.6
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 36.8
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Alice  Bob Authentication
+  slug: alice--bob-authentication
+  summary_line: 1 scheme
+- kind: domain-security
+  name: Alice  Bob Domain Security
+  slug: alice--bob-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: alice--bob
+tags:
+- Company
+- Quantum Computing
+- Quantum
+- Cloud Computing
+- Emulation
+- Developer Tools
+- Compute
+- Hardware
+- Research
+- Qiskit
+- QIR
+website: https://alice-bob.com/
+---

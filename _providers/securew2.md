@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for Managed Service Providers to automate the lifecycle of their child organizations under an MSP tenant. Bearer-token authenticated; supports listing, retrieving, creating, and updating orga
@@ -108,7 +108,7 @@ overview: 'SecureW2 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SecureW2''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 9 more developer resources.'
-random_paper: 56
+random_paper: 25
 score:
   band: emerging
   composite: 26.1
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 26.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'grasp is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   grasp''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 66
+random_paper: 89
 score:
   band: emerging
   composite: 15.5
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grasp/refs/heads/main/screenshots/grasp-2026-07-25T220246.png
 security:

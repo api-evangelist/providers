@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -252,7 +252,7 @@ overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 84
+random_paper: 53
 scopes:
 - name: Tackleio Scopes
   scope_count: 0
@@ -279,8 +279,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

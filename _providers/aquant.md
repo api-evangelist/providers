@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ overview: 'Aquant publishes 2 APIs on the [APIs.io](https://apis.io/) network: M
 
 
   Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 80
+random_paper: 85
 scopes:
 - name: Aquant Scopes
   scope_count: 7
@@ -230,6 +230,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.4
@@ -237,13 +238,15 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Aquant Authentication

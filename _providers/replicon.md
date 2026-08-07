@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Proprietary JSON-over-HTTPS web-service API for the Replicon Time Intelligence Platform and Polaris PSA — users, clients, projects, tasks, time, billing/costing and analytics. Tenants resolve their re
@@ -152,7 +152,7 @@ overview: 'Replicon publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Replicon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: thin
   composite: 37.4
@@ -167,8 +167,8 @@ score:
   previous_composite: 37.4
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

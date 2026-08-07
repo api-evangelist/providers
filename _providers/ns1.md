@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -112,7 +112,7 @@ overview: 'NS1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NS1''s developer surface includes documentation, API reference, authentication, CLI, and 12 more developer resources.'
-random_paper: 84
+random_paper: 48
 score:
   band: emerging
   composite: 18.9
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -1,0 +1,138 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-06'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/actnano-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/actnano-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://actnano.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://actnano.com/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://actnano.com/articles/
+- group: company
+  title: ''
+  type: News
+  url: https://actnano.com/news/
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://actnano.com/press/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://actnano.com/faq/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://actnano.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://actnano.com/terms-and-conditions/
+- group: company
+  title: ''
+  type: Investors
+  url: https://actnano.com/investors/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/advanced-consulting-technologies-inc-/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCva2fDHgJ2fjAd5jdbHKKQw
+coverage:
+  checked: '2026-08-06'
+  detail: actnano manufactures PFAS-free protective nanocoatings for circuit boards — a chemicals and materials product with no software offering; its entire WordPress site is product, safety-data-sheet and press content, and no api./developer./docs./portal. subdomain resolves in DNS.
+  evidence:
+  - status: 404
+    url: https://actnano.com/developers
+  - status: 404
+    url: https://actnano.com/openapi.json
+  - status: 404
+    url: https://actnano.com/.well-known/agent-card.json
+  - status: 404
+    url: https://actnano.com/llms.txt
+  - status: 200
+    url: https://actnano.com/contact-us/
+  reason: not-a-software-company
+  state: none
+created: '2026-08-06'
+description: 'actnano, Inc. is a Massachusetts-based advanced materials company that develops and manufactures PFAS-free protective nanocoatings for electronics. Its flagship Advanced nanoGUARD technology is a gel-state, 100% fluorine-free conformal coating applied to printed circuit board assemblies, connectors, antennas, LEDs and high-heat-generating components, delivering up to IPx8 moisture and condensation protection without trapping heat or degrading signal integrity. Founded in 2012 and headquartered in Cambridge, Massachusetts, with a Munich center of excellence and operations in Mexico and Japan, actnano serves mobility and automotive electronics, consumer electronics, AI and data-center infrastructure, solar, industrial electronics, medical devices and optical anti-fog applications. The company states REACH and RoHS compliance and ISO 9001:2015 certification, and is backed by BMW i Ventures, Porsche Ventures and Emerald Technology Ventures. actnano is a materials manufacturer:
+  it publishes no public developer program, API, or machine-readable API contract.'
+image: https://actnano.com/wp-content/uploads/2023/03/asset-3-2-x-1-new.png
+layout: provider
+modified: '2026-08-06'
+name: actnano
+nav: Providers
+network: true
+overview: 'actnano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advanced Materials, Nanotechnology, Coatings, and Electronics Manufacturing.
+
+
+  actnano''s developer surface includes support, engineering blog, product news, FAQ, YouTube channel, and 8 more developer resources.'
+random_paper: 62
+score:
+  band: minimal
+  composite: 11.3
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: domain-security
+  name: Actnano Domain Security
+  slug: actnano-domain-security
+  summary_line: TLSv1.3
+slug: actnano
+tags:
+- Company
+- Advanced Materials
+- Nanotechnology
+- Coatings
+- Electronics Manufacturing
+- Automotive
+- Consumer Electronics
+- Data Center Infrastructure
+- Solar
+- Medical Devices
+- Manufacturing
+website: https://actnano.com/
+---

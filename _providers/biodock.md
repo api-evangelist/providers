@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Submitting, tracking, and downloading analysis jobs
@@ -129,7 +129,7 @@ overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 14 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: developing
   composite: 44.4
@@ -157,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:

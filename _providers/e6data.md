@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,7 +136,7 @@ overview: 'e6data is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   e6data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 90
+random_paper: 0
 score:
   band: thin
   composite: 32.2
@@ -151,8 +151,8 @@ score:
   previous_composite: 32.2
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e6data/refs/heads/main/screenshots/e6data-2026-07-25T212626.png
 security:

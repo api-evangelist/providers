@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-03'
+  score: 36.9
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'CodeSignal''s primary programmatic surface: a GraphQL API for reading assessments and company test sessions and running mutations, authenticated with a Bearer API key. Read operations live under RootQu'
@@ -151,7 +151,7 @@ overview: 'CodeSignal, Inc. publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   CodeSignal, Inc.''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 78
+random_paper: 52
 score:
   band: developing
   composite: 47.9
@@ -166,8 +166,8 @@ score:
   previous_composite: 47.9
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal-inc/refs/heads/main/screenshots/codesignal-inc-2026-07-25T205939.png
 security:

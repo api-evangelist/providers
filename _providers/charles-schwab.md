@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: What to Know About Artificial Intelligence (AI)
   url: https://www.schwab.com/learn/story/what-to-know-about-artificial-intelligence-ai
-random_paper: 85
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Charles Schwab Rate Limits
@@ -260,8 +260,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png
 security:

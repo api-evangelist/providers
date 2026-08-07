@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Leia Plans
   plan_count: 6
   slug: leia-plans
-random_paper: 31
+random_paper: 72
 scopes:
 - name: Leia Scopes
   scope_count: 20
@@ -201,6 +201,7 @@ scopes:
 score:
   band: strong
   composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 68.7
@@ -208,6 +209,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 58.8
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -218,8 +220,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Leia Authentication

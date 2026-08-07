@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ name: Nas Academy
 nav: Providers
 network: true
 overview: 'Nas Academy publishes 2 APIs on the [APIs.io](https://apis.io/) network: AI discovery API and Developer discovery API. Tagged areas include Company.'
-random_paper: 46
+random_paper: 74
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6
@@ -57,7 +57,7 @@ scopes:
 score:
   band: emerging
   composite: 20.2
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.1
@@ -65,7 +65,7 @@ score:
     discoverability: 46.3
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 16.3
+  previous_composite: 20.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -76,8 +76,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

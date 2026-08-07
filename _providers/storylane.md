@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -112,7 +112,7 @@ plans:
 - name: Storylane Plans Pricing
   plan_count: 8
   slug: storylane-plans-pricing
-random_paper: 43
+random_paper: 89
 rate_limits:
 - limit_count: 7
   name: Storylane Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.9
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 8.1
@@ -128,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 27.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/screenshots/storylane-2026-06-20T194611.png
 security:

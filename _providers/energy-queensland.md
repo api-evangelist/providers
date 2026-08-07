@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-03'
+  score: 39.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 23 more developer resources.'
-random_paper: 57
+random_paper: 72
 rate_limits:
 - limit_count: 15
   name: Energy Queensland Rate Limits
@@ -175,20 +175,25 @@ scopes:
   slug: energy-queensland-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 43.1
   delta: 0.0
   facets:
     commercial_clarity: 7.9
-    contract_quality: 32.3
+    contract_quality: 54.3
     developer_ergonomics: 27.7
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 38.5
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -197,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

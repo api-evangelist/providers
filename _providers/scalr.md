@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -246,7 +246,7 @@ plans:
 - name: Scalr Plans Pricing
   plan_count: 2
   slug: scalr-plans-pricing
-random_paper: 58
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Scalr Rate Limits
@@ -270,16 +270,16 @@ rules:
   slug: scalr-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 37.1
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 45.2
+    contract_quality: 45.0
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 37.2
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -293,8 +293,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/screenshots/scalr-2026-06-20T193608.png
 security:

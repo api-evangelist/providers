@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -141,10 +141,11 @@ overview: 'BeeHero publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 65
+random_paper: 52
 score:
   band: developing
   composite: 42.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.7
@@ -152,6 +153,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -162,8 +164,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Beehero Authentication

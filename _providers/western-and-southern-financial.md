@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Life insurance, annuities, and retirement products offered by Western & Southern Life Insurance Company. Customers can access account information, policy details, and manage their coverage through dig
@@ -115,7 +115,7 @@ plans:
 - name: Western And Southern Financial Plans Pricing
   plan_count: 1
   slug: western-and-southern-financial-plans-pricing
-random_paper: 94
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Western And Southern Financial Rate Limits
@@ -141,8 +141,8 @@ score:
     governance: 58.3
     operational_transparency: 21.1
   previous_composite: 31.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/screenshots/western-and-southern-financial-2026-06-20T201402.png
 security:

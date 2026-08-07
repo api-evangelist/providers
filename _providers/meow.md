@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-03'
+  score: 44.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ overview: 'Meow publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 60
+random_paper: 101
 scopes:
 - name: Meow Scopes
   scope_count: 0
@@ -140,7 +140,7 @@ scopes:
 score:
   band: emerging
   composite: 26.8
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 74.0
@@ -148,7 +148,7 @@ score:
     discoverability: 61.1
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -165,8 +165,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

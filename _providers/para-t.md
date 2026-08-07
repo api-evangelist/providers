@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -247,24 +247,24 @@ overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 11
+random_paper: 16
 scopes:
 - name: Para T Scopes
   scope_count: 0
   slug: para-t-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.6
+  band: developing
+  composite: 45.2
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 46.9
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 41.6
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

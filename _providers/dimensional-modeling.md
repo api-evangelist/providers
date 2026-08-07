@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 created: '2025-01-01'
@@ -39,7 +39,7 @@ name: Dimensional Modeling
 nav: Providers
 network: true
 overview: Dimensional Modeling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Data Modeling, and Data Warehousing.
-random_paper: 68
+random_paper: 29
 score:
   band: minimal
   composite: 4.8
@@ -52,8 +52,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: dimensional-modeling
 tags:

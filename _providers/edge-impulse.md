@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 34
 apis:
 - description: The Admin API from Edge Impulse — 49 operation(s) for admin.
@@ -227,7 +227,7 @@ plans:
 - name: Edge Impulse Plans Pricing
   plan_count: 3
   slug: edge-impulse-plans-pricing
-random_paper: 77
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Edge Impulse Rate Limits
@@ -250,8 +250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/screenshots/edge-impulse-2026-06-20T180450.png
 security:

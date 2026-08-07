@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: ENGIE Insight Services
 nav: Providers
 network: true
 overview: ENGIE Insight Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Sustainability, Resource Management, and Utilities.
-random_paper: 51
+random_paper: 89
 score:
   band: minimal
   composite: 5.5
@@ -67,8 +67,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engie-insight-services/refs/heads/main/screenshots/engie-insight-services-2026-07-25T213351.png
 security:

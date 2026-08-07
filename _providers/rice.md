@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: 'DSpace 9.x REST API for the Rice Research Repository (R-3), Fondren Library''s institutional repository. The API root advertises HAL links to communities, collections, items, bitstreams, and discovery '
@@ -113,7 +113,7 @@ plans:
 - name: Rice Plans Pricing
   plan_count: 2
   slug: rice-plans-pricing
-random_paper: 39
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Rice Rate Limits
@@ -130,8 +130,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/screenshots/rice-2026-06-20T193109.png
 security:

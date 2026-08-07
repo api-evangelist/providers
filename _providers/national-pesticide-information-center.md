@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: NPIC provides objective, science-based information about pesticides and pesticide-related topics to enable people to make informed decisions. NPIC does not currently publish a public web API; data and
@@ -69,7 +69,7 @@ plans:
 - name: National Pesticide Information Center Plans Pricing
   plan_count: 3
   slug: national-pesticide-information-center-plans-pricing
-random_paper: 69
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: National Pesticide Information Center Rate Limits
@@ -86,8 +86,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 17.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-pesticide-information-center/refs/heads/main/screenshots/national-pesticide-information-center-2026-06-20T190038.png
 security:

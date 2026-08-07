@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: API is intended to explore and visualize trends/patterns across the US innovation landscape
@@ -56,7 +56,7 @@ name: PatentsView
 nav: Providers
 network: true
 overview: PatentsView publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Patent and Public APIs.
-random_paper: 70
+random_paper: 80
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patentsview/refs/heads/main/screenshots/patentsview-2026-06-20T191439.png
 security:

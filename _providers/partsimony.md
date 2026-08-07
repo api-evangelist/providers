@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Partsimony is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Partsimony''s developer surface includes documentation, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 65
+random_paper: 93
 score:
   band: emerging
   composite: 14.7
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

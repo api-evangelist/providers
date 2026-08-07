@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: Core Angular 17 framework APIs featuring stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading template dependencies, new built-in control flow syntax (@if, @
@@ -130,7 +130,7 @@ plans:
 - name: Angular 17 Plans Pricing
   plan_count: 3
   slug: angular-17-plans-pricing
-random_paper: 40
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Angular 17 Rate Limits
@@ -147,8 +147,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/screenshots/angular-17-2026-06-20T171956.png
 security:

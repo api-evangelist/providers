@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: User | chroniclejournal.com - The Backbone of the AI Revolution
   url: http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-4-15-the-backbone-of-the-ai-revolution-a-comprehensive-research-feature-on-kinder-morgan-inc-kmi
-random_paper: 91
+random_paper: 83
 score:
   band: minimal
   composite: 10.7
@@ -126,8 +126,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinder-morgan/refs/heads/main/screenshots/kinder-morgan-2026-06-20T184040.png
 security:

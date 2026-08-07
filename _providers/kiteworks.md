@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.7
-  scored_at: '2026-08-03'
+  score: 67.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -326,7 +326,7 @@ overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 45
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Kiteworks Rate Limits
@@ -339,7 +339,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.0
@@ -347,7 +347,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 57.3
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -358,8 +358,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

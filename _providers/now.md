@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Punchout / roundtrip integration that connects a customer's ERP or third-party procurement system to shop.dnow.com using cXML or OCI. DNOW configures the connection so buyers can browse the DNOW catal
@@ -112,7 +112,7 @@ overview: 'DNOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DNOW''s developer surface includes developer portal and 8 more developer resources.'
-random_paper: 55
+random_paper: 1
 score:
   band: minimal
   composite: 7.7
@@ -131,8 +131,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now/refs/heads/main/screenshots/now-2026-06-20T190441.png
 security:

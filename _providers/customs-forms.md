@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Forms
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 22
 slug: customs-forms
 tags:
 - CBP Forms

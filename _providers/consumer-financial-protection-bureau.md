@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Consumer Financial Protection Bureau Plans Pricing
   plan_count: 3
   slug: consumer-financial-protection-bureau-plans-pricing
-random_paper: 73
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Consumer Financial Protection Bureau Rate Limits
@@ -217,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/screenshots/consumer-financial-protection-bureau-2026-06-20T174916.png
 security:

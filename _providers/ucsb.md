@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 7
 apis:
 - description: Central campus API developer portal for discovering, subscribing to, requesting elevated access for, and consuming UCSB web service APIs. Registration is required and new accounts are reviewed and app
@@ -134,7 +134,7 @@ plans:
 - name: Ucsb Plans Pricing
   plan_count: 2
   slug: ucsb-plans-pricing
-random_paper: 49
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Ucsb Rate Limits
@@ -151,8 +151,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsb/refs/heads/main/screenshots/ucsb-2026-06-20T195943.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: A Tech Perspective on Jimmy Carter's Legacy
   url: https://govciomedia.com/a-tech-perspective-on-jimmy-carters-legacy/
-random_paper: 91
+random_paper: 78
 score:
   band: minimal
   composite: 10.1
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carters/refs/heads/main/screenshots/carters-2026-06-20T174022.png
 security:

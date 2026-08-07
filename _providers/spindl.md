@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Server-side custom event ingestion for attribution.
@@ -139,7 +139,7 @@ overview: 'Spindl publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Spindl''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, support, and 15 more developer resources.'
-random_paper: 80
+random_paper: 85
 score:
   band: developing
   composite: 42.4
@@ -161,8 +161,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

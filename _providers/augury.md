@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ overview: 'Augury is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Augury''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 4
+random_paper: 104
 score:
   band: minimal
   composite: 10.7
@@ -126,8 +126,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augury/refs/heads/main/screenshots/augury-2026-06-20T172558.png
 security:

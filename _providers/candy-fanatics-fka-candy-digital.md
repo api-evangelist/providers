@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Candy Fanatics (fka Candy Digital) is profiled on the [APIs.io](https
 
 
   Candy Fanatics (fka Candy Digital)''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 75
+random_paper: 64
 score:
   band: emerging
   composite: 13.8
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candy-fanatics-fka-candy-digital/refs/heads/main/screenshots/candy-fanatics-fka-candy-digital-2026-07-25T204343.png
 security:

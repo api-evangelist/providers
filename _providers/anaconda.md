@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -262,7 +262,7 @@ overview: 'Anaconda publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
-random_paper: 61
+random_paper: 30
 scopes:
 - name: Anaconda Scopes
   scope_count: 3
@@ -271,6 +271,7 @@ scopes:
 score:
   band: strong
   composite: 58.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.3
@@ -278,6 +279,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,8 +290,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Anaconda Authentication

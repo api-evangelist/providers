@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the ubras.com Shopify storefront: a live storefront MCP endpoint (catalog search, cart, product details, policy FAQs), a Universal Commerce Protocol shopping service w'
@@ -108,7 +108,7 @@ overview: 'Ubras publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ubras'' developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 66
+random_paper: 89
 score:
   band: emerging
   composite: 24.0
@@ -124,8 +124,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

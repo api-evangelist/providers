@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -133,10 +133,11 @@ overview: 'VersusGame publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   VersusGame''s developer surface includes authentication and 21 more developer resources.'
-random_paper: 45
+random_paper: 73
 score:
   band: thin
   composite: 28.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 38.0
@@ -144,6 +145,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -155,8 +157,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Versusgame Authentication

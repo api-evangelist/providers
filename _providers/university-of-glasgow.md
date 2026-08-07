@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Enlighten, the University of Glasgow's EPrints institutional repository of publications (journal articles, theses, conference papers, books and more). Supp
@@ -111,7 +111,7 @@ plans:
 - name: University Of Glasgow Plans Pricing
   plan_count: 2
   slug: university-of-glasgow-plans-pricing
-random_paper: 91
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: University Of Glasgow Rate Limits
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/screenshots/university-of-glasgow-2026-06-20T200152.png
 security:

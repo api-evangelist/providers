@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -112,7 +112,7 @@ overview: 'Metamarkets publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Metamarkets'' developer surface includes documentation, getting-started guide, support, CLI, authentication, sandbox, and 10 more developer resources.'
-random_paper: 42
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits
@@ -131,8 +131,8 @@ score:
   previous_composite: 21.7
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

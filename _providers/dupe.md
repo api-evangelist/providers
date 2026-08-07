@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Dupe is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dupe''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 50
+random_paper: 91
 score:
   band: emerging
   composite: 13.0
@@ -94,8 +94,8 @@ score:
   previous_composite: 13.0
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dupe/refs/heads/main/screenshots/dupe-2026-07-25T212515.png
 security:

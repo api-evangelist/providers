@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Versioned REST API for searching hospital/provider entities, retrieving source-labeled price rows, comparing prices by CPT code, and submitting reviewed corrections. Public reads require no key; optio
@@ -36,10 +36,11 @@ name: Loa Healthcare Pricing API
 nav: Providers
 network: true
 overview: 'Loa Healthcare Pricing API publishes 1 API on the [APIs.io](https://apis.io/) network: Loa Healthcare Pricing REST API. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and providers.'
-random_paper: 84
+random_paper: 68
 score:
   band: emerging
   composite: 16.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 53.5
@@ -47,14 +48,16 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 slug: loa-healthcare-pricing-api
 tags:
 - healthcare

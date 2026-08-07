@@ -27,7 +27,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -84,7 +84,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -130,7 +130,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -168,7 +168,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -214,7 +214,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -253,7 +253,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -298,7 +298,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -344,7 +344,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -382,7 +382,7 @@
       "developer_ergonomics": 82.1,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -428,7 +428,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -474,7 +474,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -520,7 +520,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -559,7 +559,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -605,7 +605,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -650,7 +650,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -740,7 +740,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -786,7 +786,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -832,7 +832,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -878,7 +878,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 32.9,
      "agent_band": "agent-aware",
@@ -928,7 +928,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -974,7 +974,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1020,7 +1020,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -1059,7 +1059,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1105,7 +1105,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1151,7 +1151,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1197,7 +1197,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1243,7 +1243,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1289,7 +1289,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1335,7 +1335,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1381,7 +1381,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1427,7 +1427,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1473,7 +1473,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1519,7 +1519,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1610,7 +1610,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1647,8 +1647,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 28,
-   "shown": 28,
+   "count": 29,
+   "shown": 29,
    "providers": [
     {
      "name": "Liberty Mutual Insurance",
@@ -1665,7 +1665,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1710,7 +1710,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1755,7 +1755,7 @@
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1801,7 +1801,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1847,7 +1847,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1893,7 +1893,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1938,7 +1938,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1984,7 +1984,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2030,7 +2030,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2076,7 +2076,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2122,7 +2122,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2168,7 +2168,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2214,7 +2214,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2260,7 +2260,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2306,7 +2306,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2352,7 +2352,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2398,7 +2398,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2443,7 +2443,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2489,7 +2489,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2534,7 +2534,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2580,7 +2580,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2626,7 +2626,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2672,7 +2672,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2717,7 +2717,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2748,6 +2748,52 @@
      "rank": 60
     },
     {
+     "name": "Guardian Life",
+     "slug": "guardian-life",
+     "description": "The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. Guardian operates a partner developer portal, Guardian Connect, built on Apigee, exposing a catalog of group and retail insurance APIs covering evidence of insurability, member benefits enrollment, policy and plan configuration, group rating and quoting, dental provider directory and verification of benefits, underwriting data, and life illustration. The Member Benefits APIs implement the LIMRA Data Exchange (LDEx) Standards. Access is partner-gated: a partner agreement is established first, after which Guardian issues a registration code and partner key, and API keys are minted per partner app subject to administrator approval. Authentication is JWT with OpenID Connect login. No OpenAPI, Swagger, or other machine-readable contract is published publicly — the API reference sits behind partner login — so the APIs below are recorded from Guardian's own public catalog descriptions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/screenshots/guardian-life-2026-06-20T182426.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 24.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 61
+    },
+    {
      "name": "Brown & Brown",
      "slug": "brown-brown",
      "description": "Brown & Brown, Inc. (NYSE: BRO) is a Daytona Beach, Florida headquartered insurance brokerage and risk-management intermediary founded in 1939, and one of the largest independent brokers in the United States. Following the 2025 acquisition of Accession Risk Management Group (Risk Strategies and One80 Intermediaries), it reports through two segments: Retail — property and casualty insurance, employee benefits, private client, captive solutions and financial/wealth services — and Specialty Distribution — programs, wholesale brokerage and MGA/binding-authority businesses including Arrowhead. As a distributor rather than a carrier, Brown & Brown places risk with insurers instead of underwriting it, and its US home market has no federal insurance regulator and no open-insurance mandate. Its API posture reflects that honestly: Brown & Brown publishes no public developer portal and no self-serve API. developer.bbrown.com, developers.bbrown.com, docs.bbrown.com and api.bbrown.com do not resolve, and every /developers, /api, /partners and /integrations path returns 404. Every discoverable application subdomain is a login wall — agent, client and vendor portals behind Microsoft Entra ID SSO or third-party sign-in. The only real programmatic surface is partner-gated: the Arrowhead Programs \"Enterprise API\" (EAPI), a quoting integration distributed through comparative raters and aggregators such as CoverHound, Tarmika, Semsee and DAIS, with no public documentation, base URL or specification. No ACORD, AL3, ACORD XML or NGDS reference is published on any Brown & Brown first-party property; carrier data exchange runs, as it does across US retail brokerage, through the agency management system layer — Brown & Brown is a publicly referenced Vertafore AMS360 agency — and IVANS agency download rather than through any API Brown & Brown itself exposes. In July 2026 the company announced an AI-first transformation with Anthropic, McKinsey and Accenture, deploying Claude across 23,000 teammates and Claude Code across its software engineering organization; that is internal adoption and has so far produced no external API, developer portal or agent-facing surface. The only machine-readable documents Brown & Brown publishes are two RSS feeds — the blog and investor news releases.",
@@ -2763,7 +2809,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2791,7 +2837,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Cowbell Cyber",
@@ -2809,7 +2855,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2837,7 +2883,7 @@
       "dry_run_mode": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -2855,7 +2901,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2883,7 +2929,7 @@
       "dry_run_mode": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Snapsheet",
@@ -2900,7 +2946,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2928,7 +2974,7 @@
       "dry_run_mode": false
      },
      "tier": "Claims Technology",
-     "rank": 64
+     "rank": 65
     }
    ]
   },
@@ -2937,8 +2983,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Policygenius",
@@ -2955,7 +3001,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2983,7 +3029,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Hi Marley",
@@ -3001,7 +3047,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3029,7 +3075,7 @@
       "dry_run_mode": false
      },
      "tier": "Claims Technology",
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Nava Benefits",
@@ -3046,7 +3092,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3074,7 +3120,7 @@
       "dry_run_mode": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Hippo",
@@ -3092,7 +3138,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3120,7 +3166,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Cincinnati Financial",
@@ -3138,7 +3184,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3166,7 +3212,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "UnitedHealth Group",
@@ -3184,7 +3230,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3212,7 +3258,7 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "American Family Insurance",
@@ -3230,7 +3276,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3258,52 +3304,6 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 71
-    },
-    {
-     "name": "Guardian Life",
-     "slug": "guardian-life",
-     "description": "The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. Guardian operates a partner developer portal, Guardian Connect, built on Apigee, exposing a catalog of group and retail insurance APIs covering evidence of insurability, member benefits enrollment, policy and plan configuration, group rating and quoting, dental provider directory and verification of benefits, underwriting data, and life illustration. The Member Benefits APIs implement the LIMRA Data Exchange (LDEx) Standards. Access is partner-gated: a partner agreement is established first, after which Guardian issues a registration code and partner key, and API keys are minted per partner app subject to administrator approval. Authentication is JWT with OpenID Connect login. No OpenAPI, Swagger, or other machine-readable contract is published publicly — the API reference sits behind partner login — so the APIs below are recorded from Guardian's own public catalog descriptions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/screenshots/guardian-life-2026-06-20T182426.png",
-     "score": 6.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-05",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
      "rank": 72
     },
     {
@@ -3322,7 +3322,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3367,7 +3367,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3413,7 +3413,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3459,7 +3459,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3505,7 +3505,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3551,7 +3551,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3597,7 +3597,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

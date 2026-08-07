@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The BioCloud data-as-a-service platform API that ingests continuous vital-signs telemetry from BioButton / BioSticker wearables via BioHub gateways and the BioMobile app, and serves it to BioDashboard
@@ -126,10 +126,11 @@ overview: 'BioIntelliSense publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   BioIntelliSense''s developer surface includes documentation, support, engineering blog, legal docs, authentication, and 17 more developer resources.'
-random_paper: 89
+random_paper: 27
 score:
   band: thin
   composite: 28.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -137,6 +138,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 28.2
   provenance:
     conformance: first-party
   regulatory:
@@ -145,8 +147,9 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Biointellisense Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Email Finder for B2B sales and email marketing and email verifier
@@ -67,7 +67,7 @@ overview: 'Tomba email finder publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Tomba email finder''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 63
+random_paper: 78
 score:
   band: minimal
   composite: 6.2
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomba-email-finder/refs/heads/main/screenshots/tomba-email-finder-2026-06-20T195441.png
 security:

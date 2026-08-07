@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ plans:
 - name: Amazon Supply Chain Plans Pricing
   plan_count: 3
   slug: amazon-supply-chain-plans-pricing
-random_paper: 36
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Supply Chain Rate Limits
@@ -297,8 +297,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/screenshots/amazon-supply-chain-2026-06-20T171834.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ overview: 'OpenTravel Alliance publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 45 more developer resources.'
-random_paper: 58
+random_paper: 37
 scopes:
 - name: Opentravel Alliance Scopes
   scope_count: 1
@@ -335,16 +335,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 55.1
+  composite: 52.7
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.7
+    contract_quality: 58.1
     developer_ergonomics: 69.0
     discoverability: 83.3
     governance: 21.9
     operational_transparency: 34.2
-  previous_composite: 55.1
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,8 +355,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

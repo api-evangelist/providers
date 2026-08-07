@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Nuvocargo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nuvocargo''s developer surface includes engineering blog, changelog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 76
 score:
   band: minimal
   composite: 12.8
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 12.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

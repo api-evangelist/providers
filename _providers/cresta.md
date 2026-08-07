@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 41
 common:
@@ -233,7 +233,7 @@ overview: 'Cresta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cresta''s developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 25 more developer resources.'
-random_paper: 72
+random_paper: 77
 score:
   band: emerging
   composite: 25.5
@@ -246,8 +246,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 25.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/screenshots/cresta-2026-06-20T175228.png
 security:

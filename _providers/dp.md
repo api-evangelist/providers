@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'DP Technology (Bohrium) publishes 15 APIs on the [APIs.io](https://ap
 
 
   DP Technology (Bohrium)''s developer surface includes authentication, CLI, documentation, API reference, signup flow, support, and 17 more developer resources.'
-random_paper: 22
+random_paper: 99
 score:
   band: thin
   composite: 38.6
@@ -216,8 +216,8 @@ score:
       total: 15
     mcp: derived
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
 security:

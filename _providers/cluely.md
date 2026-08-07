@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,7 +120,7 @@ overview: 'Cluely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cluely''s developer surface includes documentation, quickstart, pricing, support, changelog, CLI, authentication, and 12 more developer resources.'
-random_paper: 84
+random_paper: 89
 score:
   band: thin
   composite: 30.2
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 30.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cluely/refs/heads/main/screenshots/cluely-2026-07-25T205736.png
 security:

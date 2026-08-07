@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -392,7 +392,7 @@ overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 26 more developer resources.'
-random_paper: 93
+random_paper: 3
 score:
   band: developing
   composite: 43.1
@@ -412,8 +412,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/screenshots/wowza-2026-06-20T201630.png
 security:

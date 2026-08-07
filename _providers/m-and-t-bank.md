@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: M&T Bank
 nav: Providers
 network: true
 overview: M&T Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, Retail Banking, and Fortune 500.
-random_paper: 34
+random_paper: 62
 score:
   band: minimal
   composite: 5.4
@@ -71,8 +71,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m-and-t-bank/refs/heads/main/screenshots/m-and-t-bank-2026-06-20T184818.png
 security:

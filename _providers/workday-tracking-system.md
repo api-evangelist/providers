@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -596,7 +596,7 @@ plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -637,8 +637,8 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:

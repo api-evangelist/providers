@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: TurboTenant provides a partner API for integrations covering rental property management workflows including listings, tenant applications, screening, lease management, rent collection, and maintenance
@@ -104,7 +104,7 @@ plans:
 - name: Turbotenant Plans Pricing
   plan_count: 3
   slug: turbotenant-plans-pricing
-random_paper: 66
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Turbotenant Rate Limits
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 24.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/screenshots/turbotenant-2026-06-20T195834.png
 security:

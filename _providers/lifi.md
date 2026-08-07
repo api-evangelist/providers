@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -250,7 +250,7 @@ overview: 'LI.FI publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LI.FI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 40
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Lifi Rate Limits
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.1
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 55.4
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +283,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

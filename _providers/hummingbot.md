@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 17
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -196,7 +196,7 @@ overview: 'Hummingbot publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hummingbot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 37
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Hummingbot Rate Limits
@@ -204,7 +204,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.4
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 40.6
@@ -212,7 +212,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 37.1
+  previous_composite: 39.4
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:

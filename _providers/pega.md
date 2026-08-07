@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
@@ -165,7 +165,7 @@ plans:
 - name: Pega Plans Pricing
   plan_count: 4
   slug: pega-plans-pricing
-random_paper: 33
+random_paper: 74
 score:
   band: developing
   composite: 43.4
@@ -181,8 +181,8 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

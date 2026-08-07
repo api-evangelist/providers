@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,7 +112,7 @@ overview: 'Traive is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Traive''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 81
+random_paper: 86
 scopes:
 - name: Traive Scopes
   scope_count: 50
@@ -132,8 +132,8 @@ score:
   previous_composite: 18.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

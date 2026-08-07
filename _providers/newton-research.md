@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Newton Research is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Newton Research''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 37
+random_paper: 88
 score:
   band: minimal
   composite: 12.2
@@ -90,8 +90,8 @@ score:
   previous_composite: 12.2
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

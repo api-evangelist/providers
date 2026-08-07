@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Gitee Plans Pricing
   plan_count: 4
   slug: gitee-plans-pricing
-random_paper: 51
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Gitee Rate Limits
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/screenshots/gitee-2026-07-25T215849.png
 security:

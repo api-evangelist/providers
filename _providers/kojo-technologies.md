@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'Kojo Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Kojo Technologies'' developer surface includes pricing, support, engineering blog, and 15 more developer resources.'
-random_paper: 54
+random_paper: 69
 score:
   band: emerging
   composite: 23.1
@@ -130,8 +130,8 @@ score:
   previous_composite: 23.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/screenshots/kojo-technologies-2026-07-25T224119.png
 security:

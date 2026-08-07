@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
-random_paper: 62
+random_paper: 85
 score:
   band: thin
   composite: 40.1
@@ -201,8 +201,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: 'REST API for end-to-end identity verification including document verification, facial biometrics with liveness detection, address verification, AML screening against 1700+ watchlists, phone and email '
@@ -121,7 +121,7 @@ plans:
 - name: Shufti Pro Plans Pricing
   plan_count: 3
   slug: shufti-pro-plans-pricing
-random_paper: 91
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Shufti Pro Rate Limits
@@ -138,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 30.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

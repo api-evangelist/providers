@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-03'
+  score: 21.6
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Administrator-facing API for integrating NetBeez network-performance telemetry with external tools. v2 is a JSON API (read-write: create targets, run ad-hoc tests) documented on Postman at api.netbeez'
@@ -104,7 +104,7 @@ overview: 'Netbeez publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Netbeez''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 5 more developer resources.'
-random_paper: 84
+random_paper: 71
 score:
   band: thin
   composite: 36.2
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 36.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

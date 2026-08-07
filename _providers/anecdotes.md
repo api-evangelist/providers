@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-03'
+  score: 47.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 10
@@ -210,7 +210,7 @@ overview: 'anecdotes publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   anecdotes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 0
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Anecdotes Rate Limits
@@ -218,6 +218,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 73.5
@@ -225,6 +226,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -235,8 +237,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Anecdotes Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -388,19 +388,19 @@ overview: 'Chef Software publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 91
+random_paper: 83
 score:
   band: strong
-  composite: 57.4
+  composite: 57.1
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 50.2
     developer_ergonomics: 73.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 57.4
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,8 +411,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:

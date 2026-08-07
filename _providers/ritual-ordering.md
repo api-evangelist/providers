@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ overview: 'Ritual is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ritual''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 40
+random_paper: 91
 score:
   band: minimal
   composite: 8.5
@@ -83,8 +83,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

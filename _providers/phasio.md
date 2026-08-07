@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-03'
+  score: 56.5
+  scored_at: '2026-08-06'
 api_count: 92
 apis:
 - description: Internal API for activity operations including conversation creation
@@ -444,7 +444,7 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 74
+random_paper: 79
 score:
   band: developing
   composite: 53.6
@@ -466,8 +466,8 @@ score:
       total: 92
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

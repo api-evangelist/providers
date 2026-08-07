@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -171,7 +171,7 @@ overview: 'Nova Scotia Power is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Nova Scotia Power''s developer surface includes authentication, developer portal, documentation, legal docs, support, engineering blog, product news, and 27 more developer resources.'
-random_paper: 16
+random_paper: 31
 score:
   band: emerging
   composite: 21.7
@@ -192,8 +192,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

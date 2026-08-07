@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -132,7 +132,7 @@ overview: 'Khatabook is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Khatabook''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 93
+random_paper: 44
 score:
   band: minimal
   composite: 10.3
@@ -145,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/khatabook/refs/heads/main/screenshots/khatabook-2026-06-20T184024.png
 security:

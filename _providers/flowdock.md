@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://ap
 
 
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 30 more developer resources.'
-random_paper: 2
+random_paper: 66
 rules:
 - name: Flowdock (Discontinued) API Rules
   rule_count: 5
@@ -363,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:

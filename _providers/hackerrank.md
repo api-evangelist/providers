@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API (v3) for HackerRank for Work. Lets customers programmatically manage tests, candidates, questions, interviews, and results, and integrate coding assessments into their own hiring and applican
@@ -100,7 +100,7 @@ overview: 'HackerRank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   HackerRank''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 6 more developer resources.'
-random_paper: 5
+random_paper: 33
 score:
   band: emerging
   composite: 25.2
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 25.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackerrank/refs/heads/main/screenshots/hackerrank-2026-07-25T220525.png
 security:

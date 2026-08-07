@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-03'
+  score: 59.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -478,7 +478,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 28 more developer resources.'
-random_paper: 60
+random_paper: 83
 scopes:
 - name: Narmi Scopes
   scope_count: 11
@@ -512,8 +512,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'The ACOS aXAPI v3 is the RESTful HTTPS configuration and operational control plane for every A10 Thunder device — physical, virtual (vThunder), or containerized. It covers the full ACOS object model: '
@@ -252,7 +252,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 87
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits
@@ -277,7 +277,7 @@ rules:
 score:
   band: thin
   composite: 40.8
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.1
@@ -285,15 +285,15 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 38.7
+  previous_composite: 40.8
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-03'
+  score: 40.1
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Professional REST + WebSocket trading API for Spot (INR/USDT), USDT-margined Perpetual Futures, HFT, and Options on the CoinSwitch PRO venue. Ed25519 request signing; v2 base path /trade/api/v2.
@@ -151,7 +151,7 @@ overview: 'CoinSwitch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CoinSwitch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 16 more developer resources.'
-random_paper: 38
+random_paper: 66
 rate_limits:
 - limit_count: 17
   name: Coinswitch Rate Limits
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -167,7 +167,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 78.9
-  previous_composite: 41.4
+  previous_composite: 44.9
   provenance:
     mcp: derived
   regulatory:
@@ -176,8 +176,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png
 security:

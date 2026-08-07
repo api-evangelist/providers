@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'FreeWheel Media is profiled on the [APIs.io](https://apis.io/) networ
 
 
   FreeWheel Media''s developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
-random_paper: 83
+random_paper: 39
 score:
   band: emerging
   composite: 16.3
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png
 security:

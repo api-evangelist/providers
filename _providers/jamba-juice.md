@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,7 +60,7 @@ name: Jamba Juice
 nav: Providers
 network: true
 overview: Jamba Juice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Restaurant, and Quick Service.
-random_paper: 35
+random_paper: 63
 score:
   band: minimal
   composite: 8.5
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 8.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jamba-juice/refs/heads/main/screenshots/jamba-juice-2026-07-25T223049.png
 security:

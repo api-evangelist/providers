@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Fab.com is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fab.com''s developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
-random_paper: 46
+random_paper: 51
 score:
   band: emerging
   composite: 15.0
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/screenshots/fabcom-2026-07-25T214107.png
 security:

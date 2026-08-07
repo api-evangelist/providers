@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Agentic-commerce API for the Winc storefront, implemented via the Shopify-native Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and call commerce tools over the MC
@@ -96,7 +96,7 @@ overview: 'Winc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Winc''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 53
+random_paper: 94
 scopes:
 - name: Winc Scopes
   scope_count: 0
@@ -118,8 +118,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

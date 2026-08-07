@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Plink is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plink''s developer surface includes developer portal, signup flow, support, and 4 more developer resources.'
-random_paper: 67
+random_paper: 90
 score:
   band: emerging
   composite: 14.9
@@ -90,8 +90,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

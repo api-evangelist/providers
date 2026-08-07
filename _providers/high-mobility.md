@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ plans:
 - name: High Mobility Plans Pricing
   plan_count: 3
   slug: high-mobility-plans-pricing
-random_paper: 4
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: High Mobility Rate Limits
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/screenshots/high-mobility-2026-06-20T182732.png
 security:

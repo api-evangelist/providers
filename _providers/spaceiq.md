@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: SpaceIQ's (SiQ) GraphQL API. A single endpoint at https://api.spaceiq.com/queries accepts POST requests with a JSON query body and an access-token bearer header. Read operations cover companies, build
@@ -156,7 +156,7 @@ overview: 'SpaceIQ publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SpaceIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 19 more developer resources.'
-random_paper: 77
+random_paper: 64
 score:
   band: thin
   composite: 33.2
@@ -173,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

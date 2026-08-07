@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Unified API platform allowing developers to integrate with hundreds of third-party tools through a single API.
@@ -80,7 +80,7 @@ plans:
 - name: Panora Plans Pricing
   plan_count: 3
   slug: panora-plans-pricing
-random_paper: 71
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Panora Rate Limits
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panora/refs/heads/main/screenshots/panora-2026-06-20T191340.png
 security:

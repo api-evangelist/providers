@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ plans:
 - name: Iit Kanpur Plans Pricing
   plan_count: 2
   slug: iit-kanpur-plans-pricing
-random_paper: 78
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Iit Kanpur Rate Limits
@@ -351,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:

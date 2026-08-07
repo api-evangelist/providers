@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 2
@@ -157,23 +157,23 @@ plans:
 - name: Godaddy Plans Pricing
   plan_count: 2
   slug: godaddy-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Godaddy Rate Limits
   slug: godaddy-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 35.8
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 42.0
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 33.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/screenshots/godaddy-2026-06-20T181947.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: Texaco
 nav: Providers
 network: true
 overview: Texaco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil & Gas, and Retail.
-random_paper: 74
+random_paper: 79
 score:
   band: minimal
   composite: 4.7
@@ -87,8 +87,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texaco/refs/heads/main/screenshots/texaco-2026-06-20T195202.png
 security:

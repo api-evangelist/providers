@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 19
+random_paper: 65
 score:
   band: developing
   composite: 51.4
@@ -159,8 +159,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:

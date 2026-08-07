@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Kyros College Prep is profiled on the [APIs.io](https://apis.io/) net
 
 
   Kyros College Prep''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 93
+random_paper: 3
 score:
   band: emerging
   composite: 14.5
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyros/refs/heads/main/screenshots/kyros-2026-07-25T224407.png
 security:

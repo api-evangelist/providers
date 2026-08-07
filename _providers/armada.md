@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -235,7 +235,7 @@ overview: 'Armada publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armada''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 49
 score:
   band: thin
   composite: 37.7
@@ -258,8 +258,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/screenshots/armada-2026-07-25T201219.png
 security:

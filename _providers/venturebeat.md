@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -124,7 +124,7 @@ overview: 'VentureBeat is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The VentureBeat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 49
+random_paper: 59
 rules:
 - name: VentureBeat API Rules
   rule_count: 5
@@ -146,8 +146,8 @@ score:
     governance: 58.3
     operational_transparency: 5.3
   previous_composite: 20.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

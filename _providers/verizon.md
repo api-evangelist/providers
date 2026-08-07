@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-03'
+  score: 49.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 8
   slug: verizon-agentic-access
   summary_line: 8 operations · 6 acting
-api_count: 21
+api_count: 18
 apis:
 - description: Software Management Services API lets customers manage, schedule and distribute software updates to eligible 4G and 5G Internet of Things devices.
   name: Verizon 5G Edge
@@ -69,7 +69,7 @@ apis:
 - description: These innovative network provisioning API solutions can be deployed in the enterprises network eco-system to drive real-time network adjustments according to their changing business needs. Taking an a
   name: Verizon Dynamic Bandwidth APIs
   slug: verizon-dynamic-bandwidth-apis
-- description: MEF API Standards distinguish between Envelope APIs and related Payload schemas. The Envelope APIs can work with multiple Payload Schemas, in this case the Private IP Payload Schema. The MEF-76 Specif
+- description: MEF-standardized Dynamic Network Manager APIs. Verizon documents the same API surface under four product families — Private IP, Internet Dedicated, E-Line and E-LAN — which is why this appeared four t
   name: Dynamic Network Manager (DNM) Standardized APIs
   slug: dynamic-network-manager-dnm-standardized-apis
 - description: SCI supports APIs to fetch data consumption and bandwidth utilization measurements for the SCI connection to the cloud.
@@ -78,15 +78,6 @@ apis:
 - description: SCI supports APIs to fetch data consumption and bandwidth utilization measurements for the SCI connection to the cloud.
   name: Secure Cloud Interconnect APIs Billing Usage
   slug: secure-cloud-interconnect-apis-billing-usage
-- description: MEF API Standards distinguish between Envelope APIs and related Payload schemas. The Envelope APIs can work with multiple Payload Schemas, in this case the DNM APIs to support IDS. The MEF-76 Specific
-  name: Dynamic Network Manager (DNM) Standardized APIs
-  slug: dynamic-network-manager-dnm-standardized-apis
-- description: MEF API Standards distinguish between Envelope APIs and related Payload schemas. The Envelope APIs can work with multiple Payload Schemas, in this case the DNM APIs to support E-Line. The MEF-76 Speci
-  name: Dynamic Network Manager (DNM) Standardized APIs
-  slug: dynamic-network-manager-dnm-standardized-apis
-- description: MEF API Standards distinguish between Envelope APIs and related Payload schemas. The Envelope APIs can work with multiple Payload Schemas, in this case the DNM APIs to support E-LAN . The MEF-76 Speci
-  name: Dynamic Network Manager (DNM) Standardized APIs
-  slug: dynamic-network-manager-dnm-standardized-apis
 - description: Account information and management
   name: Verizon Accounts API
   slug: verizon-accounts-api
@@ -102,7 +93,11 @@ apis:
 - description: SMS messaging to devices
   name: Verizon SMS API
   slug: verizon-sms-api
-artifact_total: 93
+artifact_total: 92
+asyncapis:
+- description: ''
+  name: Verizon Thingspace Callbacks Webhooks
+  slug: verizon-thingspace-callbacks-webhooks
 common:
 - group: agent
   title: ''
@@ -170,8 +165,108 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/vocabulary/verizon-vocabulary.yaml
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://developers.verizon.com/llms.txt
+  type: LLMsTxt
+  url: llms/verizon-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/verizon-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/verizon-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/verizon-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/verizon-etx-protobuf.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/verizon-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/verizon-error-codes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/verizon-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/verizon-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.verizon.com/support/service-outage-status/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/verizon-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/verizon-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/verizon-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/verizon-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/verizon-thingspace-callbacks-webhooks.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.verizon.com/solutions-and-services/report-security-vulnerability/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/verizon-accounts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/verizon-callbacks-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/verizon-devices-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/verizon-session-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/verizon-sms-api-overlay.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://thingspace.verizon.com/documentation/api-documentation.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://thingspace.verizon.com/documentation/apis/connectivity-management/api-reference.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://thingspace.verizon.com/documentation/apis/connectivity-management/getting-started.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Verizon
 created: '2024-11-19'
 description: Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.
 examples:
@@ -349,17 +444,21 @@ jsonld:
   property_count: 43
   slug: verizon-thingspace-connectivity-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: ThingSpace MCP tool candidate (API Evangelist derived — Verizon operates no MCP server)
+  slug: thingspace-mcp-tool-candidate-api-evangelist-derived-verizon-operates-no-mcp-server
+modified: '2026-08-04'
 name: Verizon
 nav: Providers
 network: true
 overview: 'Verizon publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Callbacks API, Devices API, and 2 more. Tagged areas include Wireless, Telecommunications, IoT, 5G, and Enterprise.
 
 
-  The Verizon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Verizon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Verizon''s developer surface includes authentication, developer portal, support, FAQ, signup flow, and 12 more developer resources.'
+  Verizon''s developer surface includes authentication, developer portal, support, FAQ, signup flow, changelog, sandbox, and 35 more developer resources.'
 plans:
 - name: Verizon Plans Pricing
   plan_count: 1
@@ -380,7 +479,7 @@ press:
 - date: '2026-05-25'
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
-random_paper: 21
+random_paper: 103
 rate_limits:
 - limit_count: 1
   name: Verizon Rate Limits
@@ -408,47 +507,50 @@ scopes:
   slug: verizon-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: developing
-  composite: 48.5
+  band: exemplar
+  composite: 69.0
   delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 41.6
-    developer_ergonomics: 23.9
-    discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 48.5
+    contract_quality: 49.7
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 80.2
+    operational_transparency: 76.3
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 5
       marker_coverage: 100.0
       total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+    score: 81.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:
 - kind: authentication
   name: Verizon Authentication
   slug: verizon-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/apiKey · 3 schemes
 - kind: domain-security
   name: Verizon Domain Security
   slug: verizon-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 - kind: vulnerability-disclosure
   name: Verizon Vulnerability Disclosure
   slug: verizon-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
 slug: verizon
 tags:
 - Wireless

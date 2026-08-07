@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -1104,7 +1104,7 @@ plans:
 - name: Cloudwatch Plans Pricing
   plan_count: 7
   slug: cloudwatch-plans-pricing
-random_paper: 25
+random_paper: 53
 rate_limits:
 - limit_count: 10
   name: Cloudwatch Rate Limits
@@ -1145,8 +1145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:

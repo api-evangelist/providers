@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'Phonic publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phonic''s developer surface includes authentication, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 71
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Phonic Rate Limits
@@ -212,8 +212,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

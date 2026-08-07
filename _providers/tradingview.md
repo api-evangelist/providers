@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Open-source (Apache-2.0) HTML5-canvas financial charting library — the flagship first-party client SDK, distributed on npm as lightweight-charts.
@@ -138,7 +138,7 @@ overview: 'TradingView publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   TradingView''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 15 more developer resources.'
-random_paper: 48
+random_paper: 58
 score:
   band: thin
   composite: 29.6
@@ -157,8 +157,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

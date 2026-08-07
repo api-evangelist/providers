@@ -7,18 +7,18 @@ agent_readiness:
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-03'
+  score: 63.5
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -252,21 +252,23 @@ overview: 'PingCAP publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
-random_paper: 73
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Pingcap Rate Limits
   slug: pingcap-rate-limits
 score:
   band: strong
-  composite: 62.5
+  composite: 61.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.3
+    contract_quality: 45.7
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,8 +279,9 @@ score:
       total: 9
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Pingcap Authentication

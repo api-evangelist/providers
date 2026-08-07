@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Production JSON API served from api.metricwire.com backing the Metricwire research data collection platform (studies, participants, schedules, survey responses, and passive/sensor data). No public Ope
@@ -91,7 +91,7 @@ overview: 'Metricwire publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metricwire''s developer surface includes support and 10 more developer resources.'
-random_paper: 38
+random_paper: 66
 score:
   band: emerging
   composite: 20.4
@@ -106,8 +106,8 @@ score:
   previous_composite: 20.4
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

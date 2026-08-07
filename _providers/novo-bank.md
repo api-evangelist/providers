@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Novo business checking account data - account identity, balances, and auth. Novo does not expose a public first-party Accounts API; account connectivity is provided through the Plaid aggregator (Asset
@@ -98,7 +98,7 @@ plans:
 - name: Novo Bank Plans Pricing
   plan_count: 4
   slug: novo-bank-plans-pricing
-random_paper: 52
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Novo Bank Rate Limits
@@ -121,8 +121,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/screenshots/novo-bank-2026-06-20T190435.png
 security:

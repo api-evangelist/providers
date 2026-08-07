@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Centers For Disease Control And Prevention Plans Pricing
   plan_count: 3
   slug: centers-for-disease-control-and-prevention-plans-pricing
-random_paper: 36
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Centers For Disease Control And Prevention Rate Limits
@@ -178,8 +178,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/screenshots/centers-for-disease-control-and-prevention-2026-06-20T174125.png
 security:

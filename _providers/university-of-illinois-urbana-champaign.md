@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 3
@@ -187,7 +187,7 @@ plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
   slug: university-of-illinois-urbana-champaign-plans-pricing
-random_paper: 56
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: University Of Illinois Urbana Champaign Rate Limits
@@ -226,7 +226,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 8.3
       total: 12
   regulatory:
     applies: true
@@ -234,8 +234,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:

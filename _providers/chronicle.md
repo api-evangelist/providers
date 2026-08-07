@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
@@ -180,7 +180,7 @@ overview: 'Chronicle publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Chronicle''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 1
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Chronicle Rate Limits
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -196,13 +196,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 38.9
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
 security:

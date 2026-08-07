@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Enterprise API providing authoritative person/identity data for the University of Wisconsin-Madison. Access is gated and requires an approved institutional access request; a Mock Person API is publish
@@ -125,7 +125,7 @@ plans:
 - name: University Of Wisconsin Madison Plans Pricing
   plan_count: 2
   slug: university-of-wisconsin-madison-plans-pricing
-random_paper: 71
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: University Of Wisconsin Madison Rate Limits
@@ -142,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png
 security:

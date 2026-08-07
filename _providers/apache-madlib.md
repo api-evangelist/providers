@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and oth
@@ -118,7 +118,7 @@ plans:
 - name: Apache Madlib Plans Pricing
   plan_count: 3
   slug: apache-madlib-plans-pricing
-random_paper: 37
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Apache Madlib Rate Limits
@@ -135,8 +135,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/screenshots/apache-madlib-2026-06-20T172118.png
 security:

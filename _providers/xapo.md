@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ overview: 'Xapo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Xapo''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 60
+random_paper: 101
 score:
   band: emerging
   composite: 25.9
@@ -144,8 +144,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

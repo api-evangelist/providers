@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Radial Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Radial Analytics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 19
+random_paper: 52
 score:
   band: emerging
   composite: 17.6
@@ -104,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Blockchain-as-a-service solution that provides high-quality connection via API
@@ -63,7 +63,7 @@ overview: 'Nownodes publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Nownodes'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 22
+random_paper: 86
 score:
   band: minimal
   composite: 6.2
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nownodes/refs/heads/main/screenshots/nownodes-2026-06-20T190447.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: W4 Cloud (W4GD) is a managed multiplayer backend-as-a-service for the Godot game engine, consumed through the w4gd Godot editor addon (a GDScript SDK). It provides player authentication, a Supabase/Po
@@ -128,7 +128,7 @@ overview: 'W4 Games publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   W4 Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: thin
   composite: 28.7
@@ -143,8 +143,8 @@ score:
   previous_composite: 28.7
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

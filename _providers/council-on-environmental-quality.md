@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Council on Environmental Quality is profiled on the [APIs.io](https:/
 
 
   Council on Environmental Quality''s developer surface includes product news and 15 more developer resources.'
-random_paper: 62
+random_paper: 15
 score:
   band: minimal
   composite: 8.8
@@ -126,8 +126,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/council-on-environmental-quality/refs/heads/main/screenshots/council-on-environmental-quality-2026-06-20T175055.png
 security:

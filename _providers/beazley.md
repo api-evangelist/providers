@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 83
+random_paper: 70
 rate_limits:
 - limit_count: 8
   name: Beazley Rate Limits
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.8
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 50.0
@@ -230,7 +230,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

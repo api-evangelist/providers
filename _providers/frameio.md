@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-08-03'
+  score: 68.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ overview: 'Frame.io publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Frame.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 74
+random_paper: 61
 scopes:
 - name: Frameio Scopes
   scope_count: 6
@@ -267,8 +267,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/screenshots/frameio-2026-07-25T215109.png
 security:

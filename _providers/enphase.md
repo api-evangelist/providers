@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -247,7 +247,7 @@ plans:
 - name: Enphase Plans
   plan_count: 5
   slug: enphase-plans
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 8
   name: Enphase Rate Limits
@@ -260,7 +260,7 @@ scopes:
 score:
   band: strong
   composite: 63.6
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 63.6
@@ -268,7 +268,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 60.1
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Educational content about the US Health Insurance Marketplace
@@ -56,7 +56,7 @@ name: Healthcare.gov
 nav: Providers
 network: true
 overview: Healthcare.gov publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 88
+random_paper: 62
 score:
   band: minimal
   composite: 6.0
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthcare-gov/refs/heads/main/screenshots/healthcare-gov-2026-06-20T182558.png
 security:

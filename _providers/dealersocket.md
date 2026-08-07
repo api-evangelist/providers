@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -80,7 +80,7 @@ overview: 'DealerSocket publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DealerSocket''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 35
+random_paper: 27
 score:
   band: minimal
   composite: 8.2
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/screenshots/dealersocket-2026-07-25T211514.png
 security:

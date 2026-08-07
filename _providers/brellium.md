@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-03'
+  score: 40.3
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Brellium publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 17 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: developing
   composite: 45.6
@@ -215,8 +215,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:

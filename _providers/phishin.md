@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A web-based archive of legal live audio recordings of the improvisational rock band Phish
@@ -50,7 +50,7 @@ name: Phishin
 nav: Providers
 network: true
 overview: Phishin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 90
+random_paper: 77
 score:
   band: minimal
   composite: 5.4
@@ -63,8 +63,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phishin/refs/heads/main/screenshots/phishin-2026-06-20T191641.png
 security:

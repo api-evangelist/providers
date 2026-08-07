@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The La-Z-Boy API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: La Z Boy Plans Pricing
   plan_count: 1
   slug: la-z-boy-plans-pricing
-random_paper: 82
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: La Z Boy Rate Limits
@@ -82,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 13.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-z-boy/refs/heads/main/screenshots/la-z-boy-2026-06-20T184234.png
 security:

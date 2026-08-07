@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
@@ -112,7 +112,7 @@ overview: 'Onepot publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Onepot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 91
+random_paper: 96
 score:
   band: emerging
   composite: 19.5
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

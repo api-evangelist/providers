@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Despite a strong quarter for its Powder River Basin ...
   url: https://www.facebook.com/cowboystatedaily/posts/despite-a-strong-quarter-for-its-powder-river-basin-operations-arch-resources-in/500718778737496/
-random_paper: 19
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Arch Coal Rate Limits
@@ -165,8 +165,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/screenshots/arch-coal-2026-07-25T201016.png
 security:

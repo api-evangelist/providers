@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -111,7 +111,7 @@ name: Sageox
 nav: Providers
 network: true
 overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company.
-random_paper: 77
+random_paper: 82
 scopes:
 - name: Sageox Scopes
   scope_count: 4
@@ -120,7 +120,7 @@ scopes:
 score:
   band: emerging
   composite: 22.7
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 64.5
@@ -128,7 +128,7 @@ score:
     discoverability: 51.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 22.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -139,8 +139,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

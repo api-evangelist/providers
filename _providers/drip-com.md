@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Drip REST API provides programmatic access to accounts, subscribers, events, email series campaigns, single-email campaigns (broadcasts), workflows, workflow triggers, tags, custom fields, convers
@@ -180,7 +180,7 @@ overview: 'Drip publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Drip''s developer surface includes developer portal, documentation, API reference, authentication, signup flow, developer console, support, and 16 more developer resources.'
-random_paper: 35
+random_paper: 4
 score:
   band: thin
   composite: 28.4
@@ -199,8 +199,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drip-com/refs/heads/main/screenshots/drip-com-2026-06-20T180236.png
 security:

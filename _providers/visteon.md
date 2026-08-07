@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Technology
   url: https://www.visteon.com/products-technology/technology/default.aspx
-random_paper: 16
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Visteon Rate Limits
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -221,19 +221,19 @@ overview: 'Lightstream publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lightstream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 48
+random_paper: 58
 score:
   band: developing
-  composite: 51.1
+  composite: 52.4
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.6
+    contract_quality: 57.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.1
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +244,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:

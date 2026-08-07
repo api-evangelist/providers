@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Wasabi S3 API is a 100% bit-compatible implementation of the Amazon S3 REST API for creating and managing buckets, uploading and retrieving objects, controlling access, and managing lifecycle poli
@@ -129,7 +129,7 @@ plans:
 - name: Wasabi Plans Pricing
   plan_count: 2
   slug: wasabi-plans-pricing
-random_paper: 61
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Wasabi Rate Limits
@@ -146,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/screenshots/wasabi-2026-06-20T201235.png
 security:

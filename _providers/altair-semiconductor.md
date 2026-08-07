@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) n
 
 
   Altair Semiconductor''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 94
+random_paper: 55
 score:
   band: minimal
   composite: 5.4
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altair-semiconductor/refs/heads/main/screenshots/altair-semiconductor-2026-07-25T195813.png
 security:

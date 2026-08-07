@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'HireArt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HireArt''s developer surface includes engineering blog, changelog, support, and 7 more developer resources.'
-random_paper: 86
+random_paper: 73
 score:
   band: emerging
   composite: 16.5
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 16.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/screenshots/hireart-2026-07-25T221248.png
 security:

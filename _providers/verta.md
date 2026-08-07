@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -153,19 +153,19 @@ overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Verta''s developer surface includes authentication, changelog, documentation, and 13 more developer resources.'
-random_paper: 71
+random_paper: 94
 score:
   band: emerging
-  composite: 26.3
+  composite: 26.9
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.3
+    contract_quality: 34.5
     developer_ergonomics: 29.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 26.3
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -176,8 +176,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

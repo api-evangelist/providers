@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 28
 apis:
 - description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
@@ -225,7 +225,7 @@ overview: 'Fortify Software publishes 28 APIs on the [APIs.io](https://apis.io/)
 
 
   Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 17 more developer resources.'
-random_paper: 76
+random_paper: 109
 scopes:
 - name: Fortify Software Scopes
   scope_count: 13
@@ -233,16 +233,16 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.3
+  composite: 38.3
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.3
+    contract_quality: 48.3
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 34.3
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +252,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

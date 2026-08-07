@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Routes electronic prescriptions between prescribers and pharmacies over the NCPDP SCRIPT standard, supporting NewRx, RxRenewal, RxChange, RxTransfer, RxFill, CancelRx, and NewRxRequest transactions, p
@@ -83,7 +83,7 @@ overview: 'Surescripts publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Surescripts'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 83
+random_paper: 93
 score:
   band: minimal
   composite: 8.1
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

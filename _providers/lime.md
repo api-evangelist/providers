@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ overview: 'Lime publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Lime''s developer surface includes support and 18 more developer resources.'
-random_paper: 43
+random_paper: 84
 score:
   band: emerging
   composite: 26.4
@@ -170,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/screenshots/lime-2026-06-20T184529.png
 security:

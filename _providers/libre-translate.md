@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 25
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -166,16 +166,16 @@ rules:
   slug: libre-translate-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.9
+  composite: 40.0
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 48.4
+    contract_quality: 45.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 40.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184502.png
 security:

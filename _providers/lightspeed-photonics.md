@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Lightspeed Photonics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Lightspeed Photonics'' developer surface includes engineering blog, product news, and 10 more developer resources.'
-random_paper: 3
+random_paper: 59
 score:
   band: minimal
   composite: 8.7
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-photonics/refs/heads/main/screenshots/lightspeed-photonics-2026-07-25T225134.png
 security:

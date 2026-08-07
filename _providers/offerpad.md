@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Offerpad''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 79
+random_paper: 48
 scopes:
 - name: Offerpad Scopes
   scope_count: 9
@@ -261,8 +261,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

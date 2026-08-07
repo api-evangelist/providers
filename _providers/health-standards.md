@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ name: Health Standards
 nav: Providers
 network: true
 overview: Health Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CDA, DICOM, FHIR, Health Standards, and Healthcare Interoperability.
-random_paper: 24
+random_paper: 57
 score:
   band: minimal
   composite: 6.1
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/health-standards/refs/heads/main/screenshots/health-standards-2026-06-20T182557.png
 security:

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-03'
+  score: 45.5
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -198,7 +198,7 @@ overview: 'Conviva publishes 9 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Conviva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 93
+random_paper: 80
 rate_limits:
 - limit_count: 6
   name: Conviva Rate Limits
@@ -211,6 +211,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -218,12 +219,14 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 84.2
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Conviva Authentication

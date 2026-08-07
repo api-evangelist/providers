@@ -1,0 +1,180 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-08-06'
+api_count: 1
+apis:
+- description: Live Model Context Protocol server operated by ServiceUp at api.serviceup.com/mcp, exposing the agentic repair platform to MCP clients. The endpoint is protected by OAuth 2.1 (authorization code + PKC
+  name: ServiceUp MCP Server
+  slug: serviceup-mcp-server
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/serviceup-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/serviceup-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.serviceup.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.serviceup.com/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.serviceup.com/company/blogs
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.serviceup.com/company/faq
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.serviceup.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.serviceup.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ServiceUpAuto
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.serviceup.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/serviceup-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/serviceup-mcp.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/serviceup-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/serviceup-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/serviceup-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/serviceup-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/serviceup-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/serviceup-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/serviceup-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/serviceup-llms.txt
+created: '2026-08-05'
+description: ServiceUp is an agentic vehicle repair and maintenance platform for commercial fleets, insurance carriers and repair shops, founded in 2021 and headquartered in Los Gatos, California. The platform centralizes the full repair lifecycle — intake, shop routing, estimate and invoice approval, repair status tracking and payment — across collision, mechanical and preventative maintenance work, and layers AI Repair Agents over it that run in manual, co-pilot or autopilot control modes. ServiceUp integrates with existing fleet management systems, telematics providers and rental management systems, and operates a live, OAuth-2.1-protected Model Context Protocol (MCP) server at api.serviceup.com/mcp for agent access. The company raised a $55M Series B and ranked 77th on the 2025 Inc. 5000 list.
+image: https://cdn.prod.website-files.com/65dfc331994523c04b3fbb30/6a3c44c69acc55aa24cf9bb7_7125858b1dfb99cd458a33c165bd452b_logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: serviceup-mcp.yml
+  slug: serviceup-mcpyml
+modified: '2026-08-05'
+name: ServiceUp
+nav: Providers
+network: true
+overview: 'ServiceUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Vehicle Repair, Automotive, and Insurance.
+
+
+  ServiceUp''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
+random_paper: 78
+scopes:
+- name: Serviceup Scopes
+  scope_count: 3
+  slug: serviceup-scopes
+  summary_line: 3 scopes · authorizationCode
+score:
+  band: thin
+  composite: 32.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 5.3
+  previous_composite: 32.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Serviceup Authentication
+  slug: serviceup-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Serviceup Domain Security
+  slug: serviceup-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Serviceup Trust Center
+  slug: serviceup-trust-center
+  summary_line: SOC 2, ISO 27001
+slug: serviceup
+tags:
+- Company
+- Fleet Management
+- Vehicle Repair
+- Automotive
+- Insurance
+- Maintenance
+- Agentic AI
+- Model Context Protocol
+- Transportation
+website: https://www.serviceup.com/
+---

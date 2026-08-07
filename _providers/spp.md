@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -187,7 +187,7 @@ overview: 'Southwest Power Pool publishes 1 API on the [APIs.io](https://apis.io
 
 
   Southwest Power Pool''s developer surface includes authentication, sandbox, code examples, developer portal, documentation, getting-started guide, signup flow, and 21 more developer resources.'
-random_paper: 54
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Spp Rate Limits
@@ -223,8 +223,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

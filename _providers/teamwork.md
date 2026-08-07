@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,11 +107,11 @@ overview: 'Teamwork.com publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 19
+random_paper: 83
 score:
   band: thin
   composite: 33.4
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 63.6
@@ -119,7 +119,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -127,8 +127,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
 security:

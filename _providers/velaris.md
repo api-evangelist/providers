@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 14
 apis:
 - description: The Activity API from Velaris — 4 operation(s) for activity.
@@ -199,7 +199,7 @@ overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 93
+random_paper: 80
 score:
   band: developing
   composite: 51.6
@@ -221,8 +221,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

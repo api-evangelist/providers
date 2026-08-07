@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'EpiBiologics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EpiBiologics'' developer surface includes support and 3 more developer resources.'
-random_paper: 38
+random_paper: 30
 score:
   band: minimal
   composite: 6.1
@@ -78,8 +78,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epibiologics/refs/heads/main/screenshots/epibiologics-2026-07-25T213515.png
 security:

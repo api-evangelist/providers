@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The private application and partner-integration API behind the CareRev platform. api.carerev.com is a live, TLS-terminated API gateway (Istio/Envoy fronting a Ruby application) that serves the CareRev
@@ -115,10 +115,11 @@ overview: 'CareRev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   CareRev''s developer surface includes support, FAQ, engineering blog, product news, signup flow, and 14 more developer resources.'
-random_paper: 79
+random_paper: 66
 score:
   band: emerging
   composite: 23.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -126,6 +127,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -134,8 +136,9 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Carerev Domain Security

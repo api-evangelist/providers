@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,7 +87,7 @@ overview: 'Aris Machina is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Aris Machina''s developer surface includes signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 57
+random_paper: 67
 score:
   band: emerging
   composite: 17.5
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aris-machina/refs/heads/main/screenshots/aris-machina-2026-07-25T201149.png
 security:

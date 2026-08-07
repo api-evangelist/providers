@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 11
+random_paper: 111
 score:
   band: developing
   composite: 50.3
@@ -231,8 +231,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

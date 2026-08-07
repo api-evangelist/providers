@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -809,7 +809,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 24
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Adobe Rate Limits
@@ -834,7 +834,7 @@ rules:
 score:
   band: exemplar
   composite: 69.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 81.3
@@ -842,7 +842,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 69.9
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     contracts:
@@ -850,8 +850,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:

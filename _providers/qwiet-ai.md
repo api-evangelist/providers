@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 27
 apis:
 - description: Notification and alerting related endpoints (such as webhooks)
@@ -245,7 +245,7 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 41
+random_paper: 10
 score:
   band: developing
   composite: 53.4
@@ -267,8 +267,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

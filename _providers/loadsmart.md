@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 122
@@ -367,7 +367,7 @@ plans:
 - name: Loadsmart Plans Pricing
   plan_count: 6
   slug: loadsmart-plans-pricing
-random_paper: 17
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Loadsmart Rate Limits
@@ -391,8 +391,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png
 security:

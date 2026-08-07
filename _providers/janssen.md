@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Janssen Pharmaceuticals
 nav: Providers
 network: true
 overview: Janssen Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct Brand, Healthcare, Johnson & Johnson, and Pharmaceutical.
-random_paper: 89
+random_paper: 76
 score:
   band: minimal
   composite: 4.6
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/janssen/refs/heads/main/screenshots/janssen-2026-06-20T183657.png
 security:

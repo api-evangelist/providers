@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,7 +136,7 @@ overview: 'Blink Charging is profiled on the [APIs.io](https://apis.io/) network
 
 
   Blink Charging''s developer surface includes engineering blog, product news, support, FAQ, and 21 more developer resources.'
-random_paper: 78
+random_paper: 52
 score:
   band: emerging
   composite: 22.1
@@ -157,8 +157,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: Knowmia.com
 nav: Providers
 network: true
 overview: Knowmia.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Video, and Screen Recording.
-random_paper: 32
+random_paper: 60
 score:
   band: minimal
   composite: 7.9
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 7.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/screenshots/knowmiacom-2026-07-25T224018.png
 security:

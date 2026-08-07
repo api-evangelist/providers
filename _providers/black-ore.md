@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Black Ore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Black Ore''s developer surface includes pricing, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 25
+random_paper: 89
 score:
   band: emerging
   composite: 23.2
@@ -111,8 +111,8 @@ score:
   previous_composite: 23.2
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore/refs/heads/main/screenshots/black-ore-2026-07-25T203234.png
 security:

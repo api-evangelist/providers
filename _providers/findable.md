@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for AI-powered document search and Q&A across building documentation, plus management of buildings, documents, building owners, reports, and building categories. Supports SSE streaming on the
@@ -160,7 +160,7 @@ overview: 'Findable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Findable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 61
+random_paper: 30
 score:
   band: thin
   composite: 36.6
@@ -176,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/screenshots/findable-2026-07-25T214513.png
 security:

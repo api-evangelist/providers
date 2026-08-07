@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 21
 apis:
 - description: Bundle Items are components that make up a bundle, defining the quantity and relationship of items within product bundles.
@@ -227,7 +227,7 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
 
 
   Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: developing
   composite: 47.7
@@ -249,8 +249,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

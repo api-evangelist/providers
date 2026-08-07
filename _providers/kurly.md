@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 24 more developer resources.'
-random_paper: 92
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits
@@ -229,8 +229,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

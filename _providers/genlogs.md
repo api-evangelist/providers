@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-03'
+  score: 41.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -164,25 +164,25 @@ overview: 'GenLogs publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   GenLogs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 86
+random_paper: 73
 score:
-  band: thin
-  composite: 33.6
+  band: developing
+  composite: 43.7
   delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 29.8
+    contract_quality: 77.4
     developer_ergonomics: 53.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 33.6
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 10
+      derived: 0
       marker_coverage: 100.0
       total: 10
     mcp: derived
@@ -193,8 +193,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/screenshots/genlogs-2026-07-25T215622.png
 security:

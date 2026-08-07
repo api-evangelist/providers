@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -108,7 +108,7 @@ overview: 'Ambrook is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ambrook''s developer surface includes pricing, signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 82
+random_paper: 69
 scopes:
 - name: Ambrook Scopes
   scope_count: 5
@@ -134,8 +134,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambrook/refs/heads/main/screenshots/ambrook-2026-07-25T200036.png
 security:

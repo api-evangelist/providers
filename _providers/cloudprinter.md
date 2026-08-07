@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ plans:
 - name: Cloudprinter Plans Pricing
   plan_count: 3
   slug: cloudprinter-plans-pricing
-random_paper: 72
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Cloudprinter Rate Limits
@@ -141,8 +141,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
 security:

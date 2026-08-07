@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'AuditBoard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AuditBoard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 10
+random_paper: 38
 score:
   band: emerging
   composite: 26.1
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 26.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/screenshots/auditboard-2026-07-25T201657.png
 security:

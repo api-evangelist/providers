@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Public HTTP API for Antpool, Bitmain's Bitcoin mining pool. Account operators can read account balance, account and worker hashrate, worker lists, payment history, and pool statistics. All private int
@@ -88,7 +88,7 @@ overview: 'Bitmain publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Bitmain''s developer surface includes support, documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Bitmain Rate Limits
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 17.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmain/refs/heads/main/screenshots/bitmain-2026-07-25T203159.png
 security:

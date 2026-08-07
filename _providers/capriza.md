@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Capriza
 nav: Providers
 network: true
 overview: Capriza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Mobility, Legacy Modernization, No Code, and Workflow Automation.
-random_paper: 81
+random_paper: 68
 score:
   band: minimal
   composite: 5.0
@@ -52,8 +52,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: capriza
 tags:

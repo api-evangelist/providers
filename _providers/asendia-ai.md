@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Asendia AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Asendia AI''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 22
+random_paper: 68
 score:
   band: emerging
   composite: 19.8
@@ -110,8 +110,8 @@ score:
   previous_composite: 19.8
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asendia-ai/refs/heads/main/screenshots/asendia-ai-2026-07-25T201408.png
 security:

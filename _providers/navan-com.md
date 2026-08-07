@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -152,7 +152,7 @@ overview: 'Navan is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Navan''s developer surface includes documentation, authentication, status page, engineering blog, pricing, YouTube channel, and 21 more developer resources.'
-random_paper: 41
+random_paper: 105
 score:
   band: emerging
   composite: 21.7
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navan-com/refs/heads/main/screenshots/navan-com-2026-06-20T190100.png
 security:

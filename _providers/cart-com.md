@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-03'
+  score: 50.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ overview: 'Cart.com publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cart.com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 30
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Cart Com Rate Limits
@@ -209,6 +209,7 @@ scopes:
 score:
   band: strong
   composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.2
@@ -216,6 +217,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 84.2
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +228,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Cart Com Authentication

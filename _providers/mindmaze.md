@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,10 +189,11 @@ overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 30 more developer resources.'
-random_paper: 93
+random_paper: 62
 score:
   band: thin
   composite: 28.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 15.7
@@ -200,6 +201,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -216,8 +218,9 @@ score:
     regime: Health
     regime_id: health
     score: 57.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Mindmaze Authentication

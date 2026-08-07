@@ -1,0 +1,260 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-08-06'
+api_count: 2
+apis:
+- description: REST API for healthcare facilities and the workforce-management platforms that serve them. Post, quote, update and cancel per diem shifts on the Nursa marketplace; read and reject clinician shift requ
+  name: Nursa Public API V2
+  slug: public-api-v2
+- description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
+  name: Nursa Authorization Server
+  slug: auth
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Nursa Public Api V2 Webhooks
+  slug: nursa-public-api-v2-webhooks
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/nursa-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nursa-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://nursa.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://nursa.com/developers/start-here
+- group: start
+  title: ''
+  type: Portal
+  url: https://developers.prod.nursa.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.nursa.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.nursa.com/pages/api/nursa-public-api-v-2
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.nursa.com/docs/Integration%20Guideline/First%20steps/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://nursa.com/signup/facility
+- group: start
+  title: ''
+  type: Login
+  url: https://app.nursa.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://nursa.com/facility/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://nursa.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://nursa.com/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://nursa.com/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://community.nursa.com/help-center/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.nursa.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://nursa.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/nursa-com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.nursa.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/nursa-llms.txt
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/nursa-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/nursa-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nursa-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/nursa-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/nursa-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/nursa-scopes.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/nursa-packages.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/nursa-public-api-v2-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/nursa-authentication.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/nursa-public-api-v2-webhooks.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/nursa-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nursa-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/nursa-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nursa-public-api-v2-overlay.yaml
+created: '2026-08-04'
+description: Nursa is a healthcare staffing marketplace, founded in Salt Lake City in 2019, that connects credentialed per diem (PRN) clinicians — registered nurses, licensed practical nurses, certified nursing assistants, certified medication aides and allied professionals — directly with hospitals, skilled nursing facilities, long-term and post-acute care providers, removing the traditional staffing agency from the middle. Facilities post open shifts and set their own rates, clinicians browse and request shifts, and both sides settle through Nursa's shift-report flow. Nursa publishes a Public API V2 (REST, JWT bearer, with an OpenID Connect / OAuth 2.0 authorization server) so workforce-management and scheduling platforms can post shifts, review requests, schedule clinicians, read clinician credentials and subscribe to webhooks — the integration surface behind its Covr, StaffLion, Dropstat, Maple and UKG partnerships. The company is accredited by The Joint Commission and reports more than
+  4,500 facilities and 500,000 clinicians nationwide.
+image: https://cdn.prod.website-files.com/636e7f8063d6538dea5ca1e4/63e3d5253bcbd6e2b35efeee_logo-horizontal-color.svg
+layout: provider
+modified: '2026-08-04'
+name: Nursa
+nav: Providers
+network: true
+overview: 'Nursa publishes 1 API on the [APIs.io](https://apis.io/) network: Public API V2. Tagged areas include Company, Healthcare, Health, Staffing, and Nursing.
+
+
+  The Nursa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 28 more developer resources.'
+random_paper: 101
+rate_limits:
+- limit_count: 1
+  name: Nursa Rate Limits
+  slug: nursa-rate-limits
+scopes:
+- name: Nursa Scopes
+  scope_count: 26
+  slug: nursa-scopes
+  summary_line: 26 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 57.8
+  delta: -1.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 75.9
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 34.2
+  previous_composite: 58.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Nursa Authentication
+  slug: nursa-authentication
+  summary_line: http/openIdConnect/oauth2 · 2 schemes
+- kind: domain-security
+  name: Nursa Domain Security
+  slug: nursa-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Nursa Trust Center
+  slug: nursa-trust-center
+  summary_line: SOC 2
+slug: nursa
+tags:
+- Company
+- Healthcare
+- Health
+- Staffing
+- Nursing
+- Marketplace
+- Workforce Management
+- Scheduling
+- Human Resources
+- Per Diem
+- Shifts
+- Webhooks
+website: https://nursa.com/
+---

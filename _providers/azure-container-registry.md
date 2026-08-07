@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 33.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -409,7 +409,7 @@ plans:
 - name: Azure Container Registry Plans Pricing
   plan_count: 3
   slug: azure-container-registry-plans-pricing
-random_paper: 23
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Azure Container Registry Rate Limits
@@ -438,16 +438,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.6
+  composite: 52.5
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 57.8
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 50.6
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -455,8 +455,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/screenshots/azure-container-registry-2026-06-20T172845.png
 security:

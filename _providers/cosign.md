@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -122,7 +122,7 @@ plans:
 - name: Cosign Plans Pricing
   plan_count: 3
   slug: cosign-plans-pricing
-random_paper: 73
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Cosign Rate Limits
@@ -139,8 +139,8 @@ score:
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 36.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/screenshots/cosign-2026-06-20T175045.png
 security:

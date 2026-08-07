@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Uplevel is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Uplevel''s developer surface includes engineering blog, YouTube channel, changelog, and 10 more developer resources.'
-random_paper: 48
+random_paper: 58
 score:
   band: emerging
   composite: 15.3
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

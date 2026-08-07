@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ plans:
 - name: Teachable Plans Pricing
   plan_count: 5
   slug: teachable-plans-pricing
-random_paper: 66
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Teachable Rate Limits
@@ -229,7 +229,7 @@ scopes:
 score:
   band: strong
   composite: 56.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.5
@@ -237,7 +237,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 53.9
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/screenshots/teachable-2026-06-20T194953.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Capture a public or authorized web page, or raw HTML, as PNG, JPEG, WebP or PDF. Three operations across two paths — GET and POST on the screenshot resource, plus a health check. OpenAPI 3.1.0 with tw
@@ -33,10 +33,11 @@ name: ScreenshotAPI
 nav: Providers
 network: true
 overview: 'ScreenshotAPI publishes 1 API on the [APIs.io](https://apis.io/) network: ScreenshotAPI. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.'
-random_paper: 57
+random_paper: 90
 score:
   band: emerging
   composite: 23.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 63.3
@@ -44,8 +45,10 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 23.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 slug: screenshotapi-to
 tags:
 - Screenshots

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Requesty Plans Pricing
   plan_count: 3
   slug: requesty-plans-pricing
-random_paper: 43
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Requesty Rate Limits
@@ -149,7 +149,7 @@ rules:
 score:
   band: developing
   composite: 48.4
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 69.5
@@ -157,7 +157,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/screenshots/requesty-2026-06-20T192926.png
 security:

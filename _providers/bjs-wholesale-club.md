@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Bjs Wholesale Club Plans Pricing
   plan_count: 3
   slug: bjs-wholesale-club-plans-pricing
-random_paper: 85
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Bjs Wholesale Club Rate Limits
@@ -223,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

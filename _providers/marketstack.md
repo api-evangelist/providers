@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Real-time, intraday and historical market data API with 45 endpoints spanning end-of-day bars, intraday bars, real-time stock prices, commodities, company ratings, splits, dividends, tickers, indexes,
@@ -173,7 +173,7 @@ plans:
 - name: Marketstack Plans
   plan_count: 5
   slug: marketstack-plans
-random_paper: 38
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Marketstack Rate Limits
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.7
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 48.1
@@ -189,7 +189,7 @@ score:
     discoverability: 94.4
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.2
+  previous_composite: 56.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -200,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

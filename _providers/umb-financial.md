@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: UMB's partner-facing open-banking and Banking-as-a-Service REST API program, documented across five areas — Risk & Compliance (retrieve questions required for new customer applications), Customer (onb
@@ -83,7 +83,7 @@ overview: 'UMB Bank publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   UMB Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, and 7 more developer resources.'
-random_paper: 67
+random_paper: 59
 score:
   band: emerging
   composite: 19.5
@@ -102,8 +102,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

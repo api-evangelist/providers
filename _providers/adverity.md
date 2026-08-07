@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Adverity Management API provides programmatic access to the Adverity platform for managing datastreams, authorizations, fetches, transformations, data mappings, destinations, workspaces, and users
@@ -156,7 +156,7 @@ overview: 'Adverity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Adverity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 19 more developer resources.'
-random_paper: 17
+random_paper: 81
 score:
   band: thin
   composite: 37.6
@@ -172,8 +172,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/screenshots/adverity-2026-07-25T181708.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: 'Energy Transfer''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/energy-transfer-ai-strategy-analysis-of-dominance-in-energy-ai/
-random_paper: 27
+random_paper: 91
 score:
   band: minimal
   composite: 2.6
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgroup/refs/heads/main/screenshots/semgroup-2026-06-20T193648.png
 security:

@@ -22,7 +22,7 @@ modified: '2026-04-19'
 name: Export-Import Bank of the United States
 nav: Providers
 network: true
-random_paper: 66
+random_paper: 24
 slug: export-import-bank-of-the-united-states
 tags:
 - Export

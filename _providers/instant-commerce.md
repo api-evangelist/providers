@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,7 +131,7 @@ overview: 'Instant Commerce is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, and 15 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: thin
   composite: 29.1
@@ -146,8 +146,8 @@ score:
   previous_composite: 29.1
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:

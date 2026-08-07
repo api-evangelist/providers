@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Vals Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vals Ai''s developer surface includes documentation, getting-started guide, signup flow, CLI, authentication, and 10 more developer resources.'
-random_paper: 20
+random_paper: 7
 score:
   band: emerging
   composite: 22.7
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

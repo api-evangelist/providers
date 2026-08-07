@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -203,7 +203,7 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 48
+random_paper: 71
 scopes:
 - name: Sedna Scopes
   scope_count: 53
@@ -237,8 +237,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-03'
+  score: 53.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ overview: 'LeafLink publishes 2 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LeafLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 78
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Leaflink Rate Limits
@@ -200,6 +200,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 62.5
@@ -207,6 +208,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 60.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +225,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Leaflink Authentication

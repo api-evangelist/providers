@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal operated by Vanderbilt IT (VUIT) where authorized users can discover APIs, learn how to use them, try them interactively, and sign up to acquire keys. The portal '
@@ -115,7 +115,7 @@ plans:
 - name: Vanderbilt Plans Pricing
   plan_count: 2
   slug: vanderbilt-plans-pricing
-random_paper: 22
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Vanderbilt Rate Limits
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/screenshots/vanderbilt-2026-06-20T200807.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Mech-Mind Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Mech-Mind Robotics'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 91
 score:
   band: emerging
   composite: 16.7
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

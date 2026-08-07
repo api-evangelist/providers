@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 16 more developer resources.'
-random_paper: 90
+random_paper: 95
 score:
   band: emerging
   composite: 17.5
@@ -147,8 +147,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bestow/refs/heads/main/screenshots/bestow-2026-06-20T173210.png
 security:

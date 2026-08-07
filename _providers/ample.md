@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Ample is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ample''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 52
+random_paper: 75
 score:
   band: minimal
   composite: 7.6
@@ -78,8 +78,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: ample
 tags:

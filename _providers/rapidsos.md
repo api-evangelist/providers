@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'RapidSOS is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RapidSOS''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 14
+random_paper: 78
 score:
   band: emerging
   composite: 23.2
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 23.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

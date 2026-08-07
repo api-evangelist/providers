@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -401,7 +401,7 @@ press:
 - date: '2026-05-07'
   title: Introducing the Teradata Autonomous Knowledge Platform
   url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
-random_paper: 78
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Teradata Rate Limits
@@ -442,8 +442,8 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:

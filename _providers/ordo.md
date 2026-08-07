@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 56
+random_paper: 97
 score:
   band: thin
   composite: 41.3
@@ -174,8 +174,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 26
 apis:
 - description: The bi API from Select Star — 23 operation(s) for bi.
@@ -239,7 +239,7 @@ overview: 'Select Star publishes 26 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Select Star''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 82
+random_paper: 110
 score:
   band: developing
   composite: 51.0
@@ -261,8 +261,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

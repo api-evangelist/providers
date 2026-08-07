@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 38
   slug: wundergraph-agentic-access
   summary_line: 38 operations · 24 acting
-api_count: 10
+api_count: 11
 apis:
 - description: Access graph analytics, metrics, and performance data.
   name: WunderGraph Analytics API
@@ -69,7 +69,10 @@ apis:
 - description: Manage subgraphs - isolated GraphQL schemas that compose into federated graphs.
   name: WunderGraph Subgraphs API
   slug: wundergraph-subgraphs-api
-artifact_total: 70
+- description: The WunderGraph Cosmo GraphQL API provides full lifecycle management of federated GraphQL APIs, including schema registry operations, composition checks, analytics queries, subgraph management, and ro
+  name: WunderGraph Cloud GraphQL API
+  slug: graphql-api
+artifact_total: 72
 collections:
 - collection_type: postman
   name: WunderGraph Cosmo Platform Analytics API
@@ -192,7 +195,7 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://github.com/wundergraph/mcp-go
+  url: mcp/wundergraph-mcp.yml
 - group: agent
   title: ''
   type: AgentSkills
@@ -201,6 +204,30 @@ common:
   title: ''
   type: LlmsText
   url: https://cosmo-docs.wundergraph.com/llms.txt
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/wundergraph-platform.proto
+- group: other
+  title: ''
+  type: gRPC
+  url: grpc/wundergraph-protobuf.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wundergraph-cloud-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/wundergraph-cloud-plans.md
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/wundergraph-cloud-rate-limits.md
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/wundergraph-cloud-finops.md
 created: '2025-06-05T00:00:00.000Z'
 description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
 features:
@@ -281,22 +308,22 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-03'
 name: WunderGraph
 nav: Providers
 network: true
-overview: 'WunderGraph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Keys API, Feature Flags API, and 7 more. Tagged areas include Federation, GraphQL, Management, and Schema Registry.
+overview: 'WunderGraph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Keys API, Feature Flags API, and 7 more. Tagged areas include Federation, GraphQL, Management, Schema Registry, and API Gateway.
 
 
   The WunderGraph catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WunderGraph''s developer surface includes authentication, pricing, engineering blog, CLI, support, and 19 more developer resources.'
+  WunderGraph''s developer surface includes authentication, pricing, engineering blog, CLI, support, and 25 more developer resources.'
 plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 51
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -312,16 +339,16 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
-  delta: -10.9
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 29.5
     developer_ergonomics: 37.0
-    discoverability: 63.0
+    discoverability: 72.2
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 63.0
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -330,15 +357,19 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: falling
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication
   name: Wundergraph Authentication
   slug: wundergraph-authentication
   summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Wundergraph Cloud Domain Security
+  slug: wundergraph-cloud-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: domain-security
   name: Wundergraph Domain Security
   slug: wundergraph-domain-security
@@ -353,6 +384,10 @@ tags:
 - GraphQL
 - Management
 - Schema Registry
+- API Gateway
+- Observability
+- Agents
+- Developer Tools
 use_cases:
 - name: GraphQL Federation
 website: https://wundergraph.com/

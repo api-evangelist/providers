@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -188,10 +188,11 @@ overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   accessiBe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 75
+random_paper: 26
 score:
   band: developing
   composite: 54.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.6
@@ -199,6 +200,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 31.6
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +211,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Accessibe Authentication

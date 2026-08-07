@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Mask API is a powerful and flexible tool designed to help programmers and companies customize the response format of endpoint APIs, providing control over which fields are returned in API responses.
@@ -65,7 +65,7 @@ plans:
 - name: Mask Api Plans Pricing
   plan_count: 3
   slug: mask-api-plans-pricing
-random_paper: 27
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Mask Api Rate Limits
@@ -82,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mask-api/refs/heads/main/screenshots/mask-api-2026-06-20T185015.png
 security:

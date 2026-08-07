@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ overview: 'Alibaba Sentinel publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Alibaba Sentinel''s developer surface includes documentation, getting-started guide, GitHub presence, and 11 more developer resources.'
-random_paper: 91
+random_paper: 29
 rules:
 - name: Alibaba Sentinel API Rules
   rule_count: 5
@@ -160,8 +160,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

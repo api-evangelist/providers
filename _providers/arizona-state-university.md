@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The ASU Library Research Data Repository runs on the open-source Dataverse platform (verified version 6.10.1) and exposes Dataverse's native REST API for searching, retrieving, and depositing research
@@ -121,7 +121,7 @@ plans:
 - name: Arizona State University Plans Pricing
   plan_count: 2
   slug: arizona-state-university-plans-pricing
-random_paper: 43
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Arizona State University Rate Limits
@@ -144,8 +144,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arizona-state-university/refs/heads/main/screenshots/arizona-state-university-2026-06-20T172431.png
 security:

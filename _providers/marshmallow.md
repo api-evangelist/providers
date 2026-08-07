@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -124,7 +124,7 @@ overview: 'Marshmallow is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Marshmallow''s developer surface includes engineering blog, authentication, support, and 19 more developer resources.'
-random_paper: 51
+random_paper: 61
 scopes:
 - name: Marshmallow Scopes
   scope_count: 1
@@ -150,8 +150,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marshmallow/refs/heads/main/screenshots/marshmallow-2026-07-25T230257.png
 security:

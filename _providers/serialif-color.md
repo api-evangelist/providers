@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Color conversion, complementary, grayscale and contrasted text
@@ -60,7 +60,7 @@ name: Serialif Color
 nav: Providers
 network: true
 overview: Serialif Color publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 5.7
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serialif-color/refs/heads/main/screenshots/serialif-color-2026-06-20T193716.png
 security:

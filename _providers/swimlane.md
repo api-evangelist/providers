@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Swimlane Plans Pricing
   plan_count: 2
   slug: swimlane-plans-pricing
-random_paper: 9
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Swimlane Rate Limits
@@ -195,7 +195,7 @@ rules:
 score:
   band: developing
   composite: 47.7
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.5
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png
 security:

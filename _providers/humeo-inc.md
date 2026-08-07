@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Humeo, INC.
 nav: Providers
 network: true
 overview: Humeo, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Creative Intelligence, Generative Media, and Video.
-random_paper: 46
+random_paper: 110
 score:
   band: minimal
   composite: 9.2
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humeo-inc/refs/heads/main/screenshots/humeo-inc-2026-07-25T221706.png
 security:

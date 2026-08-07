@@ -1,0 +1,160 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-08-06'
+api_count: 1
+apis:
+- description: The Universal Commerce Protocol shopping service Outer's storefront exposes over MCP, advertised in the merchant profile at https://liveouter.com/.well-known/ucp. It carries the dev.ucp.shopping servi
+  name: Outer UCP Shopping (MCP)
+  slug: ucp-shopping
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://liveouter.com/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/outer_stock/
+- group: company
+  title: ''
+  type: Blog
+  url: https://liveouter.com/blogs/outdoor-furniture
+- group: operate
+  title: ''
+  type: Support
+  url: https://liveouter.com/pages/helpful-faqs
+- group: start
+  title: ''
+  type: SignUp
+  url: https://liveouter.com/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://liveouter.com/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://liveouter.com/policies/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/outer-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/outer-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/outer-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/outer-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/outer-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/outer-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/outer-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/outer-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/outer-domain-security.yml
+created: '2026-08-04'
+description: 'Outer is a direct-to-consumer outdoor furniture brand founded in 2017 by Jiake Liu and Terry Lin and headquartered in Santa Monica, California, known for its OuterShell built-in cushion cover, OuterWeave wicker and OuterCloud cushions, and for the Neighborhood Showroom program that turns customer backyards into showrooms. Outer publishes no traditional developer program and no OpenAPI, but its Shopify-hosted storefront at liveouter.com serves a real machine-readable agent surface: an /llms.txt and /agents.md agent instruction document, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp advertising catalog search, cart, checkout, fulfillment, discount and order capabilities, a UCP MCP endpoint at /api/ucp/mcp, and OAuth 2.0 / OpenID Connect discovery documents for the Shopify Customer Account API.'
+image: https://liveouter.com/cdn/shop/files/outer-hero-banner-aluminum_513ea457-357e-47e1-9e01-8e84b8b4fd29.png?v=1769763708&width=2048
+layout: provider
+mcp_servers:
+- description: ''
+  name: outer-mcp.yml
+  slug: outer-mcpyml
+modified: '2026-08-04'
+name: Outer
+nav: Providers
+network: true
+overview: 'Outer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Consumer Goods, and Furniture.
+
+
+  Outer''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+random_paper: 107
+scopes:
+- name: Outer Scopes
+  scope_count: 4
+  slug: outer-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 23.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 0.0
+  previous_composite: 23.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Outer Authentication
+  slug: outer-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Outer Domain Security
+  slug: outer-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: outer
+tags:
+- Company
+- Retail
+- E-Commerce
+- Consumer Goods
+- Furniture
+- Home
+- Direct to Consumer
+- Agentic Commerce
+- Shopify
+- Universal Commerce Protocol
+website: https://liveouter.com/
+---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Headway is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Headway''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 74
+random_paper: 61
 score:
   band: emerging
   composite: 16.8
@@ -106,8 +106,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headway/refs/heads/main/screenshots/headway-2026-07-25T220831.png
 security:

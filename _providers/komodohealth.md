@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The Marmot Development Kit (MDK) is Komodo Health''s first-party developer surface: the `komodo` Python SDK and CLI. It authenticates against the Komodo Platform with OAuth 2.0 — a browser-based device'
@@ -160,7 +160,7 @@ overview: 'Komodo Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Komodo Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 20 more developer resources.'
-random_paper: 44
+random_paper: 36
 score:
   band: thin
   composite: 37.5
@@ -183,8 +183,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komodohealth/refs/heads/main/screenshots/komodohealth-2026-07-25T224138.png
 security:

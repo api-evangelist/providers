@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Go Kit is a programming toolkit for building microservices in Go, emphasizing domain-driven design, transport-agnostic service definitions, and best practices for distributed systems.
@@ -83,7 +83,7 @@ plans:
 - name: Go Kit Plans Pricing
   plan_count: 3
   slug: go-kit-plans-pricing
-random_paper: 17
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Go Kit Rate Limits
@@ -109,8 +109,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 31.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go-kit/refs/heads/main/screenshots/go-kit-2026-06-20T181936.png
 security:

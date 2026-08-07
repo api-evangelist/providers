@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -98,7 +98,7 @@ plans:
 - name: Defense Security Cooperation Agency Plans Pricing
   plan_count: 3
   slug: defense-security-cooperation-agency-plans-pricing
-random_paper: 56
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Defense Security Cooperation Agency Rate Limits
@@ -115,8 +115,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 20.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
 security:

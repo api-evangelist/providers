@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Obtain and configure machine data from the DataPlatform, Proemion's API-first telematics cloud. Secured with OAuth2 client credentials (OpenID Connect / Keycloak).
@@ -158,7 +158,7 @@ overview: 'Proemion publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Proemion''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, and 20 more developer resources.'
-random_paper: 18
+random_paper: 82
 scopes:
 - name: Proemion Scopes
   scope_count: 12
@@ -178,8 +178,8 @@ score:
   previous_composite: 31.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

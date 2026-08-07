@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Search and retrieve regulatory and clinical documents.
@@ -148,7 +148,7 @@ overview: 'Rhizome Ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Rhizome Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 63
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Rhizome Ai Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.8
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.2
@@ -164,7 +164,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

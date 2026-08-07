@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: International and PlusAI Accelerate Level 4 Autonomous ...
   url: https://news.international.com/2025-10-28-International-and-PlusAI-Accelerate-Level-4-Autonomous-Truck-Development-Powered-by-NVIDIA-DRIVE-AGX-Hyperion-Platform
-random_paper: 37
+random_paper: 57
 score:
   band: minimal
   composite: 4.1
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navistar-international/refs/heads/main/screenshots/navistar-international-2026-06-20T190103.png
 security:

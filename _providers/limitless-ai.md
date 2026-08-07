@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,23 +125,23 @@ plans:
 - name: Limitless Ai Plans Pricing
   plan_count: 1
   slug: limitless-ai-plans-pricing
-random_paper: 89
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
   slug: limitless-ai-rate-limits
 score:
-  band: emerging
-  composite: 24.7
+  band: thin
+  composite: 28.4
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 47.1
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.7
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-06-20T184530.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Payu Plans Pricing
   plan_count: 3
   slug: payu-plans-pricing
-random_paper: 67
+random_paper: 108
 rate_limits:
 - limit_count: 0
   name: Payu Rate Limits
@@ -230,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

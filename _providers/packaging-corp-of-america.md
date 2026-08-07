@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Orion Press Releases
   url: https://www.orionlabs.io/category/press-releases/
-random_paper: 64
+random_paper: 66
 score:
   band: minimal
   composite: 5.4
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packaging-corp-of-america/refs/heads/main/screenshots/packaging-corp-of-america-2026-06-20T191310.png
 security:

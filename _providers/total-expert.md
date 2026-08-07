@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-03'
+  score: 57.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -305,7 +305,7 @@ overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
@@ -343,8 +343,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

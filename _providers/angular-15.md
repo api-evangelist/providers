@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Core Angular 15 framework APIs including stable standalone components, directive composition API, image optimization via NgOptimizedImage, dependency injection improvements, and extended template diag
@@ -123,7 +123,7 @@ plans:
 - name: Angular 15 Plans Pricing
   plan_count: 3
   slug: angular-15-plans-pricing
-random_paper: 38
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Angular 15 Rate Limits
@@ -140,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-15/refs/heads/main/screenshots/angular-15-2026-06-20T171955.png
 security:

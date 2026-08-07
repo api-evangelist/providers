@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Materials Zone publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Materials Zone''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 16 more developer resources.'
-random_paper: 26
+random_paper: 95
 score:
   band: thin
   composite: 41.8
@@ -196,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

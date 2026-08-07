@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ overview: 'Police Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Police Bank''s developer surface includes documentation, support, authentication, and 15 more developer resources.'
-random_paper: 48
+random_paper: 76
 scopes:
 - name: Police Bank Scopes
   scope_count: 5
@@ -183,8 +183,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/screenshots/police-bank-2026-07-21T114745.png
 security:

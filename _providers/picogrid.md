@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-03'
+  score: 44.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'The Legion Platform HTTP API (v3, OpenAPI 3.1.0) for controlling and integrating data from unmanned and mission systems: entities and entity locations, feeds (message and file data) and feed definitio'
@@ -183,7 +183,7 @@ overview: 'Picogrid publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Picogrid''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 89
+random_paper: 58
 scopes:
 - name: Picogrid Scopes
   scope_count: 7
@@ -205,8 +205,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

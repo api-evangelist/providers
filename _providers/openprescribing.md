@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,11 +164,11 @@ overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 90
+random_paper: 28
 score:
   band: thin
   composite: 34.0
-  delta: 9.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.0
@@ -176,7 +176,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 24.1
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,9 +193,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: rising
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Openprescribing Authentication

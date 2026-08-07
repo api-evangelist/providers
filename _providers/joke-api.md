@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: A REST API delivering consistently formatted jokes with filtering by category, language, content flags, and joke type. Supports multiple response formats and requires no authentication.
@@ -88,7 +88,7 @@ plans:
 - name: Joke Api Plans Pricing
   plan_count: 1
   slug: joke-api-plans-pricing
-random_paper: 24
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Joke Api Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 32.3
@@ -104,9 +104,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 25.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 27.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joke-api/refs/heads/main/screenshots/joke-api-2026-06-20T183754.png
 security:

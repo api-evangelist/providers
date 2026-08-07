@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Loyal Introduces Innovative Multi-Experience Platform
   url: https://lifepointhealth.net/news/loyal-introduces-innovative-multi-experience-platform-establishes-five-year-partnership-with-lifepoint-health
-random_paper: 30
+random_paper: 63
 score:
   band: minimal
   composite: 5.4
@@ -87,8 +87,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifepoint-health/refs/heads/main/screenshots/lifepoint-health-2026-06-20T184510.png
 security:

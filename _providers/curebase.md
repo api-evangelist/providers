@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'Curebase is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Curebase''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 82
+random_paper: 51
 score:
   band: emerging
   composite: 19.9
@@ -113,8 +113,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curebase/refs/heads/main/screenshots/curebase-2026-07-25T210932.png
 security:

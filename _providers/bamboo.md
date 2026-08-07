@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -372,7 +372,7 @@ plans:
 - name: Bamboo Plans Pricing
   plan_count: 3
   slug: bamboo-plans-pricing
-random_paper: 54
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Bamboo Rate Limits
@@ -411,8 +411,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:

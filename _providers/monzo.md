@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-03'
+  score: 48.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Monzo API is a REST interface over a user's Monzo account. It exposes accounts, balance, savings pots (with deposit/withdraw), transactions (list, retrieve, annotate with metadata, expand merchant
@@ -171,7 +171,7 @@ overview: 'Monzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monzo''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 21 more developer resources.'
-random_paper: 88
+random_paper: 111
 score:
   band: developing
   composite: 43.1
@@ -194,8 +194,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

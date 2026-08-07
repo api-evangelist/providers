@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
-random_paper: 50
+random_paper: 78
 score:
   band: emerging
   composite: 13.6
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 13.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

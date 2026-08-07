@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -139,7 +139,7 @@ overview: 'UXPin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   UXPin''s developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, signup flow, support, and 17 more developer resources.'
-random_paper: 89
+random_paper: 112
 score:
   band: thin
   composite: 33.1
@@ -154,8 +154,8 @@ score:
   previous_composite: 33.1
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

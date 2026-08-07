@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-03'
+  score: 47.1
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Bharti Airtel publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 30 more developer resources.'
-random_paper: 85
+random_paper: 77
 scopes:
 - name: Bharti Airtel Scopes
   scope_count: 4
@@ -225,16 +225,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 53.4
+  composite: 52.2
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.9
+    contract_quality: 59.3
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 53.4
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

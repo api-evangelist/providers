@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The VeriSign API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Verisign Plans Pricing
   plan_count: 1
   slug: verisign-plans-pricing
-random_paper: 16
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Verisign Rate Limits
@@ -86,8 +86,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 14.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisign/refs/heads/main/screenshots/verisign-2026-06-20T200928.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -124,7 +124,7 @@ plans:
 - name: Selenium Plans Pricing
   plan_count: 3
   slug: selenium-plans-pricing
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Selenium Rate Limits
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
 security:

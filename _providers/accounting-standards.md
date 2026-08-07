@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: Accounting Standards
 nav: Providers
 network: true
-random_paper: 81
+random_paper: 42
 slug: accounting-standards
 tags:
 - Accounting Standards

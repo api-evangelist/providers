@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Ledgy Plans Pricing
   plan_count: 3
   slug: ledgy-plans-pricing
-random_paper: 58
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Ledgy Rate Limits
@@ -144,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/screenshots/ledgy-2026-07-25T224817.png
 security:

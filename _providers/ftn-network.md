@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Paid REST/JSON sports-data API providing real-time and historical data and charting for NFL, NBA, MLB, NHL, PGA, CFB, and CBB, sold across CSV, mid-tier API, and enterprise white-label plans. Access i
@@ -63,7 +63,7 @@ overview: 'FTN Network publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   FTN Network''s developer surface includes pricing and 3 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: minimal
   composite: 8.0
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: ftn-network
 tags:

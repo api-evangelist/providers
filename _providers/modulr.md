@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-03'
+  score: 66.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -225,7 +225,7 @@ overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 29 more developer resources.'
-random_paper: 89
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Modulr Rate Limits
@@ -253,8 +253,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

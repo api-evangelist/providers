@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Apiable provides a self-service API portal platform for API product managers and developers. It offers single-tenant dedicated portals with custom domains, automated API documentation with try-out fun
@@ -91,7 +91,7 @@ plans:
 - name: Apiable Plans Pricing
   plan_count: 3
   slug: apiable-plans-pricing
-random_paper: 53
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Apiable Rate Limits
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 22.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/screenshots/apiable-2026-06-20T172223.png
 security:

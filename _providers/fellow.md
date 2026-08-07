@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for accessing Fellow meeting data — recordings, transcripts, structured notes, and action items — plus recording uploads and webhook management. Uses X-API-KEY authentication, cursor-based pa
@@ -187,7 +187,7 @@ overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: De
 
 
   Fellow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 79
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Fellow Rate Limits
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 55.7
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.4
@@ -208,13 +208,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 65.8
-  previous_composite: 53.0
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/screenshots/fellow-2026-07-25T214332.png
 security:

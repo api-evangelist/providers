@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ plans:
 - name: 42Crunch Plans Pricing
   plan_count: 4
   slug: 42crunch-plans-pricing
-random_paper: 80
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: 42Crunch Rate Limits
@@ -296,8 +296,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/screenshots/42crunch-2026-06-20T162707.png
 security:

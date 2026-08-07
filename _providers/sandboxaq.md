@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -195,10 +195,11 @@ overview: 'SandboxAQ publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   SandboxAQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 28 more developer resources.'
-random_paper: 11
+random_paper: 57
 score:
   band: developing
   composite: 48.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 48.1
@@ -206,13 +207,15 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Sandboxaq Authentication

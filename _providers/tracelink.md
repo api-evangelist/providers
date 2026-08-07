@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-03'
+  score: 45.9
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -313,10 +313,11 @@ overview: 'TraceLink publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 27 more developer resources.'
-random_paper: 7
+random_paper: 53
 score:
   band: developing
   composite: 51.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -324,6 +325,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 31.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -334,8 +336,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Tracelink Authentication

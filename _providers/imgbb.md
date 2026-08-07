@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Imgbb Plans Pricing
   plan_count: 4
   slug: imgbb-plans-pricing
-random_paper: 38
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Imgbb Rate Limits
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/screenshots/imgbb-2026-06-20T183249.png
 security:

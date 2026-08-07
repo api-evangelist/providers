@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-03'
+  score: 27.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -276,23 +276,23 @@ plans:
 - name: Crusoe Energy Plans Pricing
   plan_count: 1
   slug: crusoe-energy-plans-pricing
-random_paper: 22
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Crusoe Energy Rate Limits
   slug: crusoe-energy-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 31.6
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 48.4
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.2
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -306,8 +306,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe-energy/refs/heads/main/screenshots/crusoe-energy-2026-06-20T175307.png
 security:

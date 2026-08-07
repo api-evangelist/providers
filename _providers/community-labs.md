@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Hypura is a storage-tier-aware LLM inference scheduler for Apple Silicon that places model tensors across GPU, RAM, and NVMe tiers so models larger than physical memory can run. Running `hypura serve '
@@ -91,7 +91,7 @@ overview: 'Community Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Community Labs'' developer surface includes CLI, changelog, and 9 more developer resources.'
-random_paper: 35
+random_paper: 104
 score:
   band: emerging
   composite: 15.5
@@ -106,8 +106,8 @@ score:
   previous_composite: 15.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community-labs/refs/heads/main/screenshots/community-labs-2026-07-25T210140.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Zebec Network is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Zebec Network''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 69
+random_paper: 66
 score:
   band: minimal
   composite: 10.8
@@ -98,8 +98,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalki-zebec-kalkire/refs/heads/main/screenshots/kalki-zebec-kalkire-2026-07-25T223436.png
 security:

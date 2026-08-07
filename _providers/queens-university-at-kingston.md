@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -247,7 +247,7 @@ plans:
 - name: Queens University At Kingston Plans Pricing
   plan_count: 2
   slug: queens-university-at-kingston-plans-pricing
-random_paper: 59
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits
@@ -294,8 +294,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png
 security:

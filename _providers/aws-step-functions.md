@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1878,7 +1878,7 @@ plans:
 - name: Aws Step Functions Plans Pricing
   plan_count: 3
   slug: aws-step-functions-plans-pricing
-random_paper: 45
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Aws Step Functions Rate Limits
@@ -1919,8 +1919,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/screenshots/aws-step-functions-2026-06-20T172818.png
 security:

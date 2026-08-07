@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -2936,7 +2936,7 @@ plans:
 - name: Benchling Plans Pricing
   plan_count: 3
   slug: benchling-plans-pricing
-random_paper: 83
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Benchling Rate Limits
@@ -2958,7 +2958,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.1
@@ -2966,7 +2966,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 60.5
-  previous_composite: 45.2
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2980,8 +2980,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:

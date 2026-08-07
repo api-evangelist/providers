@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -140,7 +140,7 @@ plans:
 - name: Jupyter Hub Plans Pricing
   plan_count: 3
   slug: jupyter-hub-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Jupyter Hub Rate Limits
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/screenshots/jupyter-hub-2026-06-20T183837.png
 security:

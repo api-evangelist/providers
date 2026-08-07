@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -192,7 +192,7 @@ overview: 'Propertymark is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Propertymark''s developer surface includes signup flow, developer portal, engineering blog, support, YouTube channel, and 34 more developer resources.'
-random_paper: 93
+random_paper: 85
 score:
   band: emerging
   composite: 17.5
@@ -207,8 +207,8 @@ score:
   previous_composite: 17.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

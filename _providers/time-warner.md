@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Media Consolidation — News & Updates from Open MIC
   url: https://www.openmic.org/news/category/Media+Consolidation
-random_paper: 86
+random_paper: 1
 rules:
 - name: Time Warner API Rules
   rule_count: 5
@@ -130,8 +130,8 @@ score:
     governance: 58.3
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/time-warner/refs/heads/main/screenshots/time-warner-2026-06-20T195359.png
 security:

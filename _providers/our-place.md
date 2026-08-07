@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,7 +84,7 @@ overview: 'Our Place is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Our Place''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 49
+random_paper: 0
 scopes:
 - name: Our Place Scopes
   scope_count: 4
@@ -104,8 +104,8 @@ score:
   previous_composite: 15.0
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

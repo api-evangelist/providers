@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Corgi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Corgi''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 57
+random_paper: 80
 score:
   band: emerging
   composite: 17.1
@@ -106,8 +106,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corgi/refs/heads/main/screenshots/corgi-2026-07-25T210433.png
 security:

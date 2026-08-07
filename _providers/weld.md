@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -207,7 +207,7 @@ overview: 'Weld publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weld''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 21 more developer resources.'
-random_paper: 48
+random_paper: 89
 score:
   band: developing
   composite: 52.1
@@ -230,8 +230,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

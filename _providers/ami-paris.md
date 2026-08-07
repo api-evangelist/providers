@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Agent-facing commerce surface for the AMI Paris Shopify storefront — a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout, fulfillment, discount, and order operations, p
@@ -96,7 +96,7 @@ overview: 'AMI Paris publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   AMI Paris'' developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 44
+random_paper: 108
 scopes:
 - name: Ami Paris Scopes
   scope_count: 4
@@ -117,8 +117,8 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

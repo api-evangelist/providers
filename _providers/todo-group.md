@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
@@ -143,7 +143,7 @@ plans:
 - name: Todo Group Plans Pricing
   plan_count: 3
   slug: todo-group-plans-pricing
-random_paper: 90
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Todo Group Rate Limits
@@ -169,8 +169,8 @@ score:
     governance: 47.9
     operational_transparency: 36.8
   previous_composite: 26.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -107,7 +107,7 @@ plans:
 - name: Microsoft Playwright Plans Pricing
   plan_count: 3
   slug: microsoft-playwright-plans-pricing
-random_paper: 36
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Microsoft Playwright Rate Limits
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 30.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/screenshots/microsoft-playwright-2026-06-20T185519.png
 security:

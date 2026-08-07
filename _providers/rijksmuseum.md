@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ plans:
 - name: Rijksmuseum Plans Pricing
   plan_count: 1
   slug: rijksmuseum-plans-pricing
-random_paper: 75
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Rijksmuseum Rate Limits
@@ -272,7 +272,7 @@ rules:
 score:
   band: thin
   composite: 39.4
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 32.4
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 37.1
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +294,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/screenshots/rijksmuseum-2026-06-20T193120.png
 security:

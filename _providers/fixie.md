@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.1
-  scored_at: '2026-08-03'
+  score: 28.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 58
+random_paper: 81
 score:
   band: developing
   composite: 52.3
@@ -216,8 +216,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:

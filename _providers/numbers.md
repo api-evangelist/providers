@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'Numbers API publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Numbers API''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 4
+random_paper: 86
 rules:
 - name: Numbers API API Rules
   rule_count: 4
@@ -224,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/screenshots/numbers-2026-06-20T190517.png
 security:

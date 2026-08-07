@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-03'
+  score: 45.3
+  scored_at: '2026-08-06'
 api_count: 17
 apis:
 - description: End-customer onboarding — create and manage individual and business Applications, application forms, KYC/KYB document upload, verification, and beneficial owners.
@@ -336,7 +336,7 @@ plans:
 - name: Unit Plans Pricing
   plan_count: 2
   slug: unit-plans-pricing
-random_paper: 68
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Unit Rate Limits
@@ -373,8 +373,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 22
 apis:
 - description: The Admin API from Transload — 36 operation(s) for admin.
@@ -175,7 +175,7 @@ overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 11 more developer resources.'
-random_paper: 18
+random_paper: 64
 score:
   band: thin
   composite: 29.8
@@ -197,8 +197,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

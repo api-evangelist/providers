@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Transportation Mobility Cloud (TMC) is Autonomic's API-driven connected-vehicle cloud platform, letting developers build applications that interact with vehicles across different models and connec
@@ -60,7 +60,7 @@ name: Autonomic
 nav: Providers
 network: true
 overview: Autonomic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Automotive, Connected Vehicles, and Mobility.
-random_paper: 25
+random_paper: 71
 score:
   band: minimal
   composite: 9.8
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomic/refs/heads/main/screenshots/autonomic-2026-07-25T201842.png
 security:

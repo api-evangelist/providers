@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: On-device Smart Data Capture SDK for barcode, MatrixScan, ID, Smart Label, Parser and Text capture, shipped as first-party client libraries for iOS, Android, Web, React Native, Flutter, Cordova, Capac
@@ -139,7 +139,7 @@ overview: 'Scandit publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Scandit''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 77
+random_paper: 64
 score:
   band: thin
   composite: 31.3
@@ -154,8 +154,8 @@ score:
   previous_composite: 31.3
   provenance:
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -64,8 +64,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Norwegian University of Science and Technology",
@@ -83,7 +83,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -151,6 +151,43 @@
      "rank": 3
     },
     {
+     "name": "Aquabyte",
+     "slug": "aquabyte",
+     "description": "Aquabyte AS is a Norwegian-American aquaculture technology company, founded in 2017 with offices in Bergen (Laksevåg), Norway, San Francisco and Chile, that applies computer vision and machine learning to salmon and trout farming. Underwater cameras (Hydra 360, Hammerhead, Atlas) stream imagery into a cloud platform that produces biomass and weight estimation, sea-lice counting, welfare scoring, swim-speed and breathing-index behaviour metrics, environmental readings and feeding decision support, from smolt through harvest. Customers reach that data either through the Aquabyte customer portal at app.aquabyte.ai or through the Aquabyte Public API — a documented, API-key-authenticated REST service at api.aquabyte.ai/v3 whose OpenAPI 3.1 definition is served publicly at api.aquabyte.ai/openapi.json and rendered with ReDoc at /v3/docs.",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 45.0,
+      "governance": 20.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "agent_score": 44.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
+    },
+    {
      "name": "itslearning",
      "slug": "itslearning",
      "description": "itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, giving teachers lesson planning (\"Plans\"), assessment and quizzing, communication, an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1 deprecated since June 2022) for third-party tool and content integration into the itslearning Library.",
@@ -166,7 +203,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 15.3,
      "agent_band": "agent-aware",
@@ -186,7 +223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -215,45 +252,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-05",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "1X Technologies",
-     "slug": "1x-robotics",
-     "description": "1X Technologies (formerly Halodi Robotics) is a Norwegian-American humanoid robotics company building general-purpose bipedal robots designed to live and work alongside people. Founded in 2014 in Norway by Bernt Øyvind Børnich, the company is now headquartered in Palo Alto, California with R&D and manufacturing presence in Moss, Norway and a new vertically integrated NEO factory in Hayward, California. 1X is backed by the OpenAI Startup Fund, EQT Ventures, Tiger Global, Samsung NEXT, and others through Series A2 ($23.5M, 2023), Series B ($100M, 2024), and a $1B raise reported in 2025. Its commercial robots are EVE — a wheeled upper-humanoid deployed in industrial and security settings since 2022 — and NEO, a bipedal home humanoid that began pre-orders October 28, 2025 at $20,000 (or $499/month) with consumer deliveries in 2026. 1X also acquired Kind Humanoid (Jan 2025) and announced a partnership to deploy up to 10,000 NEO robots into EQT portfolio company factories and warehouses between 2026 and 2030. Unlike most humanoid robotics vendors, 1X publishes meaningful open-source artifacts: the EVE ROS2 API (custom WholeBodyTrajectory and DrivingCommand message types) and the halodi-messages package on GitHub under Apache-2.0, plus the 1X World Model Challenge with 100+ hours of vector-quantized EVE observations and GENIE baseline models released on Hugging Face. There is no public REST/HTTP developer API or hosted developer portal — the developer surface is ROS2 messages, robot models in URDF, and the world-model dataset/model artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/1x-robotics/refs/heads/main/screenshots/1x-robotics-2026-06-20T162600.png",
-     "score": 11.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 17.7,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -276,21 +275,22 @@
      "rank": 6
     },
     {
-     "name": "Villoid",
-     "slug": "villoid",
-     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
-     "score": 10.1,
+     "name": "1X Technologies",
+     "slug": "1x-robotics",
+     "description": "1X Technologies (formerly Halodi Robotics) is a Norwegian-American humanoid robotics company building general-purpose bipedal robots designed to live and work alongside people. Founded in 2014 in Norway by Bernt Øyvind Børnich, the company is now headquartered in Palo Alto, California with R&D and manufacturing presence in Moss, Norway and a new vertically integrated NEO factory in Hayward, California. 1X is backed by the OpenAI Startup Fund, EQT Ventures, Tiger Global, Samsung NEXT, and others through Series A2 ($23.5M, 2023), Series B ($100M, 2024), and a $1B raise reported in 2025. Its commercial robots are EVE — a wheeled upper-humanoid deployed in industrial and security settings since 2022 — and NEO, a bipedal home humanoid that began pre-orders October 28, 2025 at $20,000 (or $499/month) with consumer deliveries in 2026. 1X also acquired Kind Humanoid (Jan 2025) and announced a partnership to deploy up to 10,000 NEO robots into EQT portfolio company factories and warehouses between 2026 and 2030. Unlike most humanoid robotics vendors, 1X publishes meaningful open-source artifacts: the EVE ROS2 API (custom WholeBodyTrajectory and DrivingCommand message types) and the halodi-messages package on GitHub under Apache-2.0, plus the 1X World Model Challenge with 100+ hours of vector-quantized EVE observations and GENIE baseline models released on Hugging Face. There is no public REST/HTTP developer API or hosted developer portal — the developer surface is ROS2 messages, robot models in URDF, and the world-model dataset/model artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/1x-robotics/refs/heads/main/screenshots/1x-robotics-2026-06-20T162600.png",
+     "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "contract_quality": 17.7,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -313,6 +313,43 @@
      "rank": 7
     },
     {
+     "name": "Villoid",
+     "slug": "villoid",
+     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Nextgentel",
      "slug": "nextgentel",
      "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
@@ -327,7 +364,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -354,7 +391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Dimeq",
@@ -372,45 +409,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Energy Micro",
-     "slug": "energy-micro",
-     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -433,9 +432,10 @@
      "rank": 10
     },
     {
-     "name": "Mamut",
-     "slug": "mamut",
-     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "name": "Energy Micro",
+     "slug": "energy-micro",
+     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -447,7 +447,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-05",
+     "scored_at": "2026-08-06",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -468,21 +468,42 @@
       "dry_run_mode": false
      },
      "rank": 11
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
-     "name": "Aquabyte",
-     "slug": "aquabyte",
-     "description": "Aquabyte AS is a Norwegian-American aquaculture technology company, founded in 2017 with offices in Bergen (Laksevåg), Norway, San Francisco and Chile, that applies computer vision and machine learning to salmon and trout farming. Underwater cameras (Hydra 360, Hammerhead, Atlas) stream imagery into a cloud platform that produces biomass and weight estimation, sea-lice counting, welfare scoring, swim-speed and breathing-index behaviour metrics, environmental readings and feeding decision support, from smolt through harvest. Customers reach that data either through the Aquabyte customer portal at app.aquabyte.ai or through the Aquabyte Public API — a documented, API-key-authenticated REST service at api.aquabyte.ai/v3 whose OpenAPI 3.1 definition is served publicly at api.aquabyte.ai/openapi.json and rendered with ReDoc at /v3/docs.",
+     "name": "Mamut",
+     "slug": "mamut",
+     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 12
     }
    ]

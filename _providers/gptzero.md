@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Gptzero Plans
   plan_count: 4
   slug: gptzero-plans
-random_paper: 19
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Gptzero Rate Limits
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 57.4
@@ -206,7 +206,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 55.5
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:

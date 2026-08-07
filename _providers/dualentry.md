@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-03'
+  score: 48.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for programmatic access to an organization's accounting data across setup (accounts, items, classifications), master data (companies, customers, vendors), transactions (invoices, bills, journ
@@ -171,7 +171,7 @@ overview: 'DualEntry publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   DualEntry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 34
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Dualentry Rate Limits
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.3
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -187,12 +187,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 60.5
-  previous_composite: 50.2
+  previous_composite: 54.3
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dualentry/refs/heads/main/screenshots/dualentry-2026-07-25T212448.png
 security:

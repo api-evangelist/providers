@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: Server-side API for generating signed payment requests that redirect customers to the LiqPay hosted checkout page. Supports one-time payments, donations, split payments, two-stage holds, and QR-code p
@@ -136,7 +136,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 86
+random_paper: 91
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

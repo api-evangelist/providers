@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -281,7 +281,7 @@ plans:
 - name: Increase Plans Pricing
   plan_count: 1
   slug: increase-plans-pricing
-random_paper: 82
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Increase Rate Limits
@@ -311,8 +311,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:

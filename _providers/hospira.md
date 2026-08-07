@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Hospira and Javelin Pharmaceuticals Enter Into Definitive ...
   url: https://www.prnewswire.com/news-releases/hospira-and-javelin-pharmaceuticals-enter-into-definitive-merger-agreement-for-hospira-to-acquire-javelin-pharmaceuticals-hospira-will-initiate-tender-offer-91461444.html
-random_paper: 93
+random_paper: 80
 score:
   band: minimal
   composite: 4.6
@@ -91,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

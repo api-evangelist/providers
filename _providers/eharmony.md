@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -34,7 +34,7 @@ name: eHarmony
 nav: Providers
 network: true
 overview: eHarmony is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 12
+random_paper: 76
 score:
   band: minimal
   composite: 3.7
@@ -47,8 +47,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 3.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eharmony/refs/heads/main/screenshots/eharmony-2026-07-25T212956.png
 slug: eharmony

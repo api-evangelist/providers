@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -164,7 +164,7 @@ overview: 'CodSpeed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CodSpeed''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 79
+random_paper: 48
 score:
   band: thin
   composite: 40.6
@@ -181,8 +181,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/screenshots/codspeed-2026-07-25T205952.png
 security:

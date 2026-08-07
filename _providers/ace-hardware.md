@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -145,7 +145,7 @@ plans:
 - name: Ace Hardware Plans Pricing
   plan_count: 3
   slug: ace-hardware-plans-pricing
-random_paper: 48
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Ace Hardware Rate Limits
@@ -171,8 +171,8 @@ score:
     governance: 68.8
     operational_transparency: 31.6
   previous_composite: 36.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Sourcehut GraphQL API provides programmatic access to all sr.ht services including git hosting, Mercurial hosting, build pipelines, mailing lists, bug tracking, and account management. Each servic
@@ -91,7 +91,7 @@ overview: 'Sourcehut GraphQL publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Sourcehut GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 80
+random_paper: 95
 score:
   band: emerging
   composite: 23.4
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcehut-graphql/refs/heads/main/screenshots/sourcehut-graphql-2026-06-20T194224.png
 security:

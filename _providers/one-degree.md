@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -166,7 +166,7 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 37
+random_paper: 83
 score:
   band: developing
   composite: 42.2
@@ -194,8 +194,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

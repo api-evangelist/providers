@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,7 +127,7 @@ overview: 'GE Vernova is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GE Vernova''s developer surface includes product news, YouTube channel, and 19 more developer resources.'
-random_paper: 68
+random_paper: 1
 score:
   band: emerging
   composite: 13.0
@@ -146,8 +146,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/screenshots/ge-vernova-2026-06-20T181707.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Public and authenticated REST API on api.ledgerx.com covering exchange contracts, traded contracts, contract tickers, positions, trades (own and global), upcoming exchange holidays and account balance
@@ -139,7 +139,7 @@ overview: 'LedgerX (MIAX Derivatives Exchange) publishes 1 API on the [APIs.io](
 
 
   LedgerX (MIAX Derivatives Exchange)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 82
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Ledgerx Rate Limits
@@ -164,8 +164,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgerx/refs/heads/main/screenshots/ledgerx-2026-07-25T224817.png
 security:

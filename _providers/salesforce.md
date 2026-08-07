@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -17163,7 +17163,7 @@ press:
 - date: '2026-05-21'
   title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
-random_paper: 27
+random_paper: 32
 rate_limits:
 - limit_count: 6
   name: Salesforce Rate Limits
@@ -17219,8 +17219,8 @@ score:
       marker_coverage: 0.0
       total: 256
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -174,7 +174,7 @@ press:
 - date: '2026-05-25'
   title: Financials - Quarterly Results - Unum Group - Investor Relations
   url: https://investors.unum.com/financials/quarterly-results/default.aspx
-random_paper: 73
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Unum Rate Limits
@@ -226,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png
 security:

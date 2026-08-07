@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Read-only GraphQL data service (Mirror Graph) exposing Mirror Protocol state — synthetic assets (mAssets), prices, positions, and staking — from a single unauthenticated HTTP POST endpoint, with a Gra
@@ -132,7 +132,7 @@ overview: 'Mirror publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mirror''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 13 more developer resources.'
-random_paper: 2
+random_paper: 102
 score:
   band: emerging
   composite: 25.0
@@ -148,8 +148,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

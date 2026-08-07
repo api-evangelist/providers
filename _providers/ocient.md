@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Ocient HTTP Query API executes SQL statements against an Ocient System over HTTPS and returns results as JSON. It runs on the SQL Nodes of an Ocient deployment behind an OpenAPI-enabled connectivi
@@ -189,10 +189,11 @@ overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: H
 
 
   Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
-random_paper: 72
+random_paper: 77
 score:
   band: developing
   composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 52.7
@@ -200,6 +201,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 21.1
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     contracts:
@@ -209,8 +211,9 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Ocient Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -112,7 +112,7 @@ overview: 'Level is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Level''s developer surface includes documentation, getting-started guide, support, and 14 more developer resources.'
-random_paper: 61
+random_paper: 84
 score:
   band: emerging
   composite: 20.4
@@ -127,8 +127,8 @@ score:
   previous_composite: 20.4
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level/refs/heads/main/screenshots/level-2026-07-25T224942.png
 security:

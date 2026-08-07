@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-03'
+  score: 28.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ mcp_servers:
 - description: ''
   name: colossal-biosciences-mcp.yml
   slug: colossal-biosciences-mcpyml
-modified: '2026-08-02'
+modified: '2026-08-04'
 name: Colossal Biosciences
 nav: Providers
 network: true
@@ -140,17 +140,19 @@ overview: 'Colossal Biosciences publishes 1 API on the [APIs.io](https://apis.io
 
 
   Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 73
+random_paper: 34
 score:
   band: emerging
-  composite: 25.3
+  composite: 25.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 15.1
-    developer_ergonomics: 19.6
+    developer_ergonomics: 14.7
     discoverability: 87.0
-    governance: 3.1
+    governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -160,14 +162,16 @@ score:
       marker_coverage: 100.0
       total: 1
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Colossal Biosciences Authentication

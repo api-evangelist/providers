@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 31
 apis:
 - description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
@@ -242,7 +242,7 @@ overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hevn Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 19 more developer resources.'
-random_paper: 32
+random_paper: 1
 score:
   band: developing
   composite: 43.8
@@ -270,8 +270,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/screenshots/hevn-inc-2026-07-25T221107.png
 security:

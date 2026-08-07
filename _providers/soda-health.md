@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The docs API from Soda Health — 10 operation(s) for docs.
@@ -121,7 +121,7 @@ overview: 'Soda Health publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Soda Health''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 53
+random_paper: 81
 score:
   band: thin
   composite: 30.0
@@ -149,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

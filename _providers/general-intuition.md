@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -95,7 +95,7 @@ overview: 'General Intuition is profiled on the [APIs.io](https://apis.io/) netw
 
 
   General Intuition''s developer surface includes signup flow, documentation, engineering blog, and 10 more developer resources.'
-random_paper: 64
+random_paper: 79
 score:
   band: emerging
   composite: 16.4
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-intuition/refs/heads/main/screenshots/general-intuition-2026-07-25T215542.png
 slug: general-intuition

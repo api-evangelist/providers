@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Primerica API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Primerica Plans Pricing
   plan_count: 1
   slug: primerica-plans-pricing
-random_paper: 6
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Primerica Rate Limits
@@ -92,8 +92,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primerica/refs/heads/main/screenshots/primerica-2026-06-20T192103.png
 security:

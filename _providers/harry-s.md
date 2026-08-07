@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'Anonymous Model Context Protocol server exposed by the Harry''s storefront at /api/mcp. Five tools — search_catalog, get_product_details, get_cart, update_cart and search_shop_policies_and_faqs — each '
@@ -113,7 +113,7 @@ overview: 'Mammoth Brands publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Mammoth Brands'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 45
+random_paper: 32
 scopes:
 - name: Harry S Scopes
   scope_count: 4
@@ -122,6 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 20.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -129,12 +130,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Harry S Authentication

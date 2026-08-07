@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Basis Set Ventures is profiled on the [APIs.io](https://apis.io/) net
 
 
   Basis Set Ventures'' developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 39
+random_paper: 36
 score:
   band: minimal
   composite: 7.3
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis-set-ventures/refs/heads/main/screenshots/basis-set-ventures-2026-07-25T202426.png
 security:

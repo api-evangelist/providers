@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: bash.gg
 nav: Providers
 network: true
 overview: bash.gg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Marketplace, Indie Games, and Web3.
-random_paper: 50
+random_paper: 55
 score:
   band: minimal
   composite: 5.7
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bashgg/refs/heads/main/screenshots/bashgg-2026-07-25T202444.png
 slug: bashgg

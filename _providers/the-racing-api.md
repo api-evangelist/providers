@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1298,7 +1298,7 @@ plans:
 - name: The Racing Api Plans Pricing
   plan_count: 1
   slug: the-racing-api-plans-pricing
-random_paper: 23
+random_paper: 110
 rate_limits:
 - limit_count: 1
   name: The Racing Api Rate Limits
@@ -1339,8 +1339,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/screenshots/the-racing-api-2026-06-20T195235.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Linde API provides access to platform services and data for enterprise integration and automation.
@@ -76,7 +76,7 @@ plans:
 - name: Linde Plans Pricing
   plan_count: 1
   slug: linde-plans-pricing
-random_paper: 49
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Linde Rate Limits
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linde/refs/heads/main/screenshots/linde-2026-06-20T184537.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Software Engineering Daily provides RSS podcast feeds for its main episode stream as well as topic-specific feeds. These standard podcast RSS feeds are compatible with all major podcast clients includ
@@ -142,7 +142,7 @@ plans:
 - name: Software Engineering Daily Plans Pricing
   plan_count: 3
   slug: software-engineering-daily-plans-pricing
-random_paper: 94
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Software Engineering Daily Rate Limits
@@ -168,8 +168,8 @@ score:
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 38.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/screenshots/software-engineering-daily-2026-06-20T194137.png
 security:

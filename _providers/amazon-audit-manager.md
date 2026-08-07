@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -685,7 +685,7 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Amazon Audit Manager''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 7
+random_paper: 81
 rules:
 - name: Amazon Audit Manager API Rules
   rule_count: 4
@@ -724,8 +724,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

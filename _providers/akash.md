@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,17 +19,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 41.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -256,23 +256,23 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 45
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 41.6
+  band: developing
+  composite: 42.3
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 45.2
+    contract_quality: 48.3
     developer_ergonomics: 39.1
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.6
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -280,8 +280,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/screenshots/akash-2026-06-20T171446.png
 security:

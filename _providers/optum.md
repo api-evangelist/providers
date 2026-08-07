@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: RESTful, JSON and X12 EDI (270/271, 837, 276/277, 835) healthcare transaction APIs for real-time patient eligibility and coverage verification, professional and institutional claim validation and subm
@@ -134,7 +134,7 @@ overview: 'Optum publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Optum''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 13 more developer resources.'
-random_paper: 90
+random_paper: 0
 score:
   band: thin
   composite: 31.8
@@ -155,8 +155,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -723,7 +723,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 60
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -739,16 +739,16 @@ rules:
   slug: inaturalist-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 2.7
+  composite: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 45.2
+    contract_quality: 51.1
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -756,8 +756,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/screenshots/inaturalist-2026-06-20T183309.png
 security:

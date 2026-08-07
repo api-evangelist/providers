@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -128,7 +128,7 @@ overview: 'Enterpret is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Enterpret''s developer surface includes documentation, support, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 35
+random_paper: 81
 score:
   band: thin
   composite: 32.2
@@ -144,8 +144,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/screenshots/enterpret-2026-07-25T213428.png
 security:

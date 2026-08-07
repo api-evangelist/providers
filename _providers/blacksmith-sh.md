@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: Drop-in faster GitHub-hosted runner replacement selected by changing the runs-on tag (e.g. blacksmith-2vcpu-ubuntu-2404). Linux/Windows jobs run in ephemeral Firecracker microVMs; x64, ARM64, and macO
@@ -129,7 +129,7 @@ plans:
 - name: Blacksmith Sh Plans Pricing
   plan_count: 4
   slug: blacksmith-sh-plans-pricing
-random_paper: 87
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Blacksmith Sh Rate Limits
@@ -151,8 +151,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/screenshots/blacksmith-sh-2026-06-20T173338.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ overview: 'Alto (Vebra / Zoopla) publishes 4 APIs on the [APIs.io](https://apis.
 
 
   Alto (Vebra / Zoopla)''s developer surface includes authentication, documentation, developer portal, engineering blog, support, changelog, sandbox, and 36 more developer resources.'
-random_paper: 55
+random_paper: 101
 scopes:
 - name: Alto Vebra Scopes
   scope_count: 104
@@ -249,16 +249,16 @@ scopes:
   summary_line: 104 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.8
+  composite: 50.2
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.6
+    contract_quality: 60.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 50.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,8 +269,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

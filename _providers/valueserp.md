@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Valueserp Plans Pricing
   plan_count: 12
   slug: valueserp-plans-pricing
-random_paper: 33
+random_paper: 79
 rate_limits:
 - limit_count: 11
   name: Valueserp Rate Limits
@@ -188,7 +188,7 @@ rules:
 score:
   band: strong
   composite: 56.4
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 78.3
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 52.3
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:

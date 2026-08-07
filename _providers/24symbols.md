@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,7 +79,7 @@ overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   24Symbols'' developer surface includes support, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 24
+random_paper: 88
 score:
   band: emerging
   composite: 15.2
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/24symbols/refs/heads/main/screenshots/24symbols-2026-07-25T181159.png
 slug: 24symbols

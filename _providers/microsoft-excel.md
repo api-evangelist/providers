@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -418,7 +418,7 @@ plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 36
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits
@@ -466,8 +466,8 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

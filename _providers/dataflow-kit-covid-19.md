@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: COVID-19 live statistics into sites per hour
@@ -56,7 +56,7 @@ name: Dataflow Kit COVID-19
 nav: Providers
 network: true
 overview: Dataflow Kit COVID-19 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 52
+random_paper: 31
 score:
   band: minimal
   composite: 6.0
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataflow-kit-covid-19/refs/heads/main/screenshots/dataflow-kit-covid-19-2026-06-20T175644.png
 security:

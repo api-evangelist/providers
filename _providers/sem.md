@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-03'
+  score: 37.4
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Xiaoe's Open API (开放API) for integrating store data and operations — users, products, orders, refunds, live broadcasts, learning/course data, marketing (coupons, group-buy, promoters) and points — int
@@ -115,7 +115,7 @@ overview: 'Xiaoe (小鹅通) publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Xiaoe (小鹅通)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 10 more developer resources.'
-random_paper: 40
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Sem Rate Limits
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 36.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

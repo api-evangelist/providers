@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,16 +27,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-03'
+  score: 41.9
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
   name: Swagger Codegen Agentic Access
-  operation_count: 7
+  operation_count: 10
   slug: swagger-codegen-agentic-access
-  summary_line: 7 operations · 3 acting
-api_count: 5
+  summary_line: 10 operations · 3 acting
+api_count: 6
 apis:
 - description: The Swagger Codegen command-line interface for generating code artifacts locally. Available as a JAR file and Docker image. Supports the same generators as the online API with additional template cust
   name: Swagger Codegen CLI
@@ -53,7 +53,10 @@ apis:
 - description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-artifact_total: 18
+- description: The legacy 2.x Swagger Generator service at generator.swagger.io, still maintained alongside the 3.x line (v2.4.52 released 2026-04-15). Generates clients and server stubs from Swagger 1.x/2.0 definit
+  name: Swagger Generator V2 API
+  slug: swagger-generator-v2-api
+artifact_total: 22
 collections:
 - collection_type: open
   name: Swagger Generator API
@@ -111,6 +114,106 @@ common:
   title: ''
   type: Gradle Plugin
   url: https://plugins.gradle.org/plugin/org.hidetake.swagger.generator
+- group: build
+  title: ''
+  type: Packages
+  url: packages/swagger-codegen-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/swagger-codegen-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/swagger-codegen-cli.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/swagger-codegen-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/swagger-codegen-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/swagger-codegen-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/swagger-codegen-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/swagger-codegen-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.smartbear.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/swagger-codegen-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/swagger-codegen-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/swagger-codegen-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.smartbear.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/swagger-codegen-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/swagger-codegen-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://smartbear.com/security/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/swagger-codegen-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/swagger-codegen-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://generator3.swagger.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/swagger-api/swagger-codegen#getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://swagger.io/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://swagger.io/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://smartbear.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://smartbear.com/privacy/
 created: '2026-03-16'
 description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradle plugin, and online REST API at generator3.swagger.io.
 examples:
@@ -139,22 +242,22 @@ jsonld:
   property_count: 27
   slug: swagger-codegen-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 1 more. Tagged areas include Client Libraries, Code Generation, Open Source, OpenAPI, and SDK.
+overview: 'Swagger Codegen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 2 more. Tagged areas include Client Libraries, Code Generation, Open Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, and 10 more developer resources.'
+  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 31 more developer resources.'
 plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
   slug: swagger-codegen-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Swagger Codegen Rate Limits
@@ -177,16 +280,16 @@ rules:
     warn: 5
   slug: swagger-codegen-rules
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: exemplar
+  composite: 75.4
+  delta: 27.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.3
-    developer_ergonomics: 17.4
-    discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 76.3
+    contract_quality: 61.5
+    developer_ergonomics: 78.3
+    discoverability: 83.3
+    governance: 79.2
+    operational_transparency: 86.8
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -195,15 +298,27 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
-  trend: flat
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
+- kind: authentication
+  name: Swagger Codegen Authentication
+  slug: swagger-codegen-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Swagger Codegen Domain Security
   slug: swagger-codegen-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Swagger Codegen Vulnerability Disclosure
+  slug: swagger-codegen-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Swagger Codegen Trust Center
+  slug: swagger-codegen-trust-center
+  summary_line: SOC 2, ISO/IEC 27001, GDPR, CCPA, NIST CSF
 slug: swagger-codegen
 tags:
 - Client Libraries

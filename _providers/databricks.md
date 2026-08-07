@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -997,7 +997,7 @@ plans:
 - name: Databricks Plans Pricing
   plan_count: 5
   slug: databricks-plans-pricing
-random_paper: 3
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Databricks Rate Limits
@@ -1038,8 +1038,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,7 +55,7 @@ overview: 'Barefoot Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Barefoot Networks'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 78
+random_paper: 93
 score:
   band: minimal
   composite: 7.4
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barefoot-networks/refs/heads/main/screenshots/barefoot-networks-2026-07-25T202406.png
 slug: barefoot-networks

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST-like API for managing contacts, jobs, tasks, files, and workflow automation in JobNimbus. Supports GET, PUT, and POST methods with JSON payloads. Authentication uses an API key generated from the
@@ -83,7 +83,7 @@ overview: 'JobNimbus publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   JobNimbus'' developer surface includes documentation, pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 19
+random_paper: 65
 score:
   band: minimal
   composite: 12.7
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobnimbus/refs/heads/main/screenshots/jobnimbus-2026-06-20T183745.png
 security:

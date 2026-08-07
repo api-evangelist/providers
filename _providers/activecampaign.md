@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 162
   human_in_the_loop: 2
@@ -200,7 +200,7 @@ arazzos:
 - description: Apply a tag to an existing contact then enroll it in an automation.
   name: ActiveCampaign Tag a Contact and Enroll in Automation
   slug: activecampaign-tag-contact-and-enroll-automation-workflow
-artifact_total: 165
+artifact_total: 166
 asyncapis:
 - description: AsyncAPI description of ActiveCampaign's outbound webhook surface. When a webhook is configured (via the dashboard or the REST API at POST /api/3/webhooks), ActiveCampaign delivers events as HTTP POST
   name: ActiveCampaign Webhooks
@@ -219,6 +219,26 @@ collections:
   name: ActiveCampaign API v3
   slug: open-activecampaign-v3
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/activecampaign-trust-center.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.activecampaign.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.activecampaign.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.activecampaign.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.activecampaign.com/signup/
 - group: other
   title: ''
   type: AgentCard
@@ -637,12 +657,12 @@ overview: 'ActiveCampaign publishes 36 APIs on the [APIs.io](https://apis.io/) n
   The ActiveCampaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ActiveCampaign''s developer surface includes authentication, developer portal, getting-started guide, pricing, engineering blog, FAQ, and 39 more developer resources.'
+  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 43 more developer resources.'
 plans:
 - name: Activecampaign Plans Pricing
   plan_count: 3
   slug: activecampaign-plans-pricing
-random_paper: 43
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Activecampaign Rate Limits
@@ -673,17 +693,17 @@ rules:
     warn: 12
   slug: activecampaign-spectral-rules
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 58.7
   delta: 0.0
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 71.1
     contract_quality: 45.8
-    developer_ergonomics: 52.2
+    developer_ergonomics: 65.2
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 51.8
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -691,8 +711,8 @@ score:
       derived: 36
       marker_coverage: 100.0
       total: 36
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
@@ -704,6 +724,10 @@ security:
   name: Activecampaign Domain Security
   slug: activecampaign-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Activecampaign Trust Center
+  slug: activecampaign-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
 skill_count: 6
 skills:
 - name: postmark-email-best-practices
@@ -749,5 +773,5 @@ use_cases:
   name: SMS Broadcast Campaigns
 - description: Build real-time integrations using webhooks for contact and campaign activity events.
   name: Webhook-Driven Integrations
-website: https://developers.activecampaign.com/
+website: https://www.activecampaign.com
 ---

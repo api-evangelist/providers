@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ overview: 'Foundation Building Materials is profiled on the [APIs.io](https://ap
 
 
   Foundation Building Materials'' developer surface includes developer portal, documentation, engineering blog, FAQ, support, signup flow, getting-started guide, and 7 more developer resources.'
-random_paper: 32
+random_paper: 39
 score:
   band: emerging
   composite: 16.2
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation-building-materials/refs/heads/main/screenshots/foundation-building-materials-2026-06-20T181456.png
 security:

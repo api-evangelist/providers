@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -623,7 +623,7 @@ plans:
 - name: Pinwheel Plans Pricing
   plan_count: 3
   slug: pinwheel-plans-pricing
-random_paper: 5
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Pinwheel Rate Limits
@@ -662,8 +662,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:

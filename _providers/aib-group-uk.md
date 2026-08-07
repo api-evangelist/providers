@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,19 +175,19 @@ overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 17 more developer resources.'
-random_paper: 31
+random_paper: 41
 score:
   band: thin
-  composite: 39.3
+  composite: 40.3
   delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 32.3
+    contract_quality: 37.2
     developer_ergonomics: 47.3
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 39.3
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -203,8 +203,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
 security:

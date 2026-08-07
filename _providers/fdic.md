@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Fdic Plans Pricing
   plan_count: 1
   slug: fdic-plans-pricing
-random_paper: 26
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Fdic Rate Limits
@@ -177,7 +177,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.1
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 37.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png
 security:

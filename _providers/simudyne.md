@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API and Python SDK for tick-level synthetic market data — L1 quotes, L2 order book depth, trades, and individual order events at millisecond resolution, returned as Polars DataFrames. Free tier a
@@ -112,7 +112,7 @@ overview: 'Simudyne publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Simudyne''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 23
+random_paper: 87
 score:
   band: emerging
   composite: 27.7
@@ -131,8 +131,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

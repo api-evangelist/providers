@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -38,7 +38,7 @@ name: Maker.me
 nav: Providers
 network: true
 overview: Maker.me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 73
+random_paper: 60
 scopes:
 - name: Makerme Scopes
   scope_count: 0
@@ -59,8 +59,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerme/refs/heads/main/screenshots/makerme-2026-07-25T225948.png
 security:

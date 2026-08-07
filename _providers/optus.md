@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-03'
+  score: 39.4
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -224,14 +224,14 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 1
+random_paper: 6
 score:
   band: developing
   composite: 54.7
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.7
+    contract_quality: 53.1
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 20.8
@@ -253,8 +253,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 68.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

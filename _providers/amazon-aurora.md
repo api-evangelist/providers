@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -636,7 +636,7 @@ overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Aurora''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 11
+random_paper: 98
 rules:
 - name: Amazon Aurora API Rules
   rule_count: 5
@@ -675,8 +675,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/screenshots/amazon-aurora-2026-07-25T195929.png
 security:

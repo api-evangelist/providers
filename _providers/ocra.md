@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: OCRA
 nav: Providers
 network: true
 overview: OCRA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, OCRA, OTP, and Security.
-random_paper: 41
+random_paper: 82
 score:
   band: minimal
   composite: 5.4
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocra/refs/heads/main/screenshots/ocra-2026-06-20T190607.png
 slug: ocra

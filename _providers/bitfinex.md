@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Cryptocurrency Trading Platform
@@ -70,7 +70,7 @@ overview: 'Bitfinex publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Bitfinex''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 2
+random_paper: 66
 rules:
 - name: Bitfinex API Rules
   rule_count: 6
@@ -92,8 +92,8 @@ score:
     governance: 47.9
     operational_transparency: 0.0
   previous_composite: 24.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinex/refs/heads/main/screenshots/bitfinex-2026-06-20T173307.png
 security:

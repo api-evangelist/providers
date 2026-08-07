@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Dandy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dandy''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 53
+random_paper: 76
 score:
   band: emerging
   composite: 16.4
@@ -106,8 +106,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dandy/refs/heads/main/screenshots/dandy-2026-07-25T211158.png
 security:

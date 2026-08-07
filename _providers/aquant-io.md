@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ overview: 'Aquant is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aquant''s developer surface includes engineering blog, documentation, signup flow, and 9 more developer resources.'
-random_paper: 56
+random_paper: 7
 score:
   band: emerging
   composite: 17.9
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant-io/refs/heads/main/screenshots/aquant-io-2026-07-25T200949.png
 security:

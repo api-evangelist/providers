@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: CKAN Action API for Leipzig Open Data, ~395 datasets. Base URL https://opendata.leipzig.de/api/3/action/.
@@ -84,7 +84,7 @@ plans:
 - name: Opendata Leipzig De Plans Pricing
   plan_count: 1
   slug: opendata-leipzig-de-plans-pricing
-random_paper: 86
+random_paper: 83
 rate_limits:
 - limit_count: 0
   name: Opendata Leipzig De Rate Limits
@@ -107,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-leipzig-de/refs/heads/main/screenshots/opendata-leipzig-de-2026-06-20T190942.png
 security:

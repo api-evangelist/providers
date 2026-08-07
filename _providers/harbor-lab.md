@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Harbor Lab is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Harbor Lab''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 36
+random_paper: 82
 score:
   band: emerging
   composite: 13.1
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-lab/refs/heads/main/screenshots/harbor-lab-2026-07-25T220741.png
 slug: harbor-lab

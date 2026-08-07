@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Programmatically search Planet's imagery catalog by geometry, date range, cloud cover and other filters, then discover the items and downloadable assets that match. Supports item search, asset activat
@@ -199,7 +199,7 @@ overview: 'Planet publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Planet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 26 more developer resources.'
-random_paper: 74
+random_paper: 79
 scopes:
 - name: Planet Scopes
   scope_count: 5
@@ -220,8 +220,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

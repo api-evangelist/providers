@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 27 more developer resources.'
-random_paper: 73
+random_paper: 29
 scopes:
 - name: Triodos Bank Uk Scopes
   scope_count: 5
@@ -239,8 +239,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 94.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

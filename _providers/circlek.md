@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Inner Circle Rewards is Circle K's free loyalty program letting members earn fuel discounts, food rewards, and other in-store rewards. Membership is managed via the Circle K mobile app, website, and i
@@ -114,7 +114,7 @@ overview: 'Circle K publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Circle K''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 68
+random_paper: 55
 score:
   band: minimal
   composite: 10.4
@@ -133,8 +133,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circlek/refs/heads/main/screenshots/circlek-2026-06-20T174350.png
 security:

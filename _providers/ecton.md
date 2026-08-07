@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Ecton is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ecton''s developer surface includes engineering blog, signup flow, changelog, and 9 more developer resources.'
-random_paper: 62
+random_paper: 85
 score:
   band: emerging
   composite: 20.7
@@ -112,8 +112,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecton/refs/heads/main/screenshots/ecton-2026-07-25T212815.png
 security:

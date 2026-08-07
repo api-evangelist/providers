@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11_20). It authenticates with two-legged OAuth 2.0 (password + refresh_token grants, OAuth-To
@@ -152,7 +152,7 @@ overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SugarCRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 13
+random_paper: 77
 score:
   band: thin
   composite: 36.9
@@ -167,8 +167,8 @@ score:
   previous_composite: 36.9
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Customizable typing and deleting text SVG
@@ -52,7 +52,7 @@ name: Readme typing SVG
 nav: Providers
 network: true
 overview: Readme typing SVG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 5
+random_paper: 20
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme-typing-svg/refs/heads/main/screenshots/readme-typing-svg-2026-06-20T192638.png
 slug: readme-typing-svg

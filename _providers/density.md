@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-03'
+  score: 40.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Density v3 Public API for real-time occupancy and presence, historical space metrics (occupancy, utilization, time used, sessions), spaces / doorways / sensors / labels management, sensor and space he
@@ -163,7 +163,7 @@ overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Density''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 19 more developer resources.'
-random_paper: 8
+random_paper: 90
 score:
   band: developing
   composite: 46.1
@@ -179,8 +179,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/screenshots/density-2026-07-25T211718.png
 security:

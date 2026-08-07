@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Human Resources surface of the legacy Certn API used to invite applicants to a hosted screening application, run instant "quick" screens from a single request body, add package items to existing appli
@@ -171,7 +171,7 @@ overview: 'Certn publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Certn''s developer surface includes developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 49
+random_paper: 0
 score:
   band: emerging
   composite: 24.6
@@ -184,8 +184,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certn-com/refs/heads/main/screenshots/certn-com-2026-06-20T174150.png
 security:

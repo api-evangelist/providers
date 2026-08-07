@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -777,7 +777,7 @@ plans:
 - name: Oanda Plans Pricing
   plan_count: 6
   slug: oanda-plans-pricing
-random_paper: 40
+random_paper: 63
 rate_limits:
 - limit_count: 6
   name: Oanda Rate Limits
@@ -793,16 +793,16 @@ rules:
   slug: oanda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 50.2
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 45.2
+    contract_quality: 55.0
     developer_ergonomics: 45.7
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 47.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -810,8 +810,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:

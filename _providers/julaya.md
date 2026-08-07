@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Auth-gated partner integration API for programmatic disbursement (mobile money and bank transfers) and collection (cash and mobile money) across the UEMOA zone. Access is provisioned for enterprise/pa
@@ -91,7 +91,7 @@ overview: 'Julaya publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Julaya''s developer surface includes signup flow, pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 76
+random_paper: 81
 score:
   band: emerging
   composite: 21.6
@@ -110,8 +110,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julaya/refs/heads/main/screenshots/julaya-2026-07-25T223259.png
 security:

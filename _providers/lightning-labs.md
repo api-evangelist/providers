@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -87,23 +87,23 @@ plans:
 - name: Lightning Labs Plans Pricing
   plan_count: 3
   slug: lightning-labs-plans-pricing
-random_paper: 2
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Lightning Labs Rate Limits
   slug: lightning-labs-rate-limits
 score:
   band: emerging
-  composite: 23.7
+  composite: 25.1
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 38.8
     developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 23.7
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     contracts:
@@ -117,8 +117,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/screenshots/lightning-labs-2026-06-20T184519.png
 security:

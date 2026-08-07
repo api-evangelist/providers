@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -136,7 +136,7 @@ overview: 'Fi Money is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fi Money''s developer surface includes privacy policy, FAQ, engineering blog, GitHub presence, and 19 more developer resources.'
-random_paper: 44
+random_paper: 13
 score:
   band: minimal
   composite: 12.6
@@ -155,8 +155,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fi-money/refs/heads/main/screenshots/fi-money-2026-06-20T181146.png
 security:

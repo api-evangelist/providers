@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Marketing-partner REST API for MyRealTrip. Search flights (domestic and international, lowest-fare calendars), accommodations, and tours/tickets; generate trackable MyLink short URLs; and retrieve rev
@@ -132,7 +132,7 @@ overview: 'My Real Trip publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   My Real Trip''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, sandbox, and 14 more developer resources.'
-random_paper: 47
+random_paper: 57
 rate_limits:
 - limit_count: 14
   name: My Real Trip Rate Limits
@@ -153,8 +153,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

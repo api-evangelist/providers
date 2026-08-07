@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for the LegalOn contract platform. Documented capabilities cover contract file operations (upload, retrieve, update, delete), contract information management (register and update metadata suc
@@ -149,7 +149,7 @@ overview: 'LegalOn publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   LegalOn''s developer surface includes engineering blog, pricing, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 73
+random_paper: 60
 score:
   band: thin
   composite: 31.3
@@ -164,8 +164,8 @@ score:
   previous_composite: 31.3
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/screenshots/legalon-2026-07-25T224826.png
 security:

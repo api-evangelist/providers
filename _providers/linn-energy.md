@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: 3 Top Investment Ideas for New Money
   url: https://www.insidermonkey.com/blog/linn-energy-llc-line-sandridge-energy-inc-sd-3-top-investment-ideas-for-new-money-166130/2/
-random_paper: 83
+random_paper: 111
 score:
   band: minimal
   composite: 2.6
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: linn-energy
 website: https://www.linn-energy.com

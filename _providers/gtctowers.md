@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Gtctowers
 nav: Providers
 network: true
 overview: Gtctowers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Wireless Infrastructure, Cell Towers, and Small Cells.
-random_paper: 44
+random_paper: 90
 score:
   band: minimal
   composite: 5.5
@@ -67,8 +67,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gtctowers/refs/heads/main/screenshots/gtctowers-2026-07-25T220408.png
 security:

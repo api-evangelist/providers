@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'AminoChain is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AminoChain''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 2
+random_paper: 30
 score:
   band: minimal
   composite: 10.8
@@ -90,8 +90,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aminochain/refs/heads/main/screenshots/aminochain-2026-07-25T200106.png
 security:

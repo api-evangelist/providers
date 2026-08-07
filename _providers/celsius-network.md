@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -158,10 +158,11 @@ overview: 'Celsius Network publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 63
+random_paper: 1
 score:
   band: developing
   composite: 43.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 68.2
@@ -169,6 +170,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +186,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Celsius Network Authentication

@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-03'
+  score: 47.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
@@ -171,7 +171,7 @@ overview: 'Fountain publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 13
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Fountain Rate Limits
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -187,13 +187,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 48.2
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png
 security:

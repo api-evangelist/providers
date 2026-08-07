@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1524472/000152447226000065/xyl04282026ex991.htm
-random_paper: 84
+random_paper: 107
 score:
   band: minimal
   composite: 4.9
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 4.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/screenshots/xylem-2026-06-20T201717.png
 security:

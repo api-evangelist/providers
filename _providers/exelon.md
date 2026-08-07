@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Co-location
   url: https://www.exeloncorp.com/policy-and-issues/Co-location
-random_paper: 81
+random_paper: 86
 score:
   band: minimal
   composite: 10.7
@@ -103,8 +103,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exelon/refs/heads/main/screenshots/exelon-2026-06-20T180929.png
 security:

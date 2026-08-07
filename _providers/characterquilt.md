@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
@@ -98,7 +98,7 @@ overview: 'CharacterQuilt publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 75
+random_paper: 31
 score:
   band: thin
   composite: 35.2
@@ -118,8 +118,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:

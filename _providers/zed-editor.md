@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -216,7 +216,7 @@ overview: 'Zed is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Zed''s developer surface includes documentation, pricing, release notes, status page, engineering blog, support, FAQ, and 36 more developer resources.'
-random_paper: 65
+random_paper: 111
 score:
   band: emerging
   composite: 18.3
@@ -229,8 +229,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 18.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zed-editor/refs/heads/main/screenshots/zed-editor-2026-06-20T201858.png
 security:

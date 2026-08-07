@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -332,6 +332,10 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/hasura/promptql-mcp
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://hasura.io/docs/llms.txt
 created: '2025-06-10T00:00:00.000Z'
 description: We've spent years perfecting products that make it effortless to access and use data.PromptQL for AIAccurate AI by continuously learning the unique context of your business.
 features:
@@ -353,7 +357,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-29'
+modified: '2026-08-03'
 name: Hasura
 nav: Providers
 network: true
@@ -363,12 +367,12 @@ overview: 'Hasura publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Hasura catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 48 more developer resources.'
+  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 49 more developer resources.'
 plans:
 - name: Hasura Plans Pricing
   plan_count: 3
   slug: hasura-plans-pricing
-random_paper: 74
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Hasura Rate Limits
@@ -385,7 +389,7 @@ rules:
 score:
   band: exemplar
   composite: 68.0
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 65.5
@@ -393,7 +397,7 @@ score:
     discoverability: 53.7
     governance: 41.7
     operational_transparency: 78.9
-  previous_composite: 67.3
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     contracts:
@@ -401,8 +405,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

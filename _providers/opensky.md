@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Opensky Trino Api
   plan_count: 2
   slug: opensky-trino-api
-random_paper: 17
+random_paper: 99
 rate_limits:
 - limit_count: 4
   name: Opensky Rest Api
@@ -177,7 +177,7 @@ rules:
 score:
   band: developing
   composite: 53.7
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 71.8
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

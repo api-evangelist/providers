@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: Public marketplace quote endpoint returning freight price ranges (min/max), transit-time ranges, and shipping mode (air, LCL, FCL, trucking) for a given origin, destination, weight, and load type. Sup
@@ -107,7 +107,7 @@ plans:
 - name: Freightos Plans Pricing
   plan_count: 3
   slug: freightos-plans-pricing
-random_paper: 21
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Freightos Rate Limits
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/screenshots/freightos-2026-07-25T215155.png
 security:

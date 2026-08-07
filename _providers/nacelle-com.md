@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: The Storefront GraphQL API is Nacelle's primary query interface for syndicating normalized commerce data — products, variants, content, pricing, price rules, media, metafields, SEO, and product option
@@ -166,7 +166,7 @@ overview: 'Nacelle publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Nacelle''s developer surface includes developer portal, documentation, getting-started guide, sandbox, signup flow, support, engineering blog, and 20 more developer resources.'
-random_paper: 43
+random_paper: 71
 score:
   band: emerging
   composite: 22.5
@@ -179,8 +179,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 22.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacelle-com/refs/heads/main/screenshots/nacelle-com-2026-06-20T185924.png
 security:

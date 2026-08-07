@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Premier Inc API provides access to platform services and data for enterprise integration and automation.
@@ -76,7 +76,7 @@ plans:
 - name: Premier Inc Plans Pricing
   plan_count: 1
   slug: premier-inc-plans-pricing
-random_paper: 70
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Premier Inc Rate Limits
@@ -99,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/premier-inc/refs/heads/main/screenshots/premier-inc-2026-06-20T192047.png
 security:

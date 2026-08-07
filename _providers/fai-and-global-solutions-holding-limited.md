@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: FAI & GLOBAL SOLUTIONS HOLDING LIMITED
 nav: Providers
 network: true
 overview: FAI & GLOBAL SOLUTIONS HOLDING LIMITED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Holding Company, Saudi Arabia, Middle East, and Venture Backed.
-random_paper: 59
+random_paper: 112
 score:
   band: minimal
   composite: 6.1
@@ -61,8 +61,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fai-and-global-solutions-holding-limited/refs/heads/main/screenshots/fai-and-global-solutions-holding-limited-2026-07-25T214150.png
 security:

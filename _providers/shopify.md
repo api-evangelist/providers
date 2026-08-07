@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1119,7 +1119,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 10
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Shopify Rate Limits
@@ -1174,8 +1174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

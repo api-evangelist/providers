@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Partner integration API for accessing Meitre's restaurant reservations, availability, and guest data. Documentation is behind an authenticated developer portal at meitre-api.com; access is arranged vi
@@ -91,7 +91,7 @@ overview: 'Meitre publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Meitre''s developer surface includes API reference, signup flow, and 8 more developer resources.'
-random_paper: 76
+random_paper: 81
 score:
   band: emerging
   composite: 20.3
@@ -106,8 +106,8 @@ score:
   previous_composite: 20.3
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

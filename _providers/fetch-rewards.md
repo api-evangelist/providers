@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'A two-operation OpenAPI 3.0.3 document Fetch publishes in its public GitHub organization as the specification for its engineering take-home exercise: submit a receipt for processing and retrieve the p'
@@ -123,10 +123,11 @@ overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
-random_paper: 92
+random_paper: 84
 score:
   band: thin
   composite: 28.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 45.7
@@ -134,6 +135,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 28.2
   provenance:
     conformance: derived
     contracts:
@@ -141,8 +143,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Fetch Rewards Domain Security

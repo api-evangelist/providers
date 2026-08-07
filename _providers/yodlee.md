@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -185,23 +185,23 @@ plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
   slug: yodlee-plans-pricing
-random_paper: 72
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Yodlee Rate Limits
   slug: yodlee-rate-limits
 score:
   band: thin
-  composite: 32.6
+  composite: 34.3
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 48.1
+    contract_quality: 56.1
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 26.3
-  previous_composite: 32.6
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

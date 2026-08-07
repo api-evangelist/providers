@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -126,7 +126,7 @@ plans:
 - name: Bitquery Plans Pricing
   plan_count: 1
   slug: bitquery-plans-pricing
-random_paper: 30
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Bitquery Rate Limits
@@ -152,8 +152,8 @@ score:
     governance: 41.7
     operational_transparency: 26.3
   previous_composite: 37.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
 security:

@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: WCAG
 nav: Providers
 network: true
-random_paper: 38
+random_paper: 79
 slug: wcag
 tags:
 - Accessibility

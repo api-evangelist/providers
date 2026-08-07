@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Retrieve vendor details and other information regarding a given MAC address or an OUI
@@ -56,7 +56,7 @@ name: MAC address vendor lookup
 nav: Providers
 network: true
 overview: MAC address vendor lookup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 32
+random_paper: 16
 score:
   band: minimal
   composite: 5.7
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mac-address-vendor-lookup/refs/heads/main/screenshots/mac-address-vendor-lookup-2026-06-20T184823.png
 security:

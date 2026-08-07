@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -175,7 +175,7 @@ overview: 'echo3D publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   echo3D''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 91
+random_paper: 1
 scopes:
 - name: Echo3D Scopes
   scope_count: 14
@@ -196,8 +196,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
 security:

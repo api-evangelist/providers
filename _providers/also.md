@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'Also publishes 1 API on the [APIs.io](https://apis.io/) network: Stor
 
 
   Also''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 51
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Also Rate Limits
@@ -208,6 +208,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.3
@@ -215,6 +216,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +227,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Also Authentication

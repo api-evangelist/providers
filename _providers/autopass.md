@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-03'
+  score: 38.1
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -133,7 +133,7 @@ overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 25
+random_paper: 89
 scopes:
 - name: Autopass Scopes
   scope_count: 1
@@ -165,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:

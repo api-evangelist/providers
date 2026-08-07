@@ -4,7 +4,7 @@
   {
    "band": "developing",
    "label": "Developing",
-   "range": "42 – 55.9",
+   "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 32,
    "providers": [
@@ -26,8 +26,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -73,8 +73,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -113,8 +113,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -160,8 +160,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -207,8 +207,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -247,8 +247,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -294,8 +294,8 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -334,8 +334,8 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -381,8 +381,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -421,8 +421,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -468,8 +468,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -498,6 +498,46 @@
      "rank": 11
     },
     {
+     "name": "The Administration for Children and Families",
+     "slug": "the-administration-for-children-and-families",
+     "url": "https://providers.apis.io/providers/the-administration-for-children-and-families/",
+     "type": "API Provider",
+     "description": "The Administration for Children and Families (ACF) is a division of the U.S. Department of Health and Human Services dedicated to promoting the economic and social well-being of children, families, and communities. ACF administers programs including TANF (cash assistance), CCDF (child care), Head Start, LIHEAP (energy assistance), child welfare, and refugee assistance. ACF collects administrative data via systems including AFCARS (foster care and adoption), NCANDS (child abuse and neglect), NYTD (youth in transition), TANF data reporting, and CCDF data. ACF is pursuing interoperability standards using HL7 FHIR and USCDI+ for human services data exchange. The TANF Data Portal (tanfdata.acf.hhs.gov) provides state agencies with a data submission and analysis interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 55.0,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Agricultural Statistics Service",
      "slug": "agricultural-statistics-service",
      "url": "https://providers.apis.io/providers/agricultural-statistics-service/",
@@ -515,8 +555,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -542,7 +582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Agricultural Marketing Service",
@@ -562,8 +602,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -582,7 +622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "United States Department of Agriculture",
@@ -602,8 +642,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -622,7 +662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Department of the Interior",
@@ -642,48 +682,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Department of Transportation",
-     "slug": "department-of-transportation",
-     "url": "https://providers.apis.io/providers/department-of-transportation/",
-     "type": "API Provider",
-     "description": "The U.S. Department of Transportation (DOT) and its operating administrations - NHTSA, FMCSA, FAA, FRA, FTA, MARAD, PHMSA, and BTS - publish a number of public APIs covering vehicles, motor carriers, aviation, transit, freight, and transportation statistics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png",
-     "score": 44.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 63.6,
-      "governance": 58.3,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -705,25 +705,25 @@
      "rank": 16
     },
     {
-     "name": "The Administration for Children and Families",
-     "slug": "the-administration-for-children-and-families",
-     "url": "https://providers.apis.io/providers/the-administration-for-children-and-families/",
+     "name": "Department of Transportation",
+     "slug": "department-of-transportation",
+     "url": "https://providers.apis.io/providers/department-of-transportation/",
      "type": "API Provider",
-     "description": "The Administration for Children and Families (ACF) is a division of the U.S. Department of Health and Human Services dedicated to promoting the economic and social well-being of children, families, and communities. ACF administers programs including TANF (cash assistance), CCDF (child care), Head Start, LIHEAP (energy assistance), child welfare, and refugee assistance. ACF collects administrative data via systems including AFCARS (foster care and adoption), NCANDS (child abuse and neglect), NYTD (youth in transition), TANF data reporting, and CCDF data. ACF is pursuing interoperability standards using HL7 FHIR and USCDI+ for human services data exchange. The TANF Data Portal (tanfdata.acf.hhs.gov) provides state agencies with a data submission and analysis interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png",
-     "score": 44.8,
+     "description": "The U.S. Department of Transportation (DOT) and its operating administrations - NHTSA, FMCSA, FAA, FRA, FTA, MARAD, PHMSA, and BTS - publish a number of public APIs covering vehicles, motor carriers, aviation, transit, freight, and transportation statistics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png",
+     "score": 44.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 50.0,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "discoverability": 64.8,
+      "contract_quality": 63.6,
+      "governance": 58.3,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -762,8 +762,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -802,8 +802,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -849,8 +849,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -889,8 +889,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -929,8 +929,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -976,8 +976,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1023,8 +1023,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1070,8 +1070,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1117,8 +1117,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1164,8 +1164,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1211,8 +1211,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1258,8 +1258,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1305,8 +1305,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1352,8 +1352,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1392,8 +1392,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1420,7 +1420,7 @@
   {
    "band": "thin",
    "label": "Thin",
-   "range": "28 – 41.9",
+   "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 89,
    "providers": [
@@ -1442,8 +1442,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1489,8 +1489,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1536,8 +1536,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1583,8 +1583,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1630,8 +1630,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1677,8 +1677,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1724,8 +1724,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1764,8 +1764,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1804,8 +1804,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1844,8 +1844,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1891,8 +1891,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1930,8 +1930,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1977,8 +1977,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2024,8 +2024,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2071,8 +2071,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2118,8 +2118,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2158,8 +2158,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2198,8 +2198,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2238,8 +2238,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2278,8 +2278,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2318,8 +2318,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2365,8 +2365,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2412,8 +2412,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2459,8 +2459,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2506,8 +2506,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2546,8 +2546,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2586,8 +2586,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2633,8 +2633,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2680,8 +2680,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2727,8 +2727,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2767,8 +2767,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2807,8 +2807,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2854,8 +2854,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2894,8 +2894,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2917,6 +2917,53 @@
      "rank": 66
     },
     {
+     "name": "Centers for Medicare and Medicaid Services",
+     "slug": "cms",
+     "url": "https://providers.apis.io/providers/cms/",
+     "type": "API Provider",
+     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
+     "score": 37.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 53.3,
+      "governance": 58.3,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 67
+    },
+    {
      "name": "HealthData.gov",
      "slug": "healthdata",
      "url": "https://providers.apis.io/providers/healthdata/",
@@ -2934,8 +2981,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2961,7 +3008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "U.S. Treasury Fiscal Data",
@@ -2981,8 +3028,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3001,7 +3048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "United States Fire Administration",
@@ -3021,8 +3068,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3041,7 +3088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Centers for Disease Control and Prevention",
@@ -3061,8 +3108,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3088,7 +3135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "US Cyber Command",
@@ -3108,8 +3155,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3128,7 +3175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Freedom of Information Act",
@@ -3148,8 +3195,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3168,7 +3215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Federal Emergency Management Agency",
@@ -3187,8 +3234,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3196,53 +3243,6 @@
       "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 73
-    },
-    {
-     "name": "Centers for Medicare and Medicaid Services",
-     "slug": "cms",
-     "url": "https://providers.apis.io/providers/cms/",
-     "type": "API Provider",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 50.0,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -3274,8 +3274,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3321,8 +3321,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3368,8 +3368,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3415,8 +3415,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3455,8 +3455,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3495,8 +3495,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3542,8 +3542,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3582,8 +3582,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3622,8 +3622,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3662,8 +3662,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3709,8 +3709,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3749,8 +3749,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3789,8 +3789,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3829,8 +3829,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3876,8 +3876,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3923,8 +3923,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3963,8 +3963,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4010,8 +4010,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4050,8 +4050,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4090,8 +4090,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4137,8 +4137,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4177,8 +4177,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4217,8 +4217,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4257,8 +4257,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4297,8 +4297,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4337,8 +4337,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4377,8 +4377,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4417,8 +4417,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4464,8 +4464,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4511,8 +4511,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4558,8 +4558,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4598,8 +4598,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4638,8 +4638,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4678,8 +4678,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4718,8 +4718,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4765,8 +4765,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4811,8 +4811,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4858,8 +4858,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4905,8 +4905,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4945,8 +4945,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4992,8 +4992,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5032,8 +5032,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5079,8 +5079,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5126,8 +5126,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5173,8 +5173,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5220,8 +5220,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5260,8 +5260,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5288,7 +5288,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "13 – 27.9",
+   "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 91,
    "providers": [
@@ -5310,8 +5310,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5350,8 +5350,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5397,8 +5397,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5444,8 +5444,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5484,8 +5484,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5530,8 +5530,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5570,8 +5570,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5617,8 +5617,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5657,8 +5657,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5697,8 +5697,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5744,8 +5744,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5784,8 +5784,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5824,8 +5824,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5870,8 +5870,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5910,8 +5910,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5957,8 +5957,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5997,8 +5997,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6037,8 +6037,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6077,8 +6077,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6124,8 +6124,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6164,8 +6164,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6204,8 +6204,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6244,8 +6244,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6284,8 +6284,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6324,8 +6324,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6371,8 +6371,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6411,8 +6411,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6451,8 +6451,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6491,8 +6491,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6531,8 +6531,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6571,8 +6571,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6618,8 +6618,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6665,8 +6665,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6712,8 +6712,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6752,8 +6752,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6792,8 +6792,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6832,8 +6832,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6879,8 +6879,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6926,8 +6926,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6973,8 +6973,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7020,8 +7020,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7060,8 +7060,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7100,8 +7100,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7147,8 +7147,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7193,8 +7193,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7233,8 +7233,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7280,8 +7280,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7320,8 +7320,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7360,8 +7360,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7400,8 +7400,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7440,8 +7440,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7480,8 +7480,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7520,8 +7520,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7566,8 +7566,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7613,8 +7613,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7653,8 +7653,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7700,8 +7700,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7747,8 +7747,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7794,8 +7794,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7834,8 +7834,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7881,8 +7881,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7921,8 +7921,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7968,8 +7968,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8008,8 +8008,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8048,8 +8048,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8088,8 +8088,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8128,8 +8128,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8168,8 +8168,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8208,8 +8208,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8248,8 +8248,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8288,8 +8288,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8328,8 +8328,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8368,8 +8368,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8408,8 +8408,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8448,8 +8448,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8495,8 +8495,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8542,8 +8542,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8589,8 +8589,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8636,8 +8636,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8683,8 +8683,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8730,8 +8730,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8777,8 +8777,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8824,8 +8824,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8864,8 +8864,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8911,8 +8911,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8951,8 +8951,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8991,8 +8991,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9031,8 +9031,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9078,8 +9078,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9118,8 +9118,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9158,8 +9158,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9185,7 +9185,7 @@
   {
    "band": "minimal",
    "label": "Minimal",
-   "range": "0 – 12.9",
+   "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 46,
    "providers": [
@@ -9207,8 +9207,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9247,8 +9247,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9294,8 +9294,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9334,8 +9334,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9381,8 +9381,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9428,8 +9428,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9475,8 +9475,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9515,8 +9515,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9555,8 +9555,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9602,8 +9602,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9642,8 +9642,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9682,8 +9682,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9729,8 +9729,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9769,8 +9769,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9816,8 +9816,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9856,8 +9856,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9903,8 +9903,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9943,8 +9943,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9990,8 +9990,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10030,8 +10030,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10070,8 +10070,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10110,8 +10110,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -10157,8 +10157,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10197,8 +10197,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10237,8 +10237,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10277,8 +10277,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10317,8 +10317,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10364,8 +10364,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10404,8 +10404,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10444,8 +10444,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10484,8 +10484,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10524,8 +10524,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -10571,8 +10571,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10611,8 +10611,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10650,8 +10650,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10690,8 +10690,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10730,8 +10730,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10770,8 +10770,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10810,8 +10810,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10850,8 +10850,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10890,8 +10890,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10929,8 +10929,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10969,8 +10969,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11009,8 +11009,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11049,8 +11049,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11089,8 +11089,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-06",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",

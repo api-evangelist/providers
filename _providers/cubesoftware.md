@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -306,7 +306,7 @@ overview: 'Cube publishes 42 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 55
+random_paper: 47
 scopes:
 - name: Cubesoftware Scopes
   scope_count: 3
@@ -334,8 +334,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/screenshots/cubesoftware-2026-07-25T210859.png
 security:

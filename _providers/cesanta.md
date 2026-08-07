@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Cesanta publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cesanta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, and 20 more developer resources.'
-random_paper: 70
+random_paper: 57
 score:
   band: developing
   composite: 46.6
@@ -195,8 +195,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/screenshots/cesanta-2026-07-25T205012.png
 security:

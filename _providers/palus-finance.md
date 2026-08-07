@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -51,7 +51,7 @@ overview: 'Palus Finance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Palus Finance''s developer surface includes signup flow and 1 more developer resources.'
-random_paper: 83
+random_paper: 75
 score:
   band: minimal
   composite: 7.6
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: palus-finance
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ plans:
 - name: Lemon Squeezy Plans Pricing
   plan_count: 2
   slug: lemon-squeezy-plans-pricing
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Lemon Squeezy Rate Limits
@@ -262,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/screenshots/lemon-squeezy-2026-06-20T184415.png
 security:

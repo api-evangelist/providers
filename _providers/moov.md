@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -387,7 +387,7 @@ plans:
 - name: Moov Plans Pricing
   plan_count: 7
   slug: moov-plans-pricing
-random_paper: 69
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Moov Rate Limits
@@ -434,8 +434,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-06-20T185802.png
 security:

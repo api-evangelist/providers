@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Candex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Candex''s developer surface includes pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 57
+random_paper: 62
 score:
   band: emerging
   composite: 21.8
@@ -114,8 +114,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candex/refs/heads/main/screenshots/candex-2026-07-25T204335.png
 security:

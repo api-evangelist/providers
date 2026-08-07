@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Accel
 nav: Providers
 network: true
-random_paper: 29
+random_paper: 52
 slug: accel
 tags:
 - Venture Capital

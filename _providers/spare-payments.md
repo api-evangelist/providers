@@ -18,7 +18,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.6
-  scored_at: '2026-08-03'
+  score: 21.6
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -106,7 +106,7 @@ overview: 'Spare Payments is profiled on the [APIs.io](https://apis.io/) network
 
 
   Spare Payments'' developer surface includes documentation, API reference, support, changelog, and 10 more developer resources.'
-random_paper: 40
+random_paper: 109
 score:
   band: thin
   composite: 31.5
@@ -125,8 +125,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

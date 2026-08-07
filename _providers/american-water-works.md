@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Financial Release Details
   url: https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2019/American-Water-Announces-10-Year-Capital-Spending-Plan-Sets-Long-Term-Growth-Targets-and-Announces-2020-Earnings-Guidance/default.aspx
-random_paper: 40
+random_paper: 1
 score:
   band: minimal
   composite: 8.7
@@ -120,8 +120,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png
 security:

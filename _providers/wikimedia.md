@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -400,7 +400,7 @@ plans:
 - name: Wikimedia Enterprise
   plan_count: 2
   slug: wikimedia-enterprise
-random_paper: 93
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Mediawiki Action Api
@@ -426,7 +426,7 @@ rules:
 score:
   band: developing
   composite: 53.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.4
@@ -434,7 +434,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -442,8 +442,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/screenshots/wikimedia-2026-06-20T201454.png
 security:

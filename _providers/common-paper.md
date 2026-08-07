@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-03'
+  score: 49.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'REST API for managing Common Paper agreements and templates — list, create, send, void, reassign, download, and share agreements; manage templates, attachments, users, organizations, invitations, and '
@@ -163,7 +163,7 @@ overview: 'Common Paper publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Common Paper''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 90
+random_paper: 100
 score:
   band: developing
   composite: 49.7
@@ -180,8 +180,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-paper/refs/heads/main/screenshots/common-paper-2026-07-25T210135.png
 security:

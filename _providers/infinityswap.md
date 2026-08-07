@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Bitfinity EVM mainnet (Chain ID 355110). Supports the standard eth_*, net_*, and web3_* method namespaces for reading chain state, submitting transactio
@@ -112,7 +112,7 @@ overview: 'InfinitySwap publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   InfinitySwap''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, sandbox, authentication, and 9 more developer resources.'
-random_paper: 82
+random_paper: 74
 score:
   band: emerging
   composite: 24.1
@@ -127,8 +127,8 @@ score:
   previous_composite: 24.1
   provenance:
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinityswap/refs/heads/main/screenshots/infinityswap-2026-07-25T222407.png
 security:

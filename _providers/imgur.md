@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful HTTP/JSON API for Imgur covering images, albums, the public gallery, comments, accounts, tags, topics, meme generation, and notifications.
@@ -231,7 +231,7 @@ plans:
 - name: Imgur Plans Pricing
   plan_count: 4
   slug: imgur-plans-pricing
-random_paper: 73
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Imgur Rate Limits
@@ -256,7 +256,7 @@ rules:
 score:
   band: strong
   composite: 56.8
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.1
@@ -264,15 +264,15 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.0
+  previous_composite: 56.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:

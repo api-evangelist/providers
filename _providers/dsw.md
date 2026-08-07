@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: DSW partners with Marketing Evolution on AI-powered ...
   url: https://www.marketingdive.com/news/dsw-partners-with-marketing-evolution-on-ai-powered-personalization-strateg/517594/
-random_paper: 49
+random_paper: 108
 score:
   band: minimal
   composite: 2.6
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsw/refs/heads/main/screenshots/dsw-2026-06-20T180312.png
 security:

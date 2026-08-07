@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-03'
+  score: 53.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Public JSON-RPC 2.0 interface to Nervos CKB nodes for querying chain state (blocks, transactions, cells), submitting signed transactions, and subscribing to new-tip events over WebSocket. Unauthentica
@@ -151,7 +151,7 @@ overview: 'Nervos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nervos'' developer surface includes documentation, getting-started guide, API reference, changelog, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 4
+random_paper: 104
 score:
   band: developing
   composite: 42.2
@@ -168,8 +168,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

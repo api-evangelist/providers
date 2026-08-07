@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Russia strikes Kyiv with drones and hypersonic missile, in photos - AP News
   url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbThJREdLUzlHemk3YXFZaWdBRHA2akh2UkJxT0ZxVmlGN05nMndYUUZ2VWFJY0prc2EteWdoZ0lEeUJUUDBIZi1oTVhIeDN1UjdfVEI3ZWpadU9tTjlLaFZUVmdidE10X3dNbkc4Zi03aXhSYlBueVdWTzZMX3ZuRnJNVG5rVC1kMk40WURxbHBHV0JaYjJPVXhnZXRKUUVmaE90cmwydkx3V1duSFI4dF9XdFZjNXZNRG1lS3VrRW8?oc=5
-random_paper: 73
+random_paper: 42
 score:
   band: minimal
   composite: 4.9
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png
 security:

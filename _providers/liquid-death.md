@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 27 more developer resources.'
-random_paper: 71
+random_paper: 81
 scopes:
 - name: Liquid Death Scopes
   scope_count: 4
@@ -197,6 +197,7 @@ scopes:
 score:
   band: thin
   composite: 38.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 57.9
@@ -204,6 +205,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +216,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Liquid Death Authentication

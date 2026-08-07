@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 87
+random_paper: 79
 score:
   band: emerging
   composite: 27.4
@@ -156,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/screenshots/invoice-ninja-2026-06-20T183523.png
 security:

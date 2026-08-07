@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Fooddata Plans Pricing
   plan_count: 3
   slug: fooddata-plans-pricing
-random_paper: 74
+random_paper: 43
 rate_limits:
 - limit_count: 6
   name: Fooddata Rate Limits
@@ -173,7 +173,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 66.6
@@ -181,7 +181,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 42.4
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png
 security:

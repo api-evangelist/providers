@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-03'
+  score: 53.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 72
+random_paper: 95
 rate_limits:
 - limit_count: 4
   name: Ripio Rate Limits
@@ -274,7 +274,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.3
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.1
@@ -282,7 +282,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 78.9
-  previous_composite: 58.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,8 +299,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

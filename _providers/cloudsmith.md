@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -195,7 +195,7 @@ plans:
 - name: Cloudsmith Plans Pricing
   plan_count: 1
   slug: cloudsmith-plans-pricing
-random_paper: 39
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Cloudsmith Rate Limits
@@ -210,17 +210,17 @@ rules:
     warn: 5
   slug: cloudsmith-rules
 score:
-  band: thin
-  composite: 41.5
+  band: developing
+  composite: 45.9
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 40.3
+    contract_quality: 57.7
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 42.1
-  previous_composite: 41.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/screenshots/cloudsmith-2026-06-20T174624.png
 security:

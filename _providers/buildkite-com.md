@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -504,7 +504,7 @@ plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
   slug: buildkite-com-plans-pricing
-random_paper: 86
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Buildkite Com Rate Limits
@@ -552,8 +552,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

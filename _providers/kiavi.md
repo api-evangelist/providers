@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ overview: 'Kiavi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kiavi''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 57
+random_paper: 80
 score:
   band: minimal
   composite: 11.0
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 11.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiavi/refs/heads/main/screenshots/kiavi-2026-07-25T223715.png
 security:

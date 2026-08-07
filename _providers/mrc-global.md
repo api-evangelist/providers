@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: DNOW and MRC Global to Combine in All-Stock ...
   url: https://www.sec.gov/Archives/edgar/data/1439095/000119312525149152/d75113dex991.htm
-random_paper: 42
+random_paper: 88
 score:
   band: minimal
   composite: 5.3
@@ -91,8 +91,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mrc-global/refs/heads/main/screenshots/mrc-global-2026-06-20T185842.png
 security:

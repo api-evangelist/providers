@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Game Of Thrones Plans Pricing
   plan_count: 1
   slug: game-of-thrones-plans-pricing
-random_paper: 59
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Game Of Thrones Rate Limits
@@ -146,7 +146,7 @@ rules:
 score:
   band: developing
   composite: 42.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 67.4
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/screenshots/game-of-thrones-2026-06-20T181637.png
 security:

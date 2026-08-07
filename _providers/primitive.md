@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-03'
+  score: 51.8
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -115,11 +115,11 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 35
+random_paper: 81
 score:
   band: emerging
   composite: 27.0
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 77.3
@@ -127,7 +127,7 @@ score:
     discoverability: 51.9
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -138,8 +138,8 @@ score:
       total: 22
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

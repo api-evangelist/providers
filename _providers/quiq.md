@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -127,7 +127,7 @@ overview: 'Quiq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Quiq''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 68
+random_paper: 109
 score:
   band: thin
   composite: 31.8
@@ -148,8 +148,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

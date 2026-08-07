@@ -18,17 +18,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    event_surface_described: derived
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-03'
+  score: 57.0
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -245,24 +245,24 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 48
+random_paper: 89
 scopes:
 - name: Boxc Scopes
   scope_count: 19
   slug: boxc-scopes
   summary_line: 19 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.7
+  band: developing
+  composite: 44.8
   delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 51.6
+    contract_quality: 64.2
     developer_ergonomics: 60.3
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 41.7
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,8 +273,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -146,7 +146,7 @@ overview: 'Oddpool publishes 1 API on the [APIs.io](https://apis.io/) network: W
 
 
   Oddpool''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, authentication, and 14 more developer resources.'
-random_paper: 88
+random_paper: 75
 score:
   band: thin
   composite: 40.9
@@ -168,8 +168,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The VertiGIS Studio Reporting REST API generates reports and printed maps from spatial and non-spatial data. Jobs are submitted, polled, and their artifacts retrieved over HTTP; first-party JavaScript
@@ -132,7 +132,7 @@ overview: 'VertiGIS publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   VertiGIS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 14 more developer resources.'
-random_paper: 22
+random_paper: 86
 score:
   band: emerging
   composite: 27.3
@@ -151,8 +151,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

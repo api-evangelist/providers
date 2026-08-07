@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -133,7 +133,7 @@ overview: 'Aliro Quantum is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Aliro Quantum''s developer surface includes getting-started guide, product news, engineering blog, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 9.6
@@ -152,8 +152,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aliro-quantum/refs/heads/main/screenshots/aliro-quantum-2026-06-20T171525.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-03'
+  score: 34.7
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Cora''s transactional banking API for Direct Integration: registered boleto and carnê (installment) issuance, Pix QR codes, account data, balance and statement queries, payment and transfer initiation '
@@ -143,7 +143,7 @@ overview: 'Cora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cora''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 15 more developer resources.'
-random_paper: 41
+random_paper: 82
 score:
   band: developing
   composite: 44.2
@@ -164,8 +164,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/screenshots/cora-2026-07-25T210413.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: SOAP web services (DataService, ReadDataService, FileService, FileStreamService, InstanceService) to automate workflows by managing courses, content, files and assessments on an itslearning site. Used
@@ -157,7 +157,7 @@ overview: 'itslearning publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   itslearning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 44
+random_paper: 54
 score:
   band: thin
   composite: 36.7
@@ -172,8 +172,8 @@ score:
   previous_composite: 36.7
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/screenshots/itslearning-2026-07-25T223009.png
 security:

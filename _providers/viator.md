@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-03'
+  score: 60.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 35 more developer resources.'
-random_paper: 91
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Viator Rate Limits
@@ -276,8 +276,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

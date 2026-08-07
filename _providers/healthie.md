@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
@@ -163,7 +163,7 @@ overview: 'Healthie publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Healthie''s developer surface includes developer portal, documentation, getting-started guide, authentication, tooling, code examples, engineering blog, and 15 more developer resources.'
-random_paper: 76
+random_paper: 45
 rules:
 - name: Healthie API Rules
   rule_count: 5
@@ -191,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
 security:

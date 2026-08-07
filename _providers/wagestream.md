@@ -1,0 +1,215 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Wagestream Agentic Access
+  operation_count: 11
+  slug: wagestream-agentic-access
+  summary_line: 11 operations · 6 acting
+api_count: 1
+apis:
+- description: Batch push API used by employers and HR/WFM/payroll vendors to feed Stream the employee, shift, absence and off-cycle payment data that drives earned wage access, and to read back the Stream-generated
+  name: Wagestream Integrations API
+  slug: wagestream-integrations-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wagestream-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wagestream-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://stream.co/en
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://connect.stream.co/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://connect.stream.co/docs/welcome
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://connect.stream.co/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://connect.stream.co/docs/overview-1
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.stream.co/
+- group: company
+  title: ''
+  type: Blog
+  url: https://stream.co/en/articles
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/wagestream
+- group: start
+  title: ''
+  type: SignUp
+  url: https://stream.co/en/book-a-demo
+- group: start
+  title: ''
+  type: Login
+  url: https://stream.co/en-us/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://stream.co/en/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://stream.co/en/privacy-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.stream.co/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://stream.co/en-us/stream-licenses-compliance
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.stream.co/
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/wagestream-agentic-access.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wagestream-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/wagestream-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wagestream-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/wagestream-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wagestream-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wagestream-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wagestream-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/wagestream-sandbox.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wagestream-integrations-api-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wagestream-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-05'
+description: Wagestream — trading as Stream since its 2025 rebrand — is a UK-founded, B Corp certified workplace financial wellbeing platform that gives hourly and salaried employees earned wage access (flexible pay), shift and pay tracking, workplace savings, budgeting tools, salary-deducted workplace loans, benefits and state-benefit claim support, financial coaching and discounts, delivered as a mobile app funded by the employer rather than the worker. Employers connect their HR, workforce management and payroll systems to Stream through the Wagestream Integrations API — a small, batch-oriented REST push API over employees, shifts (time and attendance), absences, off-cycle payments and Stream-generated enrolment banking records — or via SFTP file feeds and browser upload into the employer administration portal. The API is API-key authenticated, asynchronous (every write returns a transaction id polled through a matching GET), and idempotent through an optional per-request nonce.
+image: https://stream.co/api/media/file/Home_Hero_Left.webp
+layout: provider
+modified: '2026-08-05'
+name: Wagestream
+nav: Providers
+network: true
+overview: 'Wagestream publishes 1 API on the [APIs.io](https://apis.io/) network: Integrations API. Tagged areas include financial-wellbeing, earned-wage-access, fintech, payroll, and human-resources.
+
+
+  Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
+random_paper: 55
+score:
+  band: developing
+  composite: 50.9
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 59.5
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 21.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+security:
+- kind: authentication
+  name: Wagestream Authentication
+  slug: wagestream-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Wagestream Domain Security
+  slug: wagestream-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Wagestream Trust Center
+  slug: wagestream-trust-center
+  summary_line: trust center published
+slug: wagestream
+tags:
+- financial-wellbeing
+- earned-wage-access
+- fintech
+- payroll
+- human-resources
+- workforce-management
+- time-and-attendance
+- employee-benefits
+- workplace-savings
+- hr-integrations
+- b-corp
+- united-kingdom
+website: https://stream.co/en
+---

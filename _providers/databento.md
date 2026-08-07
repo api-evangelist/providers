@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -261,7 +261,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 91
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -274,7 +274,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 61.4
@@ -282,7 +282,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 81.6
-  previous_composite: 67.2
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +299,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

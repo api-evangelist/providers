@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: 'KITopen is KIT''s central open-access institutional repository for bibliographic data, full texts, images, research data, and AV media of KIT scientists. It is built on the KIT Library dbkit framework '
@@ -109,7 +109,7 @@ plans:
 - name: Karlsruhe Institute Of Technology Plans Pricing
   plan_count: 2
   slug: karlsruhe-institute-of-technology-plans-pricing
-random_paper: 85
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Karlsruhe Institute Of Technology Rate Limits
@@ -132,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/screenshots/karlsruhe-institute-of-technology-2026-06-20T183922.png
 security:

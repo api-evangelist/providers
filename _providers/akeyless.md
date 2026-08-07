@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 4
@@ -150,7 +150,7 @@ plans:
 - name: Akeyless Plans Pricing
   plan_count: 2
   slug: akeyless-plans-pricing
-random_paper: 10
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Akeyless Rate Limits
@@ -167,7 +167,7 @@ rules:
 score:
   band: developing
   composite: 47.8
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 62.0
@@ -175,7 +175,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 43.7
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/screenshots/akeyless-2026-06-20T171453.png
 security:

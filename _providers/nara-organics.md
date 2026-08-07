@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the Universal Commerce Protocol (UCP) on the Nara Organics Shopify storefront — catalog search, cart, and buyer-approved checkout via a published MCP endpoint, plus an unaut
@@ -108,7 +108,7 @@ overview: 'Nara Organics publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Nara Organics'' developer surface includes authentication, documentation, and 12 more developer resources.'
-random_paper: 82
+random_paper: 74
 scopes:
 - name: Nara Organics Scopes
   scope_count: 4
@@ -130,8 +130,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

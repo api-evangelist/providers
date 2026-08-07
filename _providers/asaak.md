@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Asaak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Asaak''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 38
+random_paper: 61
 score:
   band: emerging
   composite: 15.6
@@ -98,8 +98,8 @@ score:
   previous_composite: 15.6
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asaak/refs/heads/main/screenshots/asaak-2026-07-25T201359.png
 security:

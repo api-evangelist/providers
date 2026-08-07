@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'OAuth-protected Model Context Protocol (JSON-RPC 2.0) server exposing Fibe''s consumer lending platform to AI agents. Advertised scopes: loan.read (read loan/eligibility information) and loan.apply (su'
@@ -112,7 +112,7 @@ overview: 'Fibe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fibe''s developer surface includes authentication, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 26
+random_paper: 67
 scopes:
 - name: Fibe Scopes
   scope_count: 2
@@ -133,8 +133,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/screenshots/fibe-2026-07-25T214400.png
 security:

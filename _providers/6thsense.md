@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: 6thSense
 nav: Providers
 network: true
 overview: 6thSense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Tactile Sensing, and Hardware.
-random_paper: 56
+random_paper: 25
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6thsense/refs/heads/main/screenshots/6thsense-2026-07-25T181251.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Partner/OEM-gated cloud AI surface behind Second Opinion. When an imaging partner uploads a bitewing, periapical, panoramic, or CBCT radiograph, Pearl's cloud computer-vision service analyzes it and r
@@ -86,7 +86,7 @@ plans:
 - name: Pearl Dental Plans Pricing
   plan_count: 0
   slug: pearl-dental-plans-pricing
-random_paper: 69
+random_paper: 79
 score:
   band: minimal
   composite: 10.0
@@ -105,8 +105,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

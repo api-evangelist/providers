@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for static QR generation, bounded bulk generation, and managed dynamic QR redirects. Public by default with optional API key and dynamic-QR bearer capability tokens.
@@ -33,7 +33,7 @@ name: QR Code Crafter APIs
 nav: Providers
 network: true
 overview: 'QR Code Crafter APIs publishes 1 API on the [APIs.io](https://apis.io/) network: QRCodeCrafter API. Tagged areas include QR code generation, developer tools, image/asset generation, barcode & QR APIs, and marketing/campaign tooling.'
-random_paper: 45
+random_paper: 24
 score:
   band: minimal
   composite: 11.9
@@ -52,8 +52,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: qr-code-crafter-apis
 tags:

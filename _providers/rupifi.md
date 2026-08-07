@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Rupifi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rupifi''s developer surface includes documentation, API reference, support, and 7 more developer resources.'
-random_paper: 85
+random_paper: 90
 score:
   band: emerging
   composite: 18.5
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 18.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

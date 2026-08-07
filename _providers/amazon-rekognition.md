@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1148,7 +1148,7 @@ plans:
 - name: Amazon Rekognition Plans Pricing
   plan_count: 3
   slug: amazon-rekognition-plans-pricing
-random_paper: 79
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Amazon Rekognition Rate Limits
@@ -1191,8 +1191,8 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:

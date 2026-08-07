@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: The Authorization API from Nory — 1 operation(s) for authorization.
@@ -159,19 +159,19 @@ overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 76
+random_paper: 4
 score:
   band: thin
-  composite: 31.1
+  composite: 34.6
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 46.3
     developer_ergonomics: 27.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.1
+  previous_composite: 34.6
   provenance:
     conformance: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-03'
+  score: 50.0
+  scored_at: '2026-08-06'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -249,7 +249,7 @@ overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https:
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 35 more developer resources.'
-random_paper: 58
+random_paper: 104
 rate_limits:
 - limit_count: 6
   name: Cdr Energy Rate Limits
@@ -262,7 +262,7 @@ scopes:
 score:
   band: strong
   composite: 58.3
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 64.2
@@ -270,7 +270,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 100.0
-  previous_composite: 54.9
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -286,8 +286,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

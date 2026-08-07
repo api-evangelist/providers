@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Kickstarter is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kickstarter''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 51
+random_paper: 61
 score:
   band: emerging
   composite: 16.0
@@ -98,8 +98,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kickstarter/refs/heads/main/screenshots/kickstarter-2026-07-25T223727.png
 security:

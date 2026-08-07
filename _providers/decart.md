@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Decart Plans Pricing
   plan_count: 5
   slug: decart-plans-pricing
-random_paper: 57
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Decart Rate Limits
@@ -242,6 +242,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.7
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 47.3
@@ -249,6 +250,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 68.4
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +261,9 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Decart Authentication

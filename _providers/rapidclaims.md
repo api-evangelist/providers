@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'RapidClaims is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RapidClaims'' developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 21
+random_paper: 31
 score:
   band: emerging
   composite: 19.5
@@ -104,8 +104,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

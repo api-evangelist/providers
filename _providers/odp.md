@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: ODP
 nav: Providers
 network: true
 overview: ODP is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 38
+random_paper: 97
 score:
   band: minimal
   composite: 2.6
@@ -57,8 +57,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odp/refs/heads/main/screenshots/odp-2026-06-20T190623.png
 slug: odp

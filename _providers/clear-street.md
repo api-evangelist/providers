@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-03'
+  score: 66.2
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Clear Street publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
-random_paper: 87
+random_paper: 97
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -225,14 +225,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 65.1
+  composite: 64.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 68.9
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,8 +251,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Clear Street Authentication

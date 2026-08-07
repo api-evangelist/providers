@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'An OAuth 2.1-protected Model Context Protocol (MCP) server exposed on DispatchHealth''s own host by the WordPress MCP adapter running on www.dispatchhealth.com. Discovery is fully machine-readable: RFC'
@@ -147,7 +147,7 @@ overview: 'DispatchHealth publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   DispatchHealth''s developer surface includes authentication, engineering blog, support, FAQ, pricing, signup flow, and 20 more developer resources.'
-random_paper: 53
+random_paper: 9
 scopes:
 - name: Dispatchhealth Scopes
   scope_count: 1
@@ -156,6 +156,7 @@ scopes:
 score:
   band: thin
   composite: 32.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -163,6 +164,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -172,8 +174,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Dispatchhealth Authentication

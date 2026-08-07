@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
-random_paper: 71
+random_paper: 81
 scopes:
 - name: Gateway Bank Scopes
   scope_count: 5
@@ -192,8 +192,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

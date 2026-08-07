@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -240,7 +240,7 @@ plans:
 - name: Constant Contact Plans Pricing
   plan_count: 3
   slug: constant-contact-plans-pricing
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Constant Contact Rate Limits
@@ -264,16 +264,16 @@ rules:
   slug: constant-contact-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 53.9
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.4
+    contract_quality: 60.8
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 51.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +287,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png
 security:

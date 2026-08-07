@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: International Business Machines Plans Pricing
   plan_count: 3
   slug: international-business-machines-plans-pricing
-random_paper: 71
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: International Business Machines Rate Limits
@@ -262,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/screenshots/international-business-machines-2026-06-20T183455.png
 security:

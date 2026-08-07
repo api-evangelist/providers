@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -365,7 +365,7 @@ plans:
 - name: Exchangerate Api Plans Pricing
   plan_count: 5
   slug: exchangerate-api-plans-pricing
-random_paper: 7
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Exchangerate Api Rate Limits
@@ -406,8 +406,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:

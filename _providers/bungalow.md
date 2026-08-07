@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-03'
+  score: 38.5
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Anonymous, read-mostly public REST API for syndicating Bungalow's residential rental inventory. Covers markets (23 active US metros with geo bounds, timezone and rent premiums), marketable property li
@@ -158,10 +158,11 @@ overview: 'Bungalow publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bungalow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 8
+random_paper: 72
 score:
   band: developing
   composite: 42.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.0
@@ -169,6 +170,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 7.9
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +180,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Bungalow Authentication

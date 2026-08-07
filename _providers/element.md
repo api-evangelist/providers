@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Element is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Element''s developer surface includes documentation, API reference, getting-started guide, changelog, and 10 more developer resources.'
-random_paper: 81
+random_paper: 68
 score:
   band: emerging
   composite: 19.2
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 19.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element/refs/heads/main/screenshots/element-2026-07-25T213117.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 78
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.5
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 75.1
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 48.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:

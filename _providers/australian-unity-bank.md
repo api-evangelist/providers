@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Australian Unity Bank publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Australian Unity Bank''s developer surface includes authentication, documentation, API reference, and 17 more developer resources.'
-random_paper: 57
+random_paper: 0
 scopes:
 - name: Australian Unity Bank Scopes
   scope_count: 9
@@ -192,8 +192,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/screenshots/australian-unity-bank-2026-07-21T114715.png
 security:

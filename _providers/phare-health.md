@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: Phare Health
 nav: Providers
 network: true
 overview: Phare Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Medical Coding, and Clinical Documentation.
-random_paper: 63
+random_paper: 73
 score:
   band: minimal
   composite: 11.5
@@ -91,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

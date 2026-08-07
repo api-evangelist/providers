@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ plans:
 - name: Connecteam Plans
   plan_count: 5
   slug: connecteam-plans
-random_paper: 8
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits
@@ -225,6 +225,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.2
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 69.1
@@ -232,13 +233,15 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 76.3
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Connecteam Authentication

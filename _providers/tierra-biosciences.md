@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Tierra Biosciences
 nav: Providers
 network: true
 overview: Tierra Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Synthetic Biology, Protein Synthesis, and Biotechnology.
-random_paper: 46
+random_paper: 43
 score:
   band: minimal
   composite: 10.2
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

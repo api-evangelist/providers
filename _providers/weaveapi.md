@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses, and model catalog. Authenticated with a bearer API key. Also offers an Anthropic/Claude-compatible Messages route on the api.weaveapi.d
@@ -43,7 +43,7 @@ name: WeaveAPI - OpenAI-compatible AI API Gateway
 nav: Providers
 network: true
 overview: WeaveAPI - OpenAI-compatible AI API Gateway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, AI inference, API gateway, and aggregator.
-random_paper: 90
+random_paper: 59
 score:
   band: minimal
   composite: 6.3
@@ -56,8 +56,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: weaveapi
 tags:

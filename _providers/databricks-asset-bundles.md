@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -244,7 +244,7 @@ plans:
 - name: Databricks Asset Bundles Plans Pricing
   plan_count: 3
   slug: databricks-asset-bundles-plans-pricing
-random_paper: 56
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Databricks Asset Bundles Rate Limits
@@ -278,8 +278,8 @@ score:
     governance: 68.8
     operational_transparency: 78.9
   previous_composite: 57.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/screenshots/databricks-asset-bundles-2026-06-20T175631.png
 security:

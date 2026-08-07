@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 5
 apis:
 - description: JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
@@ -92,7 +92,7 @@ plans:
 - name: Qlik Mashups Plans Pricing
   plan_count: 3
   slug: qlik-mashups-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Qlik Mashups Rate Limits
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 22.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/screenshots/qlik-mashups-2026-06-20T192342.png
 security:

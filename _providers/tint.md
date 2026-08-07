@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Tint Plans Pricing
   plan_count: 1
   slug: tint-plans-pricing
-random_paper: 67
+random_paper: 108
 rate_limits:
 - limit_count: 1
   name: Tint Rate Limits
@@ -153,8 +153,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

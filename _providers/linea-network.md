@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 10
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Linea mainnet (chain ID 59144). Supports the standard eth_* method set plus Linea-specific extensions such as linea_estimateGas and linea_getProof.
@@ -167,7 +167,7 @@ plans:
 - name: Linea Network Plans Pricing
   plan_count: 1
   slug: linea-network-plans-pricing
-random_paper: 14
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Linea Network Rate Limits
@@ -184,8 +184,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 27.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea-network/refs/heads/main/screenshots/linea-network-2026-06-20T184538.png
 security:

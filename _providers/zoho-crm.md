@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: OAuth 2.0 protected REST API for managing CRM records, modules, users, workflows, notes, attachments, tags, and bulk data operations across the Zoho CRM platform.
@@ -105,7 +105,7 @@ overview: 'Zoho CRM publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Zoho CRM''s developer surface includes documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 55
+random_paper: 24
 rules:
 - name: Zoho CRM API Rules
   rule_count: 7
@@ -133,8 +133,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:

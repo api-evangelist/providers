@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Netflix Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services, and third-party libraries, stop cascading failure, and enable resilience in c
@@ -91,7 +91,7 @@ plans:
 - name: Netflix Hystrix Plans Pricing
   plan_count: 3
   slug: netflix-hystrix-plans-pricing
-random_paper: 82
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Netflix Hystrix Rate Limits
@@ -117,8 +117,8 @@ score:
     governance: 58.3
     operational_transparency: 52.6
   previous_composite: 34.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-hystrix/refs/heads/main/screenshots/netflix-hystrix-2026-06-20T190155.png
 slug: netflix-hystrix

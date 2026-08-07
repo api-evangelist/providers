@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Text-to-speech REST API with 43 voices and 33 languages
@@ -60,7 +60,7 @@ name: Audexum
 nav: Providers
 network: true
 overview: Audexum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 1
+random_paper: 83
 score:
   band: minimal
   composite: 5.7
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audexum/refs/heads/main/screenshots/audexum-2026-06-20T172546.png
 security:

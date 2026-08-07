@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 38 more developer resources.'
-random_paper: 71
+random_paper: 32
 scopes:
 - name: Nokia Network As Code Scopes
   scope_count: 65
@@ -290,8 +290,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

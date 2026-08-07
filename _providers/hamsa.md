@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ overview: 'Hamsa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hamsa''s developer surface includes documentation, API reference, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 47
+random_paper: 70
 score:
   band: emerging
   composite: 25.1
@@ -129,8 +129,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/screenshots/hamsa-2026-07-25T220608.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Partner/programmatic API for campaign management, reporting, and data integration across Skai's commerce-media, paid-search, and paid-social products. Access is gated behind a customer/partner agreeme
@@ -123,7 +123,7 @@ overview: 'Skai (Kenshoo) publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Skai (Kenshoo)''s developer surface includes documentation, API reference, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 88
+random_paper: 98
 score:
   band: thin
   composite: 30.6
@@ -138,8 +138,8 @@ score:
   previous_composite: 30.6
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

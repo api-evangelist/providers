@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 
 
   Flight Network''s developer surface includes FAQ, documentation, support, and 23 more developer resources.'
-random_paper: 36
+random_paper: 105
 score:
   band: emerging
   composite: 18.7
@@ -162,8 +162,8 @@ score:
   provenance:
     agentic_access: first-party
     conformance: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Spark Capital
 nav: Providers
 network: true
-random_paper: 89
+random_paper: 81
 slug: spark-capital
 tags:
 - Venture Capital

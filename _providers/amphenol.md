@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The company does not currently publish a public dev
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Amphenol Corporation Completes Acquisition of OWN and ...
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-Completes-Acquisition-of-OWN-and-DAS-Businesses-From-CommScope/default.aspx
-random_paper: 92
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Amphenol Rate Limits
@@ -147,8 +147,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png
 security:

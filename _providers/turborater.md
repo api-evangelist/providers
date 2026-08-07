@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: Submit a single comparative rating request and receive real-time premiums and coverage back from many carriers at once, across auto, homeowners, condominium, renters, dwelling fire, and motorcycle lin
@@ -94,7 +94,7 @@ plans:
 - name: Turborater Plans Pricing
   plan_count: 3
   slug: turborater-plans-pricing
-random_paper: 53
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Turborater Rate Limits
@@ -117,8 +117,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

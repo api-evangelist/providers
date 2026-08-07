@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ press:
 - date: '2026-05-25'
   title: 'AmTrust partners with Blackstone: Insurance news'
   url: https://www.dig-in.com/news/amtrust-partners-with-blackstone-insurance-news
-random_paper: 15
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Amtrust Financial Services Rate Limits
@@ -327,8 +327,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:

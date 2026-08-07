@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: REST API for Faire brands to manage products, inventory, orders, shipments, and returns.
@@ -92,7 +92,7 @@ plans:
 - name: Faire Plans Pricing
   plan_count: 2
   slug: faire-plans-pricing
-random_paper: 44
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Faire Rate Limits
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 14.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

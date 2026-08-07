@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -443,7 +443,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 91
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Ibm Quantum Rate Limits
@@ -468,7 +468,7 @@ rules:
 score:
   band: exemplar
   composite: 69.7
-  delta: 4.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 75.9
@@ -476,7 +476,7 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.7
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     contracts:
@@ -484,8 +484,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:

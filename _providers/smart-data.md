@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: APIs for enriching data records with additional context, metadata, and business intelligence. Data enrichment APIs accept raw records and return augmented data with entity information, company details
@@ -78,7 +78,7 @@ plans:
 - name: Smart Data Plans Pricing
   plan_count: 3
   slug: smart-data-plans-pricing
-random_paper: 56
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Smart Data Rate Limits
@@ -95,8 +95,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 20.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-data/refs/heads/main/screenshots/smart-data-2026-06-20T194035.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 12 more developer resources.'
-random_paper: 66
+random_paper: 4
 score:
   band: thin
   composite: 33.7
@@ -154,8 +154,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

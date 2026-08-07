@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 14
 common:
@@ -89,7 +89,7 @@ name: Binary Format
 nav: Providers
 network: true
 overview: Binary Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Format, Data Encoding, Protocol Buffers, Serialization, and MessagePack.
-random_paper: 9
+random_paper: 96
 score:
   band: minimal
   composite: 7.5
@@ -102,8 +102,8 @@ score:
     governance: 10.4
     operational_transparency: 0.0
   previous_composite: 7.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binary-format/refs/heads/main/screenshots/binary-format-2026-06-20T173243.png
 slug: binary-format

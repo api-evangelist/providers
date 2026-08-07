@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'Flipturn publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 29
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Flipturn Rate Limits
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.1
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 48.7
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -228,8 +228,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:

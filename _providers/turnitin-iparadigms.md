@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful API for submitting files, generating Similarity Reports, and displaying integrity results inside a host learning management system or environment. Reference documentation is credential-gated t
@@ -127,7 +127,7 @@ overview: 'Turnitin (iParadigms) publishes 1 API on the [APIs.io](https://apis.i
 
 
   Turnitin (iParadigms)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 15 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: emerging
   composite: 26.7
@@ -142,8 +142,8 @@ score:
   previous_composite: 26.7
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

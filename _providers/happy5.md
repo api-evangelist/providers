@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -87,7 +87,7 @@ overview: 'Happy5 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Happy5''s developer surface includes pricing, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 29
+random_paper: 34
 score:
   band: emerging
   composite: 15.1
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 15.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happy5/refs/heads/main/screenshots/happy5-2026-07-25T220652.png
 slug: happy5

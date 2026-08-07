@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Starfish Space publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Starfish Space''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 12
+random_paper: 81
 scopes:
 - name: Starfish Space Scopes
   scope_count: 1
@@ -191,6 +191,7 @@ scopes:
 score:
   band: thin
   composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 69.8
@@ -198,6 +199,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +210,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Starfish Space Authentication

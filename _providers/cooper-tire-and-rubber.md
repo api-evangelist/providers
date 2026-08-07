@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Goodyear acquires Cooper in all-American tire deal
   url: https://fox11online.com/news/nation-world/goodyear-acquires-cooper-in-all-american-tire-deal
-random_paper: 78
+random_paper: 21
 score:
   band: minimal
   composite: 5.9
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooper-tire-and-rubber/refs/heads/main/screenshots/cooper-tire-and-rubber-2026-06-20T175016.png
 security:

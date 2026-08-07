@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 3
 apis:
 - description: Public REST API for CaltechDATA, the Caltech institutional research data repository built on InvenioRDM. Supports querying and retrieving records, metadata (DataCite 4 JSON), files, and DOIs. Verified
@@ -102,7 +102,7 @@ plans:
 - name: Caltech Plans Pricing
   plan_count: 2
   slug: caltech-plans-pricing
-random_paper: 59
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Caltech Rate Limits
@@ -125,8 +125,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/screenshots/caltech-2026-06-20T173852.png
 security:

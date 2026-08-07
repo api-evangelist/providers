@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OData v4/v5 data-services API exposing Convercent compliance data (case management, campaigns, policy attestations, course completions) for BI and reporting tools. Authenticated with HTTP Basic; acces
@@ -108,7 +108,7 @@ overview: 'Convercent publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Convercent''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
-random_paper: 34
+random_paper: 62
 score:
   band: emerging
   composite: 25.5
@@ -123,8 +123,8 @@ score:
   previous_composite: 25.5
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convercent/refs/heads/main/screenshots/convercent-2026-07-25T210346.png
 security:

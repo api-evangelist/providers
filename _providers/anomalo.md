@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: REST API for the Anomalo data quality platform. Connect and refresh data warehouses, configure which tables are monitored, author and run data quality checks, read check-run results and table data pro
@@ -154,7 +154,7 @@ overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 20 more developer resources.'
-random_paper: 78
+random_paper: 65
 scopes:
 - name: Anomalo Scopes
   scope_count: 3
@@ -163,6 +163,7 @@ scopes:
 score:
   band: thin
   composite: 34.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 14.1
@@ -170,6 +171,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 34.7
   provenance:
     conformance: derived
     contracts:
@@ -179,8 +181,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Anomalo Authentication

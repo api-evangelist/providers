@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -83,7 +83,7 @@ overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Science Corporation''s developer surface includes documentation, getting-started guide, changelog, support, and 4 more developer resources.'
-random_paper: 75
+random_paper: 54
 score:
   band: emerging
   composite: 17.2
@@ -100,8 +100,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

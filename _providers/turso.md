@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -194,7 +194,7 @@ plans:
 - name: Turso Plans Pricing
   plan_count: 5
   slug: turso-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 11
   name: Turso Rate Limits
@@ -227,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/screenshots/turso-2026-06-20T195837.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -172,7 +172,7 @@ overview: 'Chipper Cash is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Chipper Cash''s developer surface includes documentation, sandbox, product news, engineering blog, GitHub presence, YouTube channel, support, and 25 more developer resources.'
-random_paper: 67
+random_paper: 77
 score:
   band: minimal
   composite: 10.5
@@ -191,8 +191,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png
 security:

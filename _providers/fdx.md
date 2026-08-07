@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -447,7 +447,7 @@ plans:
 - name: Fdx Plans Pricing
   plan_count: 4
   slug: fdx-plans-pricing
-random_paper: 37
+random_paper: 96
 rate_limits:
 - limit_count: 6
   name: Fdx Rate Limits
@@ -469,7 +469,7 @@ scopes:
 score:
   band: developing
   composite: 54.4
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.9
@@ -477,7 +477,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 50.9
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -491,8 +491,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png
 security:

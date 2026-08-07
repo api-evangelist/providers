@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The DistillerSR API allows technical users to interact with DistillerSR features programmatically for use in automated scripts and integrations outside of DistillerSR. It supports performing systemati
@@ -116,7 +116,7 @@ plans:
 - name: Distillersr Api Plans Pricing
   plan_count: 3
   slug: distillersr-api-plans-pricing
-random_paper: 40
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Distillersr Api Rate Limits
@@ -139,8 +139,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distillersr-api/refs/heads/main/screenshots/distillersr-api-2026-06-20T180050.png
 security:

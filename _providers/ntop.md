@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'nTop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   nTop''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 69
+random_paper: 110
 score:
   band: emerging
   composite: 26.6
@@ -130,8 +130,8 @@ score:
   previous_composite: 26.6
   provenance:
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: Consumer-facing checking-account capability of Varo Bank, N.A., covering fee-free checking, early direct deposit (up to two days early), debit card management, access to 55,000+ Allpoint ATMs, cash de
@@ -167,7 +167,7 @@ plans:
 - name: Varo Plans Pricing
   plan_count: 5
   slug: varo-plans-pricing
-random_paper: 60
+random_paper: 101
 rate_limits:
 - limit_count: 6
   name: Varo Rate Limits
@@ -190,8 +190,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varo/refs/heads/main/screenshots/varo-2026-06-20T200822.png
 security:

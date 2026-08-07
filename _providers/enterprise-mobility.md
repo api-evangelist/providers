@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -133,7 +133,7 @@ overview: 'Enterprise Mobility publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Enterprise Mobility''s developer surface includes developer portal, documentation, authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 12
+random_paper: 86
 scopes:
 - name: Enterprise Mobility Scopes
   scope_count: 14
@@ -153,8 +153,8 @@ score:
   previous_composite: 21.0
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

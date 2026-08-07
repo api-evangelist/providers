@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 19 more developer resources.'
-random_paper: 43
+random_paper: 84
 score:
   band: developing
   composite: 47.0
@@ -198,8 +198,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

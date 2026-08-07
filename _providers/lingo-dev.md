@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Lingo Dev Plans Pricing
   plan_count: 4
   slug: lingo-dev-plans-pricing
-random_paper: 46
+random_paper: 110
 rate_limits:
 - limit_count: 3
   name: Lingo Dev Rate Limits
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/screenshots/lingo-dev-2026-07-25T225242.png
 security:

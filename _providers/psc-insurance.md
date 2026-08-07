@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -134,7 +134,7 @@ overview: 'PSC Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   PSC Insurance''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 96
 scopes:
 - name: Psc Insurance Scopes
   scope_count: 14
@@ -160,8 +160,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

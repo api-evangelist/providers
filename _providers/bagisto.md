@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -119,7 +119,7 @@ plans:
 - name: Bagisto Plans Pricing
   plan_count: 3
   slug: bagisto-plans-pricing
-random_paper: 80
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Bagisto Rate Limits
@@ -136,8 +136,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Argilla Plans Pricing
   plan_count: 2
   slug: argilla-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Argilla Rate Limits
@@ -239,7 +239,7 @@ rules:
 score:
   band: developing
   composite: 48.1
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.0
@@ -247,7 +247,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 45.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
 security:

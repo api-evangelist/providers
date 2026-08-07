@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -570,7 +570,7 @@ plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
   slug: gravitee-plans-pricing
-random_paper: 0
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Gravitee Rate Limits
@@ -595,7 +595,7 @@ rules:
 score:
   band: developing
   composite: 54.7
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 57.2
@@ -603,7 +603,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.2
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -611,8 +611,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 50
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:

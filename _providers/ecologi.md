@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The Impact API lets developers programmatically fund climate impact on behalf of an Ecologi account. POST endpoints purchase trees, local trees in specific countries (UK, US, AU, BR), carbon avoidance
@@ -184,7 +184,7 @@ overview: 'Ecologi publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Ecologi''s developer surface includes developer portal, documentation, getting-started guide, signup flow, support, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 73
+random_paper: 60
 score:
   band: emerging
   composite: 20.8
@@ -197,8 +197,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.8
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecologi/refs/heads/main/screenshots/ecologi-2026-06-20T180444.png
 security:

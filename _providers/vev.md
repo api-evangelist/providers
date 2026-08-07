@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-03'
+  score: 36.9
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: The Vev REST API (api.vev.design) for API-key introspection and platform integration, authenticated with an x-vev-key header. Complemented by a publish webhook and a React component SDK/CLI toolchain.
@@ -163,7 +163,7 @@ overview: 'Vev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vev''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, engineering blog, and 20 more developer resources.'
-random_paper: 52
+random_paper: 111
 score:
   band: developing
   composite: 50.3
@@ -176,8 +176,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 50.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

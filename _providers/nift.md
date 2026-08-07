@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'NIFT publishes 1 API on the [APIs.io](https://apis.io/) network: Cust
 
 
   NIFT''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 53
+random_paper: 94
 scopes:
 - name: Nift Scopes
   scope_count: 2
@@ -191,8 +191,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

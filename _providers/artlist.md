@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ overview: 'Artlist publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 11
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Artlist Rate Limits
@@ -191,6 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 48.8
@@ -198,6 +199,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,8 +210,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Artlist Authentication

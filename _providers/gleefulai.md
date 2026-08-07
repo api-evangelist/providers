@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-04'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: AI visibility / AEO audit API with x402 micropayments. No API key required.
@@ -66,10 +66,11 @@ plans:
 - name: Gleefulai Plans
   plan_count: 0
   slug: gleefulai-plans
-random_paper: 78
+random_paper: 38
 score:
   band: emerging
   composite: 23.3
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 38.8
@@ -77,8 +78,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.9
-  scored_at: '2026-08-04'
+  previous_composite: 23.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Gleefulai Authentication

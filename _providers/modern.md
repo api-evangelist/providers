@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 8
 apis:
 - description: Franchise dashboards and dashboard types
@@ -109,7 +109,7 @@ overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modern''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 75
+random_paper: 80
 score:
   band: thin
   composite: 37.7
@@ -131,8 +131,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Programmatic access to Efflux asset-intelligence data — export, download, and share the assets, scans, and attributions Efflux collects. The API host is live but access-gated (early access / waitlist)
@@ -71,7 +71,7 @@ overview: 'Efflux Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Efflux Systems'' developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 62
+random_paper: 18
 score:
   band: emerging
   composite: 13.2
@@ -84,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efflux-systems/refs/heads/main/screenshots/efflux-systems-2026-07-25T212942.png
 security:

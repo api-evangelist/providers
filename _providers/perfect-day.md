@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 16
 apis:
 - description: The WordPress REST `posts` resource behind perfectday.com — 71 published blog posts, with collection, single-item, revision and autosave routes. Read access is anonymous; writes require a WordPress ap
@@ -207,10 +207,11 @@ overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 24 more developer resources.'
-random_paper: 63
+random_paper: 91
 score:
   band: thin
   composite: 39.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 64.5
@@ -218,6 +219,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +229,9 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Perfect Day Authentication

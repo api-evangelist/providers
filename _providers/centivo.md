@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Centivo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Centivo''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 82
 score:
   band: emerging
   composite: 14.3
@@ -90,8 +90,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centivo/refs/heads/main/screenshots/centivo-2026-07-25T204925.png
 security:

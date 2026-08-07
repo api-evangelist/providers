@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -267,7 +267,7 @@ plans:
 - name: Chainlens Plans Pricing
   plan_count: 1
   slug: chainlens-plans-pricing
-random_paper: 94
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Chainlens Rate Limits
@@ -291,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
 security:

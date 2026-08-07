@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Postalcodes Info Plans Pricing
   plan_count: 1
   slug: postalcodes-info-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Postalcodes Info Rate Limits
@@ -236,8 +236,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/screenshots/postalcodes-info-2026-06-20T191947.png
 security:

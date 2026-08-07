@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Add dynamically generated statistics to your GitHub profile ReadMe
@@ -52,7 +52,7 @@ name: GitHub ReadMe Stats
 nav: Providers
 network: true
 overview: GitHub ReadMe Stats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source Projects and Public APIs.
-random_paper: 14
+random_paper: 106
 score:
   band: minimal
   composite: 5.0
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-readme-stats/refs/heads/main/screenshots/github-readme-stats-2026-06-20T181844.png
 slug: github-readme-stats

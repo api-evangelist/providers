@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect protected API surface serving Mudflap's partner, fleet, and merchant dashboards. Discovered via the published RFC 8414 authorization-server metadata; no public OpenAPI refer
@@ -104,7 +104,7 @@ overview: 'Mudflap publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Mudflap''s developer surface includes developer portal, getting-started guide, support, authentication, and 10 more developer resources.'
-random_paper: 80
+random_paper: 67
 scopes:
 - name: Mudflap Scopes
   scope_count: 3
@@ -130,8 +130,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

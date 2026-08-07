@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 2
 apis:
 - description: The KFC China Super App is Yum China's digital ordering and loyalty platform providing members with digital ordering, personalized recommendations, loyalty points, and an AI ordering assistant. The pl
@@ -125,7 +125,7 @@ plans:
 - name: Yum China Plans Pricing
   plan_count: 3
   slug: yum-china-plans-pricing
-random_paper: 52
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Yum China Rate Limits
@@ -142,8 +142,8 @@ score:
     governance: 10.4
     operational_transparency: 36.8
   previous_composite: 27.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png
 security:

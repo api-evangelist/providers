@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,10 +90,11 @@ overview: 'Apeel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apeel''s developer surface includes FAQ, product news, engineering blog, support, and 10 more developer resources.'
-random_paper: 79
+random_paper: 53
 score:
   band: minimal
   composite: 12.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -101,8 +102,10 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  previous_composite: 12.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: domain-security
   name: Apeel Sciences Domain Security

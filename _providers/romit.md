@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 9
 apis:
 - description: The Application API from Romit — 1 operation(s) for application.
@@ -112,7 +112,7 @@ overview: 'Romit publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Romit''s developer surface includes authentication, sandbox, and 8 more developer resources.'
-random_paper: 80
+random_paper: 103
 scopes:
 - name: Romit Scopes
   scope_count: 15
@@ -143,8 +143,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

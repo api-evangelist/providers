@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,7 +56,7 @@ name: CSX Corporation
 nav: Providers
 network: true
 overview: CSX Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Rail, Freight, Transportation, and Fortune 500.
-random_paper: 59
+random_paper: 110
 score:
   band: minimal
   composite: 3.5
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 3.5
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csx-corporation/refs/heads/main/screenshots/csx-corporation-2026-06-20T175324.png
 security:

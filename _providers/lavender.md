@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'Lavender is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lavender''s developer surface includes engineering blog, support, pricing, signup flow, YouTube channel, and 10 more developer resources.'
-random_paper: 89
+random_paper: 58
 score:
   band: emerging
   composite: 20.2
@@ -118,8 +118,8 @@ score:
   previous_composite: 20.2
   provenance:
     conformance: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavender/refs/heads/main/screenshots/lavender-2026-07-25T224733.png
 security:

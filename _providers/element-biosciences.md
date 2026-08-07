@@ -1,0 +1,240 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: derived
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-08-06'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Element Biosciences Agentic Access
+  operation_count: 16
+  slug: element-biosciences-agentic-access
+  summary_line: 16 operations
+api_count: 1
+apis:
+- description: 'The Element Biosciences Cloud API provides programmatic, read-oriented access to data in the ElemBio Cloud platform: instrument runs (sequencing and multiomics), workflow executions, registered instru'
+  name: Element Biosciences Cloud API
+  slug: cloud-api
+artifact_total: 6
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/element-biosciences-agentic-access.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.elementbiosciences.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.elembio.io/developers/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.elembio.io/developers/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.elembio.io/developers/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.elembio.io/developers/api/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.elementbiosciences.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.elementbiosciences.com/knowledge-base
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.elementbiosciences.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Elembio
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cloud.elembio.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.elementbiosciences.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.elementbiosciences.com/legal/privacy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.elembio.io/developers/api/api-changelog/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/element-biosciences-changelog.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/element-biosciences-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/element-biosciences-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/element-biosciences-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/element-biosciences-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/element-biosciences-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/element-biosciences-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/element-biosciences-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/element-biosciences-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/element-biosciences-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/element-biosciences-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/element-biosciences-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/element-biosciences-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/element-biosciences-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/element-biosciences-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/element-biosciences-domain-security.yml
+- group: other
+  title: ''
+  type: Forge
+  url: https://forgeglobal.com/element-biosciences_stock/
+created: '2026-08-04'
+description: Element Biosciences is a San Diego based life-sciences instrumentation company that builds benchtop DNA sequencing and multiomics systems — the AVITI, AVITI LT, AVITI24 and VITARI platforms — around its proprietary Avidite Base Chemistry (ABC), which decouples signal generation from nucleotide incorporation to deliver high-accuracy base calling at lower cost than conventional sequencing-by-synthesis. Instrument output is managed through ElemBio Cloud, the company's analysis and data-management platform, which runs bioinformatics workflows such as Bases2Fastq and Cells2Stats and streams run data into customer-owned cloud storage connections. ElemBio Cloud exposes a public, versioned REST API — the Element Biosciences Cloud API — plus a first-party cross-platform CLI, giving labs programmatic access to sequencing and multiomics runs, workflow executions, registered instruments, storage connections and the files those resources produce, for dashboards, fleet monitoring, LIMS read-back
+  and custom automation.
+image: https://www.elementbiosciences.com/hubfs/Element%20Biosciences%202025/Image/Hero_Home_Logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: element-biosciences-mcp.yml
+  slug: element-biosciences-mcpyml
+modified: '2026-08-04'
+name: Element Biosciences
+nav: Providers
+network: true
+overview: 'Element Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
+
+
+  Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
+random_paper: 29
+scopes:
+- name: Element Biosciences Scopes
+  scope_count: 12
+  slug: element-biosciences-scopes
+  summary_line: 12 scopes
+score:
+  band: developing
+  composite: 50.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 65.1
+    developer_ergonomics: 69.0
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 21.1
+  previous_composite: 50.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
+security:
+- kind: authentication
+  name: Element Biosciences Authentication
+  slug: element-biosciences-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Element Biosciences Domain Security
+  slug: element-biosciences-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: element-biosciences
+tags:
+- Company
+- Genomics
+- DNA Sequencing
+- Life Sciences
+- Bioinformatics
+- Multiomics
+- Laboratory
+- Scientific Instruments
+- Cloud Storage
+- Biotechnology
+website: https://www.elementbiosciences.com/
+---

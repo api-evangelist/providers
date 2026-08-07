@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 57
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -158,16 +158,16 @@ rules:
   slug: fatcat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 37.8
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.0
+    contract_quality: 58.9
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 35.6
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

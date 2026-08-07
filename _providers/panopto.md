@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Panopto Plans Pricing
   plan_count: 2
   slug: panopto-plans-pricing
-random_paper: 9
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Panopto Rate Limits
@@ -187,16 +187,16 @@ rules:
   slug: panopto-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 41.4
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 45.8
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 38.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/screenshots/panopto-2026-06-20T191340.png
 security:

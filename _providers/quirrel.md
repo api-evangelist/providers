@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Quirrel provides a JavaScript and TypeScript SDK for enqueuing, scheduling, retrying, and managing background jobs in serverless and containerized applications. The Queue API exposes methods such as e
@@ -80,7 +80,7 @@ plans:
 - name: Quirrel Plans Pricing
   plan_count: 3
   slug: quirrel-plans-pricing
-random_paper: 12
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Quirrel Rate Limits
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 19.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quirrel/refs/heads/main/screenshots/quirrel-2026-06-20T192437.png
 security:

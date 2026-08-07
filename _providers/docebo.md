@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: RESTful API for managing all aspects of the Docebo learning platform including courses, users, enrollments, certifications, learning plans, reports, gamification, and e-commerce.
@@ -120,7 +120,7 @@ plans:
 - name: Docebo Plans Pricing
   plan_count: 2
   slug: docebo-plans-pricing
-random_paper: 50
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Docebo Rate Limits
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 37.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docebo/refs/heads/main/screenshots/docebo-2026-06-20T180103.png
 security:

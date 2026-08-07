@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ plans:
 - name: Genius Plans Pricing
   plan_count: 1
   slug: genius-plans-pricing
-random_paper: 81
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Genius Rate Limits
@@ -261,8 +261,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

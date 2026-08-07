@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 62
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Nationbuilder Rate Limits
@@ -303,7 +303,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.3
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.2
@@ -311,7 +311,7 @@ score:
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 65.8
-  previous_composite: 49.5
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,8 +322,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ overview: 'Nimble publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nimble''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
-random_paper: 61
+random_paper: 66
 scopes:
 - name: Nimble Scopes
   scope_count: 3
@@ -125,8 +125,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

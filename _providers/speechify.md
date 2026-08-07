@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Speechify Plans Pricing
   plan_count: 3
   slug: speechify-plans-pricing
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Speechify Rate Limits
@@ -145,8 +145,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

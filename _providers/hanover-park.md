@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ overview: 'Hanover Park is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hanover Park''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 90
+random_paper: 100
 score:
   band: emerging
   composite: 16.3
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanover-park/refs/heads/main/screenshots/hanover-park-2026-07-25T220631.png
 security:

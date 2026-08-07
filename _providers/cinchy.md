@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -128,7 +128,7 @@ overview: 'Cinchy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cinchy''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 68
+random_paper: 73
 score:
   band: emerging
   composite: 22.9
@@ -144,8 +144,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cinchy/refs/heads/main/screenshots/cinchy-2026-07-25T205348.png
 security:

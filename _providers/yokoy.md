@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -207,7 +207,7 @@ overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 1
+random_paper: 6
 scopes:
 - name: Yokoy Scopes
   scope_count: 0
@@ -234,8 +234,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

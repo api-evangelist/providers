@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Distribution's first AI cloud companion now widely available
   url: https://www.arrow.com/globalecs/at/arrow-channel-advisor/ai-companion-arrowsphere-assistant-now-widely-available/
-random_paper: 69
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Arrow Electronics Rate Limits
@@ -166,8 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/screenshots/arrow-electronics-2026-06-20T172438.png
 security:

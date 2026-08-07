@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 4
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
@@ -165,7 +165,7 @@ overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 4
+random_paper: 86
 score:
   band: thin
   composite: 38.1
@@ -187,8 +187,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

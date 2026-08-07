@@ -19,17 +19,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-03'
+  score: 53.6
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 78
   slug: postman-agentic-access
   summary_line: 78 operations · 43 acting
-api_count: 24
+api_count: 39
 apis:
 - description: Postman is the single platform for collaborative API development used by 35+ million developers. It covers the entire API lifecycle - design, build, test, document, mock, monitor, and govern - and now
   name: Postman
@@ -54,27 +54,12 @@ apis:
 - description: 'The Monitors API runs Postman Collections on a recurring schedule to validate API health, performance, and contract conformance. Surfaces metrics, test results, and notification webhooks for incident '
   name: Postman Monitors API
   slug: monitors-api
-- description: 'The APIs endpoints (Spec Hub) manage API definitions, versions, specifications, and linked elements. Supports OpenAPI 3, AsyncAPI, GraphQL, gRPC/Protobuf, RAML, WSDL, and SOAP definitions and enables '
-  name: Postman APIs / Spec Hub API
-  slug: apis-api
-- description: The Private API Network API manages your internal API catalog - organizing folders, approving submissions, controlling visibility, and integrating CI/CD pipelines that publish APIs into your developer
-  name: Postman Private API Network API
-  slug: private-api-network-api
 - description: The Webhooks API creates webhooks that trigger collection runs with custom payloads, integrating Postman with external systems (GitHub, Slack, custom triggers) for event-driven automation.
   name: Postman Webhooks API
   slug: webhooks-api
-- description: The Collection Runs API programmatically launches collection runs, retrieves run results, and powers integration with Newman, the Postman CLI, and CI/CD pipelines for automated test execution.
-  name: Postman Collection Runs API
-  slug: collection-runs-api
 - description: The Tags API manages tags applied to APIs, collections, and workspaces for organization, governance reporting, and discoverability across the Private and Public API Networks.
   name: Postman Tags API
   slug: tags-api
-- description: Enterprise-only Audit Logs API exposing team audit events (user actions, configuration changes, security events) for SIEM ingestion and compliance reporting (SOC 2, GDPR, ISO).
-  name: Postman Audit Logs API
-  slug: audit-logs-api
-- description: The Secret Scanner API manages detected secrets and resolves leaked credentials found in collections, environments, and other elements - part of Postman's API governance and security posture suite.
-  name: Postman Secret Scanner API
-  slug: secret-scanner-api
 - description: The Billing API exposes account billing information, seat allocation, and resource usage so finance and FinOps teams can integrate Postman consumption into chargeback / showback reporting.
   name: Postman Billing API
   slug: billing-api
@@ -87,30 +72,90 @@ apis:
 - description: Postman Flows is a visual workflow builder that chains API calls, transformations, and conditional logic. Flows are executable, debuggable, and cloneable documentation that powers AI agent orchestrati
   name: Postman Flows
   slug: flows-api
-- description: Operations for managing comments on APIs.
-  name: Postman API Comments API
-  slug: postman-api-comments-api
-- description: Operations for managing API schemas and specifications.
-  name: Postman API Schemas API
-  slug: postman-api-schemas-api
-- description: Operations for managing API versions.
-  name: Postman API Versions API
-  slug: postman-api-versions-api
 - description: Operations for creating and managing mock servers.
   name: Postman Mocks API
   slug: postman-mocks-api
-- description: Operations for managing elements (APIs, collections, workspaces) in the network.
-  name: Postman Network Elements API
-  slug: postman-network-elements-api
-- description: Operations for managing folders in the private API network.
-  name: Postman Network Folders API
-  slug: postman-network-folders-api
-- description: Operations for managing requests to add elements to the network.
-  name: Postman Network Requests API
-  slug: postman-network-requests-api
-- description: Operations for managing mock server responses and examples.
-  name: Postman Server Responses API
-  slug: postman-server-responses-api
+- description: The analytics API from Postman — 2 operation(s) for analytics.
+  name: Postman analytics API
+  slug: postman-analytics-api
+- description: The api API from Postman — 16 operation(s) for api.
+  name: Postman api API
+  slug: postman-api-api
+- description: The apiCatalog API from Postman — 11 operation(s) for apicatalog.
+  name: Postman apiCatalog API
+  slug: postman-apicatalog-api
+- description: The apiSecurity API from Postman — 1 operation(s) for apisecurity.
+  name: Postman apiSecurity API
+  slug: postman-apisecurity-api
+- description: The auditLogs API from Postman — 2 operation(s) for auditlogs.
+  name: Postman auditLogs API
+  slug: postman-auditlogs-api
+- description: The billing API from Postman — 2 operation(s) for billing.
+  name: Postman billing API
+  slug: postman-billing-api
+- description: The collectionAccessKeys API from Postman — 2 operation(s) for collectionaccesskeys.
+  name: Postman collectionAccessKeys API
+  slug: postman-collectionaccesskeys-api
+- description: The collectionFolders API from Postman — 2 operation(s) for collectionfolders.
+  name: Postman collectionFolders API
+  slug: postman-collectionfolders-api
+- description: The collectionItems API from Postman — 6 operation(s) for collectionitems.
+  name: Postman collectionItems API
+  slug: postman-collectionitems-api
+- description: The collectionRequests API from Postman — 2 operation(s) for collectionrequests.
+  name: Postman collectionRequests API
+  slug: postman-collectionrequests-api
+- description: The collectionResponses API from Postman — 2 operation(s) for collectionresponses.
+  name: Postman collectionResponses API
+  slug: postman-collectionresponses-api
+- description: The comments API from Postman — 1 operation(s) for comments.
+  name: Postman comments API
+  slug: postman-comments-api
+- description: The components API from Postman — 5 operation(s) for components.
+  name: Postman components API
+  slug: postman-components-api
+- description: The groups API from Postman — 2 operation(s) for groups.
+  name: Postman groups API
+  slug: postman-groups-api
+- description: The import API from Postman — 1 operation(s) for import.
+  name: Postman import API
+  slug: postman-import-api
+- description: The oAuth20 API from Postman — 2 operation(s) for oauth20.
+  name: Postman oAuth20 API
+  slug: postman-oauth20-api
+- description: The postbot API from Postman — 1 operation(s) for postbot.
+  name: Postman postbot API
+  slug: postman-postbot-api
+- description: The privateApiNetwork API from Postman — 4 operation(s) for privateapinetwork.
+  name: Postman privateApiNetwork API
+  slug: postman-privateapinetwork-api
+- description: The pullRequests API from Postman — 2 operation(s) for pullrequests.
+  name: Postman pullRequests API
+  slug: postman-pullrequests-api
+- description: The scim API from Postman — 6 operation(s) for scim.
+  name: Postman scim API
+  slug: postman-scim-api
+- description: The sdKs API from Postman — 6 operation(s) for sdks.
+  name: Postman sdKs API
+  slug: postman-sdks-api
+- description: The search API from Postman — 1 operation(s) for search.
+  name: Postman search API
+  slug: postman-search-api
+- description: The secretScanner API from Postman — 4 operation(s) for secretscanner.
+  name: Postman secretScanner API
+  slug: postman-secretscanner-api
+- description: The serviceAccounts API from Postman — 1 operation(s) for serviceaccounts.
+  name: Postman serviceAccounts API
+  slug: postman-serviceaccounts-api
+- description: The specs API from Postman — 14 operation(s) for specs.
+  name: Postman specs API
+  slug: postman-specs-api
+- description: The teams API from Postman — 6 operation(s) for teams.
+  name: Postman teams API
+  slug: postman-teams-api
+- description: The users API from Postman — 3 operation(s) for users.
+  name: Postman users API
+  slug: postman-users-api
 arazzos:
 - description: Build a workspace, collection, and environment, then monitor and run the collection.
   name: Postman Stand Up an API Testing Pipeline
@@ -175,7 +220,7 @@ arazzos:
 - description: Create a workspace, then set and verify its global variables.
   name: Postman Manage Workspace Global Variables
   slug: postman-workspace-global-variables-workflow
-artifact_total: 208
+artifact_total: 223
 asyncapis:
 - description: Postman Webhooks enable you to receive incoming HTTP POST requests that trigger collection runs. When an external system sends a POST request to a Postman webhook URL, the webhook triggers a collectio
   name: Postman Webhooks
@@ -545,7 +590,15 @@ common:
 - group: other
   title: ''
   type: Governance
-  url: https://www.postman.com/product/api-governance/
+  url: https://www.postman.com/api-platform/api-governance/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://www.postman.com/llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://learning.postman.com/api-docs/openapi.json
 - group: other
   title: ''
   type: Workspaces
@@ -731,18 +784,19 @@ modified: '2026-05-19'
 name: Postman
 nav: Providers
 network: true
-overview: 'Postman publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Postman, Collections API, Workspaces API, and 17 more. Tagged areas include AI Agent Builder, AI Agents, API Catalog, API Client, and API Design.
+overview: 'Postman publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Postman, Collections API, Workspaces API, and 32 more. Tagged areas include AI Agent Builder, AI Agents, API Catalog, API Client, and API Design.
 
 
   The Postman catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
 
 
-  Postman''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, support, changelog, and 74 more developer resources.'
+  Postman''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, support, changelog, and 76 more developer resources.'
+paper_is_own: true
 plans:
 - name: Postman Plans Pricing
   plan_count: 4
   slug: postman-plans-pricing
-random_paper: 10
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Postman Rate Limits
@@ -774,11 +828,11 @@ rules:
   slug: postman-rules
 score:
   band: exemplar
-  composite: 76.8
-  delta: 0.0
+  composite: 75.8
+  delta: -1.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 77.3
+    contract_quality: 73.0
     developer_ergonomics: 69.6
     discoverability: 75.9
     governance: 47.9
@@ -789,10 +843,10 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 19
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+      marker_coverage: 50.0
+      total: 34
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

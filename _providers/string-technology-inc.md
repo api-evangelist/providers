@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
@@ -136,7 +136,7 @@ overview: 'String Technology Inc publishes 1 API on the [APIs.io](https://apis.i
 
 
   String Technology Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
-random_paper: 61
+random_paper: 4
 score:
   band: emerging
   composite: 25.2
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: authentication

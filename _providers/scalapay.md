@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-03'
+  score: 49.8
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: Interact with Scalapay. Create and update instalment orders, capture, delay, void and refund payments against the order token, run device-authenticated in-store and offline pay-by-link orders, and pul
@@ -169,10 +169,11 @@ overview: 'Scalapay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Scalapay''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 24 more developer resources.'
-random_paper: 86
+random_paper: 55
 score:
   band: developing
   composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 69.8
@@ -180,6 +181,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -195,8 +197,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
+  trend: flat
 security:
 - kind: authentication
   name: Scalapay Authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-03'
+  score: 34.2
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: 'Lugg''s partner/developer REST API for embedding on-demand moving and delivery: OAuth2 authentication, quotes, bookings, multi-stop booking flows, schedules, and webhook endpoints, with a documented sa'
@@ -103,7 +103,7 @@ overview: 'Lugg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lugg''s developer surface includes documentation, API reference, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 51
+random_paper: 92
 score:
   band: thin
   composite: 31.3
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 31.3
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/screenshots/lugg-2026-07-25T225649.png
 security:

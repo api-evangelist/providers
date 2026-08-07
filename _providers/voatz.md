@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Voatz is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Voatz''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 89
+random_paper: 112
 score:
   band: emerging
   composite: 17.4
@@ -98,8 +98,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 security:
 - kind: domain-security

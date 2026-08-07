@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 1
 apis:
 - description: REST API for fetching public YouTube transcripts synchronously and in bulk, with account/balance endpoints, job polling, and completion webhooks. Bearer API key or X-API-Key auth.
@@ -33,7 +33,7 @@ name: MediaCaption API
 nav: Providers
 network: true
 overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include youtube, transcription, captions, subtitles, and video.'
-random_paper: 6
+random_paper: 39
 score:
   band: emerging
   composite: 14.0
@@ -46,8 +46,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.0
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 slug: mediacaption-api
 tags:

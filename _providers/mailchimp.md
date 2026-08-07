@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-03'
+  score: 57.7
+  scored_at: '2026-08-06'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -1240,7 +1240,7 @@ plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
   slug: mailchimp-plans-pricing
-random_paper: 93
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Mailchimp Rate Limits
@@ -1264,16 +1264,16 @@ rules:
   slug: mailchimp-spectral-rules
 score:
   band: exemplar
-  composite: 67.4
+  composite: 70.6
   delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 56.5
+    contract_quality: 69.3
     developer_ergonomics: 52.2
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 67.4
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1283,8 +1283,8 @@ score:
       marker_coverage: 0.0
       total: 120
     mcp: first-party
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:

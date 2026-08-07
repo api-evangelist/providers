@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'GuruHotel is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GuruHotel''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 41
+random_paper: 87
 score:
   band: minimal
   composite: 11.4
@@ -90,8 +90,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guruhotel/refs/heads/main/screenshots/guruhotel-2026-07-25T220440.png
 security:

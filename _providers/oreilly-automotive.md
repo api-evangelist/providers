@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-03'
+  scored_at: '2026-08-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: O'Reilly Automotive (NASDAQ:ORLY) has outperformed ...
   url: https://www.facebook.com/Benzinga/posts/oreilly-automotive-nasdaqorly-has-outperformed-the-market-over-the-past-20-years/1415261083932891/
-random_paper: 14
+random_paper: 106
 score:
   band: minimal
   composite: 4.1
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.9
-  scored_at: '2026-08-03'
+  schema_version: 0.9.1
+  scored_at: '2026-08-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oreilly-automotive/refs/heads/main/screenshots/oreilly-automotive-2026-06-20T191207.png
 security:
