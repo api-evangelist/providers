@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "robotics": {
+        "slug": "state-of-robotics-apis",
+        "title": "The State of Robotics & Autonomous Systems APIs",
+        "blurb": "The emptiest market in the catalog \u2014 no Exemplars in 546 companies, and two "
+                 "of them describe an event surface.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "legal-compliance": {
         "slug": "state-of-legal-compliance-apis",
         "title": "The State of Legal & Compliance APIs",
