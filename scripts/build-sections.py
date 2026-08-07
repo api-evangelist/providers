@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "education": {
+        "slug": "state-of-education-apis",
+        "title": "The State of Education & EdTech APIs",
+        "blurb": "The library out-publishes the classroom \u2014 scholarly infrastructure publishes a "
+                 "contract 70.8% of the time, corporate learning 0%.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "blockchain-crypto": {
         "slug": "state-of-blockchain-crypto-apis",
         "title": "The State of Blockchain & Crypto APIs",
