@@ -5,6 +5,30 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for doc in site.providers %}
+    {% unless doc.published == false %}
+    <url>
+      <loc>{{ site.url }}{{ doc.url }}</loc>
+      {% if doc.sitemap.lastmod %}
+        <lastmod>{{ doc.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif doc.date %}
+        <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if doc.sitemap.changefreq %}
+        <changefreq>{{ doc.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if doc.sitemap.priority %}
+        <priority>{{ doc.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.8</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
   {% for post in site.posts %}
     {% unless post.published == false %}
     <url>
