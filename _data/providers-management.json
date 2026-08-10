@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,48 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 6,
-   "shown": 6,
+   "count": 8,
+   "shown": 8,
    "providers": [
+    {
+     "name": "Solo.io",
+     "slug": "solo-io",
+     "description": "Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gateway; Solo Enterprise for Istio (formerly Gloo Mesh), a hardened Istio service mesh with ambient mode; Agentgateway Enterprise, a Rust-based AI-native gateway for LLM, MCP, and A2A traffic; Kagent Enterprise, a Kubernetes-native agent runtime; and Agentregistry Enterprise, a registry for agents, MCP servers, and AI tools. Solo.io also ships Gloo Portal, a developer portal whose Portal Server REST API manages API products, teams, apps, subscriptions, API keys, and OAuth credentials, and contributes the kgateway, agentgateway, kagent, and Istio ambient-mesh open-source projects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-2026-06-20T194151.png",
+     "score": 81.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 66.8,
+      "governance": 80.2,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 63.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Gateways, Ingress and the Data Plane",
+     "rank": 1
+    },
     {
      "name": "Apigee",
      "slug": "apigee",
@@ -48,7 +87,46 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 1
+     "rank": 2
+    },
+    {
+     "name": "Boomi",
+     "slug": "boomi",
+     "description": "Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline processes, improve productivity, and enhance the overall customer experience.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png",
+     "score": 72.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 85.3,
+      "governance": 47.9,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 3
     },
     {
      "name": "MuleSoft",
@@ -87,7 +165,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 2
+     "rank": 4
     },
     {
      "name": "Amazon API Gateway",
@@ -126,7 +204,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 3
+     "rank": 5
     },
     {
      "name": "Zuplo",
@@ -165,7 +243,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 4
+     "rank": 6
     },
     {
      "name": "Apidog",
@@ -204,7 +282,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 5
+     "rank": 7
     },
     {
      "name": "Microsoft Azure API Management",
@@ -243,7 +321,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 6
+     "rank": 8
     }
    ],
    "open": true
@@ -293,7 +371,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 7
+     "rank": 9
     },
     {
      "name": "Tyk",
@@ -332,7 +410,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 8
+     "rank": 10
     },
     {
      "name": "WSO2",
@@ -371,7 +449,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 9
+     "rank": 11
     },
     {
      "name": "Google Cloud API Gateway",
@@ -410,7 +488,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Kong",
@@ -449,7 +527,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "Red Hat 3scale",
@@ -488,7 +566,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "SAP API Management",
@@ -527,7 +605,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "TIBCO",
@@ -573,7 +651,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 14
+     "rank": 16
     }
    ],
    "open": true
@@ -623,7 +701,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Apache APISIX",
@@ -662,7 +740,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "APIPark",
@@ -701,7 +779,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "APIIDA",
@@ -740,7 +818,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Traefik Labs",
@@ -779,7 +857,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Apinizer",
@@ -818,7 +896,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Emissary-Ingress",
@@ -857,7 +935,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "IBM API Connect",
@@ -896,7 +974,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Envoy",
@@ -935,7 +1013,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Spring Cloud Gateway",
@@ -974,7 +1052,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Software AG",
@@ -1013,7 +1091,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "KrakenD",
@@ -1052,7 +1130,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Broadcom",
@@ -1091,7 +1169,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "NGINX",
@@ -1130,7 +1208,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Bifrost",
@@ -1169,7 +1247,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 29
+     "rank": 31
     }
    ]
   },
@@ -1218,7 +1296,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 30
+     "rank": 32
     }
    ]
   },
@@ -1267,7 +1345,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Netflix Zuul",
@@ -1306,7 +1384,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "APIwiz",
@@ -1345,7 +1423,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "Envoy Gateway",
@@ -1384,7 +1462,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 34
+     "rank": 36
     }
    ]
   }
