@@ -4,7 +4,7 @@ Build the Industries, Countries, and Australian Banks sections of the
 API Evangelist Providers site.
 
 Sources:
-  - ../../signals-jobs/_data/industries.yml              : industry taxonomy
+  - ../../insights-work/_data/industries.yml             : industry taxonomy
                                                            (companies per industry)
   - ../../all/*/apis.yml                                 : top-level tags
                                                            (country + Banks matching)
@@ -36,7 +36,7 @@ SITE = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
-INDUSTRIES_YML = os.path.join(ROOT, "signals-jobs", "_data", "industries.yml")
+INDUSTRIES_YML = os.path.join(ROOT, "insights-work", "_data", "industries.yml")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
 DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
