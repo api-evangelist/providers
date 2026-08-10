@@ -134,6 +134,9 @@
     - name: Regulations
       symbol: gavel
       href: https://regulations.apievangelist.com
+    - name: Headers
+      symbol: horizontal_rule
+      href: https://headers.apievangelist.com/
 
     - name: Schema
       symbol: schema
