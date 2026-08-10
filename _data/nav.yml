@@ -137,6 +137,9 @@
     - name: Headers
       symbol: horizontal_rule
       href: https://headers.apievangelist.com/
+    - name: Overlays
+      symbol: layers
+      href: https://overlays.apievangelist.com/
 
     - name: Schema
       symbol: schema
