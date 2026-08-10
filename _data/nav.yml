@@ -45,9 +45,16 @@
       symbol: description
       href: https://papers.apievangelist.com
 
-    - name: Newsletter
+    - name: Newsletters
       symbol: mail
       href: https://newsletters.apievangelist.com
+      sub:
+
+        - name: API Evangelist
+          href: https://newsletters.apievangelist.com
+
+        - name: The Specification Layer
+          href: https://newsletters.apievangelist.com/specifications/
 
     - name: Videos
       symbol: video_library
@@ -216,7 +223,10 @@
           href: https://mastodon.apievangelist.com/web/@api
 
         - name: Newsletter
-          href: https://newsletters.apievangelist.com
+          href: https://usecommune.com/n/apievangelist
+
+        - name: Specification Layer
+          href: https://usecommune.com/n/the-specification-layer
 
         - name: Apple Podcasts
           href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921
