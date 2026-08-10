@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -201,7 +201,7 @@ overview: 'CaptivateIQ publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 20 more developer resources.'
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Captivateiq Rate Limits
@@ -228,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

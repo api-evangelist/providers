@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -168,7 +168,7 @@ overview: 'Codecademy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Codecademy''s developer surface includes pricing, documentation, engineering blog, status page, terms of service, privacy policy, GitHub presence, and 23 more developer resources.'
-random_paper: 21
+random_paper: 110
 score:
   band: emerging
   composite: 24.1
@@ -182,7 +182,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecademy/refs/heads/main/screenshots/codecademy-2026-06-20T174659.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: Exchange access/secret keys for an access token.
@@ -217,7 +217,7 @@ overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: strong
   composite: 60.6
@@ -240,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:

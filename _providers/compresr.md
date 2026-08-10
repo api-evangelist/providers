@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -177,7 +177,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/compresr-openapi-original.json
+  url: openapi/_original/compresr-openapi-original.json
 - group: build
   title: ''
   type: Packages
@@ -278,7 +278,7 @@ plans:
 - name: Compresr Plans
   plan_count: 2
   slug: compresr-plans
-random_paper: 84
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Compresr Rate Limits
@@ -306,7 +306,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:

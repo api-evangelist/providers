@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -26,12 +26,105 @@ agentic_access:
   operation_count: 239
   slug: versusgame-agentic-access
   summary_line: 239 operations · 120 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 32
 apis:
-- description: 'Production REST API for the Versus interactive gaming platform. 239 operations across 190 paths covering authentication (email/password plus Apple, Google, Facebook and Microsoft social login), games '
-  name: Versusgame API
-  slug: versusgame-api
-artifact_total: 4
+- description: The achievements API from VersusGame — 1 operation(s) for achievements.
+  name: VersusGame Achievements API
+  slug: versusgame-achievements-api
+- description: The App API from VersusGame — 1 operation(s) for app.
+  name: VersusGame App API
+  slug: versusgame-app-api
+- description: The assets API from VersusGame — 4 operation(s) for assets.
+  name: VersusGame Assets API
+  slug: versusgame-assets-api
+- description: The auth API from VersusGame — 30 operation(s) for auth.
+  name: VersusGame Auth API
+  slug: versusgame-auth-api
+- description: The autogame API from VersusGame — 27 operation(s) for autogame.
+  name: VersusGame Autogame API
+  slug: versusgame-autogame-api
+- description: The autogame/article/v2 API from VersusGame — 10 operation(s) for autogame/article/v2.
+  name: VersusGame Autogame/article/v2 API
+  slug: versusgame-autogame-article-v2-api
+- description: The buddy-list API from VersusGame — 4 operation(s) for buddy-list.
+  name: VersusGame Buddy List API
+  slug: versusgame-buddy-list-api
+- description: The categories API from VersusGame — 3 operation(s) for categories.
+  name: VersusGame Categories API
+  slug: versusgame-categories-api
+- description: The creators API from VersusGame — 3 operation(s) for creators.
+  name: VersusGame Creators API
+  slug: versusgame-creators-api
+- description: The custom-urls API from VersusGame — 5 operation(s) for custom-urls.
+  name: VersusGame Custom URLS API
+  slug: versusgame-custom-urls-api
+- description: The cuts API from VersusGame — 5 operation(s) for cuts.
+  name: VersusGame Cuts API
+  slug: versusgame-cuts-api
+- description: The gameplays API from VersusGame — 3 operation(s) for gameplays.
+  name: VersusGame Gameplays API
+  slug: versusgame-gameplays-api
+- description: The games API from VersusGame — 12 operation(s) for games.
+  name: VersusGame Games API
+  slug: versusgame-games-api
+- description: The gameset-plays API from VersusGame — 8 operation(s) for gameset-plays.
+  name: VersusGame Gameset Plays API
+  slug: versusgame-gameset-plays-api
+- description: The gamesets API from VersusGame — 3 operation(s) for gamesets.
+  name: VersusGame Gamesets API
+  slug: versusgame-gamesets-api
+- description: The Health API from VersusGame — 1 operation(s) for health.
+  name: VersusGame Health API
+  slug: versusgame-health-api
+- description: The internal API from VersusGame — 2 operation(s) for internal.
+  name: VersusGame Internal API
+  slug: versusgame-internal-api
+- description: The Invite API from VersusGame — 1 operation(s) for invite.
+  name: VersusGame Invite API
+  slug: versusgame-invite-api
+- description: The keyframes API from VersusGame — 3 operation(s) for keyframes.
+  name: VersusGame Keyframes API
+  slug: versusgame-keyframes-api
+- description: The leaderboards API from VersusGame — 16 operation(s) for leaderboards.
+  name: VersusGame Leaderboards API
+  slug: versusgame-leaderboards-api
+- description: The ledger API from VersusGame — 2 operation(s) for ledger.
+  name: VersusGame Ledger API
+  slug: versusgame-ledger-api
+- description: The Legal API from VersusGame — 5 operation(s) for legal.
+  name: VersusGame Legal API
+  slug: versusgame-legal-api
+- description: The meter-ads API from VersusGame — 3 operation(s) for meter-ads.
+  name: VersusGame Meter Ads API
+  slug: versusgame-meter-ads-api
+- description: The notifications API from VersusGame — 2 operation(s) for notifications.
+  name: VersusGame Notifications API
+  slug: versusgame-notifications-api
+- description: The partner-domain API from VersusGame — 3 operation(s) for partner-domain.
+  name: VersusGame Partner Domain API
+  slug: versusgame-partner-domain-api
+- description: The payments API from VersusGame — 10 operation(s) for payments.
+  name: VersusGame Payments API
+  slug: versusgame-payments-api
+- description: The personal-information API from VersusGame — 1 operation(s) for personal-information.
+  name: VersusGame Personal Information API
+  slug: versusgame-personal-information-api
+- description: The playlists API from VersusGame — 4 operation(s) for playlists.
+  name: VersusGame Playlists API
+  slug: versusgame-playlists-api
+- description: The products API from VersusGame — 3 operation(s) for products.
+  name: VersusGame Products API
+  slug: versusgame-products-api
+- description: The profiles API from VersusGame — 5 operation(s) for profiles.
+  name: VersusGame Profiles API
+  slug: versusgame-profiles-api
+- description: The wallets API from VersusGame — 5 operation(s) for wallets.
+  name: VersusGame Wallets API
+  slug: versusgame-wallets-api
+- description: The widgets API from VersusGame — 5 operation(s) for widgets.
+  name: VersusGame Widgets API
+  slug: versusgame-widgets-api
+artifact_total: 35
 common:
 - group: agent
   title: ''
@@ -129,20 +222,20 @@ modified: '2026-08-02'
 name: VersusGame
 nav: Providers
 network: true
-overview: 'VersusGame publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, gaming, prediction-games, audience-engagement, and gamification.
+overview: 'VersusGame publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, App API, Assets API, and 29 more. Tagged areas include Company, gaming, prediction-games, audience-engagement, and gamification.
 
 
   VersusGame''s developer surface includes authentication and 21 more developer resources.'
-random_paper: 73
+random_paper: 46
 score:
   band: thin
-  composite: 28.8
-  delta: 0.0
+  composite: 29.6
+  delta: 0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 38.0
+    contract_quality: 39.7
     developer_ergonomics: 12.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 28.8
@@ -158,7 +251,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

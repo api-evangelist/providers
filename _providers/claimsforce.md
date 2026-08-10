@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: claimsforce
 nav: Providers
 network: true
 overview: claimsforce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Claims Management, and Underwriting.
-random_paper: 30
+random_paper: 0
 score:
   band: emerging
   composite: 17.7
@@ -90,7 +90,7 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claimsforce/refs/heads/main/screenshots/claimsforce-2026-07-25T205452.png
 security:

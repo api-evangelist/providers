@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -203,9 +203,9 @@ common:
   title: ''
   type: Sales
   url: https://networkascode.nokia.io/contact-sales
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://networkascode.nokia.io/docs/mcp-server
 - group: build
   title: ''
@@ -256,7 +256,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 38 more developer resources.'
-random_paper: 32
+random_paper: 94
 scopes:
 - name: Nokia Network As Code Scopes
   scope_count: 65
@@ -291,8 +291,9 @@ score:
     regime_id: telecommunications
     score: 93.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:
 - kind: authentication
   name: Nokia Network As Code Authentication

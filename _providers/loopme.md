@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Ad Serving API from LoopMe — 1 operation(s) for ad serving.
@@ -142,7 +142,7 @@ overview: 'LoopMe publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   LoopMe''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 87
+random_paper: 72
 score:
   band: thin
   composite: 41.8
@@ -164,7 +164,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/screenshots/loopme-2026-07-25T225535.png
 security:

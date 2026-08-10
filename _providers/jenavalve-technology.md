@@ -18,16 +18,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: 'Anonymously readable REST surface served by jenavalve.com at /wp-json — 242 routes across 12 namespaces. The standard WordPress content collections all answer without credentials: 38 news posts (segme'
-  name: JenaValve Site API (WordPress REST)
-  slug: jenavalve-site-api-wordpress-rest
-- description: 'Anonymously readable REST surface served by discover-ar.com at /wp-json — 197 routes across 8 namespaces. Discover AR is JenaValve''s aortic-regurgitation education site, linked from the jenavalve.com '
-  name: JenaValve Discover AR Site API (WordPress REST)
-  slug: jenavalve-discover-ar-site-api-wordpress-rest
-artifact_total: 4
+- description: Public author profiles attached to published content.
+  name: JenaValve Technology Authors API
+  slug: jenavalve-technology-authors-api
+- description: The AR education library — posts, pages and site search.
+  name: JenaValve Technology Content API
+  slug: jenavalve-technology-content-api
+- description: Route and capability discovery documents.
+  name: JenaValve Technology Discovery API
+  slug: jenavalve-technology-discovery-api
+- description: Uploaded media library items.
+  name: JenaValve Technology Media API
+  slug: jenavalve-technology-media-api
+- description: oEmbed provider endpoint for discover-ar.com URLs.
+  name: JenaValve Technology O Embed API
+  slug: jenavalve-technology-oembed-api
+- description: Yoast SEO head-metadata endpoint.
+  name: JenaValve Technology SEO API
+  slug: jenavalve-technology-seo-api
+- description: The articles / videos / audio / presentations category taxonomy.
+  name: JenaValve Technology Taxonomy API
+  slug: jenavalve-technology-taxonomy-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -146,20 +161,20 @@ modified: '2026-08-04'
 name: JenaValve Technology
 nav: Providers
 network: true
-overview: 'JenaValve Technology publishes 2 APIs on the [APIs.io](https://apis.io/) network: JenaValve Site API (WordPress REST) and JenaValve Discover AR Site API (WordPress REST). Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Structural Heart.
+overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Content API, Discovery API, and 4 more. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Structural Heart.
 
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 22 more developer resources.'
-random_paper: 51
+random_paper: 113
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 33.0
+  delta: 0.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.5
+    contract_quality: 51.6
     developer_ergonomics: 27.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 32.9
@@ -178,8 +193,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:
 - kind: authentication
   name: Jenavalve Technology Authentication

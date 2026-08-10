@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for the Popp recruitment conversation engine — conversations, campaigns, documents, analysis, scheduling/calendar, and workflow automation, authenticated with an x-api-key + x-organization-id
@@ -131,7 +131,7 @@ overview: 'Popp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Popp''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 13 more developer resources.'
-random_paper: 108
+random_paper: 99
 score:
   band: thin
   composite: 39.6
@@ -148,7 +148,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

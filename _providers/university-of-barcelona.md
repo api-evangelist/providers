@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: 'Public DSpace 7.6.6 REST API for the Dipòsit Digital de la Universitat de Barcelona, the institutional repository of teaching, research and institutional output. The API root advertises HAL links for '
@@ -110,7 +110,7 @@ plans:
 - name: University Of Barcelona Plans Pricing
   plan_count: 2
   slug: university-of-barcelona-plans-pricing
-random_paper: 100
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: University Of Barcelona Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

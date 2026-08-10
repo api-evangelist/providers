@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -78,7 +78,7 @@ overview: 'Atkore is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atkore''s developer surface includes support and 6 more developer resources.'
-random_paper: 81
+random_paper: 66
 score:
   band: minimal
   composite: 5.3
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atkore/refs/heads/main/screenshots/atkore-2026-06-20T172521.png
 security:

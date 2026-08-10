@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -279,7 +279,7 @@ overview: 'SonarSource publishes 33 APIs on the [APIs.io](https://apis.io/) netw
 
 
   SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 74
+random_paper: 44
 score:
   band: strong
   composite: 56.4
@@ -303,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

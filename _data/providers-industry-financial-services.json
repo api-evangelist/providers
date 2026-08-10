@@ -1,6 +1,6 @@
 {
- "total": 125,
- "shown": 125,
+ "total": 124,
+ "shown": 124,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -72,7 +72,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -110,7 +110,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -155,7 +155,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -200,7 +200,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -245,7 +245,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -290,7 +290,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -335,7 +335,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -380,7 +380,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -418,7 +418,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -456,7 +456,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -501,7 +501,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -546,7 +546,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -591,7 +591,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -621,6 +621,51 @@
      "rank": 14
     },
     {
+     "name": "Commonwealth Bank",
+     "slug": "commonwealth-bank",
+     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
+     "score": 44.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 13.2,
+      "governance": 20.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 77.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
      "name": "Regions Financial",
      "slug": "regions-financial",
      "description": "Regions Financial Corporation is a member of the S&P 500 Index and one of the nation's largest full-service providers of consumer and commercial banking, wealth management, and mortgage products and services. Regions Bank is implementing open banking capabilities through a partnership with Axway's Amplify Open Banking solution, building APIs aligned to the Financial Data Exchange (FDX) standard to enable secure financial data sharing with fintech partners and third-party platforms. Regions joined FDX in 2021 and is targeting compliance with CFPB open banking rules by April 2027.",
@@ -635,7 +680,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -662,7 +707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "US Bancorp",
@@ -680,7 +725,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -707,7 +752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Scotiabank",
@@ -725,7 +770,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -752,7 +797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Northern Trust",
@@ -770,7 +815,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -797,7 +842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "KeyCorp",
@@ -815,7 +860,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -836,51 +881,6 @@
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Commonwealth Bank",
-     "slug": "commonwealth-bank",
-     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 12.2,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 67.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -916,7 +916,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -961,7 +961,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -999,7 +999,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1044,7 +1044,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1082,7 +1082,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1127,7 +1127,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1172,7 +1172,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1261,7 +1261,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1299,7 +1299,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1344,7 +1344,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1389,7 +1389,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1426,7 +1426,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -1464,7 +1464,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1509,7 +1509,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1554,7 +1554,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1588,18 +1588,18 @@
      "slug": "ameriprise-financial",
      "description": "Get financial planning advice and retirement investment advice from Ameriprise financial advisors at ameriprise.com. Ameriprise Financial is a diversified financial services company offering comprehensive financial planning, wealth management, retirement planning, investment management, insurance, and annuities through a nationwide network of financial advisors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png",
-     "score": 30.4,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 32.3,
+      "contract_quality": 33.3,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1644,7 +1644,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1689,7 +1689,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1734,7 +1734,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1790,7 +1790,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1834,7 +1834,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1879,7 +1879,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1924,7 +1924,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1969,7 +1969,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2007,7 +2007,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2052,7 +2052,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2090,7 +2090,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2135,7 +2135,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2180,7 +2180,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2218,7 +2218,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2263,7 +2263,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2307,7 +2307,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2352,7 +2352,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2397,7 +2397,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2442,7 +2442,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2487,7 +2487,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2531,7 +2531,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2576,7 +2576,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2614,7 +2614,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2651,7 +2651,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2689,7 +2689,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2734,7 +2734,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2779,7 +2779,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2824,7 +2824,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2860,8 +2860,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 60,
-   "shown": 60,
+   "count": 59,
+   "shown": 59,
    "providers": [
     {
      "name": "UBS",
@@ -2879,7 +2879,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2923,7 +2923,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2968,7 +2968,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3006,7 +3006,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3044,7 +3044,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3089,7 +3089,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3134,7 +3134,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3172,7 +3172,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3217,7 +3217,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3262,7 +3262,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3307,7 +3307,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3352,7 +3352,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3397,7 +3397,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3442,7 +3442,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3487,7 +3487,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3524,7 +3524,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3569,7 +3569,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3614,7 +3614,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3659,7 +3659,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3703,7 +3703,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3748,7 +3748,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3793,7 +3793,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3838,7 +3838,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3883,7 +3883,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3928,7 +3928,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -3973,7 +3973,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4018,7 +4018,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4063,7 +4063,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4108,7 +4108,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4152,7 +4152,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4197,7 +4197,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4220,10 +4220,10 @@
      "rank": 96
     },
     {
-     "name": "M&T Bank",
-     "slug": "m-and-t-bank",
-     "description": "M&T Bank is a regional bank holding company that provides commercial and retail banking services to consumers and businesses across the eastern United States. As of the latest review, M&T Bank does not publish a public developer portal or open banking API; integrations are arranged through Treasury Management and commercial banking relationships.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/m-and-t-bank/refs/heads/main/screenshots/m-and-t-bank-2026-06-20T184818.png",
+     "name": "T. Rowe Price",
+     "slug": "t-rowe-price",
+     "description": "T. Rowe Price is a global asset management firm (NYSE: TROW) offering a broad range of investment management strategies and retirement solutions to individuals, advisors, institutions, and retirement plan sponsors. Founded in 1937, the firm manages mutual funds, ETFs, separate accounts, and retirement plans including 401(k) services. T. Rowe Price does not offer a public REST API but provides institutional client portals, data feeds, and integrations with retirement recordkeeping platforms and open banking aggregators such as Plaid and Finicity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/t-rowe-price/refs/heads/main/screenshots/t-rowe-price-2026-06-20T194842.png",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4232,18 +4232,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4265,22 +4258,21 @@
      "rank": 97
     },
     {
-     "name": "T. Rowe Price",
-     "slug": "t-rowe-price",
-     "description": "T. Rowe Price is a global asset management firm (NYSE: TROW) offering a broad range of investment management strategies and retirement solutions to individuals, advisors, institutions, and retirement plan sponsors. Founded in 1937, the firm manages mutual funds, ETFs, separate accounts, and retirement plans including 401(k) services. T. Rowe Price does not offer a public REST API but provides institutional client portals, data feeds, and integrations with retirement recordkeeping platforms and open banking aggregators such as Plaid and Finicity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/t-rowe-price/refs/heads/main/screenshots/t-rowe-price-2026-06-20T194842.png",
-     "score": 5.4,
+     "name": "PennyMac Financial Services",
+     "slug": "pennymac-financial-services",
+     "description": "PennyMac Financial Services, Inc. is a specialty financial services firm focused on the production and servicing of U.S. residential mortgage loans. The company is one of the largest mortgage lenders and servicers in the United States, providing financing to homebuyers and refinancing to existing homeowners. PennyMac operates through correspondent, consumer direct, and broker channels.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4303,43 +4295,6 @@
      "rank": 98
     },
     {
-     "name": "PennyMac Financial Services",
-     "slug": "pennymac-financial-services",
-     "description": "PennyMac Financial Services, Inc. is a specialty financial services firm focused on the production and servicing of U.S. residential mortgage loans. The company is one of the largest mortgage lenders and servicers in the United States, providing financing to homebuyers and refinancing to existing homeowners. PennyMac operates through correspondent, consumer direct, and broker channels.",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 99
-    },
-    {
      "name": "Webster Financial",
      "slug": "webster-financial",
      "description": "Webster Financial Corporation (NYSE:WBS) is a regional financial services company that delivers banking and financial solutions to businesses and individuals. The organization operates three business divisions - Commercial Banking, Consumer Banking, and Healthcare Financial Services - and manages over $75 billion in assets. Webster Financial does not publish a public developer API portal.",
@@ -4355,7 +4310,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4382,7 +4337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Fidelity National Financial",
@@ -4400,7 +4355,45 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 100
+    },
+    {
+     "name": "LPL Financial Holdings",
+     "slug": "lpl-financial-holdings",
+     "description": "LPL Financial Holdings Inc. (NASDAQ: LPLA) is the parent company of LPL Financial LLC, one of the largest independent broker-dealers in the United States and a leading retail investment advisory firm. The company supports thousands of independent financial advisors, banks, credit unions, and registered investment advisors. LPL Financial Holdings does not operate a public developer program; APIs and integrations are operated under the LPL Financial subsidiary brand for partners and advisors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/screenshots/lpl-financial-holdings-2026-07-25T225629.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4423,23 +4416,30 @@
      "rank": 101
     },
     {
-     "name": "LPL Financial Holdings",
-     "slug": "lpl-financial-holdings",
-     "description": "LPL Financial Holdings Inc. (NASDAQ: LPLA) is the parent company of LPL Financial LLC, one of the largest independent broker-dealers in the United States and a leading retail investment advisory firm. The company supports thousands of independent financial advisors, banks, credit unions, and registered investment advisors. LPL Financial Holdings does not operate a public developer program; APIs and integrations are operated under the LPL Financial subsidiary brand for partners and advisors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/screenshots/lpl-financial-holdings-2026-07-25T225629.png",
+     "name": "Standard Chartered",
+     "slug": "standard-chartered",
+     "description": "A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4461,22 +4461,22 @@
      "rank": 102
     },
     {
-     "name": "Standard Chartered",
-     "slug": "standard-chartered",
-     "description": "A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png",
-     "score": 5.0,
+     "name": "First National of Nebraska",
+     "slug": "first-national-of-nebraska",
+     "description": "First National of Nebraska, Inc. is a privately held bank holding company headquartered in Omaha, Nebraska. Through its subsidiaries, including First National Bank of Omaha, the company provides a full range of consumer, commercial, and agricultural banking services along with credit card processing and merchant services. It is one of the largest privately owned banking companies in the United States.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-national-of-nebraska/refs/heads/main/screenshots/first-national-of-nebraska-2026-06-20T181238.png",
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4506,10 +4506,9 @@
      "rank": 103
     },
     {
-     "name": "First National of Nebraska",
-     "slug": "first-national-of-nebraska",
-     "description": "First National of Nebraska, Inc. is a privately held bank holding company headquartered in Omaha, Nebraska. Through its subsidiaries, including First National Bank of Omaha, the company provides a full range of consumer, commercial, and agricultural banking services along with credit card processing and merchant services. It is one of the largest privately owned banking companies in the United States.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-national-of-nebraska/refs/heads/main/screenshots/first-national-of-nebraska-2026-06-20T181238.png",
+     "name": "New York Community Bancorp",
+     "slug": "new-york-community-bancorp",
+     "description": "New York Community Bancorp, Inc. (now operating as Flagstar Financial) is a Fortune 500 bank holding company headquartered in Hicksville, New York. Through its banking subsidiary, the company provides commercial banking, multi-family lending, mortgage banking, and consumer banking services across the United States. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with the company. No public developer APIs or documentation portal have been identified at this time.",
      "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4521,7 +4520,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4551,9 +4550,10 @@
      "rank": 104
     },
     {
-     "name": "New York Community Bancorp",
-     "slug": "new-york-community-bancorp",
-     "description": "New York Community Bancorp, Inc. (now operating as Flagstar Financial) is a Fortune 500 bank holding company headquartered in Hicksville, New York. Through its banking subsidiary, the company provides commercial banking, multi-family lending, mortgage banking, and consumer banking services across the United States. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with the company. No public developer APIs or documentation portal have been identified at this time.",
+     "name": "Rithm Capital",
+     "slug": "rithm-capital",
+     "description": "Rithm Capital is a global asset manager focused on real estate, credit, and financial services. Through subsidiaries such as Newrez, Genesis Capital, Sculptor Capital Management, and Adoor, Rithm operates across mortgage origination and servicing, single-family rental, business-purpose lending, and alternative investment strategies. No public developer API or developer portal has been identified at the parent company level.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rithm-capital/refs/heads/main/screenshots/rithm-capital-2026-06-20T193131.png",
      "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4562,18 +4562,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4595,44 +4588,6 @@
      "rank": 105
     },
     {
-     "name": "Rithm Capital",
-     "slug": "rithm-capital",
-     "description": "Rithm Capital is a global asset manager focused on real estate, credit, and financial services. Through subsidiaries such as Newrez, Genesis Capital, Sculptor Capital Management, and Adoor, Rithm operates across mortgage origination and servicing, single-family rental, business-purpose lending, and alternative investment strategies. No public developer API or developer portal has been identified at the parent company level.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rithm-capital/refs/heads/main/screenshots/rithm-capital-2026-06-20T193131.png",
-     "score": 4.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 106
-    },
-    {
      "name": "Valley National Bancorp",
      "slug": "valley-national-bancorp",
      "description": "Valley National Bancorp is a regional bank holding company with its principal subsidiary, Valley National Bank, providing a full suite of commercial, business, and consumer banking services across the Northeast and Southeast United States. Valley National Bancorp does not currently publish a public developer portal or API.",
@@ -4648,7 +4603,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4675,7 +4630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Trumark Financial",
@@ -4693,7 +4648,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -4720,7 +4675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "FirstCash Holdings",
@@ -4738,7 +4693,45 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Rocket Companies",
+     "slug": "rocket-companies",
+     "description": "Rocket Companies is a Detroit-based financial services firm that provides digital solutions for homeownership and personal finance. Its portfolio includes Rocket Mortgage for home loans, Rocket Homes for real estate search, and Rocket Money for personal finance management. Rocket Companies does not publish a public corporate developer API portal at the holding-company level.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocket-companies/refs/heads/main/screenshots/rocket-companies-2026-06-20T193150.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4761,22 +4754,21 @@
      "rank": 109
     },
     {
-     "name": "Rocket Companies",
-     "slug": "rocket-companies",
-     "description": "Rocket Companies is a Detroit-based financial services firm that provides digital solutions for homeownership and personal finance. Its portfolio includes Rocket Mortgage for home loans, Rocket Homes for real estate search, and Rocket Money for personal finance management. Rocket Companies does not publish a public corporate developer API portal at the holding-company level.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocket-companies/refs/heads/main/screenshots/rocket-companies-2026-06-20T193150.png",
-     "score": 4.4,
+     "name": "Northwestern Mutual",
+     "slug": "northwestern-mutual",
+     "description": "Northwestern Mutual is a leading financial security company providing life, disability income, and long-term care insurance, annuities, and investment products and services to families and businesses.",
+     "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4799,21 +4791,22 @@
      "rank": 110
     },
     {
-     "name": "Northwestern Mutual",
-     "slug": "northwestern-mutual",
-     "description": "Northwestern Mutual is a leading financial security company providing life, disability income, and long-term care insurance, annuities, and investment products and services to families and businesses.",
-     "score": 4.2,
+     "name": "Franklin Resources",
+     "slug": "franklin-resources",
+     "description": "Franklin Resources, doing business as Franklin Templeton, is a global investment management organization offering investment management and related services to retail, institutional, and high net worth clients. No public developer APIs are documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/screenshots/franklin-resources-2026-06-20T181511.png",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4836,10 +4829,10 @@
      "rank": 111
     },
     {
-     "name": "Franklin Resources",
-     "slug": "franklin-resources",
-     "description": "Franklin Resources, doing business as Franklin Templeton, is a global investment management organization offering investment management and related services to retail, institutional, and high net worth clients. No public developer APIs are documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/screenshots/franklin-resources-2026-06-20T181511.png",
+     "name": "Navient",
+     "slug": "navient",
+     "description": "Navient Corporation is a U.S. corporation based in Wilmington, Delaware, whose operations include servicing and collecting student loans. Following federal loan servicing transitions, education loan servicing was largely transferred to MOHELA. This repository tracks public APIs, developer tools, and machine-readable artifacts for Navient.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navient/refs/heads/main/screenshots/navient-2026-06-20T190058.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4851,7 +4844,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4874,10 +4867,9 @@
      "rank": 112
     },
     {
-     "name": "Navient",
-     "slug": "navient",
-     "description": "Navient Corporation is a U.S. corporation based in Wilmington, Delaware, whose operations include servicing and collecting student loans. Following federal loan servicing transitions, education loan servicing was largely transferred to MOHELA. This repository tracks public APIs, developer tools, and machine-readable artifacts for Navient.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navient/refs/heads/main/screenshots/navient-2026-06-20T190058.png",
+     "name": "NVR",
+     "slug": "nvr",
+     "description": "NVR Inc. operates in two business segments: homebuilding and mortgage banking, constructing and selling single-family detached homes, townhomes, and condominium buildings under the Ryan Homes, NVHomes, and Heartland Homes brands.",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4889,7 +4881,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4912,9 +4904,9 @@
      "rank": 113
     },
     {
-     "name": "NVR",
-     "slug": "nvr",
-     "description": "NVR Inc. operates in two business segments: homebuilding and mortgage banking, constructing and selling single-family detached homes, townhomes, and condominium buildings under the Ryan Homes, NVHomes, and Heartland Homes brands.",
+     "name": "OneMain Holdings",
+     "slug": "onemain-holdings",
+     "description": "OneMain Holdings is a leading provider of personal installment loans to nonprime consumers in the United States, with branches across multiple states. No public APIs are documented at this time.",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4926,7 +4918,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4949,21 +4941,21 @@
      "rank": 114
     },
     {
-     "name": "OneMain Holdings",
-     "slug": "onemain-holdings",
-     "description": "OneMain Holdings is a leading provider of personal installment loans to nonprime consumers in the United States, with branches across multiple states. No public APIs are documented at this time.",
-     "score": 4.1,
+     "name": "Securian Financial Group",
+     "slug": "securian-financial-group",
+     "description": "Securian Financial Group is a financial services holding company that provides life insurance, retirement solutions, investment management, and group benefits to individuals, businesses, and institutions.",
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4986,21 +4978,22 @@
      "rank": 115
     },
     {
-     "name": "Securian Financial Group",
-     "slug": "securian-financial-group",
-     "description": "Securian Financial Group is a financial services holding company that provides life insurance, retirement solutions, investment management, and group benefits to individuals, businesses, and institutions.",
-     "score": 4.0,
+     "name": "Equitable Holdings",
+     "slug": "equitable-holdings",
+     "description": "Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-holdings/refs/heads/main/screenshots/equitable-holdings-2026-06-20T180821.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5023,10 +5016,10 @@
      "rank": 116
     },
     {
-     "name": "Equitable Holdings",
-     "slug": "equitable-holdings",
-     "description": "Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-holdings/refs/heads/main/screenshots/equitable-holdings-2026-06-20T180821.png",
+     "name": "Goldman Sachs Group",
+     "slug": "goldman-sachs-group",
+     "description": "Fortune 1000 company Goldman Sachs Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs-group/refs/heads/main/screenshots/goldman-sachs-group-2026-06-20T181956.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5038,7 +5031,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5061,10 +5054,10 @@
      "rank": 117
     },
     {
-     "name": "Goldman Sachs Group",
-     "slug": "goldman-sachs-group",
-     "description": "Fortune 1000 company Goldman Sachs Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs-group/refs/heads/main/screenshots/goldman-sachs-group-2026-06-20T181956.png",
+     "name": "Principal Financial",
+     "slug": "principal-financial",
+     "description": "Principal Financial Group is a global investment management leader and the leading provider of retirement plans, insurance solutions, and asset management services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/principal-financial/refs/heads/main/screenshots/principal-financial-2026-06-20T192107.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5076,7 +5069,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5099,10 +5092,10 @@
      "rank": 118
     },
     {
-     "name": "Principal Financial",
-     "slug": "principal-financial",
-     "description": "Principal Financial Group is a global investment management leader and the leading provider of retirement plans, insurance solutions, and asset management services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/principal-financial/refs/heads/main/screenshots/principal-financial-2026-06-20T192107.png",
+     "name": "Stonex Group",
+     "slug": "stonex-group",
+     "description": "Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stonex-group/refs/heads/main/screenshots/stonex-group-2026-06-20T194605.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5114,7 +5107,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5137,22 +5130,22 @@
      "rank": 119
     },
     {
-     "name": "Stonex Group",
-     "slug": "stonex-group",
-     "description": "Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stonex-group/refs/heads/main/screenshots/stonex-group-2026-06-20T194605.png",
-     "score": 3.3,
+     "name": "AGNC Investment",
+     "slug": "agnc-investment",
+     "description": "Profile for AGNC Investment in the API Evangelist network. Fortune F1000 (rank 798).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agnc-investment/refs/heads/main/screenshots/agnc-investment-2026-06-20T170327.png",
+     "score": 3.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5175,11 +5168,11 @@
      "rank": 120
     },
     {
-     "name": "AGNC Investment",
-     "slug": "agnc-investment",
-     "description": "Profile for AGNC Investment in the API Evangelist network. Fortune F1000 (rank 798).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agnc-investment/refs/heads/main/screenshots/agnc-investment-2026-06-20T170327.png",
-     "score": 3.0,
+     "name": "Air Lease",
+     "slug": "air-lease",
+     "description": "Profile for Air Lease in the API Evangelist network. Fortune F1000 (rank 992).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/air-lease/refs/heads/main/screenshots/air-lease-2026-06-20T171412.png",
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5187,10 +5180,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5213,10 +5206,9 @@
      "rank": 121
     },
     {
-     "name": "Air Lease",
-     "slug": "air-lease",
-     "description": "Profile for Air Lease in the API Evangelist network. Fortune F1000 (rank 992).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/air-lease/refs/heads/main/screenshots/air-lease-2026-06-20T171412.png",
+     "name": "Edward Jones",
+     "slug": "edward-jones",
+     "description": "Edward Jones is a financial services firm dedicated to serving the needs of individual investors through a network of branch offices across the United States and Canada.",
      "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5228,7 +5220,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5251,9 +5243,10 @@
      "rank": 122
     },
     {
-     "name": "Edward Jones",
-     "slug": "edward-jones",
-     "description": "Edward Jones is a financial services firm dedicated to serving the needs of individual investors through a network of branch offices across the United States and Canada.",
+     "name": "Jackson Financial",
+     "slug": "jackson-financial",
+     "description": "Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jackson-financial/refs/heads/main/screenshots/jackson-financial-2026-06-20T183648.png",
      "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5265,7 +5258,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5288,10 +5281,10 @@
      "rank": 123
     },
     {
-     "name": "Jackson Financial",
-     "slug": "jackson-financial",
-     "description": "Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jackson-financial/refs/heads/main/screenshots/jackson-financial-2026-06-20T183648.png",
+     "name": "SLM",
+     "slug": "slm",
+     "description": "Profile for SLM in the API Evangelist network. Fortune F1000 (rank 898).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/slm/refs/heads/main/screenshots/slm-2026-06-20T194036.png",
      "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5303,7 +5296,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5324,44 +5317,6 @@
       "dry_run_mode": false
      },
      "rank": 124
-    },
-    {
-     "name": "SLM",
-     "slug": "slm",
-     "description": "Profile for SLM in the API Evangelist network. Fortune F1000 (rank 898).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/slm/refs/heads/main/screenshots/slm-2026-06-20T194036.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 125
     }
    ]
   }

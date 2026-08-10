@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Nowports is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nowports'' developer surface includes support and 7 more developer resources.'
-random_paper: 4
+random_paper: 96
 score:
   band: emerging
   composite: 14.1
@@ -89,8 +89,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nowports/refs/heads/main/screenshots/nowports-2026-08-07T185644.png
 security:
 - kind: domain-security
   name: Nowports Domain Security

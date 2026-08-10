@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 87
+random_paper: 66
 score:
   band: strong
   composite: 57.4
@@ -228,7 +228,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

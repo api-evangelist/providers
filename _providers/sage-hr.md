@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -183,7 +183,7 @@ plans:
 - name: Sage Hr Plans Pricing
   plan_count: 6
   slug: sage-hr-plans-pricing
-random_paper: 1
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Sage Hr Rate Limits
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
 security:

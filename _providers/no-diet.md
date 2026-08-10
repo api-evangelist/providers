@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: No Diet
 nav: Providers
 network: true
 overview: No Diet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 10
+random_paper: 108
 score:
   band: minimal
   composite: 3.2
@@ -58,8 +58,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/no-diet/refs/heads/main/screenshots/no-diet-2026-08-07T185355.png
 slug: no-diet
 tags:
 - Company

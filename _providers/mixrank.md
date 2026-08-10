@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Mixrank Plans
   plan_count: 6
   slug: mixrank-plans
-random_paper: 84
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Mixrank Rate Limits
@@ -233,8 +233,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
 security:
 - kind: authentication
   name: Mixrank Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Atmosfy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atmosfy''s developer surface includes support and 5 more developer resources.'
-random_paper: 93
+random_paper: 75
 score:
   band: minimal
   composite: 11.2
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmosfy/refs/heads/main/screenshots/atmosfy-2026-07-25T201552.png
 security:

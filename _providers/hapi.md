@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'hapi is a rich, configuration-centric framework for building web applications and APIs in Node.js. It provides a powerful plugin system, built-in input validation with Joi, authentication strategies, '
@@ -98,7 +98,7 @@ plans:
 - name: Hapi Plans Pricing
   plan_count: 3
   slug: hapi-plans-pricing
-random_paper: 79
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Hapi Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hapi/refs/heads/main/screenshots/hapi-2026-06-20T182508.png
 security:

@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -91,35 +91,103 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kayak-domain-security.yml
+- group: other
+  title: ''
+  type: Affiliates
+  url: https://www.kayak.com/affiliates
+- group: other
+  title: ''
+  type: Business
+  url: https://www.kayakforbusiness.com
+- group: company
+  title: ''
+  type: Press
+  url: https://www.kayak.com/news
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.kayak.com/careers
+- group: commercial
+  title: ''
+  type: Privacy
+  url: https://www.kayak.com/privacy
+- group: commercial
+  title: ''
+  type: Terms
+  url: https://www.kayak.com/terms-of-use
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.kayak.com/help
+- group: other
+  title: ''
+  type: Parent
+  url: https://www.bookingholdings.com
+- group: other
+  title: ''
+  type: HotelsCombined
+  url: https://www.hotelscombined.com
+- group: other
+  title: ''
+  type: Momondo
+  url: https://www.momondo.com
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/kayak
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/KAYAK
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kayak
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/KAYAK
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/kayak
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/KAYAK
 created: '2026-07-17'
 description: KAYAK is a free travel metasearch engine that searches hundreds of travel sites at once so travelers can compare and find the lowest available prices on flights, hotels, rental cars, and vacation packages, with an extensive filtering system for narrowing results. Founded in 2004 and part of Booking Holdings, KAYAK operates a family of global travel brands (including momondo, Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+ international sites in 25+ languages. Beyond consumer metasearch it offers KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool, and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine rather than an online travel agency — bookings are completed with the airline, hotel, car-rental company, or travel agency. This profile documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public self-serve developer API program.
+graphqls:
+- description: ''
+  name: KAYAK GraphQL API
+  slug: kayak-graphql
 image: https://content.r9cdn.net/rimg/provider-logos/common/socialmedia/kayak-logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Kayak
 nav: Providers
 network: true
 overview: 'Kayak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Metasearch, Flights, and Hotels.
 
 
-  Kayak''s developer surface includes support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 77
+  Kayak''s developer surface includes support, engineering blog, signup flow, privacy policy, terms of service, GitHub presence, YouTube channel, and 24 more developer resources.'
+random_paper: 65
 score:
   band: emerging
-  composite: 18.9
-  delta: 0.0
+  composite: 19.6
+  delta: 0.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 68.5
     governance: 12.5
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   previous_composite: 18.9
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/screenshots/kayak-2026-07-25T223539.png
 security:

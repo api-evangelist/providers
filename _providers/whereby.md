@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ plans:
 - name: Whereby Plans Pricing
   plan_count: 1
   slug: whereby-plans-pricing
-random_paper: 80
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Whereby Rate Limits
@@ -246,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/screenshots/whereby-2026-06-20T201431.png
 security:

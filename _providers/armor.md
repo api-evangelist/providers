@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-06'
+  score: 48.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -26,57 +26,219 @@ agentic_access:
   operation_count: 427
   slug: armor-agentic-access
   summary_line: 427 operations · 172 acting · 5 human-in-the-loop
-api_count: 16
+api_count: 70
 apis:
-- description: The token-based authentication API for the Armor security platform. POST /auth/authorize exchanges user credentials for an authorization code that must be redeemed within two minutes; POST /auth/token
-  name: Armor FH-AUTH Security API
-  slug: fh-auth-api
-- description: The signature-based authentication scheme for the Armor platform, an alternative to FH-AUTH tokens that removes the refresh flow entirely. An API Key ID and Secret Key are generated in the Armor Manag
-  name: Armor ARMOR-PSK Security API
-  slug: armor-psk-api
-- description: Account-level configuration for the Armor security platform. Covers cloud connections (the credentials and subscriptions that link a customer AWS, Azure or Oracle Cloud environment to Armor), secure n
-  name: Armor Accounts API
-  slug: accounts-api
-- description: Fleet management for Armor Agent, the lightweight Windows and Linux workload protection agent formerly sold as Armor Anywhere. Endpoints cover health monitoring status across the agent estate, malware
-  name: Armor Agent Management API
-  slug: agent-management-api
-- description: 'The largest single Armor API surface, covering compliance assessments and cloud security posture management. Endpoints span CSPM connectors, policies, policy controls, control remediation, resources, '
-  name: Armor Compliance API
-  slug: compliance-api
-- description: Container and registry security for the Armor platform, served on a /containers path prefix of the compliance host. Endpoints manage the container security account, the connector that binds a customer
-  name: Armor Container Security API
-  slug: container-security-api
-- description: 'Programmatic access to the security detections Armor raises against a customer environment. Endpoints return individual security detections and their underlying detection events, an overview roll-up, '
-  name: Armor Incident Management API
-  slug: incident-management-api
-- description: A small operational API exposing the Armor Toolbox, the utility surface used to run infrastructure management actions against protected hosts. It is the v2 successor to the much larger v1 Infrastructu
-  name: Armor Infrastructure Management API
-  slug: infrastructure-management-api
-- description: SIEM log ingestion and routing for the Armor platform, and the only v2 Armor API published on an armor.com host as well as the secure-prod.services tier. Endpoints manage log sources and log groups, f
-  name: Armor Log Management API
-  slug: log-management-api
-- description: 'A focused API for reading and updating a user notification preferences within the Armor platform, controlling which security and operational events generate outbound notifications. Authenticated with '
+- description: Operations for managing ACLs (deprecated)
+  name: Armor Access Control Lists API
+  slug: armor-access-control-lists-api
+- description: Account management operations
+  name: Armor Account API
+  slug: armor-account-api
+- description: The Account Management API from Armor — 47 operation(s) for account management.
+  name: Armor Account Management API
+  slug: armor-account-management-api
+- description: The AccountPrimaryBilling API from Armor — 1 operation(s) for accountprimarybilling.
+  name: Armor Account Primary Billing API
+  slug: armor-accountprimarybilling-api
+- description: The ActiveResponse API from Armor — 1 operation(s) for activeresponse.
+  name: Armor Active Response API
+  slug: armor-activeresponse-api
+- description: The Advanced Backup API from Armor — 38 operation(s) for advanced backup.
+  name: Armor Advanced Backup API
+  slug: armor-advanced-backup-api
+- description: Threat intelligence data for security entities
+  name: Armor AIP - Entity Intelligence API
+  slug: armor-aip-entity-intelligence-api
+- description: AI-processed incident data and analytics
+  name: Armor AIP - Incident Data API
+  slug: armor-aip-incident-data-api
+- description: Assessment account management
+  name: Armor Assessments API
+  slug: armor-assessments-api
+- description: 'FH-AUTH authentication flow endpoints. ## Flow Overview 1. POST `/auth/authorize` with credentials → receive authorization code 2. POST `/auth/token` with code → receive access token 3. Use `Authoriza'
+  name: Armor Authentication API
+  slug: armor-authentication-api
+- description: Cloud connection management operations
+  name: Armor Cloud Connections API
+  slug: armor-cloud-connections-api
+- description: Connector management operations
+  name: Armor Connector API
+  slug: armor-connector-api
+- description: Cloud Security Posture Management cloud connectors
+  name: Armor CSPM Connector API
+  slug: armor-cspm-connector-api
+- description: CSPM control remediation information
+  name: Armor CSPM Control Remediation API
+  slug: armor-cspm-control-remediation-api
+- description: CSPM policy management
+  name: Armor CSPM Policies API
+  slug: armor-cspm-policies-api
+- description: CSPM policy controls management
+  name: Armor CSPM Policy Controls API
+  slug: armor-cspm-policy-controls-api
+- description: CSPM report operations
+  name: Armor CSPM Report API
+  slug: armor-cspm-report-api
+- description: CSPM report configuration management
+  name: Armor CSPM Report Configuration API
+  slug: armor-cspm-report-configuration-api
+- description: CSPM resource management
+  name: Armor CSPM Resources API
+  slug: armor-cspm-resources-api
+- description: CSPM cloud connector summary
+  name: Armor CSPM Summary API
+  slug: armor-cspm-summary-api
+- description: CSPM cloud connector usage
+  name: Armor CSPM Usage API
+  slug: armor-cspm-usage-api
+- description: Investigation package and live response operations
+  name: Armor Defender - Investigation API
+  slug: armor-defender-investigation-api
+- description: Execute and manage actions on Microsoft Defender machines
+  name: Armor Defender - Machine Actions API
+  slug: armor-defender-machine-actions-api
+- description: Microsoft Defender machine/device management
+  name: Armor Defender - Machines API
+  slug: armor-defender-machines-api
+- description: Operations for retrieving and managing detection rules
+  name: Armor Detection Rules API
+  slug: armor-detection-rules-api
+- description: The detection resource enables an API customer to build a webhook detection configuration.
+  name: Armor Detections API
+  slug: armor-detections-api
+- description: Endpoint Detection and Response operations
+  name: Armor EDR API
+  slug: armor-edr-api
+- description: The event-type resource enables an API user to maintain the event types.
+  name: Armor Events API
+  slug: armor-events-api
+- description: Operations for managing flow sources
+  name: Armor Flow Sources API
+  slug: armor-flow-sources-api
+- description: Service health and monitoring endpoints
+  name: Armor Health API
+  slug: armor-health-api
+- description: Health monitoring status operations
+  name: Armor Health Monitoring Status API
+  slug: armor-health-monitoring-status-api
+- description: Image management operations
+  name: Armor Image API
+  slug: armor-image-api
+- description: The Infrastructure API from Armor — 35 operation(s) for infrastructure.
+  name: Armor Infrastructure API
+  slug: armor-infrastructure-api
+- description: Security incident management
+  name: Armor JSM - Incidents API
+  slug: armor-jsm-incidents-api
+- description: Metrics aggregation and reporting
+  name: Armor JSM - Metrics API
+  slug: armor-jsm-metrics-api
+- description: JSM organization management
+  name: Armor JSM - Organizations API
+  slug: armor-jsm-organizations-api
+- description: Service request management
+  name: Armor JSM - Service Requests API
+  slug: armor-jsm-service-requests-api
+- description: The Keys API from Armor — 2 operation(s) for keys.
+  name: Armor Keys API
+  slug: armor-keys-api
+- description: Operations for managing log endpoints
+  name: Armor Log Endpoints API
+  slug: armor-log-endpoints-api
+- description: Operations for managing log groups
+  name: Armor Log Groups API
+  slug: armor-log-groups-api
+- description: Operations for managing log sources
+  name: Armor Log Sources API
+  slug: armor-log-sources-api
+- description: Malware configuration APIs. These APIs are only available for specific partners.
+  name: Armor Malware Configuration API
+  slug: armor-malware-configuration-api
+- description: Meta resources and utility operations
+  name: Armor Meta API
+  slug: armor-meta-api
+- description: The Network Services API from Armor — 23 operation(s) for network services.
+  name: Armor Network Services API
+  slug: armor-network-services-api
+- description: The notification resource enables an API customer to build a webhook notification configuration.
   name: Armor Notifications API
-  slug: notifications-api
-- description: The subscription API for Armor event delivery. Callers register detection configurations (which security detections should be pushed, with default labels and a transform to reshape the delivered paylo
-  name: Armor Webhooks API
-  slug: webhooks-api
-- description: The unified public API for Armor MDR, spanning six subsystems behind one host. The Armor Intelligence Platform (AIP) endpoints return AI-processed incident analysis and entity threat intelligence. The
-  name: Armor MDR Public API
-  slug: mdr-public-api
-- description: The account-management domain of the original Armor Services API (Swagger 2.0), still published on api.armor.com alongside the newer v2 platform APIs. Fifty-two paths and seventy operations cover acco
-  name: Armor Services API v1 - Account Management
-  slug: v1-account-management-api
-- description: 'The largest Armor API by operation count: ninety-six paths and one hundred and thirty-one operations covering the Armor Enterprise Cloud and Armor Agent infrastructure estate. Endpoints manage virtual'
-  name: Armor Services API v1 - Infrastructure
-  slug: v1-infrastructure-api
-- description: 'The security domain of the v1 Armor Services API: thirty-four paths and thirty-five operations covering security events and alerts, file integrity monitoring, malware and IDS findings, vulnerability s'
-  name: Armor Services API v1 - Security
-  slug: v1-security-api
-- description: 'The support domain of the v1 Armor Services API: sixteen paths and eighteen operations covering support tickets, ticket comments and attachments, and the notification surfaces around them, giving cust'
-  name: Armor Services API v1 - Support
-  slug: v1-support-api
-artifact_total: 21
+  slug: armor-notifications-api
+- description: The Preferences resource describes a list of user-level preferences.
+  name: Armor Preferences API
+  slug: armor-preferences-api
+- description: Registry management operations
+  name: Armor Registry API
+  slug: armor-registry-api
+- description: Monthly Security Report file management and retrieval
+  name: Armor Reports - MSR API
+  slug: armor-reports-msr-api
+- description: The tasks resource enables an API customer to schedule, cancel and view agent CLI operations.
+  name: Armor Scheduled Tasks API
+  slug: armor-scheduled-tasks-api
+- description: The secure notes resource allows users to securely store and manage sensitive information such as passwords, credentials, and other confidential data.
+  name: Armor Secure Notes API
+  slug: armor-secure-notes-api
+- description: The Security Analytics API from Armor — 2 operation(s) for security analytics.
+  name: Armor Security Analytics API
+  slug: armor-security-analytics-api
+- description: The Security API from Armor — 29 operation(s) for security.
+  name: Armor Security API
+  slug: armor-security-api
+- description: Security detection event operations
+  name: Armor Security Detection Events API
+  slug: armor-security-detection-events-api
+- description: Security detection operations
+  name: Armor Security Detections API
+  slug: armor-security-detections-api
+- description: Security detections overview operations
+  name: Armor Security Detections Overview API
+  slug: armor-security-detections-overview-api
+- description: The Security Incidents API from Armor — 2 operation(s) for security incidents.
+  name: Armor Security Incidents API
+  slug: armor-security-incidents-api
+- description: Sensor management operations
+  name: Armor Sensor API
+  slug: armor-sensor-api
+- description: The Support API from Armor — 16 operation(s) for support.
+  name: Armor Support API
+  slug: armor-support-api
+- description: Tag management operations
+  name: Armor Tags API
+  slug: armor-tags-api
+- description: Customer-specific threat intelligence
+  name: Armor TI - Customer Intelligence API
+  slug: armor-ti-customer-intelligence-api
+- description: Proxy endpoint for OpenCTI GraphQL queries
+  name: Armor TI - GraphQL API
+  slug: armor-ti-graphql-api
+- description: Retrieve threat actor intelligence data
+  name: Armor TI - Threat Actors API
+  slug: armor-ti-threat-actors-api
+- description: Infrastructure management toolbox operations
+  name: Armor Toolbox API
+  slug: armor-toolbox-api
+- description: The tours resource describes a list of UI tours that help users learn about features in the ARMOR Management Portal. The preferences stored in this resource aid the portal in determining which tours s
+  name: Armor Tours API
+  slug: armor-tours-api
+- description: Trend AV report operations
+  name: Armor Trend API
+  slug: armor-trend-api
+- description: User profile and account information
+  name: Armor User API
+  slug: armor-user-api
+- description: The Utilization API from Armor — 2 operation(s) for utilization.
+  name: Armor Utilization API
+  slug: armor-utilization-api
+- description: Vulnerability scan exclusions management
+  name: Armor VS Exclusions API
+  slug: armor-vs-exclusions-api
+- description: Vulnerability scan reports
+  name: Armor VS Reports API
+  slug: armor-vs-reports-api
+- description: Vulnerability scanning operations
+  name: Armor Vulnerability Scanning API
+  slug: armor-vulnerability-scanning-api
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Armor Webhooks Events
@@ -199,14 +361,14 @@ modified: '2026-08-06'
 name: Armor
 nav: Providers
 network: true
-overview: 'Armor publishes 16 APIs on the [APIs.io](https://apis.io/) network, including FH-AUTH Security API, ARMOR-PSK Security API, Accounts API, and 13 more. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Cloud Security, and Compliance.
+overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Access Control Lists API, Account API, Account Management API, and 67 more. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Cloud Security, and Compliance.
 
 
   The Armor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 93
+random_paper: 81
 scopes:
 - name: Armor Scopes
   scope_count: 4
@@ -214,16 +376,30 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.5
+  composite: 51.6
+  delta: -0.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.5
-    developer_ergonomics: 54.3
-    discoverability: 92.6
+    contract_quality: 65.1
+    developer_ergonomics: 49.5
+    discoverability: 87.0
     governance: 20.8
     operational_transparency: 28.9
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/screenshots/armor-2026-08-07T161726.png
 security:
 - kind: authentication
   name: Armor Authentication

@@ -18,13 +18,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
-- description: REST API exposed by the OPAQUE client / API pod for the Confidential AI Platform. Covers workspaces, datasets and data upload from AWS S3 / Azure Blob / Azure Files / Google Cloud Storage, analytics a
-  name: OPAQUE Platform REST API
-  slug: opaque-platform-rest-api
-artifact_total: 3
+- description: Asset Configurations
+  name: OPAQUE Asset Configs API
+  slug: opaque-asset-configs-api
+- description: Authentication
+  name: OPAQUE Auth API
+  slug: opaque-auth-api
+- description: Data & Datum
+  name: OPAQUE Datasets API
+  slug: opaque-datasets-api
+- description: Jobs
+  name: OPAQUE Jobs API
+  slug: opaque-jobs-api
+- description: The organizations API from OPAQUE — 4 operation(s) for organizations.
+  name: OPAQUE Organizations API
+  slug: opaque-organizations-api
+- description: The pinned-queries API from OPAQUE — 3 operation(s) for pinned-queries.
+  name: OPAQUE Pinned Queries API
+  slug: opaque-pinned-queries-api
+- description: The predefined-query-templates API from OPAQUE — 3 operation(s) for predefined-query-templates.
+  name: OPAQUE Predefined Query Templates API
+  slug: opaque-predefined-query-templates-api
+- description: Users
+  name: OPAQUE Users API
+  slug: opaque-users-api
+- description: The versioning API from OPAQUE — 1 operation(s) for versioning.
+  name: OPAQUE Versioning API
+  slug: opaque-versioning-api
+- description: The workflows API from OPAQUE — 9 operation(s) for workflows.
+  name: OPAQUE Workflows API
+  slug: opaque-workflows-api
+- description: Workspaces
+  name: OPAQUE Workspaces API
+  slug: opaque-workspaces-api
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -135,23 +165,23 @@ modified: '2026-08-04'
 name: OPAQUE
 nav: Providers
 network: true
-overview: 'OPAQUE publishes 1 API on the [APIs.io](https://apis.io/) network: Platform REST API. Tagged areas include confidential-computing, confidential-ai, ai-governance, data-privacy, and trusted-execution-environment.
+overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include confidential-computing, confidential-ai, ai-governance, data-privacy, and trusted-execution-environment.
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 86
+random_paper: 71
 score:
   band: developing
   composite: 45.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.1
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 46.3
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -162,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:
 - kind: authentication
   name: Opaque Authentication

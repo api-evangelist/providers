@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-06'
+  score: 57.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
 - description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
   name: 99 Minutos webhooks API
   slug: 99-minutos-webhooks-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: 99 Minutos Webhooks
@@ -187,6 +187,18 @@ common:
   title: ''
   type: Website
   url: https://99minutos.com
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/99-minutos-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.99minutos.com/release-notes
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.99minutos.com/
 created: '2026-07-17'
 description: 99minutos (99 Minutos) is a Latin American last-mile logistics and delivery platform serving ecommerce businesses across Mexico, Chile, Colombia and Peru. It offers express parcel delivery (envios99), full-truck-load and drayage freight (freight99), fulfillment and warehousing (fulfill99) and custom logistics operations (tailor99), backed by a network of pickup/delivery points (Punto99). Its public REST API v3 lets developers resolve addresses to reusable location ids, quote shipping rates and coverage, create/confirm orders (including multibox), print PDF and ZPL labels, track shipments and subscribe to real-time status webhooks. Authentication is OAuth2 client-credentials that returns a bearer JWT. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from the provider's own developer portal.
 image: https://www.99minutos.com/_next/static/media/logo_99minutos.230a642b.svg
@@ -195,7 +207,7 @@ mcp_servers:
 - description: ''
   name: 99-minutos-mcp.yml
   slug: 99-minutos-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: 99 Minutos
 nav: Providers
 network: true
@@ -205,19 +217,23 @@ overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The 99 Minutos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 38
+  99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+random_paper: 14
+rate_limits:
+- limit_count: 1
+  name: 99 Minutos Rate Limits
+  slug: 99-minutos-rate-limits
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 55.5
+  delta: 4.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 13.2
+    operational_transparency: 50.0
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -230,9 +246,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181249.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:
 - kind: authentication
   name: 99 Minutos Authentication

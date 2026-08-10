@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Appbrew is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appbrew''s developer surface includes documentation, support, pricing, engineering blog, signup flow, changelog, and 5 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: emerging
   composite: 20.9
@@ -101,7 +101,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appbrew/refs/heads/main/screenshots/appbrew-2026-07-25T200721.png
 security:

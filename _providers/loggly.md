@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'REST API (apiv2) for searching and retrieving log events: initiate a search to get an RSID, then page results via the events/iterate endpoints, enumerate indexed fields with the fields/facet API, and '
@@ -167,7 +167,7 @@ overview: 'Loggly publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Loggly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 89
+random_paper: 74
 score:
   band: thin
   composite: 40.6
@@ -184,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/screenshots/loggly-2026-07-25T225459.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Crexi Exchange API is Crexi's partner-facing REST API, documented in a Theneo-published portal at api-docs.crexi.com (password protected) and fronted by a Swagger UI gateway at exchange.crexi.com.
@@ -144,7 +144,7 @@ overview: 'CREXi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   CREXi''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 87
+random_paper: 75
 scopes:
 - name: Crexi Scopes
   scope_count: 2
@@ -166,8 +166,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/screenshots/crexi-2026-08-07T163841.png
 security:
 - kind: authentication
   name: Crexi Authentication

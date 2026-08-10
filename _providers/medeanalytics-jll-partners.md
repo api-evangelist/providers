@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'MedeAnalytics (JLL Partners) is profiled on the [APIs.io](https://api
 
 
   MedeAnalytics (JLL Partners)''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 71
+random_paper: 2
 score:
   band: minimal
   composite: 12.1
@@ -87,8 +87,9 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/medeanalytics-jll-partners/refs/heads/main/screenshots/medeanalytics-jll-partners-2026-08-07T172318.png
 security:
 - kind: domain-security
   name: Medeanalytics Jll Partners Domain Security

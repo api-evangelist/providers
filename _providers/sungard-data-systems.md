@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: SunGard Financial Systems offered software and services for trading, treasury, risk management, capital markets, and investment management. Products included Adaptiv (credit and market risk), Front Ar
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Investment Firms Offer $10.5B for SunGard
   url: https://www.computerworld.com/article/1721035/investment-firms-offer-10-5b-for-sungard.html
-random_paper: 14
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Sungard Data Systems Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

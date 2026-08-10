@@ -18,16 +18,28 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
   name: Brooklinen UCP / MCP Agentic Commerce API
   slug: brooklinen-ucp-mcp-agentic-commerce-api
-- description: 'Read-only, unauthenticated JSON endpoints over the Brooklinen Shopify storefront, documented by the store itself in /agents.md for agents that only need to read store data without transacting. Covers '
-  name: Brooklinen Shopify Storefront JSON API
-  slug: brooklinen-shopify-storefront-json-api
-artifact_total: 6
+- description: Read-only view of the current session cart.
+  name: Brooklinen Cart API
+  slug: brooklinen-cart-api
+- description: Products grouped into merchandising collections.
+  name: Brooklinen Collections API
+  slug: brooklinen-collections-api
+- description: Sitemaps and agent discovery documents.
+  name: Brooklinen Discovery API
+  slug: brooklinen-discovery-api
+- description: Product catalog listing and detail.
+  name: Brooklinen Products API
+  slug: brooklinen-products-api
+- description: Predictive storefront search.
+  name: Brooklinen Search API
+  slug: brooklinen-search-api
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -150,15 +162,18 @@ mcp_servers:
 - description: ''
   name: brooklinen-mcp.yml
   slug: brooklinen-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-02'
 name: Brooklinen
 nav: Providers
 network: true
-overview: 'Brooklinen publishes 1 API on the [APIs.io](https://apis.io/) network: Shopify Storefront JSON API. Tagged areas include ecommerce, retail, direct-to-consumer, home-goods, and bedding.
+overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include ecommerce, retail, direct-to-consumer, home-goods, and bedding.
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 58
+random_paper: 31
 scopes:
 - name: Brooklinen Scopes
   scope_count: 4
@@ -166,13 +181,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 46.4
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.1
+    contract_quality: 55.8
     developer_ergonomics: 58.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 46.9
@@ -192,8 +207,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
 - kind: authentication
   name: Brooklinen Authentication

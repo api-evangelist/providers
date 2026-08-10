@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Meshcrafts is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Meshcrafts'' developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 55
+random_paper: 28
 score:
   band: emerging
   composite: 18.8
@@ -115,8 +115,9 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meshcrafts/refs/heads/main/screenshots/meshcrafts-2026-08-07T172632.png
 security:
 - kind: domain-security
   name: Meshcrafts Domain Security

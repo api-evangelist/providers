@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Mailchimp Open Commerce (Reaction Commerce) GraphQL API — a modular, plugin-based headless commerce API covering carts, orders, catalogs, shops, accounts, surcharges and more. Self-hosted; a local
@@ -115,7 +115,7 @@ overview: 'Reaction Commerce publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Reaction Commerce''s developer surface includes documentation, API reference, getting-started guide, sandbox, CLI, and 12 more developer resources.'
-random_paper: 46
+random_paper: 1
 score:
   band: emerging
   composite: 19.9
@@ -129,7 +129,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 19.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: vulnerability-disclosure

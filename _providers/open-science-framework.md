@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Repository and archive for study designs, research materials, data, manuscripts, etc
@@ -63,7 +63,7 @@ overview: 'Open Science Framework publishes 1 API on the [APIs.io](https://apis.
 
 
   Open Science Framework''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 81
+random_paper: 24
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-science-framework/refs/heads/main/screenshots/open-science-framework-2026-06-20T190929.png
 security:

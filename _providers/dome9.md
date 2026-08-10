@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Dome9 Plans Pricing
   plan_count: 3
   slug: dome9-plans-pricing
-random_paper: 26
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Dome9 Rate Limits
@@ -147,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/screenshots/dome9-2026-07-25T212245.png
 security:

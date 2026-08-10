@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 34
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -262,7 +262,7 @@ overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 52
+random_paper: 31
 score:
   band: developing
   composite: 45.5
@@ -291,7 +291,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

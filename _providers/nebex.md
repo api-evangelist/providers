@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Nebex is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nebex''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 78
+random_paper: 66
 score:
   band: emerging
   composite: 14.3
@@ -87,8 +87,9 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nebex/refs/heads/main/screenshots/nebex-2026-08-07T184759.png
 security:
 - kind: domain-security
   name: Nebex Domain Security

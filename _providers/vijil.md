@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -268,7 +268,7 @@ overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Vijil''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 90
+random_paper: 78
 score:
   band: developing
   composite: 48.2
@@ -292,7 +292,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

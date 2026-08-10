@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ overview: 'Citrix ShareFile publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 69
+random_paper: 27
 score:
   band: thin
   composite: 30.2
@@ -146,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/screenshots/citrix-sharefile-2026-06-20T174414.png
 security:

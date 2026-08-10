@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 37
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
@@ -240,7 +240,7 @@ plans:
 - name: Digital Ocean Plans Pricing
   plan_count: 3
   slug: digital-ocean-plans-pricing
-random_paper: 54
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Digital Ocean Rate Limits
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:

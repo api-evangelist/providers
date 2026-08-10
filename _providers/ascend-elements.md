@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -26,12 +26,72 @@ agentic_access:
   operation_count: 601
   slug: ascend-elements-agentic-access
   summary_line: 601 operations · 354 acting
-api_count: 1
+api_count: 21
 apis:
-- description: The WordPress REST API surface published by Ascend Elements at ascendelements.com/wp-json — 362 routes across 20 namespaces. The anonymously readable core is the wp/v2 content surface (posts, pages, m
-  name: Ascend Elements WordPress REST API
-  slug: ascend-elements-wordpress-rest-api
-artifact_total: 5
+- description: The complianz/v1 API from Ascend Elements — 11 operation(s) for complianz/v1.
+  name: Ascend Elements Complianz/v1 API
+  slug: ascend-elements-complianz-v1-api
+- description: The core API from Ascend Elements — 2 operation(s) for core.
+  name: Ascend Elements Core API
+  slug: ascend-elements-core-api
+- description: The cptui/v1 API from Ascend Elements — 2 operation(s) for cptui/v1.
+  name: Ascend Elements Cptui/v1 API
+  slug: ascend-elements-cptui-v1-api
+- description: The ea11y/v1 API from Ascend Elements — 20 operation(s) for ea11y/v1.
+  name: Ascend Elements Ea11y/v1 API
+  slug: ascend-elements-ea11y-v1-api
+- description: The elementor-ai/v1 API from Ascend Elements — 2 operation(s) for elementor-ai/v1.
+  name: Ascend Elements Elementor Ai/v1 API
+  slug: ascend-elements-elementor-ai-v1-api
+- description: The elementor-one/v1 API from Ascend Elements — 16 operation(s) for elementor-one/v1.
+  name: Ascend Elements Elementor One/v1 API
+  slug: ascend-elements-elementor-one-v1-api
+- description: The elementor-pro/v1 API from Ascend Elements — 7 operation(s) for elementor-pro/v1.
+  name: Ascend Elements Elementor Pro/v1 API
+  slug: ascend-elements-elementor-pro-v1-api
+- description: The elementor/v1 API from Ascend Elements — 53 operation(s) for elementor/v1.
+  name: Ascend Elements Elementor/v1 API
+  slug: ascend-elements-elementor-v1-api
+- description: The elementor/v1/documents API from Ascend Elements — 2 operation(s) for elementor/v1/documents.
+  name: Ascend Elements Elementor/v1/documents API
+  slug: ascend-elements-elementor-v1-documents-api
+- description: The elementor/v1/feedback API from Ascend Elements — 2 operation(s) for elementor/v1/feedback.
+  name: Ascend Elements Elementor/v1/feedback API
+  slug: ascend-elements-elementor-v1-feedback-api
+- description: The facetwp/v1 API from Ascend Elements — 3 operation(s) for facetwp/v1.
+  name: Ascend Elements Facetwp/v1 API
+  slug: ascend-elements-facetwp-v1-api
+- description: The image-optimizer/v1 API from Ascend Elements — 16 operation(s) for image-optimizer/v1.
+  name: Ascend Elements Image Optimizer/v1 API
+  slug: ascend-elements-image-optimizer-v1-api
+- description: The oembed/1.0 API from Ascend Elements — 3 operation(s) for oembed/1.0.
+  name: Ascend Elements Oembed/1.0 API
+  slug: ascend-elements-oembed-1-0-api
+- description: The site-mailer/v1 API from Ascend Elements — 21 operation(s) for site-mailer/v1.
+  name: Ascend Elements Site Mailer/v1 API
+  slug: ascend-elements-site-mailer-v1-api
+- description: The wp-abilities/v1 API from Ascend Elements — 6 operation(s) for wp-abilities/v1.
+  name: Ascend Elements Wp Abilities/v1 API
+  slug: ascend-elements-wp-abilities-v1-api
+- description: The wp-block-editor/v1 API from Ascend Elements — 4 operation(s) for wp-block-editor/v1.
+  name: Ascend Elements Wp Block Editor/v1 API
+  slug: ascend-elements-wp-block-editor-v1-api
+- description: The wp-site-health/v1 API from Ascend Elements — 8 operation(s) for wp-site-health/v1.
+  name: Ascend Elements Wp Site Health/v1 API
+  slug: ascend-elements-wp-site-health-v1-api
+- description: The wp/v2 API from Ascend Elements — 130 operation(s) for wp/v2.
+  name: Ascend Elements Wp/v2 API
+  slug: ascend-elements-wp-v2-api
+- description: The wpe/cache-plugin/v1 API from Ascend Elements — 3 operation(s) for wpe/cache-plugin/v1.
+  name: Ascend Elements Wpe/cache Plugin/v1 API
+  slug: ascend-elements-wpe-cache-plugin-v1-api
+- description: The wpe_sign_on_plugin/v1 API from Ascend Elements — 4 operation(s) for wpe_sign_on_plugin/v1.
+  name: Ascend Elements Wpe Sign On Plugin/v1 API
+  slug: ascend-elements-wpe-sign-on-plugin-v1-api
+- description: The yoast/v1 API from Ascend Elements — 46 operation(s) for yoast/v1.
+  name: Ascend Elements Yoast/v1 API
+  slug: ascend-elements-yoast-v1-api
+artifact_total: 25
 common:
 - group: agent
   title: ''
@@ -158,20 +218,20 @@ modified: '2026-08-02'
 name: Ascend Elements
 nav: Providers
 network: true
-overview: 'Ascend Elements publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Company, Battery Materials, Battery Recycling, Lithium-Ion, and Critical Minerals.
+overview: 'Ascend Elements publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Complianz/v1 API, Core API, Cptui/v1 API, and 18 more. Tagged areas include Company, Battery Materials, Battery Recycling, Lithium-Ion, and Critical Minerals.
 
 
   Ascend Elements'' developer surface includes engineering blog, privacy policy, YouTube channel, authentication, and 24 more developer resources.'
-random_paper: 59
+random_paper: 20
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 19.9
+  delta: 0.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 16.3
+    contract_quality: 15.3
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 19.6
@@ -186,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

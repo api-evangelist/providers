@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Basis Theory Plans Pricing
   plan_count: 4
   slug: basis-theory-plans-pricing
-random_paper: 112
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Basis Theory Rate Limits
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png
 security:

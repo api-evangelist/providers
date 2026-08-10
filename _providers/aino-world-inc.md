@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Aino World Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Aino World Inc.''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 23
+random_paper: 103
 score:
   band: emerging
   composite: 15.2
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aino-world-inc/refs/heads/main/screenshots/aino-world-inc-2026-07-25T195359.png
 security:

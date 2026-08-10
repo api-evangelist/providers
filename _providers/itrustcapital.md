@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,7 +127,7 @@ overview: 'iTrustCapital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   iTrustCapital''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, product news, and 17 more developer resources.'
-random_paper: 61
+random_paper: 25
 score:
   band: emerging
   composite: 19.8
@@ -141,8 +141,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/itrustcapital/refs/heads/main/screenshots/itrustcapital-2026-08-07T170929.png
 security:
 - kind: domain-security
   name: Itrustcapital Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: APIGovernance.Dev provides automated API governance reviews using AI trained on 10,000 public APIs. It offers the API Governance Top-10 best practices list, CI/CD integration, and enterprise governanc
@@ -126,7 +126,7 @@ plans:
 - name: Apigovernance Dev Plans Pricing
   plan_count: 3
   slug: apigovernance-dev-plans-pricing
-random_paper: 47
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Apigovernance Dev Rate Limits
@@ -153,7 +153,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigovernance-dev/refs/heads/main/screenshots/apigovernance-dev-2026-06-20T172239.png
 security:

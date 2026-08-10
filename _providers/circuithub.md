@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ overview: 'CircuitHub is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CircuitHub''s developer surface includes engineering blog, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 57
+random_paper: 30
 score:
   band: emerging
   composite: 20.7
@@ -112,7 +112,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuithub/refs/heads/main/screenshots/circuithub-2026-07-25T205415.png
 security:

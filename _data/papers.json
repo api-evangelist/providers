@@ -600,12 +600,28 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-documentation-apis.png"
   },
   {
+    "slug": "state-of-education-apis",
+    "title": "The State of Education & EdTech APIs",
+    "tagline": "The library out-publishes the classroom — scholarly infrastructure publishes a contract 70.8% of the time, corporate learning 0% — and seven organizations in 814 run an MCP server, the lowest of any market scored.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-education-apis.png"
+  },
+  {
     "slug": "state-of-headless-apis",
     "title": "The State of Headless APIs",
     "tagline": "What one hundred and eight headless CMS, commerce and browser providers actually publish, scored — the architecture whose entire promise is that the API is the product, tested against the evidence, where the monoliths keep the promise better than the disruptors.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-headless-apis.png"
+  },
+  {
+    "slug": "state-of-legal-compliance-apis",
+    "title": "The State of Legal & Compliance APIs",
+    "tagline": "The contract lifecycle management segment publishes the fewest contracts in its own market — 18.2% against e-signature's 55.0% — and the market that sells governance scores 9.1 on it.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-legal-compliance-apis.png"
   },
   {
     "slug": "state-of-management-apis",
@@ -630,6 +646,14 @@
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-marketing-advertising-apis.png"
+  },
+  {
+    "slug": "state-of-robotics-apis",
+    "title": "The State of Robotics & Autonomous Systems APIs",
+    "tagline": "This market is not short of APIs — it is short of public ones. 5.8% publish a contract, and the most likely reason is a security posture that treats a documented interface as an attack surface.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-robotics-apis.png"
   },
   {
     "slug": "state-of-supply-chain-apis",

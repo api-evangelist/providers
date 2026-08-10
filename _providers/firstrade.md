@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -162,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:

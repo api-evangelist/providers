@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: 'The first-party Wyze cloud API reached with a personal API Key and Key ID generated from the Wyze Developer API Console. Authentication posts credentials to auth-prod.api.wyze.com to exchange the key '
@@ -164,7 +164,7 @@ overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wyze''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 11
+random_paper: 115
 scopes:
 - name: Wyze Scopes
   scope_count: 4
@@ -186,7 +186,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

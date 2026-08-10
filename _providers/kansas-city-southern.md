@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'CPKC''s AI Strategy: Analysis of Dominance in Rail ...'
   url: https://www.klover.ai/cpkc-ai-strategy-analysis-of-dominance-in-rail-transportation-ai/
-random_paper: 26
+random_paper: 88
 score:
   band: minimal
   composite: 5.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kansas-city-southern/refs/heads/main/screenshots/kansas-city-southern-2026-06-20T183915.png
 slug: kansas-city-southern

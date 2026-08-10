@@ -12,19 +12,43 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 39.9
+  scored_at: '2026-08-10'
+api_count: 9
 apis:
-- description: The anonymously readable WordPress REST API behind star-therapeutics.com. It exposes the 28 published news items — press releases, news coverage and scientific presentations spanning the company's 202
-  name: Star Therapeutics Content API
-  slug: star-therapeutics-content-api
-artifact_total: 3
+- description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
+  name: Star Therapeutics Comments API
+  slug: star-therapeutics-comments-api
+- description: Avada theme custom post types (avada_faq, avada_portfolio). Registered and anonymously reachable, but both report zero published items.
+  name: Star Therapeutics Custom Types API
+  slug: star-therapeutics-custom-types-api
+- description: Route, type, taxonomy and status discovery documents.
+  name: Star Therapeutics Discovery API
+  slug: star-therapeutics-discovery-api
+- description: Media library (661 attachments at harvest time).
+  name: Star Therapeutics Media API
+  slug: star-therapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for star-therapeutics.com URLs.
+  name: Star Therapeutics Oembed API
+  slug: star-therapeutics-oembed-api
+- description: Corporate pages (11 published at harvest time).
+  name: Star Therapeutics Pages API
+  slug: star-therapeutics-pages-api
+- description: News archive — press releases, news coverage and scientific presentations (28 published at harvest time).
+  name: Star Therapeutics Posts API
+  slug: star-therapeutics-posts-api
+- description: Cross-content search across published objects.
+  name: Star Therapeutics Search API
+  slug: star-therapeutics-search-api
+- description: Categories and tags. Five categories are registered; the post_tag taxonomy is registered but empty.
+  name: Star Therapeutics Taxonomy API
+  slug: star-therapeutics-taxonomy-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -131,21 +155,23 @@ modified: '2026-08-05'
 name: Star Therapeutics
 nav: Providers
 network: true
-overview: 'Star Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, hematology, and immunology.
+overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, hematology, and immunology.
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
-random_paper: 89
+random_paper: 44
 score:
   band: thin
-  composite: 32.1
+  composite: 31.5
+  delta: -0.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.2
+    contract_quality: 56.6
     developer_ergonomics: 12.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -155,7 +181,8 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Star Therapeutics Authentication

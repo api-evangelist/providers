@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: 1-Automotive
 nav: Providers
 network: true
 overview: 1-Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Vehicles, and Fortune 500.
-random_paper: 65
+random_paper: 35
 score:
   band: minimal
   composite: 3.2
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: 1-automotive
 tags:

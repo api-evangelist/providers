@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Cape is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cape''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 70
+random_paper: 61
 score:
   band: emerging
   composite: 21.8
@@ -131,7 +131,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cape/refs/heads/main/screenshots/cape-2026-07-25T204359.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -207,7 +207,7 @@ plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
   slug: cloudflare-r2-plans-pricing
-random_paper: 23
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Cloudflare R2 Rate Limits
@@ -241,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
 security:

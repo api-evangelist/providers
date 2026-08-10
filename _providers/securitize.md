@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -26,18 +26,30 @@ agentic_access:
   operation_count: 125
   slug: securitize-agentic-access
   summary_line: 125 operations · 64 acting · 64 human-in-the-loop
-api_count: 3
+api_count: 7
 apis:
-- description: 'Comprehensive backend REST API giving domain operators (issuers, brokerage firms, secondary-market operators) programmatic access to the entire digital-securities lifecycle: investor onboarding and ma'
-  name: Securitize Domains API
-  slug: securitize-domains-api
 - description: OAuth-based identity API that lets partners add "Log in with Securitize iD" to their own application and, with investor consent, retrieve verified KYC/KYB/AML identity data — investor information, ver
   name: Securitize Connect API (Securitize iD)
   slug: securitize-connect-api-securitize-id
 - description: Public, unauthenticated Model Context Protocol server ("Securitize Connector") that gives AI assistants and agents real-time, standardized access to the Securitize tokenized-asset catalog — listing as
   name: Securitize MCP Server
   slug: securitize-mcp-server
-artifact_total: 10
+- description: The APAC API from Securitize — 4 operation(s) for apac.
+  name: Securitize APAC API
+  slug: securitize-apac-api
+- description: The Domains API from Securitize — 74 operation(s) for domains.
+  name: Securitize Domains API
+  slug: securitize-domains-api
+- description: The Health Check API from Securitize — 1 operation(s) for health check.
+  name: Securitize Health Check API
+  slug: securitize-health-check-api
+- description: The Travel Rule API from Securitize — 4 operation(s) for travel rule.
+  name: Securitize Travel Rule API
+  slug: securitize-travel-rule-api
+- description: The Webhooks API from Securitize — 4 operation(s) for webhooks.
+  name: Securitize Webhooks API
+  slug: securitize-webhooks-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Securitize Webhooks
@@ -168,14 +180,14 @@ modified: '2026-08-05'
 name: Securitize
 nav: Providers
 network: true
-overview: 'Securitize publishes 1 API on the [APIs.io](https://apis.io/) network: Domains API. Tagged areas include tokenization, digital-securities, real-world-assets, capital-markets, and fund-administration.
+overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include tokenization, digital-securities, real-world-assets, capital-markets, and fund-administration.
 
 
   The Securitize catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Securitize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 78
+random_paper: 51
 scopes:
 - name: Securitize Scopes
   scope_count: 3
@@ -183,23 +195,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 43.8
-  delta: -2.1
+  composite: 43.5
+  delta: -0.3
   facets:
     commercial_clarity: 13.2
-    contract_quality: 51.2
+    contract_quality: 49.8
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 45.9
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

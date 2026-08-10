@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/cofactr-knowledge-graph-openapi-original.json
+  url: openapi/_original/cofactr-knowledge-graph-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -203,7 +203,7 @@ overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Cofactr''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 24 more developer resources.'
-random_paper: 60
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Cofactr Rate Limits
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:

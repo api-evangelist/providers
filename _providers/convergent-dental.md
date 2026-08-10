@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ overview: 'Convergent Dental is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Convergent Dental''s developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 65
+random_paper: 20
 score:
   band: minimal
   composite: 9.4
@@ -104,8 +104,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/convergent-dental/refs/heads/main/screenshots/convergent-dental-2026-08-07T163802.png
 security:
 - kind: domain-security
   name: Convergent Dental Domain Security

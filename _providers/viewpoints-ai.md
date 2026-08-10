@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Viewpoints AI''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 3
+random_paper: 83
 score:
   band: thin
   composite: 40.7
@@ -169,7 +169,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

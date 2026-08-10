@@ -1,6 +1,6 @@
 {
- "total": 11,
- "shown": 11,
+ "total": 10,
+ "shown": 10,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "amadeus",
      "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
-     "score": 68.5,
+     "score": 68.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 80.1,
+      "contract_quality": 78.7,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -76,7 +76,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 33.6,
      "agent_band": "agent-aware",
@@ -114,7 +114,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -152,7 +152,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -189,7 +189,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -238,7 +238,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -264,6 +264,7 @@
      "name": "Marriott International",
      "slug": "marriott",
      "description": "Marriott International is the world's largest hotel group by room count, headquartered in Bethesda, Maryland, United States, operating and franchising roughly thirty brands from The Ritz-Carlton, St. Regis and W through Marriott Hotels, Sheraton, Westin and Courtyard down to Fairfield, Moxy and StudioRes, plus the Homes & Villas by Marriott Bonvoy home-rental marketplace and the Marriott Bonvoy loyalty program. It sits on the supply side of the travel distribution chain: it publishes rates and availability into every major global distribution system — Marriott's own travel-agent site states it \"participates in the following GDS: Amadeus, Sabre, Travelport (Apollo/Galileo, and Worldspan)\" — sells through the OTAs, connects short-term-rental supply through a channel-connectivity partner program, and spends heavily to pull demand back to direct booking on Marriott.com and the Bonvoy app. Its API posture is closed. A Broadcom Layer7 developer portal exists at devportalprod.marriott.com and returns HTTP 200, but its anonymous API catalog is literally empty and the portal's own home content returns HTTP 401 — there is no self-serve signup, no public API reference, no published rates/availability/booking API, no sandbox, no SDK, no changelog and no exit path. The only Marriott OpenAPI documents that can be read without a contract are eight internal and partner-facing specifications left publicly readable on SwaggerHub under the \"marriott-api\" owner; six are mirrored here verbatim as evidence. Everything a developer would actually want is behind a partner relationship, a travel-agent registration, or a GDS or channel-manager contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/screenshots/marriott-2026-08-07T172102.png",
      "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
@@ -275,7 +276,7 @@
       "developer_ergonomics": 27.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -312,7 +313,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -350,7 +351,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -379,8 +380,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Travelport",
@@ -398,7 +399,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -426,44 +427,6 @@
       "dry_run_mode": false
      },
      "rank": 10
-    },
-    {
-     "name": "Delta Air Lines",
-     "slug": "delta-air-lines",
-     "description": "Delta Air Lines is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. Delta operates a developer API portal for partner integrations covering flight search, flight offers, customer journey, loyalty, and operations data, with an emphasis on NDC-based content distribution.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-air-lines/refs/heads/main/screenshots/delta-air-lines-2026-07-25T211713.png",
-     "score": 16.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
     }
    ]
   }

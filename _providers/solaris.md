@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
@@ -159,7 +159,7 @@ overview: 'Solaris publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Solaris'' developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 87
+random_paper: 69
 scopes:
 - name: Solaris Scopes
   scope_count: 1
@@ -187,7 +187,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

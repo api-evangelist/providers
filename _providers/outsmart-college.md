@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,16 +63,20 @@ common:
   title: ''
   type: DomainSecurity
   url: security/outsmart-college-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/join-outsmart/
 created: '2026-07-17'
 description: Outsmart (Outsmart Education, Inc.) is an education-technology company rebuilding higher education for the AI era, aiming to make learning smarter, faster, and more engaging than traditional lectures and student debt. The company is currently pre-launch, operating a public waitlist at joinoutsmart.com, and is backed by Lightspeed Venture Partners. As of this profile the company publishes only a marketing site with a legal Privacy Policy and Terms & Conditions and does not expose a public developer or API surface. This record was surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist network for ongoing enrichment as any API surface appears.
 image: https://joinoutsmart.com/images/favicon.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Outsmart College
 nav: Providers
 network: true
 overview: Outsmart College is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Higher Education, and Artificial Intelligence.
-random_paper: 89
+random_paper: 47
 score:
   band: minimal
   composite: 9.2
@@ -86,8 +90,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/outsmart-college/refs/heads/main/screenshots/outsmart-college-2026-08-07T191114.png
 security:
 - kind: domain-security
   name: Outsmart College Domain Security

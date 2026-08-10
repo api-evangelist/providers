@@ -18,31 +18,85 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-06'
-api_count: 7
+  scored_at: '2026-08-10'
+api_count: 25
 apis:
-- description: The primary Uphold Enterprise REST API — users, KYC/KYB processes, capabilities, terms of service, files, countries, assets, networks and rails, accounts, external accounts (bank/card/APM), quotes and
-  name: Uphold Enterprise Core API
-  slug: uphold-enterprise-core-api
-- description: Session API behind the embeddable Uphold Widgets — creates Payment Widget, KYC Widget and Travel Rule Widget sessions that the browser/native SDKs consume to collect payment methods, KYC data and FATF
-  name: Uphold Enterprise Widgets API
-  slug: uphold-enterprise-widgets-api
-- description: Market data API returning descriptive asset information, real-time asset market statistics, per-asset news and general market news for the assets supported on the Uphold platform.
-  name: Uphold Market Pulse API
-  slug: uphold-market-pulse-api
-- description: Ingests verifications performed in third-party identity providers — Sumsub Reusable KYC and Veriff — and maps their payloads onto Uphold KYC processes, so a partner that already verifies users elsewhe
-  name: Uphold KYC Connector API
-  slug: uphold-kyc-connector-api
-- description: KYC-sharing API for Topper, Uphold's fiat-to-crypto onramp widget — identifies a user and creates a KYC sharing session so an existing Uphold verification can be reused inside a Topper integration.
-  name: Uphold Topper API
-  slug: uphold-topper-api
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
   name: Uphold Public API (v0)
   slug: uphold-public-api-v0
 - description: Anonymous, read-only Model Context Protocol server published by Uphold at developer.uphold.com/mcp over streamable HTTP. Exposes three tools (documentation search, a virtualized read-only docs filesys
   name: Uphold Documentation MCP Server
   slug: uphold-documentation-mcp-server
-artifact_total: 14
+- description: Accounts.
+  name: Uphold Accounts API
+  slug: uphold-accounts-api
+- description: Assets, networks and rails.
+  name: Uphold Assets API
+  slug: uphold-assets-api
+- description: Authentication.
+  name: Uphold Authentication API
+  slug: uphold-authentication-api
+- description: User capabilities.
+  name: Uphold Capabilities API
+  slug: uphold-capabilities-api
+- description: Countries.
+  name: Uphold Countries API
+  slug: uphold-countries-api
+- description: External accounts.
+  name: Uphold External accounts API
+  slug: uphold-external-accounts-api
+- description: Files.
+  name: Uphold Files API
+  slug: uphold-files-api
+- description: General.
+  name: Uphold General API
+  slug: uphold-general-api
+- description: The Ingestions API from Uphold — 0 operation(s) for ingestions.
+  name: Uphold Ingestions API
+  slug: uphold-ingestions-api
+- description: Business User's KYB.
+  name: Uphold KYB API
+  slug: uphold-kyb-api
+- description: Individual User's KYC.
+  name: Uphold KYC API
+  slug: uphold-kyc-api
+- description: KYC sharing.
+  name: Uphold KYC sharing API
+  slug: uphold-kyc-sharing-api
+- description: Metadata.
+  name: Uphold Metadata API
+  slug: uphold-metadata-api
+- description: Payment.
+  name: Uphold Payment API
+  slug: uphold-payment-api
+- description: Portfolio.
+  name: Uphold Portfolio API
+  slug: uphold-portfolio-api
+- description: Statements.
+  name: Uphold Statements API
+  slug: uphold-statements-api
+- description: Sumsub KYC Connector.
+  name: Uphold Sumsub API
+  slug: uphold-sumsub-api
+- description: User terms of service.
+  name: Uphold Terms of service API
+  slug: uphold-terms-of-service-api
+- description: Transactions.
+  name: Uphold Transactions API
+  slug: uphold-transactions-api
+- description: Travel rule.
+  name: Uphold Travel rule API
+  slug: uphold-travel-rule-api
+- description: Users.
+  name: Uphold Users API
+  slug: uphold-users-api
+- description: Veriff KYC Connector.
+  name: Uphold Veriff API
+  slug: uphold-veriff-api
+- description: Webhooks.
+  name: Uphold Webhooks API
+  slug: uphold-webhooks-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Uphold Core Webhooks
@@ -232,14 +286,14 @@ modified: '2026-08-05'
 name: Uphold
 nav: Providers
 network: true
-overview: 'Uphold publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Enterprise Core API, Enterprise Widgets API, Market Pulse API, and 2 more. Tagged areas include Company, cryptocurrency, digital-assets, payments, and banking.
+overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, cryptocurrency, digital-assets, payments, and banking.
 
 
   The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 36 more developer resources.'
-random_paper: 87
+random_paper: 72
 scopes:
 - name: Uphold Scopes
   scope_count: 64
@@ -247,14 +301,16 @@ scopes:
   summary_line: 64 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 68.8
+  composite: 66.3
+  delta: -2.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.0
+    contract_quality: 69.0
     developer_ergonomics: 84.8
-    discoverability: 92.6
+    discoverability: 77.8
     governance: 20.8
     operational_transparency: 63.2
+  previous_composite: 68.8
   provenance:
     conformance: first-party
     contracts:
@@ -271,7 +327,8 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Uphold Authentication

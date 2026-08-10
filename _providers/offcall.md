@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Offcall is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Offcall''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: emerging
   composite: 14.0
@@ -91,8 +91,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/offcall/refs/heads/main/screenshots/offcall-2026-08-07T190017.png
 security:
 - kind: domain-security
   name: Offcall Domain Security

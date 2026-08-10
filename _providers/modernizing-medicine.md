@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -26,15 +26,138 @@ agentic_access:
   operation_count: 125
   slug: modernizing-medicine-agentic-access
   summary_line: 125 operations · 20 acting
-api_count: 2
+api_count: 43
 apis:
-- description: ModMed's proprietary FHIR R4-style API over the EMA EHR and ModMed Practice Management. 58 operations under /fhir/v2 across Patient, Practitioner, Organization, Location, Encounter, Appointment, Slot,
-  name: EMA Proprietary API
-  slug: ema-proprietary-api
-- description: ModMed's ONC-certified HL7 FHIR R4 API for EMA, ModMed PM, ModMed GI and gGastro. 64 read and search operations across 31 US Core resource types plus Bulk FHIR $export at Patient and Group level, auth
-  name: ModMed Certified FHIR API
-  slug: modmed-certified-fhir-api
-artifact_total: 9
+- description: 'The AllergyIntolerance FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance'
+  name: ModMed Allergy Intolerance API
+  slug: modernizing-medicine-allergyintolerance-api
+- description: Appoitments and Slots Details
+  name: ModMed Appointments and Slots API
+  slug: modernizing-medicine-appointments-and-slots-api
+- description: SMART-on-FHIR OAuth 2.0 endpoints.
+  name: ModMed Authentication API
+  slug: modernizing-medicine-authentication-api
+- description: Capability Statement
+  name: ModMed Capability Statement API
+  slug: modernizing-medicine-capability-statement-api
+- description: 'The CarePlan FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan'
+  name: ModMed Care Plan API
+  slug: modernizing-medicine-careplan-api
+- description: 'The CareTeam FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam'
+  name: ModMed Care Team API
+  slug: modernizing-medicine-careteam-api
+- description: Charges/Financial details
+  name: ModMed Charges/Financial API
+  slug: modernizing-medicine-charges-financial-api
+- description: Clinical Data/Clipboard details
+  name: ModMed Clinical Data/Clipboard API
+  slug: modernizing-medicine-clinical-data-clipboard-api
+- description: 'The Condition FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition'
+  name: ModMed Condition API
+  slug: modernizing-medicine-condition-api
+- description: 'The Coverage FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage'
+  name: ModMed Coverage API
+  slug: modernizing-medicine-coverage-api
+- description: 'The Device FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-implantable-device'
+  name: ModMed Device API
+  slug: modernizing-medicine-device-api
+- description: The DiagnosticReport FHIR resource type
+  name: ModMed Diagnostic Report API
+  slug: modernizing-medicine-diagnosticreport-api
+- description: 'The DocumentReference FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference'
+  name: ModMed Document Reference API
+  slug: modernizing-medicine-documentreference-api
+- description: Documents details
+  name: ModMed Documents API
+  slug: modernizing-medicine-documents-api
+- description: 'The Encounter FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter'
+  name: ModMed Encounter API
+  slug: modernizing-medicine-encounter-api
+- description: Encounters/Visits details
+  name: ModMed Encounters/Visits API
+  slug: modernizing-medicine-encounters-visits-api
+- description: The Endpoint FHIR resource type
+  name: ModMed Endpoint API
+  slug: modernizing-medicine-endpoint-api
+- description: 'The Goal FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal'
+  name: ModMed Goal API
+  slug: modernizing-medicine-goal-api
+- description: The Group FHIR resource type
+  name: ModMed Group API
+  slug: modernizing-medicine-group-api
+- description: 'The Immunization FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization'
+  name: ModMed Immunization API
+  slug: modernizing-medicine-immunization-api
+- description: Insurance Details
+  name: ModMed Insurance API
+  slug: modernizing-medicine-insurance-api
+- description: 'The Location FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-location'
+  name: ModMed Location API
+  slug: modernizing-medicine-location-api
+- description: Locations/Facilities details
+  name: ModMed Locations/Facilities API
+  slug: modernizing-medicine-locations-facilities-api
+- description: 'The Medication FHIR resource type<br/>Base profile: http://hl7.org/fhir/StructureDefinition/Medication'
+  name: ModMed Medication API
+  slug: modernizing-medicine-medication-api
+- description: The MedicationDispense API from ModMed — 2 operation(s) for medicationdispense.
+  name: ModMed Medication Dispense API
+  slug: modernizing-medicine-medicationdispense-api
+- description: 'The MedicationRequest FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest'
+  name: ModMed Medication Request API
+  slug: modernizing-medicine-medicationrequest-api
+- description: The Observation FHIR resource type
+  name: ModMed Observation API
+  slug: modernizing-medicine-observation-api
+- description: 'The OperationDefinition FHIR resource type<br/>Base profile: http://hl7.org/fhir/StructureDefinition/OperationDefinition'
+  name: ModMed Operation Definition API
+  slug: modernizing-medicine-operationdefinition-api
+- description: 'The Organization FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization'
+  name: ModMed Organization API
+  slug: modernizing-medicine-organization-api
+- description: 'The Patient FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient'
+  name: ModMed Patient API
+  slug: modernizing-medicine-patient-api
+- description: 'The Practitioner FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner'
+  name: ModMed Practitioner API
+  slug: modernizing-medicine-practitioner-api
+- description: 'The PractitionerRole FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole'
+  name: ModMed Practitioner Role API
+  slug: modernizing-medicine-practitionerrole-api
+- description: 'The Procedure FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure'
+  name: ModMed Procedure API
+  slug: modernizing-medicine-procedure-api
+- description: 'The Provenance FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance'
+  name: ModMed Provenance API
+  slug: modernizing-medicine-provenance-api
+- description: Providers details
+  name: ModMed Providers and Referring Providers API
+  slug: modernizing-medicine-providers-and-referring-providers-api
+- description: The Questionnaire API from ModMed — 2 operation(s) for questionnaire.
+  name: ModMed Questionnaire API
+  slug: modernizing-medicine-questionnaire-api
+- description: The QuestionnaireResponse API from ModMed — 2 operation(s) for questionnaireresponse.
+  name: ModMed Questionnaire Response API
+  slug: modernizing-medicine-questionnaireresponse-api
+- description: The RelatedPerson API from ModMed — 2 operation(s) for relatedperson.
+  name: ModMed Related Person API
+  slug: modernizing-medicine-relatedperson-api
+- description: 'The ServiceRequest FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest'
+  name: ModMed Service Request API
+  slug: modernizing-medicine-servicerequest-api
+- description: The Specimen API from ModMed — 2 operation(s) for specimen.
+  name: ModMed Specimen API
+  slug: modernizing-medicine-specimen-api
+- description: Tasks/Recalls Details
+  name: ModMed Tasks/Recalls API
+  slug: modernizing-medicine-tasks-recalls-api
+- description: Transcription details
+  name: ModMed Transcription API
+  slug: modernizing-medicine-transcription-api
+- description: The ValueSet FHIR resource type
+  name: ModMed Value Set API
+  slug: modernizing-medicine-valueset-api
+artifact_total: 50
 common:
 - group: company
   title: ''
@@ -188,11 +311,11 @@ modified: '2026-08-04'
 name: ModMed
 nav: Providers
 network: true
-overview: 'ModMed publishes 2 APIs on the [APIs.io](https://apis.io/) network: EMA Proprietary API and Certified FHIR API. Tagged areas include Company, Healthcare, Electronic Health Records, Practice Management, and FHIR.
+overview: 'ModMed publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Appointments and Slots API, Authentication API, and 40 more. Tagged areas include Company, Healthcare, Electronic Health Records, Practice Management, and FHIR.
 
 
   ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 31
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Modernizing Medicine Rate Limits
@@ -204,13 +327,13 @@ scopes:
   summary_line: 76 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 58.4
+  delta: -2.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.7
+    contract_quality: 57.3
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 60.7
@@ -231,8 +354,9 @@ score:
     regime_id: health
     score: 100.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:
 - kind: authentication
   name: Modernizing Medicine Authentication

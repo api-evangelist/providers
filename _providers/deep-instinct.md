@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -27,7 +27,7 @@ apis:
 - description: Model Context Protocol server hosted on Deep Instinct's customer portal at https://portal.deepinstinct.com/mcp, advertised through RFC 9728 protected-resource metadata and an RFC 8414 authorization-se
   name: Deep Instinct Portal MCP Server
   slug: deep-instinct-portal-mcp-server
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -129,6 +129,9 @@ mcp_servers:
 - description: ''
   name: deep-instinct-mcp.yml
   slug: deep-instinct-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-01'
 name: Deep Instinct
 nav: Providers
@@ -137,7 +140,7 @@ overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Deep Instinct''s developer surface includes support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 92
+random_paper: 59
 scopes:
 - name: Deep Instinct Scopes
   scope_count: 2
@@ -159,8 +162,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/screenshots/deep-instinct-2026-08-07T164228.png
 security:
 - kind: authentication
   name: Deep Instinct Authentication

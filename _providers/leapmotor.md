@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'Leapmotor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Leapmotor''s developer surface includes support and 11 more developer resources.'
-random_paper: 75
+random_paper: 51
 score:
   band: minimal
   composite: 11.9
@@ -106,8 +106,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leapmotor/refs/heads/main/screenshots/leapmotor-2026-08-07T171530.png
 security:
 - kind: domain-security
   name: Leapmotor Domain Security

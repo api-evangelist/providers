@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Manage the email guestlist (members/guests) of a space
@@ -45,7 +45,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/gather-http-api-openapi.yml
+  url: openapi/_original/gather-http-api-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -170,7 +170,7 @@ overview: 'Gather publishes 3 APIs on the [APIs.io](https://apis.io/) network: G
 
 
   Gather''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: thin
   composite: 38.8
@@ -193,7 +193,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/screenshots/gather-2026-07-25T215458.png
 security:

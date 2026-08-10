@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Spectral is a flexible JSON/YAML linter and style guide enforcer with built-in support for OpenAPI (v3.1, v3.0, v2.0), Arazzo v1.0, and AsyncAPI v2.x. It enables teams to define custom rulesets to enf
@@ -120,7 +120,7 @@ plans:
 - name: Spectral Plans Pricing
   plan_count: 3
   slug: spectral-plans-pricing
-random_paper: 71
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Spectral Rate Limits
@@ -155,7 +155,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 37.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectral/refs/heads/main/screenshots/spectral-2026-06-20T194300.png
 security:

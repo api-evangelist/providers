@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -70,7 +70,7 @@ apis:
 - description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: The Mobile First Company Webhooks
@@ -194,7 +194,7 @@ common:
   url: https://www.withallo.com/privacy-policy
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://www.withallo.com/mcp
 created: '2026-07-17'
 description: The Mobile-First Company is a French / US (Miami HQ) startup building a suite of mobile-first, AI-powered business apps for small teams under a "one problem, one app" philosophy. Its flagship product, Allo, is an AI phone system used by 5,000+ businesses — an AI receptionist that answers 24/7, call recording with transcription and AI summaries, intelligent routing, spam blocking, SMS, and CRM sync. Allo ships a full REST API (calls, SMS, contacts, CRM, analytics, webhooks), a hosted Model Context Protocol (MCP) server, and OAuth 2.0. Sibling apps Due (invoicing) and Claim (expenses) extend the same approach. The company is backed by Base10 Partners and Lightspeed Venture Partners.
@@ -204,6 +204,9 @@ mcp_servers:
 - description: ''
   name: the-mobile-first-company-mcp.yml
   slug: the-mobile-first-company-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-21'
 name: The Mobile First Company
 nav: Providers
@@ -215,7 +218,7 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 26
+random_paper: 79
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0
@@ -249,7 +252,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

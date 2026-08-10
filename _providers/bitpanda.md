@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -181,7 +181,7 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 44
+random_paper: 23
 score:
   band: strong
   composite: 57.4
@@ -210,7 +210,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:

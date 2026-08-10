@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Delphi publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Delphi''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 65
+random_paper: 50
 score:
   band: thin
   composite: 41.8
@@ -229,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:

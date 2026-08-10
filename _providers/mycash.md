@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: MyCash
 nav: Providers
 network: true
 overview: MyCash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remittance, Payments, Money Transfer, and Fintech.
-random_paper: 80
+random_paper: 65
 score:
   band: minimal
   composite: 8.4
@@ -72,7 +72,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

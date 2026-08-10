@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Online File Conversion API
@@ -67,7 +67,7 @@ overview: 'Api2Convert publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Api2Convert''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 3
+random_paper: 89
 score:
   band: minimal
   composite: 7.8
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api2convert/refs/heads/main/screenshots/api2convert-2026-06-20T172224.png
 security:

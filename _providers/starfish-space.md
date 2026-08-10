@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -26,15 +26,114 @@ agentic_access:
   operation_count: 225
   slug: starfish-space-agentic-access
   summary_line: 225 operations · 124 acting
-api_count: 2
+api_count: 35
 apis:
-- description: The public WordPress REST API served by Starfish Space at https://www.starfishspace.com/wp-json/wp/v2. It exposes the content behind starfishspace.com — news and press releases, pages (The Otter, Comp
-  name: Starfish Space Website Content API
-  slug: starfish-space-website-content-api
 - description: A live Model Context Protocol (MCP) server exposed by Starfish Space at https://www.starfishspace.com/wp-json/mcp/mcp-oauth-server, served through the WordPress MCP adapter. Access is OAuth 2.1 protec
   name: Starfish Space MCP Server
   slug: starfish-space-mcp-server
-artifact_total: 18
+- description: Block directory search.
+  name: Starfish Space Block Directory API
+  slug: starfish-space-block-directory-api
+- description: Registered block patterns.
+  name: Starfish Space Block Patterns API
+  slug: starfish-space-block-patterns-api
+- description: block-renderer routes.
+  name: Starfish Space Block Renderer API
+  slug: starfish-space-block-renderer-api
+- description: Registered block types.
+  name: Starfish Space Block Types API
+  slug: starfish-space-block-types-api
+- description: Reusable editor blocks.
+  name: Starfish Space Blocks API
+  slug: starfish-space-blocks-api
+- description: Post categories.
+  name: Starfish Space Categories API
+  slug: starfish-space-categories-api
+- description: Comments on site content.
+  name: Starfish Space Comments API
+  slug: starfish-space-comments-api
+- description: font-collections routes.
+  name: Starfish Space Font Collections API
+  slug: starfish-space-font-collections-api
+- description: Registered font families.
+  name: Starfish Space Font Families API
+  slug: starfish-space-font-families-api
+- description: Global styles.
+  name: Starfish Space Global Styles API
+  slug: starfish-space-global-styles-api
+- description: icons routes.
+  name: Starfish Space Icons API
+  slug: starfish-space-icons-api
+- description: Media library attachments (images, documents).
+  name: Starfish Space Media API
+  slug: starfish-space-media-api
+- description: Navigation menu items.
+  name: Starfish Space Menu Items API
+  slug: starfish-space-menu-items-api
+- description: Theme menu locations.
+  name: Starfish Space Menu Locations API
+  slug: starfish-space-menu-locations-api
+- description: Navigation menus.
+  name: Starfish Space Menus API
+  slug: starfish-space-menus-api
+- description: Navigation menus.
+  name: Starfish Space Navigation API
+  slug: starfish-space-navigation-api
+- description: Static pages (The Otter, Company, Missions, Careers, Contact).
+  name: Starfish Space Pages API
+  slug: starfish-space-pages-api
+- description: Pattern directory.
+  name: Starfish Space Pattern Directory API
+  slug: starfish-space-pattern-directory-api
+- description: Installed plugins.
+  name: Starfish Space Plugins API
+  slug: starfish-space-plugins-api
+- description: Blog/news posts published on starfishspace.com.
+  name: Starfish Space Posts API
+  slug: starfish-space-posts-api
+- description: Cross-content search.
+  name: Starfish Space Search API
+  slug: starfish-space-search-api
+- description: Site settings.
+  name: Starfish Space Settings API
+  slug: starfish-space-settings-api
+- description: Widget areas.
+  name: Starfish Space Sidebars API
+  slug: starfish-space-sidebars-api
+- description: Registered post statuses.
+  name: Starfish Space Statuses API
+  slug: starfish-space-statuses-api
+- description: Post tags.
+  name: Starfish Space Tags API
+  slug: starfish-space-tags-api
+- description: Registered taxonomies.
+  name: Starfish Space Taxonomies API
+  slug: starfish-space-taxonomies-api
+- description: Block theme template parts.
+  name: Starfish Space Template Parts API
+  slug: starfish-space-template-parts-api
+- description: Block theme templates.
+  name: Starfish Space Templates API
+  slug: starfish-space-templates-api
+- description: Installed themes.
+  name: Starfish Space Themes API
+  slug: starfish-space-themes-api
+- description: Registered content types.
+  name: Starfish Space Types API
+  slug: starfish-space-types-api
+- description: Site authors.
+  name: Starfish Space Users API
+  slug: starfish-space-users-api
+- description: Available widget types.
+  name: Starfish Space Widget Types API
+  slug: starfish-space-widget-types-api
+- description: Widgets.
+  name: Starfish Space Widgets API
+  slug: starfish-space-widgets-api
+- description: wp_pattern_category routes.
+  name: Starfish Space Wp Pattern Category API
+  slug: starfish-space-wp-pattern-category-api
+artifact_total: 51
 common:
 - group: agent
   title: ''
@@ -178,11 +277,11 @@ modified: '2026-08-02'
 name: Starfish Space
 nav: Providers
 network: true
-overview: 'Starfish Space publishes 1 API on the [APIs.io](https://apis.io/) network: Website Content API. Tagged areas include Company, Aerospace, Space, Satellites, and Satellite Servicing.
+overview: 'Starfish Space publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 31 more. Tagged areas include Company, Aerospace, Space, Satellites, and Satellite Servicing.
 
 
   Starfish Space''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 81
+random_paper: 45
 scopes:
 - name: Starfish Space Scopes
   scope_count: 1
@@ -190,13 +289,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.6
+  delta: -0.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 69.8
+    contract_quality: 65.1
     developer_ergonomics: 27.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 35.2
@@ -211,7 +310,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

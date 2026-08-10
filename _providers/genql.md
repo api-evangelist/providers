@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Fully-typed TypeScript client generated from any GraphQL schema, enabling type-safe query building with IDE auto-completion, batching support, subscriptions, and zero runtime dependencies across brows
@@ -92,7 +92,7 @@ plans:
 - name: Genql Plans Pricing
   plan_count: 3
   slug: genql-plans-pricing
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Genql Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 32.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genql/refs/heads/main/screenshots/genql-2026-06-20T181736.png
 security:

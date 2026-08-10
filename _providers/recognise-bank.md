@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
@@ -122,7 +122,7 @@ overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Recognise Bank''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
-random_paper: 60
+random_paper: 24
 scopes:
 - name: Recognise Bank Scopes
   scope_count: 3
@@ -130,20 +130,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.5
+  composite: 39.2
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.1
+    contract_quality: 55.0
     developer_ergonomics: 13.0
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 37.5
+  previous_composite: 39.2
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 25.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -152,9 +152,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.5
+    score: 88.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

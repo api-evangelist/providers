@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Hosted public REST API (the block-explorer and faucet backend) exposing blocks, transactions, and network data with a list/object JSON envelope and cursor-style pagination. No authentication required '
@@ -124,7 +124,7 @@ overview: 'Iron Fish publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Iron Fish''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 12 more developer resources.'
-random_paper: 7
+random_paper: 99
 score:
   band: thin
   composite: 28.1
@@ -144,7 +144,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/screenshots/iron-fish-2026-07-25T222911.png
 security:

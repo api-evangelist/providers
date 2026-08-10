@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,7 @@ overview: 'COMSOL is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   COMSOL''s developer surface includes documentation, pricing, support, engineering blog, YouTube channel, GitHub presence, and 16 more developer resources.'
-random_paper: 88
+random_paper: 73
 score:
   band: minimal
   composite: 10.8
@@ -145,7 +145,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comsol/refs/heads/main/screenshots/comsol-2026-06-20T174837.png
 security:

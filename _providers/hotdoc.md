@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: HotDoc's OpenID Connect / OAuth 2.0 authorization server (Rails/Doorkeeper) for clinic and partner sign-in. Discovery metadata (OIDC + RFC 8414) and a live RS256 JWKS are served publicly; authorizatio
@@ -127,7 +127,7 @@ overview: 'HotDoc publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   HotDoc''s developer surface includes developer portal, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 76
+random_paper: 61
 scopes:
 - name: Hotdoc Scopes
   scope_count: 1
@@ -154,7 +154,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/screenshots/hotdoc-2026-07-25T221455.png
 security:

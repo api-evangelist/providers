@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Exchange account credentials for a short-lived API token.
@@ -134,7 +134,7 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 15 more developer resources.'
-random_paper: 20
+random_paper: 103
 score:
   band: thin
   composite: 37.3
@@ -163,7 +163,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

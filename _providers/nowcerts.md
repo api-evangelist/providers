@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Nowcerts Plans Pricing
   plan_count: 4
   slug: nowcerts-plans-pricing
-random_paper: 94
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Nowcerts Rate Limits
@@ -150,8 +150,9 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/screenshots/nowcerts-2026-08-07T185637.png
 security:
 - kind: authentication
   name: Nowcerts Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -150,7 +150,7 @@ overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 21 more developer resources.'
-random_paper: 28
+random_paper: 114
 scopes:
 - name: Hammerspace Scopes
   scope_count: 36
@@ -172,8 +172,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/screenshots/hammerspace-2026-08-07T165941.png
 security:
 - kind: authentication
   name: Hammerspace Authentication

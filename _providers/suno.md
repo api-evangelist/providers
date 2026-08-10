@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,6 +95,70 @@ common:
   title: ''
   type: Blog
   url: https://blog.suno.com/
+- group: company
+  title: ''
+  type: AlternateWebsite
+  url: https://www.suno.ai
+- group: company
+  title: ''
+  type: About
+  url: https://suno.com/about
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://suno.com/pricing
+- group: other
+  title: ''
+  type: Studio
+  url: https://suno.com/studio
+- group: operate
+  title: ''
+  type: Help
+  url: https://help.suno.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://suno.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://suno.com/privacy
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/suno-ai
+- group: other
+  title: ''
+  type: Bark
+  url: https://github.com/suno-ai/bark
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/SunoMusic
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/suno-ai
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@SunoMusic
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/sunomusic
+- group: other
+  title: ''
+  type: TikTok
+  url: https://www.tiktok.com/@sunomusic
+- group: company
+  title: ''
+  type: Careers
+  url: https://suno.com/careers
+- group: operate
+  title: ''
+  type: Contact
+  url: https://suno.com/contact
 created: '2026-05-08'
 description: Suno is an AI music generation platform creating full songs (vocals + instrumentation) from natural language prompts. As of May 2026 Suno does NOT publish a sanctioned developer API. Public integrations are served by third-party aggregators (sunoapi.org, AIMLAPI, etc.) that wrap reverse-engineered access; some operate with formal SLAs but carry legal/operational risk and are not endorsed by Suno.
 finops:
@@ -103,29 +167,29 @@ finops:
   slug: suno-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suno.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-08'
 name: Suno
 nav: Providers
 network: true
 overview: 'Suno publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lyrics API and Music API. Tagged areas include AI, Music Generation, Audio, Generative, and TTS.
 
 
-  Suno''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Suno''s developer surface includes authentication, engineering blog, pricing, GitHub presence, YouTube channel, and 22 more developer resources.'
 plans:
 - name: Suno Plans Pricing
   plan_count: 2
   slug: suno-plans-pricing
-random_paper: 1
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Suno Rate Limits
   slug: suno-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 40.5
+  delta: 6.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 60.5
     contract_quality: 62.0
     developer_ergonomics: 13.0
     discoverability: 68.5
@@ -140,9 +204,9 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/screenshots/suno-2026-06-20T194657.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/screenshots/suno-2026-06-20T194658.png
 security:
 - kind: authentication
   name: Suno Authentication

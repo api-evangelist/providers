@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ plans:
 - name: British Columbia Data Catalogue Plans Pricing
   plan_count: 3
   slug: british-columbia-data-catalogue-plans-pricing
-random_paper: 44
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: British Columbia Data Catalogue Rate Limits
@@ -145,7 +145,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/screenshots/british-columbia-data-catalogue-2026-06-20T173712.png
 security:

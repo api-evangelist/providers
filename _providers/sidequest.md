@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Apps API from SideQuest — 1 operation(s) for apps.
@@ -51,7 +51,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sidequest-openapi.json
+  url: openapi/_original/sidequest-openapi.json
 - group: auth
   title: ''
   type: Authentication
@@ -112,10 +112,6 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://sidequestvr.com/developers
-- group: company
-  title: ''
-  type: Website
-  url: sidequestvr.com
 created: '2026-07-17'
 description: SideQuest is a VR content-discovery platform and independent app store for Meta Quest, PCVR, Pico, Magic Leap and WebXR headsets — the home of sideload-only, early-access and indie VR apps and games, plus tools to help users get more from their VR headset. SideQuest operates a public REST API (api.sidequestvr.com) for browsing the app catalog and reading user profiles and achievements, secured with OAuth 2.0 bearer tokens and a device-style short-code login. Backed by GV.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidequest.png
@@ -131,8 +127,8 @@ network: true
 overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Developers API, OAuth2 API, and 2 more. Tagged areas include Company, Consumer, Virtual Reality, VR, and XR.
 
 
-  SideQuest''s developer surface includes authentication, documentation, and 15 more developer resources.'
-random_paper: 79
+  SideQuest''s developer surface includes authentication, documentation, and 14 more developer resources.'
+random_paper: 55
 scopes:
 - name: Sidequest Scopes
   scope_count: 0
@@ -160,7 +156,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

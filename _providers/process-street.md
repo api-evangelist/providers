@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 6
+random_paper: 83
 score:
   band: developing
   composite: 54.7
@@ -263,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

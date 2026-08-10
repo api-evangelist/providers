@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Analysis of Key Market Segments Driving the Artificial
   url: https://www.openpr.com/news/4512210/analysis-of-key-market-segments-driving-the-artificial
-random_paper: 8
+random_paper: 64
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mead-johnson-nutrition/refs/heads/main/screenshots/mead-johnson-nutrition-2026-06-20T185108.png
 security:

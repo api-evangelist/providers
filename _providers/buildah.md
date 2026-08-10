@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 11
 common:
@@ -134,7 +134,7 @@ overview: 'Buildah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Buildah''s developer surface includes documentation, getting-started guide, engineering blog, release notes, and 7 more developer resources.'
-random_paper: 51
+random_paper: 33
 score:
   band: minimal
   composite: 12.1
@@ -148,7 +148,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildah/refs/heads/main/screenshots/buildah-2026-06-20T173745.png
 security:

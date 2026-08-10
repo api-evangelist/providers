@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'Con Edison publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 19 more developer resources.'
-random_paper: 103
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Con Edison Rate Limits
@@ -203,8 +203,9 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png
 security:
 - kind: authentication
   name: Con Edison Authentication

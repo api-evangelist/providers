@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent beh
@@ -96,6 +96,114 @@ common:
   title: ''
   type: LlmsText
   url: https://decagon.ai/llms.txt
+- group: company
+  title: ''
+  type: About
+  url: https://decagon.ai/about
+- group: other
+  title: ''
+  type: ProductOverview
+  url: https://decagon.ai/product/overview
+- group: other
+  title: ''
+  type: Voice
+  url: https://decagon.ai/product/voice
+- group: other
+  title: ''
+  type: Chat
+  url: https://decagon.ai/product/chat
+- group: other
+  title: ''
+  type: Email
+  url: https://decagon.ai/product/email
+- group: other
+  title: ''
+  type: AgentOperatingProcedures
+  url: https://decagon.ai/product/aop
+- group: other
+  title: ''
+  type: Experiments
+  url: https://decagon.ai/product/experiments
+- group: design
+  title: ''
+  type: TestingQA
+  url: https://decagon.ai/product/testing-qa
+- group: other
+  title: ''
+  type: InsightsReporting
+  url: https://decagon.ai/product/insights-and-reporting
+- group: other
+  title: ''
+  type: Watchtower
+  url: https://decagon.ai/product/watchtower
+- group: other
+  title: ''
+  type: Suggestions
+  url: https://decagon.ai/product/suggestions
+- group: start
+  title: ''
+  type: IndustryRetail
+  url: https://decagon.ai/industry/retail
+- group: start
+  title: ''
+  type: IndustryTravelHospitality
+  url: https://decagon.ai/industry/travel-hospitality
+- group: start
+  title: ''
+  type: IndustryTechnology
+  url: https://decagon.ai/industry/technology
+- group: start
+  title: ''
+  type: IndustryFinancialServices
+  url: https://decagon.ai/industry/financial-services
+- group: start
+  title: ''
+  type: IndustryHealthWellness
+  url: https://decagon.ai/industry/health-wellness
+- group: start
+  title: ''
+  type: IndustryMedia
+  url: https://decagon.ai/industry/media
+- group: start
+  title: ''
+  type: IndustryTelecommunications
+  url: https://decagon.ai/industry/telecommunication
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://decagon.ai/case-studies
+- group: other
+  title: ''
+  type: Glossary
+  url: https://decagon.ai/glossary
+- group: auth
+  title: ''
+  type: Security
+  url: https://decagon.ai/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.decagon.ai/
+- group: commercial
+  title: ''
+  type: Privacy
+  url: https://decagon.ai/legal/privacy
+- group: company
+  title: ''
+  type: Careers
+  url: https://decagon.ai/careers
+- group: start
+  title: ''
+  type: Login
+  url: https://decagon.ai/signin
+- group: operate
+  title: ''
+  type: ContactSales
+  url: https://decagon.ai/get-a-demo
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/DecagonAI
 created: '2026-05-23'
 description: Decagon is an enterprise AI customer service platform that builds and operates voice, chat, and email AI agents on top of natural-language Agent Operating Procedures (AOPs). The platform includes the AI Agents Studio for authoring agents, Watchtower for continuous quality assurance, Voice of the Customer analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon is enterprise sales-led; its developer documentation is gated behind an access code and no self-serve public API is published.
 features:
@@ -119,44 +227,44 @@ finops:
   slug: decagon-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/decagon.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Decagon
 nav: Providers
 network: true
 overview: 'Decagon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, AI, Chat, Conversational AI, and Customer Experience.
 
 
-  Decagon''s developer surface includes documentation, engineering blog, support, training material, and 10 more developer resources.'
+  Decagon''s developer surface includes documentation, engineering blog, support, training material, privacy policy, and 36 more developer resources.'
 plans:
 - name: Decagon Plans Pricing
   plan_count: 1
   slug: decagon-plans-pricing
-random_paper: 43
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Decagon Rate Limits
   slug: decagon-rate-limits
 score:
-  band: emerging
-  composite: 23.7
-  delta: 0.0
+  band: thin
+  composite: 29.5
+  delta: 5.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 71.1
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 23.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 27.8
+    score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/screenshots/decagon-2026-06-20T175849.png
 security:
 - kind: domain-security

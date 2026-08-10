@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -218,7 +218,7 @@ plans:
 - name: Together Ai Plans Pricing
   plan_count: 6
   slug: together-ai-plans-pricing
-random_paper: 96
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Together Ai Rate Limits
@@ -252,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:

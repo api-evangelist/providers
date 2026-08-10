@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Surface Management API provides enterprise management capabilities for Surface devices through UEFI configuration, firmware updates, and Intune integration. IT administrators can configure device '
@@ -96,7 +96,7 @@ plans:
 - name: Microsoft Surface Plans Pricing
   plan_count: 3
   slug: microsoft-surface-plans-pricing
-random_paper: 77
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Microsoft Surface Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-surface/refs/heads/main/screenshots/microsoft-surface-2026-06-20T185537.png
 security:

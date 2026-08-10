@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ overview: 'SushiSwap publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 95
+random_paper: 71
 rules:
 - name: SushiSwap API Rules
   rule_count: 5
@@ -235,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:

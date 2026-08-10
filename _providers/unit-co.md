@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 59.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -90,8 +90,60 @@ apis:
 - description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
-artifact_total: 26
+artifact_total: 45
+asyncapis:
+- description: ''
+  name: Unit Co Events Webhooks
+  slug: unit-co-events-webhooks
 collections:
+- collection_type: postman
+  name: Unit Accounts API
+  slug: postman-unit-co-accounts-openapi
+- collection_type: postman
+  name: Unit Applications API
+  slug: postman-unit-co-applications-openapi
+- collection_type: postman
+  name: Unit Card Authorizations API
+  slug: postman-unit-co-authorizations-openapi
+- collection_type: postman
+  name: Unit Cards API
+  slug: postman-unit-co-cards-openapi
+- collection_type: postman
+  name: Unit Checks API
+  slug: postman-unit-co-checks-openapi
+- collection_type: postman
+  name: Unit Credit and Repayments API
+  slug: postman-unit-co-credit-openapi
+- collection_type: postman
+  name: Unit Customers API
+  slug: postman-unit-co-customers-openapi
+- collection_type: postman
+  name: Unit Disputes API
+  slug: postman-unit-co-disputes-openapi
+- collection_type: postman
+  name: Unit Fees and Rewards API
+  slug: postman-unit-co-fees-rewards-openapi
+- collection_type: postman
+  name: Unit Payments API
+  slug: postman-unit-co-payments-openapi
+- collection_type: postman
+  name: Unit Sandbox and Reference API
+  slug: postman-unit-co-sandbox-openapi
+- collection_type: postman
+  name: Unit Statements API
+  slug: postman-unit-co-statements-openapi
+- collection_type: postman
+  name: Unit Stop Payments API
+  slug: postman-unit-co-stop-payments-openapi
+- collection_type: postman
+  name: Unit Tax Forms API
+  slug: postman-unit-co-tax-forms-openapi
+- collection_type: postman
+  name: Unit Transactions API
+  slug: postman-unit-co-transactions-openapi
+- collection_type: postman
+  name: Unit Webhooks and Events API
+  slug: postman-unit-co-webhooks-openapi
 - collection_type: open
   name: Unit API
   slug: open-unit-co
@@ -148,6 +200,122 @@ common:
   title: ''
   type: Blog
   url: https://www.unit.co/blog/
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unit/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.unit.co/docs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unit.co/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unit.co/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.unit.co/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.unit.co/security
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.unit.co/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.unit.co/docs/api/getting-started/tooling
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.unit.co/
+- group: build
+  title: ''
+  type: Postman
+  url: https://unit.co/docs/UnitAPI.postman_collection.json
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.unit.co/security
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.unit.co/docs/api/using-the-api#deprecations
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/unit-co-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/unit-co-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/unit-co-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unit-co-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/unit-co-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/unit-co-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unit-co-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unit-co-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/unit-co-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/unit-co-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/unit-co-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/unit-co-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unit-co-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unit-co-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/unit-co-openapi-source-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/unit-co-events-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-02'
 description: Unit is a Banking-as-a-Service (BaaS) platform that lets companies embed deposit accounts, cards, payments, and lending into their own products without becoming a bank. A single REST API, built on the JSON:API specification (media type application/vnd.api+json) and secured with Bearer/JWT tokens, covers onboarding (Applications), Customers, Deposit and Credit Accounts, Debit and Credit Cards, real-time card Authorizations, Payments (Book, ACH, Wire, Recurring, Cash Deposits), Counterparties, Checks, Transactions, Statements, Tax Forms, Fees, Rewards, Credit and Repayments, and Events delivered as signed HTTP webhooks. Unit publishes an official OpenAPI 3.0.2 specification (github.com/unit-finance/openapi-unit-sdk) plus generated Node.js, Python, Ruby, and Java SDKs. Sandbox runs at api.s.unit.sh; production access is provisioned per signed BaaS agreement with Unit's partner banks.
 finops:
@@ -156,34 +324,46 @@ finops:
   slug: unit-co-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unit-co.png
 layout: provider
-modified: '2026-07-02'
+mcp_servers:
+- description: ''
+  name: unit-co-mcp.yml
+  slug: unit-co-mcpyml
+modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
 overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
 
 
-  Unit''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 35 more developer resources.'
 plans:
 - name: Unit Co Plans Pricing
   plan_count: 2
   slug: unit-co-plans-pricing
-random_paper: 25
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Unit Co Rate Limits
   slug: unit-co-rate-limits
+scopes:
+- name: Unit Co Scopes
+  scope_count: 46
+  slug: unit-co-scopes
+  summary_line: 46 scopes
 score:
-  band: thin
-  composite: 36.1
-  delta: 0.0
+  band: exemplar
+  composite: 70.0
+  delta: 33.9
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 55.8
-    developer_ergonomics: 21.7
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 78.9
+    contract_quality: 65.1
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 94.7
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -197,10 +377,11 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 29.1
+    score: 67.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:
 - kind: authentication
   name: Unit Co Authentication

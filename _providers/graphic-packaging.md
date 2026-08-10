@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
-random_paper: 17
+random_paper: 88
 score:
   band: minimal
   composite: 5.4
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/screenshots/graphic-packaging-2026-06-20T182327.png
 security:

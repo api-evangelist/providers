@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ overview: 'LinkedIn Marketing API publishes 5 APIs on the [APIs.io](https://apis
 
 
   LinkedIn Marketing API''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 73
+random_paper: 43
 scopes:
 - name: Linkedin Ads Scopes
   scope_count: 4
@@ -144,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png
 security:

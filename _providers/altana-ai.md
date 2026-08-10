@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Altana AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Altana AI''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 81
+random_paper: 60
 score:
   band: emerging
   composite: 20.0
@@ -111,7 +111,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altana-ai/refs/heads/main/screenshots/altana-ai-2026-07-25T195831.png
 security:

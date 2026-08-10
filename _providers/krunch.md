@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Krunch
 nav: Providers
 network: true
 overview: Krunch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Services, Product Management, and Engineering.
-random_paper: 86
+random_paper: 71
 score:
   band: minimal
   composite: 6.9
@@ -74,8 +74,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/krunch/refs/heads/main/screenshots/krunch-2026-08-07T171340.png
 security:
 - kind: domain-security
   name: Krunch Domain Security

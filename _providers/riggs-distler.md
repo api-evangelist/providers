@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 6
 common:
@@ -67,7 +67,7 @@ name: Riggs Distler
 nav: Providers
 network: true
 overview: Riggs Distler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Electrical, Utilities, and Energy Infrastructure.
-random_paper: 101
+random_paper: 68
 score:
   band: minimal
   composite: 6.8
@@ -87,7 +87,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riggs-distler/refs/heads/main/screenshots/riggs-distler-2026-06-20T193117.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -123,8 +123,66 @@ apis:
 - description: Operations related to webhook api
   name: Livepeer webhook API
   slug: livepeer-webhook-api
-artifact_total: 35
+arazzos:
+- description: Create a clip from a live playback ID, poll the clip task, fetch the asset.
+  name: Livepeer Clip a Livestream
+  slug: livepeer-clip-livestream-workflow
+- description: Create a stream, enable recording via update, and confirm the change.
+  name: Livepeer Enable Recording on a Stream
+  slug: livepeer-enable-stream-recording-workflow
+- description: Upload an asset from an external URL, then poll the processing task.
+  name: Livepeer Import an Asset from a URL
+  slug: livepeer-import-asset-from-url-workflow
+- description: Read a stream session and resolve its recording playback info.
+  name: Livepeer Inspect a Session Recording
+  slug: livepeer-inspect-session-recording-workflow
+- description: Create a live stream, confirm it exists, and resolve its playback info.
+  name: Livepeer Provision a Live Stream
+  slug: livepeer-provision-live-stream-workflow
+- description: Create a stream and attach an inline multistream target to restream it.
+  name: Livepeer Provision Multistream Restreaming
+  slug: livepeer-provision-multistream-restream-workflow
+- description: Create a stream then register a webhook scoped to its lifecycle events.
+  name: Livepeer Register a Stream Webhook
+  slug: livepeer-register-stream-webhook-workflow
+- description: Create a signing key, create a JWT-gated stream, and resolve playback.
+  name: Livepeer Secure a Stream with a Signing Key
+  slug: livepeer-secure-stream-signing-key-workflow
+- description: Create a reusable multistream target, then bind it to a new stream by ID.
+  name: Livepeer Reuse a Standalone Multistream Target
+  slug: livepeer-standalone-multistream-target-workflow
+- description: Submit a transcode job to S3/web3.storage and poll the task until done.
+  name: Livepeer Run a Transcode Job
+  slug: livepeer-transcode-video-job-workflow
+- description: Request a direct upload URL, then poll the asset and task until ready.
+  name: Livepeer Upload and Process an Asset
+  slug: livepeer-upload-and-process-asset-workflow
+artifact_total: 106
 collections:
+- collection_type: postman
+  name: Livepeer AI Runner
+  slug: postman-livepeer-ai-worker
+- collection_type: postman
+  name: Livepeer CLI Local HTTP API
+  slug: postman-livepeer-cli-http
+- collection_type: postman
+  name: Livepeer AI Runner
+  slug: postman-livepeer-gateway
+- collection_type: postman
+  name: Livepeer API Reference
+  slug: postman-livepeer-studio
+- collection_type: open
+  name: Livepeer AI Runner
+  slug: open-livepeer-ai-worker
+- collection_type: open
+  name: Livepeer CLI Local HTTP API
+  slug: open-livepeer-cli-http
+- collection_type: open
+  name: Livepeer AI Runner
+  slug: open-livepeer-gateway
+- collection_type: open
+  name: Livepeer API Reference
+  slug: open-livepeer-studio
 - collection_type: open
   name: Livepeer API Reference
   slug: open-livepeer
@@ -185,42 +243,282 @@ common:
   title: ''
   type: Blog
   url: https://livepeer.org/blog
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/livepeer/overview
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/livepeer-clip-livestream-workflow.yml
+- group: start
+  title: ''
+  type: StudioPortal
+  url: https://livepeer.studio
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.livepeer.org/api-reference
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://livepeer.studio/pricing
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.livepeer.org/changelog
+- group: other
+  title: ''
+  type: Explorer
+  url: https://explorer.livepeer.org
+- group: operate
+  title: ''
+  type: Forums
+  url: https://forum.livepeer.org
+- group: operate
+  title: ''
+  type: RoadMap
+  url: https://roadmap.livepeer.org/roadmap
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.livepeer.studio
+- group: start
+  title: ''
+  type: Signup
+  url: https://livepeer.studio/register
+- group: start
+  title: ''
+  type: Login
+  url: https://livepeer.studio/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.livepeer.org/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.livepeer.org/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/livepeer
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/livepeer/go-livepeer
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.livepeer.org/sdks
+- group: build
+  title: ''
+  type: TypeScriptSDK
+  url: https://github.com/livepeer/livepeer-js
+- group: build
+  title: ''
+  type: PythonSDK
+  url: https://github.com/livepeer/livepeer-python
+- group: build
+  title: ''
+  type: GoSDK
+  url: https://github.com/livepeer/livepeer-go
+- group: other
+  title: ''
+  type: UIKit
+  url: https://github.com/livepeer/ui-kit
+- group: docs
+  title: ''
+  type: ReferenceImplementation
+  url: https://github.com/livepeer/go-livepeer
+- group: other
+  title: ''
+  type: AIWorker
+  url: https://github.com/livepeer/ai-worker
+- group: build
+  title: ''
+  type: Plugin
+  url: https://github.com/livepeer/naap
+- group: other
+  title: ''
+  type: SmartContracts
+  url: https://github.com/livepeer/protocol
+- group: other
+  title: ''
+  type: NetworkExplorer
+  url: https://explorer.livepeer.org
+- group: auth
+  title: ''
+  type: TokenContractEthereum
+  url: https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239
+- group: auth
+  title: ''
+  type: TokenContractArbitrum
+  url: https://arbiscan.io/token/0x289ba1701c2f088cf0faf8b3705246331cb8a839
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/livepeer
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/Livepeer
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@LivepeerNetwork
+- group: design
+  title: ''
+  type: SpectralRuleset
+  url: rules/livepeer-studio-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/livepeer-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/livepeer-context.jsonld
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/livepeer-platform-structure.json
 created: '2026-05-23'
 description: Livepeer is a decentralized video infrastructure network. Independent orchestrators run GPU hardware to provide live and on-demand video transcoding services, paid for in ETH/LPT on the Livepeer protocol. Livepeer Studio is the managed gateway and developer platform sitting on top of the network, exposing a REST API at livepeer.studio/api for live streams, on- demand assets, multistream targets, transcoding jobs, sessions, playback, signing keys, AI generation (text-to-image, image-to-image, image-to-video, upscale, audio-to-text), and webhooks. Official SDKs are published for JavaScript/TypeScript, Python, Go, and Ruby, with React Player and React Broadcast components for client-side playback and ingest.
+examples:
+- key_count: 2
+  name: Livepeer Ai Text To Image Example
+  slug: livepeer-ai-text-to-image-example
+- key_count: 2
+  name: Livepeer Create Stream Example
+  slug: livepeer-create-stream-example
+- key_count: 2
+  name: Livepeer Create Webhook Example
+  slug: livepeer-create-webhook-example
+- key_count: 2
+  name: Livepeer Image To Video Example
+  slug: livepeer-image-to-video-example
+features:
+- Decentralized GPU network for transcoding + AI inference
+- LPT token live on Ethereum mainnet and Arbitrum One
+- Probabilistic micropayment (PM) tickets for sub-cent settlement
+- Livepeer Studio managed REST API with Bearer auth
+- Live streaming via RTMP, SRT, and WHIP ingest
+- Adaptive bitrate HLS + WebRTC playback
+- Recording, clipping, and on-demand asset hosting
+- Multistream simulcast to YouTube, Twitch, Facebook, etc.
+- WebRTC rooms with optional RTMP egress
+- Token-gated playback via signing keys, JWT, and webhook policies
+- Webhooks for stream/asset/recording/task lifecycle
+- AI pipelines (text-to-image, image-to-video, live video-to-video, LLM, etc.)
+- Two AI gateways (community + Studio beta) interchangeable per request
+- Official TypeScript, Python (Studio + AI + Gateway), and Go SDKs
+- React UI Kit (Player, Broadcast) for client embedding
+- go-livepeer reference node for operators
+- NAAP plugin platform for the AI Compute Network
+- Open governance via Livepeer Improvement Proposals (LIPs)
 finops:
 - name: Livepeer Finops
   service_category: API
   slug: livepeer-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/livepeer.png
+integrations:
+- YouTube, Twitch, Facebook Live (multistream targets)
+- IPFS / Filecoin (asset storage)
+- Ethereum Mainnet (LPT, governance)
+- Arbitrum One (PM tickets, AI fee settlement)
+- The Graph (subgraph for Livepeer protocol)
+- OBS, Streamlabs, Larix, Restream (ingest tooling)
+- OpenAI-compatible LLM clients (via /llm endpoint)
+- Daydream, Embody, Frameworks, Stream.place, Storyboard (ecosystem apps)
+json_schemas:
+- name: Livepeer AI — Image-to-Video
+  property_count: 10
+  slug: livepeer-ai-image-to-video
+- name: Livepeer AI — Text-to-Image
+  property_count: 11
+  slug: livepeer-ai-text-to-image
+- name: Livepeer Asset
+  property_count: 18
+  slug: livepeer-asset
+- name: Livepeer Stream
+  property_count: 32
+  slug: livepeer-stream
+- name: Livepeer Task
+  property_count: 12
+  slug: livepeer-task
+- name: Livepeer Webhook
+  property_count: 10
+  slug: livepeer-webhook
+json_structures:
+- name: Livepeer Platform Structure
+  property_count: 0
+  slug: livepeer-platform-structure
+- name: Livepeer Stream Structure
+  property_count: 0
+  slug: livepeer-stream-structure
+jsonld:
+- class_count: 72
+  name: Livepeer Context
+  property_count: 0
+  slug: livepeer-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Livepeer
 nav: Providers
 network: true
 overview: 'Livepeer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, asset API, generate API, and 9 more. Tagged areas include Video, Streaming, Transcoding, Decentralized, and Web3.
 
 
-  Livepeer''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, and 9 more developer resources.'
+  The Livepeer catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
+
+
+  Livepeer''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, API reference, pricing, and 42 more developer resources.'
 plans:
 - name: Livepeer Plans Pricing
   plan_count: 1
   slug: livepeer-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Livepeer Rate Limits
   slug: livepeer-rate-limits
+rules:
+- name: Livepeer API Rules
+  rule_count: 8
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 4
+  slug: livepeer-ai-rules
+- name: Livepeer API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: livepeer-jsonschema-spectral-rules
+- name: Livepeer API Rules
+  rule_count: 11
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 3
+    warn: 6
+  slug: livepeer-studio-rules
 score:
-  band: thin
-  composite: 35.0
-  delta: 0.0
+  band: strong
+  composite: 58.3
+  delta: 23.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 56.1
-    developer_ergonomics: 21.7
+    commercial_clarity: 73.7
+    contract_quality: 62.3
+    developer_ergonomics: 39.1
     discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 26.3
+    governance: 37.5
+    operational_transparency: 63.2
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -230,9 +528,9 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184613.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:
 - kind: authentication
   name: Livepeer Authentication
@@ -251,5 +549,16 @@ tags:
 - Web3
 - Live Video
 - AI Video
+use_cases:
+- User-generated live streaming platforms (creator economy)
+- On-demand video platforms with low transcoding cost
+- Web3 / NFT video drops with on-chain provenance
+- Multistream restreaming to incumbent social platforms
+- Real-time video AI transformation (Daydream / live video-to-video)
+- AI avatars and embodied agents (Embody)
+- Open streaming infrastructure (Stream.place, Frameworks)
+- Generative video for marketing, advertising, and entertainment
+- Realtime sports / security / manufacturing video intelligence
+- LLM inference on decentralized GPU capacity
 website: https://livepeer.org/
 ---

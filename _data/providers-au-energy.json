@@ -15,6 +15,7 @@
      "name": "Origin Energy",
      "slug": "origin-energy",
      "description": "Origin Energy Limited is Australia's largest energy retailer, an ASX-listed integrated gas and electricity company headquartered in Sydney that supplies roughly 4.5 million electricity, natural gas, LPG and broadband customer accounts, operates the Eraring Power Station and a large gas-fired and renewable generation portfolio, holds a stake in the Australia Pacific LNG project, and runs the Origin Loop virtual power plant. It sits at the retail end of the National Electricity Market value chain, buying and generating wholesale energy and selling it to households and businesses. Its API posture is defined almost entirely by regulation rather than by a developer strategy: Origin is a designated energy data holder under Australia's Consumer Data Right and that obligation is genuinely implemented — it appears on the CDR Register with its own public base URI, serves the Consumer Data Standards discovery endpoints anonymously, and presents an mTLS resource endpoint whose TLS certificate is issued by the ACCC's own CDR Certificate Authority — but every byte of actual customer usage, billing and DER data behind that surface is reachable only by an accredited data recipient acting on a consumer's consent. Alongside the mandate, Origin runs its retail business on Octopus Energy's Kraken platform (Origin holds an equity stake in Octopus and Kraken Technologies), which exposes a publicly readable partner developer portal with downloadable OpenAPI definitions, a GraphQL API, an external events catalogue and an OpenID Connect authorisation server — none of it self-serve. Origin publishes no open grid, market or system data of its own; the only anonymously retrievable data is its retail plan reference data, and that is served from the Australian Energy Regulator's Energy Made Easy CDR gateway, not from an Origin host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png",
      "score": 60.9,
      "band": "strong",
      "band_label": "Strong",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -60,6 +61,7 @@
      "name": "Consumer Data Right (Energy)",
      "slug": "cdr-energy",
      "description": "The Consumer Data Right (CDR) is Australia's statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead regulator and operator of the CDR Register, the OAIC as privacy regulator, and the Treasury Data Standards Body, which writes the binding Consumer Data Standards. In energy the regime obliges electricity retailers to expose plans, accounts, billing, invoices, payment schedules, concessions, service points, interval usage and DER data through one identical, versioned API contract, with AEMO acting as the Secondary Data Holder gateway for NMI standing data, metering data and the DER register. Unlike almost every other energy-sector data mandate, this one is verifiably implemented rather than merely announced: the public CDR Register listed 84 energy data holder brands with live public base URIs when probed on 2026-07-27, and 53 of those base URIs returned standards-conformant product data anonymously on the first request. Its API posture is a clean two-speed split — genuinely open, unauthenticated market data (retail plan and tariff reference data, plus the participant register itself) sitting alongside consumer data that is closed behind ACCC accreditation, mutual TLS, FAPI-grade OAuth 2.0 / OpenID Connect and explicit, revocable consumer consent. Home market Australia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png",
      "score": 58.3,
      "band": "strong",
      "band_label": "Strong",
@@ -71,7 +73,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -105,6 +107,7 @@
      "name": "AEMO",
      "slug": "aemo",
      "description": "AEMO, the Australian Energy Market Operator, is the independent system and market operator for Australia's electricity and gas systems — it dispatches and prices the National Electricity Market across Queensland, New South Wales, Victoria, South Australia and Tasmania every five minutes, runs the Wholesale Electricity Market and the Gas Bulletin Board in Western Australia, operates the Victorian gas declared wholesale market and the Gas Supply Hubs, maintains the MSATS metering registry and the national Distributed Energy Resources register, and publishes the Integrated System Plan. It sits at the centre of the value chain: it does not generate, network or retail energy, it clears the market and holds the settlement-grade metering data that every other participant depends on. Under the Consumer Data Right extended to energy, AEMO is the designated SECONDARY data holder and gateway — retailers are the primary data holders, and AEMO serves NMI standing data, distributed energy resource records and up to twenty-four months of interval meter data through mandated Consumer Data Standards endpoints. Its API posture splits cleanly in two, and the split is the whole story: the market-data half is genuinely, radically open — 103 live NEMWeb report directories plus 68 archive directories of dispatch, price, demand, bidding, constraint and settlement data downloadable by anyone with no key, no account and no licence, alongside anonymous JSON endpoints behind the public NEM dashboard; the participant and consumer half is completely closed — a public developer portal at dev.aemo.com.au catalogues 74 APIs and 771 operations that anyone may read, but every one of them requires registration as an AEMO market participant, a Participant ID, MSATS user rights and an AEMO-signed mutual-TLS client certificate, and the OpenAPI documents the portal exports publicly are empty shells that declare zero paths and point at internal hostnames.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png",
      "score": 57.8,
      "band": "strong",
      "band_label": "Strong",
@@ -116,7 +119,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -172,7 +175,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -206,6 +209,7 @@
      "name": "Amber Electric",
      "slug": "amber-electric",
      "description": "Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO's wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current, and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png",
      "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
@@ -217,7 +221,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -262,7 +266,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -296,6 +300,7 @@
      "name": "Endeavour Energy",
      "slug": "endeavour-energy",
      "description": "Endeavour Energy is the regulated electricity distribution network service provider (DNSP) for Greater Western Sydney, the Blue Mountains, the Illawarra, the Southern Highlands, the South Coast and Central West of New South Wales, Australia, delivering power to around 2.8 million people over the poles-and-wires network it owns and operates. It sits between transmission and retail in the value chain - it moves electricity and hosts the meters, but it does not sell energy to consumers, so it holds no retail billing relationship. Its API posture is a sharp split. On the market and network side it is genuinely open: a live Opendatasoft portal at data.endeavourenergy.com.au serves eight network datasets (poles, conductors, distribution districts, other network assets, distribution substation available capacity, and live planned/unplanned/single-premise outages) through a documented, anonymous, no-key REST Explore API with a downloadable OpenAPI 3.0.3 contract, most of it under the Open Database Licence. On the consumer side it is closed and, more importantly, unobligated: Australia's Consumer Data Right was extended to energy, but the designation put the data-holder obligation on electricity retailers as primary holders and AEMO as the secondary holder and gateway, not on distributors. Endeavour Energy appears nowhere in the 84 brands of the CDR energy data holder register, publishes no CDR base URI, and makes no reference to the Consumer Data Right anywhere on its corporate site. It does operate a CSIP-AUS (Common Smart Inverter Profile - Australia) utility server for NSW flexible exports and the emergency backstop mechanism, but that machine interface is device-facing and entirely undocumented publicly. The open data portal itself is not linked from the corporate website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png",
      "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
@@ -307,7 +312,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -341,6 +346,7 @@
      "name": "Chargefox",
      "slug": "chargefox",
      "description": "Chargefox is Australia's largest public electric-vehicle charging network and, since 2023, a charging software platform rather than a hardware owner. Founded in 2017 and headquartered in Melbourne, it was acquired outright in 2022 by Australian Motoring Services, the joint vehicle of six state motoring clubs — NRMA, RACV, RACQ, RAA, RAC and RACT — which makes it one of the very few member-owned pieces of national energy infrastructure in the country. Its own company page claims 2,200+ public charging plugs, 5,000+ charging sessions a day and 170,000+ app downloads. In the Australian energy value chain it sits downstream of the retailer and the meter: it does not generate, transmit or sell electricity as a licensed retailer, it operates the charge points other businesses, councils and governments own, authorises drivers, meters the session, prices it and settles it. That position is exactly why the Consumer Data Right does not touch it. Chargefox does NOT appear among the 84 energy data-holder brands on the ACCC CDR Register checked on 2026-07-27 — even though Arcline by RACV, an energy retailer owned by one of Chargefox's own shareholder clubs, does — so the statutory mandate that produced Australia's identical fifty-bank banking contract stops at the retail electricity licence and never reaches the charge point. What Chargefox has instead is an entirely voluntary, entirely commercial API posture built on a genuine industry standard. It publishes a real, anonymously readable developer documentation site at https://app.chargefox.com/developers/docs carrying a Redoc-rendered OpenAPI 3.0.1 contract for a four-endpoint Fleets API, and its own rate-limit documentation enumerates a full Open Charge Point Interface CPO implementation across OCPI 2.1.1, 2.2 and 2.2.1 covering locations, sessions, CDRs, tariffs, tokens and commands. Every one of those endpoints is closed. Anonymous probes returned 401 with `WWW-Authenticate: Token realm=\"Application\"` on the OCPI paths and 401 on the Fleets paths, and no anonymous locations, tariff or network-status feed of any kind could be found, so Chargefox publishes zero open market data and zero consumer data — a documented standard, fully implemented, entirely behind a commercial gate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png",
      "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
@@ -352,7 +358,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -397,7 +403,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -442,7 +448,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -487,7 +493,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -521,6 +527,7 @@
      "name": "EnergyAustralia",
      "slug": "energyaustralia",
      "description": "EnergyAustralia is one of Australia's \"big three\" gentailers — a vertically integrated electricity and gas business owned by Hong Kong's CLP Group and headquartered in Melbourne, generating from Yallourn, Mount Piper and Hallett alongside wind assets and retailing to more than 1.7 million residential and business customers across Victoria, New South Wales, Queensland, South Australia and the ACT. It sits on both sides of the National Electricity Market value chain: a scheduled generator into the NEM, and a retailer of record holding the customer relationship, the billing account and the meter data. Its API posture is entirely a function of the Consumer Data Right rather than of any product strategy. EnergyAustralia is a designated and live CDR energy data holder — brand id 1cc7833a-b834-ed11-a832-000d3a8830d6 in the ACCC CDR Register, public base URI https://authncdr.energyaustralia.com.au — but the only anonymously reachable contract carrying its name is the Product Reference Data surface, and that is hosted by the Australian Energy Regulator's Energy Made Easy CDR gateway, not by EnergyAustralia. The company publishes no developer portal, no OpenAPI of its own, no open market or generation data, and no self-serve signup; its own gateway at api.energyaustralia.com.au (MuleSoft Anypoint) answers 403 to the public. Consumer usage, billing and DER data is real, standardised and live, but reachable only by an ACCC-accredited data recipient under consent. Open on plans, closed on everything else.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png",
      "score": 46.2,
      "band": "developing",
      "band_label": "Developing",
@@ -532,7 +539,7 @@
       "developer_ergonomics": 32.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -577,7 +584,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -611,6 +618,7 @@
      "name": "Energy Queensland",
      "slug": "energy-queensland",
      "description": "Energy Queensland Limited is the Queensland Government-owned corporation formed on 30 June 2016 by merging Ergon Energy and Energex. It is the whole Queensland electricity value chain below transmission in a single holding company: Energex distributes to roughly 1.5 million connections across South East Queensland, Ergon Energy Network distributes across regional Queensland, Ergon Energy Retail is the notified-price retailer for about 760,000 regional customers, Yurika sells energy services and telecommunications, and SPARQ Solutions provides group ICT. That dual role is what makes its API posture worth recording precisely, because the two halves of the business sit on opposite sides of a statutory line. The RETAIL half is a designated Consumer Data Right energy data holder and its implementation is verified live, not claimed: \"Ergon Energy Retail\" (ABN 11121177802) is listed on the ACCC CDR Register with publicBaseUri https://public.cdr.ergonretail.com.au and productBaseUri https://cdr.energymadeeasy.gov.au/ergon, both of which answered HTTP 200 to anonymous, standards-conformant calls on 2026-07-27, returning 36 REGULATED electricity plans and a CDS discovery status of OK. The DISTRIBUTION half - the poles and wires - is not a CDR data holder at all, publishes no developer portal, no open-data API and no machine-readable contract, and has no developer., developers., api., docs. or data. subdomain in DNS on energyq.com.au, ergon.com.au or energex.com.au. Its network data reaches the public as PDF and XLSX planning reports, registration-free but non-programmatic map viewers, and exactly one open-licensed spatial dataset deposited on the Queensland Government's CKAN portal. The split is the finding: a mandate transplanted from banking produced a real, anonymous, standardised API on the regulated retail side and changed nothing whatsoever on the network side it never touched.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png",
      "score": 43.1,
      "band": "developing",
      "band_label": "Developing",
@@ -622,7 +630,7 @@
       "developer_ergonomics": 27.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -667,7 +675,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -723,7 +731,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -768,7 +776,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -813,7 +821,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -847,6 +855,7 @@
      "name": "Essential Energy",
      "slug": "essential-energy",
      "description": "Essential Energy is a New South Wales Government-owned statutory corporation and the distribution network service provider (DNSP) for 95 per cent of the geographic area of NSW plus parts of southern Queensland — the poles, wires, substations and streetlights, not the retail energy contract. Headquartered in Port Macquarie and formed in 2011 out of the restructure of Country Energy, it sits in the regulated network layer of the Australian electricity value chain alongside Ausgrid and Endeavour Energy, under Australian Energy Regulator economic regulation. Its API posture splits cleanly and the split is the finding: Essential Energy publishes NO consumer data API and NO developer portal, and it is NOT a designated data holder under the Consumer Data Right energy regime — the CDR energy obligation lands on electricity retailers and AEMO, not on distributors, and Essential Energy does not appear anywhere in the public CDR energy data-holder brand register. What it does publish, anonymously and without a key, is a genuinely open grid-data surface: an ArcGIS Online organisation exposing 100 public ArcGIS REST FeatureServers covering network assets (poles, spans, cables, transformers, substations, streetlights, service points), DER hosting capacity for generation and load, zone substation and distribution feeder forecasts from the Distribution Annual Planning Report, and EV charging suitability analysis. Open market and network data, closed consumer data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/screenshots/essential-energy-2026-08-07T165022.png",
      "score": 28.5,
      "band": "thin",
      "band_label": "Thin",
@@ -858,7 +867,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -902,6 +911,7 @@
      "name": "Jemena",
      "slug": "jemena",
      "description": "Jemena is an Australian energy infrastructure owner-operator, headquartered in Melbourne and owned by SGSP (Australia) Assets — 60% State Grid Corporation of China, 40% Singapore Power. It sits on the poles-and-pipes side of the value chain, not the retail side: it runs the Jemena Electricity Network distributing power to north and north-west Melbourne, the Jemena Gas Network distributing gas across New South Wales, the Eastern, Queensland and Northern Gas Pipelines, the Colongra storage facility, and holds 50% of ActewAGL's ACT distribution networks. Its API posture is the inverse of what the Australian Consumer Data Right story would predict. Jemena is NOT a designated CDR energy data holder — the CDR energy designation covers retailers as primary data holders and AEMO as secondary data holder, and the live CDR Register energy brand list contains 84 brands, all of them retailers and none of them a distribution network. There is consequently no Jemena consumer usage or billing API, and the Electricity Outlook customer smart-meter portal no longer resolves in DNS. Jemena also publishes no open market or network data API; its outage map is CloudFront geo-restricted and its Daily Gas Data product is a paid annual email subscription. What Jemena does run is a real, live, standards-conformant machine-to-machine API for grid control: the JEN CSIP-AUS Utility Server, an IEEE 2030.5 / SEP2 implementation of the CSIP-AUS (SA TS 5573) profile, stood up to satisfy the Victorian Government's emergency backstop mandate for remotely curtailable rooftop solar. It is fully documented in public PDF handbooks, has published staging and production base URIs, and is gated behind Jemena-issued mTLS PKI certificates, IP whitelisting and an OEM conformance-testing programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jemena/refs/heads/main/screenshots/jemena-2026-08-07T170956.png",
      "score": 26.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -913,7 +923,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -947,6 +957,7 @@
      "name": "Ausgrid",
      "slug": "ausgrid",
      "description": "Ausgrid is the largest electricity distribution network service provider on Australia's east coast, operating the poles, wires, substations and underground cables that deliver power to more than 1.8 million customers across Sydney, the Central Coast and the Hunter Valley in New South Wales. It sits in the regulated middle of the value chain — between the National Electricity Market and the retailers who bill the customer — and it earns a regulated revenue rather than selling energy. Its API posture is honestly split and worth stating plainly. On the open side, Ausgrid publishes genuinely open network data: twenty years (2005–2025) of 15-minute interval demand readings for more than 180 zone substations as freely downloadable zipped CSV, plus average electricity use and past outage datasets catalogued on the NSW Government CKAN portal under CC-BY, none of which require a login, key or agreement. On the consumer side it is closed: a customer's own interval meter data is obtained through a web form that verifies NMI, account name and postcode and is answered in 10 to 20 business days, with a signed consent form required for any third party — there is no consumer API. Australia's Consumer Data Right was extended to energy and is live, but the designation lands on electricity retailers as primary data holders with AEMO as the gateway; Ausgrid is a distributor and does not appear among the 84 energy brands in the public CDR Register, so the mandate proven in banking routes around the business that physically holds the meter. Ausgrid publishes no developer portal, no OpenAPI, and no documented API of any kind; the only machine-readable surfaces found are the undocumented internal JSON routes behind its own outage map.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ausgrid/refs/heads/main/screenshots/ausgrid-2026-08-07T161937.png",
      "score": 25.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -958,7 +969,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1003,7 +1014,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1037,6 +1048,7 @@
      "name": "JOLT",
      "slug": "jolt-charge",
      "description": "JOLT is a Sydney-headquartered electric vehicle charging network operator that builds and runs free-to-start kerbside DC fast chargers across Australia, and has since extended the same model into New Zealand, Canada, the United Kingdom and the United States. Its charge points deliver the first 7kWh of each day's charging at no cost — around 45km of range in roughly 15 minutes over CCS2 or CHAdeMO — funded not by the driver but by the digital out-of-home advertising screens mounted on the charger itself, which makes JOLT simultaneously a charge point operator and a media network selling audience reach to advertisers. It sits in the energy value chain as a downstream infrastructure and demand-side player: it buys electricity (claiming 100% GreenPower green-certified wind and solar), owns and operates the charging assets on public and retail land in partnership with governments and hosts such as Transport for NSW, Ausgrid and major grocery retailers, and monetises the dwell time rather than the kilowatt-hour. Its API posture is honestly closed. JOLT publishes no developer programme, no API documentation, no OpenAPI or other machine-readable contract, and no open data feed; the only public HTTP surfaces on its domains are a marketing WordPress install (whose custom jolt/v1 REST namespace exposes a single VAT form endpoint) and an api.joltcharge.com host that serves a static redirect to the mobile app rather than any API. It is not a designated data holder under the Australian Consumer Data Right for energy — it does not appear in the CDR Register's energy data holder brands — so the CDR energy mandate that compels Australian electricity retailers to expose standardised usage and tariff data does not reach it, and no OCPP, OCPI, ISO 15118 or Green Button/ESPI conformance is published. All customer charging data, session history and audience analytics are reachable only through the JOLT consumer app or a sales conversation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jolt-charge/refs/heads/main/screenshots/jolt-charge-2026-08-07T171029.png",
      "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1048,7 +1060,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1082,6 +1094,7 @@
      "name": "Evie Networks",
      "slug": "evie-networks",
      "description": "Evie Networks is an Australian electric-vehicle charging infrastructure company, founded in 2017 and backed by the St Baker Energy Innovation Fund, that owns and operates one of the country's largest DC fast and ultrafast public charging networks across 300+ locations in every state and territory. It sits downstream of the electricity retail market as a charge point operator (CPO) and e-mobility service provider, buying energy and reselling it as charging sessions to drivers and fleets, and it also builds and operates charging assets for site hosts, councils, dealerships and commercial property owners. Its API posture is closed: as of 2026-07-27 there is no developer portal, no published API documentation, no OpenAPI or other machine-readable contract, and no named support for the EV charging interoperability standards (OCPP, OCPI, ISO 15118). Evie is not a designated data holder under Australia's Consumer Data Right energy regime — the CDR Register's public energy data-holder brand summary lists 84 brands and Evie is not among them — so the statutory data mandate that produced identical APIs across Australian banks and energy retailers does not reach the EV charging layer at all. A live production API host exists at api.goevie.com.au serving the Evie Charging mobile app, but it is undocumented, unadvertised and returns a Google Cloud Endpoints 404 to anonymous callers. Neither consumer charging-session data nor network/market data is published through any documented public interface; charger location data reaches developers only through third-party aggregators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evie-networks/refs/heads/main/screenshots/evie-networks-2026-08-07T165052.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1093,7 +1106,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

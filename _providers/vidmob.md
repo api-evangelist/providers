@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -26,21 +26,24 @@ agentic_access:
   operation_count: 11
   slug: vidmob-agentic-access
   summary_line: 11 operations · 3 acting
-api_count: 4
+api_count: 5
 apis:
-- description: Submit an external media asset for evaluation against the guidelines configured for a Vidmob workspace and read back a weighted score (0.0-1.0) and adherencePercent per advertising channel, plus a per
-  name: Vidmob Creative Scoring API
-  slug: vidmob-creative-scoring-api
-- description: Submit one or more creative assets for AI-powered visual annotation and receive structured tags describing what is inside them — on-screen text, logos and brands, objects, scenes, audio cues, people a
-  name: Vidmob Creative Aperture API (Creative Tags)
-  slug: vidmob-creative-aperture-api-creative-tags
-- description: 'Account-hierarchy endpoints used to bootstrap every other Vidmob integration: retrieve the organization the API key is issued against, and enumerate the workspaces that key can reach along with the wo'
-  name: Vidmob Public API (Organization & Workspaces)
-  slug: vidmob-public-api-organization-workspaces
 - description: Hosted remote MCP server exposing Vidmob creative intelligence to AI agents — organization and ad-account structure, media-library search, creative scoring, AI-detected creative attributes, full asset
   name: Vidmob MCP Server
   slug: vidmob-mcp-server
-artifact_total: 10
+- description: The Media API from VidMob — 5 operation(s) for media.
+  name: VidMob Media API
+  slug: vidmob-media-api
+- description: The Organization API from VidMob — 1 operation(s) for organization.
+  name: VidMob Organization API
+  slug: vidmob-organization-api
+- description: The Scoring API from VidMob — 4 operation(s) for scoring.
+  name: VidMob Scoring API
+  slug: vidmob-scoring-api
+- description: The Workspaces API from VidMob — 1 operation(s) for workspaces.
+  name: VidMob Workspaces API
+  slug: vidmob-workspaces-api
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -175,15 +178,18 @@ mcp_servers:
 - description: ''
   name: vidmob-mcp.yml
   slug: vidmob-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-05'
 name: VidMob
 nav: Providers
 network: true
-overview: 'VidMob publishes 3 APIs on the [APIs.io](https://apis.io/) network: Creative Scoring API, Creative Aperture API (Creative Tags), and Public API (Organization & Workspaces). Tagged areas include creative-intelligence, creative-data, advertising, marketing, and media-measurement.
+overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include creative-intelligence, creative-data, advertising, marketing, and media-measurement.
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 76
+random_paper: 61
 scopes:
 - name: Vidmob Scopes
   scope_count: 12
@@ -191,14 +197,16 @@ scopes:
   summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: developing
-  composite: 49.4
+  composite: 49.0
+  delta: -0.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.3
+    contract_quality: 58.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,7 +218,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Vidmob Authentication

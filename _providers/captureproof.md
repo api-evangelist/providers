@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'CaptureProof is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CaptureProof''s developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 63
+random_paper: 30
 score:
   band: emerging
   composite: 21.8
@@ -117,7 +117,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captureproof/refs/heads/main/screenshots/captureproof-2026-07-25T204452.png
 security:

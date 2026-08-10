@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: Operations on accounts
@@ -175,7 +175,7 @@ overview: 'Datto publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Datto Rate Limits
@@ -202,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

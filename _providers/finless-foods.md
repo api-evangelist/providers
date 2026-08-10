@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Finless Foods is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Finless Foods'' developer surface includes support and 15 more developer resources.'
-random_paper: 97
+random_paper: 64
 score:
   band: minimal
   composite: 9.9
@@ -115,8 +115,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finless-foods/refs/heads/main/screenshots/finless-foods-2026-08-07T165309.png
 security:
 - kind: domain-security
   name: Finless Foods Domain Security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,11 +37,8 @@ agentic_access:
   operation_count: 4
   slug: sketchfab-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 5
+api_count: 14
 apis:
-- description: REST API for reading and writing Sketchfab data. Upload, list, update, and delete 3D models; manage collections, comments, likes, and bookmarks; search the public model catalog; and manage user, organ
-  name: Sketchfab Data API
-  slug: sketchfab-data-api
 - description: Client-side JavaScript library for controlling an embedded Sketchfab 3D viewer. Exposes camera control, screenshot capture, annotation, material and texture manipulation, post-processing filters, anim
   name: Sketchfab Viewer API
   slug: sketchfab-viewer-api
@@ -54,7 +51,37 @@ apis:
 - description: OAuth 2.0 authorization server for the Sketchfab platform. Supports Authorization Code, Implicit, and Resource Owner Password Credentials grant types plus refresh-token rotation. Authorize endpoint at
   name: Sketchfab OAuth 2.0 API
   slug: sketchfab-oauth-api
-artifact_total: 35
+- description: Personal bookmarks.
+  name: Sketchfab Bookmarks API
+  slug: sketchfab-bookmarks-api
+- description: Public Sketchfab category taxonomy.
+  name: Sketchfab Categories API
+  slug: sketchfab-categories-api
+- description: Group models into themed collections.
+  name: Sketchfab Collections API
+  slug: sketchfab-collections-api
+- description: Comments on a model.
+  name: Sketchfab Comments API
+  slug: sketchfab-comments-api
+- description: Likes (favorites) on a model.
+  name: Sketchfab Likes API
+  slug: sketchfab-likes-api
+- description: Manage 3D models — upload, list, retrieve, update, delete.
+  name: Sketchfab Models API
+  slug: sketchfab-models-api
+- description: Organization, project, and member management.
+  name: Sketchfab Orgs API
+  slug: sketchfab-orgs-api
+- description: Search public Sketchfab content.
+  name: Sketchfab Search API
+  slug: sketchfab-search-api
+- description: Tag-based discovery.
+  name: Sketchfab Tags API
+  slug: sketchfab-tags-api
+- description: Retrieve user account information.
+  name: Sketchfab Users API
+  slug: sketchfab-users-api
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Sketchfab Download API
@@ -331,7 +358,7 @@ modified: '2026-05-25'
 name: Sketchfab
 nav: Providers
 network: true
-overview: 'Sketchfab publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, Download API, oEmbed API, and 1 more. Tagged areas include 3D, Models, Marketplace, Viewer, and WebGL.
+overview: 'Sketchfab publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Download API, oEmbed API, OAuth 2.0 API, and 10 more. Tagged areas include 3D, Models, Marketplace, Viewer, and WebGL.
 
 
   The Sketchfab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -342,7 +369,7 @@ plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
   slug: sketchfab-plans-pricing
-random_paper: 35
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Sketchfab Rate Limits
@@ -362,12 +389,12 @@ scopes:
   slug: sketchfab-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 0.0
+  band: strong
+  composite: 65.1
+  delta: -1.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 71.9
+    contract_quality: 67.8
     developer_ergonomics: 65.2
     discoverability: 64.8
     governance: 58.3
@@ -381,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

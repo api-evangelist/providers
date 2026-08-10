@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Mambu's REST API v2 for core banking — clients, loan accounts, deposit accounts, transactions, and related resources. Tenant-scoped host, HTTPS Basic or apikey auth, Idempotency-Key supported for writ
@@ -143,7 +143,7 @@ overview: 'Mambu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mambu''s developer surface includes documentation, API reference, support, changelog, authentication, and 16 more developer resources.'
-random_paper: 78
+random_paper: 66
 score:
   band: thin
   composite: 40.5
@@ -166,7 +166,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mambu/refs/heads/main/screenshots/mambu-2026-07-25T230014.png
 security:

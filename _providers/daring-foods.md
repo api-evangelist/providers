@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 31
   slug: daring-foods-agentic-access
   summary_line: 31 operations
-api_count: 11
+api_count: 14
 apis:
 - description: 'Public, unauthenticated read access to the Daring recipe library via the site''s custom `recipes` WordPress post type. Verified live at 208 published recipes, each classified by cooking method through '
   name: Daring Foods Recipes API
@@ -53,9 +53,6 @@ apis:
 - description: Public, unauthenticated read access to the media library behind daring.com - packaging and product photography, recipe imagery and site assets. Verified live at 749 attachments, each with every genera
   name: Daring Foods Media API
   slug: daring-foods-media-api
-- description: 'Public, unauthenticated read access to the term taxonomies on daring.com. The `category` taxonomy is shared between posts and recipes and on this site carries cooking methods - Saute, Oven Baked, Air '
-  name: Daring Foods Taxonomy API
-  slug: daring-foods-taxonomy-api
 - description: Public, unauthenticated cross-content search over daring.com, returning lightweight id / title / url / type / subtype records spanning recipes, retail products, foodservice products, pages and posts i
   name: Daring Foods Search API
   slug: daring-foods-search-api
@@ -71,7 +68,19 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered SEO metadata and full schema.org JSON-LD graph for any daring.com URL - the most structured description of a Daring recipe or product available fr
   name: Daring Foods SEO Metadata API
   slug: daring-foods-seo-api
-artifact_total: 15
+- description: The `category` taxonomy - cooking methods for the recipe library.
+  name: Daring Foods Categories API
+  slug: daring-foods-categories-api
+- description: Comments attached to posts. 41 approved, predominantly automated spam.
+  name: Daring Foods Comments API
+  slug: daring-foods-comments-api
+- description: Post types, taxonomies, statuses and authors.
+  name: Daring Foods Metadata API
+  slug: daring-foods-metadata-api
+- description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
+  name: Daring Foods Tags API
+  slug: daring-foods-tags-api
+artifact_total: 18
 common:
 - group: auth
   title: ''
@@ -198,18 +207,18 @@ modified: '2026-08-04'
 name: Daring Foods
 nav: Providers
 network: true
-overview: 'Daring Foods publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 8 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant Based, and Alternative Protein.
+overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 11 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant Based, and Alternative Protein.
 
 
   Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
-random_paper: 83
+random_paper: 53
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 33.3
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 62.7
+    contract_quality: 58.5
     developer_ergonomics: 19.0
     discoverability: 92.6
     governance: 11.5
@@ -226,8 +235,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:
 - kind: authentication
   name: Daring Foods Authentication

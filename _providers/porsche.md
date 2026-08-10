@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Welcome to the Porsche API Portal ... Discover, access, and manage Porsches APIs effortlessly with our centralized platformyour gateway to seamless integration.
@@ -80,7 +80,7 @@ plans:
 - name: Porsche Plans Pricing
   plan_count: 3
   slug: porsche-plans-pricing
-random_paper: 78
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Porsche Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/screenshots/porsche-2026-06-20T191922.png
 security:

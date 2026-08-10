@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 55.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -51,7 +51,11 @@ apis:
 - description: The Rpc API from Heroic Labs — 131 operation(s) for rpc.
   name: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
-artifact_total: 28
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Heroiclabs Nakama Realtime Events
+  slug: heroiclabs-nakama-realtime-events
 common:
 - group: agent
   title: ''
@@ -121,6 +125,106 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/heroiclabs-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://heroiclabs.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://heroiclabs.com/docs/nakama/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://heroiclabs.com/docs/nakama/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://forum.heroiclabs.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/heroiclabs
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cloud.heroiclabs.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://cloud.heroiclabs.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://heroiclabs.com/tos.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://heroiclabs.com/privacypolicy.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/heroiclabs-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/heroiclabs-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/heroiclabs-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/heroiclabs-llms.txt
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/heroiclabs-nakama-realtime.proto
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/heroiclabs-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://heroiclabs.com/docs/heroic-cloud/enterprise/privacy-compliance/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/heroiclabs-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/heroiclabs-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/heroiclabs-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/heroiclabs-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/heroiclabs-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/heroiclabs-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/heroiclabs-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/heroiclabs-nakama-realtime-events.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-06-12'
 description: Heroic Labs is the company behind Nakama, a leading open-source game backend server providing a comprehensive REST, WebSocket, and gRPC API for building scalable multiplayer and social games. The platform delivers essential backend services including real-time matchmaking, leaderboards, tournaments, chat, friend systems, and presence tracking. Nakama exposes its functionality via RESTful HTTP endpoints, real-time WebSocket connections, and gRPC, with server runtime support for custom logic in Go, TypeScript, and Lua. Heroic Labs also offers Heroic Cloud as a fully managed deployment platform and Satori as a LiveOps product for feature flags, A/B experiments, and live events.
 examples:
@@ -185,22 +289,26 @@ jsonld:
   property_count: 54
   slug: heroiclabs-context
 layout: provider
-modified: '2026-06-12'
+mcp_servers:
+- description: ''
+  name: heroiclabs-mcp.yml
+  slug: heroiclabs-mcpyml
+modified: '2026-08-08'
 name: Heroic Labs
 nav: Providers
 network: true
 overview: 'Heroic Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Nakama API, Console API, and Rpc API. Tagged areas include Game Backend, Multiplayer, Real-Time, WebSocket, and Matchmaking.
 
 
-  The Heroic Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Heroic Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Heroic Labs'' developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Heroic Labs'' developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Heroiclabs Plans Pricing
   plan_count: 5
   slug: heroiclabs-plans-pricing
-random_paper: 35
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Heroiclabs Rate Limits
@@ -215,16 +323,16 @@ rules:
     warn: 3
   slug: heroiclabs-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.9
-  delta: 0.0
+  band: exemplar
+  composite: 82.8
+  delta: 30.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 60.1
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 92.1
+    contract_quality: 68.2
+    developer_ergonomics: 87.0
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 76.3
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -234,9 +342,9 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-06-20T182648.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:
 - kind: authentication
   name: Heroiclabs Authentication

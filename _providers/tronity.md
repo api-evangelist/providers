@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 4
@@ -127,7 +127,7 @@ plans:
 - name: Tronity Plans Pricing
   plan_count: 5
   slug: tronity-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Tronity Rate Limits
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

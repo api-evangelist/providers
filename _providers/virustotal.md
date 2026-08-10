@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -514,7 +514,7 @@ plans:
 - name: Virustotal Plans Pricing
   plan_count: 3
   slug: virustotal-plans-pricing
-random_paper: 100
+random_paper: 73
 rate_limits:
 - limit_count: 10
   name: Virustotal Rate Limits
@@ -556,7 +556,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:

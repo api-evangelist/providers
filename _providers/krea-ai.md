@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 38 more developer resources.'
-random_paper: 101
+random_paper: 86
 score:
   band: thin
   composite: 38.3
@@ -296,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:

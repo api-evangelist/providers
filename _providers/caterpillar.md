@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Cat Digital Marketplace publishes a catalog of Caterpillar APIs spanning asset telematics, fleet management, fuel data, utilization, hours/odometer, and geofencing. Developers subscribe via the Ca
@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Corporate Press Releases
   url: https://www.caterpillar.com/en/news/corporate-press-releases.html
-random_paper: 41
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Caterpillar Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/screenshots/caterpillar-2026-06-20T174051.png
 security:

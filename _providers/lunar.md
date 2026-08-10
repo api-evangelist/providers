@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,7 +62,29 @@ apis:
 - description: Manage Lunar Policies (legacy traffic control rules)
   name: Lunar Policies API
   slug: lunar-policies-api
-artifact_total: 20
+artifact_total: 54
+collections:
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery API
+  slug: postman-lunar-discovery-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Flows API
+  slug: postman-lunar-flows-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Health API
+  slug: postman-lunar-health-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Policies API
+  slug: postman-lunar-policies-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Proxy API
+  slug: postman-lunar-proxy-api
+- collection_type: open
+  name: Lunar.dev Gateway Admin API
+  slug: open-lunar-gateway-admin
+- collection_type: open
+  name: Lunar.dev Gateway Proxy API
+  slug: open-lunar-gateway-proxy
 common:
 - group: agent
   title: ''
@@ -132,6 +154,50 @@ common:
   title: ''
   type: FinOps
   url: finops/lunar-finops.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lunardev/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TheLunarCompany
+- group: docs
+  title: ''
+  type: Guide
+  url: https://www.lunar.dev/guides-resources
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.lunar.dev/faqs
+- group: other
+  title: ''
+  type: Customers
+  url: https://www.lunar.dev/case-study
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.lunar.dev/quick-start-guide/
+- group: company
+  title: ''
+  type: About
+  url: https://www.lunar.dev/about-us
+- group: start
+  title: ''
+  type: Login
+  url: https://login.lunar.dev/u/login?state=hKFo2SBYaVVrZmZpMHhLN3M3RFlmV0s1WUZCYzZjb2Nwa2FNWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDRC1iM2d3Z1ltMTNSYmpKZEloOHFHUFp3aG5FMk9vo2NpZNkgQTZBOVRoUnJ6anp2eEx6cFUwRm5JZE1Id0xUUmdnSFE
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lunar.dev/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lunar.dev/terms-of-use
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.lunar.dev/demo
 created: '2026-06-13'
 description: Lunar is an enterprise-grade API management and AI control plane platform that provides a unified gateway for managing API traffic policies, rate limiting, quota enforcement, and API monetization across gateways. The platform combines an API consumption gateway with an MCP (Model Context Protocol) gateway to govern, secure, and observe interactions between AI agents, APIs, and data sources. Lunar delivers real-time visibility into model, API, and tool invocations alongside policy-based enforcement, cost controls, and advanced traffic shaping including retries, priority queues, and circuit breakers.
 examples:
@@ -144,25 +210,63 @@ examples:
 - key_count: 4
   name: Lunar Proxy Request Headers
   slug: lunar-proxy-request-headers
+features:
+- name: Additional Features
+- name: Advanced Traffic Controls
+- name: Broad Sdk Support
+- name: Centralized Consumption
+- name: Configurable Policies
+- name: Consumer Tags
+- name: Egress API Proxy
+- name: Fail-Safe Mechanisms
+- name: Generic Approach
+- name: Inventory of APIs
+- name: Insights
+- name: Lunar Proxy
+- name: Lunar Interceptor
+- name: No Code Changes
+- name: Plugin System
+- name: Prioritized API Queuing
+- name: Production-Grade Ready
+- name: Quota Management
+- name: Real-Time Insights
+- name: Real-Time Controls
+- name: Real-Time Monitoring
+- name: Visibility
 finops:
 - name: Lunar Finops
   service_category: ''
   slug: lunar-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lunar.png https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
+- name: Lunar.dev Discovered Endpoint
+  property_count: 5
+  slug: discovered-endpoint
+- name: Lunar.dev Flow
+  property_count: 5
+  slug: flow
+- name: Lunar.dev Health Status
+  property_count: 1
+  slug: health-status
 - name: Lunar Flows Configuration
   property_count: 2
   slug: lunar-flows-configuration
 - name: Lunar Gateway Proxy Request Headers
   property_count: 4
   slug: lunar-gateway-proxy-request
+- name: Lunar.dev Policy
+  property_count: 8
+  slug: policy
+- name: Lunar.dev Validation Result
+  property_count: 2
+  slug: validation-result
 jsonld:
 - class_count: 4
   name: Lunar Context
   property_count: 37
   slug: lunar-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: Lunar
 nav: Providers
 network: true
@@ -172,12 +276,12 @@ overview: 'Lunar publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Lunar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lunar''s developer surface includes documentation, engineering blog, pricing, signup flow, YouTube channel, product news, and 11 more developer resources.'
+  Lunar''s developer surface includes documentation, engineering blog, pricing, signup flow, YouTube channel, product news, FAQ, and 21 more developer resources.'
 plans:
 - name: Lunar Plans Pricing
   plan_count: 3
   slug: lunar-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Lunar Rate Limits
@@ -192,13 +296,13 @@ rules:
     warn: 4
   slug: lunar-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.3
-  delta: 0.0
+  band: strong
+  composite: 57.0
+  delta: 10.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 59.7
-    developer_ergonomics: 10.9
+    developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
@@ -211,9 +315,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/screenshots/lunar-2026-06-20T184757.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/screenshots/lunar-2026-06-20T184803.png
 security:
 - kind: domain-security
   name: Lunar Domain Security

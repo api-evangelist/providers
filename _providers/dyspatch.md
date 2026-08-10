@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ overview: 'Dyspatch publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 73
+random_paper: 52
 score:
   band: strong
   composite: 56.5
@@ -285,7 +285,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ plans:
 - name: Coresignal Plans Pricing
   plan_count: 5
   slug: coresignal-plans-pricing
-random_paper: 46
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Coresignal Rate Limits
@@ -353,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
 security:

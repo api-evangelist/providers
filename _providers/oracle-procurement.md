@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
@@ -99,7 +99,7 @@ plans:
 - name: Oracle Procurement Plans Pricing
   plan_count: 3
   slug: oracle-procurement-plans-pricing
-random_paper: 71
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Oracle Procurement Rate Limits
@@ -117,7 +117,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 34.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/screenshots/oracle-procurement-2026-06-20T191144.png
 security:

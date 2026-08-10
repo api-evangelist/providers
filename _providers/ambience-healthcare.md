@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -126,7 +126,7 @@ overview: 'Ambience Healthcare publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Ambience Healthcare''s developer surface includes authentication, documentation, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 98
+random_paper: 50
 scopes:
 - name: Ambience Healthcare Scopes
   scope_count: 14
@@ -153,8 +153,9 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/screenshots/ambience-healthcare-2026-08-07T161310.png
 security:
 - kind: authentication
   name: Ambience Healthcare Authentication

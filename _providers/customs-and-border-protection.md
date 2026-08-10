@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Advance Passenger Information System (APIS) collects pre-arrival and pre-departure manifest data on all passengers and crew members flown or sailed into and out of the United States. The eAPIS web
@@ -124,7 +124,7 @@ plans:
 - name: Customs And Border Protection Plans Pricing
   plan_count: 3
   slug: customs-and-border-protection-plans-pricing
-random_paper: 19
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Customs And Border Protection Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/screenshots/customs-and-border-protection-2026-06-20T175353.png
 security:

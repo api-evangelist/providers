@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The NISIC gateway to invasive species information covers federal, state, local, and international sources on plants, animals, and pathogens that are non-native to ecosystems and whose introduction cau
@@ -61,7 +61,7 @@ plans:
 - name: National Invasive Species Information Center Plans Pricing
   plan_count: 3
   slug: national-invasive-species-information-center-plans-pricing
-random_paper: 75
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: National Invasive Species Information Center Rate Limits
@@ -79,7 +79,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-invasive-species-information-center/refs/heads/main/screenshots/national-invasive-species-information-center-2026-06-20T190030.png
 security:

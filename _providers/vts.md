@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vts-openapi.yml
+  url: openapi/_original/vts-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -268,7 +268,7 @@ overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 10
+random_paper: 1
 scopes:
 - name: Vts Scopes
   scope_count: 4
@@ -297,7 +297,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

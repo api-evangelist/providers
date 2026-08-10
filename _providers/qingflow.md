@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -102,7 +102,7 @@ overview: 'qingflow is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   qingflow''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 80
+random_paper: 59
 score:
   band: thin
   composite: 35.6
@@ -116,7 +116,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 35.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

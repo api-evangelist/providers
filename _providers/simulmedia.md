@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
@@ -92,7 +92,7 @@ overview: 'Simulmedia publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Simulmedia''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 49
+random_paper: 22
 score:
   band: emerging
   composite: 17.9
@@ -110,7 +110,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -159,14 +159,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/productiv-vocabulary.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/developer-api.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/saas-management.yaml
 - group: company
   title: ''
   type: Blog
@@ -264,12 +256,12 @@ overview: 'Productiv publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Productiv catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Productiv''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
+  Productiv''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Productiv Plans Pricing
   plan_count: 3
   slug: productiv-plans-pricing
-random_paper: 88
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Productiv Rate Limits
@@ -311,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/screenshots/productiv-2026-06-20T192136.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Diebold Nixdorf taps SeeChange machine learning for self- ...
   url: https://www.kioskmarketplace.com/news/diebold-nixdorf-taps-seechange-machine-learning-for-self-checkout-solutions/
-random_paper: 45
+random_paper: 27
 score:
   band: minimal
   composite: 7.3
@@ -99,7 +99,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png
 security:

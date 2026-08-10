@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Retraced publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 51
+random_paper: 30
 score:
   band: thin
   composite: 38.2
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

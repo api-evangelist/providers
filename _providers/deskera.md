@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: REST API for Deskera Books, the cloud ERP and accounting product — contacts, products, accounts, invoices, bills, quotations, sales and purchase orders, credit and debit notes, deposits, expenses, pay
@@ -182,7 +182,7 @@ overview: 'Deskera publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Deskera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 57
+random_paper: 39
 scopes:
 - name: Deskera Scopes
   scope_count: 3
@@ -203,7 +203,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

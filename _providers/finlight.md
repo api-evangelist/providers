@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 62
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -194,7 +194,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

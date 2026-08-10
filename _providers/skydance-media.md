@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -26,12 +26,45 @@ agentic_access:
   operation_count: 65
   slug: skydance-media-agentic-access
   summary_line: 65 operations · 42 acting
-api_count: 1
+api_count: 12
 apis:
-- description: The anonymously readable WordPress REST API that skydance.com serves at /wp-json/wp/v2 — marketing and legal pages, the media library, categories, tags, comments, post types and a site-wide search end
-  name: Skydance Media Content API (WordPress REST wp/v2)
-  slug: content
-artifact_total: 4
+- description: The Categories API from Skydance Media — 2 operation(s) for categories.
+  name: Skydance Media Categories API
+  slug: skydance-media-categories-api
+- description: The Comments API from Skydance Media — 2 operation(s) for comments.
+  name: Skydance Media Comments API
+  slug: skydance-media-comments-api
+- description: The Media API from Skydance Media — 2 operation(s) for media.
+  name: Skydance Media Media API
+  slug: skydance-media-media-api
+- description: The Pages API from Skydance Media — 2 operation(s) for pages.
+  name: Skydance Media Pages API
+  slug: skydance-media-pages-api
+- description: The Posts API from Skydance Media — 2 operation(s) for posts.
+  name: Skydance Media Posts API
+  slug: skydance-media-posts-api
+- description: The Search API from Skydance Media — 1 operation(s) for search.
+  name: Skydance Media Search API
+  slug: skydance-media-search-api
+- description: The Settings API from Skydance Media — 1 operation(s) for settings.
+  name: Skydance Media Settings API
+  slug: skydance-media-settings-api
+- description: The Statuses API from Skydance Media — 2 operation(s) for statuses.
+  name: Skydance Media Statuses API
+  slug: skydance-media-statuses-api
+- description: The Tags API from Skydance Media — 2 operation(s) for tags.
+  name: Skydance Media Tags API
+  slug: skydance-media-tags-api
+- description: The Taxonomies API from Skydance Media — 2 operation(s) for taxonomies.
+  name: Skydance Media Taxonomies API
+  slug: skydance-media-taxonomies-api
+- description: The Types API from Skydance Media — 2 operation(s) for types.
+  name: Skydance Media Types API
+  slug: skydance-media-types-api
+- description: The Users API from Skydance Media — 3 operation(s) for users.
+  name: Skydance Media Users API
+  slug: skydance-media-users-api
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -162,23 +195,23 @@ modified: '2026-08-05'
 name: Skydance Media
 nav: Providers
 network: true
-overview: 'Skydance Media publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Entertainment, Media, Film, and Television.
+overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 9 more. Tagged areas include Company, Entertainment, Media, Film, and Television.
 
 
   Skydance Media''s developer surface includes authentication, engineering blog, FAQ, YouTube channel, and 26 more developer resources.'
-random_paper: 51
+random_paper: 15
 score:
   band: emerging
-  composite: 21.0
-  delta: -11.2
+  composite: 21.3
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.1
+    contract_quality: 14.0
     developer_ergonomics: 14.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.2
+  previous_composite: 21.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +222,8 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: falling
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Skydance Media Authentication

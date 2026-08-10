@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 24
 apis:
 - description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
@@ -347,7 +347,7 @@ overview: 'ETSI publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 50 more developer resources.'
-random_paper: 98
+random_paper: 89
 scopes:
 - name: Etsi Scopes
   scope_count: 13
@@ -381,8 +381,9 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png
 security:
 - kind: authentication
   name: Etsi Authentication

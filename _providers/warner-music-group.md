@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: WARNER MUSIC GROUP AND SUNO FORGE ...
   url: https://www.wmg.com/news/warner-music-group-and-suno-forge-groundbreaking-partnership
-random_paper: 39
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Warner Music Group Rate Limits
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/screenshots/warner-music-group-2026-06-20T201229.png
 security:

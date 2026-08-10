@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Melon Digital Insurance
 nav: Providers
 network: true
 overview: Melon Digital Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Digital Insurance, and Saudi Arabia.
-random_paper: 71
+random_paper: 11
 score:
   band: minimal
   composite: 5.6
@@ -84,8 +84,9 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/melon-digital-insurance/refs/heads/main/screenshots/melon-digital-insurance-2026-08-07T172450.png
 security:
 - kind: domain-security
   name: Melon Digital Insurance Domain Security

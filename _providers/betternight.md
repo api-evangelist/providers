@@ -1,6 +1,83 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/betternight-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://betternight.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://betternight.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://betternight.com/news?format=rss
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.support.betternight.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://betternight.com/privacy-policy
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://betternight.com/contact-us
+- group: company
+  title: ''
+  type: Careers
+  url: https://betternight.com/careers
+- group: other
+  title: ''
+  type: Locations
+  url: https://betternight.com/locations
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/betternight/
+- group: start
+  title: ''
+  type: PatientPortal
+  url: https://sleep.betternight.com/signin
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://betternight.com/news/betternight-achieves-soc-2-certification-to-demonstrate-our-commitment-to-security
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/betternight-llms.txt
+- group: other
+  title: ''
+  type: SecondaryMarketListing
+  url: https://forgeglobal.com/betternight_stock/
 coverage:
   checked: '2026-08-07'
   detail: BetterNight is a virtual-care sleep clinic and DME operator whose only software surfaces are two robots-disallowed single-page login apps (sleep. and admin. betternight.com) that answer HTTP 200 with the identical 63KB HTML shell for every path including /openapi.json and /.well-known/agent-card.json; the marketing site is Squarespace with no /developers, /api, or docs subdomain in DNS.
@@ -30,7 +107,38 @@ modified: '2026-08-07'
 name: BetterNight
 nav: Providers
 network: true
-random_paper: 54
+overview: 'BetterNight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Telehealth, and Sleep Health.
+
+
+  BetterNight''s developer surface includes engineering blog, support, and 12 more developer resources.'
+random_paper: 24
+score:
+  band: minimal
+  composite: 11.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.9
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 18.8
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/betternight/refs/heads/main/screenshots/betternight-2026-08-07T162341.png
+security:
+- kind: domain-security
+  name: Betternight Domain Security
+  slug: betternight-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: betternight
 tags:
 - Company
@@ -42,4 +150,5 @@ tags:
 - Remote Patient Monitoring
 - Medical Devices
 - Virtual Care
+website: https://betternight.com/
 ---

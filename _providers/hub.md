@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Hub's API surface for accessing real-world, multimodal training datasets (egocentric, image, video, and audio) and requesting bespoke data collection projects. The public developer surface is minimal;
@@ -71,7 +71,7 @@ overview: 'Hub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hub''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 93
+random_paper: 87
 score:
   band: minimal
   composite: 12.8
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hub/refs/heads/main/screenshots/hub-2026-07-25T221605.png
 security:

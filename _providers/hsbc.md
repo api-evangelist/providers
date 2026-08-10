@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The HSBC Developer Portal exposes a catalogue of APIs covering Open Banking (UK/EU PSD2 Account Information, Payment Initiation, Confirmation of Funds), global payments solutions, and corporate bankin
@@ -75,7 +75,7 @@ overview: 'HSBC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HSBC''s developer surface includes developer portal and 6 more developer resources.'
-random_paper: 77
+random_paper: 68
 score:
   band: minimal
   composite: 9.4
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc/refs/heads/main/screenshots/hsbc-2026-06-20T182858.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: HeadSpin's v0 REST API for authentication, real-device management, capture sessions, app (APK/IPA) instrumentation, biometrics, and audio/video capture. Authenticates with a HeadSpin API token as an H
@@ -132,7 +132,7 @@ overview: 'HeadSpin publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HeadSpin''s developer surface includes documentation, API reference, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
-random_paper: 53
+random_paper: 32
 score:
   band: thin
   composite: 28.0
@@ -149,7 +149,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/screenshots/headspin-2026-07-25T220825.png
 security:

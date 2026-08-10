@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'CNX Resources is profiled on the [APIs.io](https://apis.io/) network.
 
 
   CNX Resources'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 5
+random_paper: 85
 score:
   band: minimal
   composite: 5.4
@@ -79,7 +79,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cnx-resources/refs/heads/main/screenshots/cnx-resources-2026-06-20T174638.png
 security:

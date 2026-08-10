@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
@@ -204,7 +204,7 @@ overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Plerion''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 83
+random_paper: 65
 score:
   band: developing
   composite: 54.7
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

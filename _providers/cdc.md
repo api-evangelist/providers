@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 72
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

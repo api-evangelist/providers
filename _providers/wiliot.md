@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -138,7 +138,7 @@ overview: 'Wiliot publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Wiliot''s developer surface includes documentation, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 99
+random_paper: 84
 score:
   band: emerging
   composite: 26.8
@@ -155,7 +155,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

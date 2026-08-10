@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-06'
+  score: 44.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Search Venues
   name: JamBase Venues API
   slug: jambase-venues-api
-artifact_total: 42
+artifact_total: 43
 common:
 - group: agent
   title: ''
@@ -100,7 +100,7 @@ common:
   url: https://data.jambase.com/data
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://data.jambase.com/mcp
 - group: company
   title: ''
@@ -207,6 +207,10 @@ jsonld:
   property_count: 2
   slug: jambase-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-06-13'
 name: JamBase
 nav: Providers
@@ -222,7 +226,7 @@ plans:
 - name: Jambase Plans Pricing
   plan_count: 5
   slug: jambase-plans-pricing
-random_paper: 45
+random_paper: 27
 rate_limits:
 - limit_count: 9
   name: Jambase Rate Limits
@@ -238,16 +242,16 @@ rules:
   slug: jambase-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 57.7
   delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 76.9
-    developer_ergonomics: 41.3
+    developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 56.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/screenshots/jambase-2026-06-20T183655.png
 security:

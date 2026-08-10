@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ overview: 'Moovit publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moovit''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 31 more developer resources.'
-random_paper: 105
+random_paper: 90
 score:
   band: thin
   composite: 33.6
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/screenshots/moovit-2026-06-20T185803.png
 security:

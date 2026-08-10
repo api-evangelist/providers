@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: UK Companies House Data from the UK government
@@ -63,7 +63,7 @@ overview: 'UK Companies House publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   UK Companies House''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 13
+random_paper: 81
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-companies-house/refs/heads/main/screenshots/uk-companies-house-2026-06-20T200000.png
 security:

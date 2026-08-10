@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: CleanCo
 nav: Providers
 network: true
 overview: CleanCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverage, Spirits, Non-Alcoholic, and Low-Alcohol.
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 6.1
@@ -66,8 +66,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cleanco/refs/heads/main/screenshots/cleanco-2026-08-07T163443.png
 security:
 - kind: domain-security
   name: Cleanco Domain Security

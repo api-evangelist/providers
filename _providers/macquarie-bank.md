@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Macquarie Bank publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Macquarie Bank''s developer surface includes authentication, sandbox, documentation, support, API reference, signup flow, and 23 more developer resources.'
-random_paper: 53
+random_paper: 17
 scopes:
 - name: Macquarie Bank Scopes
   scope_count: 10
@@ -234,7 +234,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:

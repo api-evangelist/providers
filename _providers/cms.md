@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -468,7 +468,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 97
+random_paper: 91
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -484,20 +484,20 @@ rules:
   slug: cms-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 38.2
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.3
+    contract_quality: 57.2
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
@@ -508,7 +508,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

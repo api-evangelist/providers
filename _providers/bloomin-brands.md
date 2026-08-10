@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Bloomin' Brands
   url: https://www.opentext.com/ca/customers/bloomin-brands
-random_paper: 75
+random_paper: 39
 score:
   band: minimal
   composite: 5.0
@@ -138,7 +138,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomin-brands/refs/heads/main/screenshots/bloomin-brands-2026-06-20T173518.png
 security:

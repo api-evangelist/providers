@@ -18,19 +18,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: 'Handles the full lifecycle of EEG analytics for Neurable customers and internal applications: a chunked recording upload flow (start session, PUT chunks up to 10MB, finalize), recording download by pr'
-  name: Neurable Analytics Service
-  slug: neurable-analytics-service
-- description: Real-time data processing service for analyzing EEG sensor data from Neurable hardware, which doubles as the Neurable identity provider. It is a standards-conformant OpenID Connect authorization serve
-  name: Neurable Pipe Service
-  slug: neurable-pipe-service
-- description: 'Brain Health Service manages calculating user statistics related to Brain Health so that different reports can be flexibly and quickly generated. The service publishes an OpenAPI 3.1.0 description at '
-  name: Neurable Brain Health Service
-  slug: neurable-brain-health-service
-artifact_total: 6
+- description: The Core API from Neurable — 2 operation(s) for core.
+  name: Neurable Core API
+  slug: neurable-core-api
+- description: The OAuth API from Neurable — 3 operation(s) for oauth.
+  name: Neurable O Auth API
+  slug: neurable-oauth-api
+- description: The OIDC API from Neurable — 2 operation(s) for oidc.
+  name: Neurable OIDC API
+  slug: neurable-oidc-api
+- description: The open API from Neurable — 1 operation(s) for open.
+  name: Neurable Open API
+  slug: neurable-open-api
+- description: The protected API from Neurable — 5 operation(s) for protected.
+  name: Neurable Protected API
+  slug: neurable-protected-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -117,11 +123,11 @@ modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics Service, Pipe Service, and Brain Health Service. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
+overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 55
+random_paper: 34
 scopes:
 - name: Neurable Scopes
   scope_count: 5
@@ -129,16 +135,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 30.9
-  delta: -1.0
+  composite: 31.8
+  delta: 0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 41.9
+    contract_quality: 45.3
     developer_ergonomics: 19.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 31.9
+  previous_composite: 30.9
   provenance:
     conformance: first-party
     contracts:
@@ -149,7 +155,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

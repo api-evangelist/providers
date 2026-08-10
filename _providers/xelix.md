@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ overview: 'Xelix is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xelix''s developer surface includes support, engineering blog, and 14 more developer resources.'
-random_paper: 102
+random_paper: 90
 score:
   band: emerging
   composite: 18.8
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

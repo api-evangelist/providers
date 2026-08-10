@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Programmatic access to the Refuel Cloud platform for managing projects, datasets, labeling tasks, task runs, finetuned models, and deployed applications. Accessed through the first-party Python (refue
@@ -116,7 +116,7 @@ overview: 'Refuel publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Refuel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 78
+random_paper: 63
 score:
   band: thin
   composite: 28.0
@@ -130,7 +130,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

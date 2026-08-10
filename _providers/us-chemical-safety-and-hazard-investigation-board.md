@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The CSB does not currently offer a formal public API. However, it maintains public databases of investigations, recommendations, and incident reports accessible through its website. The CSB releases p
@@ -77,7 +77,7 @@ plans:
 - name: Us Chemical Safety And Hazard Investigation Board Plans Pricing
   plan_count: 3
   slug: us-chemical-safety-and-hazard-investigation-board-plans-pricing
-random_paper: 103
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Us Chemical Safety And Hazard Investigation Board Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-chemical-safety-and-hazard-investigation-board/refs/heads/main/screenshots/us-chemical-safety-and-hazard-investigation-board-2026-06-20T200606.png
 security:

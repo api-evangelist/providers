@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -111,7 +111,7 @@ overview: 'Brainbase publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainbase''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 31
+random_paper: 7
 score:
   band: emerging
   composite: 26.6
@@ -134,7 +134,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

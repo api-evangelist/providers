@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/osisoft-pi-web-api-openapi.yml
+  url: openapi/_original/osisoft-pi-web-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -185,7 +185,7 @@ plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
   slug: osisoft-pi-plans-pricing
-random_paper: 20
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Osisoft Pi Rate Limits
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:

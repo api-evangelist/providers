@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'National Football League is profiled on the [APIs.io](https://apis.io
 
 
   National Football League''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 49
+random_paper: 102
 score:
   band: minimal
   composite: 5.2
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png
 security:

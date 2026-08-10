@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Anvilogic MCP Server is the platform's Model Context Protocol surface, letting AI agents and MCP clients call Anvilogic platform tools against a customer's security graph, detections, searches, an
@@ -145,7 +145,7 @@ overview: 'Anvilogic publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anvilogic''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, pricing, support, authentication, and 18 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: thin
   composite: 35.9
@@ -162,8 +162,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/anvilogic/refs/heads/main/screenshots/anvilogic-2026-08-07T161428.png
 security:
 - kind: authentication
   name: Anvilogic Authentication

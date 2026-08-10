@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -2600,10 +2600,6 @@ common:
   title: ''
   type: Explorer
   url: https://developer.microsoft.com/en-us/graph/graph-explorer
-- group: docs
-  title: ''
-  type: OpenAPI
-  url: openapi/v1.0
 - group: company
   title: ''
   type: Blog
@@ -15503,12 +15499,12 @@ overview: 'Microsoft Graph publishes 564 APIs on the [APIs.io](https://apis.io/)
   The Microsoft Graph catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, documentation, authentication, and 34 more developer resources.'
+  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, documentation, authentication, and 33 more developer resources.'
 plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
   slug: microsoft-graph-plans-pricing
-random_paper: 88
+random_paper: 49
 rate_limits:
 - limit_count: 18
   name: Microsoft Graph Rate Limits
@@ -15550,7 +15546,7 @@ score:
       marker_coverage: 0.0
       total: 564
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

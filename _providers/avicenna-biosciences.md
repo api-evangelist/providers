@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Avicenna Biosciences is profiled on the [APIs.io](https://apis.io/) n
 
 
   Avicenna Biosciences'' developer surface includes product news and 6 more developer resources.'
-random_paper: 7
+random_paper: 69
 score:
   band: minimal
   composite: 6.9
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avicenna-biosciences/refs/heads/main/screenshots/avicenna-biosciences-2026-07-25T201929.png
 security:

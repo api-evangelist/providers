@@ -1,0 +1,225 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: verified
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 54.1
+  scored_at: '2026-08-10'
+api_count: 7
+apis:
+- description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
+  name: Buoy Authorization Server
+  slug: buoy-authorization-server
+- description: The Complaints API from Buoy Health — 2 operation(s) for complaints.
+  name: Buoy Health Complaints API
+  slug: buoy-health-complaints-api
+- description: The Intents API from Buoy Health — 2 operation(s) for intents.
+  name: Buoy Health Intents API
+  slug: buoy-health-intents-api
+- description: The Interviews API from Buoy Health — 2 operation(s) for interviews.
+  name: Buoy Health Interviews API
+  slug: buoy-health-interviews-api
+- description: The Queries API from Buoy Health — 1 operation(s) for queries.
+  name: Buoy Health Queries API
+  slug: buoy-health-queries-api
+- description: The Questions API from Buoy Health — 3 operation(s) for questions.
+  name: Buoy Health Questions API
+  slug: buoy-health-questions-api
+- description: The Results API from Buoy Health — 1 operation(s) for results.
+  name: Buoy Health Results API
+  slug: buoy-health-results-api
+artifact_total: 12
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.buoyhealth.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.buoyhealth.com/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://buoyhealth.readme.io/reference/interviews_anonymous
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://buoyhealth.readme.io/reference
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.buoyhealth.com/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.buoyhealth.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.buoyhealth.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.buoyhealth.com/privacy
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/buoy-health-api/buoy-symptom-checker-api/overview
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/buoy-health-symptom-checker-openapi.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/buoy-health-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/buoy-health-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/buoy-health-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/buoy-health-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/buoy-health-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/buoy-health-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/buoy-health-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/buoy-health-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/buoy-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.buoyhealth.com/security-and-privacy
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/buoy-health-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/buoy-health-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/buoy-health-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.buoyhealth.com/security-and-privacy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/buoy-health-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/buoy-health-domain-security.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/buoy-health-symptom-checker-overlay.yaml
+created: '2026-08-08'
+description: Buoy Health is a Boston-based digital health company whose clinically-trained AI symptom checker and triage engine is offered to health systems, payers and employers as an embeddable API. The Buoy Symptom Checker API v2.0 exposes a conversational triage interview as REST resources — interviews, complaints, queries, intents, questions and results — so an integrator can create a de-identified anonymous interview from basic demographics, accept a chief complaint, walk an adaptively generated question sequence, and read back a differential diagnosis with a recommended level of care and customizable care-handoff destinations. The API is OAuth 2.0 protected against an Auth0-backed authorization server with separate sandbox and production environments, is documented on ReadMe with a published OpenAPI 3.0.1 definition and an llms.txt, and Buoy is HITRUST CSF certified.
+image: https://www.buoyhealth.com/cms/images/buoy_logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: buoy-health-mcp.yml
+  slug: buoy-health-mcpyml
+modified: '2026-08-08'
+name: Buoy Health
+nav: Providers
+network: true
+overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Complaints API, Intents API, Interviews API, and 3 more. Tagged areas include symptom-checker, medical-triage, digital-health, healthcare, and clinical-ai.
+
+
+  Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
+random_paper: 78
+scopes:
+- name: Buoy Health Scopes
+  scope_count: 14
+  slug: buoy-health-scopes
+  summary_line: 14 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.9
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 54.0
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 10.5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 66.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+security:
+- kind: authentication
+  name: Buoy Health Authentication
+  slug: buoy-health-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Buoy Health Domain Security
+  slug: buoy-health-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Buoy Health Vulnerability Disclosure
+  slug: buoy-health-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: buoy-health
+tags:
+- symptom-checker
+- medical-triage
+- digital-health
+- healthcare
+- clinical-ai
+- care-navigation
+- patient-engagement
+- diagnosis
+- telehealth
+- oauth2
+website: https://www.buoyhealth.com/
+---

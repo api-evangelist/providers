@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Marley Spoon is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Marley Spoon''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 11
+random_paper: 94
 score:
   band: emerging
   composite: 14.9
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marley-spoon/refs/heads/main/screenshots/marley-spoon-2026-07-25T230244.png
 security:

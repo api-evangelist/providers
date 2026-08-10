@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Openprose''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, and 11 more developer resources.'
-random_paper: 83
+random_paper: 59
 score:
   band: emerging
   composite: 21.3
@@ -128,8 +128,9 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/screenshots/openprose-2026-08-07T190631.png
 security:
 - kind: domain-security
   name: Openprose Domain Security

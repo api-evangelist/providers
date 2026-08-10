@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: EnviCore
 nav: Providers
 network: true
 overview: EnviCore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, CleanTech, Construction Materials, and Cement.
-random_paper: 68
+random_paper: 47
 score:
   band: minimal
   composite: 10.7
@@ -84,7 +84,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envicore/refs/heads/main/screenshots/envicore-2026-07-25T213447.png
 security:

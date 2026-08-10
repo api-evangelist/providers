@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Contractbook Plans Pricing
   plan_count: 4
   slug: contractbook-plans-pricing
-random_paper: 46
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Contractbook Rate Limits
@@ -151,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:

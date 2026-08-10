@@ -18,13 +18,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 17
 apis:
-- description: Audits how visible a website is to AI assistants and agents. 36 operations across 22 paths — every path answers both GET and POST — covering audit scoring at score/full/deep depths, fix generation, co
-  name: Visibility AI Audit API
-  slug: visibility-ai-audit-api
-artifact_total: 1
+- description: The Audit API from Visibility (GleefulAI) — 3 operation(s) for audit.
+  name: Visibility (GleefulAI) Audit API
+  slug: gleefulai-visibility-audit-api
+- description: The Bots API from Visibility (GleefulAI) — 1 operation(s) for bots.
+  name: Visibility (GleefulAI) Bots API
+  slug: gleefulai-visibility-bots-api
+- description: The Capabilities API from Visibility (GleefulAI) — 1 operation(s) for capabilities.
+  name: Visibility (GleefulAI) Capabilities API
+  slug: gleefulai-visibility-capabilities-api
+- description: The Catalog API from Visibility (GleefulAI) — 1 operation(s) for catalog.
+  name: Visibility (GleefulAI) Catalog API
+  slug: gleefulai-visibility-catalog-api
+- description: The Cite API from Visibility (GleefulAI) — 2 operation(s) for cite.
+  name: Visibility (GleefulAI) Cite API
+  slug: gleefulai-visibility-cite-api
+- description: The Compare API from Visibility (GleefulAI) — 2 operation(s) for compare.
+  name: Visibility (GleefulAI) Compare API
+  slug: gleefulai-visibility-compare-api
+- description: The Content API from Visibility (GleefulAI) — 1 operation(s) for content.
+  name: Visibility (GleefulAI) Content API
+  slug: gleefulai-visibility-content-api
+- description: The Examples API from Visibility (GleefulAI) — 1 operation(s) for examples.
+  name: Visibility (GleefulAI) Examples API
+  slug: gleefulai-visibility-examples-api
+- description: The Fixes API from Visibility (GleefulAI) — 1 operation(s) for fixes.
+  name: Visibility (GleefulAI) Fixes API
+  slug: gleefulai-visibility-fixes-api
+- description: The Health API from Visibility (GleefulAI) — 1 operation(s) for health.
+  name: Visibility (GleefulAI) Health API
+  slug: gleefulai-visibility-health-api
+- description: The Llms API from Visibility (GleefulAI) — 1 operation(s) for llms.
+  name: Visibility (GleefulAI) Llms API
+  slug: gleefulai-visibility-llms-api
+- description: The Meta API from Visibility (GleefulAI) — 1 operation(s) for meta.
+  name: Visibility (GleefulAI) Meta API
+  slug: gleefulai-visibility-meta-api
+- description: The Preview API from Visibility (GleefulAI) — 2 operation(s) for preview.
+  name: Visibility (GleefulAI) Preview API
+  slug: gleefulai-visibility-preview-api
+- description: The Pricing API from Visibility (GleefulAI) — 1 operation(s) for pricing.
+  name: Visibility (GleefulAI) Pricing API
+  slug: gleefulai-visibility-pricing-api
+- description: The Probe API from Visibility (GleefulAI) — 1 operation(s) for probe.
+  name: Visibility (GleefulAI) Probe API
+  slug: gleefulai-visibility-probe-api
+- description: The Schema API from Visibility (GleefulAI) — 1 operation(s) for schema.
+  name: Visibility (GleefulAI) Schema API
+  slug: gleefulai-visibility-schema-api
+- description: The Status API from Visibility (GleefulAI) — 1 operation(s) for status.
+  name: Visibility (GleefulAI) Status API
+  slug: gleefulai-visibility-status-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -53,26 +101,27 @@ modified: '2026-08-02'
 name: Visibility (GleefulAI)
 nav: Providers
 network: true
-overview: 'Visibility (GleefulAI) publishes 1 API on the [APIs.io](https://apis.io/) network: Visibility AI Audit API. Tagged areas include AI Visibility, Answer Engine Optimization, AEO, Website Audit, and Agent-native.
+overview: 'Visibility (GleefulAI) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Bots API, Capabilities API, and 14 more. Tagged areas include AI Visibility, Answer Engine Optimization, AEO, Website Audit, and Agent-native.
 
 
   Visibility (GleefulAI)''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 49
+random_paper: 111
 score:
   band: emerging
-  composite: 18.1
-  delta: 0.0
+  composite: 19.4
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 38.8
+    contract_quality: 41.6
     developer_ergonomics: 8.7
-    discoverability: 66.7
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai-visibility/refs/heads/main/screenshots/gleefulai-visibility-2026-08-07T165732.png
 slug: gleefulai-visibility
 tags:
 - AI Visibility

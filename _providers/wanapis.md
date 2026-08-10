@@ -28,13 +28,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 9
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
   name: WanAPIs Unified AI API
   slug: wanapis-unified-ai-api
-artifact_total: 16
+- description: Text-to-speech, transcription, and translation.
+  name: WanAPIs Audio API
+  slug: wanapis-audio-api
+- description: Chat completion endpoints (OpenAI Chat Completions compatible).
+  name: WanAPIs Chat API
+  slug: wanapis-chat-api
+- description: Legacy text completions (OpenAI compatible).
+  name: WanAPIs Completions API
+  slug: wanapis-completions-api
+- description: Vector embeddings (OpenAI compatible).
+  name: WanAPIs Embeddings API
+  slug: wanapis-embeddings-api
+- description: Image generation and editing.
+  name: WanAPIs Images API
+  slug: wanapis-images-api
+- description: Discover the models available in the marketplace.
+  name: WanAPIs Models API
+  slug: wanapis-models-api
+- description: WanAPIs Responses API for structured, multi-step model workflows.
+  name: WanAPIs Responses API
+  slug: wanapis-responses-api
+- description: Async task polling for long-running image/video/audio jobs.
+  name: WanAPIs Tasks API
+  slug: wanapis-tasks-api
+artifact_total: 24
 common:
 - group: auth
   title: ''
@@ -103,7 +127,7 @@ modified: '2026-05-27'
 name: WanAPIs
 nav: Providers
 network: true
-overview: 'WanAPIs publishes 1 API on the [APIs.io](https://apis.io/) network: Unified AI API. Tagged areas include LLM Gateway, AI API Gateway, OpenAI Compatible, Model Marketplace, and LLM.
+overview: 'WanAPIs publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 5 more. Tagged areas include LLM Gateway, AI API Gateway, OpenAI Compatible, Model Marketplace, and LLM.
 
 
   The WanAPIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -114,7 +138,7 @@ plans:
 - name: Wanapis Plans Pricing
   plan_count: 2
   slug: wanapis-plans-pricing
-random_paper: 77
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Wanapis Rate Limits
@@ -138,13 +162,13 @@ rules:
   slug: wanapis-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 45.9
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.8
+    contract_quality: 68.2
     developer_ergonomics: 8.7
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 58.3
     operational_transparency: 31.6
   previous_composite: 46.3
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:

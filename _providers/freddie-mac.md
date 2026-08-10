@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Suite of APIs across the mortgage lifecycle including AIM Check, Affordable Check, Property Insights, Pricing and Committing, Resolve workout decisioning, and Total MI reconciliations and claims.
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Freddie Mac's Evolved AI/ML Guidance for Mortgage ...
   url: https://richeymay.com/resource/articles/navigating-the-new-frontier-freddie-macs-evolved-ai-ml-guidance-for-mortgage-companies/
-random_paper: 56
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Freddie Mac Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/screenshots/freddie-mac-2026-06-20T181516.png
 security:

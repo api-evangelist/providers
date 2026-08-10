@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -63,19 +63,23 @@ common:
   title: ''
   type: DomainSecurity
   url: security/taptapsend-domain-security.yml
+- group: company
+  title: ''
+  type: About
+  url: https://www.taptapsend.com/en/about-us
 created: '2026-07-17'
 description: Taptap Send is a mobile money-transfer (remittance) application that lets people send money from Europe, the UK, the US, and Canada to family and businesses across Africa, Asia, and Latin America. The service supports bank deposits, mobile-money wallets, and cash pickups in 100+ receiving countries with competitive exchange rates and low fees, and operates as a licensed and regulated money transmitter (FCA regulated, SOC 2 and PCI DSS attested) with bank-level encryption. Taptap Send is a consumer-facing app and does not currently publish a public developer API, developer portal, or API documentation; this profile captures its company identity, security posture, and compliance program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taptapsend.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Taptap Send
 nav: Providers
 network: true
 overview: 'Taptap Send is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Money Transfer, Remittances, Fintech, and Payments.
 
 
-  Taptap Send''s developer surface includes support and 7 more developer resources.'
-random_paper: 59
+  Taptap Send''s developer surface includes support and 8 more developer resources.'
+random_paper: 32
 score:
   band: emerging
   composite: 15.7
@@ -95,7 +99,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

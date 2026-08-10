@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Atlassian Jira Plans Pricing
   plan_count: 3
   slug: atlassian-jira-plans-pricing
-random_paper: 71
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Atlassian Jira Rate Limits
@@ -225,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -223,7 +223,7 @@ plans:
 - name: Openhands Plans Pricing
   plan_count: 1
   slug: openhands-plans-pricing
-random_paper: 56
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Openhands Rate Limits
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

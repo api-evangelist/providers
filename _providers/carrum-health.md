@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The internet-facing REST services that power the Carrum Health member application (my.carrumhealth.com): core-service (accounts, episodes, profiles), care-service, message-service, price-service and u'
@@ -131,7 +131,7 @@ overview: 'Carrum Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Carrum Health''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 82
+random_paper: 49
 score:
   band: emerging
   composite: 26.3
@@ -153,8 +153,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carrum-health/refs/heads/main/screenshots/carrum-health-2026-08-07T163029.png
 security:
 - kind: authentication
   name: Carrum Health Authentication

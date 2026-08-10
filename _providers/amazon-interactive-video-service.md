@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -1286,7 +1286,7 @@ plans:
 - name: Amazon Interactive Video Service Plans Pricing
   plan_count: 3
   slug: amazon-interactive-video-service-plans-pricing
-random_paper: 87
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Interactive Video Service Rate Limits
@@ -1328,7 +1328,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/screenshots/amazon-interactive-video-service-2026-06-20T171714.png
 security:

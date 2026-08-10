@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Word definitions, pronunciations, synonyms, antonyms and others
@@ -56,7 +56,7 @@ name: Lingua Robot
 nav: Providers
 network: true
 overview: Lingua Robot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dictionaries and Public APIs.
-random_paper: 105
+random_paper: 75
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingua-robot/refs/heads/main/screenshots/lingua-robot-2026-06-20T184541.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Altru
 nav: Providers
 network: true
 overview: Altru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Talent Acquisition, Recruitment Marketing, HR Tech, and Video.
-random_paper: 100
+random_paper: 88
 score:
   band: minimal
   composite: 7.6
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altru/refs/heads/main/screenshots/altru-2026-07-25T195842.png
 security:

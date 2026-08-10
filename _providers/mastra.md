@@ -23,13 +23,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 32.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -114,6 +114,70 @@ common:
   title: ''
   type: Blog
   url: https://mastra.ai/blog
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/mastra-ai/mastra
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/mastra-ai
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/mastra-ai/mastra/releases
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://mastra.ai/pricing
+- group: build
+  title: ''
+  type: PackageManager
+  url: https://www.npmjs.com/org/mastra
+- group: build
+  title: ''
+  type: Examples
+  url: https://github.com/mastra-ai/mastra/tree/main/examples
+- group: other
+  title: ''
+  type: Templates
+  url: https://mastra.ai/templates
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.gg/BTYqqHKUrf
+- group: company
+  title: ''
+  type: XTwitter
+  url: https://x.com/mastra_ai
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@mastra-ai
+- group: learn
+  title: ''
+  type: Course
+  url: https://mastra.ai/course
+- group: other
+  title: ''
+  type: Book
+  url: https://mastra.ai/book
+- group: other
+  title: ''
+  type: Podcast
+  url: https://mastra.ai/agent-hour
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mastra-ai/mastra/blob/main/LICENSE.md
+- group: other
+  title: ''
+  type: YCombinator
+  url: https://www.ycombinator.com/companies/mastra
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/mastra-44ba
 created: '2026-01-02'
 description: Mastra is an open-source TypeScript AI agent framework from the team that built Gatsby. It enables developers to prototype and productionize AI features using a modern JavaScript stack with tools for agents, workflows, RAG, and integrations.
 finops:
@@ -122,34 +186,34 @@ finops:
   slug: mastra-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastra.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-08'
 name: Mastra
 nav: Providers
 network: true
 overview: 'Mastra publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Conversations API, Logs API, and 7 more. Tagged areas include Agents, AI, JavaScript, RAG, and TypeScript.
 
 
-  Mastra''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  Mastra''s developer surface includes authentication, documentation, engineering blog, GitHub presence, changelog, pricing, code examples, and 18 more developer resources.'
 plans:
 - name: Mastra Plans Pricing
   plan_count: 3
   slug: mastra-plans-pricing
-random_paper: 83
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Mastra Rate Limits
   slug: mastra-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 41.3
+  delta: 5.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 50.0
     contract_quality: 51.2
-    developer_ergonomics: 21.7
+    developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 36.3
   provenance:
     agentic_access: derived
@@ -159,8 +223,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/screenshots/mastra-2026-06-20T185031.png
 security:
 - kind: authentication

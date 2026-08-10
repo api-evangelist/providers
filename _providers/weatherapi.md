@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -559,7 +559,7 @@ plans:
 - name: Weatherapi Plans Pricing
   plan_count: 5
   slug: weatherapi-plans-pricing
-random_paper: 49
+random_paper: 22
 rate_limits:
 - limit_count: 7
   name: Weatherapi Rate Limits
@@ -601,7 +601,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:

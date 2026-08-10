@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 14
 common:
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: American Equity Recognized for Award-Winning Customer ...
   url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
-random_paper: 101
+random_paper: 115
 score:
   band: minimal
   composite: 7.7
@@ -117,7 +117,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/screenshots/american-equity-investment-life-holding-2026-06-20T171912.png
 security:

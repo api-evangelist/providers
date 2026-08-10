@@ -18,31 +18,55 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
-api_count: 7
+  scored_at: '2026-08-10'
+api_count: 15
 apis:
-- description: Canopy API for self-service tasking of Umbra's SAR satellite constellation. Create feasibility requests to discover collection opportunities for a target, submit Tasks in Spotlight, Dwell or Scan imag
-  name: Umbra Canopy Tasking API
-  slug: tasking
-- description: Spec-compliant SpatioTemporal Asset Catalog (STAC) API v2 over the Collects an organization has tasked. Implements the STAC API Item Search Specification and the STAC API Filter Extension, with simple
-  name: Umbra Canopy STAC API v2
-  slug: stac-api-v2
-- description: STAC API over Umbra's Archive Catalog of previously collected SAR imagery. Supports simple and advanced item search with the STAC API Filter Extension, collection listing and retrieval, single-item lo
-  name: Umbra Canopy Archive Catalog (STAC) API
-  slug: stac-archive
-- description: Canopy API for delivery of Umbra customer data. Create, list, delete and verify DeliveryConfigs that push collected SAR products directly into a customer-owned AWS S3 or Google Cloud Storage bucket, a
-  name: Umbra Canopy Delivery API
-  slug: delivery
-- description: Canopy Admin API for machine-to-machine token management and organization configuration. Create, read, rotate and delete the organization's OAuth2 client credentials, read organization settings, and r
-  name: Umbra Canopy Admin API
-  slug: admin
-- description: Canopy API for map tiles and preview images. Generates a preview of a cloud-optimized GeoTIFF (COG) dataset for display in map and imagery viewers.
-  name: Umbra Canopy Tiles API
-  slug: tiles
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
   name: Umbra Canopy Documentation MCP Server
   slug: docs-mcp
-artifact_total: 12
+- description: The Client Credentials API from Umbra — 1 operation(s) for client credentials.
+  name: Umbra Client Credentials API
+  slug: umbra-client-credentials-api
+- description: The Collections API from Umbra — 4 operation(s) for collections.
+  name: Umbra Collections API
+  slug: umbra-collections-api
+- description: The CollectMetadata API from Umbra — 1 operation(s) for collectmetadata.
+  name: Umbra Collect Metadata API
+  slug: umbra-collectmetadata-api
+- description: The Collects API from Umbra — 2 operation(s) for collects.
+  name: Umbra Collects API
+  slug: umbra-collects-api
+- description: The DeliveryConfig API from Umbra — 3 operation(s) for deliveryconfig.
+  name: Umbra Delivery Config API
+  slug: umbra-deliveryconfig-api
+- description: The Feasibility API from Umbra — 2 operation(s) for feasibility.
+  name: Umbra Feasibility API
+  slug: umbra-feasibility-api
+- description: The Organizations API from Umbra — 2 operation(s) for organizations.
+  name: Umbra Organizations API
+  slug: umbra-organizations-api
+- description: The Preview API from Umbra — 1 operation(s) for preview.
+  name: Umbra Preview API
+  slug: umbra-preview-api
+- description: The Preview Image API from Umbra — 1 operation(s) for preview image.
+  name: Umbra Preview Image API
+  slug: umbra-preview-image-api
+- description: The Product Constraints API from Umbra — 1 operation(s) for product constraints.
+  name: Umbra Product Constraints API
+  slug: umbra-product-constraints-api
+- description: The Restricted Access Areas API from Umbra — 1 operation(s) for restricted access areas.
+  name: Umbra Restricted Access Areas API
+  slug: umbra-restricted-access-areas-api
+- description: The Search API from Umbra — 2 operation(s) for search.
+  name: Umbra Search API
+  slug: umbra-search-api
+- description: The Tasks API from Umbra — 5 operation(s) for tasks.
+  name: Umbra Tasks API
+  slug: umbra-tasks-api
+- description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
+  name: Umbra Thumbnail API
+  slug: umbra-thumbnail-api
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -192,11 +216,11 @@ modified: '2026-08-05'
 name: Umbra
 nav: Providers
 network: true
-overview: 'Umbra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Canopy Tasking API, Canopy STAC API v2, Canopy Archive Catalog (STAC) API, and 3 more. Tagged areas include Satellite Imagery, Synthetic Aperture Radar, Earth Observation, Geospatial, and Space.
+overview: 'Umbra publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Client Credentials API, Collections API, Collect Metadata API, and 11 more. Tagged areas include Satellite Imagery, Synthetic Aperture Radar, Earth Observation, Geospatial, and Space.
 
 
   Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 6
   name: Umbra Rate Limits
@@ -207,15 +231,17 @@ scopes:
   slug: umbra-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.6
+  band: developing
+  composite: 55.3
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.3
+    contract_quality: 56.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -226,7 +252,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Umbra Authentication

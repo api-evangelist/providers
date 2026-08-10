@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
@@ -194,7 +194,7 @@ overview: 'Lemon Cash publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 32 more developer resources.'
-random_paper: 95
+random_paper: 71
 score:
   band: thin
   composite: 40.7
@@ -217,8 +217,9 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/screenshots/lemon-cash-2026-08-07T171533.png
 security:
 - kind: authentication
   name: Lemon Cash Authentication

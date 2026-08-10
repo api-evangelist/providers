@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/boxc-openapi-original.yml
+  url: openapi/_original/boxc-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -245,7 +245,7 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 89
+random_paper: 80
 scopes:
 - name: Boxc Scopes
   scope_count: 19
@@ -274,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

@@ -27,7 +27,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -83,7 +83,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -154,24 +154,25 @@
      "name": "Aquabyte",
      "slug": "aquabyte",
      "description": "Aquabyte AS is a Norwegian-American aquaculture technology company, founded in 2017 with offices in Bergen (Laksevåg), Norway, San Francisco and Chile, that applies computer vision and machine learning to salmon and trout farming. Underwater cameras (Hydra 360, Hammerhead, Atlas) stream imagery into a cloud platform that produces biomass and weight estimation, sea-lice counting, welfare scoring, swim-speed and breathing-index behaviour metrics, environmental readings and feeding decision support, from smolt through harvest. Customers reach that data either through the Aquabyte customer portal at app.aquabyte.ai or through the Aquabyte Public API — a documented, API-key-authenticated REST service at api.aquabyte.ai/v3 whose OpenAPI 3.1 definition is served publicly at api.aquabyte.ai/openapi.json and rendered with ReDoc at /v3/docs.",
-     "score": 38.8,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png",
+     "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 45.0,
-      "governance": 20.8,
+      "discoverability": 92.6,
+      "contract_quality": 48.7,
+      "governance": 11.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
-     "agent_score": 44.6,
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
@@ -203,7 +204,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 15.3,
      "agent_band": "agent-aware",
@@ -252,7 +253,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -290,7 +291,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -327,7 +328,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -353,6 +354,7 @@
      "name": "Nextgentel",
      "slug": "nextgentel",
      "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextgentel/refs/heads/main/screenshots/nextgentel-2026-08-07T185208.png",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -364,7 +366,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -409,7 +411,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -447,7 +449,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -484,7 +486,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

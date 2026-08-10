@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ overview: 'Crowd.dev publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Crowd.dev''s developer surface includes authentication, documentation, API reference, changelog, and 19 more developer resources.'
-random_paper: 71
+random_paper: 50
 scopes:
 - name: Crowddev Scopes
   scope_count: 13
@@ -225,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:

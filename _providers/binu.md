@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Binu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Binu''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 91
+random_paper: 82
 score:
   band: emerging
   composite: 16.7
@@ -95,7 +95,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binu/refs/heads/main/screenshots/binu-2026-07-25T203046.png
 security:

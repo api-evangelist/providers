@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -26,21 +26,33 @@ agentic_access:
   operation_count: 12
   slug: clozd-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 4
+api_count: 8
 apis:
-- description: Current version of the Clozd public Data API. Read programs, competitors, deals (with participants, products, published feedback responses and full transcripts), and touchpoints; import deals and touc
-  name: Clozd Data API v3.0
-  slug: clozd-data-api-v30
-- description: Prior version of the Clozd public Data API. Get a paged list of deals for a program, get a single deal with details, and import deals with participants. Superseded by v3.0, which adds programs, compet
-  name: Clozd Data API v2.0
-  slug: clozd-data-api-v20
-- description: Original version of the Clozd public Data API, limited to a single deal-and-participant import operation for pushing CRM opportunity data into a Clozd program. Superseded by v2.0 and v3.0. Authenticat
-  name: Clozd Data API v1.0
-  slug: clozd-data-api-v10
 - description: Hosted remote Model Context Protocol server exposing 19 documented read tools over Clozd win-loss data — programs, deals, responses, response summaries, transcripts, decision drivers and categories, d
   name: Clozd MCP Server
   slug: clozd-mcp-server
-artifact_total: 11
+- description: The /programs API from Clozd — 1 operation(s) for /programs.
+  name: Clozd /programs API
+  slug: clozd-programs-api
+- description: The /programs/:program_id/competitors API from Clozd — 1 operation(s) for /programs/:program_id/competitors.
+  name: Clozd /programs/:program Id/competitors API
+  slug: clozd-programs-program-id-competitors-api
+- description: The /programs/:program_id/deals API from Clozd — 1 operation(s) for /programs/:program_id/deals.
+  name: Clozd /programs/:program Id/deals API
+  slug: clozd-programs-program-id-deals-api
+- description: The /programs/:program_id/deals/:deal_id API from Clozd — 1 operation(s) for /programs/:program_id/deals/:deal_id.
+  name: Clozd /programs/:program Id/deals/:deal ID API
+  slug: clozd-programs-program-id-deals-deal-id-api
+- description: The /programs/:program_id/deals/import API from Clozd — 1 operation(s) for /programs/:program_id/deals/import.
+  name: Clozd /programs/:program Id/deals/import API
+  slug: clozd-programs-program-id-deals-import-api
+- description: The /programs/:program_id/touchpoints API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints.
+  name: Clozd /programs/:program Id/touchpoints API
+  slug: clozd-programs-program-id-touchpoints-api
+- description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
+  name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
+  slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
+artifact_total: 16
 common:
 - group: agent
   title: ''
@@ -170,15 +182,18 @@ mcp_servers:
 - description: ''
   name: clozd-mcp.yml
   slug: clozd-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-04'
 name: Clozd
 nav: Providers
 network: true
-overview: 'Clozd publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data API v3.0, Data API v2.0, and Data API v1.0. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
+overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
 
 
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 88
+random_paper: 76
 scopes:
 - name: Clozd Scopes
   scope_count: 5
@@ -186,11 +201,11 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 50.4
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.1
+    contract_quality: 61.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -207,8 +222,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:
 - kind: authentication
   name: Clozd Authentication

@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -26,14 +26,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 9.0
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Auth-gated partner/agent API portal for HotelTonight hotel supply and booking operations. Requires partner-agent credentials; no public OpenAPI is published.
   name: HotelTonight Partner API
   slug: hoteltonight-partner-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -79,27 +79,43 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/hotel-tonight-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.hoteltonight.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api-docs.hoteltonight.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.hoteltonight.com/hotel-partners
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hotel-tonight-authentication.yml
 created: '2026-07-17'
 description: HotelTonight is a last-minute hotel booking service founded in 2010 in San Francisco and acquired by Airbnb in 2019 for a reported $400 million. Through its mobile app and website it offers curated same-day and near-term deals on boutique, independent, and chain hotels across thousands of cities worldwide, with more than 15 million app downloads. Its developer surface is a partner/agent-facing portal (api-docs.hoteltonight.com) rather than a publicly documented API; this profile is maintained in the API Evangelist network as an enrichment lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hotel-tonight.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Hotel Tonight
 nav: Providers
 network: true
 overview: 'Hotel Tonight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Hotels, and Booking.
 
 
-  Hotel Tonight''s developer surface includes support and 10 more developer resources.'
-random_paper: 107
+  Hotel Tonight''s developer surface includes support, documentation, signup flow, authentication, and 11 more developer resources.'
+random_paper: 74
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 26.1
+  delta: 8.3
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 32.6
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
@@ -107,10 +123,14 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-tonight/refs/heads/main/screenshots/hotel-tonight-2026-07-25T221457.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-tonight/refs/heads/main/screenshots/hotel-tonight-2026-07-25T221516.png
 security:
+- kind: authentication
+  name: Hotel Tonight Authentication
+  slug: hotel-tonight-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Hotel Tonight Domain Security
   slug: hotel-tonight-domain-security

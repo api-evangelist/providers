@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -131,7 +131,7 @@ overview: 'INSTANDA is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   INSTANDA''s developer surface includes engineering blog, product news, support, and 19 more developer resources.'
-random_paper: 59
+random_paper: 38
 score:
   band: thin
   composite: 37.5
@@ -153,7 +153,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instanda/refs/heads/main/screenshots/instanda-2026-07-25T222607.png
 security:

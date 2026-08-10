@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Receive data from remote device.
@@ -151,7 +151,7 @@ overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: su
 
 
   UBTech''s developer surface includes documentation, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: thin
   composite: 41.8
@@ -174,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

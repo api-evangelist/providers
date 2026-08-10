@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Libra Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Libra Robotics'' developer surface includes support, YouTube channel, and 7 more developer resources.'
-random_paper: 80
+random_paper: 44
 score:
   band: minimal
   composite: 7.8
@@ -99,7 +99,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libra-robotics/refs/heads/main/screenshots/libra-robotics-2026-07-25T225024.png
 security:

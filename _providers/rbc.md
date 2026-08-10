@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 9
 apis:
 - description: Self-serve informational API on the RBC External Developer Portal that accepts a postal code or keyword search and returns the address and hours of operation of the closest RBC branch, or a list of ne
@@ -126,7 +126,7 @@ overview: 'Royal Bank of Canada publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Royal Bank of Canada''s developer surface includes documentation, engineering blog, getting-started guide, signup flow, API reference, and 8 more developer resources.'
-random_paper: 85
+random_paper: 79
 score:
   band: emerging
   composite: 22.4
@@ -146,7 +146,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

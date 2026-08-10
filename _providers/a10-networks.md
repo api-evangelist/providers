@@ -28,16 +28,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
-- description: 'The ACOS aXAPI v3 is the RESTful HTTPS configuration and operational control plane for every A10 Thunder device — physical, virtual (vThunder), or containerized. It covers the full ACOS object model: '
-  name: A10 Networks ACOS aXAPI v3
-  slug: a10-networks-axapi
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
   name: A10 Thunder Kubernetes Connector (TKC)
   slug: thunder-kubernetes-connector
-artifact_total: 15
+- description: Session sign-on and sign-off
+  name: A10 Networks Authentication API
+  slug: a10-networks-authentication-api
+- description: Active health probes attached to servers and service groups
+  name: A10 Networks SLB Health Monitor API
+  slug: a10-networks-slb-health-monitor-api
+- description: Real backend servers
+  name: A10 Networks SLB Server API
+  slug: a10-networks-slb-server-api
+- description: Service groups (pools) that bind real servers to a load-balancing method
+  name: A10 Networks SLB Service Group API
+  slug: a10-networks-slb-service-group-api
+- description: Virtual servers (VIPs) that front pools of real servers
+  name: A10 Networks SLB Virtual Server API
+  slug: a10-networks-slb-virtual-server-api
+artifact_total: 19
 common:
 - group: auth
   title: ''
@@ -241,7 +253,7 @@ modified: '2026-05-25'
 name: A10 Networks
 nav: Providers
 network: true
-overview: 'A10 Networks publishes 1 API on the [APIs.io](https://apis.io/) network: ACOS aXAPI v3. Tagged areas include Application Delivery, Load Balancing, DDoS Protection, Application Delivery Controller, and Network Security.
+overview: 'A10 Networks publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, SLB Health Monitor API, SLB Server API, and 2 more. Tagged areas include Application Delivery, Load Balancing, DDoS Protection, Application Delivery Controller, and Network Security.
 
 
   The A10 Networks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,7 +264,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 2
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits
@@ -280,9 +292,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.1
+    contract_quality: 62.8
     developer_ergonomics: 15.2
-    discoverability: 59.3
+    discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
   previous_composite: 40.8
@@ -293,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

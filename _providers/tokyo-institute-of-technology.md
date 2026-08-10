@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for T2R2, the Science Tokyo / Tokyo Tech Research Repository operated by GSIC and the university library. Exposes records (papers, theses, manuscripts, patent
@@ -107,7 +107,7 @@ plans:
 - name: Tokyo Institute Of Technology Plans Pricing
   plan_count: 2
   slug: tokyo-institute-of-technology-plans-pricing
-random_paper: 61
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Tokyo Institute Of Technology Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Access Bloomberg TV video content, live stream, and on-demand clips for licensed distribution. Provides access to market coverage segments, interviews, and editorial content for enterprise and media p
@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Tv Plans Pricing
   plan_count: 3
   slug: bloomberg-tv-plans-pricing
-random_paper: 102
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tv Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-tv/refs/heads/main/screenshots/bloomberg-tv-2026-07-25T203405.png
 security:

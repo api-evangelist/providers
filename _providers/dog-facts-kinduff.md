@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Random facts of Dogs
@@ -52,7 +52,7 @@ name: Dog Facts
 nav: Providers
 network: true
 overview: Dog Facts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 94
+random_paper: 52
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-facts-kinduff/refs/heads/main/screenshots/dog-facts-kinduff-2026-06-20T180125.png
 slug: dog-facts-kinduff

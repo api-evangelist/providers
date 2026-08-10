@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/calm-partner-api-openapi.yml
+  url: openapi/_original/calm-partner-api-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -154,7 +154,7 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 74
+random_paper: 65
 scopes:
 - name: Calm Scopes
   scope_count: 2
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:

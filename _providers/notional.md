@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet via The Graph protocol. Provides access to accounts, trades, markets, nTokens, cash groups, currencies, TVL history, exc
@@ -104,7 +104,7 @@ overview: 'Notional Finance publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Notional Finance''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 77
+random_paper: 56
 score:
   band: emerging
   composite: 21.1
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 21.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notional/refs/heads/main/screenshots/notional-2026-06-20T190428.png
 security:

@@ -12,49 +12,199 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-06'
-api_count: 11
+  score: 62.8
+  scored_at: '2026-08-10'
+api_count: 61
 apis:
-- description: Organization, identity and governance API for the ControlUp ONE platform — users, invitations, roles and permissions, organization settings, SAML SSO configuration and SSO group mappings, IP allowlist
-  name: ControlUp ONE Platform API
-  slug: controlup-one-platform-api
-- description: 'Event and alert API for the ControlUp ONE platform — list and retrieve events with field projection and cardinality counts over a time range, and read the configured alert definitions for Devices and '
-  name: ControlUp Events and Alerts API
-  slug: controlup-events-and-alerts-api
-- description: Physical endpoint API for ControlUp for Desktops (formerly Edge DX) — devices and device details, alerts, scripts and script actions, surveys, OS errors, events, and a data-access layer for querying c
-  name: ControlUp for Desktops API
-  slug: controlup-for-desktops-api
-- description: Compliance and endpoint-security posture API — list managed devices, retrieve per-device detail including the security score and agent status, and enumerate detected vulnerabilities (CVEs), missing OS
-  name: ControlUp for Compliance API
-  slug: controlup-for-compliance-api
-- description: Historical analytics API for virtual desktop and DaaS estates — host metrics and counts per folder, user activity, machine statistics and AI-driven sizing recommendations for virtualization and Azure,
-  name: ControlUp VDI and DaaS Historical API
-  slug: controlup-vdi-and-daas-historical-api
-- description: Real-time metrics API for VDI and DaaS environments, exposing live metric reads for monitored resources alongside the historical API. Bearer API-key auth.
-  name: ControlUp VDI and DaaS Realtime Metrics API
-  slug: controlup-vdi-and-daas-realtime-metrics-api
-- description: 'Configuration API for the VDI and DaaS product — machine configuration management plus trigger configuration (trigger packs and their follow-up actions, including the RESTful-request webhook action). '
-  name: ControlUp VDI and DaaS Configuration API
-  slug: controlup-vdi-and-daas-configuration-api
-- description: The largest published ControlUp surface — 128 paths and 149 operations covering DaaS IQ, ControlUp's cost-and-capacity intelligence layer for Azure Virtual Desktop, Windows 365 and other DaaS estates.
-  name: ControlUp DaaS IQ API
-  slug: controlup-daas-iq-api
-- description: Synthetic monitoring API (the former Scoutbees product) — create and manage EUC Scouts that log into Citrix, Horizon, AVD and other virtual desktop stacks on a schedule, and Network Scouts that test H
-  name: ControlUp Synthetic Monitoring API
-  slug: controlup-synthetic-monitoring-api
-- description: 'Workflow automation API — list, retrieve, enable/disable and delete flows, list flow runs, manage forms, and enumerate integrations together with their available actions, action input/output schemas, '
-  name: ControlUp Workflows API
-  slug: controlup-workflows-api
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
   name: ControlUp MCP Server
   slug: controlup-mcp-server
-artifact_total: 18
+- description: Alerts let you receive notifications or automatically run an action when certain conditions occur on a device.
+  name: ControlUp Alerts API
+  slug: controlup-alerts-api
+- description: The Alerts - Devices API from ControlUp — 2 operation(s) for alerts - devices.
+  name: ControlUp Alerts - Devices API
+  slug: controlup-alerts-devices-api
+- description: Applications usage reports
+  name: ControlUp Applications API
+  slug: controlup-applications-api
+- description: The Audit Log API from ControlUp — 1 operation(s) for audit log.
+  name: ControlUp Audit Log API
+  slug: controlup-audit-log-api
+- description: The Cloud providers API from ControlUp — 3 operation(s) for cloud providers.
+  name: ControlUp Cloud providers API
+  slug: controlup-cloud-providers-api
+- description: The DAL (data access layer) is an advanced way to get data from an index.
+  name: ControlUp Dal API
+  slug: controlup-dal-api
+- description: These endpoints are for interacting with the raw data stored in data indices.
+  name: ControlUp Data API
+  slug: controlup-data-api
+- description: Get information about devices.
+  name: ControlUp Devices API
+  slug: controlup-devices-api
+- description: Dynamic SQL transformation and execution
+  name: ControlUp Dynamic Query API API
+  slug: controlup-dynamic-query-api-api
+- description: The System Events log reports important events and alerts in your ControlUp for Desktops environment.
+  name: ControlUp Events API
+  slug: controlup-events-api
+- description: The Features API from ControlUp — 2 operation(s) for features.
+  name: ControlUp Features API
+  slug: controlup-features-api
+- description: The Health API from ControlUp — 3 operation(s) for health.
+  name: ControlUp Health API
+  slug: controlup-health-api
+- description: Hives are the locations from which Scouts (tests) are initiated. Custom Hives allow you to test internal resources from within your network. They must be installed on a computer with access to your ne
+  name: ControlUp Hives API
+  slug: controlup-hives-api
+- description: Host usage reports
+  name: ControlUp Host API
+  slug: controlup-host-api
+- description: The Host pool cost API from ControlUp — 4 operation(s) for host pool cost.
+  name: ControlUp Host pool cost API
+  slug: controlup-host-pool-cost-api
+- description: The Host pool deployments API from ControlUp — 1 operation(s) for host pool deployments.
+  name: ControlUp Host pool deployments API
+  slug: controlup-host-pool-deployments-api
+- description: The Host pool scaling policies API from ControlUp — 2 operation(s) for host pool scaling policies.
+  name: ControlUp Host pool scaling policies API
+  slug: controlup-host-pool-scaling-policies-api
+- description: The Host pool session host deployments API from ControlUp — 1 operation(s) for host pool session host deployments.
+  name: ControlUp Host pool session host deployments API
+  slug: controlup-host-pool-session-host-deployments-api
+- description: The Host pool session hosts API from ControlUp — 1 operation(s) for host pool session hosts.
+  name: ControlUp Host pool session hosts API
+  slug: controlup-host-pool-session-hosts-api
+- description: The Host pool user sessions API from ControlUp — 1 operation(s) for host pool user sessions.
+  name: ControlUp Host pool user sessions API
+  slug: controlup-host-pool-user-sessions-api
+- description: The Host pool VM settings API from ControlUp — 2 operation(s) for host pool vm settings.
+  name: ControlUp Host pool VM settings API
+  slug: controlup-host-pool-vm-settings-api
+- description: The Host pools API from ControlUp — 6 operation(s) for host pools.
+  name: ControlUp Host pools API
+  slug: controlup-host-pools-api
+- description: The Integrations API from ControlUp — 1 operation(s) for integrations.
+  name: ControlUp Integrations API
+  slug: controlup-integrations-api
+- description: The Invitations API from ControlUp — 1 operation(s) for invitations.
+  name: ControlUp Invitations API
+  slug: controlup-invitations-api
+- description: The IP Allowlist API from ControlUp — 2 operation(s) for ip allowlist.
+  name: ControlUp IP Allowlist API
+  slug: controlup-ip-allowlist-api
+- description: The Jobs API from ControlUp — 8 operation(s) for jobs.
+  name: ControlUp Jobs API
+  slug: controlup-jobs-api
+- description: The License API from ControlUp — 1 operation(s) for license.
+  name: ControlUp License API
+  slug: controlup-license-api
+- description: The License Usage API from ControlUp — 1 operation(s) for license usage.
+  name: ControlUp License Usage API
+  slug: controlup-license-usage-api
+- description: Machine usage reports
+  name: ControlUp Machine API
+  slug: controlup-machine-api
+- description: Endpoints to manage and query machines
+  name: ControlUp Machines API
+  slug: controlup-machines-api
+- description: The Master images API from ControlUp — 20 operation(s) for master images.
+  name: ControlUp Master images API
+  slug: controlup-master-images-api
+- description: Endpoints to manage and query metrics
+  name: ControlUp Metrics API
+  slug: controlup-metrics-api
+- description: Multi-factor authentication (MFA) is supported for gateway access on all EUC platforms except Citrix Storefront. Use this resource to retrieve the sets of usernames and phone numbers that have been co
+  name: ControlUp MF As API
+  slug: controlup-mfas-api
+- description: Netscaler usage reports
+  name: ControlUp Net Scaler API
+  slug: controlup-netscaler-api
+- description: The Onboarding API from ControlUp — 5 operation(s) for onboarding.
+  name: ControlUp Onboarding API
+  slug: controlup-onboarding-api
+- description: The Organization Settings API from ControlUp — 1 operation(s) for organization settings.
+  name: ControlUp Organization Settings API
+  slug: controlup-organization-settings-api
+- description: The Organizations API from ControlUp — 2 operation(s) for organizations.
+  name: ControlUp Organizations API
+  slug: controlup-organizations-api
+- description: The Overview API from ControlUp — 11 operation(s) for overview.
+  name: ControlUp Overview API
+  slug: controlup-overview-api
+- description: Process usage reports
+  name: ControlUp Processes API
+  slug: controlup-processes-api
+- description: The Public API API from ControlUp — 11 operation(s) for public api.
+  name: ControlUp Public API API
+  slug: controlup-public-api-api
+- description: The Roles API from ControlUp — 2 operation(s) for roles.
+  name: ControlUp Roles API
+  slug: controlup-roles-api
+- description: The SAML API from ControlUp — 2 operation(s) for saml.
+  name: ControlUp SAML API
+  slug: controlup-saml-api
+- description: The Scaling profiles API from ControlUp — 3 operation(s) for scaling profiles.
+  name: ControlUp Scaling profiles API
+  slug: controlup-scaling-profiles-api
+- description: 'Scouts are the proactive tests that you configure to monitor the availability and health of various resources. There are different types of Scouts, depending on the type of resource you want to test. '
+  name: ControlUp Scouts API
+  slug: controlup-scouts-api
+- description: The Scripts API from ControlUp — 1 operation(s) for scripts.
+  name: ControlUp Scripts API
+  slug: controlup-scripts-api
+- description: Session statistics report
+  name: ControlUp Session API
+  slug: controlup-session-api
+- description: The Session hosts API from ControlUp — 2 operation(s) for session hosts.
+  name: ControlUp Session hosts API
+  slug: controlup-session-hosts-api
+- description: The SSO Groups API from ControlUp — 2 operation(s) for sso groups.
+  name: ControlUp SSO Groups API
+  slug: controlup-sso-groups-api
+- description: The Subscriptions API from ControlUp — 27 operation(s) for subscriptions.
+  name: ControlUp Subscriptions API
+  slug: controlup-subscriptions-api
+- description: Provides an additional information about customer's data
+  name: ControlUp Support endpoint API
+  slug: controlup-support-endpoint-api
+- description: These endpoints are for interacting with Employee Sentiment surveys.
+  name: ControlUp Surveys API
+  slug: controlup-surveys-api
+- description: The Tags API from ControlUp — 2 operation(s) for tags.
+  name: ControlUp Tags API
+  slug: controlup-tags-api
+- description: The Tenants API from ControlUp — 23 operation(s) for tenants.
+  name: ControlUp Tenants API
+  slug: controlup-tenants-api
+- description: The output of the scout tests
+  name: ControlUp Tests API
+  slug: controlup-tests-api
+- description: The Triggers API from ControlUp — 2 operation(s) for triggers.
+  name: ControlUp Triggers API
+  slug: controlup-triggers-api
+- description: The TriggerSchedules API from ControlUp — 2 operation(s) for triggerschedules.
+  name: ControlUp Trigger Schedules API
+  slug: controlup-triggerschedules-api
+- description: User activity reports
+  name: ControlUp User API
+  slug: controlup-user-api
+- description: The User sessions API from ControlUp — 1 operation(s) for user sessions.
+  name: ControlUp User sessions API
+  slug: controlup-user-sessions-api
+- description: The Users API from ControlUp — 4 operation(s) for users.
+  name: ControlUp Users API
+  slug: controlup-users-api
+- description: Windows Event Log Monitoring history
+  name: ControlUp Windows Events API
+  slug: controlup-windowsevents-api
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Controlup Webhooks
@@ -285,27 +435,27 @@ modified: '2026-08-04'
 name: ControlUp
 nav: Providers
 network: true
-overview: 'ControlUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including ONE Platform API, Events and Alerts API, for Desktops API, and 7 more. Tagged areas include digital-employee-experience, endpoint-management, vdi, daas, and virtual-desktop.
+overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include digital-employee-experience, endpoint-management, vdi, daas, and virtual-desktop.
 
 
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
-random_paper: 94
+random_paper: 70
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits
   slug: controlup-rate-limits
 score:
-  band: exemplar
-  composite: 68.2
-  delta: 0.0
+  band: strong
+  composite: 65.4
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.5
+    contract_quality: 67.8
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 68.5
     governance: 11.5
     operational_transparency: 100.0
   previous_composite: 68.2
@@ -319,8 +469,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:
 - kind: authentication
   name: Controlup Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ overview: 'Paradigm Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Paradigm Health''s developer surface includes support and 7 more developer resources.'
-random_paper: 43
+random_paper: 4
 score:
   band: emerging
   composite: 14.5
@@ -96,8 +96,9 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paradigm-health/refs/heads/main/screenshots/paradigm-health-2026-08-07T191359.png
 security:
 - kind: domain-security
   name: Paradigm Health Domain Security

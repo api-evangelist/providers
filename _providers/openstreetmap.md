@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 18
   slug: openstreetmap-agentic-access
   summary_line: 18 operations · 8 acting
-api_count: 9
+api_count: 11
 apis:
 - description: The Overpass API is a read-only database engine for complex geospatial queries against the OSM dataset. Accepts Overpass QL or XML queries and returns results in XML, JSON, GeoJSON, or CSV. Safe usage
   name: OpenStreetMap Overpass API
@@ -66,7 +66,13 @@ apis:
 - description: OSM way (line/polygon) operations
   name: OpenStreetMap Ways API
   slug: openstreetmap-ways-api
-artifact_total: 54
+- description: Forward geocoding, reverse geocoding, and OSM object lookup
+  name: OpenStreetMap Geocoding API
+  slug: openstreetmap-geocoding-api
+- description: Server status and version information
+  name: OpenStreetMap Status API
+  slug: openstreetmap-status-api
+artifact_total: 56
 collections:
 - collection_type: postman
   name: OpenStreetMap API v0.6 Capabilities API
@@ -266,7 +272,7 @@ modified: '2026-05-19'
 name: OpenStreetMap
 nav: Providers
 network: true
-overview: 'OpenStreetMap publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Changesets API, Map Data API, and 5 more. Tagged areas include Geospatial, Mapping, Open Data, Geocoding, and Editing.
+overview: 'OpenStreetMap publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Changesets API, Map Data API, and 7 more. Tagged areas include Geospatial, Mapping, Open Data, Geocoding, and Editing.
 
 
   The OpenStreetMap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -277,7 +283,7 @@ plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
   slug: openstreetmap-plans-pricing
-random_paper: 59
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Openstreetmap Rate Limits
@@ -298,11 +304,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 61.0
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.7
+    contract_quality: 71.8
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 58.3
@@ -322,7 +328,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

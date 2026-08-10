@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -169,7 +169,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 1
   slug: knock-plans-pricing
-random_paper: 82
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Knock Rate Limits
@@ -209,7 +209,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Nike Creates New Innovation Engine to Power Athletes ...
   url: https://about.nike.com/en/newsroom/releases/nike-new-innovation-engine-announcement
-random_paper: 84
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Nike Rate Limits
@@ -97,7 +97,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png
 security:

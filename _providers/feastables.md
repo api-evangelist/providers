@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol server served from the Feastables origin. Answers initialize and tools/list with no credential (probed 2026-08-01, HTTP 200) and returns five tools with full JSON Sche
@@ -136,7 +136,7 @@ overview: 'Feastables publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Feastables'' developer surface includes documentation, authentication, support, and 19 more developer resources.'
-random_paper: 33
+random_paper: 6
 scopes:
 - name: Feastables Scopes
   scope_count: 4
@@ -159,8 +159,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/feastables/refs/heads/main/screenshots/feastables-2026-08-07T165236.png
 security:
 - kind: authentication
   name: Feastables Authentication

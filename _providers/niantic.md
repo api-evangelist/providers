@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: NSDK 4.x is Niantic Spatial's unified, SDK-first developer platform for Unity, Swift, Android, and ROS 2, exposing VPS 2.0 visual positioning (centimeter-level 6DoF localization), semantic understandi
@@ -124,7 +124,7 @@ overview: 'Niantic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Niantic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: thin
   composite: 29.4
@@ -138,8 +138,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 29.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/niantic/refs/heads/main/screenshots/niantic-2026-08-07T185242.png
 security:
 - kind: authentication
   name: Niantic Authentication

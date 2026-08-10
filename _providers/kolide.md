@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 17
 apis:
 - description: The Admin Users API from Kolide — 2 operation(s) for admin users.
@@ -236,7 +236,7 @@ overview: 'Kolide publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kolide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 67
+random_paper: 52
 score:
   band: strong
   composite: 59.8
@@ -259,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

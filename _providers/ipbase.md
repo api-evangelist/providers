@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API providing geolocation, timezone, currency, connection, and security data for IPv4 and IPv6 addresses. Returns location coordinates, city, region, country, ISP, ASN, proxy/VPN/Tor detection, a
@@ -100,7 +100,7 @@ plans:
 - name: Ipbase Plans Pricing
   plan_count: 5
   slug: ipbase-plans-pricing
-random_paper: 63
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Ipbase Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/screenshots/ipbase-2026-06-20T183549.png
 security:

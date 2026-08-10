@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'AtomicJar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AtomicJar''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 50
+random_paper: 26
 score:
   band: emerging
   composite: 19.5
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicjar/refs/heads/main/screenshots/atomicjar-2026-07-25T201608.png
 security:

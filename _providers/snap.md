@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -166,7 +166,7 @@ overview: 'Snap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 20 more developer resources.'
-random_paper: 95
+random_paper: 86
 scopes:
 - name: Snap Scopes
   scope_count: 0
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

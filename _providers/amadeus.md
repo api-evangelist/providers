@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -7220,7 +7220,7 @@ plans:
 - name: Amadeus Plans Pricing
   plan_count: 3
   slug: amadeus-plans-pricing
-random_paper: 58
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Amadeus Rate Limits
@@ -7244,16 +7244,16 @@ rules:
   slug: amadeus-rules
 score:
   band: exemplar
-  composite: 68.5
+  composite: 68.1
   delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 80.1
+    contract_quality: 78.7
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 68.5
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     contracts:
@@ -7262,7 +7262,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:

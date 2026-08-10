@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
-random_paper: 54
+random_paper: 30
 scopes:
 - name: Hometrack Scopes
   scope_count: 2
@@ -267,8 +267,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:
 - kind: authentication
   name: Hometrack Authentication

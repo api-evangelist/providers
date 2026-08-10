@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 10
@@ -317,7 +317,7 @@ overview: 'RunWhen publishes 51 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunWhen''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 97
+random_paper: 79
 scopes:
 - name: Runwhen Scopes
   scope_count: 3
@@ -346,7 +346,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

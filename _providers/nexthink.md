@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'Nexthink publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nexthink''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 23 more developer resources.'
-random_paper: 82
+random_paper: 61
 scopes:
 - name: Nexthink Scopes
   scope_count: 1
@@ -229,8 +229,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/screenshots/nexthink-2026-08-07T185209.png
 security:
 - kind: authentication
   name: Nexthink Authentication

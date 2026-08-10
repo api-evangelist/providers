@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: 'Isomorphic Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Isomorphic Labs'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 79
+random_paper: 40
 score:
   band: minimal
   composite: 6.3
@@ -136,7 +136,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isomorphic-labs/refs/heads/main/screenshots/isomorphic-labs-2026-06-20T183621.png
 security:

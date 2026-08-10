@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 5
 common:
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: CACI Awarded $290 Million Contract to Provide AI and ...
   url: https://investor.caci.com/news/news-details/2024/CACI-Awarded-290-Million-Contract-to-Provide-AI-and-Geospatial-Expertise-to-the-National-Geospatial-Intelligence-Agency-NGA/default.aspx
-random_paper: 37
+random_paper: 105
 rate_limits:
 - limit_count: 0
   name: Caci International Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/screenshots/caci-international-2026-06-20T173834.png
 security:

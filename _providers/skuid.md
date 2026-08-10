@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ overview: 'Skuid is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Skuid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 12 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: thin
   composite: 28.0
@@ -133,7 +133,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 28.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -28,13 +28,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 10
 apis:
-- description: RESTful HTTP/JSON API for Imgur covering images, albums, the public gallery, comments, accounts, tags, topics, meme generation, and notifications.
-  name: Imgur API v3
-  slug: imgur-api-v3
-artifact_total: 49
+- description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
+  name: Imgur Account API
+  slug: imgur-account-api
+- description: Album creation, retrieval, and image-management operations.
+  name: Imgur Album API
+  slug: imgur-album-api
+- description: OAuth2 token issuance and refresh.
+  name: Imgur Auth API
+  slug: imgur-auth-api
+- description: Comments on gallery items.
+  name: Imgur Comment API
+  slug: imgur-comment-api
+- description: Public gallery listing, voting, sharing, and reporting.
+  name: Imgur Gallery API
+  slug: imgur-gallery-api
+- description: Image upload, retrieval, deletion, favorite, and update operations.
+  name: Imgur Image API
+  slug: imgur-image-api
+- description: Meme generation and meme defaults.
+  name: Imgur Memegen API
+  slug: imgur-memegen-api
+- description: User notification retrieval and dismissal.
+  name: Imgur Notification API
+  slug: imgur-notification-api
+- description: Tag-based gallery browsing and tagging of gallery items.
+  name: Imgur Tags API
+  slug: imgur-tags-api
+- description: Topic listings and topic galleries.
+  name: Imgur Topic API
+  slug: imgur-topic-api
+artifact_total: 58
 common:
 - group: auth
   title: ''
@@ -220,7 +247,7 @@ modified: '2026-05-30'
 name: Imgur
 nav: Providers
 network: true
-overview: 'Imgur publishes 1 API on the [APIs.io](https://apis.io/) network: API v3. Tagged areas include Photography, Images, Image Hosting, Albums, and Gallery.
+overview: 'Imgur publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Album API, Auth API, and 7 more. Tagged areas include Photography, Images, Image Hosting, Albums, and Gallery.
 
 
   The Imgur catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -231,7 +258,7 @@ plans:
 - name: Imgur Plans Pricing
   plan_count: 4
   slug: imgur-plans-pricing
-random_paper: 96
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Imgur Rate Limits
@@ -255,13 +282,13 @@ rules:
   slug: imgur-rules
 score:
   band: strong
-  composite: 56.8
-  delta: 0.0
+  composite: 57.8
+  delta: 1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.1
+    contract_quality: 66.7
     developer_ergonomics: 39.1
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 56.8
@@ -272,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:

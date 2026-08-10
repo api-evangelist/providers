@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -80,7 +80,7 @@ plans:
 - name: Hutchinson Plans Pricing
   plan_count: 1
   slug: hutchinson-plans-pricing
-random_paper: 74
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Hutchinson Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hutchinson/refs/heads/main/screenshots/hutchinson-2026-06-20T182959.png
 security:

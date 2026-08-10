@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
@@ -101,18 +101,18 @@ plans:
 - name: Function Health Plans Pricing
   plan_count: 2
   slug: function-health-plans-pricing
-random_paper: 76
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Function Health Rate Limits
   slug: function-health-rate-limits
 score:
   band: emerging
-  composite: 24.5
-  delta: 0.0
+  composite: 24.4
+  delta: -0.1
   facets:
     commercial_clarity: 36.8
-    contract_quality: 32.3
+    contract_quality: 31.8
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
@@ -125,7 +125,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

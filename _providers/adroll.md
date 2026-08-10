@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -83,7 +83,7 @@ overview: 'AdRoll publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 73
+random_paper: 58
 score:
   band: emerging
   composite: 22.6
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/screenshots/adroll-2026-06-20T165128.png
 security:

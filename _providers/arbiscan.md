@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Arbiscan Plans Pricing
   plan_count: 7
   slug: arbiscan-plans-pricing
-random_paper: 44
+random_paper: 23
 rate_limits:
 - limit_count: 14
   name: Arbiscan Rate Limits
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/screenshots/arbiscan-2026-06-20T172358.png
 security:

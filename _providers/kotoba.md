@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kotoba-transcription-openapi-original.yml
+  url: openapi/_original/kotoba-transcription-openapi-original.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -200,7 +200,7 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
 
 
   Kotoba''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 75
+random_paper: 60
 score:
   band: developing
   composite: 44.2
@@ -230,7 +230,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:

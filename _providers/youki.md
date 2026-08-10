@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: youki is a container runtime written in Rust that implements the OCI runtime specification, providing a memory-safe and high-performance alternative to runc. It supports rootless containers, cgroups v
@@ -343,7 +343,7 @@ plans:
 - name: Youki Plans Pricing
   plan_count: 3
   slug: youki-plans-pricing
-random_paper: 109
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Youki Rate Limits
@@ -370,7 +370,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 40.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: youki
 solutions:

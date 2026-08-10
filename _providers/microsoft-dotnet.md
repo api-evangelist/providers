@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
@@ -103,7 +103,7 @@ plans:
 - name: Microsoft Dotnet Plans Pricing
   plan_count: 3
   slug: microsoft-dotnet-plans-pricing
-random_paper: 99
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Microsoft Dotnet Rate Limits
@@ -121,7 +121,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dotnet/refs/heads/main/screenshots/microsoft-dotnet-2026-06-20T185454.png
 security:

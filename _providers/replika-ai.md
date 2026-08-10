@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 3.6
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 12
 common:
@@ -95,6 +95,14 @@ common:
   title: ''
   type: Notes
   url: ''
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/replika-ai-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/replika-ai-well-known.yml
 created: '2026-05-23'
 description: Replika is a consumer AI companion chatbot created by Luka, Inc., launched November 2017 and now serving 40+ million users. The product personalizes a neural network through user conversations and offers free "friend" plus paid "partner / spouse / sibling / mentor" relationship modes via iOS, Android, Oculus Rift, and a legacy web app at my.replika.com. There is no public developer API or partner program.
 features:
@@ -114,29 +122,29 @@ graphqls:
   slug: replika-ai-graphql
 image: https://replika.com/static/replika-logo.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Replika
 nav: Providers
 network: true
 overview: 'Replika is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Chatbot, Companion, Consumer, and Mental Wellness.
 
 
-  Replika''s developer surface includes support and 14 more developer resources.'
-random_paper: 87
+  Replika''s developer surface includes support and 16 more developer resources.'
+random_paper: 63
 score:
   band: minimal
-  composite: 10.1
-  delta: 0.0
+  composite: 11.9
+  delta: 1.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

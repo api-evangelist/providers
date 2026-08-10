@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Coutts publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Coutts'' developer surface includes authentication, documentation, sandbox, engineering blog, support, getting-started guide, and 24 more developer resources.'
-random_paper: 109
+random_paper: 94
 scopes:
 - name: Coutts Scopes
   scope_count: 3
@@ -214,7 +214,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png
 security:

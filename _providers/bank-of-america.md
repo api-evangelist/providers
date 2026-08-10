@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ press:
 - date: '2026-05-25'
   title: Bank of America's Moynihan Says AI's Economic Benefit Is ' ...
   url: https://www.bloomberg.com/news/articles/2025-12-22/bofa-s-moynihan-says-ai-s-economic-benefit-is-kicking-in-more
-random_paper: 81
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Bank Of America Rate Limits
@@ -374,7 +374,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:

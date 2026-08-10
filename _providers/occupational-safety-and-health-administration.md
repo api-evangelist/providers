@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Occupational Safety and Health Administration is profiled on the [API
 
 
   Occupational Safety and Health Administration''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 41
+random_paper: 37
 score:
   band: minimal
   composite: 6.6
@@ -79,7 +79,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occupational-safety-and-health-administration/refs/heads/main/screenshots/occupational-safety-and-health-administration-2026-06-20T190602.png
 security:

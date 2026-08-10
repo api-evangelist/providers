@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Structure Therapeutics
 nav: Providers
 network: true
 overview: Structure Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Drug Discovery.
-random_paper: 91
+random_paper: 31
 score:
   band: minimal
   composite: 10.5
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

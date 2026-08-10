@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Navro is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Navro''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 98
+random_paper: 86
 score:
   band: emerging
   composite: 17.6
@@ -111,8 +111,9 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/navro/refs/heads/main/screenshots/navro-2026-08-07T184734.png
 security:
 - kind: domain-security
   name: Navro Domain Security

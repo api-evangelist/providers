@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'Hume Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hume Bank''s developer surface includes authentication, documentation, API reference, pricing, support, and 17 more developer resources.'
-random_paper: 97
+random_paper: 76
 score:
   band: thin
   composite: 39.3
@@ -195,7 +195,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png
 security:

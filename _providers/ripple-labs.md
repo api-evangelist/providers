@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 30 more developer resources.'
-random_paper: 98
+random_paper: 71
 scopes:
 - name: Ripple Labs Scopes
   scope_count: 2
@@ -354,7 +354,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

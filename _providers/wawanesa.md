@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Broker-facing commercial small business API announced by Wawanesa on 2022-03-30, built with HUB International and described by Wawanesa as "fully aligned with CSIO data standards". Per the company ann
@@ -132,7 +132,7 @@ overview: 'Wawanesa Insurance publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Wawanesa Insurance''s developer surface includes authentication, engineering blog, product news, support, YouTube channel, and 18 more developer resources.'
-random_paper: 64
+random_paper: 43
 scopes:
 - name: Wawanesa Scopes
   scope_count: 0
@@ -159,7 +159,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

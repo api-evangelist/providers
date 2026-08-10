@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ plans:
 - name: Fluent Bit Plans Pricing
   plan_count: 3
   slug: fluent-bit-plans-pricing
-random_paper: 1
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Fluent Bit Rate Limits
@@ -139,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/screenshots/fluent-bit-2026-06-20T181333.png
 security:

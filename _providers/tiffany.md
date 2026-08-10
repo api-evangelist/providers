@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing, customization, and purchase of jewelry, watches, accessories, and home items. The platform supports pro
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Disclaimer missing on likely AI-generated Tom Tiffany ...
   url: https://isthmus.com/news/news/disclaimer-missing-on-likely-ai-generated-tom-tiffany-campaign-ad/
-random_paper: 75
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Tiffany Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiffany/refs/heads/main/screenshots/tiffany-2026-06-20T195341.png
 security:

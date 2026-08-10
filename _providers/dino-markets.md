@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Versioned REST API (/v2/) for matched cross-venue market catalog, priced arbitrage view, pair history, leagues, coverage, bad-arb reporting, and stream-ticket minting. Bearer API key auth (sk_live_).
@@ -36,17 +36,21 @@ apis:
 - description: Native hosted Streamable HTTP MCP server exposing 7 tools (list_markets, find_arbitrage, get_market, list_leagues, get_coverage, report_bad_arb, watch_markets). Accepts the same sk_live_ API key. Free
   name: dino.markets MCP Server
   slug: dinomarkets-mcp-server
-artifact_total: 2
+artifact_total: 3
 created: '2026-07-08'
 description: Real-time cross-venue sports prediction-market data. Matches the same game across Kalshi and Polymarket, computes live cross-venue arbitrage sized to fillable depth, and streams it via REST, WebSocket, and a native MCP server. Operated by Nusantara Ventures LLC. Not a broker; not financial advice.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dino-markets.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-08'
 name: dino.markets
 nav: Providers
 network: true
 overview: 'dino.markets publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include prediction-markets, sports, arbitrage, kalshi, and polymarket.'
-random_paper: 100
+random_paper: 70
 score:
   band: minimal
   composite: 12.2
@@ -66,7 +70,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: dino-markets
 tags:

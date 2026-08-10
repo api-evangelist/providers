@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: How Clorox Used AI and Chatbots for Customer Service ...
   url: https://www.chiefmarketer.com/how-clorox-used-ai-and-chatbots-for-customer-service-inquiries-during-the-pandemic/
-random_paper: 98
+random_paper: 83
 score:
   band: minimal
   composite: 9.7
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clorox/refs/heads/main/screenshots/clorox-2026-06-20T174533.png
 security:

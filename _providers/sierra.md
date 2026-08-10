@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Sierra Agent OS is the enterprise platform for building, deploying, and operating customer-facing AI agents. It includes Agent Studio, Ghostwriter, Insights, the Agent Data Platform, Voice Agents, and
   name: Sierra Agent OS
   slug: agent-os
-artifact_total: 21
+artifact_total: 28
 common:
 - group: auth
   title: ''
@@ -96,6 +96,34 @@ common:
   title: ''
   type: Compliance
   url: ''
+- group: start
+  title: ''
+  type: Portal
+  url: https://sierra.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.sierra.ai
+- group: other
+  title: ''
+  type: Resources
+  url: https://sierra.ai/resources
+- group: company
+  title: ''
+  type: Careers
+  url: https://sierra.ai/careers
+- group: operate
+  title: ''
+  type: Contact
+  url: https://sierra.ai/contact
+- group: other
+  title: ''
+  type: Events
+  url: https://sierra.ai/summit
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/sierraplatform
 created: '2026-05-23'
 description: Sierra is an enterprise conversational AI platform co-founded by Bret Taylor that builds and operates customer-facing AI agents across chat, SMS, WhatsApp, email, voice, and ChatGPT. Its Agent OS includes Agent Studio for building agents, Ghostwriter for agent generation from SOPs and transcripts, Insights for analytics, an Agent Data Platform for personalization, Voice Agents, and Live Assist for human handoff. Sierra is enterprise sales-led with no self-serve public developer API; integrations and Agent SDK access are provisioned through customer engagements.
 features:
@@ -128,31 +156,31 @@ integrations:
 - description: Cloud infrastructure and data connector.
   name: AWS
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Sierra
 nav: Providers
 network: true
 overview: 'Sierra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, AI, Chat, Conversational AI, and Customer Experience.
 
 
-  Sierra''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
+  Sierra''s developer surface includes engineering blog, pricing, support, developer portal, documentation, and 15 more developer resources.'
 plans:
 - name: Sierra Plans Pricing
   plan_count: 1
   slug: sierra-plans-pricing
-random_paper: 81
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Sierra Rate Limits
   slug: sierra-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: 0.0
+  composite: 32.4
+  delta: 2.9
   facets:
     commercial_clarity: 89.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
+    developer_ergonomics: 23.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
@@ -164,9 +192,9 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/sierra/refs/heads/main/screenshots/sierra-2026-06-20T193900.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/sierra/refs/heads/main/screenshots/sierra-2026-06-20T193901.png
 security:
 - kind: domain-security
   name: Sierra Domain Security
@@ -181,6 +209,21 @@ security:
   slug: sierra-trust-center
   summary_line: PCI DSS, HIPAA
 slug: sierra
+solutions:
+- description: Vertical solution for banks, fintechs, and lenders with compliance tooling and case templates.
+  name: Financial Services
+- description: HIPAA-aligned deployments for payers, providers, and digital health.
+  name: Healthcare
+- description: Carrier-grade agents for plan changes, troubleshooting, and retention.
+  name: Telecommunications
+- description: Subscription lifecycle and content support.
+  name: Media and Subscriptions
+- description: Booking, itinerary changes, and concierge experiences (Woodside Collection).
+  name: Travel and Hospitality
+- description: Pre-purchase, post-purchase, and loyalty agents.
+  name: Retail
+- description: Developer tools and SaaS support workflows.
+  name: Technology
 tags:
 - Agents
 - AI

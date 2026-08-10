@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Chimoney Plans Pricing
   plan_count: 3
   slug: chimoney-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Chimoney Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/screenshots/chimoney-2026-07-25T205233.png
 security:

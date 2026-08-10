@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 44
+random_paper: 20
 scopes:
 - name: Clarifeye Scopes
   scope_count: 3
@@ -236,7 +236,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/screenshots/clarifeye-2026-07-25T205502.png
 security:

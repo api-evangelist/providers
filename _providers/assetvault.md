@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'AssetVault is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AssetVault''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 83
+random_paper: 56
 score:
   band: minimal
   composite: 6.0
@@ -75,7 +75,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assetvault/refs/heads/main/screenshots/assetvault-2026-07-25T201441.png
 security:

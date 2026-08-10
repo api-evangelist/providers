@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ plans:
 - name: Supabase Plans Pricing
   plan_count: 4
   slug: supabase-plans-pricing
-random_paper: 61
+random_paper: 40
 rate_limits:
 - limit_count: 8
   name: Supabase Rate Limits
@@ -309,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:

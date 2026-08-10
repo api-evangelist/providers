@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The QORTEX DTC API is the integration surface of Quanergy's detect-track-classify perception server. A gRPC service on port 17177 (Protocol Buffers 3) covers zone, counter-line, rule, PTZ camera, sett
@@ -169,7 +169,7 @@ overview: 'Quanergy publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Quanergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, YouTube channel, CLI, and 24 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: thin
   composite: 40.9
@@ -185,7 +185,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

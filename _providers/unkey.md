@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -63,7 +63,7 @@ apis:
 - description: Rate limiting operations
   name: Unkey ratelimit API
   slug: unkey-ratelimit-api
-artifact_total: 213
+artifact_total: 214
 collections:
 - collection_type: postman
   name: Unkey analytics API
@@ -89,6 +89,9 @@ collections:
 - collection_type: postman
   name: Unkey analytics ratelimit API
   slug: postman-unkey-ratelimit-api
+- collection_type: open
+  name: Unkey API
+  slug: open-unkey-dev
 - collection_type: open
   name: Unkey API
   slug: open-unkey
@@ -145,6 +148,22 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/json-ld/unkey-context.jsonld
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/unkeyed
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/unkey-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/unkey-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/unkey-finops.yml
 created: '2026-03-16'
 description: Unkey is the developer platform for modern APIs, providing globally distributed API key management, rate limiting, identity management, analytics, and deployment capabilities. The platform enables API providers to issue, verify, and revoke keys with metadata, expiration, usage credits, permissions, and roles — without managing any infrastructure.
 examples:
@@ -691,7 +710,7 @@ jsonld:
   property_count: 33
   slug: unkey-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Unkey
 nav: Providers
 network: true
@@ -701,12 +720,12 @@ overview: 'Unkey publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Unkey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unkey''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, changelog, and 7 more developer resources.'
+  Unkey''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, changelog, and 11 more developer resources.'
 plans:
 - name: Unkey Plans Pricing
   plan_count: 4
   slug: unkey-plans-pricing
-random_paper: 104
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Unkey Rate Limits
@@ -748,7 +767,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:

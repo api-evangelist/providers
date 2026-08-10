@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Apptronik is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Apptronik''s developer surface includes product news, YouTube channel, and 11 more developer resources.'
-random_paper: 80
+random_paper: 56
 score:
   band: minimal
   composite: 8.9
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptronik/refs/heads/main/screenshots/apptronik-2026-06-20T172336.png
 security:

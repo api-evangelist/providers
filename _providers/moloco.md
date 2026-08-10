@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -239,7 +239,7 @@ overview: 'MOLOCO publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MOLOCO''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
-random_paper: 84
+random_paper: 69
 rate_limits:
 - limit_count: 11
   name: Moloco Rate Limits
@@ -272,8 +272,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:
 - kind: authentication
   name: Moloco Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -120,7 +120,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/breeze-openapi-original.json
+  url: openapi/_original/breeze-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -197,7 +197,7 @@ overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 72
+random_paper: 57
 score:
   band: thin
   composite: 38.6
@@ -227,7 +227,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/screenshots/breeze-2026-07-25T203743.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ overview: 'Mavenir publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 29 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: thin
   composite: 40.6
@@ -232,8 +232,9 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:
 - kind: authentication
   name: Mavenir Authentication

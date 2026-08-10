@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abound''s developer surface includes authentication, sandbox, and 19 more developer resources.'
-random_paper: 68
+random_paper: 53
 score:
   band: thin
   composite: 35.2
@@ -229,7 +229,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

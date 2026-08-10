@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The read/write REST interface a Snapchain node serves on port 3381 under the /v1 path. Read endpoints (casts, reactions, links, user data, verifications, fids, username proofs, storage limits, on-chai
@@ -100,7 +100,7 @@ overview: 'Merkle Manufactory Inc. publishes 1 API on the [APIs.io](https://apis
 
 
   Merkle Manufactory Inc.''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 90
+random_paper: 33
 score:
   band: emerging
   composite: 20.9
@@ -114,8 +114,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-manufactory-inc/refs/heads/main/screenshots/merkle-manufactory-inc-2026-08-07T172606.png
 security:
 - kind: authentication
   name: Merkle Manufactory Inc Authentication

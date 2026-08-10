@@ -24,12 +24,12 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 3.6
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -59,28 +59,32 @@ common:
   title: ''
   type: Login
   url: https://app.sidecarhealth.com/login
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sidecar-health-well-known.yml
 created: '2026-07-17'
 description: Sidecar Health is a health insurance company founded in 2018 by Patrick Quigley and Veronica Osetinsky and headquartered in Columbus, Ohio. It was built to bring transparency to healthcare pricing, letting members see upfront cash prices for care and share in the savings. After launching with supplemental coverage for individuals, Sidecar established its own insurance carrier in 2021 and today serves large employers with ACA-compliant major medical plans, offered both fully insured and as administrative-services-only (ASO) for self-funded employers. It covers members in 46 states across partners in 50 industries. Sidecar Health operates member, provider, broker, and employer web portals plus a mobile app, but publishes no public developer API, OpenAPI, or partner-integration documentation; this profile captures its public identity and domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidecar-health.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Sidecar Health
 nav: Providers
 network: true
 overview: 'Sidecar Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Healthcare, Insurance, and Employer Benefits.
 
 
-  Sidecar Health''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 50
+  Sidecar Health''s developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 14
 score:
   band: emerging
-  composite: 16.1
-  delta: 0.0
+  composite: 17.0
+  delta: 0.9
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.1
@@ -91,13 +95,17 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security
   name: Sidecar Health Domain Security
   slug: sidecar-health-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Sidecar Health Trust Center
+  slug: sidecar-health-trust-center
+  summary_line: trust center published
 slug: sidecar-health
 tags:
 - Company

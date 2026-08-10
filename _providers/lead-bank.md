@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Lead Bank Plans Pricing
   plan_count: 1
   slug: lead-bank-plans-pricing
-random_paper: 72
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Lead Bank Rate Limits
@@ -202,7 +202,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/screenshots/lead-bank-2026-06-20T184345.png
 security:

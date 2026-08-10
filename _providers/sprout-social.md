@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -124,7 +124,7 @@ plans:
 - name: Sprout Social Plans Pricing
   plan_count: 5
   slug: sprout-social-plans-pricing
-random_paper: 9
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Sprout Social Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: telecommunications
     score: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

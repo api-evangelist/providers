@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ plans:
 - name: Imdb Api Plans Pricing
   plan_count: 4
   slug: imdb-api-plans-pricing
-random_paper: 93
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Imdb Api Rate Limits
@@ -296,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/screenshots/imdb-api-2026-06-20T183246.png
 security:

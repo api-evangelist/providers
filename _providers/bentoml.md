@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -335,7 +335,7 @@ plans:
 - name: Bentoml Plans Pricing
   plan_count: 3
   slug: bentoml-plans-pricing
-random_paper: 75
+random_paper: 57
 rate_limits:
 - limit_count: 6
   name: Bentoml Rate Limits
@@ -369,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:

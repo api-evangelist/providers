@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Neptune Networks is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Neptune Networks'' developer surface includes support and 6 more developer resources.'
-random_paper: 10
+random_paper: 81
 score:
   band: emerging
   composite: 15.2
@@ -91,8 +91,9 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neptune-networks/refs/heads/main/screenshots/neptune-networks-2026-08-07T184858.png
 security:
 - kind: domain-security
   name: Neptune Networks Domain Security

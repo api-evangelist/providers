@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -507,7 +507,7 @@ plans:
 - name: Gmx Plans Pricing
   plan_count: 1
   slug: gmx-plans-pricing
-random_paper: 106
+random_paper: 100
 rate_limits:
 - limit_count: 3
   name: Gmx Rate Limits
@@ -547,7 +547,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:

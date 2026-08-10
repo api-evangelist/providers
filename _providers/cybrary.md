@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -28,9 +28,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: 'REST API that exposes daily completion events for a Cybrary for Teams organization. A completion event is generated whenever a member of the organization completes a course, lab, assessment or career '
-  name: Cybrary Completions Export API
-  slug: completions-export
+- description: Daily completion-event exports as xAPI statements.
+  name: Cybrary Completions API
+  slug: cybrary-completions-api
 artifact_total: 7
 common:
 - group: company
@@ -162,11 +162,11 @@ modified: '2026-08-04'
 name: Cybrary
 nav: Providers
 network: true
-overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: Completions Export API. Tagged areas include Company, Cybersecurity, Training, Education, and Learning Management.
+overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Cybersecurity, Training, Education, and Learning Management.
 
 
   Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 86
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Cybrary Rate Limits
@@ -178,11 +178,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 38.0
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 17.1
+    contract_quality: 16.1
     developer_ergonomics: 45.1
     discoverability: 87.0
     governance: 20.8
@@ -199,8 +199,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
 security:
 - kind: authentication
   name: Cybrary Authentication

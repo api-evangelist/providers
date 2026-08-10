@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -35,10 +35,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/invetx-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: invetx.com
 created: '2026-07-17'
 description: Invetx was a Boston-based veterinary biotechnology company developing protein-based therapeutics — species-specific, half-life-extended monoclonal antibodies (mAbs) — for chronic conditions in companion animals (dogs and cats). Its integrated platform spanned antibody discovery, optimization, Fc-variant half-life extension, development and manufacturing, with lead program IVX-01. Backed by GV, F-Prime Capital, Novo Holdings, Eight Roads, Anterra Capital, Casdin Capital and Tekla, Invetx was acquired by Dechra Pharmaceuticals in July 2024 for up to $520M. It exposes no public API, developer, or documentation surface, and its standalone website (invetx.com) has been decommissioned since the acquisition; this profile is retained as a network lead / portfolio record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invetx.png
@@ -48,7 +44,7 @@ name: Invetx *
 nav: Providers
 network: true
 overview: Invetx * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Animal Health, and Veterinary.
-random_paper: 105
+random_paper: 90
 score:
   band: minimal
   composite: 5.4
@@ -68,7 +64,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

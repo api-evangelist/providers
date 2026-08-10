@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'The Comet REST API exposes read endpoints (workspace, project, experiment data), write endpoints (data submission), and Model Production Monitoring (MPM) endpoints. Authentication uses an API key via '
@@ -115,7 +115,7 @@ plans:
 - name: Comet Ml Plans Pricing
   plan_count: 1
   slug: comet-ml-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Comet Ml Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/screenshots/comet-ml-2026-06-20T174806.png
 security:

@@ -27,7 +27,7 @@
       "developer_ergonomics": 40.8,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -61,6 +61,7 @@
      "name": "Open",
      "slug": "open-insurance",
      "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading as Open, is an Australian insurtech and underwriting agency that packages car, home and contents, landlord and travel cover as an embedded product other brands can sell. Open is not a carrier — it holds a binding authority from the insurer, acts as the insurer's agent to issue, vary, renew and cancel policies and to handle claims, and appoints partner brands as authorised representatives. Huddle Insurance is a business name of Open, and partner programs include Bupa and the SuperSaveClub marketplace; the business also operates in the United Kingdom and New Zealand from its Australian home market. Its API posture is real but narrow and partner-gated. Open runs a public, unauthenticated ReadMe developer hub at developers.beopen.com covering the Open.js browser SDK, the Open.Widget embed and a URL-handover redirect, plus exactly one documented server-side REST operation — POST /v1/policy/coc, Retrieve a Certificate of Currency — for which a real OpenAPI 3.0.3 definition is published. Quote is only prepared and polled through the SDK; bind, issue, policy servicing and claims all happen inside Open's hosted (optionally white-labelled) journey rather than over an API, and there is no public FNOL, webhook, GraphQL or Postman surface. API keys and secrets are issued by Open at partner account creation — there is no self-serve signup — and no ACORD, AL3 or NGDS reference appears anywhere on the site or in the documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png",
      "score": 48.4,
      "band": "developing",
      "band_label": "Developing",
@@ -72,7 +73,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -118,7 +119,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -174,7 +175,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -219,7 +220,7 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -264,7 +265,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -310,7 +311,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -356,7 +357,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -402,7 +403,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -448,7 +449,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -482,6 +483,7 @@
      "name": "nib",
      "slug": "nib-health-funds",
      "description": "nib holdings limited (ASX:NHF), trading as nib, is an Australian private health insurer headquartered in Newcastle, New South Wales, and one of the country's largest health funds alongside Medibank, Bupa and HCF. Its lines of business span Australian residents health insurance, New Zealand health insurance through nib nz insurance limited, international workers and overseas student health cover (OSHC), travel insurance, and nib Thrive, its National Disability Insurance Scheme plan-management arm. As a private health insurer it is regulated by APRA and the Private Health Insurance Act rather than by an open-data mandate — Australia's Consumer Data Right was designated to extend to general insurance and then deferred, and it never reached private health insurance at all, so there is no regulatory forcing function pushing nib toward public APIs. Its API posture reflects that exactly: nib publishes no public, self-serve developer portal and no downloadable OpenAPI definitions. Probes of developer.nib.com.au, developers.nib.com.au, docs.nib.com.au and api.nib.com.au do not resolve, and /developers, /api, /developer, /partners and /integrations on nib.com.au all return 404. A real AWS API Gateway host, api-gateway.nib.com.au, is referenced by nib's own web front-end Content-Security-Policy and answers anonymously with HTTP 403 {\"message\":\"Forbidden\"}, confirming a first-party, credential-gated gateway with no public documentation. Healthcare provider integration runs through the login-walled nib HCP portal and through third-party claiming terminals — HICAPS and HealthPoint — plus Honeysuckle Health for medical network and MediGap registration, not through an nib-published API. Member identity is an Auth0-backed OpenID Connect tenant at id.nib.com.au whose discovery document is publicly readable, as is an RFC 9116 security.txt at www.nib.com.au naming security@nib.com.au. nib also publishes three first-party npm scopes (@nib, @nib-styles, @nib-components) across four public GitHub organisations, but they carry frontend and DevOps tooling rather than any API client library. nib is recorded here as an honest partner-gated stub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/screenshots/nib-health-funds-2026-08-07T185245.png",
      "score": 29.1,
      "band": "thin",
      "band_label": "Thin",
@@ -493,7 +495,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -549,7 +551,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -595,7 +597,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -640,7 +642,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -686,7 +688,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -731,7 +733,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -765,6 +767,7 @@
      "name": "Medibank",
      "slug": "medibank",
      "description": "Medibank Private Limited (ASX: MPL) is Australia's largest private health insurer, headquartered in Melbourne and operating two retail brands, Medibank and ahm, alongside the Amplar Health services arm. Founded in 1976 as a government-owned fund and privatised through an ASX listing in 2014, it underwrites hospital, extras and ambulance cover for Australian residents, Overseas Student Health Cover and Overseas Visitors Health Cover, and distributes travel, pet, life, income protection and accident cover (Recover Boost) alongside its core private health insurance book. Its home market is Australia, where private health insurance is a separately regulated market supervised by APRA and the Private Health Insurance Ombudsman, and where the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred — so there is no open insurance obligation and no CDR seam reaching a health fund like Medibank. Medibank's API posture is fully partner-gated and there is no public API. No developer portal exists on any conventional host: developer, developers, docs and apis subdomains of medibank.com.au do not resolve in DNS, api.medibank.com.au resolves but does not accept public TCP connections on port 443, and /developers, /api, /developer, /partners and /integrations all return HTTP 404 on www.medibank.com.au, whose 1,364-URL sitemap contains no developer or API page at all. The only first-party integration surfaces are login walls and email-gated onboarding: providers.medibank.com.au is a React single-page \"Medibank - Provider Self Service\" application (Provider Central, ESP) that returns its shell for every path, portal.medibank.com.au is a Palo Alto GlobalProtect corporate VPN, and the HCP Portal for Hospital Casemix Protocol submissions is granted only by emailing Medibank's HCP team. The real machine-to-machine claiming rails are third-party and government-operated rather than Medibank-published: ECLIPSE, the Services Australia in-patient online claiming system, carries hospital claims and 25 percent Fund Gap medical claims under claim type \"MB\" and serves Online Eligibility Check with Presenting Illness codes, with ECFWeb and THELMA as alternative eligibility channels and HICAPS and iSOFT terminals handling ancillary claiming. No ACORD reference of any kind appears on Medibank's public estate, which is the expected result — Australian private health insurance runs on ECLIPSE, HCP and the MBS rather than on ACORD AL3 or ACORD XML. No OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, no webhook or event catalog, and no documented authentication scheme could be confirmed anywhere on Medibank's public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/screenshots/medibank-2026-08-07T172342.png",
      "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -776,7 +779,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -821,7 +824,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -877,7 +880,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -923,7 +926,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

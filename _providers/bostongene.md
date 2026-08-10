@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -139,7 +139,7 @@ overview: 'BostonGene is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BostonGene''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 21 more developer resources.'
-random_paper: 59
+random_paper: 32
 scopes:
 - name: Bostongene Scopes
   scope_count: 36
@@ -166,8 +166,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bostongene/refs/heads/main/screenshots/bostongene-2026-08-07T162736.png
 security:
 - kind: authentication
   name: Bostongene Authentication

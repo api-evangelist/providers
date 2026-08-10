@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Substance Abuse And Mental Health Services Administration Plans Pricing
   plan_count: 3
   slug: substance-abuse-and-mental-health-services-administration-plans-pricing
-random_paper: 72
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Substance Abuse And Mental Health Services Administration Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/screenshots/substance-abuse-and-mental-health-services-administration-2026-06-20T194633.png
 security:

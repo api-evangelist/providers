@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -111,7 +111,7 @@ plans:
 - name: Stack Takeoff Plans Pricing
   plan_count: 4
   slug: stack-takeoff-plans-pricing
-random_paper: 72
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Stack Takeoff Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

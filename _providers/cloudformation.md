@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -341,18 +341,6 @@ common:
   title: Spectral Rules
   type: Rules
   url: rules/cloudformation-spectral-rules.yml
-- group: other
-  title: Infrastructure Provisioning Workflow
-  type: Capabilities
-  url: capabilities/infrastructure-provisioning.yaml
-- group: other
-  title: CloudFormation Shared Capability
-  type: Capabilities
-  url: capabilities/shared/cloudformation.yaml
-- group: other
-  title: Cloud Control Shared Capability
-  type: Capabilities
-  url: capabilities/shared/cloud-control.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -733,12 +721,12 @@ overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io
   The AWS CloudFormation catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AWS CloudFormation''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, developer console, and 52 more developer resources.'
+  AWS CloudFormation''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, developer console, and 49 more developer resources.'
 plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
   slug: cloudformation-plans-pricing
-random_paper: 41
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Cloudformation Rate Limits
@@ -780,7 +768,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:

@@ -1,6 +1,79 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 2.7
+  scored_at: '2026-08-10'
 api_count: 1
-artifact_total: 0
+apis:
+- description: 'Autofleet''s public REST API and webhook surface for its fleet and mobility optimization platform — vehicles, drivers, tasks, rides, bookings, routes and dispatch — marketed on the integration page as '
+  name: Autofleet Platform API
+  slug: platform
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://autofleet.io
+- group: company
+  title: ''
+  type: Blog
+  url: https://autofleet.io/resources
+- group: operate
+  title: ''
+  type: Support
+  url: https://autofleet.io/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://autofleet.io/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://autofleet.io/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Autofleet
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autofleet-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/autofleet-packages.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/autofleet-robots.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/autofleet-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/autofleet-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/autofleet-domain-security.yml
 coverage:
   checked: '2026-08-06'
   detail: Autofleet's entire ReadMe developer hub at docs.autofleet.io is password-protected — every path, including /openapi.json, /llms.txt and /sitemap.xml, 302s to /password?redirect=<path> — so although the API gateway at api.autofleet.io is live and the company markets a "public API and webhooks", no endpoint, spec, auth or error reference can be read without a customer password.
@@ -28,7 +101,34 @@ modified: '2026-08-06'
 name: Autofleet
 nav: Providers
 network: true
-random_paper: 65
+overview: 'Autofleet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, Mobility, Transportation, Logistics, and Route Optimization.
+
+
+  Autofleet''s developer surface includes engineering blog, support, and 10 more developer resources.'
+random_paper: 41
+score:
+  band: emerging
+  composite: 18.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 5.3
+  previous_composite: 18.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/screenshots/autofleet-2026-08-07T161953.png
+security:
+- kind: domain-security
+  name: Autofleet Domain Security
+  slug: autofleet-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: autofleet
 tags:
 - Fleet Management
@@ -41,4 +141,5 @@ tags:
 - Car Sharing
 - Telematics
 - Artificial Intelligence
+website: https://autofleet.io
 ---

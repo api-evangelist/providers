@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -305,7 +305,7 @@ overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 14
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
@@ -344,7 +344,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -215,7 +215,7 @@ overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/)
 
 
   Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 55
+random_paper: 13
 scopes:
 - name: Upward Financial Scopes
   scope_count: 9
@@ -249,7 +249,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
   name: SoftwareOne Marketplace Platform API
@@ -40,7 +40,22 @@ apis:
 - description: APIs for software asset management (SAM) workflows including license inventory, compliance reporting, entitlement reconciliation, and vendor audit preparation across on-premises and cloud software est
   name: SoftwareOne Software Asset Management API
   slug: software-asset-management
-artifact_total: 14
+- description: Catalog item lifecycle management
+  name: SoftwareOne Items API
+  slug: softwareone-items-api
+- description: Marketplace listings
+  name: SoftwareOne Listings API
+  slug: softwareone-listings-api
+- description: Product media assets
+  name: SoftwareOne Media API
+  slug: softwareone-media-api
+- description: Product configuration parameters
+  name: SoftwareOne Parameters API
+  slug: softwareone-parameters-api
+- description: Catalog product lifecycle management
+  name: SoftwareOne Products API
+  slug: softwareone-products-api
+artifact_total: 19
 common:
 - group: auth
   title: ''
@@ -117,7 +132,7 @@ modified: '2026-05-02'
 name: SoftwareOne
 nav: Providers
 network: true
-overview: 'SoftwareOne publishes 1 API on the [APIs.io](https://apis.io/) network: Marketplace Platform API. Tagged areas include Marketplace, Software Procurement, Cloud Management, License Management, and SaaS.
+overview: 'SoftwareOne publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Items API, Listings API, Media API, and 2 more. Tagged areas include Marketplace, Software Procurement, Cloud Management, License Management, and SaaS.
 
 
   The SoftwareOne catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -128,7 +143,7 @@ plans:
 - name: Softwareone Plans Pricing
   plan_count: 3
   slug: softwareone-plans-pricing
-random_paper: 67
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Softwareone Rate Limits
@@ -144,11 +159,11 @@ rules:
   slug: softwareone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 44.2
+  delta: -1.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.6
+    contract_quality: 59.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
@@ -161,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:

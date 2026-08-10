@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: GraphQL API for querying Enigma business data — brands, operating locations, legal entities, card transactions, and industries — with text, lookup, natural-language prompt, and async segmentation sear
@@ -163,7 +163,7 @@ overview: 'Enigma publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Enigma''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 60
+random_paper: 45
 score:
   band: thin
   composite: 36.3
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma/refs/heads/main/screenshots/enigma-2026-07-25T213358.png
 security:

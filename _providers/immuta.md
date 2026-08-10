@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -212,7 +212,7 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 
 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 88
+random_paper: 73
 score:
   band: strong
   composite: 59.7
@@ -236,8 +236,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:
 - kind: authentication
   name: Immuta Authentication

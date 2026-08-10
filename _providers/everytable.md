@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Everytable publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Everytable''s developer surface includes documentation, engineering blog, support, pricing, authentication, and 18 more developer resources.'
-random_paper: 58
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Everytable Rate Limits
@@ -175,8 +175,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/screenshots/everytable-2026-08-07T165045.png
 security:
 - kind: authentication
   name: Everytable Authentication

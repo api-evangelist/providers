@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: Retrieves daily performance statistics for dealer inventory including search result page views, vehicle detail page clicks, and lead generation metrics across email, phone, chat, and SMS channels.
@@ -129,7 +129,7 @@ plans:
 - name: Cargurus Plans Pricing
   plan_count: 3
   slug: cargurus-plans-pricing
-random_paper: 85
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Cargurus Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

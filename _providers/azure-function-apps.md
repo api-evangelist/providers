@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ plans:
 - name: Azure Function Apps Plans Pricing
   plan_count: 3
   slug: azure-function-apps-plans-pricing
-random_paper: 26
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Azure Function Apps Rate Limits
@@ -338,25 +338,25 @@ rules:
   slug: azure-function-apps-spectral-rules
 score:
   band: developing
-  composite: 54.1
+  composite: 55.0
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.4
+    contract_quality: 61.2
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.1
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/screenshots/azure-function-apps-2026-06-20T172854.png
 security:

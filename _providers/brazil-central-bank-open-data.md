@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Brazil Central Bank Open Data
@@ -60,7 +60,7 @@ name: Brazil Central Bank Open Data
 nav: Providers
 network: true
 overview: Brazil Central Bank Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 0
+random_paper: 41
 score:
   band: minimal
   composite: 8.2
@@ -80,7 +80,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brazil-central-bank-open-data/refs/heads/main/screenshots/brazil-central-bank-open-data-2026-06-20T173643.png
 security:

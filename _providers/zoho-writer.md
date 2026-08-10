@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Zoho Writer Plans Pricing
   plan_count: 4
   slug: zoho-writer-plans-pricing
-random_paper: 32
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Zoho Writer Rate Limits
@@ -187,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/screenshots/zoho-writer-2026-06-20T201950.png
 security:

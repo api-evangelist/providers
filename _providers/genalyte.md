@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Genalyte is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Genalyte''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 66
+random_paper: 45
 score:
   band: emerging
   composite: 17.6
@@ -121,8 +121,9 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/genalyte/refs/heads/main/screenshots/genalyte-2026-08-07T165605.png
 security:
 - kind: domain-security
   name: Genalyte Domain Security

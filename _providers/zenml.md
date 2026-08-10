@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -267,14 +267,6 @@ common:
   title: ''
   type: Resources
   url: rules/zenml-rules.yml
-- group: other
-  title: ''
-  type: Resources
-  url: capabilities/pipeline-lifecycle.yaml
-- group: other
-  title: ''
-  type: Resources
-  url: capabilities/model-promotion.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -347,12 +339,12 @@ overview: 'ZenML publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The ZenML catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 33 more developer resources.'
+  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 31 more developer resources.'
 plans:
 - name: Zenml Plans Pricing
   plan_count: 3
   slug: zenml-plans-pricing
-random_paper: 98
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Zenml Rate Limits
@@ -394,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:

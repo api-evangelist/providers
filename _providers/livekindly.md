@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -26,15 +26,48 @@ agentic_access:
   operation_count: 83
   slug: livekindly-agentic-access
   summary_line: 83 operations · 44 acting
-api_count: 2
+api_count: 13
 apis:
-- description: The anonymously readable WordPress REST API that thelivekindlyco.com serves at /wp-json/wp/v2 — the corporate newsroom and LiveKindly Blog (39 posts), the corporate site pages (19), the brand director
-  name: LIVEKINDLY Content API (WordPress REST wp/v2)
-  slug: content
 - description: A Model Context Protocol server advertised in the thelivekindlyco.com WordPress REST route index under the "mcp" namespace, with two endpoints — mcp-adapter-default-server and mcp-oauth-server. Unlike
   name: LIVEKINDLY MCP Server (WordPress MCP Adapter)
   slug: mcp
-artifact_total: 7
+- description: The Brands API from LIVEKINDLY — 2 operation(s) for brands.
+  name: LIVEKINDLY Brands API
+  slug: livekindly-brands-api
+- description: The Careers API from LIVEKINDLY — 2 operation(s) for careers.
+  name: LIVEKINDLY Careers API
+  slug: livekindly-careers-api
+- description: The Comments API from LIVEKINDLY — 2 operation(s) for comments.
+  name: LIVEKINDLY Comments API
+  slug: livekindly-comments-api
+- description: The Discovery API from LIVEKINDLY — 7 operation(s) for discovery.
+  name: LIVEKINDLY Discovery API
+  slug: livekindly-discovery-api
+- description: The Media API from LIVEKINDLY — 4 operation(s) for media.
+  name: LIVEKINDLY Media API
+  slug: livekindly-media-api
+- description: The Pages API from LIVEKINDLY — 4 operation(s) for pages.
+  name: LIVEKINDLY Pages API
+  slug: livekindly-pages-api
+- description: The Partners API from LIVEKINDLY — 2 operation(s) for partners.
+  name: LIVEKINDLY Partners API
+  slug: livekindly-partners-api
+- description: The Posts API from LIVEKINDLY — 4 operation(s) for posts.
+  name: LIVEKINDLY Posts API
+  slug: livekindly-posts-api
+- description: The Search API from LIVEKINDLY — 1 operation(s) for search.
+  name: LIVEKINDLY Search API
+  slug: livekindly-search-api
+- description: The Settings API from LIVEKINDLY — 1 operation(s) for settings.
+  name: LIVEKINDLY Settings API
+  slug: livekindly-settings-api
+- description: The Taxonomy API from LIVEKINDLY — 6 operation(s) for taxonomy.
+  name: LIVEKINDLY Taxonomy API
+  slug: livekindly-taxonomy-api
+- description: The Users API from LIVEKINDLY — 6 operation(s) for users.
+  name: LIVEKINDLY Users API
+  slug: livekindly-users-api
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -153,11 +186,11 @@ modified: '2026-08-04'
 name: LIVEKINDLY
 nav: Providers
 network: true
-overview: 'LIVEKINDLY publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Food and Beverage, Plant-Based, Alternative Protein, and Consumer Packaged Goods.
+overview: 'LIVEKINDLY publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Careers API, Comments API, and 9 more. Tagged areas include Company, Food and Beverage, Plant-Based, Alternative Protein, and Consumer Packaged Goods.
 
 
   LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
-random_paper: 66
+random_paper: 39
 scopes:
 - name: Livekindly Scopes
   scope_count: 1
@@ -165,13 +198,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 22.2
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.1
+    contract_quality: 14.1
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 21.9
@@ -186,8 +219,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:
 - kind: authentication
   name: Livekindly Authentication

@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,19 +10,112 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    rate_limit_signal: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-08-10'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Persons Api Agentic Access
+  operation_count: 6
+  slug: persons-api-agentic-access
+  summary_line: 6 operations · 4 acting
 api_count: 1
-artifact_total: 0
+apis:
+- description: Placing and managing of persons placed for persons.
+  name: Persons Persons API
+  slug: persons-api-persons-api
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Persons API
+  slug: open-persons-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/persons-api-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/persons-api-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://apievangelist.com
 created: '2024-12-29'
 description: This is a template APIs.json for a persons API, to be used in storytelling, training, and knowledge bases.
+finops:
+- name: Persons Api Finops
+  service_category: API
+  slug: persons-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/persons-api.png
 layout: provider
 modified: '2026-05-19'
 name: Persons
 nav: Providers
 network: true
-random_paper: 7
+overview: 'Persons publishes 1 API on the [APIs.io](https://apis.io/) network: Persons API. Tagged areas include Application Programming Interface and Persons.
+
+
+  Persons'' developer surface includes authentication and 2 more developer resources.'
+plans:
+- name: Persons Api Plans Pricing
+  plan_count: 3
+  slug: persons-api-plans-pricing
+random_paper: 93
+rate_limits:
+- limit_count: 5
+  name: Persons Api Rate Limits
+  slug: persons-api-rate-limits
+score:
+  band: thin
+  composite: 35.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 63.8
+    developer_ergonomics: 10.9
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 35.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/persons-api/refs/heads/main/screenshots/persons-api-2026-06-20T191617.png
+security:
+- kind: authentication
+  name: Persons Api Authentication
+  slug: persons-api-authentication
+  summary_line: apiKey · 1 scheme
 slug: persons-api
 tags:
 - Application Programming Interface
 - Persons
+website: http://apievangelist.com
 ---

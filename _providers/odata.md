@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Standard OData service endpoints including service document, metadata document, entity set CRUD operations, and batch processing as defined by the OData v4.01 specification.
@@ -97,7 +97,7 @@ plans:
 - name: Odata Plans Pricing
   plan_count: 3
   slug: odata-plans-pricing
-random_paper: 69
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Odata Rate Limits
@@ -121,7 +121,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/screenshots/odata-2026-06-20T190618.png
 security:

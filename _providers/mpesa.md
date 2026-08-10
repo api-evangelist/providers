@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -287,7 +287,7 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 82
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits
@@ -321,8 +321,9 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/screenshots/mpesa-2026-08-07T184414.png
 security:
 - kind: authentication
   name: Mpesa Authentication

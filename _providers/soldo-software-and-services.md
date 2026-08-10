@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -452,7 +452,7 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
 
 
   Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 18
+random_paper: 62
 scopes:
 - name: Soldo Software And Services Scopes
   scope_count: 59
@@ -487,7 +487,7 @@ score:
     regime_id: payments
     score: 90.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

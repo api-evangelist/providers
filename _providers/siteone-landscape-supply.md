@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: SiteOne Landscape Supply
 nav: Providers
 network: true
 overview: SiteOne Landscape Supply is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 100
+random_paper: 37
 score:
   band: minimal
   composite: 2.6
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siteone-landscape-supply/refs/heads/main/screenshots/siteone-landscape-supply-2026-06-20T194001.png
 slug: siteone-landscape-supply

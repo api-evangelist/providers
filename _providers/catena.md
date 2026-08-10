@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Catena's banking and governance API for AI agents - agent identity, custodial and non-custodial accounts, fiat and stablecoin payments, yield, and policy-enforced spending controls. Currently in Priva
@@ -127,7 +127,7 @@ overview: 'Catena publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Catena''s developer surface includes engineering blog, signup flow, support, CLI, and 15 more developer resources.'
-random_paper: 55
+random_paper: 40
 score:
   band: emerging
   composite: 23.6
@@ -149,7 +149,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catena/refs/heads/main/screenshots/catena-2026-07-25T204808.png
 security:

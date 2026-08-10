@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Rich Data Co & M&T Bank Collaborate to Expand AI Lending
   url: https://insidetelecom.com/rich-data-co-mt-bank-collaborate-to-expand-ai-lending/
-random_paper: 1
+random_paper: 78
 score:
   band: emerging
   composite: 13.1
@@ -127,7 +127,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mandt-bank-corp/refs/heads/main/screenshots/mandt-bank-corp-2026-06-20T184914.png
 security:

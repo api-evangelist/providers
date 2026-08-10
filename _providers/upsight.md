@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -71,7 +71,7 @@ overview: 'Upsight is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upsight''s developer surface includes documentation, API reference, and 5 more developer resources.'
-random_paper: 94
+random_paper: 76
 score:
   band: minimal
   composite: 10.8
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: upsight
 tags:

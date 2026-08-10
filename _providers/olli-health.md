@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Olli Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Olli Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 90
+random_paper: 63
 score:
   band: minimal
   composite: 11.0
@@ -93,8 +93,9 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/olli-health/refs/heads/main/screenshots/olli-health-2026-08-07T190121.png
 security:
 - kind: domain-security
   name: Olli Health Domain Security

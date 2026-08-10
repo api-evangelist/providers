@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -643,7 +643,7 @@ plans:
 - name: Temenos Plans Pricing
   plan_count: 1
   slug: temenos-plans-pricing
-random_paper: 85
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Temenos Rate Limits
@@ -704,7 +704,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:

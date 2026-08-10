@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Oasis Health Partners
 nav: Providers
 network: true
 overview: Oasis Health Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Health, Healthcare, and Digital Health.
-random_paper: 108
+random_paper: 54
 score:
   band: minimal
   composite: 5.4
@@ -68,8 +68,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oasis-health-partners/refs/heads/main/screenshots/oasis-health-partners-2026-08-07T185845.png
 security:
 - kind: domain-security
   name: Oasis Health Partners Domain Security

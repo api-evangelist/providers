@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Loopay publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Loopay''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 95
+random_paper: 80
 score:
   band: thin
   composite: 39.2
@@ -227,7 +227,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

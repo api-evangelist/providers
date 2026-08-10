@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 20 more developer resources.'
-random_paper: 87
+random_paper: 72
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -239,7 +239,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

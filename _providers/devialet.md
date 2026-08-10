@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -26,12 +26,27 @@ agentic_access:
   operation_count: 25
   slug: devialet-agentic-access
   summary_line: 25 operations · 18 acting · 6 human-in-the-loop
-api_count: 1
+api_count: 6
 apis:
-- description: Local-network HTTP control API served by Devialet devices themselves. Starting with DOS 2.14 firmware, Phantom I, Phantom II, Arch, and Dialog expose device, system, and group state plus playback, vol
-  name: Devialet IP Control API
-  slug: devialet-ip-control-api
-artifact_total: 5
+- description: Equalizer and night-mode settings, hosted by the system leader.
+  name: Devialet Audio Settings API
+  slug: devialet-audio-settings-api
+- description: Individual physical Devialet products on the local network, including accessories.
+  name: Devialet Devices API
+  slug: devialet-devices-api
+- description: Sets of one or more systems playing the same content in the multi-room configuration.
+  name: Devialet Groups API
+  slug: devialet-groups-api
+- description: Play, pause, mute, unmute, next, and previous on the group's current source.
+  name: Devialet Playback API
+  slug: devialet-playback-api
+- description: Volume query and control at the system level.
+  name: Devialet Sound Control API
+  slug: devialet-sound-control-api
+- description: Sets of one or more speakers that always share playback state (solo or stereo).
+  name: Devialet Systems API
+  slug: devialet-systems-api
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -149,20 +164,20 @@ modified: '2026-08-04'
 name: Devialet
 nav: Providers
 network: true
-overview: 'Devialet publishes 1 API on the [APIs.io](https://apis.io/) network: IP Control API. Tagged areas include Audio, Consumer Electronics, Smart Speakers, Home Automation, and Custom Installation.
+overview: 'Devialet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio Settings API, Devices API, Groups API, and 3 more. Tagged areas include Audio, Consumer Electronics, Smart Speakers, Home Automation, and Custom Installation.
 
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
-random_paper: 55
+random_paper: 34
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 29.3
+  delta: 0.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 14.2
+    contract_quality: 13.3
     developer_ergonomics: 34.2
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 29.0
@@ -177,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:
 - kind: authentication
   name: Devialet Authentication

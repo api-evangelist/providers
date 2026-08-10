@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'USADATA, Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   USADATA, Inc.''s developer surface includes engineering blog, support, sandbox, and 11 more developer resources.'
-random_paper: 81
+random_paper: 54
 score:
   band: emerging
   composite: 18.5
@@ -115,7 +115,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

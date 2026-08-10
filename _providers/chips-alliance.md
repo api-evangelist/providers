@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 20
 common:
@@ -129,7 +129,7 @@ plans:
 - name: Chips Alliance Plans Pricing
   plan_count: 3
   slug: chips-alliance-plans-pricing
-random_paper: 49
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Chips Alliance Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chips-alliance/refs/heads/main/screenshots/chips-alliance-2026-06-20T174320.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: KubeVela uses Kubernetes CRDs to define applications using the Open Application Model. The Application resource combines components (workload definitions), traits (operational capabilities like scalin
@@ -72,7 +72,7 @@ plans:
 - name: Kubevela Plans Pricing
   plan_count: 3
   slug: kubevela-plans-pricing
-random_paper: 56
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Kubevela Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubevela/refs/heads/main/screenshots/kubevela-2026-06-20T184209.png
 security:

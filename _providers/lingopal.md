@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/lingopal-openapi-original.json
+  url: openapi/_original/lingopal-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -168,7 +168,7 @@ overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
-random_paper: 63
+random_paper: 42
 score:
   band: developing
   composite: 47.5
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -55,30 +55,49 @@ common:
   title: ''
   type: DomainSecurity
   url: security/raspire-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://raspire.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://raspire.com/support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/RASPIRE-inc
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/raspire-llms.txt
 created: '2026-07-17'
 description: Raspire (RASPIRE) provides runtime security for mobile applications, positioning itself as the first line of defense for Android and iOS apps against AI-powered fraud attacks, API abuse, and runtime threats. Developers upload compiled apps (APK/IPA) and Raspire automatically hardens them with anti-fraud protection, app integrity verification, reverse-engineering prevention, and API protection, without requiring changes to application source code. The platform gives security teams real-time visibility into threats and blocks attacks in real time, and can integrate with existing SIEM systems and application monitoring platforms as part of a CI/CD pipeline. Raspire is a Y Combinator company. As surfaced to the API Evangelist network it does not publish a public developer API, OpenAPI specification, or SDKs; this profile captures its identity and probed domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raspire.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Raspire
 nav: Providers
 network: true
-overview: Raspire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile, Application Security, and Runtime Application Self-Protection.
-random_paper: 80
+overview: 'Raspire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile, Application Security, and Runtime Application Self-Protection.
+
+
+  Raspire''s developer surface includes engineering blog, support, and 8 more developer resources.'
+random_paper: 62
 score:
   band: minimal
-  composite: 9.5
-  delta: 0.0
+  composite: 12.3
+  delta: 2.8
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   previous_composite: 9.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

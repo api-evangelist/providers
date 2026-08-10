@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -129,7 +129,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/boom-ai-openapi-original.json
+  url: openapi/_original/boom-ai-openapi-original.json
 - group: agent
   title: ''
   type: MCPServer
@@ -202,7 +202,7 @@ overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 111
+random_paper: 96
 score:
   band: developing
   composite: 50.3
@@ -232,7 +232,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

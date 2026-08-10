@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: 'Valdera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Valdera''s developer surface includes engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: emerging
   composite: 18.2
@@ -117,7 +117,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

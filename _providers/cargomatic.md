@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: Endpoints dealing with authenticating to the API
@@ -111,7 +111,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/cargomatic-openapi-original.yml
+  url: openapi/_original/cargomatic-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -172,7 +172,7 @@ overview: 'Cargomatic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 33
+random_paper: 6
 score:
   band: thin
   composite: 41.9
@@ -195,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

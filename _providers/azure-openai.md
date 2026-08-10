@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Azure OpenAI Service''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 102
+random_paper: 72
 rules:
 - name: Azure OpenAI Service API Rules
   rule_count: 9
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/screenshots/azure-openai-2026-06-20T172911.png
 security:

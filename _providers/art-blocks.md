@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: ERC-721 token metadata endpoints.
   name: Art Blocks Token Metadata API
   slug: art-blocks-token-metadata-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: other
   title: ''
@@ -118,6 +118,10 @@ graphqls:
   slug: art-blocks-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-06-13'
 name: Art Blocks
 nav: Providers
@@ -130,7 +134,7 @@ plans:
 - name: Art Blocks Plans
   plan_count: 4
   slug: art-blocks-plans
-random_paper: 106
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Art Blocks Rate Limits
@@ -155,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/screenshots/art-blocks-2026-06-20T172442.png
 security:

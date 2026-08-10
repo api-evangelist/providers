@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: gVisor is an open-source application kernel written in Go that provides an additional layer of isolation between containerized applications and the host operating system. It implements a substantial p
@@ -84,7 +84,7 @@ plans:
 - name: Gvisor Plans Pricing
   plan_count: 3
   slug: gvisor-plans-pricing
-random_paper: 101
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Gvisor Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/screenshots/gvisor-2026-06-20T182445.png
 security:

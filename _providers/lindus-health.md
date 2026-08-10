@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,20 +83,36 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/lindus-health-llms.txt
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://www.lindushealth.com/cookie-policy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lindushealth/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/LindusHealth
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@LindusHealth
 created: '2026-07-17'
 description: Lindus Health is a next-generation contract research organization (CRO) that runs clinical trials end to end for biotech and pharmaceutical sponsors. It pairs Citrus, an AI-assisted trial operating system connecting patient identification through final data capture, with centralized patient identification and enrollment (AI-powered EHR querying, digital pre-screening, centralized patient support), flexible site models spanning site-based, hybrid and fully virtual delivery, and integrated clinical services from protocol design through database lock. Its platform surface covers EDC, eSource, ePRO/eCOA, eConsent and CTMS. The company operates across the US, UK and Europe with APAC partnerships, employs over 160 staff, and works in cardiometabolic, respiratory, psychiatry, women's health and dermatology. Commercial engagements are performance-based with milestone pricing. Lindus Health publishes no public developer API, developer portal or API documentation; its public technical
   footprint is two open-source CDISC clinical-data repositories.
 image: https://cdn.prod.website-files.com/69b1cded3c897ce21d61aa50/69cae38f251d01f254ea797e_open-graph-image-lindus.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Lindus Health
 nav: Providers
 network: true
 overview: 'Lindus Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Clinical Trials, and Clinical Research.
 
 
-  Lindus Health''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 87
+  Lindus Health''s developer surface includes engineering blog, product news, support, YouTube channel, and 13 more developer resources.'
+random_paper: 54
 score:
   band: emerging
   composite: 15.0
@@ -118,9 +134,9 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/lindus-health/refs/heads/main/screenshots/lindus-health-2026-07-25T225217.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/lindus-health/refs/heads/main/screenshots/lindus-health-2026-07-25T225223.png
 security:
 - kind: domain-security
   name: Lindus Health Domain Security

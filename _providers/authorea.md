@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Authorea
 nav: Providers
 network: true
 overview: Authorea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Scholarly Publishing, Academic Writing, Collaboration, and Research.
-random_paper: 66
+random_paper: 45
 score:
   band: minimal
   composite: 8.2
@@ -82,7 +82,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 8.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

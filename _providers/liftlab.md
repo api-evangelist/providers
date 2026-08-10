@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ overview: 'LiftLab is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LiftLab''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 23.6
@@ -112,7 +112,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/screenshots/liftlab-2026-07-25T225100.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: 'Constellation Brands: Leveraging Technology, Data, and ...'
   url: https://cdotimes.com/2024/07/01/constellation-brands-leveraging-technology-data-and-ai-for-excellence/
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Constellation Brands Rate Limits
@@ -189,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png
 security:

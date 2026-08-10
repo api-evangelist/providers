@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Ofcom Plans
   plan_count: 4
   slug: ofcom-plans
-random_paper: 80
+random_paper: 68
 rate_limits:
 - limit_count: 8
   name: Ofcom Rate Limits
@@ -206,8 +206,9 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:
 - kind: authentication
   name: Ofcom Authentication

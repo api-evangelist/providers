@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -26,15 +26,54 @@ agentic_access:
   operation_count: 89
   slug: climateai-agentic-access
   summary_line: 89 operations · 49 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 15
 apis:
-- description: 'The LensConnect weather and climate data API. Forecasts, historical observations and climatology for any point on Earth, addressed by latitude and longitude. Current (v2) endpoints return AI-stitched '
-  name: ClimateAi Weather API (LensConnect)
-  slug: weather
 - description: ClimateAI authentication and routing gateway for platform services. Covers accounts, account configuration, users, roles, permissions, device API keys, products, platform labels, reports, transactiona
   name: ClimateAI Platform API
   slug: platform
-artifact_total: 6
+- description: account related operations
+  name: ClimateAI Account API
+  slug: climateai-account-api
+- description: account config related operations
+  name: ClimateAI Account Config API
+  slug: climateai-account-config-api
+- description: authentication related operations
+  name: ClimateAI Auth API
+  slug: climateai-auth-api
+- description: Modern endpoints (recommended). Faster grid-index lookups, blended multi-model forecasts, explicit downscaling control, and a compact, date-keyed response shape. All paths start with `/v2/`.
+  name: ClimateAI Current (v2) API
+  slug: climateai-current-v2-api
+- description: device api key related operations
+  name: ClimateAI Device API
+  slug: climateai-device-api
+- description: email sending operations
+  name: ClimateAI Email API
+  slug: climateai-email-api
+- description: Original endpoints. Stable and supported, but superseded by the Current (v2) endpoints where noted. Default response shape is the `{ meta, data }` envelope, where each `data` entry nests its per-varia
+  name: ClimateAI Legacy (v1) API
+  slug: climateai-legacy-v1-api
+- description: permission related operations
+  name: ClimateAI Permission API
+  slug: climateai-permission-api
+- description: platform label related operations
+  name: ClimateAI Platform API
+  slug: climateai-platform-api
+- description: product listing
+  name: ClimateAI Product API
+  slug: climateai-product-api
+- description: report related operations
+  name: ClimateAI Report API
+  slug: climateai-report-api
+- description: user role related operations
+  name: ClimateAI Role API
+  slug: climateai-role-api
+- description: routing and proxy operations
+  name: ClimateAI Routing API
+  slug: climateai-routing-api
+- description: user related operations
+  name: ClimateAI User API
+  slug: climateai-user-api
+artifact_total: 19
 common:
 - group: company
   title: ''
@@ -152,20 +191,20 @@ modified: '2026-08-04'
 name: ClimateAI
 nav: Providers
 network: true
-overview: 'ClimateAI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Weather API (LensConnect) and Platform API. Tagged areas include Company, Weather, Climate, Climate Intelligence, and Forecasting.
+overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Account API, Account Config API, and 12 more. Tagged areas include Company, Weather, Climate, Climate Intelligence, and Forecasting.
 
 
   ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: developing
   composite: 43.8
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.7
+    contract_quality: 48.7
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 21.9
     operational_transparency: 13.2
   previous_composite: 43.8
@@ -180,8 +219,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:
 - kind: authentication
   name: Climateai Authentication

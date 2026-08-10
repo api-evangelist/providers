@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'GDevelop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GDevelop''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 63
+random_paper: 42
 score:
   band: emerging
   composite: 27.5
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gdevelop/refs/heads/main/screenshots/gdevelop-2026-07-25T215513.png
 security:

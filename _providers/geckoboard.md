@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ overview: 'Geckoboard publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 24
+random_paper: 113
 score:
   band: thin
   composite: 34.8
@@ -142,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/screenshots/geckoboard-2026-06-20T181707.png
 security:

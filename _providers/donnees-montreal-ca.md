@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Donnees Ouvertes Montreal, a consistent JSON-over-HTTP interface over a catalog of 401 datasets. Standard actions include package_search, package_show, package_list, organization_l
@@ -84,7 +84,7 @@ plans:
 - name: Donnees Montreal Ca Plans Pricing
   plan_count: 1
   slug: donnees-montreal-ca-plans-pricing
-random_paper: 92
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Donnees Montreal Ca Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donnees-montreal-ca/refs/heads/main/screenshots/donnees-montreal-ca-2026-06-20T180149.png
 security:

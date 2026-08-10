@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Oracle Database 19C Plans Pricing
   plan_count: 5
   slug: oracle-database-19c-plans-pricing
-random_paper: 51
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Oracle Database 19C Rate Limits
@@ -206,8 +206,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/screenshots/oracle-database-19c-2026-08-07T190822.png
 security:
 - kind: authentication
   name: Oracle Database 19C Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: RESTful web-services API for Medidata Rave EDC. Enables external systems to push, pull, and edit clinical trial data using the CDISC ODM standard - clinical data (ODM/CSV), study design metadata (form
@@ -136,7 +136,7 @@ overview: 'Medidata Solutions publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Medidata Solutions'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 70
+random_paper: 22
 score:
   band: thin
   composite: 30.9
@@ -158,8 +158,9 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/medidata-solutions/refs/heads/main/screenshots/medidata-solutions-2026-08-07T172345.png
 security:
 - kind: authentication
   name: Medidata Solutions Authentication

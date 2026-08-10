@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   CloudWalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: strong
   composite: 56.2
@@ -215,8 +215,9 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:
 - kind: authentication
   name: Cloudwalk Authentication

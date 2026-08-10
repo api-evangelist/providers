@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Josys API provides programmatic access to the Josys SaaS and IT asset management platform, including endpoints for users, applications, devices, licenses, and provisioning workflows.
@@ -81,7 +81,7 @@ plans:
 - name: Josys Plans Pricing
   plan_count: 3
   slug: josys-plans-pricing
-random_paper: 3
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Josys Rate Limits
@@ -99,7 +99,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 19.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/screenshots/josys-2026-06-20T183803.png
 security:

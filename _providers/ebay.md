@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -1774,7 +1774,7 @@ press:
 - date: '2026-05-25'
   title: Inside eBay's Quest to Become an AI Leader
   url: https://www.wsj.com/articles/inside-ebays-quest-to-become-an-ai-leader-32e7fa45
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Ebay Rate Limits
@@ -1813,7 +1813,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:

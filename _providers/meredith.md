@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 30
 apis:
 - description: RSS 2.0 feeds for People.com, the flagship celebrity-and-human-interest brand of People Inc. People.com is the largest property in the portfolio (~187M monthly visits per 2025 estimates). Section feed
@@ -256,7 +256,7 @@ plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 59
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits
@@ -291,7 +291,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 40.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Netezza is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Netezza''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, and 11 more developer resources.'
-random_paper: 91
+random_paper: 73
 score:
   band: emerging
   composite: 19.3
@@ -121,8 +121,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 19.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/netezza/refs/heads/main/screenshots/netezza-2026-08-07T184931.png
 security:
 - kind: domain-security
   name: Netezza Domain Security

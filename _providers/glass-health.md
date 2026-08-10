@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 21
 common:
@@ -184,7 +184,7 @@ overview: 'Glass Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Glass Health''s developer surface includes documentation, pricing, signup flow, GitHub presence, and 18 more developer resources.'
-random_paper: 83
+random_paper: 53
 score:
   band: emerging
   composite: 18.8
@@ -204,7 +204,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glass-health/refs/heads/main/screenshots/glass-health-2026-06-20T181903.png
 security:

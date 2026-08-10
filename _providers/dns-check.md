@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ overview: 'DNS Check publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   DNS Check''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 89
+random_paper: 68
 score:
   band: thin
   composite: 28.3
@@ -119,7 +119,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/screenshots/dns-check-2026-06-20T180058.png
 security:

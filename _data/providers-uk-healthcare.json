@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Semble",
@@ -26,7 +26,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -60,6 +60,7 @@
      "name": "NHS England",
      "slug": "nhs-england",
      "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png",
      "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
@@ -71,7 +72,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -100,34 +101,24 @@
      },
      "tier": "National Health System",
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
      "name": "Patients Know Best",
      "slug": "patients-know-best",
      "description": "Patients Know Best (PKB) is a UK health-technology company operating what it describes as the world's largest personal health record, with more than seven million registered patients across the NHS and other health systems. The platform lets patients hold, view and share their medical records, messages, test results, care plans and questionnaires with clinicians and carers across web, mobile and the NHS App. For integrators, PKB publishes a HL7 FHIR STU3 (3.0.2) API — the \"Facade\" FHIR server at my.patientsknowbest.com/fhir — that conforms to the NHS CareConnect profiles and exposes patient demographics, documents, observations, appointments, consent, questionnaires and read receipts, secured with OAuth 2.0 client-credentials. PKB was surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png",
+     "score": 42.6,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 40.0,
       "governance": 12.5,
       "operational_transparency": 47.4,
-      "developer_ergonomics": 45.1,
+      "developer_ergonomics": 51.6,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -156,7 +147,18 @@
      },
      "tier": "Patient Engagement & Scheduling",
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Huma",
      "slug": "huma",
@@ -173,7 +175,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -207,6 +209,7 @@
      "name": "NHS Digital",
      "slug": "nhs-digital",
      "description": "NHS England Digital is the national provider of digital health technology for the NHS in England. It delivers a comprehensive suite of REST and FHIR APIs covering patient demographic services, personal demographics, electronic prescriptions, summary care records, referrals and bookings, GP Connect, vaccination records, and national clinical data services. APIs are hosted on the NHS API platform at api.service.nhs.uk with sandbox and production environments, supporting OAuth 2.0 / private-key JWT, NHS CIS2 Care Identity, NHS login, and API-key authentication patterns.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png",
      "score": 40.6,
      "band": "thin",
      "band_label": "Thin",
@@ -218,7 +221,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -264,7 +267,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -298,6 +301,7 @@
      "name": "OpenPrescribing",
      "slug": "openprescribing",
      "description": "OpenPrescribing.net is an open-data service built and operated by the Bennett Institute for Applied Data Science at the University of Oxford. It turns the English Prescribing Dataset published monthly by the NHS Business Services Authority into public dashboards, prescribing-safety measures, and a free RESTful API covering primary-care GP prescribing across England. The API exposes spending, quantity and item counts by BNF code and by NHS organisation (practice, PCN, Sub-ICB Location, ICB, Regional Team), standardised prescribing measures, drug-tariff and price-per-unit data, and organisation reference/boundary lookups, all returned as JSON, CSV or GeoJSON. Home market is the United Kingdom (England prescribing data). It is an independent academic analytics platform layered on NHS open data, not an NHS FHIR clinical system; there is no OAuth, no SMART-on-FHIR, and currently no registration or API key is required.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png",
      "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
@@ -309,7 +313,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -365,7 +369,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -411,7 +415,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -457,7 +461,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -513,7 +517,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -558,7 +562,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -604,7 +608,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Register endpoints that receive event notifications.
   name: Explorium Webhooks API
   slug: explorium-webhooks-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Explorium AgentSource API
@@ -93,9 +93,9 @@ common:
   title: ''
   type: Documentation
   url: https://developers.explorium.ai
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://developers.explorium.ai/mcp-docs/agentsource-mcp
 - group: commercial
   title: ''
@@ -121,6 +121,10 @@ finops:
   slug: explorium-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/explorium.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-11'
 name: Explorium
 nav: Providers
@@ -133,7 +137,7 @@ plans:
 - name: Explorium Plans Pricing
   plan_count: 3
   slug: explorium-plans-pricing
-random_paper: 93
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Explorium Rate Limits
@@ -158,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:

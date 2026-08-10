@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Documented HTTP GET API that exports the publication list for a given ULB scholar (identified by matricule or DAI). Supports output formats including APA, BibTeX, RIS, CSV, xml-brief, xml-brief-ext an
@@ -106,7 +106,7 @@ plans:
 - name: Ulb Plans Pricing
   plan_count: 2
   slug: ulb-plans-pricing
-random_paper: 97
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Ulb Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/screenshots/ulb-2026-06-20T200008.png
 security:

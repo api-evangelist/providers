@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: 'The first-party gRPC/ProtoBuf interface Picarro publishes for external access to Picarro SAM (semiconductor airborne molecular contamination) systems. The `picarro-edge` server exposes three services '
@@ -231,7 +231,7 @@ overview: 'Picarro publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Picarro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 37 more developer resources.'
-random_paper: 74
+random_paper: 56
 scopes:
 - name: Picarro Scopes
   scope_count: 9
@@ -254,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

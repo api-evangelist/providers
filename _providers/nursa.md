@@ -18,16 +18,52 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 14
 apis:
-- description: REST API for healthcare facilities and the workforce-management platforms that serve them. Post, quote, update and cancel per diem shifts on the Nursa marketplace; read and reject clinician shift requ
-  name: Nursa Public API V2
-  slug: public-api-v2
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
   name: Nursa Authorization Server
   slug: auth
-artifact_total: 8
+- description: The Clinicians API from Nursa — 4 operation(s) for clinicians.
+  name: Nursa Clinicians API
+  slug: nursa-clinicians-api
+- description: The Downloads API from Nursa — 1 operation(s) for downloads.
+  name: Nursa Downloads API
+  slug: nursa-downloads-api
+- description: The Facilities API from Nursa — 8 operation(s) for facilities.
+  name: Nursa Facilities API
+  slug: nursa-facilities-api
+- description: The Facilities webhooks API from Nursa — 2 operation(s) for facilities webhooks.
+  name: Nursa Facilities webhooks API
+  slug: nursa-facilities-webhooks-api
+- description: The Licenses API from Nursa — 1 operation(s) for licenses.
+  name: Nursa Licenses API
+  slug: nursa-licenses-api
+- description: The Marketplace API from Nursa — 6 operation(s) for marketplace.
+  name: Nursa Marketplace API
+  slug: nursa-marketplace-api
+- description: The Scheduled shifts API from Nursa — 2 operation(s) for scheduled shifts.
+  name: Nursa Scheduled shifts API
+  slug: nursa-scheduled-shifts-api
+- description: The Shift reports API from Nursa — 4 operation(s) for shift reports.
+  name: Nursa Shift reports API
+  slug: nursa-shift-reports-api
+- description: The Shift requests API from Nursa — 2 operation(s) for shift requests.
+  name: Nursa Shift requests API
+  slug: nursa-shift-requests-api
+- description: The Shifts API from Nursa — 1 operation(s) for shifts.
+  name: Nursa Shifts API
+  slug: nursa-shifts-api
+- description: The Support API from Nursa — 1 operation(s) for support.
+  name: Nursa Support API
+  slug: nursa-support-api
+- description: The User webhooks API from Nursa — 2 operation(s) for user webhooks.
+  name: Nursa User webhooks API
+  slug: nursa-user-webhooks-api
+- description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
+  name: Nursa Webhook logs API
+  slug: nursa-webhook-logs-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Nursa Public Api V2 Webhooks
@@ -148,7 +184,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nursa-public-api-v2-openapi.yml
+  url: openapi/_original/nursa-public-api-v2-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -182,14 +218,14 @@ modified: '2026-08-04'
 name: Nursa
 nav: Providers
 network: true
-overview: 'Nursa publishes 1 API on the [APIs.io](https://apis.io/) network: Public API V2. Tagged areas include Company, Healthcare, Health, Staffing, and Nursing.
+overview: 'Nursa publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Clinicians API, Downloads API, Facilities API, and 10 more. Tagged areas include Company, Healthcare, Health, Staffing, and Nursing.
 
 
   The Nursa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 28 more developer resources.'
-random_paper: 101
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Nursa Rate Limits
@@ -201,16 +237,16 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.8
-  delta: -1.0
+  composite: 57.7
+  delta: -0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.9
+    contract_quality: 73.2
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 57.8
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +263,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:
 - kind: authentication
   name: Nursa Authentication

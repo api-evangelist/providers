@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Tapfiliate Plans Pricing
   plan_count: 3
   slug: tapfiliate-plans-pricing
-random_paper: 42
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Tapfiliate Rate Limits
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:

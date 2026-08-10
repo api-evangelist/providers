@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,19 +51,23 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/Standard_Kernel
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/Standard_Kernel
 created: '2026-07-17'
 description: Standard Kernel Co. is an AI infrastructure company that automatically generates high-performance compute kernels for GPUs and TPUs. It targets the traditionally manual, expertise-intensive process of writing optimized low-level accelerator code, operating at the CUDA and PTX level to fully exploit new hardware features rather than relying on higher-level abstractions, delivering better performance on compute-bound machine-learning workloads and newer accelerator architectures. Surfaced as a portfolio company of Felicis and added to the API Evangelist network; the company is early-stage and publishes no public API, developer portal, or specification at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standardkernel.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Standardkernel
 nav: Providers
 network: true
 overview: 'Standardkernel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, GPU, TPU, and Compute Kernels.
 
 
-  Standardkernel''s developer surface includes engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 21
+  Standardkernel''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
+random_paper: 98
 score:
   band: minimal
   composite: 8.1
@@ -77,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

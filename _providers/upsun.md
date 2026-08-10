@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 50
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
@@ -509,7 +509,7 @@ overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 31 more developer resources.'
-random_paper: 6
+random_paper: 107
 scopes:
 - name: Upsun Scopes
   scope_count: 1
@@ -537,7 +537,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -26,15 +26,93 @@ agentic_access:
   operation_count: 73
   slug: 1komma5-agentic-access
   summary_line: 73 operations · 40 acting
-api_count: 2
+api_count: 28
 apis:
-- description: 'The Offer Tool API backs 1KOMMA5°''s sales configuration and quoting workflow — customers and sites, product and pricebook catalogues, concepts, effective-price simulation for the German market, offer '
-  name: 1KOMMA5° Offer Tool API
-  slug: 1komma5-offer-tool-api
 - description: The Heartbeat API is the customer-facing energy API behind the 1KOMMA5° mobile apps and the Heartbeat AI platform — sites and systems, live power snapshots for PV, battery, heat pump and EV charger, e
   name: 1KOMMA5° Heartbeat API
   slug: 1komma5-heartbeat-api
-artifact_total: 7
+- description: The Admin - Audit Logs API from 1KOMMA5° — 1 operation(s) for admin - audit logs.
+  name: 1KOMMA5° Admin - Audit Logs API
+  slug: 1komma5-admin-audit-logs-api
+- description: The Admin - Branches API from 1KOMMA5° — 2 operation(s) for admin - branches.
+  name: 1KOMMA5° Admin - Branches API
+  slug: 1komma5-admin-branches-api
+- description: The Admin - Concepts API from 1KOMMA5° — 2 operation(s) for admin - concepts.
+  name: 1KOMMA5° Admin - Concepts API
+  slug: 1komma5-admin-concepts-api
+- description: The Admin - Countries API from 1KOMMA5° — 1 operation(s) for admin - countries.
+  name: 1KOMMA5° Admin - Countries API
+  slug: 1komma5-admin-countries-api
+- description: The Admin - Maintenance API from 1KOMMA5° — 1 operation(s) for admin - maintenance.
+  name: 1KOMMA5° Admin - Maintenance API
+  slug: 1komma5-admin-maintenance-api
+- description: The Admin - Megasearch API from 1KOMMA5° — 1 operation(s) for admin - megasearch.
+  name: 1KOMMA5° Admin - Megasearch API
+  slug: 1komma5-admin-megasearch-api
+- description: The Admin - Products API from 1KOMMA5° — 5 operation(s) for admin - products.
+  name: 1KOMMA5° Admin - Products API
+  slug: 1komma5-admin-products-api
+- description: The Admin - Roles API from 1KOMMA5° — 1 operation(s) for admin - roles.
+  name: 1KOMMA5° Admin - Roles API
+  slug: 1komma5-admin-roles-api
+- description: The Admin - Users API from 1KOMMA5° — 6 operation(s) for admin - users.
+  name: 1KOMMA5° Admin - Users API
+  slug: 1komma5-admin-users-api
+- description: The Concepts API from 1KOMMA5° — 1 operation(s) for concepts.
+  name: 1KOMMA5° Concepts API
+  slug: 1komma5-concepts-api
+- description: The Configs API from 1KOMMA5° — 3 operation(s) for configs.
+  name: 1KOMMA5° Configs API
+  slug: 1komma5-configs-api
+- description: The CRM API from 1KOMMA5° — 2 operation(s) for crm.
+  name: 1KOMMA5° CRM API
+  slug: 1komma5-crm-api
+- description: The Customers API from 1KOMMA5° — 3 operation(s) for customers.
+  name: 1KOMMA5° Customers API
+  slug: 1komma5-customers-api
+- description: The EffectivePrice API from 1KOMMA5° — 2 operation(s) for effectiveprice.
+  name: 1KOMMA5° Effective Price API
+  slug: 1komma5-effectiveprice-api
+- description: The Health API from 1KOMMA5° — 1 operation(s) for health.
+  name: 1KOMMA5° Health API
+  slug: 1komma5-health-api
+- description: The index API from 1KOMMA5° — 1 operation(s) for index.
+  name: 1KOMMA5° Index API
+  slug: 1komma5-index-api
+- description: The migration-frozen-state API from 1KOMMA5° — 1 operation(s) for migration-frozen-state.
+  name: 1KOMMA5° Migration Frozen State API
+  slug: 1komma5-migration-frozen-state-api
+- description: The Migrations API from 1KOMMA5° — 12 operation(s) for migrations.
+  name: 1KOMMA5° Migrations API
+  slug: 1komma5-migrations-api
+- description: The payment-options API from 1KOMMA5° — 1 operation(s) for payment-options.
+  name: 1KOMMA5° Payment Options API
+  slug: 1komma5-payment-options-api
+- description: The PDF API from 1KOMMA5° — 1 operation(s) for pdf.
+  name: 1KOMMA5° PDF API
+  slug: 1komma5-pdf-api
+- description: The Products API from 1KOMMA5° — 2 operation(s) for products.
+  name: 1KOMMA5° Products API
+  slug: 1komma5-products-api
+- description: The Sales Users API from 1KOMMA5° — 1 operation(s) for sales users.
+  name: 1KOMMA5° Sales Users API
+  slug: 1komma5-sales-users-api
+- description: The site API from 1KOMMA5° — 1 operation(s) for site.
+  name: 1KOMMA5° Site API
+  slug: 1komma5-site-api
+- description: The Sites API from 1KOMMA5° — 1 operation(s) for sites.
+  name: 1KOMMA5° Sites API
+  slug: 1komma5-sites-api
+- description: The Tenants API from 1KOMMA5° — 2 operation(s) for tenants.
+  name: 1KOMMA5° Tenants API
+  slug: 1komma5-tenants-api
+- description: The Test API from 1KOMMA5° — 1 operation(s) for test.
+  name: 1KOMMA5° Test API
+  slug: 1komma5-test-api
+- description: The Users API from 1KOMMA5° — 4 operation(s) for users.
+  name: 1KOMMA5° Users API
+  slug: 1komma5-users-api
+artifact_total: 33
 common:
 - group: agent
   title: ''
@@ -148,11 +226,11 @@ modified: '2026-08-02'
 name: 1KOMMA5°
 nav: Providers
 network: true
-overview: '1KOMMA5° publishes 1 API on the [APIs.io](https://apis.io/) network: Offer Tool API. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
+overview: '1KOMMA5° publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 24 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 70
+random_paper: 55
 scopes:
 - name: 1Komma5 Scopes
   scope_count: 14
@@ -160,13 +238,13 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 35.1
+  delta: -0.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 43.4
+    contract_quality: 39.4
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
   previous_composite: 35.5
@@ -182,8 +260,9 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:
 - kind: authentication
   name: 1Komma5 Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Stations and predicted arrivals for BART
@@ -56,7 +56,7 @@ name: Bay Area Rapid Transit
 nav: Providers
 network: true
 overview: Bay Area Rapid Transit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 14
+random_paper: 73
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bay-area-rapid-transit/refs/heads/main/screenshots/bay-area-rapid-transit-2026-06-20T173048.png
 security:

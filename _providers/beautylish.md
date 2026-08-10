@@ -1,6 +1,95 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/beautylish-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/beautylish-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.beautylish.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.beautylish.com/about
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.beautylish.com/help
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.beautylish.com/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.beautylish.com/articles
+- group: operate
+  title: ''
+  type: Community
+  url: https://www.beautylish.com/community
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.beautylish.com/join
+- group: start
+  title: ''
+  type: Login
+  url: https://www.beautylish.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.beautylish.com/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.beautylish.com/privacy
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://www.beautylish.com/cookie-policy
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://www.beautylish.com/accessibility
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.beautylish.com/careers
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/beautylish
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/beautylish_stock/
 coverage:
   checked: '2026-08-06'
   detail: 'Beautylish runs a first-party beauty storefront with no developer surface at all: developer.beautylish.com and developers.beautylish.com do not resolve, every /.well-known/ path and /llms.txt on www.beautylish.com return 404, and the only public JSON on the domain is /rest/interview-product/list, a static fixture of fake "Acme/Hooli" products served for their software-engineering hiring exercise rather than a product API.'
@@ -24,7 +113,31 @@ modified: '2026-08-06'
 name: Beautylish
 nav: Providers
 network: true
-random_paper: 65
+overview: 'Beautylish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Beauty, and Cosmetics.
+
+
+  Beautylish''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
+random_paper: 38
+score:
+  band: emerging
+  composite: 15.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 64.8
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+security:
+- kind: domain-security
+  name: Beautylish Domain Security
+  slug: beautylish-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: beautylish
 tags:
 - Company
@@ -35,4 +148,5 @@ tags:
 - Consumer
 - Marketplace
 - Direct to Consumer
+website: https://www.beautylish.com/
 ---

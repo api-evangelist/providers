@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -373,9 +373,9 @@ common:
   title: ''
   type: Postman
   url: https://www.postman.com/infobip/infobip-api
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://www.infobip.com/docs/mcp
 - group: build
   title: ''
@@ -593,7 +593,7 @@ overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits
@@ -632,8 +632,9 @@ score:
     regime_id: telecommunications
     score: 93.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:
 - kind: authentication
   name: Infobip Authentication

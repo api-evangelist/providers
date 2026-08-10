@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/involve-asia-publisher-openapi.yml
+  url: openapi/_original/involve-asia-publisher-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -196,7 +196,7 @@ overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 100
+random_paper: 70
 score:
   band: developing
   composite: 48.1
@@ -220,7 +220,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:

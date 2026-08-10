@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'RESTful Marketing API for managing TikTok ad accounts, campaigns, ad groups, ads, creatives, audiences, conversions, pixels, and reporting. Authentication uses OAuth 2.0 with access tokens issued via '
@@ -91,7 +91,7 @@ overview: 'TikTok Marketing API publishes 1 API on the [APIs.io](https://apis.io
 
 
   TikTok Marketing API''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 2
+random_paper: 91
 score:
   band: emerging
   composite: 24.5
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png
 security:

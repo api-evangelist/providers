@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -151,7 +151,7 @@ overview: 'Glytec is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Glytec''s developer surface includes support, FAQ, engineering blog, and 26 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: emerging
   composite: 24.7
@@ -173,8 +173,9 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/glytec/refs/heads/main/screenshots/glytec-2026-08-07T165752.png
 security:
 - kind: domain-security
   name: Glytec Domain Security

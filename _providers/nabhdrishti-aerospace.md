@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Nabhdrishti Aerospace is profiled on the [APIs.io](https://apis.io/) 
 
 
   Nabhdrishti Aerospace''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 13
+random_paper: 72
 score:
   band: minimal
   composite: 5.4
@@ -69,8 +69,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nabhdrishti-aerospace/refs/heads/main/screenshots/nabhdrishti-aerospace-2026-08-07T184557.png
 security:
 - kind: domain-security
   name: Nabhdrishti Aerospace Domain Security

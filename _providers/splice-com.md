@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,20 +115,68 @@ common:
   title: ''
   type: Instagram
   url: https://www.instagram.com/splice
+- group: company
+  title: ''
+  type: About
+  url: https://splice.com/about
+- group: other
+  title: ''
+  type: Innovation
+  url: https://splice.com/innovation
+- group: build
+  title: ''
+  type: Tools
+  url: https://splice.com/tools
+- group: other
+  title: ''
+  type: CreateMode
+  url: https://splice.com/sounds/create
+- group: other
+  title: ''
+  type: Astra
+  url: https://tools.splice.com/astra
+- group: other
+  title: ''
+  type: Bridge
+  url: https://splice.com/tools/bridge
+- group: other
+  title: ''
+  type: MobileApp
+  url: https://splice.com/tools/mobile
+- group: build
+  title: ''
+  type: AbletonIntegration
+  url: https://splice.com/plans/ableton-live/about
+- group: build
+  title: ''
+  type: ProToolsIntegration
+  url: https://splice.com/plans/pro-tools/about
+- group: build
+  title: ''
+  type: StudioOneIntegration
+  url: https://splice.com/plans/studio-one/about
+- group: operate
+  title: ''
+  type: Community
+  url: https://splice.com/community
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/splice
 created: '2026-05-25'
 description: Splice is a New York-based music creation platform serving producers, songwriters, and audio creators. Its core offerings are Splice Sounds, a catalog of millions of 100% royalty-free samples, one-shots, loops, MIDI patterns, and presets sold through a credit-based subscription; Splice INSTRUMENT, a creator-first virtual instrument with monthly free drops and unlimited premium presets via subscription; and a Rent-to-Own Plugins marketplace offering pay-as-you-go full-license access to 130+ professional VST/AU/AAX plugins from third-party vendors such as Xfer (Serum 2), Arturia (V Collection 11 Pro), Spitfire Audio (Abbey Road Two), and XLN Audio (RC-20). Splice ships a desktop app, a mobile app, the Splice Sounds Plugin (beta) for in-DAW browsing, and native integrations for Ableton Live 12.3+, Studio One Pro 7, Studio Pro 8+, and Pro Tools 2025.6+. The revenue model is consumer subscriptions (Sounds+ $12.99/mo, Creator $19.99/mo with 200 credits, Creator+ $39.99/mo with 500
   credits, INSTRUMENT $12.99/mo) plus rent-to-own plugin payments. Splice does not publish a public developer API, OpenAPI specification, SDK, or partner program; its GitHub organization at github.com/splice contains internal tooling, GitHub Actions, audio engineering exercises, and forks rather than externally consumable APIs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/splice-com.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Splice
 nav: Providers
 network: true
 overview: 'Splice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Music, Music Production, Royalty-Free Samples, Sample Library, and Audio Plugins.
 
 
-  Splice''s developer surface includes pricing, support, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 100
+  Splice''s developer surface includes pricing, support, engineering blog, YouTube channel, tooling, GitHub presence, and 27 more developer resources.'
+random_paper: 76
 score:
   band: emerging
   composite: 13.3
@@ -142,7 +190,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splice-com/refs/heads/main/screenshots/splice-com-2026-06-20T194328.png
 security:

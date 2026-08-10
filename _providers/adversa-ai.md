@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Adversa AI''s developer surface includes engineering blog, signup flow, CLI, and 13 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: emerging
   composite: 21.3
@@ -124,7 +124,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/screenshots/adversa-ai-2026-07-25T181710.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-03-31'
   title: Genuine Parts Company to Report First Quarter 2026 Results on April 21, 2026
   url: https://www.genpt.com/2026-03-31-Genuine-Parts-Company-to-Report-First-Quarter-2026-Results-on-April-21,-2026
-random_paper: 103
+random_paper: 70
 score:
   band: minimal
   composite: 4.5
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genuine-parts/refs/heads/main/screenshots/genuine-parts-2026-06-20T181742.png
 security:

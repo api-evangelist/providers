@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: DuckDB ships as a library with first-class bindings for Python, R, Java (JDBC), Node.js, C/C++, Go, Rust, Swift, Julia, and the browser via DuckDB-Wasm. There is no network REST API; clients call Duck
@@ -104,7 +104,7 @@ plans:
 - name: Duckdb Plans Pricing
   plan_count: 3
   slug: duckdb-plans-pricing
-random_paper: 56
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Duckdb Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckdb/refs/heads/main/screenshots/duckdb-2026-06-20T180308.png
 security:

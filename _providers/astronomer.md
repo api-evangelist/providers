@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -217,7 +217,7 @@ overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 22 more developer resources.'
-random_paper: 81
+random_paper: 54
 score:
   band: strong
   composite: 57.9
@@ -241,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/screenshots/astronomer-2026-07-25T201511.png
 security:

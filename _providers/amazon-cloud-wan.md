@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ overview: 'Amazon Cloud WAN publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Amazon Cloud WAN''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 15
+random_paper: 89
 rules:
 - name: Amazon Cloud WAN API Rules
   rule_count: 5
@@ -291,7 +291,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
 security:

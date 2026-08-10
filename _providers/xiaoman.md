@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 71
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits
@@ -272,7 +272,7 @@ score:
     mcp: derived
     skills: unknown
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

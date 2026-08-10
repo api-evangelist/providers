@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: University Of Lausanne Plans Pricing
   plan_count: 2
   slug: university-of-lausanne-plans-pricing
-random_paper: 20
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: University Of Lausanne Rate Limits
@@ -183,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png
 security:

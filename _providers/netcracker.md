@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -219,7 +219,7 @@ overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 33 more developer resources.'
-random_paper: 41
+random_paper: 14
 score:
   band: developing
   composite: 52.2
@@ -249,8 +249,9 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:
 - kind: authentication
   name: Netcracker Authentication

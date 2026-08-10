@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -83,14 +83,6 @@ common:
   title: ''
   type: GraphQL
   url: graphql/wuilt-graphql.graphql
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/wuilt-domain-security.yml
-- group: agent
-  title: ''
-  type: LLMsTxt
-  url: llms/wuilt-llms.txt
 - group: company
   title: ''
   type: Twitter
@@ -122,22 +114,22 @@ network: true
 overview: 'Wuilt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, E-commerce, and Hosting.
 
 
-  Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 13 more developer resources.'
-random_paper: 0
+  Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
+random_paper: 101
 score:
-  band: thin
-  composite: 28.6
-  delta: 0.0
+  band: emerging
+  composite: 27.9
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
     contract_quality: 43.2
     developer_ergonomics: 6.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: wuilt
 tags:

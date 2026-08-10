@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for NCSE Open Data, ~70 datasets. Base URL https://opendata.ncse.ie/api/3/action/.
@@ -83,7 +83,7 @@ plans:
 - name: Opendata Ncse Ie Plans Pricing
   plan_count: 0
   slug: opendata-ncse-ie-plans-pricing
-random_paper: 96
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Opendata Ncse Ie Rate Limits
@@ -107,7 +107,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/screenshots/opendata-ncse-ie-2026-06-20T190943.png
 security:

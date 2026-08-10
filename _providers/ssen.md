@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Scottish and Southern Electricity Networks publishes 1 API on the [AP
 
 
   Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 28 more developer resources.'
-random_paper: 102
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Ssen Rate Limits
@@ -228,7 +228,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

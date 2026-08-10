@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -3024,7 +3024,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 106
+random_paper: 94
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits
@@ -3071,7 +3071,7 @@ score:
       marker_coverage: 100.0
       total: 19
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

@@ -12,19 +12,70 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.7
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 71.0
+  scored_at: '2026-08-10'
+api_count: 18
 apis:
-- description: REST API for the Copper institutional digital asset platform. Covers organizations, portfolios, wallets and balances, the crypto address book, orders (transfers, withdrawals, staking, smart calls, set
-  name: Copper Platform API
-  slug: copper-co-platform-api
-artifact_total: 8
+- description: The Accounts API from Copper.co — 1 operation(s) for accounts.
+  name: Copper.co Accounts API
+  slug: copper-co-accounts-api
+- description: The address-book API from Copper.co — 2 operation(s) for address-book.
+  name: Copper.co Address Book API
+  slug: copper-co-address-book-api
+- description: The blockchain API from Copper.co — 1 operation(s) for blockchain.
+  name: Copper.co Blockchain API
+  slug: copper-co-blockchain-api
+- description: The clearloop API from Copper.co — 9 operation(s) for clearloop.
+  name: Copper.co Clearloop API
+  slug: copper-co-clearloop-api
+- description: The currencies API from Copper.co — 3 operation(s) for currencies.
+  name: Copper.co Currencies API
+  slug: copper-co-currencies-api
+- description: The deposit-targets API from Copper.co — 2 operation(s) for deposit-targets.
+  name: Copper.co Deposit Targets API
+  slug: copper-co-deposit-targets-api
+- description: The Exchange API from Copper.co — 1 operation(s) for exchange.
+  name: Copper.co Exchange API
+  slug: copper-co-exchange-api
+- description: The files API from Copper.co — 1 operation(s) for files.
+  name: Copper.co Files API
+  slug: copper-co-files-api
+- description: The lending API from Copper.co — 34 operation(s) for lending.
+  name: Copper.co Lending API
+  slug: copper-co-lending-api
+- description: The network API from Copper.co — 1 operation(s) for network.
+  name: Copper.co Network API
+  slug: copper-co-network-api
+- description: The orders API from Copper.co — 8 operation(s) for orders.
+  name: Copper.co Orders API
+  slug: copper-co-orders-api
+- description: The organizations API from Copper.co — 3 operation(s) for organizations.
+  name: Copper.co Organizations API
+  slug: copper-co-organizations-api
+- description: The portfolios API from Copper.co — 2 operation(s) for portfolios.
+  name: Copper.co Portfolios API
+  slug: copper-co-portfolios-api
+- description: The reports API from Copper.co — 6 operation(s) for reports.
+  name: Copper.co Reports API
+  slug: copper-co-reports-api
+- description: The Sign Async API from Copper.co — 2 operation(s) for sign async.
+  name: Copper.co Sign Async API
+  slug: copper-co-sign-async-api
+- description: The stake API from Copper.co — 3 operation(s) for stake.
+  name: Copper.co Stake API
+  slug: copper-co-stake-api
+- description: The trades API from Copper.co — 19 operation(s) for trades.
+  name: Copper.co Trades API
+  slug: copper-co-trades-api
+- description: The wallets API from Copper.co — 2 operation(s) for wallets.
+  name: Copper.co Wallets API
+  slug: copper-co-wallets-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Copper Co Webhooks
@@ -170,27 +221,27 @@ modified: '2026-08-04'
 name: Copper.co
 nav: Providers
 network: true
-overview: 'Copper.co publishes 1 API on the [APIs.io](https://apis.io/) network: Copper Platform API. Tagged areas include Company, Digital Asset Custody, Cryptocurrency, Financial Services, and Institutional Finance.
+overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address Book API, Blockchain API, and 15 more. Tagged areas include Company, Digital Asset Custody, Cryptocurrency, Financial Services, and Institutional Finance.
 
 
   The Copper.co catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 0
+random_paper: 92
 rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits
   slug: copper-co-rate-limits
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 60.2
+  delta: 0.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 55.6
+    contract_quality: 56.5
     developer_ergonomics: 78.3
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 78.9
   previous_composite: 59.4
@@ -204,8 +255,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:
 - kind: authentication
   name: Copper Co Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -106,7 +106,7 @@ overview: 'Wove publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wove''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 110
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Wove Rate Limits
@@ -136,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

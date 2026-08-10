@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -104,7 +104,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/greenspark-openapi.yml
+  url: openapi/_original/greenspark-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -189,7 +189,7 @@ overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 57
+random_paper: 30
 score:
   band: developing
   composite: 51.9
@@ -213,7 +213,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:

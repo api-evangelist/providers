@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Malga publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Malga''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 29 more developer resources.'
-random_paper: 101
+random_paper: 92
 score:
   band: developing
   composite: 52.7
@@ -294,7 +294,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

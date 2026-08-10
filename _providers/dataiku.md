@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -662,7 +662,7 @@ plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
   slug: dataiku-plans-pricing
-random_paper: 61
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Dataiku Rate Limits
@@ -704,7 +704,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:

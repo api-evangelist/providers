@@ -27,7 +27,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -72,7 +72,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -106,6 +106,7 @@
      "name": "OSFI",
      "slug": "osfi",
      "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal prudential regulator, supervising more than 400 federally regulated financial institutions and over 1,200 private pension plans. On the insurance side OSFI supervises federally regulated life insurance companies, property and casualty insurers, mortgage insurers and fraternal benefit societies for solvency and capital adequacy — issuing the LICAT, MCT and BAAT capital guidelines and collecting the LF1/LF2/LF3, PC1-PC4 and MI1-MI5 regulatory returns. It does NOT regulate market conduct; that sits with the provinces (FSRA in Ontario, AMF in Quebec), and Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance entirely. OSFI publishes no first-party developer portal and no OpenAPI — developer.osfi-bsif.gc.ca, api.osfi-bsif.gc.ca and docs.osfi-bsif.gc.ca do not resolve, and /developers, /api and /developer all return 404. Its real machine-readable surface is its insurance and banking regulatory data (FINDAT) plus the \"Who we regulate\" register, published as datastore-active datasets on Canada's Open Government portal and readable anonymously through the CKAN 3 Action API (datastore_search; the SQL passthrough datastore_search_sql is disabled on the portal) — OSFI ships a step-by-step API usage guide PDF with each dataset. The filing side (the Regulatory Reporting System) is institution-gated behind a Bank of Canada Connect login. Everything else is a documentation-and-rulebook corpus of 313 guidance-library pages and 142 financial reporting instruction pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/screenshots/osfi-2026-08-07T191000.png",
      "score": 43.1,
      "band": "developing",
      "band_label": "Developing",
@@ -117,7 +118,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -163,7 +164,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -219,7 +220,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -276,7 +277,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -322,7 +323,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -367,7 +368,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -413,7 +414,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -459,7 +460,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -504,7 +505,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -549,7 +550,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -594,7 +595,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -639,7 +640,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -684,7 +685,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -730,7 +731,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -776,7 +777,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -810,6 +811,7 @@
      "name": "Onlia",
      "slug": "onlia",
      "description": "Onlia is a Canadian digital insurance brokerage, operating as the registered business name of Onlia Agency Inc. and backed by Southampton Financial Inc. (the Southampton group of companies). It sells personal lines direct to consumers online and by phone — auto (car, motorcycle, ATV, snowmobile, trailer, motorhome), property (home, condo, tenant, landlord, second home, mobile home) and lifestyle lines (boat, pet, life, travel, seasonal) — plus group and bundle programs. Onlia does not underwrite; it places business with a panel of Canadian carriers disclosed publicly on its broker-disclosure page, including Aviva, Gore Mutual, Economical/Definity, Pembridge, Pafco, Echelon, Wawanesa, Unica, Forward, Premier, Facility Association (Intact) and APOLLO. Its home market is Canada, concentrated in Ontario, where market conduct sits with FSRA while OSFI supervises the federally-regulated carriers behind the policies. API posture, recorded honestly: Onlia publishes NO public developer portal and NO self-serve API. developer., developers., docs. and api. under onlia.ca do not resolve, and /developers, /api, /developer and /integrations on the marketing site all return 404. The only quote/bind/issue/FNOL surface is app.onlia.ca, a consumer-facing Angular single-page app running on a white-labelled Ignite Insurance policy administration platform whose backend is private to the app. The one \"partner\" page is a B2B marketing page inviting affinity discount partnerships by email, with no technical onboarding. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the public site. The app's own bundle shows the private backend runs on MuleSoft Anypoint CloudHub ESB services (auto and home policy, authentication, documents, VIN/MVR, claims) plus an Ignite Insurance authentication service — real REST plumbing behind the SPA, but undocumented, uncredentialed and not offered to third parties, so no API entry is claimed here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onlia/refs/heads/main/screenshots/onlia-2026-08-07T190358.png",
      "score": 15.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -821,7 +823,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -877,7 +879,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -923,7 +925,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

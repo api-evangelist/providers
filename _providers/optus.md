@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -224,24 +224,24 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 6
+random_paper: 107
 score:
   band: developing
-  composite: 54.7
+  composite: 55.0
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.1
+    contract_quality: 54.1
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 54.7
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 75.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -254,8 +254,9 @@ score:
     regime_id: telecommunications
     score: 68.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:
 - kind: authentication
   name: Optus Authentication

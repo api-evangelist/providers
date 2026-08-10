@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -110,7 +110,7 @@ plans:
 - name: Arkham Intelligence Plans Pricing
   plan_count: 1
   slug: arkham-intelligence-plans-pricing
-random_paper: 19
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Arkham Intelligence Rate Limits
@@ -143,7 +143,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/screenshots/arkham-intelligence-2026-06-20T172448.png
 security:

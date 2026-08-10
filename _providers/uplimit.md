@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The Course API from Uplimit — 3 operation(s) for course.
@@ -159,7 +159,7 @@ overview: 'Uplimit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
-random_paper: 94
+random_paper: 76
 score:
   band: thin
   composite: 36.6
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

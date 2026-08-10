@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: Istio is the leading open-source service mesh providing traffic management, security (mTLS), and observability for microservices. The Istio API includes VirtualService, DestinationRule, Gateway, and S
@@ -134,7 +134,7 @@ plans:
 - name: Scalable Architecture Plans Pricing
   plan_count: 3
   slug: scalable-architecture-plans-pricing
-random_paper: 4
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Scalable Architecture Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-architecture/refs/heads/main/screenshots/scalable-architecture-2026-06-20T193459.png
 slug: scalable-architecture

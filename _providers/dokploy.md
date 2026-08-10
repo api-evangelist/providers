@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-06'
+  score: 50.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -183,7 +183,7 @@ apis:
 - description: The whitelabeling API from Dokploy — 4 operation(s) for whitelabeling.
   name: Dokploy whitelabeling API
   slug: dokploy-whitelabeling-api
-artifact_total: 55
+artifact_total: 56
 collections:
 - collection_type: open
   name: Dokploy API
@@ -235,7 +235,7 @@ common:
   url: https://github.com/Dokploy/cli
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://github.com/Dokploy/mcp
 - group: other
   title: ''
@@ -265,6 +265,10 @@ finops:
   slug: dokploy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dokploy.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-25'
 name: Dokploy
 nav: Providers
@@ -277,23 +281,23 @@ plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
   slug: dokploy-plans-pricing
-random_paper: 92
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Dokploy Rate Limits
   slug: dokploy-rate-limits
 score:
   band: developing
-  composite: 42.9
+  composite: 45.6
   delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.8
-    developer_ergonomics: 41.3
-    discoverability: 59.3
+    developer_ergonomics: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.9
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -302,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/screenshots/dokploy-2026-06-20T180131.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Porch
 nav: Providers
 network: true
 overview: Porch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Insurance, InsurTech, and PropTech.
-random_paper: 88
+random_paper: 76
 score:
   band: minimal
   composite: 9.1
@@ -88,7 +88,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

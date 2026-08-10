@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Beep is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Beep''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 73
+random_paper: 64
 score:
   band: emerging
   composite: 18.4
@@ -111,7 +111,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beep/refs/heads/main/screenshots/beep-2026-07-25T202635.png
 security:

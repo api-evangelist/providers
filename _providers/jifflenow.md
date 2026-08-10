@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,7 +56,7 @@ name: Jifflenow
 nav: Providers
 network: true
 overview: Jifflenow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Events, Meetings, and Scheduling.
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 8.2
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jifflenow/refs/heads/main/screenshots/jifflenow-2026-07-25T223147.png
 security:

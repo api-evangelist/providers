@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -155,31 +155,43 @@ common:
   title: ''
   type: YCombinator
   url: https://www.ycombinator.com/companies/vouch
+- group: other
+  title: ''
+  type: HealthcareAndLifeSciences
+  url: https://vouch.us/healthcare-life-sciences
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/vouch-insurance
+- group: other
+  title: ''
+  type: Quadipy
+  url: https://github.com/vouch-insurance/quadipy
 created: '2026-05-25'
 description: Vouch is a San Francisco, California business insurance broker and risk advisor purpose-built for high-growth startups and the venture ecosystem. Founded in 2018 by Sam Hodges and Travis Hedge and backed by investors including Ribbit Capital, SVB Capital, Redpoint Ventures, Y Combinator, and MS&AD Ventures, Vouch offers a tailored portfolio of commercial coverages — Directors & Officers (D&O), Errors & Omissions (E&O / Tech E&O / Professional Services E&O), Cyber, Employment Practices Liability (EPL), General Liability, Business Property, Fiduciary, Crime, and contract-required coverages — sold to technology, healthcare and life sciences, financial services, and professional services companies. The business model is broker-of-record commissions and, since 2021, a Vouch-owned insurance carrier underwriting select lines. Vouch is best known in the developer community for its embedded insurance program, which lets ecosystem partners (Carta, StartupOS, and similar founder platforms)
   pre-fill applications, surface quotes, and bind coverage inline via Vouch's partner API. Public developer documentation, an OpenAPI specification, and a self-serve sandbox are not exposed; the partner API and Vouch Corporate documentation (hosted on GitBook) are gated to onboarded venture, technology, and service-provider partners contracted through hello@vouch.us.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vouch-co.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Vouch
 nav: Providers
 network: true
 overview: 'Vouch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Business Insurance, Commercial Insurance, Insurtech, and Startup Insurance.
 
 
-  Vouch''s developer surface includes engineering blog, support, and 29 more developer resources.'
-random_paper: 13
+  Vouch''s developer surface includes engineering blog, support, GitHub presence, and 31 more developer resources.'
+random_paper: 108
 score:
   band: emerging
-  composite: 14.3
-  delta: 0.0
+  composite: 14.9
+  delta: 0.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 14.3
   regulatory:
     applies: true
@@ -188,7 +200,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

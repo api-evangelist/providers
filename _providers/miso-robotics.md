@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Miso Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Miso Robotics'' developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 111
+random_paper: 78
 score:
   band: emerging
   composite: 13.1
@@ -121,8 +121,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/miso-robotics/refs/heads/main/screenshots/miso-robotics-2026-08-07T183744.png
 security:
 - kind: domain-security
   name: Miso Robotics Domain Security

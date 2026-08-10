@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 3.6
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,34 +91,51 @@ common:
   title: ''
   type: DomainSecurity
   url: security/o1-labs-domain-security.yml
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/o1-labs/o1js
+- group: build
+  title: ''
+  type: CLI
+  url: cli/o1-labs-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/o1-labs-sandbox.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/o1-labs-well-known.yml
 created: '2026-07-17'
 description: 'o1 Labs (o1Labs) is a zero-knowledge cryptography company and the incubator of Mina Protocol, a lightweight blockchain that stays a constant ~22KB using recursive zk-SNARKs. o1 Labs builds the developer tooling for privacy-preserving applications: o1js, a TypeScript framework for writing zk-SNARKs and zkApps (formerly SnarkyJS); Kimchi, the underlying proof system; mina-signer for transaction signing; and Mina Node SDKs for JavaScript, Go, Python, and Rust that talk to the Mina GraphQL API. Developer documentation, zkApp guides, and the node/GraphQL API reference are published at docs.minaprotocol.com, and all tooling is open source on GitHub under the o1-labs organization.'
 image: https://cdn.sanity.io/images/v2aajybd/production/59090d53580885aff7af12df9073601d5269949e-750x450.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: o1 Labs
 nav: Providers
 network: true
 overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Blockchain, Zero Knowledge, and Cryptography.
 
 
-  o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 10 more developer resources.'
-random_paper: 58
+  o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 12 more developer resources.'
+random_paper: 43
 score:
   band: emerging
-  composite: 22.1
-  delta: 0.0
+  composite: 24.7
+  delta: 2.6
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 54.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 22.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/screenshots/o1-labs-2026-08-07T185836.png
 security:
 - kind: domain-security
   name: O1 Labs Domain Security

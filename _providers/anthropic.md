@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -796,7 +796,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits
@@ -840,7 +840,7 @@ score:
       total: 24
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Public GraphQL API for verified Nivoda customers to search live natural and lab-grown diamond, gemstone and jewelry inventory, retrieve real-time pricing, certificates and media, and (with Pro access)
@@ -151,7 +151,7 @@ overview: 'Nivoda publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nivoda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 76
+random_paper: 61
 score:
   band: thin
   composite: 29.1
@@ -169,8 +169,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nivoda/refs/heads/main/screenshots/nivoda-2026-08-07T185352.png
 security:
 - kind: authentication
   name: Nivoda Authentication

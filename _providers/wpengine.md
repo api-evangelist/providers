@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -513,7 +513,7 @@ plans:
 - name: Wpengine Plans Pricing
   plan_count: 5
   slug: wpengine-plans-pricing
-random_paper: 70
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Wpengine Rate Limits
@@ -529,25 +529,25 @@ rules:
   slug: wpengine-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 49.9
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.3
+    contract_quality: 57.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 48.9
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:

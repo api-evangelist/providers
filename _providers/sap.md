@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -309,22 +309,6 @@ common:
   title: ''
   type: Rules
   url: rules/sap-spectral-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/ai-core.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/business-one.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/s4hana-business-partner.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/enterprise-business-operations.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -622,12 +606,12 @@ overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
   The SAP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 28 more developer resources.'
+  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 24 more developer resources.'
 plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 98
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -682,7 +666,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

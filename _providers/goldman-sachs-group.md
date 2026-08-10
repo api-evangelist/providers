@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: 'Scaling RIA Growth: The Goldman Sachs AI Playbook'
   url: https://www.etftrends.com/future-etfs-content-hub/scaling-ria-growth-goldman-sachs-ai-playbook/
-random_paper: 107
+random_paper: 59
 score:
   band: minimal
   composite: 3.3
@@ -78,7 +78,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goldman-sachs-group/refs/heads/main/screenshots/goldman-sachs-group-2026-06-20T181956.png
 slug: goldman-sachs-group

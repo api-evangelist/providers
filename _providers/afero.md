@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -26,11 +26,8 @@ agentic_access:
   operation_count: 25
   slug: afero-agentic-access
   summary_line: 25 operations · 12 acting
-api_count: 5
+api_count: 4
 apis:
-- description: The Afero Cloud API is the RESTful control plane for the Afero IoT platform. It lists the devices and users on an Afero account, reports real-time device state (connection, RSSI, location, attribute v
-  name: Afero Cloud API
-  slug: cloud-api
 - description: The OAuth 2.0 token endpoint for the Afero Cloud. A partner authenticates with HTTP Basic using the OAuth Client ID and Client Secret issued in the Afero Profile Editor, posts the end-user credentials
   name: Afero Cloud Authentication API
   slug: authentication-api
@@ -43,7 +40,7 @@ apis:
 - description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
   name: Afero Cloud OTA Firmware API
   slug: ota-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -185,18 +182,18 @@ modified: '2026-08-02'
 name: Afero
 nav: Providers
 network: true
-overview: 'Afero publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cloud API, Cloud Authentication API, Cloud Users API, and 2 more. Tagged areas include Company, Internet of Things, IoT Platform, Connected Devices, and Device Management.
+overview: 'Afero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cloud Authentication API, Cloud Users API, Cloud Devices API, and 1 more. Tagged areas include Company, Internet of Things, IoT Platform, Connected Devices, and Device Management.
 
 
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 26 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 50.5
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.7
+    contract_quality: 62.4
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -213,8 +210,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/screenshots/afero-2026-08-07T161019.png
 security:
 - kind: authentication
   name: Afero Authentication

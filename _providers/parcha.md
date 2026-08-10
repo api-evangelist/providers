@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 66
 apis:
 - description: The Admin API from Parcha — 14 operation(s) for admin.
@@ -370,7 +370,7 @@ overview: 'Parcha publishes 66 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parcha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 58
+random_paper: 43
 score:
   band: developing
   composite: 55.2
@@ -393,8 +393,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:
 - kind: authentication
   name: Parcha Authentication

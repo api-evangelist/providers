@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ overview: 'Meow publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 101
+random_paper: 92
 scopes:
 - name: Meow Scopes
   scope_count: 0
@@ -166,8 +166,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meow/refs/heads/main/screenshots/meow-2026-08-07T172630.png
 security:
 - kind: authentication
   name: Meow Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,10 +66,11 @@ name: Vertos Medical
 nav: Providers
 network: true
 overview: Vertos Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Spine, and Interventional Pain Management.
-random_paper: 83
+random_paper: 47
 score:
   band: minimal
   composite: 4.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -77,8 +78,10 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 4.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Vertos Medical Domain Security

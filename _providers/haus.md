@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Haus is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Haus'' developer surface includes engineering blog, pricing, support, signup flow, and 10 more developer resources.'
-random_paper: 94
+random_paper: 85
 score:
   band: emerging
   composite: 20.5
@@ -113,7 +113,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus/refs/heads/main/screenshots/haus-2026-07-25T220755.png
 security:

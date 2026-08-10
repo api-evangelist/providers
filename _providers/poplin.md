@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -89,7 +89,7 @@ plans:
 - name: Poplin Plans Pricing
   plan_count: 4
   slug: poplin-plans-pricing
-random_paper: 93
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Poplin Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

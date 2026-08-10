@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Archer
 nav: Providers
 network: true
 overview: Archer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payouts, Stablecoins, and Fintech.
-random_paper: 64
+random_paper: 49
 score:
   band: minimal
   composite: 7.0
@@ -84,7 +84,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer/refs/heads/main/screenshots/archer-2026-07-25T201038.png
 security:

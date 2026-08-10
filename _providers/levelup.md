@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ overview: 'LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LevelUp''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 87
+random_paper: 69
 score:
   band: emerging
   composite: 17.4
@@ -118,7 +118,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelup/refs/heads/main/screenshots/levelup-2026-07-25T224952.png
 security:

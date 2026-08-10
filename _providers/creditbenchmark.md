@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - description: Portfolio-level analytics and summaries
   name: Credit Benchmark Portfolio Analytics API
   slug: creditbenchmark-portfolio-analytics-api
-artifact_total: 11
+artifact_total: 12
 common:
 - group: start
   title: ''
@@ -150,6 +150,18 @@ common:
   title: ''
   type: Website
   url: http://www.creditbenchmark.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.creditbenchmark.com
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/creditbenchmark-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.creditbenchmark.com/vulnerability-disclosure/
 created: '2026-07-17'
 description: Credit Benchmark is a financial data company that aggregates internal credit risk assessments contributed by more than 40 leading global financial institutions into anonymized, consensus Credit Consensus Ratings and analytics covering roughly 120,000 public and private entities — over 90% of which are unrated by the traditional credit rating agencies. Its REST API delivers consensus ratings, rating distributions, aggregate credit trends, entity rating changes, and portfolio analytics, along with entity-name-to-CBID resolution (matching) and contributor-data analytics. Delivery is also available via a web app, an Excel Add-In, and file/SFTP feeds. Access is enterprise/sales-gated; the JWT-authenticated API base is https://api.creditbenchmark.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creditbenchmark.png
@@ -158,26 +170,26 @@ mcp_servers:
 - description: ''
   name: creditbenchmark-mcp.yml
   slug: creditbenchmark-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Credit Benchmark
 nav: Providers
 network: true
 overview: 'Credit Benchmark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Contributor Data API, and 3 more. Tagged areas include Company, Credit Risk, Financial Data, Credit Ratings, and Analytics.
 
 
-  Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 105
+  Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
+random_paper: 66
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 48.8
+  delta: 3.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 65.1
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 26.3
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -190,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:
@@ -202,6 +214,10 @@ security:
   name: Creditbenchmark Domain Security
   slug: creditbenchmark-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Creditbenchmark Vulnerability Disclosure
+  slug: creditbenchmark-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Creditbenchmark Trust Center
   slug: creditbenchmark-trust-center

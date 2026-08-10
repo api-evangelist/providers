@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -362,7 +362,7 @@ plans:
 - name: Amazon Transfer Family Plans Pricing
   plan_count: 3
   slug: amazon-transfer-family-plans-pricing
-random_paper: 100
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Amazon Transfer Family Rate Limits
@@ -396,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/screenshots/amazon-transfer-family-2026-06-20T171837.png
 security:

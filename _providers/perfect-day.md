@@ -18,57 +18,57 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 16
 apis:
-- description: The WordPress REST `posts` resource behind perfectday.com — 71 published blog posts, with collection, single-item, revision and autosave routes. Read access is anonymous; writes require a WordPress ap
-  name: Perfect Day posts API
-  slug: perfect-day-posts-api
-- description: The `news` custom post type behind the Perfect Day newsroom — 103 items covering partner launches, regulatory milestones and company announcements. Read access is anonymous.
-  name: Perfect Day news API
-  slug: perfect-day-news-api
-- description: The `success_story` custom post type — Perfect Day's published partner/brand case studies, classified by the `success_story_category` taxonomy. Read access is anonymous.
-  name: Perfect Day success stories API
-  slug: perfect-day-success-stories-api
-- description: The WordPress REST `pages` resource — 59 published marketing and information pages (ProFerm, applications, process, impact, health, FAQs). Read access is anonymous.
-  name: Perfect Day pages API
-  slug: perfect-day-pages-api
-- description: The WordPress REST `search` resource — cross-content-type search across posts, pages, news and success stories on perfectday.com. Read access is anonymous.
-  name: Perfect Day search API
-  slug: perfect-day-search-api
-- description: The WordPress REST `media` resource — the site's image and document library, including product photography and press assets. Read access is anonymous; uploads require authentication.
-  name: Perfect Day media API
-  slug: perfect-day-media-api
-- description: The WordPress REST `categories` taxonomy for blog posts on perfectday.com.
-  name: Perfect Day categories API
+- description: WordPress REST `categories` resource on perfectday.com.
+  name: Perfect Day Categories API
   slug: perfect-day-categories-api
-- description: The `news_category` custom taxonomy that classifies Perfect Day newsroom items.
-  name: Perfect Day news categories API
-  slug: perfect-day-news-categories-api
-- description: The `success_story_category` custom taxonomy that classifies Perfect Day case studies.
-  name: Perfect Day success story categories API
-  slug: perfect-day-success-story-categories-api
-- description: The `leader_category` custom taxonomy that groups Perfect Day leadership profiles.
-  name: Perfect Day leader categories API
-  slug: perfect-day-leader-categories-api
-- description: The WordPress REST `tags` taxonomy on perfectday.com.
-  name: Perfect Day tags API
-  slug: perfect-day-tags-api
-- description: The WordPress REST `comments` resource on perfectday.com.
-  name: Perfect Day comments API
+- description: WordPress REST `comments` resource on perfectday.com.
+  name: Perfect Day Comments API
   slug: perfect-day-comments-api
-- description: The WordPress REST `taxonomies` resource — enumerates the seven taxonomies registered on perfectday.com, including the custom news, success-story and leader taxonomies.
-  name: Perfect Day taxonomies API
-  slug: perfect-day-taxonomies-api
-- description: The WordPress REST `types` resource — enumerates the content types registered on perfectday.com, including the news, success_story and modal custom post types.
-  name: Perfect Day types API
-  slug: perfect-day-types-api
-- description: The WordPress REST `statuses` resource on perfectday.com.
-  name: Perfect Day statuses API
+- description: WordPress REST `leader_category` resource on perfectday.com.
+  name: Perfect Day Leader Category API
+  slug: perfect-day-leader-category-api
+- description: WordPress REST `media` resource on perfectday.com.
+  name: Perfect Day Media API
+  slug: perfect-day-media-api
+- description: WordPress REST `modal` resource on perfectday.com.
+  name: Perfect Day Modal API
+  slug: perfect-day-modal-api
+- description: WordPress REST `news` resource on perfectday.com.
+  name: Perfect Day News API
+  slug: perfect-day-news-api
+- description: WordPress REST `news_category` resource on perfectday.com.
+  name: Perfect Day News Category API
+  slug: perfect-day-news-category-api
+- description: WordPress REST `pages` resource on perfectday.com.
+  name: Perfect Day Pages API
+  slug: perfect-day-pages-api
+- description: WordPress REST `posts` resource on perfectday.com.
+  name: Perfect Day Posts API
+  slug: perfect-day-posts-api
+- description: WordPress REST `search` resource on perfectday.com.
+  name: Perfect Day Search API
+  slug: perfect-day-search-api
+- description: WordPress REST `statuses` resource on perfectday.com.
+  name: Perfect Day Statuses API
   slug: perfect-day-statuses-api
-- description: The `modal` custom post type used for site interstitials on perfectday.com.
-  name: Perfect Day modals API
-  slug: perfect-day-modals-api
+- description: WordPress REST `success_story` resource on perfectday.com.
+  name: Perfect Day Success Story API
+  slug: perfect-day-success-story-api
+- description: WordPress REST `success_story_category` resource on perfectday.com.
+  name: Perfect Day Success Story Category API
+  slug: perfect-day-success-story-category-api
+- description: WordPress REST `tags` resource on perfectday.com.
+  name: Perfect Day Tags API
+  slug: perfect-day-tags-api
+- description: WordPress REST `taxonomies` resource on perfectday.com.
+  name: Perfect Day Taxonomies API
+  slug: perfect-day-taxonomies-api
+- description: WordPress REST `types` resource on perfectday.com.
+  name: Perfect Day Types API
+  slug: perfect-day-types-api
 artifact_total: 19
 common:
 - group: company
@@ -203,18 +203,18 @@ modified: '2026-08-02'
 name: Perfect Day
 nav: Providers
 network: true
-overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) network, including posts API, news API, success stories API, and 13 more. Tagged areas include Company, Food Technology, Precision Fermentation, Alternative Protein, and Ingredients.
+overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Leader Category API, and 13 more. Tagged areas include Company, Food Technology, Precision Fermentation, Alternative Protein, and Ingredients.
 
 
   Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 24 more developer resources.'
-random_paper: 91
+random_paper: 64
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 38.6
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.5
+    contract_quality: 60.7
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
@@ -230,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

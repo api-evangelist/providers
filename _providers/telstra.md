@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Telstra Plans Pricing
   plan_count: 2
   slug: telstra-plans-pricing
-random_paper: 89
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: Telstra Rate Limits
@@ -325,7 +325,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:

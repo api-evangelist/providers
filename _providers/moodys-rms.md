@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 1
@@ -173,7 +173,7 @@ overview: 'Moody''s RMS publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Moody''s RMS''s developer surface includes changelog, getting-started guide, support, authentication, documentation, API reference, and 21 more developer resources.'
-random_paper: 33
+random_paper: 6
 score:
   band: developing
   composite: 44.4
@@ -203,8 +203,9 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/screenshots/moodys-rms-2026-08-07T184230.png
 security:
 - kind: authentication
   name: Moodys Rms Authentication

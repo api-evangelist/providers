@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Knight-Swift Transportation supports EDI integration for freight tendering, shipment tracking, and invoicing. Trading partners can submit load tenders (EDI 204), receive responses (EDI 990), get shipm
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Swift Transportation
   url: https://www.facebook.com/DriveSwift/posts/we-are-thrilled-to-announce-swift-transportations-partnership-with-netradyneat-k/1082165473940179/
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Swift Transportation Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift-transportation/refs/heads/main/screenshots/swift-transportation-2026-06-20T194806.png
 security:

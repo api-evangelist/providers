@@ -27,13 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 4
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
   name: Zoho Recruit REST API v2
   slug: rest-api-v2
-artifact_total: 3
+- description: The Candidates API from Zoho Recruit — 1 operation(s) for candidates.
+  name: Zoho Recruit Candidates API
+  slug: zoho-recruit-candidates-api
+- description: The Job Openings API from Zoho Recruit — 1 operation(s) for job openings.
+  name: Zoho Recruit Job Openings API
+  slug: zoho-recruit-job-openings-api
+- description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
+  name: Zoho Recruit Zoho Recruit API API
+  slug: zoho-recruit-zoho-recruit-api-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -79,20 +88,20 @@ modified: '2026-05-11'
 name: Zoho Recruit
 nav: Providers
 network: true
-overview: 'Zoho Recruit publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Applicant Tracking System, ATS, Recruiting, Recruitment CRM, and HR.
+overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API API. Tagged areas include Applicant Tracking System, ATS, Recruiting, Recruitment CRM, and HR.
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 99
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 26.1
+  delta: 0.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 55.8
+    contract_quality: 55.0
     developer_ergonomics: 10.9
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.8
@@ -103,7 +112,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/screenshots/zoho-recruit-2026-06-20T201945.png
 security:

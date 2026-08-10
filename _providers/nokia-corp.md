@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN functions through standardized northbound interfaces. Includes Quality on Demand, Device Location (Verification, Retrieval), Ge
@@ -219,7 +219,7 @@ overview: 'Nokia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nokia''s developer surface includes developer portal, documentation, getting-started guide, signup flow, tooling, engineering blog, YouTube channel, and 32 more developer resources.'
-random_paper: 107
+random_paper: 83
 score:
   band: emerging
   composite: 20.1
@@ -239,7 +239,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/screenshots/nokia-corp-2026-06-20T190352.png
 security:

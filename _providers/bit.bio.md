@@ -1,6 +1,91 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bit.bio-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bit.bio-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bit.bio/
+- group: other
+  title: ''
+  type: Products
+  url: https://www.bit.bio/products
+- group: other
+  title: ''
+  type: Platform
+  url: https://www.bit.bio/platform
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bit.bio/support/technical-support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.bit.bio/support/technical-faqs
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bit.bio/blog
+- group: company
+  title: ''
+  type: News
+  url: https://www.bit.bio/news
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://www.bit.bio/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Bit-Bio
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bit.bio/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bit.bio/hubfs/Documents/Standard-Terms-and-Conditions-for-Sale-of-Goods-and-Services_v04.pdf
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bitbioltd/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/bitbio
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.hiive.com/securities/bit.bio-stock
 coverage:
   checked: '2026-08-07'
   detail: bit.bio sells cryopreserved human iPSC-derived cell vials and CRISPR screening services, ordered through a HubSpot marketing site and a Shopify storefront; there is no developer subdomain, no spec at any host root, and the only machine-readable endpoints on shop.bit.bio are Shopify platform defaults that an unrelated Shopify store returns identically.
@@ -29,7 +114,38 @@ modified: '2026-08-07'
 name: Bit.bio
 nav: Providers
 network: true
-random_paper: 1
+overview: 'Bit.bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Life Sciences, and Stem Cells.
+
+
+  Bit.bio''s developer surface includes support, engineering blog, product news, and 13 more developer resources.'
+random_paper: 99
+score:
+  band: emerging
+  composite: 13.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bit.bio/refs/heads/main/screenshots/bit.bio-2026-08-07T162518.png
+security:
+- kind: domain-security
+  name: Bit.Bio Domain Security
+  slug: bit.bio-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: bit.bio
 tags:
 - Company
@@ -42,4 +158,5 @@ tags:
 - Genomics
 - CRISPR
 - Research Reagents
+website: https://www.bit.bio/
 ---

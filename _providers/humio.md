@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Humio (Falcon LogScale) REST + GraphQL API. The REST API covers streaming ingest (structured, unstructured, Splunk HEC, and Elastic bulk endpoints) and search/query jobs against repositories; the Grap
@@ -107,7 +107,7 @@ overview: 'Humio publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Humio''s developer surface includes documentation, API reference, engineering blog, CLI, and 11 more developer resources.'
-random_paper: 94
+random_paper: 82
 score:
   band: emerging
   composite: 16.8
@@ -121,7 +121,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humio/refs/heads/main/screenshots/humio-2026-07-25T221712.png
 security:

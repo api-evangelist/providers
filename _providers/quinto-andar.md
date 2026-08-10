@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,30 +67,34 @@ common:
   title: ''
   type: Security
   url: https://bugcrowd.com/engagements/quintoandar
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/quintoandar
 created: '2026-07-17'
 description: QuintoAndar is a Brazilian proptech real-estate marketplace that lets people rent and buy homes online without a guarantor, with digital visit scheduling, digital contract signing, rent and sale pricing intelligence (QPreço), owner financial management, and a real-estate consortium financing program. It operates a two-sided marketplace across major Brazilian cities including São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Campinas, and Curitiba, earning revenue on rental and sales commissions. Surfaced as a portfolio company of ribbit-capital and enriched into the API Evangelist network. No public developer API surface was found; the company does publish a security.txt with a Bugcrowd bug bounty program.
 image: https://www.quintoandar.com.br/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Quinto Andar
 nav: Providers
 network: true
 overview: Quinto Andar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Marketplace, and Rentals.
-random_paper: 105
+random_paper: 75
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 13.2
+  delta: 0.6
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 4.3
     discoverability: 61.1
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   previous_composite: 12.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

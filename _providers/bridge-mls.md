@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ plans:
 - name: Bridge Mls Plans Pricing
   plan_count: 3
   slug: bridge-mls-plans-pricing
-random_paper: 94
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Bridge Mls Rate Limits
@@ -338,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

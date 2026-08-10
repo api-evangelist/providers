@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Appyway Plans Pricing
   plan_count: 1
   slug: appyway-plans-pricing
-random_paper: 101
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Appyway Rate Limits
@@ -306,7 +306,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

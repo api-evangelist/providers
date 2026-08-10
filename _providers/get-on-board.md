@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 22
 apis:
 - description: Job applications management
@@ -234,7 +234,7 @@ overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Get On Board''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, sandbox, and 21 more developer resources.'
-random_paper: 21
+random_paper: 107
 score:
   band: developing
   composite: 49.0
@@ -257,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:

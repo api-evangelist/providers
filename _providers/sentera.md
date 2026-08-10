@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Sentera Plans Pricing
   plan_count: 3
   slug: sentera-plans-pricing
-random_paper: 76
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Sentera Rate Limits
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/screenshots/sentera-2026-06-20T193707.png
 security:

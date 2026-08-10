@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Lucidum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lucidum''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 77
+random_paper: 59
 score:
   band: minimal
   composite: 10.1
@@ -89,7 +89,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidum/refs/heads/main/screenshots/lucidum-2026-07-25T225638.png
 security:

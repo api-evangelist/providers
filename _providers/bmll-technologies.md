@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Query reference data for the instruments, listings, and markets in the BMLL universe (equities, ETFs, futures, options), including availability by data type (LOB, listing/instrument/market-level metri
@@ -141,7 +141,7 @@ overview: 'BMLL Technologies publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   BMLL Technologies'' developer surface includes developer portal, documentation, engineering blog, support, authentication, changelog, CLI, and 14 more developer resources.'
-random_paper: 57
+random_paper: 12
 score:
   band: thin
   composite: 32.0
@@ -163,7 +163,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmll-technologies/refs/heads/main/screenshots/bmll-technologies-2026-07-22T202240.png
 security:

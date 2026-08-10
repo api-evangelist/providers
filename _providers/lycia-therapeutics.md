@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,7 +102,7 @@ overview: 'Lycia Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Lycia Therapeutics'' developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 64
+random_paper: 16
 score:
   band: minimal
   composite: 12.4
@@ -122,8 +122,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lycia-therapeutics/refs/heads/main/screenshots/lycia-therapeutics-2026-08-07T171902.png
 security:
 - kind: domain-security
   name: Lycia Therapeutics Domain Security

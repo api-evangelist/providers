@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 19
 common:
@@ -97,7 +97,7 @@ overview: 'Banking Regulation is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Banking Regulation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 49
+random_paper: 1
 rules:
 - name: Banking Regulation API Rules
   rule_count: 5
@@ -126,7 +126,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banking-regulation/refs/heads/main/screenshots/banking-regulation-2026-06-20T172952.png
 security:

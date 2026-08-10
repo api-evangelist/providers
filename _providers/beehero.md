@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -26,12 +26,21 @@ agentic_access:
   operation_count: 12
   slug: beehero-agentic-access
   summary_line: 12 operations · 12 acting
-api_count: 1
+api_count: 4
 apis:
-- description: Bearer-token REST API for BeeHero platform data. Authenticate at /login with email and password to receive an access_token, then read in-hive audio samples by sensor MAC address, read sensor and gatew
-  name: BeeHero API
-  slug: beehero-api
-artifact_total: 5
+- description: Get audio files from sensors
+  name: BeeHero Audio API
+  slug: beehero-audio-api
+- description: Login to BeeHero API
+  name: BeeHero Auth API
+  slug: beehero-auth-api
+- description: Get gateways sample data
+  name: BeeHero Gateways API
+  slug: beehero-gateways-api
+- description: Get sensors sample data
+  name: BeeHero Sensors API
+  slug: beehero-sensors-api
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -80,7 +89,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/beehero-openapi-original.yml
+  url: openapi/_original/beehero-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -137,20 +146,20 @@ modified: '2026-08-02'
 name: BeeHero
 nav: Providers
 network: true
-overview: 'BeeHero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, agriculture, agtech, pollination, and beekeeping.
+overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Gateways API, and 1 more. Tagged areas include Company, agriculture, agtech, pollination, and beekeeping.
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 52
+random_paper: 34
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 42.0
+  delta: -0.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.7
+    contract_quality: 63.8
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 42.2
@@ -165,8 +174,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:
 - kind: authentication
   name: Beehero Authentication

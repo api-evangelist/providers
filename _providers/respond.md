@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Respond Plans Pricing
   plan_count: 4
   slug: respond-plans-pricing
-random_paper: 85
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Respond Rate Limits
@@ -158,7 +158,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:

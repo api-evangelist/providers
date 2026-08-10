@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Fox Factory Holding API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Fox Factory Holding Plans Pricing
   plan_count: 1
   slug: fox-factory-holding-plans-pricing
-random_paper: 3
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Fox Factory Holding Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/screenshots/fox-factory-holding-2026-06-20T181504.png
 security:

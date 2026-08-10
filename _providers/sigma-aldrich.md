@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: Sigma-Aldrich® and The Scripps Research Institute ...
   url: https://www.fiercebiotech.com/research/sigma-aldrich%C2%AE-and-scripps-research-institute-partner-to-accelerate-commercialization-of
-random_paper: 58
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Sigma Aldrich Rate Limits
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -28,27 +28,27 @@ agentic_access:
   summary_line: 19 operations · 9 acting
 api_count: 7
 apis:
-- description: 'Create, update, read and release outbound customer orders for pick, pack and ship, and simulate warehouse shipment in sandbox. Orders are upserted on store_id + order_key, released with submit-order, '
-  name: ShipMonk Orders API
-  slug: shipmonk-orders-api
-- description: Create products and read inventory. Includes the frozen-cursor search/paginate pair that is the reliable way to walk the whole catalog for inventory synchronisation, plus the legacy products list.
-  name: ShipMonk Products API
-  slug: shipmonk-products-api
-- description: Push inbound ASN-keyed receivings into ShipMonk warehouses with typed carton and pallet LPN (SSCC) identifiers, read receivings and receipts, and simulate check-in discrepancies in sandbox.
-  name: ShipMonk Receivings API
-  slug: shipmonk-receivings-api
-- description: Create and track customer returns (RMAs) with expected items, return reasons and dispositions, and simulate the full arrival-to-grading return lifecycle in sandbox.
-  name: ShipMonk Returns API
-  slug: shipmonk-returns-api
-- description: Read the enabled ShipMonk fulfillment centres for the account. Warehouse identifiers are required across order, receiving and return operations and as filters on list endpoints.
-  name: ShipMonk Warehouses API
-  slug: shipmonk-warehouses-api
 - description: 'The ShipMonk event surface: four HTTP callback events (order shipment notification, order status change, return status change, receiving status change) declared in the OpenAPI 3.1 webhooks block. Deli'
   name: ShipMonk Webhooks
   slug: shipmonk-webhooks
 - description: 'A live Model Context Protocol endpoint served from ShipMonk''s own developer-docs host. tools/list responds anonymously with five spec-driven tools: four OpenAPI introspection tools plus execute-reques'
   name: ShipMonk MCP Server
   slug: shipmonk-mcp
+- description: The Orders API from ShipMonk — 5 operation(s) for orders.
+  name: ShipMonk Orders API
+  slug: shipmonk-orders-api
+- description: The Products API from ShipMonk — 4 operation(s) for products.
+  name: ShipMonk Products API
+  slug: shipmonk-products-api
+- description: The Receivings API from ShipMonk — 4 operation(s) for receivings.
+  name: ShipMonk Receivings API
+  slug: shipmonk-receivings-api
+- description: The Returns API from ShipMonk — 3 operation(s) for returns.
+  name: ShipMonk Returns API
+  slug: shipmonk-returns-api
+- description: The Warehouses API from ShipMonk — 1 operation(s) for warehouses.
+  name: ShipMonk Warehouses API
+  slug: shipmonk-warehouses-api
 artifact_total: 15
 asyncapis:
 - description: AsyncAPI 3.0 model of the ShipMonk webhook event surface, derived from the `webhooks` block of ShipMonk's own OpenAPI 3.1 document (https://apidocs.shipmonk.com/openapi/public_api.json) plus the publi
@@ -235,25 +235,25 @@ modified: '2026-08-02'
 name: ShipMonk
 nav: Providers
 network: true
-overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Receivings API, and 3 more. Tagged areas include Logistics, Fulfillment, 3PL, Ecommerce, and Warehousing.
+overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 3 more. Tagged areas include Logistics, Fulfillment, 3PL, Ecommerce, and Warehousing.
 
 
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 82
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits
   slug: shipmonk-rate-limits
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 62.3
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.8
+    contract_quality: 63.4
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
@@ -270,7 +270,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

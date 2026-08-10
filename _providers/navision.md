@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -421,26 +421,6 @@ common:
   title: Spectral Rules
   type: Rules
   url: rules/navision-spectral-rules.yml
-- group: other
-  title: Business Operations Workflow
-  type: Capabilities
-  url: capabilities/business-operations.yaml
-- group: other
-  title: Platform Administration Workflow
-  type: Capabilities
-  url: capabilities/platform-administration.yaml
-- group: other
-  title: Business Central v2 Shared Capability
-  type: Capabilities
-  url: capabilities/shared/business-central-v2.yaml
-- group: other
-  title: Admin Center Shared Capability
-  type: Capabilities
-  url: capabilities/shared/admin-center.yaml
-- group: other
-  title: Automation Shared Capability
-  type: Capabilities
-  url: capabilities/shared/automation.yaml
 created: '2024-01-20'
 description: API collection for Microsoft Dynamics NAV (formerly Navision), an enterprise resource planning (ERP) solution for small and medium-sized businesses. Dynamics NAV has evolved into Dynamics 365 Business Central, which provides modern REST, OData, and SOAP web services for business data integration.
 examples:
@@ -1648,12 +1628,12 @@ overview: 'Microsoft Dynamics NAV publishes 38 APIs on the [APIs.io](https://api
   The Microsoft Dynamics NAV catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 52 more developer resources.'
+  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 47 more developer resources.'
 plans:
 - name: Navision Plans Pricing
   plan_count: 5
   slug: navision-plans-pricing
-random_paper: 80
+random_paper: 59
 rate_limits:
 - limit_count: 20
   name: Navision Rate Limits
@@ -1700,7 +1680,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:

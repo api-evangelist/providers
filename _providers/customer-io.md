@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -200,10 +200,6 @@ common:
   title: ''
   type: Rules
   url: rules/customer-io-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/customer-io-capabilities.yml
 - group: agent
   title: ''
   type: LlmsText
@@ -245,12 +241,12 @@ overview: 'Customer.io publishes 23 APIs on the [APIs.io](https://apis.io/) netw
   The Customer.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Customer.io''s developer surface includes authentication, documentation, and 19 more developer resources.'
+  Customer.io''s developer surface includes authentication, documentation, and 18 more developer resources.'
 plans:
 - name: Customer Io Plans Pricing
   plan_count: 3
   slug: customer-io-plans-pricing
-random_paper: 13
+random_paper: 99
 rate_limits:
 - limit_count: 6
   name: Customer Io Rate Limits
@@ -306,7 +302,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:

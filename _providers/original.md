@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -112,7 +112,7 @@ overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bodygram''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
-random_paper: 62
+random_paper: 41
 scopes:
 - name: Original Scopes
   scope_count: 0
@@ -140,8 +140,9 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/original/refs/heads/main/screenshots/original-2026-08-07T190948.png
 security:
 - kind: authentication
   name: Original Authentication

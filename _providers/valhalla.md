@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De
@@ -201,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

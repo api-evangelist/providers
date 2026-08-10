@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -335,7 +335,7 @@ plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
   slug: label-studio-plans-pricing
-random_paper: 91
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Label Studio Rate Limits
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Plerk
 nav: Providers
 network: true
 overview: Plerk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Fintech, Mexico, and Human Resources.
-random_paper: 90
+random_paper: 78
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: plerk
 tags:

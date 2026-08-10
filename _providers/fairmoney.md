@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: 'FairMoney is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FairMoney''s developer surface includes engineering blog, FAQ, GitHub presence, and 15 more developer resources.'
-random_paper: 66
+random_paper: 42
 score:
   band: minimal
   composite: 6.3
@@ -136,7 +136,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmoney/refs/heads/main/screenshots/fairmoney-2026-06-20T181017.png
 security:

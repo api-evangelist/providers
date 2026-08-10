@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
@@ -110,7 +110,7 @@ plans:
 - name: G P Plans Pricing
   plan_count: 3
   slug: g-p-plans-pricing
-random_paper: 34
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: G P Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/screenshots/g-p-2026-06-20T181628.png
 security:

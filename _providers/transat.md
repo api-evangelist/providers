@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The direct-connect flight shopping, booking, payment and servicing API that Air Transat publishes to OTA and technology partners under its NDC programme. The only technical contract Transat publishes '
@@ -139,7 +139,7 @@ overview: 'Transat publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Transat''s developer surface includes authentication, changelog, documentation, support, legal docs, engineering blog, and 19 more developer resources.'
-random_paper: 87
+random_paper: 69
 score:
   band: emerging
   composite: 21.5
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sheeva-openapi.yml
+  url: openapi/_original/sheeva-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -220,7 +220,7 @@ overview: 'Sheeva publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sheeva''s developer surface includes documentation, API reference, engineering blog, support, signup flow, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 56
 score:
   band: developing
   composite: 45.2
@@ -250,7 +250,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

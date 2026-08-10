@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -116,7 +116,7 @@ plans:
 - name: Nostr Plans Pricing
   plan_count: 1
   slug: nostr-plans-pricing
-random_paper: 1
+random_paper: 102
 rate_limits:
 - limit_count: 2
   name: Nostr Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 36.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nostr/refs/heads/main/screenshots/nostr-2026-06-20T190421.png
 security:

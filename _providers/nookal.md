@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Nookal Plans Pricing
   plan_count: 3
   slug: nookal-plans-pricing
-random_paper: 79
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Nookal Rate Limits
@@ -159,8 +159,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/screenshots/nookal-2026-08-07T185455.png
 security:
 - kind: authentication
   name: Nookal Authentication

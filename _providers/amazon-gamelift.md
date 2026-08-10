@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -4509,7 +4509,7 @@ plans:
 - name: Amazon Gamelift Plans Pricing
   plan_count: 3
   slug: amazon-gamelift-plans-pricing
-random_paper: 63
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Amazon Gamelift Rate Limits
@@ -4532,14 +4532,14 @@ rules:
     warn: 11
   slug: amazon-gamelift-spectral-rules
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.0
+  band: strong
+  composite: 64.3
+  delta: -3.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 79.8
+    contract_quality: 75.2
     developer_ergonomics: 58.7
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.3
@@ -4551,7 +4551,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ overview: 'Squadcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Squadcast''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: thin
   composite: 30.3
@@ -129,7 +129,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/screenshots/squadcast-2026-06-20T194432.png
 security:

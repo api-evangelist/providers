@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -185,7 +185,7 @@ plans:
 - name: Kiota Plans Pricing
   plan_count: 3
   slug: kiota-plans-pricing
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Kiota Rate Limits
@@ -202,7 +202,7 @@ rules:
 score:
   band: developing
   composite: 46.2
-  delta: 26.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -210,10 +210,12 @@ score:
     discoverability: 77.8
     governance: 33.3
     operational_transparency: 71.1
-  previous_composite: 19.9
+  previous_composite: 46.2
+  provenance:
+    conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/screenshots/kiota-2026-06-20T184046.png
 security:
 - kind: authentication

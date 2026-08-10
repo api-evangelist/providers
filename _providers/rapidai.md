@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The commercial API behind the Rapid Technology Partner Program, which lets technology partners integrate Rapid imaging results into their own products and services. Access is granted through the partn
@@ -131,7 +131,7 @@ overview: 'RapidAI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   RapidAI''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 52
+random_paper: 34
 score:
   band: emerging
   composite: 25.3
@@ -153,7 +153,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

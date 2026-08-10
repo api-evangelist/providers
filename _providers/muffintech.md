@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'muffintech is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   muffintech''s developer surface includes support and 7 more developer resources.'
-random_paper: 48
+random_paper: 21
 score:
   band: emerging
   composite: 17.8
@@ -95,8 +95,9 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/muffintech/refs/heads/main/screenshots/muffintech-2026-08-07T184432.png
 security:
 - kind: domain-security
   name: Muffintech Domain Security

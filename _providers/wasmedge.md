@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The WasmEdge C API provides a low-level interface for embedding the WasmEdge runtime into C/C++ host applications. It exposes the full WasmEdge runtime capabilities including module instantiation, fun
@@ -151,7 +151,7 @@ plans:
 - name: Wasmedge Plans Pricing
   plan_count: 3
   slug: wasmedge-plans-pricing
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Wasmedge Rate Limits
@@ -178,7 +178,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 36.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/screenshots/wasmedge-2026-06-20T201238.png
 security:

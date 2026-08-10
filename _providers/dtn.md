@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 100
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -385,7 +385,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

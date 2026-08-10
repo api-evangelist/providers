@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -268,7 +268,7 @@ overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 19 more developer resources.'
-random_paper: 106
+random_paper: 79
 score:
   band: developing
   composite: 44.8
@@ -292,8 +292,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:
 - kind: authentication
   name: Packet Host Authentication

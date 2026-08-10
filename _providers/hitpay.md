@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -249,7 +249,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/hitpay-openapi-original.json
+  url: openapi/_original/hitpay-openapi-original.json
 - group: agent
   title: ''
   type: MCPServer
@@ -369,7 +369,7 @@ plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 90
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits
@@ -403,7 +403,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

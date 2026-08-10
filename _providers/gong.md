@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -196,6 +196,62 @@ common:
   title: ''
   type: FinOps
   url: finops/gong-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://app.gong.io/settings/api/documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.gong.io/settings/api/documentation
+- group: operate
+  title: ''
+  type: Help
+  url: https://app.gong.io/help
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://app.gong.io/help/docs/api
+- group: start
+  title: ''
+  type: Login
+  url: https://app.gong.io
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.gong.io/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gong.io/blog
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.gong.io
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gong.io/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gong.io/terms-of-service
+- group: auth
+  title: ''
+  type: Trust
+  url: https://www.gong.io/trust-center
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.gong.io/trust-center/security
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/gong-io
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/gong_io
 created: '2026-05-08'
 description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, and meetings. APIs expose calls, transcripts, deals, users, and analytics.
 finops:
@@ -505,7 +561,7 @@ jsonld:
   property_count: 13
   slug: gong-context
 layout: provider
-modified: '2026-05-08'
+modified: '2026-08-08'
 name: Gong
 nav: Providers
 network: true
@@ -515,12 +571,12 @@ overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
   The Gong catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gong''s developer surface includes authentication and 9 more developer resources.'
+  Gong''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, status page, and 17 more developer resources.'
 plans:
 - name: Gong Plans Pricing
   plan_count: 1
   slug: gong-plans-pricing
-random_paper: 88
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Gong Rate Limits
@@ -535,16 +591,16 @@ rules:
     warn: 4
   slug: gong-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.3
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 15.9
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 81.6
     contract_quality: 71.3
-    developer_ergonomics: 10.9
+    developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 36.8
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -554,8 +610,8 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:
 - kind: authentication

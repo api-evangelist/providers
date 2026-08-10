@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Push data directly into the Aisera platform from any external system that supports webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header plus an OAuth 2.0 password-grant
@@ -168,7 +168,7 @@ overview: 'Aisera publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Aisera''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 64
+random_paper: 49
 score:
   band: developing
   composite: 44.9
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aisera/refs/heads/main/screenshots/aisera-2026-07-25T195449.png
 security:

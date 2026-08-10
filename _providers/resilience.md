@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Resilience
 nav: Providers
 network: true
 overview: Resilience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biomanufacturing, CDMO, and Pharmaceuticals.
-random_paper: 42
+random_paper: 15
 score:
   band: minimal
   composite: 5.4
@@ -68,7 +68,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

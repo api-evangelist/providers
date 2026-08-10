@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: HelprNow
 nav: Providers
 network: true
 overview: HelprNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gifting, E-commerce, Retail, and Marketplace.
-random_paper: 88
+random_paper: 67
 score:
   band: emerging
   composite: 13.0
@@ -78,8 +78,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/helprnow/refs/heads/main/screenshots/helprnow-2026-08-07T170108.png
 security:
 - kind: domain-security
   name: Helprnow Domain Security

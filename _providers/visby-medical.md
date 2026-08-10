@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Visby Medical is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Visby Medical''s developer surface includes support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 78
+random_paper: 45
 score:
   band: emerging
   composite: 14.3
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Y Combinator
 nav: Providers
 network: true
-random_paper: 106
+random_paper: 76
 slug: y-combinator
 tags:
 - Venture Capital

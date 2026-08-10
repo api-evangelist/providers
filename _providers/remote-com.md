@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -518,9 +518,9 @@ common:
   title: ''
   type: SDKs
   url: https://github.com/remoteoss/react-url-modal
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://developer.remote.com/docs/introduction-to-remote-mcp
 created: '2026-05-25'
 description: Remote.com is a global employment platform that lets companies hire, pay, and manage employees and contractors in 90+ countries without setting up local entities. Remote owns in-country legal entities across its EOR footprint and runs its own global payroll and benefits infrastructure rather than reselling third-party providers. The platform layers a developer API, partner OAuth flows, webhooks, a CLI, language SDKs, an AI agent toolkit, and an official MCP server on top of these services so customers and partners can fully automate hiring, onboarding, payroll, benefits, time off, expenses, and offboarding.
@@ -583,7 +583,7 @@ plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
   slug: remote-com-plans-pricing
-random_paper: 112
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Remote Com Rate Limits
@@ -620,16 +620,16 @@ scopes:
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: exemplar
-  composite: 73.7
+  composite: 75.5
   delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 77.0
-    developer_ergonomics: 67.4
+    developer_ergonomics: 76.1
     discoverability: 87.0
     governance: 63.5
     operational_transparency: 68.4
-  previous_composite: 73.7
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -640,7 +640,7 @@ score:
       total: 39
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -117,7 +117,7 @@ overview: 'CloudFront publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CloudFront''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
-random_paper: 71
+random_paper: 44
 score:
   band: thin
   composite: 31.4
@@ -138,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/screenshots/cloudfront-2026-06-20T174603.png
 security:

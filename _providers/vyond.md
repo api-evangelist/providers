@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-06'
+  score: 40.8
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -26,11 +26,32 @@ agentic_access:
   operation_count: 20
   slug: vyond-agentic-access
   summary_line: 20 operations · 10 acting
-api_count: 1
+api_count: 8
 apis:
-- description: The Vyond API lets a platform create Vyond Go and AI-avatar videos, run Turbo text-prompt video generation, export videos, read feature parameters, manage users over SCIM 2.0, and subscribe to HMAC-si
-  name: Vyond API
-  slug: vyond-api
+- description: APIs for content generation
+  name: Vyond Content Generation API
+  slug: vyond-content-generation-api
+- description: APIs for getting parameters information
+  name: Vyond Parameter API
+  slug: vyond-parameter-api
+- description: SCIM 2.0 APIs
+  name: Vyond SCIM API
+  slug: vyond-scim-api
+- description: 'APIs for creating and tracking Turbo video generation tasks. Turbo lets you generate a video from a text prompt, optionally grounded on reference files (e.g. `.txt`, `.pdf`, `.docx`, `.pptx`). Submit '
+  name: Vyond Turbo API
+  slug: vyond-turbo-api
+- description: APIs related to user
+  name: Vyond User API
+  slug: vyond-user-api
+- description: The Video API from Vyond — 1 operation(s) for video.
+  name: Vyond Video API
+  slug: vyond-video-api
+- description: APIs for video export
+  name: Vyond Video Export API
+  slug: vyond-video-export-api
+- description: 'APIs for managing webhook ## Verifying Vyond Signatures Vyond webhook events are sent with a signature, which the destination server can use to verify that the events are authentic from Vyond. It is r'
+  name: Vyond Webhook API
+  slug: vyond-webhook-api
 arazzos:
 - description: ''
   name: _Index
@@ -44,7 +65,7 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Vyond Webhooks
@@ -202,14 +223,14 @@ modified: '2026-08-05'
 name: Vyond
 nav: Providers
 network: true
-overview: 'Vyond publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video, Animation, Video Generation, Artificial Intelligence, and eLearning.
+overview: 'Vyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Content Generation API, Parameter API, SCIM API, and 5 more. Tagged areas include Video, Animation, Video Generation, Artificial Intelligence, and eLearning.
 
 
   The Vyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 108
+random_paper: 96
 scopes:
 - name: Vyond Scopes
   scope_count: 2
@@ -217,21 +238,24 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 48.3
+  composite: 51.2
+  delta: 2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 60.9
     developer_ergonomics: 45.1
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Vyond Authentication

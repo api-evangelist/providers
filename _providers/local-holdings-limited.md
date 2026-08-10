@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Local Holdings Limited is profiled on the [APIs.io](https://apis.io/)
 
 
   Local Holdings Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 66
+random_paper: 9
 score:
   band: minimal
   composite: 12.2
@@ -87,8 +87,9 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/local-holdings-limited/refs/heads/main/screenshots/local-holdings-limited-2026-08-07T183112.png
 security:
 - kind: domain-security
   name: Local Holdings Limited Domain Security

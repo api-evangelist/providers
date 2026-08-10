@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,8 +79,11 @@ arazzos:
 - description: Search an index for a document matching a business key and update it if found, otherwise index a new one.
   name: Elasticsearch Upsert a Document by Business Key
   slug: elasticsearch-upsert-document-workflow
-artifact_total: 35
+artifact_total: 36
 collections:
+- collection_type: open
+  name: Elasticsearch REST API
+  slug: open-elastic-search
 - collection_type: open
   name: Elasticsearch REST API
   slug: open-elasticsearch
@@ -270,7 +273,7 @@ plans:
 - name: Elasticsearch Plans Pricing
   plan_count: 3
   slug: elasticsearch-plans-pricing
-random_paper: 15
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Elasticsearch Rate Limits
@@ -297,7 +300,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

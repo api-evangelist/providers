@@ -15,6 +15,7 @@
      "name": "Moneyhub",
      "slug": "moneyhub",
      "description": "Moneyhub is a UK open banking and open finance platform, headquartered in London with offices in Bristol and Ljubljana, that lets banks, pension providers, wealth managers, insurers and fintechs embed account aggregation, transaction data enrichment, financial insight and account-to-account payment initiation into their own products. Regulated by the FCA as an Account Information Service Provider (AISP), Payment Initiation Service Provider (PISP) and Credit Information Services Provider (CISP), Moneyhub ships a genuinely API-first surface: a RESTful, Swagger/OpenAPI-documented Data & Intelligence API for AIS aggregation, enrichment and affordability, and an Open Banking Payments API that initiates instant Faster Payments over the UK's Open Banking rails as a cheaper alternative to cards and direct debits. Authentication and payment consent run entirely through an OpenID Connect / OAuth2 identity layer at identity.moneyhub.co.uk, with client-credentials, authorization-code and jwt-bearer grants and fine-grained scopes for data and payment initiation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png",
      "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -72,7 +73,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -111,7 +112,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -145,6 +146,7 @@
      "name": "Paymentsense",
      "slug": "paymentsense",
      "description": "Paymentsense is a United Kingdom payment processing company that provides card payment acceptance to small and medium-sized businesses through card machines (PDQ terminals), online payment gateways, and EPOS integrations. Now part of Dojo, its developer-facing surface centers on the Connect platform, a cloud-hosted integration layer that gives each merchant an isolated host so point-of-sale and hospitality software can drive card terminals without touching card data. Paymentsense publishes a genuine public developer portal at docs.connect.paymentsense.cloud with interactive Swagger reference docs and downloadable OpenAPI/Swagger specifications for the Connect REST API (Pay-At-Counter and Pay-At-Table terminal integration, versions v0/v1/v2) and the Connect-E REST API for online/e-commerce card payments, plus a documented WebSockets interface. Authentication is HTTP Basic using a per-merchant API key supplied by Paymentsense. A separate merchant/software-house management portal at developers.paymentsense.com sits behind Google sign-in.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png",
      "score": 56.2,
      "band": "strong",
      "band_label": "Strong",
@@ -156,7 +158,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -213,7 +215,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -259,7 +261,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -305,7 +307,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -351,7 +353,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -396,7 +398,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -441,7 +443,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -487,7 +489,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -521,6 +523,7 @@
      "name": "Modulr",
      "slug": "modulr",
      "description": "Modulr is a United Kingdom-based embedded payments and Banking-as-a-Service platform that lets businesses and software platforms open programmable eMoney accounts and move money automatically via a single API. As a licensed e-money institution and direct participant in the UK Faster Payments and Bacs schemes (with SEPA reach in the EU through its Dutch entity), Modulr provides the underlying accounts, payment rails, card issuing, and Open Banking connectivity that fintechs, payroll providers, lenders, marketplaces, and travel and accounting platforms embed into their own products. Its REST API covers account creation, inbound and outbound payments (including bulk, batch, future-dated and SWIFT international), virtual and physical card issuing, Bacs Direct Debit collection, KYC/KYB customer onboarding, Confirmation of Payee and Verification of Payee, Payment Initiation Services and Variable Recurring Payments under Open Banking, plus a rich webhook notification layer. Modulr is API-native: it publishes a genuine public developer portal on ReadMe with reference docs and a downloadable OpenAPI 3.1 definition, and offers a self-serve sandbox.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png",
      "score": 51.1,
      "band": "developing",
      "band_label": "Developing",
@@ -532,7 +535,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -577,7 +580,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -623,7 +626,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -669,7 +672,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -715,7 +718,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -760,7 +763,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -806,7 +809,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -851,7 +854,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -897,7 +900,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -943,7 +946,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -988,7 +991,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1033,6 +1036,7 @@
      "name": "Ordo",
      "slug": "ordo",
      "description": "Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordopay.com) is a United Kingdom open-banking payments provider that lets businesses collect money directly from a customer's bank account over the UK Faster Payments rails, avoiding card fees and chargebacks. Built on PSD2 / Open Banking payment initiation, its fully hosted, white-labelled platform delivers Request to Pay, one-off payment requests, e-commerce, Point of Sale / QR code and contact centre payments, plus Variable Recurring Payments (VRP) for fixed, variable and sweeping collections, and account information (AIS) and account verification services. Ordo is FCA-authorised and an Open Banking regulated provider, with a developer surface historically published as a ReadMe.io portal at docs.myordo.com backed by an Azure API Management gateway (test.api.ordopay.com). Ordo has since ceased trading and been acquired by Neonomics; the marketing site at ordopay.com remains live while the developer portal is now offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png",
      "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1044,7 +1048,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1078,6 +1082,7 @@
      "name": "Paysend",
      "slug": "paysend",
      "description": "Paysend is a London-headquartered global fintech, founded in 2017, building a cross-border digital payments network that moves money to bank accounts, cards, and wallets across 170+ countries in 40+ currencies for more than 11 million consumers and a growing base of enterprise clients. Alongside its consumer money-transfer app, Paysend operates Paysend Enterprise, a business-facing payments platform whose developer surface is a single Payout API: one integration disburses funds worldwide to cards and accounts, with FX rate lookups, bank and card tokenization utilities, partner statements, and balance queries. The API is a partner-provisioned, enterprise integration (United Kingdom home market) rather than a fully public self-serve product — authentication is API key plus HMAC digital signature (X-OPP-Signature), requests are idempotent via a request id and date, and payout status is delivered through configurable webhook notifications. Paysend documents this surface openly on a Docusaurus developer portal with a sandbox mock service, but does not publish a downloadable OpenAPI/Swagger definition or a public base URL.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paysend/refs/heads/main/screenshots/paysend-2026-08-07T191655.png",
      "score": 40.8,
      "band": "thin",
      "band_label": "Thin",
@@ -1089,7 +1094,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1135,7 +1140,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1169,6 +1174,7 @@
      "name": "Paddle",
      "slug": "paddle",
      "description": "Paddle is a merchant-of-record billing platform for SaaS and digital products. The Paddle Billing API manages the full revenue lifecycle - products, prices, customers, subscriptions, transactions, invoices, adjustments, and discounts - while Paddle handles global sales tax, payment processing, fraud, and compliance on the seller's behalf.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/screenshots/paddle-2026-08-07T191251.png",
      "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1180,7 +1186,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1225,7 +1231,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1269,6 +1275,7 @@
      "name": "Pay.UK",
      "slug": "pay-uk",
      "description": "Pay.UK Limited is the recognised operator and standards body for the United Kingdom's interbank retail payment systems. It runs the domestic rails that move most of the money in the UK economy: Bacs (batch Direct Debit and Direct Credit), the Faster Payment System (24/7 real-time account-to-account payments), and the Image Clearing System for cheques, alongside the Current Account Switch Service. On top of the rails it owns industry overlay services including Confirmation of Payee (the API-based account name-checking service that fights Authorised Push Payment fraud) and Request to Pay, and through its Standards Authority it defines UK payments standards and the ISO 20022 migration underpinning the New Payments Architecture. Pay.UK is a scheme and standards operator, not a self-serve API platform: it publishes rulebooks, participation requirements, and ISO 20022 message specifications rather than an open public API, and its technical standards are distributed through the gated Standards Source and Faster Payment System Standards Library portals (single-login, registration required). Confirmation of Payee is a documented, API-based peer-to-peer scheme that participants and approved vendors implement against Pay.UK's technical standards. Home market is the United Kingdom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pay-uk/refs/heads/main/screenshots/pay-uk-2026-08-07T191623.png",
      "score": 21.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1280,7 +1287,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1325,7 +1332,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1371,7 +1378,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1417,7 +1424,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1472,7 +1479,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

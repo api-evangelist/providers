@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/anam-openapi-original.json
+  url: openapi/_original/anam-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -223,7 +223,7 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Anam''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 28 more developer resources.'
-random_paper: 74
+random_paper: 65
 score:
   band: strong
   composite: 57.9
@@ -253,7 +253,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

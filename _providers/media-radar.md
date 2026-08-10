@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,7 +84,7 @@ overview: 'Media Radar is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Media Radar''s developer surface includes signup flow, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 62
+random_paper: 35
 score:
   band: emerging
   composite: 19.3
@@ -98,8 +98,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/screenshots/media-radar-2026-08-07T172326.png
 security:
 - kind: authentication
   name: Media Radar Authentication

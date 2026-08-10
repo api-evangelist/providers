@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -123,7 +123,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/zippykid-pressable-openapi-original.json
+  url: openapi/_original/zippykid-pressable-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -207,7 +207,7 @@ overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZippyKid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 93
+random_paper: 72
 scopes:
 - name: Zippykid Scopes
   scope_count: 13
@@ -236,7 +236,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Execute BQL queries programmatically via the Bloomberg API to retrieve custom computed financial data, filtered security sets, and time series expressions from Bloomberg's data universe. Accessible vi
@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Query Language Bql Plans Pricing
   plan_count: 3
   slug: bloomberg-query-language-bql-plans-pricing
-random_paper: 97
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bloomberg Query Language Bql Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 26.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-query-language-bql/refs/heads/main/screenshots/bloomberg-query-language-bql-2026-07-25T203403.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -217,7 +217,7 @@ overview: 'Veem publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Veem''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 23 more developer resources.'
-random_paper: 90
+random_paper: 81
 scopes:
 - name: Veem Scopes
   scope_count: 1
@@ -252,7 +252,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Eosio Plans Pricing
   plan_count: 2
   slug: eosio-plans-pricing
-random_paper: 91
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Eosio Rate Limits
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

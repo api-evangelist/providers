@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ overview: 'Imper.AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Imper.AI''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: emerging
   composite: 14.1
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperai/refs/heads/main/screenshots/imperai-2026-07-25T222146.png
 security:

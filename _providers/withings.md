@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -232,7 +232,7 @@ plans:
 - name: Withings Plans Pricing
   plan_count: 2
   slug: withings-plans-pricing
-random_paper: 86
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Withings Rate Limits
@@ -272,7 +272,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:

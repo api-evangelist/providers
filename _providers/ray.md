@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs
 
 
   Ray''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 106
+random_paper: 100
 score:
   band: emerging
   composite: 22.3
@@ -139,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
 security:

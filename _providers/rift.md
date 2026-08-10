@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Market order creation and execution
@@ -69,7 +69,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rift-openapi.yml
+  url: openapi/_original/rift-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -134,7 +134,7 @@ overview: 'Rift publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ord
 
 
   Rift''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 98
+random_paper: 89
 score:
   band: thin
   composite: 33.2
@@ -163,7 +163,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

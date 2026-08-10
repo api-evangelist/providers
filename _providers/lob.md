@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 46
 apis:
 - description: The Accounts API from Lob — 1 operation(s) for accounts.
@@ -247,6 +247,10 @@ common:
   title: ''
   type: Website
   url: https://www.lob.com
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 created: '2024-07-02'
 description: Lob is a software platform that automates the process of sending direct mail, allowing businesses to create, personalize, and track physical mail pieces at scale through a digital interface, essentially bringing the convenience of email marketing to traditional mail by integrating with existing CRM systems and automating printing, addressing, and postage processes.
 finops:
@@ -255,19 +259,19 @@ finops:
   slug: lob-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lob.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-08'
 name: Lob
 nav: Providers
 network: true
 overview: 'Lob publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Bank  Accounts API, and 43 more. Tagged areas include Direct Mail, Print, and Address Verification.
 
 
-  Lob''s developer surface includes authentication, getting-started guide, changelog, pricing, support, engineering blog, and 13 more developer resources.'
+  Lob''s developer surface includes authentication, getting-started guide, changelog, pricing, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Lob Plans Pricing
   plan_count: 3
   slug: lob-plans-pricing
-random_paper: 91
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Lob Rate Limits
@@ -291,9 +295,9 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184626.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184627.png
 security:
 - kind: domain-security
   name: Lob Domain Security

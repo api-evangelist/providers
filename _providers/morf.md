@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Morf's REST API and webhook surface for building healthcare automation workflows. Webhooks from source applications are ingested at api.morf.healthcare/webhooks/ and processed into events that trigger
@@ -155,7 +155,7 @@ overview: 'Morf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Morf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 97
+random_paper: 88
 scopes:
 - name: Morf Scopes
   scope_count: 6
@@ -182,8 +182,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/screenshots/morf-2026-08-07T184304.png
 security:
 - kind: authentication
   name: Morf Authentication

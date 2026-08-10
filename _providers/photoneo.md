@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Photoneo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Photoneo''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: minimal
   composite: 11.2
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

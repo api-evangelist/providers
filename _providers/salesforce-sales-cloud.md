@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -511,10 +511,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-sales-cloud-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/sales-pipeline-management.yaml
 - group: design
   title: ''
   type: Vocabulary
@@ -754,12 +750,12 @@ overview: 'Salesforce Sales Cloud publishes 48 APIs on the [APIs.io](https://api
   The Salesforce Sales Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 50 more developer resources.'
+  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 49 more developer resources.'
 plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-sales-cloud-plans-pricing
-random_paper: 77
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Salesforce Sales Cloud Rate Limits
@@ -806,7 +802,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

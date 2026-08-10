@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/millimetric-openapi.yml
+  url: openapi/_original/millimetric-openapi.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -219,7 +219,7 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
@@ -247,8 +247,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:
 - kind: authentication
   name: Millimetric Authentication

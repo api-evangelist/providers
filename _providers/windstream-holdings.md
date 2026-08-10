@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -181,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: Windstream Enterprise and Amazon Web Services ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Amazon-Web-Services-Advance-the-Virtual-Meeting-Experience-for-Businesses/default.aspx
-random_paper: 66
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Windstream Holdings Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ overview: 'Lily AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lily AI''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 11
+random_paper: 109
 score:
   band: emerging
   composite: 19.1
@@ -118,7 +118,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 19.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/screenshots/lily-ai-2026-07-25T225157.png
 security:

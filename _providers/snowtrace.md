@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: /openapi/openapi.yml
+  url: openapi/_original/openapi.yml
 - group: start
   title: ''
   type: Portal
@@ -202,7 +202,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

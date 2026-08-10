@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Mercoa Plans Pricing
   plan_count: 1
   slug: mercoa-plans-pricing
-random_paper: 66
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Mercoa Rate Limits
@@ -162,7 +162,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/screenshots/mercoa-2026-06-20T185210.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: REST API for submitting order and purchase data to Northbeam for attribution processing. Accepts batches of up to 1,000 orders per request via POST with JSON payload.
@@ -126,7 +126,7 @@ plans:
 - name: Northbeam Plans Pricing
   plan_count: 3
   slug: northbeam-plans-pricing
-random_paper: 56
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Northbeam Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:

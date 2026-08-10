@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -2626,7 +2626,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 47
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits
@@ -2668,7 +2668,7 @@ score:
       marker_coverage: 0.0
       total: 139
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:

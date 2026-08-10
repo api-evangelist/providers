@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -755,7 +755,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -789,7 +789,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/screenshots/hedera-2026-06-20T182613.png
 security:

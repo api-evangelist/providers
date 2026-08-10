@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ overview: 'Coadjute is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coadjute''s developer surface includes authentication, support, pricing, engineering blog, and 18 more developer resources.'
-random_paper: 62
+random_paper: 41
 scopes:
 - name: Lifetise Scopes
   scope_count: 14
@@ -144,8 +144,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/screenshots/lifetise-2026-08-07T171648.png
 security:
 - kind: authentication
   name: Lifetise Authentication

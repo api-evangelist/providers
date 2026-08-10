@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The normative REST binding of the GS1 EPCIS 2.0 standard — the sector's supply chain visibility event interface, describing what happened to an object, when, where and why, using Core Business Vocabul
@@ -135,7 +135,7 @@ overview: 'GS1 publishes 1 API on the [APIs.io](https://apis.io/) network: EPCIS
 
 
   GS1''s developer surface includes documentation, tooling, and 16 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: emerging
   composite: 25.6
@@ -155,8 +155,9 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
 slug: gs1
 tags:
 - Logistics

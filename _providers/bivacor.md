@@ -1,6 +1,83 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bivacor-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bivacor-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bivacor-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://bivacor.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://bivacor.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bivacor.com/feed/
+- group: company
+  title: ''
+  type: Press
+  url: https://bivacor.com/media-coverage/
+- group: other
+  title: ''
+  type: Publications
+  url: https://bivacor.com/publications/
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobs.ashbyhq.com/bivacor-inc
+- group: operate
+  title: ''
+  type: Contact
+  url: https://bivacor.com/#contact
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:admin@bivacor.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bivacor-pty-ltd
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/bivacor
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.nasdaqprivatemarket.com/
 coverage:
   checked: '2026-08-07'
   detail: BiVACOR is a clinical-stage medical device manufacturer whose product is an implantable titanium total artificial heart, not software; bivacor.com is a single-page WordPress marketing site whose 15-URL sitemap contains no developer, API or documentation path, and api./developer./docs./portal./status.bivacor.com have no DNS record at all - the only 200 on any contract-discovery path is /wp-json/, the stock WordPress REST API that ships enabled by default and is not a product API.
@@ -26,7 +103,34 @@ modified: '2026-08-07'
 name: BiVACOR
 nav: Providers
 network: true
-random_paper: 64
+overview: 'BiVACOR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Cardiology, and Heart Failure.
+
+
+  BiVACOR''s developer surface includes engineering blog, support, and 12 more developer resources.'
+random_paper: 46
+score:
+  band: minimal
+  composite: 9.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 0.0
+  previous_composite: 9.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bivacor/refs/heads/main/screenshots/bivacor-2026-08-07T162559.png
+security:
+- kind: domain-security
+  name: Bivacor Domain Security
+  slug: bivacor-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: bivacor
 tags:
 - Company
@@ -38,4 +142,5 @@ tags:
 - Mechanical Circulatory Support
 - Medical Technology
 - Clinical Trials
+website: https://bivacor.com/
 ---

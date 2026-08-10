@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for data.gov.lv, a consistent JSON-over-HTTP interface over a catalog of 1,531 datasets. Standard actions include package_search, package_show, package_list, organization_list, group_l
@@ -84,7 +84,7 @@ plans:
 - name: Data Gov Lv Plans Pricing
   plan_count: 1
   slug: data-gov-lv-plans-pricing
-random_paper: 41
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Data Gov Lv Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-lv/refs/heads/main/screenshots/data-gov-lv-2026-06-20T175538.png
 security:

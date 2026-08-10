@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/saasment-openapi.yml
+  url: openapi/_original/saasment-openapi.yml
 - group: design
   title: ''
   type: SpectralRules
@@ -123,10 +123,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/saasment-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/saas-security-posture.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -178,12 +174,12 @@ overview: 'Saasment publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Saasment catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Saasment''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
+  Saasment''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Saasment Plans Pricing
   plan_count: 3
   slug: saasment-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Saasment Rate Limits
@@ -225,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/screenshots/saasment-2026-06-20T193313.png
 security:

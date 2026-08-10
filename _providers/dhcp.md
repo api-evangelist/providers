@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: DHCP
 nav: Providers
 network: true
 overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Addresses, and Lease Management.
-random_paper: 76
+random_paper: 67
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dhcp/refs/heads/main/screenshots/dhcp-2026-06-20T175957.png
 slug: dhcp

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ overview: 'Ashr is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ashr''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, and 8 more developer resources.'
-random_paper: 91
+random_paper: 82
 score:
   band: emerging
   composite: 23.4
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashr/refs/heads/main/screenshots/ashr-2026-07-25T201424.png
 security:

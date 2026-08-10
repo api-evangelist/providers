@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ overview: 'Energy Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Energy Robotics'' developer surface includes engineering blog, support, signup flow, YouTube channel, and 12 more developer resources.'
-random_paper: 95
+random_paper: 56
 score:
   band: emerging
   composite: 20.2
@@ -130,7 +130,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-robotics/refs/heads/main/screenshots/energy-robotics-2026-07-25T213334.png
 security:

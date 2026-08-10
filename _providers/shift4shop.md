@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'RESTful web service for managing all aspects of a Shift4Shop online store including products, categories, orders, customers, coupons, and store configuration. Supports GET, POST, PUT, and DELETE HTTP '
@@ -104,7 +104,7 @@ plans:
 - name: Shift4Shop Plans Pricing
   plan_count: 5
   slug: shift4shop-plans-pricing
-random_paper: 19
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Shift4Shop Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 24.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4shop/refs/heads/main/screenshots/shift4shop-2026-06-20T193805.png
 security:

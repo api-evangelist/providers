@@ -21,7 +21,7 @@ modified: '2026-05-23'
 name: High Tech
 nav: Providers
 network: true
-random_paper: 90
+random_paper: 69
 slug: high-tech
 tags:
 - Arrow Electronics

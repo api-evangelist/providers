@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/teamohana-openapi-original.json
+  url: openapi/_original/teamohana-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -172,7 +172,7 @@ overview: 'TeamOhana publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
-random_paper: 38
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Teamohana Rate Limits
@@ -200,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

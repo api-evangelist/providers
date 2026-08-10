@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Connected Kerb operates a live Open Charge Point Interface (OCPI) CPO endpoint on its own charge point management host. The version negotiation endpoint and the 2.1.1 / 2.2 / 2.2.1 version detail endp
@@ -133,7 +133,7 @@ overview: 'Connected Kerb publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Connected Kerb''s developer surface includes engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 56
+random_paper: 20
 score:
   band: emerging
   composite: 24.9
@@ -155,8 +155,9 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/screenshots/connected-kerb-2026-08-07T163755.png
 security:
 - kind: authentication
   name: Connected Kerb Authentication

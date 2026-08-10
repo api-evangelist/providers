@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -319,11 +319,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vital-openapi-original.json
+  url: openapi/_original/vital-openapi-original.json
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vital-openapi-original.yml
+  url: openapi/_original/vital-openapi-original.yml
 - group: build
   title: ''
   type: SDKs
@@ -537,7 +537,7 @@ plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits
@@ -585,7 +585,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:

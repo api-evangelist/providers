@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Henry Schein One Partners With VideaHealth to Launch ...
   url: https://investor.henryschein.com/news-releases/news-release-details/2022/Henry-Schein-One-Partners-With-VideaHealth-to-Launch-New-Dentrix-Detect-AI-X-Ray-Analysis-Tool-to-Enhance-Patient-Care-11-29-2022/default.aspx
-random_paper: 99
+random_paper: 69
 score:
   band: minimal
   composite: 3.3
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henry-schein/refs/heads/main/screenshots/henry-schein-2026-07-25T220959.png
 security:

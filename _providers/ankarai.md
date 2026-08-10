@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'ankar.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ankar.ai''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: emerging
   composite: 18.8
@@ -97,7 +97,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankarai/refs/heads/main/screenshots/ankarai-2026-07-25T200253.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Duffel Plans Pricing
   plan_count: 3
   slug: duffel-plans-pricing
-random_paper: 65
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Duffel Rate Limits
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/screenshots/duffel-2026-07-25T212455.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Adonis platform API for revenue cycle management, including real-time patient eligibility and benefits verification, patient and appointment data retrieval from partner EHR/PM systems, claims, and pay
@@ -105,7 +105,7 @@ overview: 'Adonis publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Adonis'' developer surface includes signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 73
+random_paper: 58
 scopes:
 - name: Adonis Scopes
   scope_count: 14
@@ -132,7 +132,7 @@ score:
     regime_id: insurance
     score: 65.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adonis/refs/heads/main/screenshots/adonis-2026-07-25T181659.png
 security:

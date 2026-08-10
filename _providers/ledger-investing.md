@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -207,7 +207,7 @@ overview: 'Ledger Investing publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 73
+random_paper: 31
 score:
   band: developing
   composite: 55.4
@@ -237,7 +237,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:

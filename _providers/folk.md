@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,7 +66,11 @@ apis:
 - description: Operations related to webhooks.
   name: Folk Webhooks API
   slug: folk-webhooks-api
-artifact_total: 19
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Folk External API
+  slug: open-folk-app
 common:
 - group: agent
   title: ''
@@ -168,7 +172,7 @@ plans:
 - name: Folk Plans Pricing
   plan_count: 3
   slug: folk-plans-pricing
-random_paper: 89
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Folk Rate Limits
@@ -202,9 +206,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/screenshots/folk-2026-06-20T181354.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/screenshots/folk-2026-07-25T214908.png
 security:
 - kind: authentication
   name: Folk Authentication

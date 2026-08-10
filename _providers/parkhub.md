@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -71,7 +71,7 @@ overview: 'Parkhub is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parkhub''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 9.8
@@ -91,7 +91,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkhub/refs/heads/main/screenshots/parkhub-2026-06-20T191416.png
 security:

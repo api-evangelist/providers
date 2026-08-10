@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ overview: 'ClickSend SMS publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   ClickSend SMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 85
+random_paper: 52
 score:
   band: emerging
   composite: 27.1
@@ -130,7 +130,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/screenshots/clicksend-sms-2026-06-20T174517.png
 security:

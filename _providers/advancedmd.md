@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ mcp_servers:
 - description: ''
   name: advancedmd-mcp.yml
   slug: advancedmd-mcpyml
-modified: '2026-07-27'
+modified: '2026-08-06'
 name: AdvancedMD
 nav: Providers
 network: true
@@ -237,7 +237,7 @@ overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 36 more developer resources.'
-random_paper: 14
+random_paper: 103
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits
@@ -248,22 +248,22 @@ scopes:
   slug: advancedmd-scopes
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 55.9
+  band: strong
+  composite: 56.1
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 52.8
+    contract_quality: 53.9
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 55.9
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 66.7
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -276,8 +276,9 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:
 - kind: authentication
   name: Advancedmd Authentication

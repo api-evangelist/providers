@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'KoRo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KoRo''s developer surface includes support, signup flow, and 9 more developer resources.'
-random_paper: 104
+random_paper: 95
 score:
   band: emerging
   composite: 15.2
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koro/refs/heads/main/screenshots/koro-2026-07-25T224226.png
 security:

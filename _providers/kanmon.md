@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -89,7 +89,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kanmon-openapi-original.yml
+  url: openapi/_original/kanmon-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -213,7 +213,7 @@ overview: 'Kanmon publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kanmon''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 21 more developer resources.'
-random_paper: 79
+random_paper: 64
 score:
   band: developing
   composite: 44.7
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/screenshots/kanmon-2026-07-25T223455.png
 security:

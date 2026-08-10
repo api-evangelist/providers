@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Sonoco Reports First Quarter 2026 Results
   url: https://investor.sonoco.com/news/news-details/2026/Sonoco-Reports-First-Quarter-2026-Results/default.aspx
-random_paper: 4
+random_paper: 78
 score:
   band: minimal
   composite: 6.7
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonoco-products/refs/heads/main/screenshots/sonoco-products-2026-06-20T194207.png
 security:

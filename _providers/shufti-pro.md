@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,15 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-06'
+  score: 21.2
+  scored_at: '2026-08-10'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Shufti Pro Agentic Access
+  operation_count: 3
+  slug: shufti-pro-agentic-access
+  summary_line: 3 operations · 3 acting
 api_count: 4
 apis:
 - description: 'REST API for end-to-end identity verification including document verification, facial biometrics with liveness detection, address verification, AML screening against 1700+ watchlists, phone and email '
@@ -43,7 +50,11 @@ apis:
 - description: Biometric authentication and re-verification API enabling face-based login and identity re-confirmation for returning users. Uses liveness detection to prevent spoofing and supports fast ID reusabilit
   name: Shufti Pro Biometric Authentication API
   slug: biometric-auth-api
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Shufti Pro Verification API
+  slug: open-shuftipro
 common:
 - group: auth
   title: ''
@@ -93,6 +104,18 @@ common:
   title: ''
   type: FinOps
   url: finops/shufti-pro-finops.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/shufti-pro-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shufti-pro-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/shuftipro
 created: '2026-06-13'
 description: Shufti Pro is an AI-powered identity verification platform offering a REST API for document verification, face biometrics, AML screening, business verification (KYB), and address verification. The platform supports 10,000+ document types across 230+ countries and territories, integrates with 1700+ AML watchlists, and provides mobile SDKs for Android, iOS, Flutter, and React Native.
 finops:
@@ -106,7 +129,7 @@ jsonld:
   property_count: 27
   slug: shufti-pro-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: Shufti Pro
 nav: Providers
 network: true
@@ -116,33 +139,37 @@ overview: 'Shufti Pro publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Shufti Pro catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Shufti Pro''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Shufti Pro''s developer surface includes documentation, engineering blog, pricing, authentication, and 11 more developer resources.'
 plans:
 - name: Shufti Pro Plans Pricing
   plan_count: 3
   slug: shufti-pro-plans-pricing
-random_paper: 24
+random_paper: 113
 rate_limits:
 - limit_count: 4
   name: Shufti Pro Rate Limits
   slug: shufti-pro-rate-limits
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 33.0
+  delta: 2.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 17.7
-    developer_ergonomics: 10.9
+    developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 30.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:
+- kind: authentication
+  name: Shufti Pro Authentication
+  slug: shufti-pro-authentication
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Shufti Pro Domain Security
   slug: shufti-pro-domain-security

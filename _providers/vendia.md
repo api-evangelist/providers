@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Every Vendia project (Uni) is provisioned with an auto-generated GraphQL API derived from its JSON Schema data model — get_X / list_XItems / list_XVersions queries and add_X / create_X / put_X / updat
@@ -209,7 +209,7 @@ plans:
 - name: Vendia Plans
   plan_count: 3
   slug: vendia-plans
-random_paper: 66
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Vendia Rate Limits
@@ -222,6 +222,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -229,11 +230,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 86.8
+  previous_composite: 67.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Vendia Authentication

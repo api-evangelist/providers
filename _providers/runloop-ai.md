@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -466,9 +466,9 @@ common:
   title: ''
   type: Tools
   url: https://github.com/runloopai/codex-tax-man
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://docs.runloop.ai/docs/tools/ai-tools
 - group: company
   title: ''
@@ -585,7 +585,7 @@ plans:
 - name: Runloop Ai Plans Pricing
   plan_count: 4
   slug: runloop-ai-plans-pricing
-random_paper: 13
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Runloop Ai Rate Limits
@@ -627,7 +627,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:

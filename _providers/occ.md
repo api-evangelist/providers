@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
@@ -122,7 +122,7 @@ plans:
 - name: Occ Plans Pricing
   plan_count: 1
   slug: occ-plans-pricing
-random_paper: 83
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Occ Rate Limits
@@ -146,7 +146,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/screenshots/occ-2026-06-20T190555.png
 security:

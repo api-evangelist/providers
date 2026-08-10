@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Gut Wellness Club is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Gut Wellness Club''s developer surface includes support and 6 more developer resources.'
-random_paper: 30
+random_paper: 101
 score:
   band: minimal
   composite: 11.7
@@ -97,7 +97,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gut-wellness-club/refs/heads/main/screenshots/gut-wellness-club-2026-07-25T220445.png
 security:

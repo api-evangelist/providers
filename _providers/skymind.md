@@ -18,13 +18,16 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 2
 apis:
-- description: 'The Pathmind web application''s public REST API. Two operations: list the authenticated user''s projects, and upload an AnyLogic simulation model (optionally into an existing project) to create a Pathmi'
-  name: Pathmind API
-  slug: pathmind-api
-artifact_total: 3
+- description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
+  name: Pathmind Model Upload API
+  slug: skymind-model-upload-api
+- description: The Projects API from Pathmind — 1 operation(s) for projects.
+  name: Pathmind Projects API
+  slug: skymind-projects-api
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -91,23 +94,23 @@ modified: '2026-08-05'
 name: Pathmind
 nav: Providers
 network: true
-overview: 'Pathmind publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Simulation.
+overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Upload API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Simulation.
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 11 more developer resources.'
-random_paper: 89
+random_paper: 71
 score:
   band: thin
-  composite: 31.5
-  delta: -0.2
+  composite: 30.9
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 57.4
+    contract_quality: 55.0
     developer_ergonomics: 21.7
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 31.7
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -117,7 +120,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

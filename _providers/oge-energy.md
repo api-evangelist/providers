@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: OGE Energy Corp. Announces Public Offering of $345 ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-public-offering-of-345-million-of-shares-of-common-stock-302622405.html
-random_paper: 106
+random_paper: 82
 score:
   band: minimal
   composite: 3.3
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: oge-energy
 tags:

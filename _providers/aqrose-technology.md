@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ overview: 'Aqrose Technology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Aqrose Technology''s developer surface includes support and 3 more developer resources.'
-random_paper: 85
+random_paper: 40
 score:
   band: minimal
   composite: 5.9
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqrose-technology/refs/heads/main/screenshots/aqrose-technology-2026-07-25T200941.png
 security:

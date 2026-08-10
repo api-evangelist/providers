@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -129,7 +129,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/anything-openapi-original.json
+  url: openapi/_original/anything-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -206,7 +206,7 @@ overview: 'Anything publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 75
+random_paper: 54
 score:
   band: developing
   composite: 45.8
@@ -230,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/screenshots/anything-2026-07-25T200512.png
 security:

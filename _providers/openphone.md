@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -199,7 +199,7 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenPhone''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, signup flow, and 22 more developer resources.'
-random_paper: 68
+random_paper: 44
 score:
   band: developing
   composite: 53.2
@@ -228,8 +228,9 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:
 - kind: authentication
   name: Openphone Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence for workplace risk assessments
   url: https://www.hanover.com/customer-support/our-business-customers/hanover-risk-solutions/artificial-intelligence-workplace
-random_paper: 110
+random_paper: 50
 score:
   band: minimal
   composite: 4.0
@@ -88,7 +88,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanover-insurance-group/refs/heads/main/screenshots/hanover-insurance-group-2026-06-20T182509.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 2
   slug: ticketmaster-agentic-access
   summary_line: 2 operations
-api_count: 3
+api_count: 8
 apis:
 - description: The Ticketmaster Partner API is a restricted API for authorized distribution partners that enables reserving, purchasing, and retrieving ticket and event information programmatically. Authentication u
   name: Ticketmaster Partner API
@@ -48,7 +48,22 @@ apis:
 - description: Retrieve ticket offerings and pricing
   name: Ticketmaster Offerings API
   slug: ticketmaster-offerings-api
-artifact_total: 19
+- description: Search artists, sports teams, and other attractions
+  name: Ticketmaster Attractions API
+  slug: ticketmaster-attractions-api
+- description: Browse event segments, genres, and sub-genres
+  name: Ticketmaster Classifications API
+  slug: ticketmaster-classifications-api
+- description: Search and retrieve live event information
+  name: Ticketmaster Events API
+  slug: ticketmaster-events-api
+- description: Search suggestions and autocomplete
+  name: Ticketmaster Suggestions API
+  slug: ticketmaster-suggestions-api
+- description: Search and retrieve venue information
+  name: Ticketmaster Venues API
+  slug: ticketmaster-venues-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Ticketmaster Commerce API
@@ -156,7 +171,7 @@ modified: '2026-05-19'
 name: Ticketmaster
 nav: Providers
 network: true
-overview: 'Ticketmaster publishes 2 APIs on the [APIs.io](https://apis.io/) network: Availability API and Offerings API. Tagged areas include Commerce, Concerts, Entertainment, Events, and Sports.
+overview: 'Ticketmaster publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Offerings API, Attractions API, and 4 more. Tagged areas include Commerce, Concerts, Entertainment, Events, and Sports.
 
 
   The Ticketmaster catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -167,7 +182,7 @@ plans:
 - name: Ticketmaster Plans Pricing
   plan_count: 2
   slug: ticketmaster-plans-pricing
-random_paper: 53
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Ticketmaster Rate Limits
@@ -191,11 +206,11 @@ rules:
   slug: ticketmaster-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 53.3
+  delta: -1.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.4
+    contract_quality: 63.3
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 58.3
@@ -209,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
 security:

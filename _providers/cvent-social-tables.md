@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -187,7 +187,7 @@ plans:
 - name: Cvent Social Tables Plans Pricing
   plan_count: 3
   slug: cvent-social-tables-plans-pricing
-random_paper: 96
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Cvent Social Tables Rate Limits
@@ -199,25 +199,25 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 46.1
   delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 43.5
+    contract_quality: 47.4
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.1
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:

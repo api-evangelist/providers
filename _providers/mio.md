@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Mio is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Mio''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 99
+random_paper: 93
 score:
   band: emerging
   composite: 24.3
@@ -124,8 +124,9 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mio/refs/heads/main/screenshots/mio-2026-08-07T183701.png
 security:
 - kind: domain-security
   name: Mio Domain Security

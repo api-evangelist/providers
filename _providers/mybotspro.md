@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Mybots.pro is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mybots.pro''s developer surface includes support and 6 more developer resources.'
-random_paper: 103
+random_paper: 79
 score:
   band: minimal
   composite: 6.2
@@ -91,8 +91,9 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mybotspro/refs/heads/main/screenshots/mybotspro-2026-08-07T184510.png
 security:
 - kind: domain-security
   name: Mybotspro Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Acclinate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Acclinate''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: minimal
   composite: 11.6
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acclinate/refs/heads/main/screenshots/acclinate-2026-07-25T181448.png
 security:

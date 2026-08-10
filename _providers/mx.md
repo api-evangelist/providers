@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
@@ -214,7 +214,7 @@ overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platf
 
 
   MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 28 more developer resources.'
-random_paper: 3
+random_paper: 113
 rate_limits:
 - limit_count: 4
   name: Mx Rate Limits
@@ -247,8 +247,9 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/screenshots/mx-2026-08-07T184503.png
 security:
 - kind: authentication
   name: Mx Authentication

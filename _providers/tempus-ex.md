@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'FusionFeed aggregates sports data and media (schedules, rosters, official and automated statistics, telemetry, scoreboard, and live/VOD video) into a single GraphQL-first API (with an interchangeable '
@@ -143,7 +143,7 @@ overview: 'Tempus Ex publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Tempus Ex''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 32
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Tempus Ex Rate Limits
@@ -165,7 +165,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

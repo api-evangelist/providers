@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Predicted and actual air quality components for The Netherlands (RIVM)
@@ -56,7 +56,7 @@ name: Luchtmeetnet
 nav: Providers
 network: true
 overview: Luchtmeetnet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 55
+random_paper: 22
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luchtmeetnet/refs/heads/main/screenshots/luchtmeetnet-2026-06-20T184742.png
 security:

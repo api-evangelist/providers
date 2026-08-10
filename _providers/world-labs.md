@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The credits API from World Labs — 1 operation(s) for credits.
@@ -67,7 +67,7 @@ overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Labs'' developer surface includes authentication and 3 more developer resources.'
-random_paper: 111
+random_paper: 87
 score:
   band: emerging
   composite: 24.7
@@ -89,7 +89,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

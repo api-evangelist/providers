@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ overview: 'Ease publishes 2 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: developing
   composite: 42.4
@@ -231,7 +231,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

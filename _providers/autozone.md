@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delive
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: 'AutoZone''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/autozone-ai-strategy-analysis-of-dominance-in-automotive-parts-ai/
-random_paper: 94
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Autozone Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/screenshots/autozone-2026-06-20T172710.png
 security:

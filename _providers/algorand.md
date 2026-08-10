@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -326,7 +326,7 @@ plans:
 - name: Algorand Plans
   plan_count: 4
   slug: algorand-plans
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Algorand Rate Limits
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:

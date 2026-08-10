@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -323,7 +323,7 @@ plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 61
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -339,11 +339,11 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 52.8
+  delta: -0.3
   facets:
     commercial_clarity: 89.5
-    contract_quality: 29.5
+    contract_quality: 28.5
     developer_ergonomics: 37.0
     discoverability: 72.2
     governance: 58.3
@@ -358,7 +358,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

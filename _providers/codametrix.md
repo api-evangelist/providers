@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 8
   slug: codametrix-agentic-access
   summary_line: 8 operations
-api_count: 1
+api_count: 5
 apis:
-- description: Unauthenticated, publicly callable JSON status API served from CodaMetrix's own status host by Atlassian Statuspage (Page API v2). Exposes overall page status, the CMX-Automate / CMX Automate / CMX-Am
+- description: The component tree for the CodaMetrix platform.
+  name: CodaMetrix Components API
+  slug: codametrix-components-api
+- description: Unplanned incidents and their update timelines.
+  name: CodaMetrix Incidents API
+  slug: codametrix-incidents-api
+- description: Planned maintenance windows and their update timelines.
+  name: CodaMetrix Scheduled Maintenances API
+  slug: codametrix-scheduled-maintenances-api
+- description: Overall page status rollup.
   name: CodaMetrix Status API
   slug: codametrix-status-api
-artifact_total: 13
+- description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
+  name: CodaMetrix Summary API
+  slug: codametrix-summary-api
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -116,7 +128,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/codametrix-status-openapi.yml
+  url: openapi/_original/codametrix-status-openapi.yml
 - group: docs
   title: ''
   type: Documentation
@@ -182,20 +194,20 @@ modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
 network: true
-overview: 'CodaMetrix publishes 1 API on the [APIs.io](https://apis.io/) network: Status API. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
+overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 24 more developer resources.'
-random_paper: 55
+random_paper: 28
 score:
   band: thin
-  composite: 28.6
-  delta: 0.0
+  composite: 28.9
+  delta: 0.3
   facets:
     commercial_clarity: 26.3
-    contract_quality: 15.3
+    contract_quality: 14.4
     developer_ergonomics: 27.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
   previous_composite: 28.6
@@ -216,8 +228,9 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:
 - kind: authentication
   name: Codametrix Authentication

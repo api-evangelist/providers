@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: IA Ventures
 nav: Providers
 network: true
 overview: IA Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Early Stage, Seed, and Fintech.
-random_paper: 9
+random_paper: 95
 score:
   band: minimal
   composite: 6.1
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ia-ventures/refs/heads/main/screenshots/ia-ventures-2026-07-25T221944.png
 security:

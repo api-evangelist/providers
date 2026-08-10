@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The GraphQL API the Strangeworks Python SDK is built on. Exposes the workspace a user's API key belongs to, the compute backends available to it, and mutations for uploading workspace files, initiatin
@@ -159,10 +159,11 @@ overview: 'Strangeworks publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Strangeworks'' developer surface includes documentation, getting-started guide, signup flow, support, changelog, authentication, and 20 more developer resources.'
-random_paper: 79
+random_paper: 46
 score:
   band: developing
   composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.0
@@ -170,12 +171,14 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 28.9
+  previous_composite: 45.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Strangeworks Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -128,7 +128,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vapi-openapi.yml
+  url: openapi/_original/vapi-openapi.yml
 - group: commercial
   title: ''
   type: Plans
@@ -2813,7 +2813,7 @@ plans:
 - name: Vapi Plans Pricing
   plan_count: 2
   slug: vapi-plans-pricing
-random_paper: 93
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Vapi Rate Limits
@@ -2853,7 +2853,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/screenshots/vapi-2026-06-20T200920.png
 security:

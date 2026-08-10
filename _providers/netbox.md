@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 880
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ plans:
 - name: Netbox Plans Pricing
   plan_count: 3
   slug: netbox-plans-pricing
-random_paper: 91
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Netbox Rate Limits
@@ -176,8 +176,9 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/screenshots/netbox-2026-08-07T184926.png
 security:
 - kind: authentication
   name: Netbox Authentication

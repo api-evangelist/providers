@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 41.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ arazzos:
 - description: Look up an employee, file a time-off request for them, then list their time-off records.
   name: Unified.to HRIS Time-Off Request
   slug: unified-to-hris-timeoff-request-workflow
-artifact_total: 1438
+artifact_total: 1439
 collections:
 - collection_type: postman
   name: Unified.to account API
@@ -1090,7 +1090,7 @@ common:
   url: https://www.youtube.com/@unified_api
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://unified.to/mcp
 - group: build
   title: ''
@@ -4495,6 +4495,10 @@ jsonld:
   property_count: 25
   slug: unified-to-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Unified.to MCP Server
+  slug: unifiedto-mcp-server
 modified: '2026-05-19'
 name: Unified.to
 nav: Providers
@@ -4510,7 +4514,7 @@ plans:
 - name: Unified To Plans Pricing
   plan_count: 4
   slug: unified-to-plans-pricing
-random_paper: 108
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Unified To Rate Limits
@@ -4534,16 +4538,16 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: exemplar
-  composite: 71.2
+  composite: 72.9
   delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 66.7
-    developer_ergonomics: 63.0
+    developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 71.2
+  previous_composite: 72.9
   provenance:
     agentic_access: derived
     contracts:
@@ -4552,7 +4556,7 @@ score:
       marker_coverage: 0.0
       total: 138
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

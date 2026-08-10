@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Fulcrum Plans Pricing
   plan_count: 3
   slug: fulcrum-plans-pricing
-random_paper: 88
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Fulcrum Rate Limits
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/screenshots/fulcrum-2026-06-20T181606.png
 security:

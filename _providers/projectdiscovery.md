@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 20
 apis:
 - description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
@@ -229,7 +229,7 @@ overview: 'ProjectDiscovery publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 48
+random_paper: 3
 score:
   band: developing
   composite: 55.2
@@ -252,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

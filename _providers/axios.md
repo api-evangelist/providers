@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.
@@ -108,7 +108,7 @@ plans:
 - name: Axios Plans Pricing
   plan_count: 3
   slug: axios-plans-pricing
-random_paper: 96
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Axios Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png
 security:

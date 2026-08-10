@@ -18,13 +18,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 10
 apis:
-- description: The anonymously readable WordPress REST API behind kriyatherapeutics.com. It exposes the company's 28-item `news` custom post type (the full press-release archive back to the May 2020 Series A announc
-  name: Kriya Therapeutics Content API
-  slug: kriya-therapeutics-content-api
-artifact_total: 3
+- description: Route, type, taxonomy and status discovery documents.
+  name: Kriya Therapeutics Discovery API
+  slug: kriya-therapeutics-discovery-api
+- description: The `gutena_forms` custom post type used for the site contact form.
+  name: Kriya Therapeutics Forms API
+  slug: kriya-therapeutics-forms-api
+- description: Media library (304 attachments at harvest time).
+  name: Kriya Therapeutics Media API
+  slug: kriya-therapeutics-media-api
+- description: The `news` custom post type — the company press-release archive (28 items at harvest, back to May 2020).
+  name: Kriya Therapeutics News API
+  slug: kriya-therapeutics-news-api
+- description: oEmbed 1.0 provider endpoint for kriyatherapeutics.com URLs.
+  name: Kriya Therapeutics Oembed API
+  slug: kriya-therapeutics-oembed-api
+- description: Corporate and pipeline pages (18 published at harvest time).
+  name: Kriya Therapeutics Pages API
+  slug: kriya-therapeutics-pages-api
+- description: Core blog/post collection (33 items at harvest).
+  name: Kriya Therapeutics Posts API
+  slug: kriya-therapeutics-posts-api
+- description: Cross-content search across published objects.
+  name: Kriya Therapeutics Search API
+  slug: kriya-therapeutics-search-api
+- description: Categories, tags, news categories and team keywords.
+  name: Kriya Therapeutics Taxonomy API
+  slug: kriya-therapeutics-taxonomy-api
+- description: The `team` custom post type. Registered and reachable, but empty (X-WP-Total 0) — the Team page is authored as page markup.
+  name: Kriya Therapeutics Team API
+  slug: kriya-therapeutics-team-api
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -151,20 +178,20 @@ modified: '2026-08-04'
 name: Kriya Therapeutics
 nav: Providers
 network: true
-overview: 'Kriya Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, gene-therapy, and aav.
+overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Forms API, Media API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, gene-therapy, and aav.
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 26 more developer resources.'
-random_paper: 78
+random_paper: 30
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 31.1
+  delta: 0.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.2
+    contract_quality: 51.6
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 30.7
@@ -177,8 +204,9 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:
 - kind: authentication
   name: Kriya Therapeutics Authentication

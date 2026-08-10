@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 0
+random_paper: 80
 scopes:
 - name: Danske Bank Uk Scopes
   scope_count: 4
@@ -240,7 +240,7 @@ score:
     regime_id: banking_open_finance
     score: 72.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

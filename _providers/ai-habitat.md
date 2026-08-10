@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -217,7 +217,7 @@ plans:
 - name: Ai Habitat Plans Pricing
   plan_count: 3
   slug: ai-habitat-plans-pricing
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Ai Habitat Rate Limits
@@ -244,7 +244,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 34.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/screenshots/ai-habitat-2026-06-20T170703.png
 security:

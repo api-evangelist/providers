@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -26,12 +26,54 @@ agentic_access:
   operation_count: 485
   slug: turntide-technologies-agentic-access
   summary_line: 485 operations · 281 acting
-api_count: 1
+api_count: 15
 apis:
-- description: 'The WordPress REST API surface published by Turntide Technologies at turntide.com/wp-json — 274 routes across 14 namespaces including wp/v2 content collections (posts, pages, media, categories, tags, '
-  name: Turntide WordPress REST API
-  slug: turntide-wordpress-rest-api
-artifact_total: 6
+- description: The coauthors/v1 API from Turntide Technologies — 6 operation(s) for coauthors/v1.
+  name: Turntide Technologies Coauthors/v1 API
+  slug: turntide-technologies-coauthors-v1-api
+- description: The complianz/v1 API from Turntide Technologies — 12 operation(s) for complianz/v1.
+  name: Turntide Technologies Complianz/v1 API
+  slug: turntide-technologies-complianz-v1-api
+- description: The core API from Turntide Technologies — 1 operation(s) for core.
+  name: Turntide Technologies Core API
+  slug: turntide-technologies-core-api
+- description: The mcp API from Turntide Technologies — 3 operation(s) for mcp.
+  name: Turntide Technologies MCP API
+  slug: turntide-technologies-mcp-api
+- description: The oembed/1.0 API from Turntide Technologies — 3 operation(s) for oembed/1.0.
+  name: Turntide Technologies Oembed/1.0 API
+  slug: turntide-technologies-oembed-1-0-api
+- description: The redirection/v1 API from Turntide Technologies — 32 operation(s) for redirection/v1.
+  name: Turntide Technologies Redirection/v1 API
+  slug: turntide-technologies-redirection-v1-api
+- description: The themeco API from Turntide Technologies — 3 operation(s) for themeco.
+  name: Turntide Technologies Themeco API
+  slug: turntide-technologies-themeco-api
+- description: The wp-abilities/v1 API from Turntide Technologies — 6 operation(s) for wp-abilities/v1.
+  name: Turntide Technologies Wp Abilities/v1 API
+  slug: turntide-technologies-wp-abilities-v1-api
+- description: The wp-block-editor/v1 API from Turntide Technologies — 4 operation(s) for wp-block-editor/v1.
+  name: Turntide Technologies Wp Block Editor/v1 API
+  slug: turntide-technologies-wp-block-editor-v1-api
+- description: The wp-site-health/v1 API from Turntide Technologies — 8 operation(s) for wp-site-health/v1.
+  name: Turntide Technologies Wp Site Health/v1 API
+  slug: turntide-technologies-wp-site-health-v1-api
+- description: The wp/v2 API from Turntide Technologies — 122 operation(s) for wp/v2.
+  name: Turntide Technologies Wp/v2 API
+  slug: turntide-technologies-wp-v2-api
+- description: The wpe/cache-plugin/v1 API from Turntide Technologies — 3 operation(s) for wpe/cache-plugin/v1.
+  name: Turntide Technologies Wpe/cache Plugin/v1 API
+  slug: turntide-technologies-wpe-cache-plugin-v1-api
+- description: The wpe_sign_on_plugin/v1 API from Turntide Technologies — 4 operation(s) for wpe_sign_on_plugin/v1.
+  name: Turntide Technologies Wpe Sign On Plugin/v1 API
+  slug: turntide-technologies-wpe-sign-on-plugin-v1-api
+- description: The wpforms/v1 API from Turntide Technologies — 8 operation(s) for wpforms/v1.
+  name: Turntide Technologies Wpforms/v1 API
+  slug: turntide-technologies-wpforms-v1-api
+- description: The yoast/v1 API from Turntide Technologies — 59 operation(s) for yoast/v1.
+  name: Turntide Technologies Yoast/v1 API
+  slug: turntide-technologies-yoast-v1-api
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -169,11 +211,11 @@ modified: '2026-08-02'
 name: Turntide Technologies
 nav: Providers
 network: true
-overview: 'Turntide Technologies publishes 1 API on the [APIs.io](https://apis.io/) network: Turntide WordPress REST API. Tagged areas include Company, Electrification, Electric Motors, Power Electronics, and Energy Storage.
+overview: 'Turntide Technologies publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Coauthors/v1 API, Complianz/v1 API, Core API, and 12 more. Tagged areas include Company, Electrification, Electric Motors, Power Electronics, and Energy Storage.
 
 
   Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 61
+random_paper: 4
 scopes:
 - name: Turntide Technologies Scopes
   scope_count: 1
@@ -181,13 +223,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 31.6
+  delta: 0.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 14.9
+    contract_quality: 14.0
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 31.3
@@ -202,7 +244,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

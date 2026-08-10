@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The partner-facing hotel search API operated by Super.com under its original SnapTravel brand. The host is live and self-identifies ("Welcome to the Partner Search API for SnapTravel"), but the API is
@@ -86,10 +86,11 @@ name: Super.com
 nav: Providers
 network: true
 overview: Super.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hotels, Booking, and Flights.
-random_paper: 87
+random_paper: 66
 score:
   band: minimal
   composite: 11.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -97,8 +98,10 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 15.8
+  previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Supercom Domain Security

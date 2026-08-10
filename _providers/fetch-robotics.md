@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Fetch Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Fetch Robotics'' developer surface includes documentation and 10 more developer resources.'
-random_paper: 80
+random_paper: 44
 score:
   band: minimal
   composite: 12.1
@@ -103,7 +103,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-robotics/refs/heads/main/screenshots/fetch-robotics-2026-07-25T214404.png
 security:

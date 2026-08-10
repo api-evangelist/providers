@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -26,12 +26,42 @@ agentic_access:
   operation_count: 85
   slug: orionis-biosciences-agentic-access
   summary_line: 85 operations · 50 acting
-api_count: 1
+api_count: 11
 apis:
-- description: The anonymously readable WordPress REST API that orionisbio.com serves at /wp-json/wp/v2 — company news posts (22 published), corporate and platform pages (16 published, covering the Allo-Glue, A-Kine
-  name: Orionis Biosciences Website Content API (WordPress REST wp/v2)
-  slug: content
-artifact_total: 4
+- description: The Abilities API from Orionis Biosciences — 6 operation(s) for abilities.
+  name: Orionis Biosciences Abilities API
+  slug: orionis-biosciences-abilities-api
+- description: The Comments API from Orionis Biosciences — 2 operation(s) for comments.
+  name: Orionis Biosciences Comments API
+  slug: orionis-biosciences-comments-api
+- description: The Discovery API from Orionis Biosciences — 8 operation(s) for discovery.
+  name: Orionis Biosciences Discovery API
+  slug: orionis-biosciences-discovery-api
+- description: The Media API from Orionis Biosciences — 4 operation(s) for media.
+  name: Orionis Biosciences Media API
+  slug: orionis-biosciences-media-api
+- description: The News API from Orionis Biosciences — 2 operation(s) for news.
+  name: Orionis Biosciences News API
+  slug: orionis-biosciences-news-api
+- description: The oEmbed API from Orionis Biosciences — 3 operation(s) for oembed.
+  name: Orionis Biosciences O Embed API
+  slug: orionis-biosciences-oembed-api
+- description: The Pages API from Orionis Biosciences — 2 operation(s) for pages.
+  name: Orionis Biosciences Pages API
+  slug: orionis-biosciences-pages-api
+- description: The Search API from Orionis Biosciences — 1 operation(s) for search.
+  name: Orionis Biosciences Search API
+  slug: orionis-biosciences-search-api
+- description: The Taxonomy API from Orionis Biosciences — 4 operation(s) for taxonomy.
+  name: Orionis Biosciences Taxonomy API
+  slug: orionis-biosciences-taxonomy-api
+- description: The Team API from Orionis Biosciences — 2 operation(s) for team.
+  name: Orionis Biosciences Team API
+  slug: orionis-biosciences-team-api
+- description: The Users API from Orionis Biosciences — 3 operation(s) for users.
+  name: Orionis Biosciences Users API
+  slug: orionis-biosciences-users-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -142,23 +172,23 @@ modified: '2026-08-04'
 name: Orionis Biosciences
 nav: Providers
 network: true
-overview: 'Orionis Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: Website Content API (WordPress REST wp/v2). Tagged areas include Company, Biotechnology, Life Sciences, Drug Discovery, and Pharmaceuticals.
+overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Abilities API, Comments API, Discovery API, and 8 more. Tagged areas include Company, Biotechnology, Life Sciences, Drug Discovery, and Pharmaceuticals.
 
 
   Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 21 more developer resources.'
-random_paper: 54
+random_paper: 3
 score:
   band: emerging
-  composite: 23.3
-  delta: -10.6
+  composite: 23.5
+  delta: 0.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.1
+    contract_quality: 14.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 33.9
+  previous_composite: 23.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -176,8 +206,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: falling
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:
 - kind: authentication
   name: Orionis Biosciences Authentication

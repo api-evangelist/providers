@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'High-level gRPC (proto3) API to directly control the Clone Robot — muscle actuation (impulses/pulses/pressures), pinch/hydra valve control, water-pump pressure source, telemetry streaming, and camera '
@@ -115,7 +115,7 @@ overview: 'Clone publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clone''s developer surface includes YouTube channel and 16 more developer resources.'
-random_paper: 77
+random_paper: 65
 score:
   band: minimal
   composite: 12.9
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clone/refs/heads/main/screenshots/clone-2026-07-25T205641.png
 security:

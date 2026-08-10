@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -27,16 +27,20 @@ apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP) exposing the attestation service to MCP-capable agents. Tools: attest_file, verify_file, verify_certificate, get_certificate_pdf, check_anchor, servic'
   name: imgauth Remote MCP Server
   slug: imgauth-remote-mcp-server
-artifact_total: 2
+artifact_total: 3
 created: '2026-07-19'
 description: Digital-work attestation and proof-of-existence service by Spazio Genesi ETS. Clients compute a SHA-256 fingerprint locally (file bytes never leave the device) and receive a signed PDF certificate, an RFC 3161 timestamp, and an OpenTimestamps/Bitcoin anchor. Exposes a public REST API (OpenAPI 3.0.3) and a hosted remote MCP server for agents.
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-19'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
 overview: 'imgauth — API di attestazione opere digitali publishes 1 API on the [APIs.io](https://apis.io/) network: imgauth REST API. Tagged areas include digital notarization, timestamping, proof-of-existence, content authenticity, and provenance.'
-random_paper: 112
+random_paper: 4
 score:
   band: emerging
   composite: 14.0
@@ -50,7 +54,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: CPI News and Updates
   url: https://www.cranepi.com/en/news
-random_paper: 69
+random_paper: 57
 score:
   band: minimal
   composite: 4.3
@@ -132,7 +132,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crane/refs/heads/main/screenshots/crane-2026-06-20T175210.png
 slug: crane

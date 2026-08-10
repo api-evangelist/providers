@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ overview: 'MosaicML is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MosaicML''s developer surface includes documentation, GitHub presence, code examples, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 62
+random_paper: 41
 score:
   band: minimal
   composite: 11.3
@@ -142,7 +142,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaicml/refs/heads/main/screenshots/mosaicml-2026-06-20T185818.png
 security:

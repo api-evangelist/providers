@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: 'Access Westlaw legal research content including case law, statutes, regulations, and secondary sources. Includes SEC Filings API, Dockets API, and Litigation Analytics providing structured legal data '
@@ -111,7 +111,7 @@ plans:
 - name: Thomson Reuters Plans Pricing
   plan_count: 3
   slug: thomson-reuters-plans-pricing
-random_paper: 17
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Thomson Reuters Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png
 security:

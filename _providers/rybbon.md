@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard, e-gift cards, and other digital rewards instantly to recipients. Supports campaign management, recipient trac
@@ -107,7 +107,7 @@ plans:
 - name: Rybbon Plans Pricing
   plan_count: 2
   slug: rybbon-plans-pricing
-random_paper: 87
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Rybbon Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 30.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/screenshots/rybbon-2026-06-20T193311.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Corca is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Corca''s developer surface includes documentation, getting-started guide, and 6 more developer resources.'
-random_paper: 68
+random_paper: 56
 score:
   band: emerging
   composite: 13.1
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corca/refs/heads/main/screenshots/corca-2026-07-25T210419.png
 security:

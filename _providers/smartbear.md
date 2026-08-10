@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -121,15 +121,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/smartbear-swaggerhub-openapi.yml
+  url: openapi/_original/smartbear-swaggerhub-openapi.yml
 - group: design
   title: ''
   type: Spectral
   url: rules/smartbear-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/api-design-and-governance.yaml
 - group: docs
   title: ''
   type: JSONSchema
@@ -203,12 +199,12 @@ overview: 'SmartBear publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The SmartBear catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SmartBear''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
+  SmartBear''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
   slug: smartbear-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Smartbear Rate Limits
@@ -250,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:

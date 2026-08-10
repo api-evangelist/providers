@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Google Appsheet Plans Pricing
   plan_count: 3
   slug: google-appsheet-plans-pricing
-random_paper: 71
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Google Appsheet Rate Limits
@@ -146,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/screenshots/google-appsheet-2026-06-20T182019.png
 security:

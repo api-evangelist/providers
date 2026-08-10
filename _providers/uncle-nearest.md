@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -26,18 +26,36 @@ agentic_access:
   operation_count: 47
   slug: uncle-nearest-agentic-access
   summary_line: 47 operations · 25 acting
-api_count: 3
+api_count: 9
 apis:
-- description: Read-only-by-default REST API for the events, venues, organizers, event categories and event tags published on unclenearest.com, served by The Events Calendar plugin from the brand's own WordPress hos
-  name: Uncle Nearest Events Calendar REST API (tribe/events/v1)
-  slug: uncle-nearest-events-calendar-rest-api-tribeeventsv1
-- description: Second-generation Events Calendar REST API on the same host, covering events, organizers, venues and series with named operationIds. Self-publishes an OpenAPI 3.0.4 document at its /docs endpoint. Rea
-  name: Uncle Nearest Events Calendar REST API (tec/v1)
-  slug: uncle-nearest-events-calendar-rest-api-tecv1
 - description: The standard WordPress core REST API exposed at unclenearest.com/wp-json/, publishing the brand's posts, pages, media, categories, tags, taxonomies and custom event post types as JSON. The route index
   name: Uncle Nearest WordPress REST API
   slug: uncle-nearest-wordpress-rest-api
-artifact_total: 6
+- description: The Categories API from Uncle Nearest — 2 operation(s) for categories.
+  name: Uncle Nearest Categories API
+  slug: uncle-nearest-categories-api
+- description: These operations are introduced by the Common library.
+  name: Uncle Nearest Common API
+  slug: uncle-nearest-common-api
+- description: The Doc API from Uncle Nearest — 1 operation(s) for doc.
+  name: Uncle Nearest Doc API
+  slug: uncle-nearest-doc-api
+- description: The Events API from Uncle Nearest — 7 operation(s) for events.
+  name: Uncle Nearest Events API
+  slug: uncle-nearest-events-api
+- description: These operations are introduced by Events Pro.
+  name: Uncle Nearest Events Pro API
+  slug: uncle-nearest-events-pro-api
+- description: The Organizers API from Uncle Nearest — 3 operation(s) for organizers.
+  name: Uncle Nearest Organizers API
+  slug: uncle-nearest-organizers-api
+- description: The Tags API from Uncle Nearest — 2 operation(s) for tags.
+  name: Uncle Nearest Tags API
+  slug: uncle-nearest-tags-api
+- description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
+  name: Uncle Nearest Venues API
+  slug: uncle-nearest-venues-api
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -147,18 +165,18 @@ modified: '2026-08-02'
 name: Uncle Nearest
 nav: Providers
 network: true
-overview: 'Uncle Nearest publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events Calendar REST API (tribe/events/v1) and Events Calendar REST API (tec/v1). Tagged areas include Company, whiskey, spirits, beverage-alcohol, and consumer-packaged-goods.
+overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Common API, Doc API, and 5 more. Tagged areas include Company, whiskey, spirits, beverage-alcohol, and consumer-packaged-goods.
 
 
   Uncle Nearest''s developer surface includes support, FAQ, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 91
+random_paper: 58
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 28.6
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 49.1
+    contract_quality: 41.6
     developer_ergonomics: 16.8
     discoverability: 92.6
     governance: 11.5
@@ -170,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

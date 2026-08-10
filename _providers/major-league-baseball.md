@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'Major League Baseball publishes 31 APIs on the [APIs.io](https://apis
 
 
   Major League Baseball''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 42
+random_paper: 104
 score:
   band: emerging
   composite: 18.7
@@ -234,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

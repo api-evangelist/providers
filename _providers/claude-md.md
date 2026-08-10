@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CLAUDE.md''s developer surface includes documentation, tooling, and 6 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: minimal
   composite: 10.0
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/screenshots/claude-md-2026-06-20T174448.png
 slug: claude-md

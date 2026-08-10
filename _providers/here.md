@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,12 +130,6 @@ common:
   title: ''
   type: StatusPage
   url: https://status.here.com/status
-- group: operate
-  title: ''
-  type: Slack
-  url: '
-
-    https://join.slack.com/t/heredev/shared_invite/zt-1tog8frbk-Y8KUaHhbYGtpFPgsmXl5Fw'
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -159,12 +153,12 @@ network: true
 overview: 'HERE publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Autosuggest API, Browse API, and 4 more. Tagged areas include Location, Mapping, Maps, and Spatial.
 
 
-  HERE''s developer surface includes authentication, signup flow, support, code examples, engineering blog, changelog, and 13 more developer resources.'
+  HERE''s developer surface includes authentication, signup flow, support, code examples, engineering blog, changelog, and 12 more developer resources.'
 plans:
 - name: Here Plans Pricing
   plan_count: 3
   slug: here-plans-pricing
-random_paper: 81
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Here Rate Limits
@@ -189,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/screenshots/here-2026-06-20T182640.png
 security:

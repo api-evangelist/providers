@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -425,7 +425,7 @@ press:
 - date: '2026-05-25'
   title: Hewlett Packard Enterprise
   url: https://www.facebook.com/HewlettPackardEnterprise/posts/you-showed-up-in-the-comments-the-quotes-and-the-threads-since-hpes-juniper-acqu/1191246859707387/
-random_paper: 8
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Juniper Networks Rate Limits
@@ -467,7 +467,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png
 security:

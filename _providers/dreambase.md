@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Dreambase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dreambase''s developer surface includes documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: emerging
   composite: 24.4
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreambase/refs/heads/main/screenshots/dreambase-2026-07-25T212354.png
 security:

@@ -1,6 +1,107 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-08-10'
 api_count: 1
-artifact_total: 0
+apis:
+- description: The GraphQL API behind the BillGO Exchange biller portal. A live graphql-java server answers POST requests at https://exchange.billgo.com/graphql; schema introspection is disabled by the server, so no
+  name: BillGO Exchange GraphQL API
+  slug: billgo-exchange-graphql-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/billgo-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/billgo-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://billgo.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://billgo.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://billgo.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://start.billgo.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://exchange.billgo.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://billgo.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://billgo.com/privacy-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://billgo.com/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://billgo.com/security
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://billgo.statuspage.io/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/billgo-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/billgo-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/billgo-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/billgo-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/billgo-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/billgo-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/billgo-llms.txt
 coverage:
   checked: '2026-08-07'
   detail: docs.billgo.com — the only BillGO developer reference — is a private ReadMe project that answers every path, including /reference and /openapi.json, with an HTTP 302 to https://dash.readme.com/to/billgo-group, so no contract, endpoint list or auth guide is readable without a BillGO account; the live GraphQL endpoint at exchange.billgo.com/graphql confirms the API exists but returns "Introspection has been disabled for this request".
@@ -23,7 +124,53 @@ modified: '2026-08-07'
 name: BillGO
 nav: Providers
 network: true
-random_paper: 68
+overview: 'BillGO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Bill Pay, Financial Services, Banking, and ACH.
+
+
+  BillGO''s developer surface includes engineering blog, support, signup flow, authentication, and 15 more developer resources.'
+random_paper: 53
+scopes:
+- name: Billgo Scopes
+  scope_count: 8
+  slug: billgo-scopes
+  summary_line: 8 scopes · authorizationCode
+score:
+  band: thin
+  composite: 32.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 26.3
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 59.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/billgo/refs/heads/main/screenshots/billgo-2026-08-07T162429.png
+security:
+- kind: authentication
+  name: Billgo Authentication
+  slug: billgo-authentication
+  summary_line: openIdConnect/oauth2 · 2 schemes
+- kind: domain-security
+  name: Billgo Domain Security
+  slug: billgo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Billgo Trust Center
+  slug: billgo-trust-center
+  summary_line: SOC 2 Type II, SOC 1 Type I, PCI DSS Level 1 (via service providers)
 slug: billgo
 tags:
 - Payments
@@ -34,4 +181,5 @@ tags:
 - Virtual Cards
 - Fintech
 - GraphQL
+website: https://billgo.com/
 ---

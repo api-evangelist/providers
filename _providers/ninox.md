@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 15
@@ -201,7 +201,7 @@ overview: 'Ninox publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ninox''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 104
+random_paper: 92
 score:
   band: developing
   composite: 49.0
@@ -225,8 +225,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/screenshots/ninox-2026-08-07T185329.png
 security:
 - kind: authentication
   name: Ninox Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 30
 apis:
 - description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
@@ -262,7 +262,7 @@ overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 5
+random_paper: 97
 scopes:
 - name: Arthur Ai Scopes
   scope_count: 191
@@ -290,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:

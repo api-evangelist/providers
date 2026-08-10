@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Storytree
 nav: Providers
 network: true
 overview: Storytree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photo Printing, Consumer, Mobile App, and Photography.
-random_paper: 105
+random_paper: 81
 score:
   band: minimal
   composite: 8.6
@@ -84,7 +84,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

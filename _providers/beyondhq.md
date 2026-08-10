@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'BeyondHQ is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BeyondHQ''s developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 67
+random_paper: 46
 score:
   band: emerging
   composite: 13.0
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

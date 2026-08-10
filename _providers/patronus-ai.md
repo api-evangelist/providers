@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: The Patronus Evaluation API scores LLM outputs against built-in and custom evaluators covering hallucination, answer relevance, context utilization, safety, and PII. Evaluators can be invoked synchron
@@ -98,6 +98,26 @@ common:
   title: ''
   type: Security
   url: mailto:security@patronus.ai
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/patronus-ai-inc
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.patronus.ai/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/patronus-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/patronus-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/patronus-ai-finops.yml
 created: '2026-05-23'
 description: Patronus AI is an evaluation and guardrails platform for production LLM applications and AI agents. It combines an API-first evaluation service with Python and TypeScript SDKs, in-house judge models (Lynx for hallucination detection, Glider for reasoning evaluation, Percival for agent debugging), and a portfolio of open benchmarks and datasets including FinanceBench, BLUR, and RL environments. Customers use Patronus for experimentation, production monitoring, RAG and agent evaluation, dataset generation, and human-in-the-loop annotation.
 features:
@@ -136,37 +156,37 @@ integrations:
 - description: Lynx and Glider weights are distributed via Hugging Face for self-hosting.
   name: Hugging Face
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Patronus AI
 nav: Providers
 network: true
 overview: 'Patronus AI publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Guardrails, Judges, Hallucination Detection, and AI Research.
 
 
-  Patronus AI''s developer surface includes documentation, API reference, engineering blog, pricing, and 7 more developer resources.'
+  Patronus AI''s developer surface includes documentation, API reference, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Patronus Ai Plans Pricing
   plan_count: 1
   slug: patronus-ai-plans-pricing
-random_paper: 9
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Patronus Ai Rate Limits
   slug: patronus-ai-rate-limits
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 27.0
+  delta: 1.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patronus-ai/refs/heads/main/screenshots/patronus-ai-2026-06-20T191445.png
 security:

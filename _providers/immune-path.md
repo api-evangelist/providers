@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: immune-path
 nav: Providers
 network: true
 overview: immune-path is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Vaccines, Immunology, and Pharmaceuticals.
-random_paper: 108
+random_paper: 81
 score:
   band: minimal
   composite: 4.3
@@ -64,7 +64,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immune-path/refs/heads/main/screenshots/immune-path-2026-07-25T222135.png
 slug: immune-path

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,7 +124,7 @@ overview: 'Lithium Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Lithium Finance''s developer surface includes documentation, getting-started guide, support, and 17 more developer resources.'
-random_paper: 94
+random_paper: 85
 score:
   band: emerging
   composite: 18.3
@@ -140,7 +140,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lith/refs/heads/main/screenshots/lith-2026-07-25T225332.png
 security:

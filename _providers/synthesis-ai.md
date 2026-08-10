@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,10 +85,11 @@ overview: 'Synthesis AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Synthesis AI''s developer surface includes code examples and 7 more developer resources.'
-random_paper: 6
+random_paper: 89
 score:
   band: minimal
   composite: 5.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -96,8 +97,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Synthesis Ai Domain Security

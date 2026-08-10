@@ -1,6 +1,6 @@
 {
- "total": 30,
- "shown": 30,
+ "total": 29,
+ "shown": 29,
  "limit": 1000,
  "bands": [
   {
@@ -15,6 +15,7 @@
      "name": "Oracle Hospitality",
      "slug": "oracle-hospitality",
      "description": "Oracle Hospitality is Oracle Corporation's hotel and food-and-beverage technology line, built on the 2014 acquisition of MICROS Systems and anchored by OPERA Cloud, the property management system that runs the front desk, reservations, housekeeping, cashiering and event sales for a large share of the world's branded hotel rooms, alongside OPERA Cloud Distribution, Simphony point of sale and Nor1 upsell. Home market is the United States. It sits in the middle of the hotel distribution chain rather than at either end: it is the system of record a property runs on, and the switch through which that property's availability, rates and inventory reach GDS, OTA and web channels and through which reservations come back. Its API posture is unusually open at the specification layer and firmly gated at the credential layer - Oracle publishes 59 Swagger 2.0 specifications covering roughly 3,500 operations to a public GitHub repository under the Universal Permissive License, and publishes the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png",
      "score": 61.7,
      "band": "strong",
      "band_label": "Strong",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -53,6 +54,7 @@
      "name": "Federal Aviation Administration",
      "slug": "faa",
      "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png",
      "score": 57.1,
      "band": "strong",
      "band_label": "Strong",
@@ -64,7 +66,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -121,7 +123,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 33.6,
      "agent_band": "agent-aware",
@@ -160,7 +162,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -198,7 +200,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 60.6,
      "agent_band": "agent-native",
@@ -225,6 +227,7 @@
      "name": "OpenTravel Alliance",
      "slug": "opentravel-alliance",
      "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png",
      "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
@@ -236,7 +239,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -275,7 +278,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -313,7 +316,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -358,7 +361,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 48.0,
      "agent_band": "agent-ready",
@@ -397,7 +400,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -435,7 +438,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -480,7 +483,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -518,6 +521,7 @@
      "name": "Navan",
      "slug": "navan",
      "description": "Navan (formerly TripActions, rebranded to Navan in February 2022) is a corporate travel, expense, and corporate card management platform. Its public developer surface centers on the Navan Expense API (OAuth 2.0 client-credentials) for retrieving and updating transactions, fees, adjustments, receipts, and custom fields, plus a Travel/User Management API for provisioning users and reading booking data, and webhooks for change notifications. Navan also publishes an MCP server for connecting AI assistants to Navan data. Booking (travel) is offered at no platform cost and funded by supplier commissions and per-trip fees, while Expense is a per-user subscription.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/screenshots/navan-2026-08-07T184736.png",
      "score": 41.8,
      "band": "thin",
      "band_label": "Thin",
@@ -529,7 +533,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -568,7 +572,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -595,6 +599,7 @@
      "name": "Marriott International",
      "slug": "marriott",
      "description": "Marriott International is the world's largest hotel group by room count, headquartered in Bethesda, Maryland, United States, operating and franchising roughly thirty brands from The Ritz-Carlton, St. Regis and W through Marriott Hotels, Sheraton, Westin and Courtyard down to Fairfield, Moxy and StudioRes, plus the Homes & Villas by Marriott Bonvoy home-rental marketplace and the Marriott Bonvoy loyalty program. It sits on the supply side of the travel distribution chain: it publishes rates and availability into every major global distribution system — Marriott's own travel-agent site states it \"participates in the following GDS: Amadeus, Sabre, Travelport (Apollo/Galileo, and Worldspan)\" — sells through the OTAs, connects short-term-rental supply through a channel-connectivity partner program, and spends heavily to pull demand back to direct booking on Marriott.com and the Bonvoy app. Its API posture is closed. A Broadcom Layer7 developer portal exists at devportalprod.marriott.com and returns HTTP 200, but its anonymous API catalog is literally empty and the portal's own home content returns HTTP 401 — there is no self-serve signup, no public API reference, no published rates/availability/booking API, no sandbox, no SDK, no changelog and no exit path. The only Marriott OpenAPI documents that can be read without a contract are eight internal and partner-facing specifications left publicly readable on SwaggerHub under the \"marriott-api\" owner; six are mirrored here verbatim as evidence. Everything a developer would actually want is behind a partner relationship, a travel-agent registration, or a GDS or channel-manager contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/screenshots/marriott-2026-08-07T172102.png",
      "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
@@ -606,7 +611,7 @@
       "developer_ergonomics": 27.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -644,7 +649,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -683,7 +688,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -713,8 +718,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Wyndham Hotels & Resorts",
@@ -731,7 +736,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -758,6 +763,7 @@
      "name": "Amtrak",
      "slug": "amtrak",
      "description": "Amtrak (the National Railroad Passenger Corporation) is the federally chartered operator of the United States national intercity passenger rail network, headquartered in Washington, D.C. It runs the Northeast Corridor including Acela, the state-supported corridors, the long-distance network, and the Amtrak Thruway Connecting Service bus network, and its published GTFS feed covers 61 routes, 646 stops, 2,948 trips and 20 operating agencies across the United States and into Canada. In the distribution chain Amtrak sits as a GDS-intermediated supplier of its own inventory: its content reaches third-party booking tools through Travelport Universal API, through Sabre, Apollo and Worldspan on the RailAgent channel, and through rail aggregators including SilverRail, Travelfusion and RailKey Technologies, alongside its own amtrak.com, mobile app and call centre. Its API posture is honestly stated as one open-standard data feed and nothing else. The only machine-readable contract Amtrak publishes is a static GTFS schedule archive at content.amtrak.com, which is completely ungated - no key, no registration, no click-through - but which Amtrak advertises nowhere: there is no developer portal, no documentation page, no OpenAPI, no AsyncAPI, no GraphQL, and no published terms of use for the feed. Everything transactional is closed. The developer., docs., data. and partners. subdomains of amtrak.com do not resolve, developers.amtrak.com resolves only to a Microsoft Entra application proxy, api.amtrak.com answers 401 on every path from Akamai NetStorage, and www.amtrak.com returns 403 to every non-browser client, so no first-party terms of service could be retrieved programmatically. A developer who wants shopping, booking, payment, ticketing or servicing does not sign up; they are accredited through Travelport or an aggregator, complete an Amtrak test-case worksheet, pass a three-week UAT, and commit to supporting Amtrak refund fees and eVoucher issuance before production credentials are issued.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/screenshots/amtrak-2026-08-07T161348.png",
      "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -769,7 +775,7 @@
       "developer_ergonomics": 12.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -803,6 +809,7 @@
      "name": "Enterprise Mobility",
      "slug": "enterprise-mobility",
      "description": "Enterprise Mobility is the Clayton, Missouri parent of Enterprise Rent-A-Car, National Car Rental and Alamo Rent a Car, and the largest car rental provider in the world — 90,000+ team members, 9,500+ rental branches across more than 90 countries and territories, a global fleet of over 2.4 million vehicles and $39 billion in 2025 fiscal-year revenue. Beyond leisure and corporate car rental it operates fleet management, flexible vehicle hire, carsharing, vanpooling, truck rental, car sales, vehicle subscription and the ARMS / Entegral replacement-rental technology used by insurers, collision repairers and dealerships. In the United States travel distribution chain it is a ground-transportation supplier whose inventory reaches buyers through GDS and OTA intermediaries, corporate travel programs and its own direct brand sites, rather than through any published public booking API. Its API posture is partner-gated and honestly so: EHI runs a real API Marketplace at developer.ehi.com with public marketing overviews for three business lines — Rental, Replacement Rental and Commute — but the API catalog, API specs, guides and release notes all sit behind Azure AD B2C sign-in and the portal states access is for \"an Enterprise employee or trusted Partner\" who should \"contact your account manager ... to request access\". No OpenAPI is published for those business lines; probes of /openapi.json, /swagger.json, /api-docs and /.well-known/ return AEM soft-404 HTML or 404. What is public is the plumbing around the gate: the production API gateway at api.ehi.com is a live Kong Gateway behind Imperva, the marketplace's own experience API publishes three POST endpoints in the portal's anonymous page source, the Azure AD B2C tenant serves two readable OpenID Connect discovery documents, and the sign-in link enumerates fourteen OAuth scopes covering catalog search, client-application registration and authorization requests. The published API License Agreement grants only a \"limited, revocable, non-transferable, non-sublicensable, non-exclusive\" right, restricts use to the licensee's internal purpose, states the licensee has no ownership rights in Renter Information, and on termination requires the licensee to \"delete or return any copies of the APIs and Enterprise Content\" — public docs shell, gated specs, no exit path.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/screenshots/enterprise-mobility-2026-08-07T164933.png",
      "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -814,7 +821,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -853,7 +860,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -881,18 +888,18 @@
      "slug": "kayak",
      "description": "KAYAK is a free travel metasearch engine that searches hundreds of travel sites at once so travelers can compare and find the lowest available prices on flights, hotels, rental cars, and vacation packages, with an extensive filtering system for narrowing results. Founded in 2004 and part of Booking Holdings, KAYAK operates a family of global travel brands (including momondo, Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+ international sites in 25+ languages. Beyond consumer metasearch it offers KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool, and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine rather than an online travel agency — bookings are completed with the airline, hotel, car-rental company, or travel agency. This profile documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public self-serve developer API program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/screenshots/kayak-2026-07-25T223539.png",
-     "score": 18.9,
+     "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 12.5,
-      "operational_transparency": 10.5,
+      "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 6.3,
      "agent_band": "agent-aware",
@@ -931,7 +938,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -958,6 +965,7 @@
      "name": "JetBlue",
      "slug": "jetblue",
      "description": "JetBlue Airways (IATA code B6) is a New York-headquartered low-cost United States carrier flying across the U.S., Caribbean, Latin America and Europe, with hubs and focus cities at JFK, Boston, Fort Lauderdale, Orlando and San Juan. In the travel distribution chain JetBlue sits as an inventory owner that sells through three channels: its own direct consumer surface (jetblue.com, the JetBlue app and the TrueBlue loyalty program), the legacy GDS channel where it files fares, seats and EMDs and settles through ARC in the U.S. and IATA BSPs internationally, and an IATA New Distribution Capability program that reaches agencies through GDS/NDC aggregators, corporate booking tools and online booking platforms. JetBlue publishes no public developer portal, no API reference and no downloadable OpenAPI or NDC schema: developer.jetblue.com, developers.jetblue.com and docs.jetblue.com do not resolve, api.jetblue.com answers 404 at every probed path, and the 361-URL public sitemap contains no developer or API page. The only published distribution surface is the travel-agent policy section at jetblue.com/travel-agents, including an NDC program page that states JetBlue supplies NDC API documentation, schema and message samples and certification guidelines to onboarded partners only, after business use-case submission, onboarding and certification testing. Selling JetBlue requires ARC accreditation in the U.S. or IATA accreditation plus local BSP participation abroad; JetBlue states it works with only a few OTAs and is not accepting new applications. Public docs, accreditation required, no self-serve access, and no exit path.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -969,7 +977,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 12.6,
      "agent_band": "agent-aware",
@@ -993,45 +1001,6 @@
      "rank": 24
     },
     {
-     "name": "Delta Air Lines",
-     "slug": "delta-air-lines",
-     "description": "Delta Air Lines is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. Delta operates a developer API portal for partner integrations covering flight search, flight offers, customer journey, loyalty, and operations data, with an emphasis on NDC-based content distribution.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-air-lines/refs/heads/main/screenshots/delta-air-lines-2026-07-25T211713.png",
-     "score": 16.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Airlines",
-     "rank": 25
-    },
-    {
      "name": "Choice Hotels",
      "slug": "choice-hotels",
      "description": "Choice Hotels International (NYSE: CHH) is a United States hotel franchisor headquartered in North Bethesda, Maryland, operating 7,575 hotels with 656,825 rooms open across 49 states, the District of Columbia and 50 countries and territories as of December 31, 2025. Its brands include Comfort, Quality, Clarion, Sleep Inn, Econo Lodge, Rodeway Inn, MainStay Suites, Suburban Studios, WoodSpring Suites, Everhome Suites, Cambria Hotels, Ascend Hotel Collection and the Radisson Americas brands. Choice sits on the supply side of the travel distribution chain as a franchisor rather than an owner: its proprietary choiceEDGE central reservation system pushes rate, inventory and availability to ChoiceHotels.com, the Choice Privileges mobile apps, the global distribution systems (Sabre, Amadeus), the OTAs (Expedia, Booking.com) and metasearch (Kayak, Tripadvisor), while its proprietary choiceADVANTAGE property management system runs the majority of its franchised properties. API posture is honestly none-published — no public developer portal, no published API reference, no machine-readable contract, and no exit path. A TIBCO Mashery API gateway answers at api.choicehotels.com but every probed path returns ERR_596_SERVICE_NOT_FOUND, and developer.choicehotels.com is an unprovisioned Mashery CNAME returning 404 under a mashery.com certificate. All real integration is reached through gated franchisee and vendor channels (connect.choicehotels.com, choicecentral.com, the SkyTouch /CONNECT interface program) that require a commercial agreement.",
@@ -1046,7 +1015,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1067,12 +1036,13 @@
       "dry_run_mode": false
      },
      "tier": "Hotel Groups",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "HEDNA",
      "slug": "hedna",
      "description": "HEDNA (Hotel Electronic Distribution Network Association) is a not-for-profit trade association founded in 1991 and headquartered in Forest Hill, Maryland, United States, that convenes the hotel distribution industry — hotel chains, GDS operators, OTAs, switches, channel managers, payment providers and connectivity vendors — around shared best practice for hospitality electronic distribution. It sits alongside rather than inside the distribution chain: it moves no inventory and processes no bookings, but its Disciplines (Connectivity, Content Distribution, Payments, Data & Analytics, Revenue Optimization) produce recommendation documents, and it co-authored the Open Payments Alliance Standards Specification with HTNG and OpenTravel. HEDNA publishes no developer portal, no API, and no machine-readable specification on hedna.org; every probe of developer./developers./docs./api. subdomains and of /developers, /api, /docs, /openapi.json, /swagger.json, /api-docs and /.well-known/ failed (DNS failure or HTTP 404). Its publications library, research reports and HEDNA U courseware are gated behind paid membership at members.hedna.org (HTTP 403 Cloudflare challenge unauthenticated) and pathlms.com/hedna. Honest posture: member-gated documents, no public API, no exit path published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hedna/refs/heads/main/screenshots/hedna-2026-08-07T170042.png",
      "score": 14.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1084,7 +1054,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1105,7 +1075,7 @@
       "dry_run_mode": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 27
+     "rank": 26
     }
    ]
   },
@@ -1133,7 +1103,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1154,7 +1124,7 @@
       "dry_run_mode": false
      },
      "tier": "Car Rental",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Hyatt",
@@ -1171,7 +1141,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1192,7 +1162,7 @@
       "dry_run_mode": false
      },
      "tier": "Hotel Groups",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Hertz",
@@ -1209,7 +1179,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1230,7 +1200,7 @@
       "dry_run_mode": false
      },
      "tier": "Car Rental",
-     "rank": 30
+     "rank": 29
     }
    ]
   }

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: 'Generation Next: AI Game Design, Skill-Based Elements ...'
   url: https://www.globalgamingexpo.com/en-us/learn/educationschedule/session-details.4465.251713.generation-next-ai-game-design-skill_based-elements-and-dynamic-payouts.html
-random_paper: 46
+random_paper: 84
 score:
   band: minimal
   composite: 5.9
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -278,7 +278,7 @@ common:
 - group: design
   title: ''
   type: Webhooks
-  url: openapi/weavr-webhooks-openapi-original.yml
+  url: openapi/_original/weavr-webhooks-openapi-original.yml
 - group: agent
   title: ''
   type: WellKnown
@@ -339,7 +339,7 @@ overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
-random_paper: 97
+random_paper: 85
 score:
   band: strong
   composite: 62.0
@@ -369,7 +369,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

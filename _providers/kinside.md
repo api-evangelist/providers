@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ overview: 'Kinside is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kinside''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: minimal
   composite: 11.0
@@ -85,7 +85,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinside/refs/heads/main/screenshots/kinside-2026-07-25T223840.png
 security:

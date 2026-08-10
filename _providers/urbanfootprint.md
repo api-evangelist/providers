@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,7 +124,7 @@ overview: 'UrbanFootprint is profiled on the [APIs.io](https://apis.io/) network
 
 
   UrbanFootprint''s developer surface includes documentation, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 64
+random_paper: 25
 score:
   band: emerging
   composite: 21.1
@@ -140,7 +140,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

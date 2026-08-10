@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 20 more developer resources.'
-random_paper: 46
+random_paper: 37
 scopes:
 - name: Pax8 Scopes
   scope_count: 4
@@ -278,8 +278,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/screenshots/pax8-2026-08-07T191618.png
 security:
 - kind: authentication
   name: Pax8 Authentication

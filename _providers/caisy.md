@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Real-time GraphQL content API for querying and mutating content stored in Caisy projects. Supports filtering, pagination, sorting, nested document referencing, and rich text as AST. Each project expos
@@ -95,7 +95,7 @@ overview: 'Caisy publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Caisy''s developer surface includes documentation, pricing, changelog, engineering blog, and 7 more developer resources.'
-random_paper: 85
+random_paper: 73
 score:
   band: emerging
   composite: 24.5
@@ -109,7 +109,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caisy/refs/heads/main/screenshots/caisy-2026-06-20T173839.png
 security:

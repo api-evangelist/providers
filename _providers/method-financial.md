@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 70.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -26,12 +26,135 @@ agentic_access:
   operation_count: 128
   slug: method-financial-agentic-access
   summary_line: 128 operations · 55 acting
-api_count: 1
+api_count: 42
 apis:
-- description: 'The Method API is a single REST interface for consumer liability data and payments. Create an Entity for a consumer, verify their identity, run Connect to discover every liability they hold, retrieve '
-  name: Method API
-  slug: method-api
-artifact_total: 9
+- description: Attribute data for accounts
+  name: Method Financial Account Attributes API
+  slug: method-financial-account-attributes-api
+- description: Balance data for accounts
+  name: Method Financial Account Balances API
+  slug: method-financial-account-balances-api
+- description: Card brand information for accounts
+  name: Method Financial Account Card Brands API
+  slug: method-financial-account-card-brands-api
+- description: Consent management for accounts
+  name: Method Financial Account Consent API
+  slug: method-financial-account-consent-api
+- description: Payment instruments for accounts
+  name: Method Financial Account Payment Instruments API
+  slug: method-financial-account-payment-instruments-api
+- description: Payoff data for accounts
+  name: Method Financial Account Payoffs API
+  slug: method-financial-account-payoffs-api
+- description: Products associated with accounts
+  name: Method Financial Account Products API
+  slug: method-financial-account-products-api
+- description: Sensitive data for accounts
+  name: Method Financial Account Sensitive API
+  slug: method-financial-account-sensitive-api
+- description: Subscriptions for accounts
+  name: Method Financial Account Subscriptions API
+  slug: method-financial-account-subscriptions-api
+- description: Transactions for accounts
+  name: Method Financial Account Transactions API
+  slug: method-financial-account-transactions-api
+- description: Update records for accounts
+  name: Method Financial Account Updates API
+  slug: method-financial-account-updates-api
+- description: Verification sessions for accounts
+  name: Method Financial Account Verification Sessions API
+  slug: method-financial-account-verification-sessions-api
+- description: Financial accounts (ACH, liability, clearing, debit card)
+  name: Method Financial Accounts API
+  slug: method-financial-accounts-api
+- description: Card product definitions
+  name: Method Financial Card Products API
+  slug: method-financial-card-products-api
+- description: Client-side Element endpoints
+  name: Method Financial Elements API
+  slug: method-financial-elements-api
+- description: Individuals, corporations, and receive-only entities
+  name: Method Financial Entities API
+  slug: method-financial-entities-api
+- description: Attribute data for entities
+  name: Method Financial Entity Attributes API
+  slug: method-financial-entity-attributes-api
+- description: Account connection sessions for entities
+  name: Method Financial Entity Connects API
+  slug: method-financial-entity-connects-api
+- description: Consent management for entities
+  name: Method Financial Entity Consent API
+  slug: method-financial-entity-consent-api
+- description: Credit score data for entities
+  name: Method Financial Entity Credit Scores API
+  slug: method-financial-entity-credit-scores-api
+- description: Identity verification data for entities
+  name: Method Financial Entity Identities API
+  slug: method-financial-entity-identities-api
+- description: Products associated with entities
+  name: Method Financial Entity Products API
+  slug: method-financial-entity-products-api
+- description: Subscriptions for entities
+  name: Method Financial Entity Subscriptions API
+  slug: method-financial-entity-subscriptions-api
+- description: Vehicle data for entities
+  name: Method Financial Entity Vehicles API
+  slug: method-financial-entity-vehicles-api
+- description: Verification sessions for entities
+  name: Method Financial Entity Verification Sessions API
+  slug: method-financial-entity-verification-sessions-api
+- description: Webhook event log
+  name: Method Financial Events API
+  slug: method-financial-events-api
+- description: Request forwarding with sensitive data injection
+  name: Method Financial Forwarding Requests API
+  slug: method-financial-forwarding-requests-api
+- description: Method-managed accounts
+  name: Method Financial Managed Accounts API
+  slug: method-financial-managed-accounts-api
+- description: Merchant directory
+  name: Method Financial Merchants API
+  slug: method-financial-merchants-api
+- description: Opal client-side session and token management
+  name: Method Financial Opal API
+  slug: method-financial-opal-api
+- description: Reversals for payments
+  name: Method Financial Payment Reversals API
+  slug: method-financial-payment-reversals-api
+- description: ACH and clearing payments
+  name: Method Financial Payments API
+  slug: method-financial-payments-api
+- description: Health check endpoint
+  name: Method Financial Ping API
+  slug: method-financial-ping-api
+- description: Public key discovery endpoints for Message-Level Encryption.
+  name: Method Financial Public Keys API
+  slug: method-financial-public-keys-api
+- description: Downloadable reports
+  name: Method Financial Reports API
+  slug: method-financial-reports-api
+- description: Secure secret storage
+  name: Method Financial Secrets API
+  slug: method-financial-secrets-api
+- description: Sandbox account simulation
+  name: Method Financial Simulate Accounts API
+  slug: method-financial-simulate-accounts-api
+- description: Sandbox entity simulation
+  name: Method Financial Simulate Entities API
+  slug: method-financial-simulate-entities-api
+- description: Sandbox event simulation
+  name: Method Financial Simulate Events API
+  slug: method-financial-simulate-events-api
+- description: Sandbox payment simulation
+  name: Method Financial Simulate Payments API
+  slug: method-financial-simulate-payments-api
+- description: Team and API key management
+  name: Method Financial Teams API
+  slug: method-financial-teams-api
+- description: Webhook subscriptions
+  name: Method Financial Webhooks API
+  slug: method-financial-webhooks-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Method Financial Webhooks
@@ -108,7 +231,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/method-financial-openapi-original.yml
+  url: openapi/_original/method-financial-openapi-original.yml
 - group: build
   title: ''
   type: Packages
@@ -225,27 +348,27 @@ modified: '2026-08-04'
 name: Method Financial
 nav: Providers
 network: true
-overview: 'Method Financial publishes 1 API on the [APIs.io](https://apis.io/) network: Method API. Tagged areas include Company, Financial Services, Fintech, Lending, and Payments.
+overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 39 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Payments.
 
 
   The Method Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 37
+random_paper: 111
 rate_limits:
 - limit_count: 6
   name: Method Financial Rate Limits
   slug: method-financial-rate-limits
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 65.1
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.4
+    contract_quality: 71.2
     developer_ergonomics: 84.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 78.9
   previous_composite: 65.7
@@ -266,8 +389,9 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:
 - kind: authentication
   name: Method Financial Authentication

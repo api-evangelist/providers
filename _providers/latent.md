@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ overview: 'Latent is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Latent''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: emerging
   composite: 19.0
@@ -130,7 +130,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latent/refs/heads/main/screenshots/latent-2026-07-25T224557.png
 security:

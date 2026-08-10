@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Serves active branded campaigns/missions to games and lets a game reset campaign progress and claim rewards. Consumed by the official Monetizr Unity SDK with a per-game HTTP Bearer API key.
@@ -112,7 +112,7 @@ overview: 'TheMonetizr publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   TheMonetizr''s developer surface includes documentation, getting-started guide, changelog, support, and 11 more developer resources.'
-random_paper: 79
+random_paper: 49
 score:
   band: emerging
   composite: 24.2
@@ -129,7 +129,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

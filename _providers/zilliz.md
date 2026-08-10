@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,12 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-06'
-api_count: 2
+  score: 19.4
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
 - description: The Control Plane API manages clusters (create / modify / suspend), users, roles, backups, alerts, metrics, and billing. Authentication is Bearer with a Zilliz API key.
   name: Zilliz Cloud Control Plane API
@@ -37,7 +37,16 @@ apis:
 - description: Data Plane endpoints handle collection, vector, partition, index, and role operations on a specific cluster. Authentication accepts either a Zilliz API key or a cluster `db_admin:password` pair.
   name: Zilliz Cloud Data Plane API
   slug: zilliz-data-plane
-artifact_total: 7
+- description: 'Control plane: cloud and region discovery.'
+  name: Zilliz Cloud Providers API
+  slug: zilliz-cloud-providers-api
+- description: 'Control plane: cluster lifecycle management.'
+  name: Zilliz Clusters API
+  slug: zilliz-clusters-api
+- description: 'Data plane: vector collection operations.'
+  name: Zilliz Collections API
+  slug: zilliz-collections-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -99,7 +108,7 @@ modified: '2026-05-08'
 name: Zilliz
 nav: Providers
 network: true
-overview: 'Zilliz publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Vector Database, AI, Cloud, Milvus, and Managed.
+overview: 'Zilliz publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cloud Providers API, Clusters API, and Collections API. Tagged areas include Vector Database, AI, Cloud, Milvus, and Managed.
 
 
   Zilliz''s developer surface includes developer portal, pricing, and 10 more developer resources.'
@@ -107,20 +116,20 @@ plans:
 - name: Zilliz Plans Pricing
   plan_count: 1
   slug: zilliz-plans-pricing
-random_paper: 105
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Zilliz Rate Limits
   slug: zilliz-rate-limits
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: 12.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 8.1
+    contract_quality: 55.0
     developer_ergonomics: 8.7
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.5
@@ -131,8 +140,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/screenshots/zilliz-2026-06-20T201901.png
 security:
 - kind: domain-security

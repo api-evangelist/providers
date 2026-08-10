@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,27 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/aurascape-llms.txt
+- group: other
+  title: ''
+  type: Product
+  url: https://aurascape.ai/product/
+- group: company
+  title: ''
+  type: About
+  url: https://aurascape.ai/company/
 created: '2026-07-17'
 description: Aurascape is an AI-native security company (Santa Clara, CA) that gives enterprises real-time visibility, intent-based controls, and data protection for every AI interaction. Its AI-native cloud proxy sits inline to discover and monitor thousands of generative, embedded, and agentic AI applications across browsers, SaaS, copilots, and IDEs; classify and protect multimodal data (text, code, voice, video) in real time; and secure AI agents from development through production, including testing for prompt injection and data leakage and enforcing runtime guardrails through its Zero-Bypass MCP Gateway. Aurascape is a Menlo Ventures portfolio company profiled in the API Evangelist network.
 image: https://aurascape.ai/wp-content/uploads/2025/07/site-logo-1.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Aurascape
 nav: Providers
 network: true
 overview: 'Aurascape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, Security, Artificial Intelligence, and Agentic AI.
 
 
-  Aurascape''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 45
+  Aurascape''s developer surface includes engineering blog and 9 more developer resources.'
+random_paper: 21
 score:
   band: minimal
   composite: 12.2
@@ -89,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

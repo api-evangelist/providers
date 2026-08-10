@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Agent-driven shopping surface for the Urban Revivo global store, declared in the store's UCP merchant profile and llms.txt. Exposes MCP tools for catalog search, cart creation, and checkout (create/up
@@ -120,7 +120,7 @@ overview: 'Urban Revivo publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Urban Revivo''s developer surface includes support, FAQ, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 88
 scopes:
 - name: Urban Revivo Scopes
   scope_count: 4
@@ -142,7 +142,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

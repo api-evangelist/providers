@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'Not a self-serve public API - there is no published base URL, API reference, or API key signup. Once a pro or CRM partner is approved by an Angi Ads Client Success Manager, Angi Ads/Angi Leads pushes '
@@ -80,7 +80,7 @@ plans:
 - name: Angi Plans Pricing
   plan_count: 3
   slug: angi-plans-pricing
-random_paper: 76
+random_paper: 67
 score:
   band: emerging
   composite: 14.9
@@ -94,8 +94,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/angi/refs/heads/main/screenshots/angi-2026-08-07T161409.png
 security:
 - kind: domain-security
   name: Angi Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Api Video Plans Pricing
   plan_count: 3
   slug: api-video-plans-pricing
-random_paper: 103
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Api Video Rate Limits
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/screenshots/api-video-2026-06-20T172221.png
 security:

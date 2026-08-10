@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The official Containerfile reference shipped with the containers/common project. Documents every Containerfile instruction, syntax, and the ways Containerfile differs from Dockerfile, including secret
@@ -97,7 +97,7 @@ plans:
 - name: Containerfile Plans Pricing
   plan_count: 3
   slug: containerfile-plans-pricing
-random_paper: 23
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Containerfile Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerfile/refs/heads/main/screenshots/containerfile-2026-06-20T174922.png
 security:

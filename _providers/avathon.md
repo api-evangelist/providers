@@ -1,6 +1,87 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/avathon-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/avathon-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://avathon.com/
+- group: other
+  title: ''
+  type: Platform
+  url: https://avathon.com/platform-2/
+- group: company
+  title: ''
+  type: Blog
+  url: https://avathon.com/blogs/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.avathon.com/help
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://avathon.com/contact-us-2/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://avathon.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://avathon.com/privacy-policy/
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://avathon.com/cookie-policy/
+- group: other
+  title: ''
+  type: Resources
+  url: https://avathon.com/resources/
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://avathon.com/case-studies/
+- group: other
+  title: ''
+  type: Glossary
+  url: https://avathon.com/ai-glossary/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/avathonai/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.hiive.com/securities/avathon-stock
 coverage:
   checked: '2026-08-06'
   detail: Avathon's entire documentation surface is the HubSpot-hosted help centre at support.avathon.com/help, which 307-redirects to /_hcms/mem/login — there is no docs., developer. or api. host in DNS at all, and the Industrial AI Platform's "application development SDK and APIs" are named only in marketing copy.
@@ -24,7 +105,32 @@ modified: '2026-08-06'
 name: Avathon
 nav: Providers
 network: true
-random_paper: 75
+overview: 'Avathon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Industrial AI, Predictive Maintenance, and Asset Performance Management.
+
+
+  Avathon''s developer surface includes engineering blog, support, and 13 more developer resources.'
+random_paper: 57
+score:
+  band: minimal
+  composite: 12.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.4
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/screenshots/avathon-2026-08-07T162012.png
+security:
+- kind: domain-security
+  name: Avathon Domain Security
+  slug: avathon-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: avathon
 tags:
 - Company
@@ -39,4 +145,5 @@ tags:
 - Manufacturing
 - Aerospace and Defense
 - Logistics
+website: https://avathon.com/
 ---

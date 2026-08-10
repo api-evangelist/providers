@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 30 more developer resources.'
-random_paper: 103
+random_paper: 82
 score:
   band: developing
   composite: 44.4
@@ -228,8 +228,9 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:
 - kind: authentication
   name: Dcc Smart Authentication

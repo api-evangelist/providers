@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -235,32 +235,32 @@ plans:
 - name: Koyeb Plans Pricing
   plan_count: 3
   slug: koyeb-plans-pricing
-random_paper: 86
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Koyeb Rate Limits
   slug: koyeb-rate-limits
 score:
   band: thin
-  composite: 37.9
+  composite: 38.9
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 48.9
+    contract_quality: 52.8
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.9
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 42
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:

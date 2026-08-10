@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/treasuryspring-openapi-original.json
+  url: openapi/_original/treasuryspring-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -210,7 +210,7 @@ overview: 'TreasurySpring publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   TreasurySpring''s developer surface includes authentication, sandbox, getting-started guide, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 85
+random_paper: 46
 score:
   band: developing
   composite: 48.4
@@ -240,7 +240,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

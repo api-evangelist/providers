@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: 'Modeled partner-gated surface for submitting laboratory requisitions (test orders) electronically to Antech''s reference lab from a veterinary PIMS. Carries the ordering clinic, patient, and requested '
@@ -84,7 +84,7 @@ overview: 'Antech Diagnostics publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Antech Diagnostics'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
-random_paper: 40
+random_paper: 108
 score:
   band: minimal
   composite: 10.8
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antech-diagnostics/refs/heads/main/screenshots/antech-diagnostics-2026-07-25T200433.png
 security:

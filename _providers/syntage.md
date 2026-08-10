@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -258,7 +258,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/syntage-openapi-original.yml
+  url: openapi/_original/syntage-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -394,7 +394,7 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 27 more developer resources.'
-random_paper: 85
+random_paper: 67
 score:
   band: developing
   composite: 55.7
@@ -418,7 +418,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

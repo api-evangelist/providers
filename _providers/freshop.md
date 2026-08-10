@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Live REST API serving grocery store and product data to Freshop-powered storefronts. Numeric path versioning (/1/, /2/); app_key query-parameter authentication; flat JSON error envelope.
@@ -72,7 +72,7 @@ overview: 'Freshop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Freshop''s developer surface includes support and 5 more developer resources.'
-random_paper: 81
+random_paper: 63
 score:
   band: minimal
   composite: 11.7
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshop/refs/heads/main/screenshots/freshop-2026-07-25T215203.png
 security:

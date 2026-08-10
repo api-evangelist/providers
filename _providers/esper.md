@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: APIs for application management
@@ -167,30 +167,30 @@ overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 91
+random_paper: 79
 score:
   band: developing
-  composite: 49.3
+  composite: 50.2
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.3
+    contract_quality: 68.2
     developer_ergonomics: 54.3
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 49.3
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

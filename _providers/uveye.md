@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 8
   slug: uveye-agentic-access
   summary_line: 8 operations · 7 acting
-api_count: 1
+api_count: 5
 apis:
-- description: Third-party access to UVeye vehicle inspection data. Retrieve full inspection records (Artemis tires, Helios undercarriage, Atlas exterior, Apollo interior) by inspection id, VIN, license plate or bar
-  name: UVeye Public API v1
-  slug: public-api-v1
-artifact_total: 8
+- description: Appraisal / quote data derived from an inspection.
+  name: UVeye Appraisal API
+  slug: uveye-appraisal-api
+- description: Retrieve vehicle inspection data and the most recent inspections for a site or site group.
+  name: UVeye Inspections API
+  slug: uveye-inspections-api
+- description: Inspection imagery.
+  name: UVeye Media API
+  slug: uveye-media-api
+- description: Submit dealer inventory for merchandising and mark vehicles sold.
+  name: UVeye Merchandise API
+  slug: uveye-merchandise-api
+- description: Generate and record customer-facing public inspection links.
+  name: UVeye Public Links API
+  slug: uveye-public-links-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Uveye Merchandise Webhooks
@@ -178,27 +190,27 @@ modified: '2026-08-02'
 name: UVeye
 nav: Providers
 network: true
-overview: 'UVeye publishes 1 API on the [APIs.io](https://apis.io/) network: Public API v1. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer Vision, and Dealerships.
+overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Appraisal API, Inspections API, Media API, and 2 more. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer Vision, and Dealerships.
 
 
   The UVeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 106
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
   slug: uveye-rate-limits
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 62.3
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.7
+    contract_quality: 73.3
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
   previous_composite: 63.1
@@ -213,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

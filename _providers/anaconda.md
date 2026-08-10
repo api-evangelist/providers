@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -26,30 +26,81 @@ agentic_access:
   operation_count: 223
   slug: anaconda-agentic-access
   summary_line: 223 operations · 97 acting · 7 human-in-the-loop
-api_count: 7
+api_count: 24
 apis:
-- description: The repository API behind the Anaconda Platform and the on-premises Anaconda Server — channels, artifacts (conda, PyPI, CRAN), subchannels, mirrors, installers, CVE and vulnerability metadata, account
-  name: Anaconda Server API
-  slug: server-api
-- description: Administrative API for Anaconda Platform organizations — create and delete service accounts, add and remove users, assign and revoke subscription seats, onboard users in bulk, and create, update, list
-  name: Anaconda Organization Management API
-  slug: org-management-api
-- description: Read and export organization audit events from the Anaconda Platform. Supports listing audit logs with limit/offset/sort pagination, retrieving a single event, and creating asynchronous bulk export jo
-  name: Anaconda Audit Logs API
-  slug: audit-logs-api
-- description: Local HTTP API exposed by Anaconda AI Navigator for managing curated local models, model files, inference servers, and an embedded vector database — list and download models, start and stop model serv
-  name: Anaconda AI Navigator API
-  slug: ai-navigator-api
-- description: Local HTTP API exposed by Anaconda Desktop for model and inference-server management — list the model catalog, inspect and delete model files, track download status, and create, start, stop and delete
-  name: Anaconda Desktop API
-  slug: desktop-api
 - description: The public REST API behind anaconda.org — the community package repository that serves conda and PyPI artifacts. Exposes user/organization profiles, packages, releases, files, labels and channels, and
   name: Anaconda.org Repository API
   slug: anaconda-org-api
 - description: Anaconda's Model Context Protocol surface for AI coding agents. `anaconda-mcp` is a unified local gateway that composes conda-aware MCP servers, giving Claude Desktop, Claude Code, Cursor, VS Code, Op
   name: Anaconda MCP
   slug: mcp
-artifact_total: 15
+- description: User account actions
+  name: Anaconda Account API
+  slug: anaconda-account-api
+- description: The AI Navigator API API from Anaconda — 1 operation(s) for ai navigator api.
+  name: Anaconda AI Navigator API API
+  slug: anaconda-ai-navigator-api-api
+- description: Artifact endpoints - search, retrieve, mirror
+  name: Anaconda Artifacts API
+  slug: anaconda-artifacts-api
+- description: The Audit Logs API from Anaconda — 5 operation(s) for audit logs.
+  name: Anaconda Audit Logs API
+  slug: anaconda-audit-logs-api
+- description: Authentication endpoints
+  name: Anaconda Auth API
+  slug: anaconda-auth-api
+- description: Channel management endpoints
+  name: Anaconda Channels API
+  slug: anaconda-channels-api
+- description: The cves API from Anaconda — 20 operation(s) for cves.
+  name: Anaconda Cves API
+  slug: anaconda-cves-api
+- description: The diagnosis API from Anaconda — 1 operation(s) for diagnosis.
+  name: Anaconda Diagnosis API
+  slug: anaconda-diagnosis-api
+- description: The docs API from Anaconda — 1 operation(s) for docs.
+  name: Anaconda Docs API
+  slug: anaconda-docs-api
+- description: The Files API from Anaconda — 2 operation(s) for files.
+  name: Anaconda Files API
+  slug: anaconda-files-api
+- description: Group management endpoints
+  name: Anaconda Groups API
+  slug: anaconda-groups-api
+- description: The installers API from Anaconda — 2 operation(s) for installers.
+  name: Anaconda Installers API
+  slug: anaconda-installers-api
+- description: The mirrors API from Anaconda — 1 operation(s) for mirrors.
+  name: Anaconda Mirrors API
+  slug: anaconda-mirrors-api
+- description: The Models API from Anaconda — 5 operation(s) for models.
+  name: Anaconda Models API
+  slug: anaconda-models-api
+- description: The organizations API from Anaconda — 9 operation(s) for organizations.
+  name: Anaconda Organizations API
+  slug: anaconda-organizations-api
+- description: The Repo API from Anaconda — 2 operation(s) for repo.
+  name: Anaconda Repo API
+  slug: anaconda-repo-api
+- description: The reports API from Anaconda — 1 operation(s) for reports.
+  name: Anaconda Reports API
+  slug: anaconda-reports-api
+- description: The Servers API from Anaconda — 3 operation(s) for servers.
+  name: Anaconda Servers API
+  slug: anaconda-servers-api
+- description: System endpoints - version, health, etc.
+  name: Anaconda System API
+  slug: anaconda-system-api
+- description: User role management endpoints (CRUD is managed separately)
+  name: Anaconda Users API
+  slug: anaconda-users-api
+- description: The VectorDB API from Anaconda — 4 operation(s) for vectordb.
+  name: Anaconda Vector DB API
+  slug: anaconda-vectordb-api
+- description: The websocket API from Anaconda — 3 operation(s) for websocket.
+  name: Anaconda Websocket API
+  slug: anaconda-websocket-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Anaconda Events
@@ -255,14 +306,14 @@ modified: '2026-08-02'
 name: Anaconda
 nav: Providers
 network: true
-overview: 'Anaconda publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Server API, Organization Management API, Audit Logs API, and 2 more. Tagged areas include Company, Data Science, Machine Learning, Artificial Intelligence, and Package Management.
+overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine Learning, Artificial Intelligence, and Package Management.
 
 
   The Anaconda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
-random_paper: 30
+random_paper: 9
 scopes:
 - name: Anaconda Scopes
   scope_count: 3
@@ -270,11 +321,11 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials/deviceCode/password/refreshToken
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 57.6
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.3
+    contract_quality: 58.2
     developer_ergonomics: 75.5
     discoverability: 83.3
     governance: 11.5
@@ -291,8 +342,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/screenshots/anaconda-2026-08-07T161352.png
 security:
 - kind: authentication
   name: Anaconda Authentication

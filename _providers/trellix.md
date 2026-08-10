@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -275,11 +275,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/trellix-edr-openapi.yml
+  url: openapi/_original/trellix-edr-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/trellix-epo-saas-openapi.yml
+  url: openapi/_original/trellix-epo-saas-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -398,7 +398,7 @@ plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 94
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits
@@ -440,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

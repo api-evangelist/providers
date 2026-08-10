@@ -10,25 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-06'
+  score: 53.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
 - description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Limitless Developer API API
   slug: limitless-ai-limitless-developer-api-api
-artifact_total: 13
+artifact_total: 16
 collections:
 - collection_type: open
   name: Limitless Developer API
@@ -105,6 +105,126 @@ common:
   title: ''
   type: FinOps
   url: finops/limitless-ai-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.limitless.ai/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.limitless.ai/developers
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.limitless.ai/developers#endpoints
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.limitless.ai/developers#setup
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.limitless.ai
+- group: start
+  title: ''
+  type: Login
+  url: https://app.limitless.ai
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.limitless.ai/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.limitless.ai/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.limitless.ai/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.limitless.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: Privacy
+  url: https://www.limitless.ai/privacy
+- group: company
+  title: ''
+  type: About
+  url: https://www.limitless.ai/about
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.limitless.ai/careers
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/limitless-ai-inc
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/limitless-ai-inc/limitless-api-examples
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/limitless-ai-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/limitless-ai-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/limitless-ai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/limitless-ai-scopes.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: well-known/limitless-ai-openid-configuration.json
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/limitless-ai-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/limitless-ai-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/limitless-ai-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/limitless-ai-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.limitless.ai/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/limitless-ai-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/limitless-ai-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/limitless-ai-packages.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/limitless-ai-developer-overlay.yaml
 created: '2026-05-23'
 description: Limitless is a personalized AI for meetings with a software assistant and the Limitless Pendant wearable that captures conversations as Lifelogs. The Limitless Developer API gives users programmatic access to their own Lifelogs, Ask AI chat history, and audio downloads, with an MCP endpoint that lets Claude and other MCP-compatible tools query Limitless memory directly. The OpenAPI spec is published and example code is hosted on GitHub.
 finops:
@@ -113,47 +233,60 @@ finops:
   slug: limitless-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/limitless-ai.png
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: limitless-ai-mcp.yml
+  slug: limitless-ai-mcpyml
+modified: '2026-08-08'
 name: Limitless
 nav: Providers
 network: true
 overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 1 more. Tagged areas include AI, Wearable, Pendant, Meeting Notes, and Lifelogs.
 
 
-  Limitless'' developer surface includes GitHub presence and 9 more developer resources.'
+  Limitless'' developer surface includes GitHub presence, documentation, API reference, getting-started guide, signup flow, support, privacy policy, and 33 more developer resources.'
 plans:
 - name: Limitless Ai Plans Pricing
   plan_count: 1
   slug: limitless-ai-plans-pricing
-random_paper: 99
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
   slug: limitless-ai-rate-limits
+scopes:
+- name: Limitless Ai Scopes
+  scope_count: 4
+  slug: limitless-ai-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: developing
+  composite: 54.6
+  delta: 25.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 47.1
-    developer_ergonomics: 0.0
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 28.4
+    commercial_clarity: 63.2
+    contract_quality: 51.0
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 34.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-06-20T184530.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-07-25T225205.png
 security:
+- kind: authentication
+  name: Limitless Ai Authentication
+  slug: limitless-ai-authentication
+  summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Limitless Ai Domain Security
   slug: limitless-ai-domain-security

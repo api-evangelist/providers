@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ name: Balerion
 nav: Providers
 network: true
 overview: Balerion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Underwriting.
-random_paper: 53
+random_paper: 32
 score:
   band: minimal
   composite: 10.0
@@ -100,7 +100,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balerion/refs/heads/main/screenshots/balerion-2026-07-25T202302.png
 security:

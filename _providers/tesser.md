@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 14
 apis:
 - description: The Accounts API from Tesser — 5 operation(s) for accounts.
@@ -134,7 +134,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tesser-openapi-original.json
+  url: openapi/_original/tesser-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -214,7 +214,7 @@ overview: 'Tesser publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 97
+random_paper: 82
 score:
   band: developing
   composite: 48.1
@@ -243,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

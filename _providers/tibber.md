@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ plans:
 - name: Tibber Plans Pricing
   plan_count: 4
   slug: tibber-plans-pricing
-random_paper: 67
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Tibber Rate Limits
@@ -446,7 +446,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -26,15 +26,51 @@ agentic_access:
   operation_count: 115
   slug: enveda-biosciences-agentic-access
   summary_line: 115 operations · 78 acting
-api_count: 2
+api_count: 14
 apis:
-- description: The anonymously readable WordPress REST API that enveda.com serves at /wp-json/wp/v2 — news releases (the `news` custom post type, 34 published), In-Veda blog posts, marketing and clinical-trial recru
-  name: Enveda Content API (WordPress REST wp/v2)
-  slug: content
 - description: A Model Context Protocol server endpoint advertised in the enveda.com WordPress REST route index under the "mcp" namespace and served at /wp-json/mcp/mcp-adapter-default-server. The endpoint is live b
   name: Enveda MCP Server (WordPress MCP Adapter)
   slug: mcp
-artifact_total: 6
+- description: The Comments API from Enveda — 2 operation(s) for comments.
+  name: Enveda Comments API
+  slug: enveda-biosciences-comments-api
+- description: The Discovery API from Enveda — 6 operation(s) for discovery.
+  name: Enveda Discovery API
+  slug: enveda-biosciences-discovery-api
+- description: The Issues API from Enveda — 2 operation(s) for issues.
+  name: Enveda Issues API
+  slug: enveda-biosciences-issues-api
+- description: The Media API from Enveda — 3 operation(s) for media.
+  name: Enveda Media API
+  slug: enveda-biosciences-media-api
+- description: The News API from Enveda — 4 operation(s) for news.
+  name: Enveda News API
+  slug: enveda-biosciences-news-api
+- description: The Pages API from Enveda — 2 operation(s) for pages.
+  name: Enveda Pages API
+  slug: enveda-biosciences-pages-api
+- description: The People API from Enveda — 4 operation(s) for people.
+  name: Enveda People API
+  slug: enveda-biosciences-people-api
+- description: The Posts API from Enveda — 2 operation(s) for posts.
+  name: Enveda Posts API
+  slug: enveda-biosciences-posts-api
+- description: The Search API from Enveda — 1 operation(s) for search.
+  name: Enveda Search API
+  slug: enveda-biosciences-search-api
+- description: The Settings API from Enveda — 1 operation(s) for settings.
+  name: Enveda Settings API
+  slug: enveda-biosciences-settings-api
+- description: The Taxonomy API from Enveda — 4 operation(s) for taxonomy.
+  name: Enveda Taxonomy API
+  slug: enveda-biosciences-taxonomy-api
+- description: The Trial Sites API from Enveda — 4 operation(s) for trial sites.
+  name: Enveda Trial Sites API
+  slug: enveda-biosciences-trial-sites-api
+- description: The Users API from Enveda — 3 operation(s) for users.
+  name: Enveda Users API
+  slug: enveda-biosciences-users-api
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -153,20 +189,20 @@ modified: '2026-08-04'
 name: Enveda
 nav: Providers
 network: true
-overview: 'Enveda publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Artificial Intelligence.
+overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Issues API, and 10 more. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Artificial Intelligence.
 
 
   Enveda''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
-random_paper: 23
+random_paper: 91
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 24.1
+  delta: 0.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.1
+    contract_quality: 14.1
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 23.9
@@ -187,8 +223,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:
 - kind: authentication
   name: Enveda Biosciences Authentication

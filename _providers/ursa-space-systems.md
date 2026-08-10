@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,10 +67,6 @@ common:
   title: ''
   type: Email
   url: mailto:info@ursaspace.com
-- group: other
-  title: ''
-  type: Phone
-  url: tel:+16072166234
 - group: company
   title: ''
   type: Twitter
@@ -89,7 +85,7 @@ name: Ursa Space Systems
 nav: Providers
 network: true
 overview: Ursa Space Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial Intelligence, GEOINT, Satellite Imagery, Synthetic Aperture Radar, and SAR.
-random_paper: 41
+random_paper: 109
 score:
   band: minimal
   composite: 5.0
@@ -103,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ursa-space-systems/refs/heads/main/screenshots/ursa-space-systems-2026-06-20T200534.png
 security:

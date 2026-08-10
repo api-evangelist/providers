@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,7 +120,7 @@ overview: 'Listia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Listia''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 15 more developer resources.'
-random_paper: 81
+random_paper: 66
 score:
   band: emerging
   composite: 15.7
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listia/refs/heads/main/screenshots/listia-2026-07-25T225326.png
 security:

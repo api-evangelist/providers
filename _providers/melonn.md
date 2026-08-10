@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API to connect any external platform to Melonn's logistics operations — order management, inventory queries, shipment tracking, and returns — with real-time webhooks for order and inventory statu
@@ -71,7 +71,7 @@ overview: 'Melonn publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Melonn''s developer surface includes documentation, engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 84
+random_paper: 69
 score:
   band: minimal
   composite: 12.5
@@ -85,8 +85,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/melonn/refs/heads/main/screenshots/melonn-2026-08-07T172453.png
 security:
 - kind: domain-security
   name: Melonn Domain Security

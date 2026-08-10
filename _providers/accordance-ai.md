@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,33 +103,37 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://accordance.com/legal/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/accordance-ai-llms.txt
 created: '2026-07-17'
 description: Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations, complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations. Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures, Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates. The product surface is the Accordance application (app.accordance.ai); no public developer API is currently documented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accordance-ai.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: Accordance Ai
 nav: Providers
 network: true
 overview: 'Accordance Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Tax, Accounting, and Audit.
 
 
-  Accordance Ai''s developer surface includes signup flow, support, and 16 more developer resources.'
-random_paper: 31
+  Accordance Ai''s developer surface includes signup flow, support, and 17 more developer resources.'
+random_paper: 114
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 19.1
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 61.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal. API integrations
@@ -172,7 +172,7 @@ press:
 - date: '2026-05-19'
   title: Blackstone Announces Joint Venture with Google to Create New TPU Cloud
   url: https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/
-random_paper: 45
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Blackstone Rate Limits
@@ -207,7 +207,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 39.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png
 security:

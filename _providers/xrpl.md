@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -125,7 +125,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/screenshots/xrpl-2026-06-20T201721.png
 security:

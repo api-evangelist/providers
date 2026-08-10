@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Digital banking platform offering accounts, payments, and financial services.
@@ -70,7 +70,7 @@ plans:
 - name: Neobanks Plans Pricing
   plan_count: 3
   slug: neobanks-plans-pricing
-random_paper: 58
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Neobanks Rate Limits
@@ -94,8 +94,9 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neobanks/refs/heads/main/screenshots/neobanks-2026-08-07T184834.png
 security:
 - kind: domain-security
   name: Neobanks Domain Security

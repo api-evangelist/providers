@@ -12,25 +12,79 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-06'
-api_count: 3
+  score: 43.0
+  scored_at: '2026-08-10'
+api_count: 21
 apis:
-- description: 'The current Luminance REST API (documented as version 1.5, "Public API v2"), deployed by standard to Luminance product versions 1.43.0 onward. 62 paths / 94 operations across System, Users, Projects, '
-  name: Luminance Public API v2
-  slug: luminance-public-api-v2
-- description: Luminance REST API version 1.4.0, deployed by standard to earlier Luminance product versions. 53 paths / 74 operations across Accounts, Users, Projects, Tasks, Reviews, Folders, Documents, Annotations
-  name: Luminance API v1.4.0
-  slug: luminance-api-v140
-- description: Luminance REST API version 1.3.0, deployed by standard to Luminance product versions 1.37.0 to 1.42.0 inclusive. 49 paths / 67 operations across Root, Accounts, Users, Projects, Tasks, Reviews, Folder
-  name: Luminance API v1.3.0
-  slug: luminance-api-v130
-artifact_total: 8
+- description: The Accounts API from Luminance — 6 operation(s) for accounts.
+  name: Luminance Accounts API
+  slug: luminance-accounts-api
+- description: The Annotation Source Relations API from Luminance — 2 operation(s) for annotation source relations.
+  name: Luminance Annotation Source Relations API
+  slug: luminance-annotation-source-relations-api
+- description: The Annotation Sources API from Luminance — 2 operation(s) for annotation sources.
+  name: Luminance Annotation Sources API
+  slug: luminance-annotation-sources-api
+- description: The Annotation Types API from Luminance — 2 operation(s) for annotation types.
+  name: Luminance Annotation Types API
+  slug: luminance-annotation-types-api
+- description: The Annotations API from Luminance — 12 operation(s) for annotations.
+  name: Luminance Annotations API
+  slug: luminance-annotations-api
+- description: The Contract Creation API from Luminance — 4 operation(s) for contract creation.
+  name: Luminance Contract Creation API
+  slug: luminance-contract-creation-api
+- description: The Document Templates API from Luminance — 4 operation(s) for document templates.
+  name: Luminance Document Templates API
+  slug: luminance-document-templates-api
+- description: The Documents API from Luminance — 19 operation(s) for documents.
+  name: Luminance Documents API
+  slug: luminance-documents-api
+- description: The Folders API from Luminance — 10 operation(s) for folders.
+  name: Luminance Folders API
+  slug: luminance-folders-api
+- description: The Matter Versions API from Luminance — 4 operation(s) for matter versions.
+  name: Luminance Matter Versions API
+  slug: luminance-matter-versions-api
+- description: The Matters API from Luminance — 22 operation(s) for matters.
+  name: Luminance Matters API
+  slug: luminance-matters-api
+- description: The Project Users API from Luminance — 2 operation(s) for project users.
+  name: Luminance Project Users API
+  slug: luminance-project-users-api
+- description: The Projects API from Luminance — 6 operation(s) for projects.
+  name: Luminance Projects API
+  slug: luminance-projects-api
+- description: The Reviews API from Luminance — 3 operation(s) for reviews.
+  name: Luminance Reviews API
+  slug: luminance-reviews-api
+- description: The Root API from Luminance — 1 operation(s) for root.
+  name: Luminance Root API
+  slug: luminance-root-api
+- description: The Search API from Luminance — 3 operation(s) for search.
+  name: Luminance Search API
+  slug: luminance-search-api
+- description: The System API from Luminance — 1 operation(s) for system.
+  name: Luminance System API
+  slug: luminance-system-api
+- description: The Tasks API from Luminance — 14 operation(s) for tasks.
+  name: Luminance Tasks API
+  slug: luminance-tasks-api
+- description: The Traffic Light Analysis API from Luminance — 3 operation(s) for traffic light analysis.
+  name: Luminance Traffic Light Analysis API
+  slug: luminance-traffic-light-analysis-api
+- description: The Users API from Luminance — 10 operation(s) for users.
+  name: Luminance Users API
+  slug: luminance-users-api
+- description: The Workflows API from Luminance — 4 operation(s) for workflows.
+  name: Luminance Workflows API
+  slug: luminance-workflows-api
+artifact_total: 26
 common:
 - group: auth
   title: ''
@@ -137,11 +191,11 @@ modified: '2026-08-04'
 name: Luminance
 nav: Providers
 network: true
-overview: 'Luminance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API v2, API v1.4.0, and API v1.3.0. Tagged areas include Company, Legal, Artificial Intelligence, Contracts, and Contract Lifecycle Management.
+overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Annotation Source Relations API, Annotation Sources API, and 18 more. Tagged areas include Company, Legal, Artificial Intelligence, Contracts, and Contract Lifecycle Management.
 
 
   Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 52
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Luminance Rate Limits
@@ -153,11 +207,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 44.5
+  delta: 0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 43.9
+    contract_quality: 45.8
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 20.8
@@ -173,8 +227,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:
 - kind: authentication
   name: Luminance Authentication

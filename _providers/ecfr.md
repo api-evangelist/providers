@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ plans:
 - name: Ecfr Plans Pricing
   plan_count: 1
   slug: ecfr-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Ecfr Rate Limits
@@ -226,20 +226,20 @@ rules:
   slug: ecfr-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 38.9
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 44.2
+    contract_quality: 48.1
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 38.1
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -250,7 +250,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/screenshots/ecfr-2026-07-25T212731.png
 security:

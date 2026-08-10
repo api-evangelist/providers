@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -91,10 +91,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/triple-s-management-context.jsonld
-- group: other
-  title: ''
-  type: x-profiled
-  url: 2026-05
 created: '2026-03-24'
 description: Triple-S Management Corporation is the largest managed care company in Puerto Rico in terms of membership, providing health, life, and property and casualty insurance. A subsidiary of GuideWell (parent of Florida Blue), Triple-S operates as an independent licensee of the Blue Cross Blue Shield Association for Puerto Rico and the U.S. Virgin Islands. Its subsidiaries include Triple-S Salud (managed care), Triple-S Advantage (Medicare Advantage), Triple-S Vida (life insurance), Triple-S Propiedad (property and casualty), Salus (medical clinics), and CarePoint (IPA).
 finops:
@@ -144,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Health Insurance Company Seeks Supreme Court Review ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-petitions-and-briefs/health-insurance-company-seeks-supreme-court-review-of-decision-to/wkvm
-random_paper: 106
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Triple S Management Rate Limits
@@ -177,7 +173,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/screenshots/triple-s-management-2026-06-20T195730.png
 security:

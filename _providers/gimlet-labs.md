@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Gimlet Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Gimlet Labs'' developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 88
+random_paper: 61
 score:
   band: emerging
   composite: 18.2
@@ -110,7 +110,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gimlet-labs/refs/heads/main/screenshots/gimlet-labs-2026-07-25T215821.png
 security:

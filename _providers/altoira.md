@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-06'
+  score: 50.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 17
   slug: altoira-agentic-access
   summary_line: 17 operations · 11 acting
-api_count: 1
+api_count: 5
 apis:
-- description: Alto's partner REST API for investment platforms and issuers. Covers the OAuth handoff that connects an investor's Alto IRA to a partner platform, offering creation and updates, offering document uplo
-  name: AltoIRA.com API
-  slug: altoiracom-api
-artifact_total: 9
+- description: These are the endpoints you will redirect your investors to (these are NOT api endpoints so you cannot use the Try it out tool)
+  name: AltoIRA Handoffs API
+  slug: altoira-handoffs-api
+- description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header (same as the Offering endpoints)
+  name: AltoIRA Investment API
+  slug: altoira-investment-api
+- description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
+  name: AltoIRA OAUTH API
+  slug: altoira-oauth-api
+- description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header
+  name: AltoIRA Offering API
+  slug: altoira-offering-api
+- description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
+  name: AltoIRA User API
+  slug: altoira-user-api
+artifact_total: 13
 asyncapis:
 - description: Alto pushes investment-lifecycle events to a Platform Partner's registered webhook endpoint so the partner can track an investor's progress through the Direction of Investment (DOI), funding and any p
   name: Alto Investment Status Webhooks
@@ -147,7 +159,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/altoira-partner-api-openapi.yml
+  url: openapi/_original/altoira-partner-api-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -188,14 +200,14 @@ modified: '2026-08-06'
 name: AltoIRA
 nav: Providers
 network: true
-overview: 'AltoIRA publishes 1 API on the [APIs.io](https://apis.io/) network: AltoIRA.com API. Tagged areas include Company, Financial Services, Retirement, Self-Directed IRA, and Alternative Investments.
+overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, OAUTH API, and 2 more. Tagged areas include Company, Financial Services, Retirement, Self-Directed IRA, and Alternative Investments.
 
 
   The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
   AltoIRA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 70
+random_paper: 52
 scopes:
 - name: Altoira Scopes
   scope_count: 0
@@ -203,16 +215,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.0
+  composite: 53.5
+  delta: 1.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.8
-    developer_ergonomics: 73.9
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 64.4
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/screenshots/altoira-2026-08-07T161253.png
 security:
 - kind: authentication
   name: Altoira Authentication

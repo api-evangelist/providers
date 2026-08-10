@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -237,7 +237,7 @@ plans:
 - name: Ozow Plans Pricing
   plan_count: 2
   slug: ozow-plans-pricing
-random_paper: 11
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Ozow Rate Limits
@@ -271,8 +271,9 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/screenshots/ozow-2026-08-07T191227.png
 security:
 - kind: authentication
   name: Ozow Authentication

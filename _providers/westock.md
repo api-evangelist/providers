@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'WeStock is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   WeStock''s developer surface includes pricing, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 90
+random_paper: 72
 score:
   band: emerging
   composite: 14.4
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

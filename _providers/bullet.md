@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ overview: 'Bullet publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bullet''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, pricing, and 26 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: developing
   composite: 48.2
@@ -252,7 +252,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/screenshots/bullet-2026-07-25T204059.png
 security:

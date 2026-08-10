@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'FinancesOnline is profiled on the [APIs.io](https://apis.io/) network
 
 
   FinancesOnline''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
-random_paper: 15
+random_paper: 92
 score:
   band: minimal
   composite: 9.9
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/financesonline/refs/heads/main/screenshots/financesonline-2026-06-20T181211.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Margo defines an open standard specification for interoperability of edge applications, devices, and orchestration software in industrial automation. The specification is in pre-draft stage and includ
@@ -76,7 +76,7 @@ plans:
 - name: Margo Plans Pricing
   plan_count: 3
   slug: margo-plans-pricing
-random_paper: 82
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Margo Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/margo/refs/heads/main/screenshots/margo-2026-06-20T184944.png
 security:

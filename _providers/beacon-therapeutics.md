@@ -1,6 +1,59 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.beacontx.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.beacontx.com/about-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.beacontx.com/news-and-events/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.beacontx.com/feed/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.beacontx.com/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.beacontx.com/privacy-statement/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.beacontx.com/careers/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/beacon-therapeutics-domain-security.yml
 coverage:
   checked: '2026-08-06'
   detail: Beacon Therapeutics is a clinical-stage AAV gene therapy developer whose entire public surface is a 14-page WordPress marketing site (pipeline, clinical trials, disease focus, careers) — /developers, /api, /openapi.json, /llms.txt and every /.well-known/ path return a hard 404, and the product is a retinal therapeutic, not software.
@@ -27,7 +80,38 @@ modified: '2026-08-06'
 name: Beacon Therapeutics
 nav: Providers
 network: true
-random_paper: 37
+overview: 'Beacon Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Gene Therapy, Ophthalmology, and Clinical Trials.
+
+
+  Beacon Therapeutics'' developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 102
+score:
+  band: minimal
+  composite: 8.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 12.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beacon-therapeutics/refs/heads/main/screenshots/beacon-therapeutics-2026-08-07T162225.png
+security:
+- kind: domain-security
+  name: Beacon Therapeutics Domain Security
+  slug: beacon-therapeutics-domain-security
+  summary_line: TLSv1.3 · HSTS
 slug: beacon-therapeutics
 tags:
 - Company
@@ -38,4 +122,5 @@ tags:
 - Life Sciences
 - Rare Disease
 - Pharmaceuticals
+website: https://www.beacontx.com/
 ---

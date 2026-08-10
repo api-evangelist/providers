@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -119,7 +119,7 @@ plans:
 - name: Trint Plans Pricing
   plan_count: 3
   slug: trint-plans-pricing
-random_paper: 109
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Trint Rate Limits
@@ -144,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

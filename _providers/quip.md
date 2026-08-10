@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: REST API for programmatically managing Quip threads, documents, spreadsheets, messages, folders, and users. Supports OAuth 2.0 access tokens passed as a Bearer token in the Authorization header.
@@ -89,7 +89,7 @@ overview: 'Quip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Quip''s developer surface includes documentation, developer console, engineering blog, and 6 more developer resources.'
-random_paper: 108
+random_paper: 99
 score:
   band: emerging
   composite: 13.3
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quip/refs/heads/main/screenshots/quip-2026-06-20T192438.png
 security:

@@ -18,22 +18,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Read-only REST/HTTP JSON and JSON-LD API for live Binance Spot market snapshots and single-market observations across nine USDT pairs. Keyless, cached to at most 30 seconds, fail-closed on stale data.
   name: BTC War Live Market Data API
   slug: btc-war-live-market-data-api
-artifact_total: 1
+artifact_total: 2
 created: '2026-07-18'
 description: 'Public, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot order-flow snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Ships a complete agent-native discovery stack: OpenAPI 3.1, Arazzo workflow, hosted MCP server, and llms.txt.'
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-18'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
 overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include finance, cryptocurrency, market-data, bitcoin, and crypto-price.'
-random_paper: 69
+random_paper: 0
 score:
   band: minimal
   composite: 11.9
@@ -53,7 +57,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: btc-war-live-market-data-api
 tags:

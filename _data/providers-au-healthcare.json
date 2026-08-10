@@ -27,7 +27,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -73,7 +73,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -130,7 +130,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -176,7 +176,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -218,6 +218,52 @@
    "shown": 5,
    "providers": [
     {
+     "name": "MedAdvisor",
+     "slug": "medadvisor",
+     "description": "MedAdvisor (MedAdvisor Solutions) is an Australian-founded, ASX-listed medication management and patient engagement technology company whose pharmacy workflow software runs in more than 95% of Australian community pharmacies and reaches over 4 million patients. Its clinician-facing platform - the web-based \"MedAdvisor for Pharmacy\" that replaced the long-running PlusOne desktop software - handles dispense workflow, medication adherence, appointment and service booking (vaccinations, health checks, scope-of-practice services), e-script (eScript) token handling, refill ordering, and omnichannel patient communication, alongside a consumer medication app. On the developer side MedAdvisor exposes a real, Swagger-documented HTTP REST surface, the Pharmacy Unified API, at pharmacy-unified.api.medadvisor.com.au, including a \"3rd-Party Integration\" family (partner login, pharmacy lookup, eScript status, and order notification into the pharmacy PlusOne inbox) for third-party widgets and eCommerce integrations. Authentication is a JWT bearer token obtained via a clientId/clientSecret plus Base64-encoded pharmacy credentials exchange; the surface is HL7/HTTP REST rather than HL7 FHIR - no public FHIR CapabilityStatement or SMART-on-FHIR configuration is served. Home market is Australia, positioned as the dominant community-pharmacy engagement layer sitting between dispense systems, pharmaceutical programs, and patients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png",
+     "score": 39.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 50.4,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 51.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Pharmacy & e-Prescribing",
+     "rank": 5
+    },
+    {
      "name": "HotDoc",
      "slug": "hotdoc",
      "description": "HotDoc is an Australian patient-engagement platform, founded in 2012 and headquartered in Melbourne, that connects patients with general practices, dentists, and specialists. Roughly one in three Australians use HotDoc to find and book healthcare, and the platform serves more than 21,000 practitioners across the country. Its clinic-facing SaaS provides online bookings, telehealth, appointment reminders, SMS recalls for clinical reminders and results, mobile and kiosk check-in, digital new-patient registration forms, online repeat prescription requests, and preventative-health outreach. HotDoc operates as an engagement layer on top of Australian practice-management systems (Best Practice, MedicalDirector, Zedmed, Genie, Cliniko, Nookal and others): a clinic connects HotDoc by entering its practice-management-system API key into the HotDoc dashboard, so HotDoc consumes those PMS APIs rather than publishing its own. HotDoc does operate a real OpenID Connect / OAuth 2.0 authorization server (Rails/Doorkeeper) for clinic and partner sign-in, served with live discovery metadata and a JWKS, but exposes no self-serve public developer portal, no documented third-party REST/OpenAPI, and no HL7 FHIR CapabilityStatement; its integration surface is partner/PMS-gated. HotDoc was acquired by Potentia in February 2026.",
@@ -233,7 +279,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -261,51 +307,6 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 5
-    },
-    {
-     "name": "MedAdvisor",
-     "slug": "medadvisor",
-     "description": "MedAdvisor (MedAdvisor Solutions) is an Australian-founded, ASX-listed medication management and patient engagement technology company whose pharmacy workflow software runs in more than 95% of Australian community pharmacies and reaches over 4 million patients. Its clinician-facing platform - the web-based \"MedAdvisor for Pharmacy\" that replaced the long-running PlusOne desktop software - handles dispense workflow, medication adherence, appointment and service booking (vaccinations, health checks, scope-of-practice services), e-script (eScript) token handling, refill ordering, and omnichannel patient communication, alongside a consumer medication app. On the developer side MedAdvisor exposes a real, Swagger-documented HTTP REST surface, the Pharmacy Unified API, at pharmacy-unified.api.medadvisor.com.au, including a \"3rd-Party Integration\" family (partner login, pharmacy lookup, eScript status, and order notification into the pharmacy PlusOne inbox) for third-party widgets and eCommerce integrations. Authentication is a JWT bearer token obtained via a clientId/clientSecret plus Base64-encoded pharmacy credentials exchange; the surface is HL7/HTTP REST rather than HL7 FHIR - no public FHIR CapabilityStatement or SMART-on-FHIR configuration is served. Home market is Australia, positioned as the dominant community-pharmacy engagement layer sitting between dispense systems, pharmaceutical programs, and patients.",
-     "score": 37.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 46.5,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 45.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Pharmacy & e-Prescribing",
      "rank": 6
     },
     {
@@ -323,7 +324,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -369,7 +370,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -415,7 +416,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -459,6 +460,7 @@
      "name": "MedicalDirector",
      "slug": "medical-director",
      "description": "MedicalDirector is an Australian clinical and practice-management software provider, owned by Telstra Health, that has served general practices, specialists, and day hospitals across Australia for more than 25 years. Its product family includes Helix (a cloud-based combined clinical and practice-management system), Clinical and Pracsoft (on-premise clinical and practice-management software), Bluechip (specialist practice management), and Day Surgery. Alongside Best Practice, MedicalDirector is one half of the dominant Australian GP-software duopoly. Its programmatic surface is delivered through Telstra Health Smart API+, a FHIR-native integration gateway that lets approved technology partners exchange data with MedicalDirector Helix (and, on a case-by-case basis, MedicalDirector Clinical) without bespoke, platform-specific integrations. Smart API+ is a gated, partner-onboarded API: it is publicly announced and described but has no self-serve public developer portal, and no FHIR CapabilityStatement or OpenAPI is published anonymously. Access is granted through a partner agreement, and the underlying FHIR version and SMART-on-FHIR auth specifics are not disclosed on public pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/medical-director/refs/heads/main/screenshots/medical-director-2026-08-07T172351.png",
      "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -470,7 +472,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -516,7 +518,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -572,7 +574,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,

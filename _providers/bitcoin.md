@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bitcoin''s developer surface includes documentation, API reference, getting-started guide, code examples, and 3 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: minimal
   composite: 10.7
@@ -91,7 +91,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitcoin/refs/heads/main/screenshots/bitcoin-2026-07-25T203139.png
 security:

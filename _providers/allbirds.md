@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Allbirds's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP. Agents can search the catalog, manage a cart, read store policies/FAQs, and drive a buyer-
@@ -100,7 +100,7 @@ overview: 'Allbirds publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Allbirds'' developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
-random_paper: 54
+random_paper: 33
 scopes:
 - name: Allbirds Scopes
   scope_count: 4
@@ -122,8 +122,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/screenshots/allbirds-2026-08-07T161217.png
 security:
 - kind: authentication
   name: Allbirds Authentication

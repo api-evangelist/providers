@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/holvi-psd2-openapi.yml
+  url: openapi/_original/holvi-psd2-openapi.yml
 - group: design
   title: ''
   type: Conventions
@@ -176,7 +176,7 @@ overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 94
+random_paper: 82
 score:
   band: developing
   composite: 47.6
@@ -206,7 +206,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -229,7 +229,7 @@ overview: 'Flock Safety publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 27 more developer resources.'
-random_paper: 94
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Flock Safety Rate Limits
@@ -262,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:

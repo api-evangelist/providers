@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Georgia Institute Of Technology Plans Pricing
   plan_count: 2
   slug: georgia-institute-of-technology-plans-pricing
-random_paper: 3
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Georgia Institute Of Technology Rate Limits
@@ -203,7 +203,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/screenshots/georgia-institute-of-technology-2026-06-20T181758.png
 security:

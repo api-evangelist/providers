@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'iBasis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   iBasis'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: emerging
   composite: 15.0
@@ -91,7 +91,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibasis/refs/heads/main/screenshots/ibasis-2026-07-25T221959.png
 security:

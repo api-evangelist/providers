@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Plausible Plans Pricing
   plan_count: 4
   slug: plausible-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Plausible Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:

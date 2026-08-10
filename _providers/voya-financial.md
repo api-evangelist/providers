@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Voya celebrates success of 24/7 chatbot and emerging ...
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
-random_paper: 69
+random_paper: 33
 rules:
 - name: Voya Financial API Rules
   rule_count: 5
@@ -119,7 +119,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/screenshots/voya-financial-2026-06-20T201145.png
 security:

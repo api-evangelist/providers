@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/paradox-api-openapi.yml
+  url: openapi/_original/paradox-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -308,7 +308,7 @@ plans:
 - name: Paradox Plans Pricing
   plan_count: 1
   slug: paradox-plans-pricing
-random_paper: 73
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Paradox Rate Limits
@@ -353,7 +353,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:

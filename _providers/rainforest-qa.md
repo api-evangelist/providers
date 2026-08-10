@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -237,7 +237,7 @@ overview: 'Rainforest QA publishes 18 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rainforest QA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 97
+random_paper: 64
 score:
   band: strong
   composite: 59.5
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

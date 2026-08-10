@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ plans:
 - name: Solana Plans
   plan_count: 3
   slug: solana-plans
-random_paper: 73
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Solana Rpc Rate Limits
@@ -493,7 +493,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

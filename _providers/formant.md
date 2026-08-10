@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -472,7 +472,7 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 67 more developer resources.'
-random_paper: 81
+random_paper: 63
 rules:
 - name: Formant API Rules
   rule_count: 5
@@ -510,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png
 security:

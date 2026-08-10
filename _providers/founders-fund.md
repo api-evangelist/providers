@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Founders Fund
 nav: Providers
 network: true
-random_paper: 101
+random_paper: 68
 slug: founders-fund
 tags:
 - Venture Capital

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -26,30 +26,75 @@ agentic_access:
   operation_count: 91
   slug: lukka-agentic-access
   summary_line: 91 operations · 3 acting
-api_count: 7
+api_count: 22
 apis:
-- description: 'Institutional crypto pricing, valuation and market data: Lukka Prime fair-market-value prices, reference rates, index prices, MVWAP, OHLCV candles, market capitalisation, order-book liquidity and snap'
-  name: Lukka Pricing & Market Data API
-  slug: lukka-pricing-market-data-api
-- description: 'The golden copy of crypto asset reference data: normalised assets, entities, marketplaces, custodians, VASPs, asset/pair/derivative cross-reference mappings, crypto actions, LDACS sector classificatio'
-  name: Lukka Reference Data API
-  slug: lukka-reference-data-api
-- description: 'Derived analytics for digital assets: implied forward interest rate curves, OTC FX implied rates and options implied volatility surfaces.'
-  name: Lukka Analytics API
-  slug: lukka-analytics-api
-- description: 'Bespoke pricing and valuation calculations for digital asset derivatives: submit an asynchronous calculation run, poll its status and retrieve results.'
-  name: Lukka Valuation API
-  slug: lukka-valuation-api
-- description: 'The legacy Lukka Reference Data surface: the normalised asset master plus active, historical, newly added and newly deleted asset and pair cross-reference mappings per source entity.'
-  name: Lukka Reference Data API (v1)
-  slug: lukka-reference-data-api-v1
 - description: WebSocket streaming for executed trades, Level-1 order-book quotes, Lukka Prime pricing, Lukka Index valuations, Standard and Median Reference Rates, real-time MVWAP, derivative Greeks and prediction-
   name: Lukka Market Data Streaming API
   slug: lukka-market-data-streaming-api
 - description: Seven first-party hosted Model Context Protocol servers exposing 69 read-only tools over Lukka pricing, reference data, AML risk scoring, on-chain data, analytics, news intelligence and prediction mar
   name: Lukka MCP Servers
   slug: lukka-mcp-servers
-artifact_total: 74
+- description: The Analytics - Analytics API API from Lukka — 3 operation(s) for analytics - analytics api.
+  name: Lukka Analytics - Analytics API API
+  slug: lukka-analytics-analytics-api-api
+- description: The Analytics - Derived Data API from Lukka — 3 operation(s) for analytics - derived data.
+  name: Lukka Analytics - Derived Data API
+  slug: lukka-analytics-derived-data-api
+- description: The Analytics - Valuations API from Lukka — 2 operation(s) for analytics - valuations.
+  name: Lukka Analytics - Valuations API
+  slug: lukka-analytics-valuations-api
+- description: The Market Data - Derivatives API from Lukka — 8 operation(s) for market data - derivatives.
+  name: Lukka Market Data - Derivatives API
+  slug: lukka-market-data-derivatives-api
+- description: The Market Data - Downloadable Data (CSV) API from Lukka — 4 operation(s) for market data - downloadable data (csv).
+  name: Lukka Market Data - Downloadable Data (CSV) API
+  slug: lukka-market-data-downloadable-data-csv-api
+- description: The Market Data - Prediction Markets API from Lukka — 5 operation(s) for market data - prediction markets.
+  name: Lukka Market Data - Prediction Markets API
+  slug: lukka-market-data-prediction-markets-api
+- description: The Market Data - Spot API from Lukka — 9 operation(s) for market data - spot.
+  name: Lukka Market Data - Spot API
+  slug: lukka-market-data-spot-api
+- description: The Pricing API from Lukka — 13 operation(s) for pricing.
+  name: Lukka Pricing API
+  slug: lukka-pricing-api
+- description: The Pricing - Legacy Versions API from Lukka — 2 operation(s) for pricing - legacy versions.
+  name: Lukka Pricing - Legacy Versions API
+  slug: lukka-pricing-legacy-versions-api
+- description: The Reference Data API from Lukka — 3 operation(s) for reference data.
+  name: Lukka Reference Data API
+  slug: lukka-reference-data-api
+- description: The Reference Data - Asset Terms and Conditions API from Lukka — 3 operation(s) for reference data - asset terms and conditions.
+  name: Lukka Reference Data - Asset Terms and Conditions API
+  slug: lukka-reference-data-asset-terms-and-conditions-api
+- description: The Reference Data - Crypto Actions API from Lukka — 2 operation(s) for reference data - crypto actions.
+  name: Lukka Reference Data - Crypto Actions API
+  slug: lukka-reference-data-crypto-actions-api
+- description: The Reference Data - Custodian Terms and Conditions API from Lukka — 2 operation(s) for reference data - custodian terms and conditions.
+  name: Lukka Reference Data - Custodian Terms and Conditions API
+  slug: lukka-reference-data-custodian-terms-and-conditions-api
+- description: The Reference Data (Deprecated) API from Lukka — 8 operation(s) for reference data (deprecated).
+  name: Lukka Reference Data (Deprecated) API
+  slug: lukka-reference-data-deprecated-api
+- description: The Reference Data - Derivative Terms and Conditions API from Lukka — 2 operation(s) for reference data - derivative terms and conditions.
+  name: Lukka Reference Data - Derivative Terms and Conditions API
+  slug: lukka-reference-data-derivative-terms-and-conditions-api
+- description: The Reference Data - Mapping and Normalization API from Lukka — 5 operation(s) for reference data - mapping and normalization.
+  name: Lukka Reference Data - Mapping and Normalization API
+  slug: lukka-reference-data-mapping-and-normalization-api
+- description: The Reference Data - Marketplace Terms and Conditions API from Lukka — 2 operation(s) for reference data - marketplace terms and conditions.
+  name: Lukka Reference Data - Marketplace Terms and Conditions API
+  slug: lukka-reference-data-marketplace-terms-and-conditions-api
+- description: The Reference Data - Prediction Markets API from Lukka — 2 operation(s) for reference data - prediction markets.
+  name: Lukka Reference Data - Prediction Markets API
+  slug: lukka-reference-data-prediction-markets-api
+- description: The Reference Data v1 API from Lukka — 9 operation(s) for reference data v1.
+  name: Lukka Reference Data v1 API
+  slug: lukka-reference-data-v1-api
+- description: The Reference Data - Virtual Asset Serivce Providers API from Lukka — 1 operation(s) for reference data - virtual asset serivce providers.
+  name: Lukka Reference Data - Virtual Asset Serivce Providers API
+  slug: lukka-reference-data-virtual-asset-serivce-providers-api
+artifact_total: 89
 asyncapis:
 - description: 'Lukka''s WebSocket streaming surface for institutional digital-asset market data: executed trades, Level-1 order-book quotes, Lukka Prime pricing, Lukka Index valuations, Standard and Median Reference '
   name: Lukka Market Data Streaming API
@@ -391,14 +436,14 @@ modified: '2026-08-04'
 name: Lukka
 nav: Providers
 network: true
-overview: 'Lukka publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pricing & Market Data API, Reference Data API, Analytics API, and 3 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
+overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Market Data Streaming API, Analytics - Analytics API API, Analytics - Derived Data API, and 18 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
 
 
   The Lukka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 30 more developer resources.'
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Lukka Rate Limits
@@ -410,11 +455,11 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 62.1
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 66.4
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 20.8
@@ -437,8 +482,9 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:
 - kind: authentication
   name: Lukka Authentication

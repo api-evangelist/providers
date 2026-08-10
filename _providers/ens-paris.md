@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Ens Paris Plans Pricing
   plan_count: 2
   slug: ens-paris-plans-pricing
-random_paper: 10
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Ens Paris Rate Limits
@@ -198,7 +198,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png
 security:

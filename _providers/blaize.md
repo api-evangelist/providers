@@ -1,6 +1,87 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blaize-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blaize-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blaize.com/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/blaize_stock/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.blaize.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://blaize.freshdesk.com/support/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.blaize.com/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.blaize.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.blaize.com/privacy/
+- group: commercial
+  title: ''
+  type: Legal
+  url: https://www.blaize.com/legal/
+- group: other
+  title: ''
+  type: ResourceCenter
+  url: https://www.blaize.com/resource-center/
+- group: other
+  title: ''
+  type: Downloads
+  url: https://www.blaize.com/downloads/
+- group: other
+  title: ''
+  type: Company
+  url: https://www.blaize.com/company/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.blaize.com/press/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.blaize.com/contact/
 coverage:
   checked: '2026-08-07'
   detail: developer.blaize.com 302s into a self-hosted GitLab sign-in at software.blaize.com/users/sign_in where the Picasso SDK and all reference material live, and that instance's public projects API returns an empty array — the announced Blaize AI Services "modular APIs" have no reachable contract outside the account wall.
@@ -26,7 +107,32 @@ modified: '2026-08-07'
 name: Blaize
 nav: Providers
 network: true
-random_paper: 66
+overview: 'Blaize is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Edge Computing, Machine Learning, and Inference.
+
+
+  Blaize''s developer surface includes support, engineering blog, legal docs, and 12 more developer resources.'
+random_paper: 51
+score:
+  band: emerging
+  composite: 14.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 68.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.1
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blaize/refs/heads/main/screenshots/blaize-2026-08-07T162625.png
+security:
+- kind: domain-security
+  name: Blaize Domain Security
+  slug: blaize-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: blaize
 tags:
 - Company
@@ -38,4 +144,5 @@ tags:
 - Computer Vision
 - MLOps
 - Hardware
+website: https://www.blaize.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: thin
   composite: 38.8
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:

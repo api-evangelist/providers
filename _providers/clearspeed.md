@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -28,9 +28,9 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: REST API for embedding Clearspeed voice-based risk assessment into an existing system. Create participants against a questionnaire, update outcome tracking, and create or delete scoped API keys. Asses
-  name: Clearspeed Integration API
-  slug: integration-api
+- description: The Default API from Clearspeed — 4 operation(s) for default.
+  name: Clearspeed Default API
+  slug: clearspeed-default-api
 artifact_total: 8
 asyncapis:
 - description: ''
@@ -96,7 +96,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/clearspeed-integration-api-openapi.yml
+  url: openapi/_original/clearspeed-integration-api-openapi.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -177,21 +177,21 @@ modified: '2026-08-04'
 name: Clearspeed
 nav: Providers
 network: true
-overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network: Integration API. Tagged areas include Company, Risk Assessment, Fraud Detection, Voice Analytics, and Artificial Intelligence.
+overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network: Default API. Tagged areas include Company, Risk Assessment, Fraud Detection, Voice Analytics, and Artificial Intelligence.
 
 
   The Clearspeed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 31
+random_paper: 4
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 53.7
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.9
+    contract_quality: 69.0
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
@@ -214,8 +214,9 @@ score:
     regime_id: insurance
     score: 62.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/screenshots/clearspeed-2026-08-07T163447.png
 security:
 - kind: authentication
   name: Clearspeed Authentication

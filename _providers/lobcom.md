@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 105
   slug: lobcom-agentic-access
   summary_line: 105 operations · 61 acting
-api_count: 30
+api_count: 32
 apis:
 - description: The Accounts API from Lob.com — 1 operation(s) for accounts.
   name: Lob.com Accounts API
@@ -128,7 +128,13 @@ apis:
 - description: Find a list of cities, states and associated information about a US ZIP code. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
   name: Lob.com Zip Lookups API
   slug: lobcom-zip-lookups-api
-artifact_total: 35
+- description: When various notable things happen within the Lob architecture, Events will be created. To get these events sent to your server automatically when they occur, you can set up [Webhooks](#tag/Webhooks).
+  name: Lob.com Events API
+  slug: lobcom-events-api
+- description: As mailpieces travel through the mail stream, USPS scans their unique barcodes, and Lob processes these mail scans to generate tracking events. <h3>Certified Tracking Event Details</h3> Letters sent w
+  name: Lob.com Tracking Events API
+  slug: lobcom-tracking-events-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Lobcom Webhooks
@@ -278,23 +284,23 @@ modified: '2026-07-20'
 name: Lob.com
 nav: Providers
 network: true
-overview: 'Lob.com publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Bank Accounts API, and 27 more. Tagged areas include Company, Direct Mail, Print, Address Verification, and Mail.
+overview: 'Lob.com publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Bank Accounts API, and 29 more. Tagged areas include Company, Direct Mail, Print, Address Verification, and Mail.
 
 
   The Lob.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 71
+random_paper: 56
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 54.8
+  delta: -3.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.4
+    contract_quality: 67.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 68.5
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 58.1
@@ -309,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

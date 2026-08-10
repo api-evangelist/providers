@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
@@ -68,7 +68,7 @@ plans:
 - name: Oclc Plans Pricing
   plan_count: 3
   slug: oclc-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Oclc Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 16.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/screenshots/oclc-2026-06-20T190605.png
 security:

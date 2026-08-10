@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Real-time bidding API implementing OpenRTB 2.x and Native Ads 1.2 specifications for demand partners to participate in native, banner, and video ad auctions. Supports bid request and response objects,
@@ -111,7 +111,7 @@ plans:
 - name: Triplelift Plans Pricing
   plan_count: 2
   slug: triplelift-plans-pricing
-random_paper: 70
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Triplelift Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triplelift/refs/heads/main/screenshots/triplelift-2026-06-20T195728.png
 security:

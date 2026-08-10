@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 45
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
@@ -264,7 +264,7 @@ plans:
 - name: Onfido Plans Pricing
   plan_count: 3
   slug: onfido-plans-pricing
-random_paper: 74
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Onfido Rate Limits
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

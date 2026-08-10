@@ -21,7 +21,7 @@ modified: '2026-07-19'
 name: Leadout Capital
 nav: Providers
 network: true
-random_paper: 60
+random_paper: 21
 slug: leadout-capital
 tags:
 - Venture Capital

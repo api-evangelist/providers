@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -82,7 +82,7 @@ plans:
 - name: Fundz Plans
   plan_count: 0
   slug: fundz-plans
-random_paper: 99
+random_paper: 87
 score:
   band: emerging
   composite: 15.4
@@ -98,7 +98,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

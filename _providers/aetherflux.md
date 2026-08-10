@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Cowboy Space Corporation (formerly Aetherflux) is profiled on the [AP
 
 
   Cowboy Space Corporation (formerly Aetherflux)''s developer surface includes legal docs and 11 more developer resources.'
-random_paper: 63
+random_paper: 36
 score:
   band: emerging
   composite: 14.5
@@ -105,8 +105,9 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aetherflux/refs/heads/main/screenshots/aetherflux-2026-08-07T161013.png
 security:
 - kind: domain-security
   name: Aetherflux Domain Security

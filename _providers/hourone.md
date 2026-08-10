@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -56,8 +56,11 @@ apis:
 - description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone webhook API
   slug: hourone-webhook-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
+- description: Outbound webhook notifications for video processing lifecycle. Hour One POSTs a signed JSON payload to your registered endpoint when a video finishes rendering or fails. Each request carries an x-hour
+  name: Hour One (MakeReals) Webhooks
+  slug: hourone-webhooks-asyncapi
 - description: ''
   name: Hourone Webhooks
   slug: hourone-webhooks
@@ -97,7 +100,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/hourone-openapi-original.json
+  url: openapi/_original/hourone-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -146,6 +149,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/hourone-webhooks-asyncapi.yml
 created: '2026-07-17'
 description: Hour One (developer surface "MakeReals") is an AI video-generation platform that turns text, scripts and data into studio-quality videos fronted by lifelike AI presenters (characters) and text-to-speech voices. Its REST API lets developers create videos programmatically two ways — from a Blueprint (an existing HourOne studio project/template) or Dynamically (scenes built from scratch with media, text, palette, character and voice) — preview voices, generate multi-language subtitles, pull usage analytics, manage API keys, and subscribe to video.ready / video.failed webhooks. The API is asynchronous (create, then poll by id or receive a signed webhook) and authenticates with a single api-key header. Common uses include personalized video at scale, L&D and training content, CRM/LMS automation, and localized marketing video. Hour One is a portfolio company of Kindred Ventures.
 image: https://hourone.ai/
@@ -154,18 +161,18 @@ mcp_servers:
 - description: ''
   name: hourone-mcp.yml
   slug: hourone-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Hourone
 nav: Providers
 network: true
 overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, including general API, keys API, playground API, and 3 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Generative AI.
 
 
-  The Hourone catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Hourone catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 90
+  Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
+random_paper: 72
 score:
   band: thin
   composite: 41.3
@@ -189,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:

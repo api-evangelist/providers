@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ plans:
 - name: Quiz Api Plans Pricing
   plan_count: 3
   slug: quiz-api-plans-pricing
-random_paper: 25
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Quiz Api Rate Limits
@@ -135,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/screenshots/quiz-api-2026-06-20T192440.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server operated by Acrisure at https://api.acrisure.com/v1/mcp. Production and live, protected by Microsoft Entra ID via an authorization-code + PKCE flow carrying the si
@@ -138,7 +138,7 @@ overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Acrisure''s developer surface includes engineering blog, product news, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 71
+random_paper: 50
 scopes:
 - name: Acrisure Scopes
   scope_count: 2
@@ -147,6 +147,7 @@ scopes:
 score:
   band: thin
   composite: 31.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -154,6 +155,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 10.5
+  previous_composite: 31.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -164,7 +166,9 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/screenshots/acrisure-2026-08-07T160845.png
 security:
 - kind: authentication
   name: Acrisure Authentication

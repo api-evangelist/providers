@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST API for Keploy Cloud providing test generation and execution capabilities, app/test-suite management, recordings/mocks, test reports, schema coverage, API keys, clusters, and account/subscription
@@ -36,7 +36,7 @@ apis:
 - description: Hosted, remote Model Context Protocol server (streamable HTTP transport, bearer-token auth, ~80 tools) that proxies Keploy's Cloud REST API, giving agents like Cursor, GitHub Copilot, Claude Code, and
   name: Keploy MCP Server
   slug: keploy-mcp-server
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -76,6 +76,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keploy.png
 layout: provider
 mcp_servers:
 - description: ''
+  name: mcp
+  slug: mcp
+- description: ''
   name: keploy-mcp.yml
   slug: keploy-mcpyml
 modified: '2026-06-20'
@@ -86,7 +89,7 @@ overview: 'Keploy publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Keploy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 95
+random_paper: 80
 score:
   band: minimal
   composite: 9.0
@@ -103,7 +106,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/screenshots/keploy-2026-07-25T223630.png
 security:

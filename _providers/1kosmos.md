@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -26,12 +26,39 @@ agentic_access:
   operation_count: 29
   slug: 1kosmos-agentic-access
   summary_line: 29 operations · 24 acting
-api_count: 1
+api_count: 10
 apis:
-- description: 'The tenant-scoped REST surface of the 1Kosmos BlockID platform: identity verification (IDVerify) document-share sessions, identity assurance level (IAL) lookup, one-time passcode generation and verifi'
-  name: 1Kosmos BlockID Platform API
-  slug: 1kosmos-blockid
-artifact_total: 6
+- description: The Access Code API from 1Kosmos — 2 operation(s) for access code.
+  name: 1Kosmos Access Code API
+  slug: 1kosmos-access-code-api
+- description: The IAL API from 1Kosmos — 1 operation(s) for ial.
+  name: 1Kosmos IAL API
+  slug: 1kosmos-ial-api
+- description: The IAL2 API from 1Kosmos — 2 operation(s) for ial2.
+  name: 1Kosmos IAL2 API
+  slug: 1kosmos-ial2-api
+- description: The ID Verification API from 1Kosmos — 2 operation(s) for id verification.
+  name: 1Kosmos ID Verification API
+  slug: 1kosmos-id-verification-api
+- description: The OTP API from 1Kosmos — 3 operation(s) for otp.
+  name: 1Kosmos OTP API
+  slug: 1kosmos-otp-api
+- description: The Reports API from 1Kosmos — 7 operation(s) for reports.
+  name: 1Kosmos Reports API
+  slug: 1kosmos-reports-api
+- description: The Set up API from 1Kosmos — 2 operation(s) for set up.
+  name: 1Kosmos Set up API
+  slug: 1kosmos-set-up-api
+- description: The User Management API from 1Kosmos — 3 operation(s) for user management.
+  name: 1Kosmos User Management API
+  slug: 1kosmos-user-management-api
+- description: The Verifiable Credentials API from 1Kosmos — 5 operation(s) for verifiable credentials.
+  name: 1Kosmos Verifiable Credentials API
+  slug: 1kosmos-verifiable-credentials-api
+- description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
+  name: 1Kosmos Workflow API API
+  slug: 1kosmos-workflow-api-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: 1Kosmos Idverify Events
@@ -100,7 +127,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/1kosmos-blockid-openapi.yml
+  url: openapi/_original/1kosmos-blockid-openapi.yml
 - group: build
   title: ''
   type: Packages
@@ -173,14 +200,14 @@ modified: '2026-08-05'
 name: 1Kosmos
 nav: Providers
 network: true
-overview: '1Kosmos publishes 1 API on the [APIs.io](https://apis.io/) network: BlockID Platform API. Tagged areas include Identity, Authentication, Identity Verification, Passwordless, and Biometrics.
+overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Code API, IAL API, IAL2 API, and 7 more. Tagged areas include Identity, Authentication, Identity Verification, Passwordless, and Biometrics.
 
 
   The 1Kosmos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 25 more developer resources.'
-random_paper: 39
+random_paper: 21
 scopes:
 - name: 1Kosmos Scopes
   scope_count: 3
@@ -188,14 +215,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 54.9
+  composite: 53.9
+  delta: -1.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 73.5
+    contract_quality: 67.0
     developer_ergonomics: 71.2
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,7 +236,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:
 - kind: authentication
   name: 1Kosmos Authentication

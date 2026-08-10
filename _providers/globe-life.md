@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Globe Life API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Globe Life Plans Pricing
   plan_count: 2
   slug: globe-life-plans-pricing
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Globe Life Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/globe-life/refs/heads/main/screenshots/globe-life-2026-06-20T181929.png
 security:

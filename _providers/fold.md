@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Fold is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fold''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 82
+random_paper: 73
 score:
   band: emerging
   composite: 13.0
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fold/refs/heads/main/screenshots/fold-2026-07-25T214906.png
 slug: fold

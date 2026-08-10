@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: Archimetis
 nav: Providers
 network: true
 overview: Archimetis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Industrial, Refining, and Chemicals.
-random_paper: 48
+random_paper: 21
 score:
   band: minimal
   composite: 9.0
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archimetis/refs/heads/main/screenshots/archimetis-2026-07-25T201026.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for the Employment Hero platform (behind humi.ca) — employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks. OAuth 2.0 authorization-code with PKCE; Bearer to
@@ -152,7 +152,7 @@ overview: 'humi.ca publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   humi.ca''s developer surface includes documentation, API reference, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 66
+random_paper: 51
 scopes:
 - name: Humica Scopes
   scope_count: 2
@@ -174,7 +174,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/screenshots/humica-2026-07-25T221713.png
 security:

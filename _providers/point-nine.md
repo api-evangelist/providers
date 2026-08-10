@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Point Nine Capital
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 97
 slug: point-nine
 tags:
 - Venture Capital

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -244,10 +244,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-service-cloud-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/case-management.yaml
 - group: design
   title: ''
   type: Vocabulary
@@ -294,12 +290,12 @@ overview: 'Salesforce Service Cloud publishes 11 APIs on the [APIs.io](https://a
   The Salesforce Service Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 22 more developer resources.'
+  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 21 more developer resources.'
 plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-service-cloud-plans-pricing
-random_paper: 68
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Salesforce Service Cloud Rate Limits
@@ -354,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

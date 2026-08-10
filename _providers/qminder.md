@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -84,7 +84,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/qminder-openapi-original.json
+  url: openapi/_original/qminder-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -216,7 +216,7 @@ overview: 'Qminder publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qminder''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 74
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Qminder Rate Limits
@@ -244,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

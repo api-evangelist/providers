@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Currentsapi Plans Pricing
   plan_count: 4
   slug: currentsapi-plans-pricing
-random_paper: 70
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Currentsapi Rate Limits
@@ -151,25 +151,25 @@ rules:
   slug: currentsapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 45.5
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.3
+    contract_quality: 58.1
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currentsapi/refs/heads/main/screenshots/currentsapi-2026-06-20T175341.png
 security:

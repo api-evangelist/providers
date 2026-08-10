@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Mihup is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Mihup''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 95
+random_paper: 83
 score:
   band: emerging
   composite: 19.1
@@ -103,8 +103,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mihup/refs/heads/main/screenshots/mihup-2026-08-07T172905.png
 security:
 - kind: domain-security
   name: Mihup Domain Security

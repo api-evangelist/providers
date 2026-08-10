@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -136,7 +136,7 @@ overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 16 more developer resources.'
-random_paper: 10
+random_paper: 93
 score:
   band: emerging
   composite: 20.4
@@ -154,7 +154,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

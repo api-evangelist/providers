@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -185,7 +185,7 @@ plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
   slug: yodlee-plans-pricing
-random_paper: 77
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Yodlee Rate Limits
@@ -216,7 +216,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

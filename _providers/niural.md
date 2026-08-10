@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -26,12 +26,21 @@ agentic_access:
   operation_count: 15
   slug: niural-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 1
+api_count: 4
 apis:
-- description: The Niural Public API provides developers with access to Niural's core services, enabling seamless integration with third-party applications. Fifteen operations across Authentication, Contracts, Invoi
-  name: Niural Public API
-  slug: niural-public-api
-artifact_total: 10
+- description: The Authentication API from Niural — 1 operation(s) for authentication.
+  name: Niural Authentication API
+  slug: niural-authentication-api
+- description: The Contracts API from Niural — 4 operation(s) for contracts.
+  name: Niural Contracts API
+  slug: niural-contracts-api
+- description: The Invoices API from Niural — 2 operation(s) for invoices.
+  name: Niural Invoices API
+  slug: niural-invoices-api
+- description: The Transactions API from Niural — 4 operation(s) for transactions.
+  name: Niural Transactions API
+  slug: niural-transactions-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Niural Webhooks
@@ -100,7 +109,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/niural-public-api-openapi.yml
+  url: openapi/_original/niural-public-api-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -189,7 +198,7 @@ modified: '2026-08-04'
 name: Niural
 nav: Providers
 network: true
-overview: 'Niural publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Payroll, Human Resources, Employer of Record, and Contractor Management.
+overview: 'Niural publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Invoices API, and 1 more. Tagged areas include Company, Payroll, Human Resources, Employer of Record, and Contractor Management.
 
 
   The Niural catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,7 +209,7 @@ plans:
 - name: Niural Plans Pricing
   plan_count: 8
   slug: niural-plans-pricing
-random_paper: 86
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Niural Rate Limits
@@ -208,15 +217,15 @@ rate_limits:
 score:
   band: strong
   composite: 64.6
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 68.5
+    contract_quality: 66.1
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 67.1
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +237,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
 security:
 - kind: authentication
   name: Niural Authentication

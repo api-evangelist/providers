@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Best Practice Software publishes 3 APIs on the [APIs.io](https://apis
 
 
   Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 21 more developer resources.'
-random_paper: 75
+random_paper: 42
 score:
   band: developing
   composite: 51.1
@@ -216,7 +216,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:

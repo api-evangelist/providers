@@ -18,22 +18,28 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
-api_count: 4
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
-- description: The core of the RunBuggy Shippers API. Create, quote, retrieve, patch, replace and cancel vehicle transportation Orders; work with the per-vehicle Vehicle Transfer Orders each Order fans out into; att
-  name: RunBuggy Orders API
-  slug: orders
-- description: Retrieve the companies that have authorized your company to place Orders on their behalf, either as a full list or looked up by username. Used together with the Orders API to set the payer on a Vehicl
-  name: RunBuggy Companies API
-  slug: companies
-- description: Single POST /login operation that exchanges credentials for the Bearer token every other RunBuggy Shippers API operation requires in its Authorization header.
-  name: RunBuggy Authentication API
-  slug: authentication
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
   name: RunBuggy Data Science MCP Server
   slug: mcp-datascience
-artifact_total: 11
+- description: Companies operations.
+  name: RunBuggy Companies API
+  slug: runbuggy-companies-api
+- description: The Order operations.
+  name: RunBuggy Orders API
+  slug: runbuggy-orders-api
+- description: The Token API from RunBuggy — 1 operation(s) for token.
+  name: RunBuggy Token API
+  slug: runbuggy-token-api
+- description: The Vehicle Transfer Order operations.
+  name: RunBuggy Vehicle Transfer Orders API
+  slug: runbuggy-vehicle-transfer-orders-api
+- description: Webhook operations.
+  name: RunBuggy Webhooks API
+  slug: runbuggy-webhooks-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Runbuggy Webhooks
@@ -175,14 +181,14 @@ modified: '2026-08-05'
 name: RunBuggy
 nav: Providers
 network: true
-overview: 'RunBuggy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Companies API, and Authentication API. Tagged areas include Company, Automotive, Logistics, Transportation, and Vehicle Shipping.
+overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Orders API, Token API, and 2 more. Tagged areas include Company, Automotive, Logistics, Transportation, and Vehicle Shipping.
 
 
   The RunBuggy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 92
+random_paper: 71
 scopes:
 - name: Runbuggy Scopes
   scope_count: 0
@@ -190,27 +196,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.9
-  delta: -2.1
+  composite: 54.9
+  delta: 0.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.3
+    contract_quality: 66.5
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 56.0
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

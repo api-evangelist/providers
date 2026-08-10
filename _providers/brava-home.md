@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Agentic-commerce surface for Brava's Shopify storefront. The store publishes a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp and a native Model Context Protocol (MCP) endpoint
@@ -99,7 +99,7 @@ overview: 'Brava Home publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Brava Home''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 90
+random_paper: 66
 score:
   band: emerging
   composite: 20.7
@@ -115,8 +115,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brava-home/refs/heads/main/screenshots/brava-home-2026-08-07T162746.png
 security:
 - kind: domain-security
   name: Brava Home Domain Security

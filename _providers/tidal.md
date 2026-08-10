@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -592,7 +592,7 @@ plans:
 - name: Tidal Plans Pricing
   plan_count: 6
   slug: tidal-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Tidal Rate Limits
@@ -639,7 +639,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:

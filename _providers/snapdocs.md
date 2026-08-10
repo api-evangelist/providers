@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Snapdocs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Snapdocs'' developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 68
+random_paper: 47
 score:
   band: emerging
   composite: 16.3
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

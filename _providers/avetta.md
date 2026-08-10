@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Avetta''s Open API surface, documented through the Avetta Developer Portal, lets client organizations select contractor and supplier endpoints and customize data synchronization between the Avetta One '
@@ -99,7 +99,7 @@ overview: 'Avetta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avetta''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 80
+random_paper: 65
 score:
   band: emerging
   composite: 21.9
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avetta/refs/heads/main/screenshots/avetta-2026-07-25T201923.png
 security:

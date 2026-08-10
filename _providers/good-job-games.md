@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Good Job Games
 nav: Providers
 network: true
 overview: Good Job Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Games, Gaming, Mobile, and Puzzle Games.
-random_paper: 112
+random_paper: 79
 score:
   band: minimal
   composite: 9.2
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-job-games/refs/heads/main/screenshots/good-job-games-2026-07-25T220038.png
 security:

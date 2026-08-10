@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -155,7 +155,7 @@ plans:
 - name: Airslate Plans Pricing
   plan_count: 1
   slug: airslate-plans-pricing
-random_paper: 62
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Airslate Rate Limits
@@ -180,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/screenshots/airslate-2026-06-20T171429.png
 security:

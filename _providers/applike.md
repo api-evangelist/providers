@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,16 +17,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-06'
-api_count: 6
+  score: 52.9
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
-- description: REST API to manage justtrack apps, campaigns, partners, partner-feature configurations and bids. Published as an OpenAPI 3.1.0 contract (v1.0.0) covering twelve operations across six tags, authenticat
-  name: justtrack Management API
-  slug: justtrack-management-api
-- description: Server-to-server batch ingestion API for in-app events. A single POST /appevents/v1 operation accepts an array of per-app/per-user event batches, each carrying a client-supplied uuid4 batchId and per-
-  name: justtrack AppEvent API
-  slug: justtrack-appevent-api
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
   name: justtrack Reporting API
   slug: justtrack-reporting-api
@@ -39,7 +33,28 @@ apis:
 - description: Per-user ad data report download for Playtime publishers. A single GET /v3/ssp-api/user-ad-data-report/sdk/{sdkHash} endpoint returns a text/csv report for a given date, answering 202 with a JSON body
   name: adjoe User Ad Data Report API
   slug: adjoe-user-ad-data-report-api
-artifact_total: 11
+- description: 'With the App Partner Connection API, you can: - View details about an app partner connection - Create a partner connection for an app (This is the API equivalent of connecting a partner in the dashboa'
+  name: AppLike Group App Partner Connection API
+  slug: applike-app-partner-connection-api
+- description: The Appevents API from AppLike Group — 1 operation(s) for appevents.
+  name: AppLike Group Appevents API
+  slug: applike-appevents-api
+- description: 'With the App API, you can: - View your list of apps - Create an app'
+  name: AppLike Group Apps API
+  slug: applike-apps-api
+- description: 'Bidding operates as a distributed transaction. The sequential flow is as follows: 1. you upload a bid 2. we store it in justtrack -> status: pending 3. we try to apply it on partner side <br/> a. if s'
+  name: AppLike Group Bids API
+  slug: applike-bids-api
+- description: The Campaigns API from AppLike Group — 2 operation(s) for campaigns.
+  name: AppLike Group Campaigns API
+  slug: applike-campaigns-api
+- description: 'In justtrack, you integrate your app with the advertising partners that run your campaigns. Depending on the integrated partner, we exchange data for at least one of the following features: * `attribu'
+  name: AppLike Group Partner Configurations API
+  slug: applike-partner-configurations-api
+- description: The Partners API from AppLike Group — 1 operation(s) for partners.
+  name: AppLike Group Partners API
+  slug: applike-partners-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Applike Webhooks
@@ -201,30 +216,42 @@ modified: '2026-08-06'
 name: AppLike Group
 nav: Providers
 network: true
-overview: 'AppLike Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: justtrack Management API and justtrack AppEvent API. Tagged areas include mobile-attribution, user-acquisition, adtech, mobile-advertising, and app-monetization.
+overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include mobile-attribution, user-acquisition, adtech, mobile-advertising, and app-monetization.
 
 
   The AppLike Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
-random_paper: 64
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Applike Rate Limits
   slug: applike-rate-limits
 score:
   band: strong
-  composite: 62.6
+  composite: 61.6
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.5
-    developer_ergonomics: 65.2
+    contract_quality: 64.6
+    developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 73.7
+  previous_composite: 62.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:
 - kind: authentication
   name: Applike Authentication

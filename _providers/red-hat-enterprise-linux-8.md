@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
   slug: red-hat-enterprise-linux-8-plans-pricing
-random_paper: 31
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Red Hat Enterprise Linux 8 Rate Limits
@@ -246,7 +246,7 @@ rules:
 score:
   band: strong
   composite: 58.2
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 65.9
@@ -254,7 +254,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.5
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:

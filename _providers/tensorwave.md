@@ -18,13 +18,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: ScalarLM is the open-source (CC0-1.0) unified LLM training and inference stack maintained and sponsored by TensorWave. A single deployment exposes an OpenAI-compatible inference endpoint backed by vLL
-  name: ScalarLM API
-  slug: scalarlm
-artifact_total: 5
+- description: Queue-backed batch inference and worker coordination.
+  name: TensorWave Generate API
+  slug: tensorwave-generate-api
+- description: Health checks, service logs and metrics.
+  name: TensorWave Health API
+  slug: tensorwave-health-api
+- description: OpenAI-compatible inference endpoints proxied to vLLM.
+  name: TensorWave Open AI API
+  slug: tensorwave-openai-api
+- description: Slurm scheduler status and job control.
+  name: TensorWave Slurm API
+  slug: tensorwave-slurm-api
+- description: Megatron-LM training jobs, chunked dataset upload, checkpoints and Hugging Face publishing.
+  name: TensorWave Training API
+  slug: tensorwave-training-api
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -126,20 +138,20 @@ modified: '2026-08-02'
 name: TensorWave
 nav: Providers
 network: true
-overview: 'TensorWave publishes 1 API on the [APIs.io](https://apis.io/) network: ScalarLM API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Cloud Computing, and GPU.
+overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Generate API, Health API, Open AI API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Cloud Computing, and GPU.
 
 
   TensorWave''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, and 17 more developer resources.'
-random_paper: 85
+random_paper: 58
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 45.2
+  delta: -0.2
   facets:
     commercial_clarity: 36.8
-    contract_quality: 52.7
+    contract_quality: 49.8
     developer_ergonomics: 47.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 45.4
@@ -153,7 +165,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

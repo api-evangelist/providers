@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -122,7 +122,7 @@ overview: 'Jet2 is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jet2''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 9.4
@@ -136,8 +136,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/screenshots/jet2-2026-08-07T171005.png
 security:
 - kind: domain-security
   name: Jet2 Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -149,7 +149,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/augustus-openapi-original.yml
+  url: openapi/_original/augustus-openapi-original.yml
 - group: build
   title: ''
   type: Packages
@@ -237,7 +237,7 @@ overview: 'Augustus publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 26 more developer resources.'
-random_paper: 106
+random_paper: 85
 scopes:
 - name: Augustus Scopes
   scope_count: 16
@@ -272,7 +272,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:

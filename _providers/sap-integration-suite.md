@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -275,10 +275,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/sap-integration-suite-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/integration-lifecycle.yaml
 - group: design
   title: ''
   type: SpectralRules
@@ -366,12 +362,12 @@ overview: 'SAP Integration Suite publishes 11 APIs on the [APIs.io](https://apis
   The SAP Integration Suite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 29 more developer resources.'
+  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 28 more developer resources.'
 plans:
 - name: Sap Integration Suite Plans Pricing
   plan_count: 1
   slug: sap-integration-suite-plans-pricing
-random_paper: 9
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Sap Integration Suite Rate Limits
@@ -418,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/screenshots/sap-integration-suite-2026-06-20T193428.png
 security:

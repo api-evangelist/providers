@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/forum-openapi-original.yml
+  url: openapi/_original/forum-openapi-original.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -209,7 +209,7 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 101
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
@@ -243,7 +243,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:

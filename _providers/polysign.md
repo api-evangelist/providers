@@ -18,19 +18,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 17
 apis:
-- description: The node-side REST interface for interacting with an AtomicNet node — registering assets and partners, publishing orders and book transfers, requesting and approving escrow and beneficiary authorizati
-  name: AtomicNet API Server
-  slug: atomicnet-api-server
-- description: 'The merchant-facing gate onto an AtomicNet node: submit an order, submit a book transfer, and register assets to the node, alongside the shared authentication and system health surface. Eight operatio'
-  name: AtomicNet Merchant Gate Node
-  slug: atomicnet-merchant-gate-node
-- description: 'Proxy service for the ABC ledger: register an ABC account against an AtomicNet ID, look up account information, memorialize a digest and verify that a digest was memorialized, sign a digest and verify'
-  name: AtomicNet ABC Proxy Service
-  slug: atomicnet-abc-proxy-service
-artifact_total: 6
+- description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
+  name: PolySign ABC Accounts API
+  slug: polysign-abc-accounts-api
+- description: The ABC Memorials API from PolySign — 2 operation(s) for abc memorials.
+  name: PolySign ABC Memorials API
+  slug: polysign-abc-memorials-api
+- description: The ABC Signing API from PolySign — 1 operation(s) for abc signing.
+  name: PolySign ABC Signing API
+  slug: polysign-abc-signing-api
+- description: The ABC Testnet API from PolySign — 2 operation(s) for abc testnet.
+  name: PolySign ABC Testnet API
+  slug: polysign-abc-testnet-api
+- description: The asset API from PolySign — 5 operation(s) for asset.
+  name: PolySign Asset API
+  slug: polysign-asset-api
+- description: The authentication API from PolySign — 1 operation(s) for authentication.
+  name: PolySign Authentication API
+  slug: polysign-authentication-api
+- description: The beneficiary authorization API from PolySign — 6 operation(s) for beneficiary authorization.
+  name: PolySign beneficiary authorization API
+  slug: polysign-beneficiary-authorization-api
+- description: The book transfer API from PolySign — 5 operation(s) for book transfer.
+  name: PolySign book transfer API
+  slug: polysign-book-transfer-api
+- description: The book transfer confirmation API from PolySign — 4 operation(s) for book transfer confirmation.
+  name: PolySign book transfer confirmation API
+  slug: polysign-book-transfer-confirmation-api
+- description: The escrow authorization API from PolySign — 6 operation(s) for escrow authorization.
+  name: PolySign escrow authorization API
+  slug: polysign-escrow-authorization-api
+- description: The investor API from PolySign — 2 operation(s) for investor.
+  name: PolySign Investor API
+  slug: polysign-investor-api
+- description: The order API from PolySign — 5 operation(s) for order.
+  name: PolySign Order API
+  slug: polysign-order-api
+- description: The partner API from PolySign — 3 operation(s) for partner.
+  name: PolySign Partner API
+  slug: polysign-partner-api
+- description: The settlement API from PolySign — 5 operation(s) for settlement.
+  name: PolySign Settlement API
+  slug: polysign-settlement-api
+- description: The settlement confirmation API from PolySign — 6 operation(s) for settlement confirmation.
+  name: PolySign settlement confirmation API
+  slug: polysign-settlement-confirmation-api
+- description: The system API from PolySign — 4 operation(s) for system.
+  name: PolySign System API
+  slug: polysign-system-api
+- description: The utility API from PolySign — 5 operation(s) for utility.
+  name: PolySign Utility API
+  slug: polysign-utility-api
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -124,11 +166,11 @@ modified: '2026-08-02'
 name: PolySign
 nav: Providers
 network: true
-overview: 'PolySign publishes 3 APIs on the [APIs.io](https://apis.io/) network: AtomicNet API Server, AtomicNet Merchant Gate Node, and AtomicNet ABC Proxy Service. Tagged areas include digital-assets, blockchain, institutional-custody, settlement, and escrow.
+overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include digital-assets, blockchain, institutional-custody, settlement, and escrow.
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 94
+random_paper: 73
 scopes:
 - name: Polysign Scopes
   scope_count: 1
@@ -136,11 +178,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 30.6
+  delta: -0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 43.7
+    contract_quality: 41.9
     developer_ergonomics: 38.6
     discoverability: 83.3
     governance: 11.5
@@ -157,7 +199,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

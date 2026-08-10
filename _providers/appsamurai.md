@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
@@ -124,6 +124,18 @@ common:
   title: ''
   type: Conformance
   url: conformance/appsamurai-conformance.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.appsamurai.com/en/articles/11105087-appsamurai-campaign-spend-api
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.storyly.io/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/appsamurai-lifecycle.yml
 created: '2026-07-17'
 description: AppSamurai (operated by Netvent) is a global, AI-powered mobile app growth platform founded in 2016. It offers user acquisition, retargeting, OEM / on-device app discovery, rewarded user acquisition, and monetization across one platform, plus the Storyly in-app stories product and the Interceptd ad fraud detection product. AppSamurai reaches over two billion users across more than 130 countries and works with mobile operators and device manufacturers such as Samsung, Xiaomi, Huawei, Oppo, and Lenovo. For developers and advertisers it publishes mobile ad and attribution SDKs and a Campaign Spend API that returns campaign spend reporting data via a keyed HTTP GET request. AppSamurai is ISO 27001 certified for information security. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
 image: https://appsamurai.com/og-default.png
@@ -132,26 +144,26 @@ mcp_servers:
 - description: ''
   name: appsamurai-mcp.yml
   slug: appsamurai-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Appsamurai
 nav: Providers
 network: true
 overview: 'Appsamurai publishes 1 API on the [APIs.io](https://apis.io/) network: Campaign Spend API. Tagged areas include Company, Mobile, Advertising, User Acquisition, and Marketing.
 
 
-  Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 58
+  Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, API reference, and 19 more developer resources.'
+random_paper: 31
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 48.1
+  delta: 3.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 62.8
-    developer_ergonomics: 43.5
+    developer_ergonomics: 50.0
     discoverability: 87.0
     governance: 20.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 44.7
   provenance:
     conformance: first-party
@@ -162,7 +174,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

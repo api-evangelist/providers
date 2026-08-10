@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -973,7 +973,7 @@ plans:
 - name: Amazon Entity Resolution Plans Pricing
   plan_count: 3
   slug: amazon-entity-resolution-plans-pricing
-random_paper: 27
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Amazon Entity Resolution Rate Limits
@@ -1015,7 +1015,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
 security:

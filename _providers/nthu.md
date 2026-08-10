@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Nthu Plans Pricing
   plan_count: 2
   slug: nthu-plans-pricing
-random_paper: 108
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Nthu Rate Limits
@@ -227,7 +227,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:

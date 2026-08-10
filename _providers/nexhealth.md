@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nexhealth-openapi-original.json
+  url: openapi/_original/nexhealth-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -402,7 +402,7 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: strong
   composite: 56.4
@@ -432,8 +432,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:
 - kind: authentication
   name: Nexhealth Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -155,7 +155,7 @@ overview: 'Coro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 96
+random_paper: 87
 score:
   band: developing
   composite: 49.1
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/screenshots/coro-2026-07-25T210437.png
 security:

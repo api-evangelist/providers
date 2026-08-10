@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
   name: Matchory Discovery API
   slug: matchory-discovery-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Matchory Webhooks
@@ -122,6 +122,9 @@ image: https://cdn.prod.website-files.com/6784f7971856e0304b40e3de/679028bece9dc
 layout: provider
 mcp_servers:
 - description: ''
+  name: mcp
+  slug: mcp
+- description: ''
   name: matchory-mcp.yml
   slug: matchory-mcpyml
 modified: '2026-07-20'
@@ -135,7 +138,7 @@ overview: 'Matchory publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Matchory''s developer surface includes documentation, signup flow, pricing, authentication, and 15 more developer resources.'
-random_paper: 80
+random_paper: 59
 scopes:
 - name: Matchory Scopes
   scope_count: 4
@@ -157,7 +160,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
 security:

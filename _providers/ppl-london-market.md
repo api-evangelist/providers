@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'PPL publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   PPL''s developer surface includes authentication, sandbox, getting-started guide, documentation, API reference, signup flow, support, and 31 more developer resources.'
-random_paper: 21
+random_paper: 92
 scopes:
 - name: Ppl London Market Scopes
   scope_count: 1
@@ -249,7 +249,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

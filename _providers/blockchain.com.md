@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -26,17 +26,11 @@ agentic_access:
   operation_count: 35
   slug: blockchain.com-agentic-access
   summary_line: 35 operations · 5 acting
-api_count: 11
+api_count: 18
 apis:
-- description: REST API for the Blockchain.com Exchange covering unauthenticated market data (L2/L3 order books, tickers, symbols) and authenticated trading (orders, fills, fees) and payments (accounts, deposits, wi
-  name: Blockchain.com Exchange REST API
-  slug: blockchaincom-exchange-rest-api
 - description: Real-time WebSocket gateway for the Blockchain.com Exchange. Anonymous channels stream heartbeat, L2/L3 order books, prices, symbols, ticker and trades; authenticated channels cover auth, balances and
   name: Blockchain.com Exchange WebSocket API
   slug: blockchaincom-exchange-websocket-api
-- description: Partner API behind Blockchain.com Pay, the embeddable fiat-to-crypto on-ramp. Provides eligibility data (currencies, regions, payment methods), real-time buy quotes and order lookup, authenticated wit
-  name: Blockchain.com Pay Partner API
-  slug: blockchaincom-pay-partner-api
 - description: Free JSON API over the Blockchain.com Explorer data set — single blocks, transactions, addresses, unspent outputs, block height and latest block queries for Bitcoin.
   name: Blockchain Data API
   slug: blockchain-data-api
@@ -61,7 +55,34 @@ apis:
 - description: Open-source Wallet API service (service-my-wallet-v3) that runs locally and exposes HTTP endpoints for creating wallets, sending payments, and checking balances against Blockchain.com wallets, plus th
   name: Blockchain.com Wallet API
   slug: blockchaincom-wallet-api
-artifact_total: 19
+- description: Available currencies, regions, and payment methods for the partner account.
+  name: Blockchain.com Eligibility API
+  slug: blockchain.com-eligibility-api
+- description: The nft API from Blockchain.com — 1 operation(s) for nft.
+  name: Blockchain.com Nft API
+  slug: blockchain.com-nft-api
+- description: The nft_v2 API from Blockchain.com — 2 operation(s) for nft_v2.
+  name: Blockchain.com Nft V2 API
+  slug: blockchain.com-nft-v2-api
+- description: Order listing and lookup.
+  name: Blockchain.com Orders API
+  slug: blockchain.com-orders-api
+- description: Get account status and initiate deposits and withdrawals
+  name: Blockchain.com Payments API
+  slug: blockchain.com-payments-api
+- description: The Public API from Blockchain.com — 3 operation(s) for public.
+  name: Blockchain.com Public API
+  slug: blockchain.com-public-api
+- description: Real-time buy quotes.
+  name: Blockchain.com Quote API
+  slug: blockchain.com-quote-api
+- description: Post orders and get information about historical trades
+  name: Blockchain.com Trading API
+  slug: blockchain.com-trading-api
+- description: Retrieve current prices and markets
+  name: Blockchain.com Unauthenticated API
+  slug: blockchain.com-unauthenticated-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Blockchain.Com Event Surface
@@ -215,14 +236,14 @@ modified: '2026-08-02'
 name: Blockchain.com
 nav: Providers
 network: true
-overview: 'Blockchain.com publishes 3 APIs on the [APIs.io](https://apis.io/) network: Exchange REST API, Pay Partner API, and NFT Market API. Tagged areas include cryptocurrency, bitcoin, blockchain, exchange, and trading.
+overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include cryptocurrency, bitcoin, blockchain, exchange, and trading.
 
 
   The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 47
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Blockchain.Com Rate Limits
@@ -238,7 +259,7 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 63.6
+    contract_quality: 63.3
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
@@ -261,8 +282,9 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:
 - kind: authentication
   name: Blockchain.Com Authentication

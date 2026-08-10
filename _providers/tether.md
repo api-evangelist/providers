@@ -18,13 +18,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: 'The WDK Indexer REST API provides read access to token balances and token-transfer history across Ethereum, Arbitrum, Avalanche, Polygon, Sepolia, Tron, TON, Bitcoin, Spark and Plasma for USD₮, XAU₮, '
-  name: WDK Indexer API
-  slug: wdk-indexer
-artifact_total: 6
+- description: The API Keys API from Tether — 2 operation(s) for api keys.
+  name: Tether API Keys API
+  slug: tether-api-keys-api
+- description: Supported blockchains and token discovery
+  name: Tether Chains API
+  slug: tether-chains-api
+- description: Server health and status checks
+  name: Tether Health API
+  slug: tether-health-api
+- description: Query current token balances for addresses
+  name: Tether Token Balances API
+  slug: tether-token-balances-api
+- description: Query token transfer history for addresses
+  name: Tether Token Transfers API
+  slug: tether-token-transfers-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -77,7 +89,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tether-wdk-indexer-openapi-original.yml
+  url: openapi/_original/tether-wdk-indexer-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -174,25 +186,27 @@ modified: '2026-08-05'
 name: Tether
 nav: Providers
 network: true
-overview: 'Tether publishes 1 API on the [APIs.io](https://apis.io/) network: WDK Indexer API. Tagged areas include Company, Stablecoins, Cryptocurrency, Blockchain, and Wallets.
+overview: 'Tether publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Chains API, Health API, and 2 more. Tagged areas include Company, Stablecoins, Cryptocurrency, Blockchain, and Wallets.
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
-random_paper: 87
+random_paper: 72
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits
   slug: tether-rate-limits
 score:
   band: developing
-  composite: 54.4
+  composite: 53.9
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.5
+    contract_quality: 47.3
     developer_ergonomics: 87.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +223,8 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Tether Authentication

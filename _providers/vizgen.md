@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 5
 common:
@@ -115,10 +115,11 @@ overview: 'Vizgen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vizgen''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, code examples, and 10 more developer resources.'
-random_paper: 94
+random_paper: 79
 score:
   band: emerging
   composite: 20.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -126,6 +127,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
+  previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: tags
@@ -133,7 +135,8 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Vizgen Domain Security

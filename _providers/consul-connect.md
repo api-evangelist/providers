@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,14 +89,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/consul-connect-rules.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/manage-service-intentions.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/rotate-mesh-ca.yml
 - group: docs
   title: ''
   type: Documentation
@@ -156,12 +148,12 @@ overview: 'Consul Connect publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Consul Connect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Consul Connect''s developer surface includes authentication, documentation, changelog, engineering blog, and 14 more developer resources.'
+  Consul Connect''s developer surface includes authentication, documentation, changelog, engineering blog, and 12 more developer resources.'
 plans:
 - name: Consul Connect Plans Pricing
   plan_count: 3
   slug: consul-connect-plans-pricing
-random_paper: 95
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Consul Connect Rate Limits
@@ -203,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/screenshots/consul-connect-2026-06-20T174917.png
 security:

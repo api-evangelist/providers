@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Auto-generated RESTful and GraphQL APIs derived from user-defined content type definitions, enabling full CRUD operations on content objects with OpenAPI schema support.
@@ -91,7 +91,7 @@ overview: 'Flotiq publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flotiq''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 90
+random_paper: 75
 score:
   band: emerging
   composite: 22.4
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flotiq/refs/heads/main/screenshots/flotiq-2026-06-20T181326.png
 security:

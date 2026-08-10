@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: Redpanda implements the Apache Kafka wire protocol natively, allowing existing Kafka clients (producers, consumers, AdminClient, Streams, Connect) to work unchanged against Redpanda brokers on TCP por
@@ -234,7 +234,7 @@ plans:
 - name: Redpanda Plans Pricing
   plan_count: 5
   slug: redpanda-plans-pricing
-random_paper: 40
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Redpanda Rate Limits
@@ -252,7 +252,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 45.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/screenshots/redpanda-2026-06-20T192835.png
 security:

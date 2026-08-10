@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ overview: 'Alinia Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alinia Ai''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 78
+random_paper: 57
 score:
   band: minimal
   composite: 9.1
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alinia-ai/refs/heads/main/screenshots/alinia-ai-2026-07-25T195624.png
 security:

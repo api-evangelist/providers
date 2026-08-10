@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,8 +27,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-06'
+  score: 61.3
+  scored_at: '2026-08-10'
+agentic_access:
+- acting_count: 59
+  human_in_the_loop: 2
+  name: Qwiet Ai Agentic Access
+  operation_count: 145
+  slug: qwiet-ai-agentic-access
+  summary_line: 145 operations · 59 acting · 2 human-in-the-loop
 api_count: 27
 apis:
 - description: Notification and alerting related endpoints (such as webhooks)
@@ -112,7 +119,7 @@ apis:
 - description: The endpoints to manage the Wiz integration.
   name: Qwiet Ai wiz API
   slug: qwiet-ai-wiz-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Qwiet Ai Alerting Webhooks
@@ -226,6 +233,22 @@ common:
   title: ''
   type: Postman
   url: https://god.gw.postman.com/run-collection/9829310-3251cbed-4ae3-4b06-8cad-c8748e49c7ec
+- group: company
+  title: ''
+  type: Blog
+  url: https://qwiet.ai/blog/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.shiftleft.io
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/qwiet-ai-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/qwiet-ai-agentic-access.yml
 created: '2026-07-17'
 description: Qwiet AI (by Harness, formerly ShiftLeft) is an application security testing platform that unifies SAST, SCA, secrets, IaC, and container scanning with AI-assisted AutoFix remediation. The Qwiet AI API v4 (https://app.shiftleft.io/api/v4) lets teams programmatically manage applications, run and read code scans, work with findings and source-to-sink data flows, request and apply AutoFix recommendations, look up package CVEs (Intelligent SCA), manage RBAC/teams/tokens, and configure alerting webhooks and Slack notifications. Qwiet also ships a first-party CLI (`sl`), a published MCP server (harness-code-security-mcp), and packaged agent skills, making its code-security workflows agent-ready. Surfaced as a portfolio company of Mayfield and enriched from the provider's public developer surface.
 image: https://docs.shiftleft.io/img/sl-logo.svg
@@ -234,7 +257,7 @@ mcp_servers:
 - description: ''
   name: qwiet-ai-mcp.yml
   slug: qwiet-ai-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Qwiet Ai
 nav: Providers
 network: true
@@ -244,19 +267,19 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
   The Qwiet Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 10
+  Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 24 more developer resources.'
+random_paper: 105
 score:
-  band: developing
-  composite: 53.4
-  delta: 0.0
+  band: strong
+  composite: 56.9
+  delta: 3.5
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.6
-    developer_ergonomics: 82.6
+    developer_ergonomics: 84.8
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 13.2
+    operational_transparency: 36.8
   previous_composite: 53.4
   provenance:
     conformance: derived
@@ -268,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

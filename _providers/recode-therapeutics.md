@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -17,14 +17,32 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 33.6
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The anonymously readable WordPress REST API behind recodetx.com. It exposes 82 press releases, scientific publications and conference presentations; the 18 corporate pages (Our Purpose, Leadership, Ca
+- description: Press releases, publications, corporate pages and site-specific custom post types.
   name: ReCode Therapeutics Content API
   slug: recode-therapeutics-content-api
-artifact_total: 4
+- description: Route index and namespace metadata the install publishes about itself.
+  name: ReCode Therapeutics Discovery API
+  slug: recode-therapeutics-discovery-api
+- description: oEmbed 1.0 provider endpoint for recodetx.com URLs.
+  name: ReCode Therapeutics Embed API
+  slug: recode-therapeutics-embed-api
+- description: The media library — images, PDFs, posters and decks attached to the site.
+  name: ReCode Therapeutics Media API
+  slug: recode-therapeutics-media-api
+- description: Author records. Personal data — read the x-personal-data annotation before use.
+  name: ReCode Therapeutics People API
+  slug: recode-therapeutics-people-api
+- description: Cross-content search across every REST-exposed post type.
+  name: ReCode Therapeutics Search API
+  slug: recode-therapeutics-search-api
+- description: Categories, tags, and the registered type/status/taxonomy descriptors.
+  name: ReCode Therapeutics Taxonomy API
+  slug: recode-therapeutics-taxonomy-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -168,26 +186,26 @@ modified: '2026-08-05'
 name: ReCode Therapeutics
 nav: Providers
 network: true
-overview: 'ReCode Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, genetic-medicines, biotechnology, biopharmaceuticals, and mrna.
+overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 4 more. Tagged areas include Company, genetic-medicines, biotechnology, biopharmaceuticals, and mrna.
 
 
   The ReCode Therapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 30 more developer resources.'
-random_paper: 47
+random_paper: 112
 score:
   band: thin
-  composite: 30.8
-  delta: -1.1
+  composite: 31.3
+  delta: 0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.8
+    contract_quality: 55.7
     developer_ergonomics: 12.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.9
+  previous_composite: 30.8
   provenance:
     conformance: derived
     contracts:
@@ -197,7 +215,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

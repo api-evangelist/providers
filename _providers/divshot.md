@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -95,7 +95,7 @@ overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Divshot''s developer surface includes CLI, authentication, and 9 more developer resources.'
-random_paper: 91
+random_paper: 73
 score:
   band: emerging
   composite: 26.2
@@ -109,7 +109,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 26.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

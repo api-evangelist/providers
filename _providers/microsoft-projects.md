@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: REST API for managing projects, tasks, resources, and assignments in Microsoft Project for the web.
@@ -90,7 +90,7 @@ plans:
 - name: Microsoft Projects Plans Pricing
   plan_count: 3
   slug: microsoft-projects-plans-pricing
-random_paper: 93
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Microsoft Projects Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-projects/refs/heads/main/screenshots/microsoft-projects-2026-06-20T185528.png
 slug: microsoft-projects

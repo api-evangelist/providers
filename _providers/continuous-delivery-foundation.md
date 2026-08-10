@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: CDEvents is a common specification for Continuous Delivery events that enables interoperability across CI/CD systems. It extends the CloudEvents specification and defines event vocabularies for source
@@ -114,7 +114,7 @@ plans:
 - name: Continuous Delivery Foundation Plans Pricing
   plan_count: 3
   slug: continuous-delivery-foundation-plans-pricing
-random_paper: 97
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Continuous Delivery Foundation Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/screenshots/continuous-delivery-foundation-2026-06-20T174948.png
 security:

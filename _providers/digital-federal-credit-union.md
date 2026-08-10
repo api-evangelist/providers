@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'DCU (Digital Federal Credit Union) is profiled on the [APIs.io](https
 
 
   DCU (Digital Federal Credit Union)''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 68
+random_paper: 112
 score:
   band: minimal
   composite: 11.6
@@ -83,7 +83,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-federal-credit-union/refs/heads/main/screenshots/digital-federal-credit-union-2026-07-25T212011.png
 security:

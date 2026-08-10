@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -447,7 +447,7 @@ plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
   slug: dolby-io-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Dolby Io Rate Limits
@@ -491,7 +491,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

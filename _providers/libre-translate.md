@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -98,6 +98,10 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/finops/finops.yml
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 created: '2026-06-13'
 description: Free and open-source machine translation REST API supporting 30+ languages with self-hostable deployment and no third-party service dependency. Powered by the open-source Argos Translate library, LibreTranslate provides endpoints for text translation, language detection, file translation, and translation suggestions. Deployable on-premise for full offline capability or accessible via the managed hosted service.
 examples:
@@ -135,7 +139,7 @@ json_schemas:
   property_count: 3
   slug: translate-response
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: LibreTranslate
 nav: Providers
 network: true
@@ -145,12 +149,12 @@ overview: 'LibreTranslate publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The LibreTranslate catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  LibreTranslate''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  LibreTranslate''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 76
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -184,9 +188,9 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184502.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184504.png
 security:
 - kind: domain-security
   name: Libre Translate Domain Security

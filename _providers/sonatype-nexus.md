@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 10
@@ -277,7 +277,7 @@ plans:
 - name: Sonatype Nexus Plans Pricing
   plan_count: 3
   slug: sonatype-nexus-plans-pricing
-random_paper: 22
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Sonatype Nexus Rate Limits
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/screenshots/sonatype-nexus-2026-06-20T194201.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -186,7 +186,7 @@ plans:
 - name: Bitbucket Pipelines Plans Pricing
   plan_count: 4
   slug: bitbucket-pipelines-plans-pricing
-random_paper: 50
+random_paper: 115
 rate_limits:
 - limit_count: 4
   name: Bitbucket Pipelines Rate Limits
@@ -197,26 +197,26 @@ scopes:
   slug: bitbucket-pipelines-scopes
   summary_line: 26 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.8
+  band: developing
+  composite: 42.8
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.5
+    contract_quality: 58.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.8
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 23
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/screenshots/bitbucket-pipelines-2026-06-20T173303.png
 security:

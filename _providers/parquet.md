@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The core specification for the Parquet columnar storage format.
@@ -95,7 +95,7 @@ plans:
 - name: Parquet Plans Pricing
   plan_count: 3
   slug: parquet-plans-pricing
-random_paper: 92
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Parquet Rate Limits
@@ -113,7 +113,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/screenshots/parquet-2026-06-20T191417.png
 security:

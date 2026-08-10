@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'RapidFort is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RapidFort''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 67
+random_paper: 43
 score:
   band: emerging
   composite: 18.0
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

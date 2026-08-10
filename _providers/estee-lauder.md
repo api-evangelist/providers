@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Estée Lauder bets generative AI can keep pace with ...
   url: https://www.retaildive.com/news/estee-lauder-generative-ai-Google-Cloud-Next/692483/
-random_paper: 86
+random_paper: 56
 score:
   band: minimal
   composite: 3.3
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

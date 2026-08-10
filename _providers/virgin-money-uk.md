@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,29 +189,29 @@ overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 52
+random_paper: 13
 scopes:
 - name: Virgin Money Uk Scopes
   scope_count: 4
   slug: virgin-money-uk-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.1
+  band: developing
+  composite: 43.5
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.2
+    contract_quality: 41.1
     developer_ergonomics: 34.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 18.4
-  previous_composite: 41.1
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -221,9 +221,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.5
+    score: 88.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

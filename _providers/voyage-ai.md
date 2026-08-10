@@ -28,12 +28,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 6
+  scored_at: '2026-08-10'
+api_count: 9
 apis:
-- description: OpenAI-compatible REST endpoint that returns dense vector embeddings for input text. Supports model selection (voyage-3.5, voyage-3-large, voyage-code-3, voyage-finance-2, voyage-law-2, voyage-4 famil
-  name: Voyage AI Embeddings API
-  slug: embeddings
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
   name: Voyage AI Rerank API
   slug: rerank
@@ -49,7 +46,19 @@ apis:
 - description: Official TypeScript / JavaScript client for the Voyage AI REST API.
   name: Voyage AI TypeScript SDK
   slug: typescript-sdk
-artifact_total: 10
+- description: Embed chunks conditioned on surrounding document context.
+  name: Voyage AI Contextualized API
+  slug: voyage-ai-contextualized-api
+- description: Dense text embeddings.
+  name: Voyage AI Embeddings API
+  slug: voyage-ai-embeddings-api
+- description: Embed interleaved text and images in a shared vector space.
+  name: Voyage AI Multimodal API
+  slug: voyage-ai-multimodal-api
+- description: Cross-encoder reranking of candidate documents.
+  name: Voyage AI Rerank API
+  slug: voyage-ai-rerank-api
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -107,7 +116,7 @@ modified: '2026-05-23'
 name: Voyage AI
 nav: Providers
 network: true
-overview: 'Voyage AI publishes 1 API on the [APIs.io](https://apis.io/) network: Embeddings API. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
+overview: 'Voyage AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contextualized API, Embeddings API, Multimodal API, and 1 more. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
 
 
   Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 7 more developer resources.'
@@ -115,18 +124,18 @@ plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
   slug: voyage-ai-plans-pricing
-random_paper: 107
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Voyage Ai Rate Limits
   slug: voyage-ai-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 34.7
+  delta: 3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 40.3
+    contract_quality: 55.0
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
@@ -139,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:

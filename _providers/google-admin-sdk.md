@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ plans:
 - name: Google Admin Sdk Plans Pricing
   plan_count: 3
   slug: google-admin-sdk-plans-pricing
-random_paper: 101
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Google Admin Sdk Rate Limits
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/screenshots/google-admin-sdk-2026-06-20T182002.png
 security:

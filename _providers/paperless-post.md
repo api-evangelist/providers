@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Paperless Post Party Shop storefront is the only machine-callable surface on any paperlesspost.com host. It is Shopify-hosted and implements the Universal Commerce Protocol (UCP) for agent-driven '
@@ -130,7 +130,7 @@ overview: 'Paperless Post publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Paperless Post''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 82
 scopes:
 - name: Paperless Post Scopes
   scope_count: 4
@@ -152,7 +152,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

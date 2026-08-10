@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The first-party Python client library for LeapYear Core. The Client class opens an authenticated connection to a self-hosted LeapYear server and exposes administrative resources (databases, tables, co
@@ -101,7 +101,7 @@ overview: 'LeapYear publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LeapYear''s developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 60
+random_paper: 39
 score:
   band: emerging
   composite: 16.9
@@ -117,7 +117,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapyear/refs/heads/main/screenshots/leapyear-2026-07-25T224754.png
 security:

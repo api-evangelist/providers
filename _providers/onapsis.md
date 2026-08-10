@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: GraphQL-based public API for The Onapsis Platform. Introduced with support for Assess (vulnerability and scan results) and preliminary support for Comply, it powers third-party integrations with ticke
@@ -115,7 +115,7 @@ overview: 'Onapsis publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Onapsis'' developer surface includes documentation, support, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 87
+random_paper: 69
 score:
   band: thin
   composite: 29.5
@@ -132,8 +132,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/screenshots/onapsis-2026-08-07T190215.png
 security:
 - kind: authentication
   name: Onapsis Authentication

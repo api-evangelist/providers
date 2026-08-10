@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ name: GDPR
 nav: Providers
 network: true
 overview: GDPR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Data Protection, GDPR, and Privacy.
-random_paper: 90
+random_paper: 81
 score:
   band: minimal
   composite: 4.1
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gdpr/refs/heads/main/screenshots/gdpr-2026-06-20T181702.png
 slug: gdpr

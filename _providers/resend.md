@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: The Apis API from Resend — 2 operation(s) for apis.
@@ -285,7 +285,7 @@ plans:
 - name: Resend Plans Pricing
   plan_count: 3
   slug: resend-plans-pricing
-random_paper: 76
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Resend Rate Limits
@@ -334,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

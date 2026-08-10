@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Tsumobi
 nav: Providers
 network: true
 overview: Tsumobi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Mobile, J2ME, and Feature Phones.
-random_paper: 93
+random_paper: 75
 score:
   band: minimal
   composite: 6.7
@@ -80,7 +80,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

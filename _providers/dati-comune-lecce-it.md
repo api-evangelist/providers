@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Lecce Open Data, ~480 datasets.
@@ -87,7 +87,7 @@ plans:
 - name: Dati Comune Lecce It Plans Pricing
   plan_count: 0
   slug: dati-comune-lecce-it-plans-pricing
-random_paper: 8
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Dati Comune Lecce It Rate Limits
@@ -111,7 +111,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-comune-lecce-it/refs/heads/main/screenshots/dati-comune-lecce-it-2026-06-20T175652.png
 security:

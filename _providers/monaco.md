@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 70.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Monaco publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Monaco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Monaco Rate Limits
@@ -209,8 +209,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
 security:
 - kind: authentication
   name: Monaco Authentication

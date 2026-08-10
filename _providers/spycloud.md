@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -26,36 +26,30 @@ agentic_access:
   operation_count: 69
   slug: spycloud-agentic-access
   summary_line: 69 operations · 2 acting
-api_count: 9
+api_count: 7
 apis:
-- description: Employee Account Takeover (EAP) Prevention API — a programmatic interface into your watchlist items found in SpyCloud's recaptured breach and malware data. Query breach records by domain, email, IP, p
-  name: SpyCloud Enterprise ATO Prevention API
-  slug: spycloud-enterprise-ato-prevention-api
-- description: Consumer Account Takeover Prevention API — real-time login-risk and account-creation checks against recaptured consumer breach records by email, username, phone number or IP, plus a k-anonymity zero-k
-  name: SpyCloud Consumer ATO Prevention API
-  slug: spycloud-consumer-ato-prevention-api
-- description: Investigations API — the broadest query surface across SpyCloud's recaptured data, letting analysts pivot across emails, usernames, passwords, domains, IPs, phone numbers, social handles, infected mac
-  name: SpyCloud Cybercrime Investigations API
-  slug: spycloud-cybercrime-investigations-api
-- description: Data Partnership API — bulk partner access to recaptured breach records keyed on a wide set of identifiers including domain, email, username, IP, phone, passwords, and hashed identity documents (healt
-  name: SpyCloud Data Partnership API
-  slug: spycloud-data-partnership-api
-- description: IDLink automated identity analytics — given an email, phone number or username, traverses SpyCloud's recaptured identity graph up to four pivot levels deep to return the correlated identity, supportin
-  name: SpyCloud IDLink API
-  slug: spycloud-idlink-api
-- description: Fraud-detection API returning compromised credit, debit, gift and loyalty card records recaptured from breaches and malware logs, queried by six-character BIN.
-  name: SpyCloud Compromised Credit Card API
-  slug: spycloud-compromised-credit-card-api
-- description: Exposure statistics API returning aggregate counts of recaptured breach and malware exposures for a domain or an email address, over a configurable lookback window, without returning the underlying re
-  name: SpyCloud Prospecting API
-  slug: spycloud-prospecting-api
-- description: NIST SP 800-63B aligned compromised-password screening. Submit a five-hex-digit prefix of an NTLM, SHA-1, SHA-256 or SHA-512 password hash and receive matching hashes, so passwords can be validated at
-  name: SpyCloud NIST Password API
-  slug: spycloud-nist-password-api
-- description: Session Identity Protection (SIP) API — returns stolen session cookies recaptured from infostealer malware for a given cookie domain, with cookie-name and expiration filtering, so session-hijacking ex
-  name: SpyCloud Session Identity Protection API
-  slug: spycloud-session-identity-protection-api
-artifact_total: 15
+- description: The Breach API from SpyCloud — 23 operation(s) for breach.
+  name: SpyCloud Breach API
+  slug: spycloud-breach-api
+- description: The Check API from SpyCloud — 2 operation(s) for check.
+  name: SpyCloud Check API
+  slug: spycloud-check-api
+- description: The Compass API from SpyCloud — 5 operation(s) for compass.
+  name: SpyCloud Compass API
+  slug: spycloud-compass-api
+- description: The Data API from SpyCloud — 2 operation(s) for data.
+  name: SpyCloud Data API
+  slug: spycloud-data-api
+- description: The Query API from SpyCloud — 3 operation(s) for query.
+  name: SpyCloud Query API
+  slug: spycloud-query-api
+- description: The Stats API from SpyCloud — 2 operation(s) for stats.
+  name: SpyCloud Stats API
+  slug: spycloud-stats-api
+- description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
+  name: SpyCloud Watchlist API
+  slug: spycloud-watchlist-api
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -201,25 +195,27 @@ modified: '2026-08-05'
 name: SpyCloud
 nav: Providers
 network: true
-overview: 'SpyCloud publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Enterprise ATO Prevention API, Consumer ATO Prevention API, Cybercrime Investigations API, and 6 more. Tagged areas include Cybersecurity, Threat Intelligence, Identity, Fraud Prevention, and Account Takeover.
+overview: 'SpyCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Breach API, Check API, Compass API, and 4 more. Tagged areas include Cybersecurity, Threat Intelligence, Identity, Fraud Prevention, and Account Takeover.
 
 
   SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 92
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits
   slug: spycloud-rate-limits
 score:
   band: developing
-  composite: 53.3
+  composite: 53.1
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.3
+    contract_quality: 56.6
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,7 +227,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Spycloud Authentication

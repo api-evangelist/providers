@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Applications API from Paedae — 2 operation(s) for applications.
@@ -127,7 +127,7 @@ overview: 'Paedae publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paedae''s developer surface includes documentation, API reference, developer portal, signup flow, support, and 10 more developer resources.'
-random_paper: 43
+random_paper: 28
 scopes:
 - name: Paedae Scopes
   scope_count: 0
@@ -155,8 +155,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:
 - kind: authentication
   name: Paedae Authentication

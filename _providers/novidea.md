@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Novidea is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Novidea''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: emerging
   composite: 14.9
@@ -91,8 +91,9 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/novidea/refs/heads/main/screenshots/novidea-2026-08-07T185618.png
 security:
 - kind: domain-security
   name: Novidea Domain Security

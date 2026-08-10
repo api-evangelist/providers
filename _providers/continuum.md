@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Continuum is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Continuum''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 90
+random_paper: 66
 score:
   band: emerging
   composite: 17.0
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continuum/refs/heads/main/screenshots/continuum-2026-07-25T210334.png
 security:

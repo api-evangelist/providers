@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Onecard is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Onecard''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 54
+random_paper: 36
 score:
   band: emerging
   composite: 13.8
@@ -91,8 +91,9 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onecard/refs/heads/main/screenshots/onecard-2026-08-07T190305.png
 security:
 - kind: domain-security
   name: Onecard Domain Security

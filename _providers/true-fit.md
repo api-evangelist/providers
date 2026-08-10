@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-06'
+  score: 44.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -26,18 +26,75 @@ agentic_access:
   operation_count: 58
   slug: true-fit-agentic-access
   summary_line: 58 operations · 27 acting · 2 human-in-the-loop
-api_count: 3
+api_count: 22
 apis:
-- description: Server-to-server REST API for managing True Fit profiles on behalf of your own users and requesting size recommendations for retailer products. Covers identity sync, profiles, body measurements, close
-  name: True Fit Partner API
-  slug: partner-api
-- description: 'Browser/device-facing REST API used to build a custom True Fit integration: session tokens, shopper profiles and recipient profiles, closet items, brands, sizes, bra sizes, inseams, sleeve lengths, st'
-  name: True Fit Consumer API
-  slug: consumer-api
 - description: 'Two-endpoint data API that packages True Fit machine-learning assets for a retailer partner: a Metadata endpoint returning the descriptor of the current weekly 360 Member View file (client id, created'
   name: True Fit 360 Member View API
   slug: 360-member-view-api
-artifact_total: 7
+- description: Provide session information for more advanced reporting.
+  name: True Fit Analytics API
+  slug: true-fit-analytics-api
+- description: Endpoints to allow saving and logging in to a True Fit account.
+  name: True Fit Auth API
+  slug: true-fit-auth-api
+- description: The bra sizes that are available to choose from for the bra size measurement on a Women's profile.
+  name: True Fit Bra Sizes API
+  slug: true-fit-bra-sizes-api
+- description: The brands that are available to choose from when entering a reference closet item.
+  name: True Fit Brands API
+  slug: true-fit-brands-api
+- description: An endpoint for tracking checkout events.
+  name: True Fit Checkout API
+  slug: true-fit-checkout-api
+- description: Information about the profile's closet.
+  name: True Fit Closet API
+  slug: true-fit-closet-api
+- description: Retrieve True Fit powered product recommendations for the shopper profile.
+  name: True Fit Discovery Recommendation API
+  slug: true-fit-discovery-recommendation-api
+- description: Retrieve True Fit powered size recommendations for a profile.
+  name: True Fit Fit Recommendation API
+  slug: true-fit-fit-recommendation-api
+- description: Establishing a True Fit user for one of your users.
+  name: True Fit Identity API
+  slug: true-fit-identity-api
+- description: The available inseam lengths to choose from for the inseam measurement on a profile.
+  name: True Fit Inseams API
+  slug: true-fit-inseams-api
+- description: Body measurements attached to a profile.
+  name: True Fit Measurements API
+  slug: true-fit-measurements-api
+- description: Retrieve normalized sizes for the shopper profile.
+  name: True Fit Normalized Sizes API
+  slug: true-fit-normalized-sizes-api
+- description: An endpoint for rating discovery recommendations.
+  name: True Fit Product Ratings API
+  slug: true-fit-product-ratings-api
+- description: The products available at a store.
+  name: True Fit Products API
+  slug: true-fit-products-api
+- description: Information about the person being shopped for.
+  name: True Fit Profile API
+  slug: true-fit-profile-api
+- description: Creating and managing fit profiles belonging to a partner user.
+  name: True Fit Profiles API
+  slug: true-fit-profiles-api
+- description: Size recommendations and general fit guidance for retailer products.
+  name: True Fit Recommendations API
+  slug: true-fit-recommendations-api
+- description: The sizes that are available to choose from when entering a reference closet item.
+  name: True Fit Sizes API
+  slug: true-fit-sizes-api
+- description: The available sleeve lengths to choose from for the sleeve length measurement on a profile.
+  name: True Fit Sleeve Lengths API
+  slug: true-fit-sleeve-lengths-api
+- description: The style attributes available for particular ageGroup, gender, category and optional class combination.
+  name: True Fit Style Attributes API
+  slug: true-fit-style-attributes-api
+- description: A token is used to identify requests from a device and associate the requests with a session. As the user interacts with True Fit, the token will update. The most recent token returned by True Fit sho
+  name: True Fit Token API
+  slug: true-fit-token-api
+artifact_total: 26
 common:
 - group: agent
   title: ''
@@ -195,28 +252,31 @@ modified: '2026-08-05'
 name: True Fit
 nav: Providers
 network: true
-overview: 'True Fit publishes 2 APIs on the [APIs.io](https://apis.io/) network: Partner API and Consumer API. Tagged areas include Company, Fit and Sizing, Apparel, Footwear, and Retail.
+overview: 'True Fit publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Bra Sizes API, and 18 more. Tagged areas include Company, Fit and Sizing, Apparel, Footwear, and Retail.
 
 
   True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 29 more developer resources.'
-random_paper: 25
+random_paper: 4
 score:
   band: developing
-  composite: 46.8
+  composite: 45.2
+  delta: -1.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.0
+    contract_quality: 43.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: True Fit Authentication

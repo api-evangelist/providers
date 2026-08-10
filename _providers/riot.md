@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -26,12 +26,51 @@ agentic_access:
   operation_count: 40
   slug: riot-agentic-access
   summary_line: 40 operations · 9 acting
-api_count: 1
+api_count: 14
 apis:
-- description: Public REST API for the Riot employee security posture management platform. Read access to organization and workspace metadata, employees and groups, awareness courses and per-employee learning progre
-  name: Riot Public API
-  slug: riot-public-api
-artifact_total: 9
+- description: Provides data about courses, their settings within the workspace and employees' learning progress.
+  name: Riot Awareness API
+  slug: riot-awareness-api
+- description: The Breaches API from Riot — 3 operation(s) for breaches.
+  name: Riot Breaches API
+  slug: riot-breaches-api
+- description: Provides an overview of the organization and employees' data.
+  name: Riot General API
+  slug: riot-general-api
+- description: The Groups API from Riot — 2 operation(s) for groups.
+  name: Riot Groups API
+  slug: riot-groups-api
+- description: The Inbox API from Riot — 3 operation(s) for inbox.
+  name: Riot Inbox API
+  slug: riot-inbox-api
+- description: The SCIM API from Riot — 9 operation(s) for scim.
+  name: Riot SCIM API
+  slug: riot-scim-api
+- description: Provides data about phishing campaigns, corresponding attacks and related events.
+  name: Riot Simulation API
+  slug: riot-simulation-api
+- description: The Slash API from Riot — 2 operation(s) for slash.
+  name: Riot Slash API
+  slug: riot-slash-api
+- description: The Sonar API from Riot — 0 operation(s) for sonar.
+  name: Riot Sonar API
+  slug: riot-sonar-api
+- description: The Team awareness API from Riot — 4 operation(s) for team awareness.
+  name: Riot Team awareness API
+  slug: riot-team-awareness-api
+- description: The Team inbox API from Riot — 5 operation(s) for team inbox.
+  name: Riot Team inbox API
+  slug: riot-team-inbox-api
+- description: The Team platform API from Riot — 15 operation(s) for team platform.
+  name: Riot Team platform API
+  slug: riot-team-platform-api
+- description: The Team simulation API from Riot — 8 operation(s) for team simulation.
+  name: Riot Team simulation API
+  slug: riot-team-simulation-api
+- description: Server-to-server events Riot sends to customer-configured endpoints.
+  name: Riot Webhook Events API
+  slug: riot-webhook-events-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Riot Webhooks
@@ -185,14 +224,14 @@ modified: '2026-08-05'
 name: Riot
 nav: Providers
 network: true
-overview: 'Riot publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include cybersecurity, security-awareness, human-risk-management, phishing-simulation, and employee-security.
+overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 11 more. Tagged areas include cybersecurity, security-awareness, human-risk-management, phishing-simulation, and employee-security.
 
 
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 28 more developer resources.'
-random_paper: 107
+random_paper: 98
 rate_limits:
 - limit_count: 0
   name: Riot Rate Limits
@@ -203,17 +242,17 @@ scopes:
   slug: riot-scopes
   summary_line: 4 scopes
 score:
-  band: strong
-  composite: 56.3
-  delta: -1.0
+  band: developing
+  composite: 54.8
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.1
+    contract_quality: 60.8
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 57.3
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -225,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

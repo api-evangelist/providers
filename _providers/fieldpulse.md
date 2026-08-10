@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -26,15 +26,87 @@ agentic_access:
   operation_count: 109
   slug: fieldpulse-agentic-access
   summary_line: 109 operations · 57 acting
-api_count: 2
+api_count: 26
 apis:
-- description: The FieldPulse Open API is a REST API for the FieldPulse field service management platform. It exposes 109 operations across 57 paths covering assets, asset categories, comments, company profile, cont
-  name: FieldPulse API
-  slug: fieldpulse-api
 - description: FieldPulse serves an anonymous, publicly reachable Model Context Protocol server from its documentation host at https://help.fieldpulse.com/mcp. The server reports protocol version 2025-06-18 and expo
   name: FieldPulse Docs MCP Server
   slug: fieldpulse-docs-mcp
-artifact_total: 9
+- description: Endpoints related to assets
+  name: FieldPulse Assets API
+  slug: fieldpulse-assets-api
+- description: Endpoints related to assets category
+  name: FieldPulse Assets Category API
+  slug: fieldpulse-assets-category-api
+- description: Endpoints related to comments
+  name: FieldPulse Comments API
+  slug: fieldpulse-comments-api
+- description: Endpoints related to contracts
+  name: FieldPulse Company Profile API
+  slug: fieldpulse-company-profile-api
+- description: Endpoints related to contracts
+  name: FieldPulse Contracts API
+  slug: fieldpulse-contracts-api
+- description: Endpoints related to custom fields
+  name: FieldPulse Custom Fields API
+  slug: fieldpulse-custom-fields-api
+- description: Endpoints related to customers
+  name: FieldPulse Customers API
+  slug: fieldpulse-customers-api
+- description: Endpoints related to estimates
+  name: FieldPulse Estimates API
+  slug: fieldpulse-estimates-api
+- description: The Invoices API from FieldPulse — 4 operation(s) for invoices.
+  name: FieldPulse Invoices API
+  slug: fieldpulse-invoices-api
+- description: The Items API from FieldPulse — 2 operation(s) for items.
+  name: FieldPulse Items API
+  slug: fieldpulse-items-api
+- description: The Jobs API from FieldPulse — 5 operation(s) for jobs.
+  name: FieldPulse Jobs API
+  slug: fieldpulse-jobs-api
+- description: The Lead Source API from FieldPulse — 1 operation(s) for lead source.
+  name: FieldPulse Lead Source API
+  slug: fieldpulse-lead-source-api
+- description: The Locations API from FieldPulse — 2 operation(s) for locations.
+  name: FieldPulse Locations API
+  slug: fieldpulse-locations-api
+- description: The Material Lists API from FieldPulse — 6 operation(s) for material lists.
+  name: FieldPulse Material Lists API
+  slug: fieldpulse-material-lists-api
+- description: The Payments API from FieldPulse — 2 operation(s) for payments.
+  name: FieldPulse Payments API
+  slug: fieldpulse-payments-api
+- description: The Pipeline Status API from FieldPulse — 1 operation(s) for pipeline status.
+  name: FieldPulse Pipeline Status API
+  slug: fieldpulse-pipeline-status-api
+- description: The Projects API from FieldPulse — 2 operation(s) for projects.
+  name: FieldPulse Projects API
+  slug: fieldpulse-projects-api
+- description: The Purchase Orders API from FieldPulse — 2 operation(s) for purchase orders.
+  name: FieldPulse Purchase Orders API
+  slug: fieldpulse-purchase-orders-api
+- description: The Subtasks API from FieldPulse — 2 operation(s) for subtasks.
+  name: FieldPulse Subtasks API
+  slug: fieldpulse-subtasks-api
+- description: The Tags API from FieldPulse — 2 operation(s) for tags.
+  name: FieldPulse Tags API
+  slug: fieldpulse-tags-api
+- description: The Teams API from FieldPulse — 1 operation(s) for teams.
+  name: FieldPulse Teams API
+  slug: fieldpulse-teams-api
+- description: The Timesheets API from FieldPulse — 2 operation(s) for timesheets.
+  name: FieldPulse Timesheets API
+  slug: fieldpulse-timesheets-api
+- description: The Users API from FieldPulse — 1 operation(s) for users.
+  name: FieldPulse Users API
+  slug: fieldpulse-users-api
+- description: The Vendors API from FieldPulse — 2 operation(s) for vendors.
+  name: FieldPulse Vendors API
+  slug: fieldpulse-vendors-api
+- description: The Version API from FieldPulse — 1 operation(s) for version.
+  name: FieldPulse Version API
+  slug: fieldpulse-version-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Fieldpulse Events Webhooks
@@ -185,7 +257,7 @@ modified: '2026-08-04'
 name: FieldPulse
 nav: Providers
 network: true
-overview: 'FieldPulse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service Management, Service Management, Scheduling, and Dispatch.
+overview: 'FieldPulse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Assets Category API, Comments API, and 22 more. Tagged areas include Company, Field Service Management, Service Management, Scheduling, and Dispatch.
 
 
   The FieldPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -196,20 +268,20 @@ plans:
 - name: Fieldpulse Plans
   plan_count: 3
   slug: fieldpulse-plans
-random_paper: 52
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Fieldpulse Rate Limits
   slug: fieldpulse-rate-limits
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 60.3
+  delta: 0.5
   facets:
     commercial_clarity: 76.3
     contract_quality: 68.2
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
   previous_composite: 59.8
@@ -230,8 +302,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:
 - kind: authentication
   name: Fieldpulse Authentication

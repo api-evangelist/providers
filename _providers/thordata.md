@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'HTTP APIs for scraping products: SERP API (POST /request with JSON body, Bearer-key auth), Web Scraper API, Web Unlocker, and Scraping Browser, plus proxy-gateway access with username/password auth.'
@@ -33,7 +33,7 @@ name: Thordata
 nav: Providers
 network: true
 overview: Thordata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy network, Web scraping, Data extraction, SERP, and Search data.
-random_paper: 64
+random_paper: 43
 score:
   band: minimal
   composite: 5.9
@@ -47,7 +47,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: thordata
 tags:

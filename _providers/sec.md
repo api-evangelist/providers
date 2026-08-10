@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Sec Plans Pricing
   plan_count: 1
   slug: sec-plans-pricing
-random_paper: 89
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Sec Rate Limits
@@ -221,7 +221,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

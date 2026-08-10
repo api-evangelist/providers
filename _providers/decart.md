@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Decart Plans Pricing
   plan_count: 5
   slug: decart-plans-pricing
-random_paper: 62
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Decart Rate Limits
@@ -262,8 +262,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:
 - kind: authentication
   name: Decart Authentication

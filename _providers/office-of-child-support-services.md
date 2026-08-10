@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: U.S. Department of Health & Human Services; Administration for Children & Families; Select an ACF Office. Administration for Native Americans (ANA) Administration on Children, Youth, and Families (ACY
@@ -57,7 +57,7 @@ plans:
 - name: Office Of Child Support Services Plans Pricing
   plan_count: 3
   slug: office-of-child-support-services-plans-pricing
-random_paper: 30
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Office Of Child Support Services Rate Limits
@@ -75,7 +75,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-child-support-services/refs/heads/main/screenshots/office-of-child-support-services-2026-06-20T190631.png
 security:

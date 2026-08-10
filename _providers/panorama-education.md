@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Panorama Education is profiled on the [APIs.io](https://apis.io/) net
 
 
   Panorama Education''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 40
+random_paper: 108
 score:
   band: emerging
   composite: 19.7
@@ -107,8 +107,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/screenshots/panorama-education-2026-08-07T191335.png
 security:
 - kind: domain-security
   name: Panorama Education Domain Security

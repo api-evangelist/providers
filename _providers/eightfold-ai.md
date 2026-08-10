@@ -10,25 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-06'
+  score: 27.5
+  scored_at: '2026-08-10'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -58,7 +58,7 @@ apis:
 - description: Marketplace of certified partner and customer-built applications that extend the Eightfold Talent Intelligence Platform.
   name: Eightfold App Marketplace
   slug: app-marketplace
-artifact_total: 14
+artifact_total: 18
 common:
 - group: auth
   title: ''
@@ -100,6 +100,94 @@ common:
   title: ''
   type: LlmsText
   url: https://eightfold.ai/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.eightfold.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://apidocs.eightfold.ai/docs/getting-started
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.eightfold.ai/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidocs.eightfold.ai/docs/getting-started
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/EightfoldAI
+- group: start
+  title: ''
+  type: Login
+  url: https://app.eightfold.ai
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://eightfold.ai/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://eightfold.ai/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.eightfold.ai/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://apidocs.eightfold.ai/changelog/eightfold-api-release-notes
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/eightfold-ai-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/eightfold-ai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/eightfold-ai-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/eightfold-ai-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/eightfold-ai-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/eightfold-ai-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/eightfold-ai-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/eightfold-ai-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/eightfold-ai-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: packages/eightfold-ai-packages.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/eightfold-ai-vulnerability-disclosure.yml
 created: '2026-05-23'
 description: Eightfold AI is an agentic Talent Intelligence Platform that combines enterprise HR data with insights from more than a billion career profiles to power talent acquisition, talent management, workforce planning, internal mobility, resource management, and AI-driven interviewing. The platform is delivered as enterprise SaaS with sales-led onboarding; APIs and ATS/HRIS integrations are exposed to customers and certified partners (e.g. Oracle Fusion Cloud Recruiting) under contract rather than via a public, self-serve developer portal.
 finops:
@@ -108,44 +196,61 @@ finops:
   slug: eightfold-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eightfold-ai.png
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: eightfold-ai-mcp.yml
+  slug: eightfold-ai-mcpyml
+modified: '2026-08-08'
 name: Eightfold AI
 nav: Providers
 network: true
 overview: 'Eightfold AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Intelligence, Talent Acquisition, Talent Management, AI Interviewing, and HR Tech.
 
 
-  Eightfold AI''s developer surface includes engineering blog and 9 more developer resources.'
+  Eightfold AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 26 more developer resources.'
 plans:
 - name: Eightfold Ai Plans Pricing
   plan_count: 1
   slug: eightfold-ai-plans-pricing
-random_paper: 67
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Eightfold Ai Rate Limits
   slug: eightfold-ai-rate-limits
+scopes:
+- name: Eightfold Ai Scopes
+  scope_count: 0
+  slug: eightfold-ai-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 18.8
-  delta: 0.0
+  band: developing
+  composite: 44.8
+  delta: 26.0
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 68.4
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 52.6
   previous_composite: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-06-20T180516.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-07-25T213004.png
 security:
+- kind: authentication
+  name: Eightfold Ai Authentication
+  slug: eightfold-ai-authentication
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Eightfold Ai Domain Security
   slug: eightfold-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Eightfold Ai Vulnerability Disclosure
+  slug: eightfold-ai-vulnerability-disclosure
+  summary_line: contact published
 - kind: trust-center
   name: Eightfold Ai Trust Center
   slug: eightfold-ai-trust-center

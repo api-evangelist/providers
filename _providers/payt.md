@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 22 more developer resources.'
-random_paper: 107
+random_paper: 98
 scopes:
 - name: Payt Scopes
   scope_count: 0
@@ -267,8 +267,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:
 - kind: authentication
   name: Payt Authentication

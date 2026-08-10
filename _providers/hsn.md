@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: 'HSN Webinar: AI-Based Statistics for the Future'
   url: https://bandungkota.bps.go.id/en/news/2025/09/29/1514/hsn-webinar--ai-based-statistics-for-the-future.html
-random_paper: 103
+random_paper: 97
 score:
   band: minimal
   composite: 3.2
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsn/refs/heads/main/screenshots/hsn-2026-06-20T182901.png
 security:

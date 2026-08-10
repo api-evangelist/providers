@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Zudoku Plans Pricing
   plan_count: 3
   slug: zudoku-plans-pricing
-random_paper: 109
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Zudoku Rate Limits
@@ -176,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/screenshots/zudoku-2026-06-20T201959.png
 security:

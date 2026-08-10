@@ -18,19 +18,115 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 35
 apis:
-- description: The public Open API for Cyware Intel Exchange, Cyware's threat intelligence platform. Covers threat data objects and their relations, quick-add and detailed STIX intel submission, intel import, enrich
-  name: Cyware Intel Exchange (CTIX) v3 Open API
-  slug: cyware-intel-exchange-ctix-v3-open-api
-- description: The public Open API for Cyware Orchestrate, Cyware's security orchestration, automation and response platform. Covers playbook listing, execution, run logs, node results, exports and bulk termination;
-  name: Cyware Orchestrate (CO) Open API
-  slug: cyware-orchestrate-co-open-api
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
   name: Cyware MCP Server
   slug: cyware-mcp-server
-artifact_total: 9
+- description: Administration
+  name: Cyware Administration API
+  slug: cyware-administration-api
+- description: Allowed Indicators
+  name: Cyware Allowed Indicators API
+  slug: cyware-allowed-indicators-api
+- description: Analytics
+  name: Cyware Analytics API
+  slug: cyware-analytics-api
+- description: ATT&CK Navigator
+  name: Cyware ATT&CK Navigator API
+  slug: cyware-att-ck-navigator-api
+- description: Authentication
+  name: Cyware Authentication API
+  slug: cyware-authentication-api
+- description: Code Snippets
+  name: Cyware Code Snippets API
+  slug: cyware-code-snippets-api
+- description: Create Intel via Open API
+  name: Cyware Create Intel via Open API API
+  slug: cyware-create-intel-via-open-api-api
+- description: Custom Email Templates
+  name: Cyware Custom Email Templates API
+  slug: cyware-custom-email-templates-api
+- description: Dashboards
+  name: Cyware Dashboards API
+  slug: cyware-dashboards-api
+- description: Detailed Submission
+  name: Cyware Detailed Submission API
+  slug: cyware-detailed-submission-api
+- description: Events
+  name: Cyware Events API
+  slug: cyware-events-api
+- description: Fang/Defang
+  name: Cyware Fang/Defang API
+  slug: cyware-fang-defang-api
+- description: Global Notes
+  name: Cyware Global Notes API
+  slug: cyware-global-notes-api
+- description: Global Tasks
+  name: Cyware Global Tasks API
+  slug: cyware-global-tasks-api
+- description: Import Intel
+  name: Cyware Import Intel API
+  slug: cyware-import-intel-api
+- description: Integrations
+  name: Cyware Integrations API
+  slug: cyware-integrations-api
+- description: Persistent List
+  name: Cyware Persistent List API
+  slug: cyware-persistent-list-api
+- description: Ping
+  name: Cyware Ping API
+  slug: cyware-ping-api
+- description: PIR
+  name: Cyware PIR API
+  slug: cyware-pir-api
+- description: Playbooks
+  name: Cyware Playbooks API
+  slug: cyware-playbooks-api
+- description: Quick Add Intel
+  name: Cyware Quick Add Intel API
+  slug: cyware-quick-add-intel-api
+- description: Reports
+  name: Cyware Reports API
+  slug: cyware-reports-api
+- description: RSS Feeds
+  name: Cyware RSS Feeds API
+  slug: cyware-rss-feeds-api
+- description: Rules
+  name: Cyware Rules API
+  slug: cyware-rules-api
+- description: Status Check
+  name: Cyware Status Check API
+  slug: cyware-status-check-api
+- description: Tag Groups
+  name: Cyware Tag Groups API
+  slug: cyware-tag-groups-api
+- description: Tags
+  name: Cyware Tags API
+  slug: cyware-tags-api
+- description: Threat Bulletin
+  name: Cyware Threat Bulletin API
+  slug: cyware-threat-bulletin-api
+- description: Threat Data
+  name: Cyware Threat Data API
+  slug: cyware-threat-data-api
+- description: Threat Data Objects
+  name: Cyware Threat Data Objects API
+  slug: cyware-threat-data-objects-api
+- description: Threat Investigation
+  name: Cyware Threat Investigation API
+  slug: cyware-threat-investigation-api
+- description: Threat Mailbox
+  name: Cyware Threat Mailbox API
+  slug: cyware-threat-mailbox-api
+- description: Watchlist
+  name: Cyware Watchlist API
+  slug: cyware-watchlist-api
+- description: Webhooks
+  name: Cyware Webhooks API
+  slug: cyware-webhooks-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Cyware Orchestrate Webhooks
@@ -169,27 +265,27 @@ modified: '2026-08-04'
 name: Cyware
 nav: Providers
 network: true
-overview: 'Cyware publishes 2 APIs on the [APIs.io](https://apis.io/) network: Intel Exchange (CTIX) v3 Open API and Orchestrate (CO) Open API. Tagged areas include threat-intelligence, cyber-threat-intelligence, cybersecurity, security-operations, and threat-intelligence-platform.
+overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include threat-intelligence, cyber-threat-intelligence, cybersecurity, security-operations, and threat-intelligence-platform.
 
 
   The Cyware catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 86
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Cyware Rate Limits
   slug: cyware-rate-limits
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 55.2
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.3
+    contract_quality: 64.2
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 56.2
@@ -203,8 +299,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:
 - kind: authentication
   name: Cyware Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -26,12 +26,27 @@ agentic_access:
   operation_count: 58
   slug: onpay-agentic-access
   summary_line: 58 operations · 28 acting
-api_count: 1
+api_count: 6
 apis:
-- description: Partner-only REST API (version 2.0.0) for OnPay's payroll and HR platform. 58 operations across six tags — Employees, Company, Deductions, Pay-runs, Reports, and User — covering employee CRUD, employe
-  name: OnPay API
-  slug: onpay-api
-artifact_total: 6
+- description: The Company API from OnPay — 17 operation(s) for company.
+  name: OnPay Company API
+  slug: onpay-company-api
+- description: The Deductions API from OnPay — 7 operation(s) for deductions.
+  name: OnPay Deductions API
+  slug: onpay-deductions-api
+- description: The Employees API from OnPay — 14 operation(s) for employees.
+  name: OnPay Employees API
+  slug: onpay-employees-api
+- description: The Pay-runs API from OnPay — 2 operation(s) for pay-runs.
+  name: OnPay Pay Runs API
+  slug: onpay-pay-runs-api
+- description: The Reports API from OnPay — 2 operation(s) for reports.
+  name: OnPay Reports API
+  slug: onpay-reports-api
+- description: The User API from OnPay — 1 operation(s) for user.
+  name: OnPay User API
+  slug: onpay-user-api
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -145,11 +160,11 @@ modified: '2026-08-04'
 name: OnPay
 nav: Providers
 network: true
-overview: 'OnPay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include payroll, human-resources, employee-benefits, payroll-tax, and small-business.
+overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Company API, Deductions API, Employees API, and 3 more. Tagged areas include payroll, human-resources, employee-benefits, payroll-tax, and small-business.
 
 
   OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 99
+random_paper: 87
 scopes:
 - name: Onpay Scopes
   scope_count: 6
@@ -157,24 +172,25 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.0
-  delta: -2.1
+  composite: 43.2
+  delta: 0.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 41.1
+    contract_quality: 39.5
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:
 - kind: authentication
   name: Onpay Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'RealGifts full REST API for embedding a gift shop, reward store, and wishlist into a platform: browse a 1M+ gift catalog, create and send gifts, handle privacy-preserving recipient redemption, and tra'
@@ -147,7 +147,7 @@ overview: 'Real Gift Services publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Real Gift Services'' developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 109
+random_paper: 64
 score:
   band: developing
   composite: 42.1
@@ -161,7 +161,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 42.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

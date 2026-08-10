@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ overview: 'Linc''well is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Linc''well''s developer surface includes engineering blog, support, product news, and 11 more developer resources.'
-random_paper: 17
+random_paper: 91
 score:
   band: minimal
   composite: 12.3
@@ -120,7 +120,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingxi-linc-well/refs/heads/main/screenshots/lingxi-linc-well-2026-07-25T225250.png
 security:

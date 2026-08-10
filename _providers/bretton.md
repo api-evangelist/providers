@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,27 +95,43 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/bretton-vulnerability-disclosure.yml
+- group: company
+  title: ''
+  type: About
+  url: https://www.bretton.com/company
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.bretton.com/newsroom
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.bretton.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bretton.com/book-demo
 created: '2026-07-17'
 description: Bretton AI (formerly Greenlite AI) is a San Francisco fintech building AI-native operational infrastructure for financial institutions' back-office and financial-crime-compliance workflows. Its audit-ready AI agents automate AML alert investigation, KYC/CDD/EDD, sanctions screening, and transaction monitoring inside a bank's existing systems, replacing traditional BPO with agentic automation backed by QA/QC and full audit trails. The platform ships 30+ pre-built skills, 180+ data sources, a natural-language agent builder, and native connectors to core banking, document review, and compliance systems. Bretton is used by OCC-, FDIC-, and Federal Reserve-regulated banks and platforms including Robinhood, Mercury, Gusto, Lead Bank, and Coastal Community Bank, and raised a $75M Series B led by Sapphire Ventures (with Greylock, Thomson Reuters Ventures, and Canvas Ventures) in February 2026. The developer documentation portal is access-gated and there is no public API.
 image: https://cdn.prod.website-files.com/695ee158104b9c8342c9fd7e/6a440425431eff52b8bd9909_Open%20Graph.jpeg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Bretton
 nav: Providers
 network: true
 overview: 'Bretton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, RegTech, Financial Crime Compliance, and AML.
 
 
-  Bretton''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
-random_paper: 88
+  Bretton''s developer surface includes documentation, engineering blog, signup flow, support, and 16 more developer resources.'
+random_paper: 70
 score:
   band: emerging
-  composite: 22.8
-  delta: 0.0
+  composite: 23.7
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 26.3
@@ -123,9 +139,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/bretton/refs/heads/main/screenshots/bretton-2026-07-25T203752.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/bretton/refs/heads/main/screenshots/bretton-2026-07-25T203754.png
 security:
 - kind: domain-security
   name: Bretton Domain Security

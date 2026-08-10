@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 24 more developer resources.'
-random_paper: 89
+random_paper: 62
 score:
   band: developing
   composite: 45.7
@@ -225,7 +225,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

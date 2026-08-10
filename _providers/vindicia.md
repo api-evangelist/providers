@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST API for subscription management and recurring billing — accounts, subscriptions, campaigns, tokens/virtual currency, and payment operations.
@@ -130,7 +130,7 @@ overview: 'Vindicia publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Vindicia''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 11 more developer resources.'
-random_paper: 48
+random_paper: 27
 score:
   band: thin
   composite: 36.5
@@ -150,7 +150,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

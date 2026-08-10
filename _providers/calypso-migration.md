@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Migration support for the Nasdaq Calypso capital markets platform, enabling migration of data and configurations between Calypso environments. Typical engagements cover version upgrades, data model tr
@@ -80,7 +80,7 @@ plans:
 - name: Calypso Migration Plans Pricing
   plan_count: 3
   slug: calypso-migration-plans-pricing
-random_paper: 83
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Calypso Migration Rate Limits
@@ -104,7 +104,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/screenshots/calypso-migration-2026-06-20T173907.png
 security:

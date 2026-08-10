@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ overview: 'Literati is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Literati''s developer surface includes support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 71
+random_paper: 50
 score:
   band: emerging
   composite: 18.5
@@ -134,7 +134,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/literati/refs/heads/main/screenshots/literati-2026-07-25T225330.png
 security:

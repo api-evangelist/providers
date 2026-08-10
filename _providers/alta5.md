@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -122,7 +122,7 @@ overview: 'Alta5 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alta5''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: thin
   composite: 37.3
@@ -142,7 +142,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alta5/refs/heads/main/screenshots/alta5-2026-07-25T195813.png
 security:

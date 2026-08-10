@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ overview: 'Fyndiq publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Fyndiq''s developer surface includes documentation, API reference, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 86
+random_paper: 71
 score:
   band: thin
   composite: 32.3
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png
 security:

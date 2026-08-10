@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -113,7 +113,7 @@ plans:
 - name: Logic Apps Plans Pricing
   plan_count: 3
   slug: logic-apps-plans-pricing
-random_paper: 103
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Logic Apps Rate Limits
@@ -143,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logic-apps/refs/heads/main/screenshots/logic-apps-2026-06-20T184652.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -734,7 +734,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 78
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits
@@ -782,7 +782,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

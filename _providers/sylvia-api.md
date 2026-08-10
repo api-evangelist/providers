@@ -18,13 +18,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: Reddit content as JSON — posts, recursive comment threads, subreddits, users, a live feed and bulk datasets.
-  name: Sylvia API
-  slug: sylvia-api
-artifact_total: 2
+- description: The Comments API from Sylvia API — 2 operation(s) for comments.
+  name: Sylvia API Comments API
+  slug: sylvia-api-comments-api
+- description: The Datasets API from Sylvia API — 1 operation(s) for datasets.
+  name: Sylvia API Datasets API
+  slug: sylvia-api-datasets-api
+- description: The Live API from Sylvia API — 1 operation(s) for live.
+  name: Sylvia API Live API
+  slug: sylvia-api-live-api
+- description: The Posts API from Sylvia API — 2 operation(s) for posts.
+  name: Sylvia API Posts API
+  slug: sylvia-api-posts-api
+- description: The Subreddits API from Sylvia API — 2 operation(s) for subreddits.
+  name: Sylvia API Subreddits API
+  slug: sylvia-api-subreddits-api
+- description: The Usage API from Sylvia API — 1 operation(s) for usage.
+  name: Sylvia API Usage API
+  slug: sylvia-api-usage-api
+- description: The Users API from Sylvia API — 3 operation(s) for users.
+  name: Sylvia API Users API
+  slug: sylvia-api-users-api
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -46,20 +64,20 @@ modified: '2026-08-04'
 name: Sylvia API
 nav: Providers
 network: true
-overview: 'Sylvia API publishes 1 API on the [APIs.io](https://apis.io/) network: Sylvia API. Tagged areas include Reddit, Social, Data, Search, and Comments.
+overview: 'Sylvia API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Datasets API, Live API, and 4 more. Tagged areas include Reddit, Social, Data, Search, and Comments.
 
 
   Sylvia API''s developer surface includes authentication and 2 more developer resources.'
-random_paper: 6
+random_paper: 95
 score:
   band: emerging
-  composite: 24.9
-  delta: 0.0
+  composite: 25.6
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.5
+    contract_quality: 61.2
     developer_ergonomics: 10.9
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 24.9
@@ -70,7 +88,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

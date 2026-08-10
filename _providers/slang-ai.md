@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,25 +79,33 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/slang-ai-llms.txt
+- group: company
+  title: ''
+  type: About
+  url: https://www.slang.ai/about
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
 created: '2026-07-17'
 description: Slang AI is a voice-AI phone-answering and reservation platform for restaurants. Its customizable virtual phone agent answers every inbound call 24/7 in a natural, human-like voice, instantly responds to guest inquiries, and automatically manages reservations, with official integrations to OpenTable, SevenRooms, Tripleseat, Yelp, and Fishbowl. Founded by former Spotify data scientists, Slang AI reports 96%+ guest satisfaction (CSAT), 50% more phone reservations, and up to 200 staff hours saved per month. It is offered as a hosted SaaS product across Core, Premium, and Enterprise plans; at the time of profiling it exposes no public developer API, OpenAPI specification, SDKs, or developer portal.
 image: https://cdn.prod.website-files.com/61aa7a8f9272d51e4f71a7c9/687bb6a56d9bb33edbe30671_Frame%201437255244.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Slang Ai
 nav: Providers
 network: true
 overview: 'Slang Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice AI, Restaurants, Conversational AI, and Reservations.
 
 
-  Slang Ai''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 102
+  Slang Ai''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
+random_paper: 84
 score:
   band: emerging
-  composite: 18.7
-  delta: 0.0
+  composite: 20.3
+  delta: 1.6
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 68.5
@@ -105,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

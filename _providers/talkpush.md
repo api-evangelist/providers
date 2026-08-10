@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: thin
   composite: 40.7
@@ -216,7 +216,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

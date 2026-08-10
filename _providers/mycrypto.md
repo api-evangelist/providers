@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'MyCrypto is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MyCrypto''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 112
+random_paper: 91
 score:
   band: minimal
   composite: 8.5
@@ -87,8 +87,9 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mycrypto/refs/heads/main/screenshots/mycrypto-2026-08-07T184516.png
 security:
 - kind: domain-security
   name: Mycrypto Domain Security

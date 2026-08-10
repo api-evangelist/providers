@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Matter publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Matter''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, signup flow, and 23 more developer resources.'
-random_paper: 88
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Matter Rate Limits
@@ -222,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/screenshots/matter-2026-07-25T230422.png
 security:

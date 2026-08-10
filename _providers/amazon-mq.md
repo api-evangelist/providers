@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -861,7 +861,7 @@ plans:
 - name: Amazon Mq Plans Pricing
   plan_count: 3
   slug: amazon-mq-plans-pricing
-random_paper: 9
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Amazon Mq Rate Limits
@@ -903,7 +903,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/screenshots/amazon-mq-2026-06-20T171747.png
 security:

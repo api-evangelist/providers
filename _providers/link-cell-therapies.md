@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'Link Cell Therapies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Link Cell Therapies'' developer surface includes product news and 11 more developer resources.'
-random_paper: 93
+random_paper: 45
 score:
   band: minimal
   composite: 9.5
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/link-cell-therapies/refs/heads/main/screenshots/link-cell-therapies-2026-07-25T225250.png
 security:

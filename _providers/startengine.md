@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,10 +108,11 @@ overview: 'StartEngine is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   StartEngine''s developer surface includes engineering blog, support, signup flow, pricing, and 11 more developer resources.'
-random_paper: 58
+random_paper: 28
 score:
   band: emerging
   composite: 18.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -119,6 +120,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 18.6
   regulatory:
     applies: true
     matched_via: tags
@@ -126,7 +128,8 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Startengine Domain Security

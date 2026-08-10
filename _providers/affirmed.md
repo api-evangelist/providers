@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Affirmed Networks
 nav: Providers
 network: true
 overview: Affirmed Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, 5G, and Mobile Core.
-random_paper: 39
+random_paper: 18
 score:
   band: minimal
   composite: 10.7
@@ -76,7 +76,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirmed/refs/heads/main/screenshots/affirmed-2026-07-25T181740.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Viewabo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Viewabo''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: emerging
   composite: 17.3
@@ -105,7 +105,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

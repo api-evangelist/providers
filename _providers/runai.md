@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 62
 apis:
 - description: Access Keys allow users to authenticate and interact programmatically with the NVIDIA Run:ai API. Each access key consists of a client ID and secret that can be used to obtain authentication tokens. A
@@ -250,7 +250,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/runai-openapi-original.json
+  url: openapi/_original/runai-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -339,14 +339,14 @@ overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 20 more developer resources.'
-random_paper: 91
+random_paper: 79
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 47.7
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
@@ -362,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

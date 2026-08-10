@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-06'
+  score: 32.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -76,8 +76,11 @@ apis:
 - description: The Workspace Members API from Attio — 2 operation(s) for workspace members.
   name: Attio Workspace Members API
   slug: attio-workspace-members-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: Attio REST API
+  slug: open-attio-com
 - collection_type: open
   name: Attio REST API
   slug: open-attio
@@ -130,19 +133,43 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.attio.com/llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/attio-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/attio-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/attio-finops.yml
 created: '2026-05-11'
 description: Attio is a modern, flexible, and data-driven customer relationship management (CRM) platform that lets revenue teams build a CRM around their unique data model with customizable objects, attributes, lists, and workflows. Attio syncs contacts and companies from email and calendar, enriches them with data, and powers reporting, sequences, and automations. The Attio REST API exposes full CRUD access to records, lists, objects, attributes, tasks, notes, threads, comments, and webhooks using Bearer token authentication and a public OpenAPI specification.
+finops:
+- name: Attio Finops
+  service_category: Business Applications
+  slug: attio-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-08'
 name: Attio
 nav: Providers
 network: true
 overview: 'Attio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Call Recordings API, Comments API, and 13 more. Tagged areas include CRM, Customer Relationship Management, Sales, Contacts, and Companies.
 
 
-  Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 93
+  Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 11 more developer resources.'
+plans:
+- name: Attio Plans Pricing
+  plan_count: 4
+  slug: attio-plans-pricing
+random_paper: 81
+rate_limits:
+- limit_count: 3
+  name: Attio Rate Limits
+  slug: attio-rate-limits
 scopes:
 - name: Attio Scopes
   scope_count: 7
@@ -150,15 +177,15 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 40.5
+  delta: 12.0
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 50.0
     contract_quality: 57.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 36.8
   previous_composite: 28.5
   provenance:
     agentic_access: derived
@@ -168,9 +195,9 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-06-20T172546.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-07-25T201641.png
 security:
 - kind: authentication
   name: Attio Authentication

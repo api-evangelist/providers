@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/paywithmybank-openapi-original.yml
+  url: openapi/_original/paywithmybank-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -228,7 +228,7 @@ overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://ap
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 60
+random_paper: 24
 score:
   band: developing
   composite: 48.4
@@ -258,8 +258,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:
 - kind: authentication
   name: Paywithmybank Authentication

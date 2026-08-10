@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: enhance
 nav: Providers
 network: true
 overview: enhance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, 500 Global, Portfolio Company, and VC-Backed.
-random_paper: 44
+random_paper: 26
 score:
   band: minimal
   composite: 4.1
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enhance/refs/heads/main/screenshots/enhance-2026-07-25T213358.png
 security:

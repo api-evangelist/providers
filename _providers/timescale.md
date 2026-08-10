@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-06'
+  score: 49.3
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -26,18 +26,45 @@ agentic_access:
   operation_count: 87
   slug: timescale-agentic-access
   summary_line: 87 operations · 57 acting · 5 human-in-the-loop
-api_count: 3
+api_count: 12
 apis:
-- description: The Tiger Cloud REST API creates, resizes, forks, starts, stops and configures managed PostgreSQL services, read replica sets, VPCs and VPC peerings over HTTP. Authentication is a project-scoped perso
-  name: Tiger Cloud API
-  slug: tiger-cloud-api
-- description: 'Ghost (ghost.build) is Tiger Data''s agent-oriented Postgres service — "give every agent its own database". The v0 REST API manages spaces, members and invites, databases (create, fork, pause, resume, '
-  name: Ghost API
-  slug: ghost-api
 - description: A publicly reachable, anonymous Model Context Protocol server (server name pg-aiguide) serving hybrid semantic + BM25 search over Tiger Cloud, TimescaleDB, PostgreSQL and PostGIS documentation, plus a
   name: Tiger Docs MCP Server
   slug: tiger-docs-mcp-server
-artifact_total: 9
+- description: The Analytics API from Timescale — 2 operation(s) for analytics.
+  name: Timescale Analytics API
+  slug: timescale-analytics-api
+- description: The Auth API from Timescale — 2 operation(s) for auth.
+  name: Timescale Auth API
+  slug: timescale-auth-api
+- description: The Feedback API from Timescale — 1 operation(s) for feedback.
+  name: Timescale Feedback API
+  slug: timescale-feedback-api
+- description: The Health API from Timescale — 1 operation(s) for health.
+  name: Timescale Health API
+  slug: timescale-health-api
+- description: The Invites API from Timescale — 3 operation(s) for invites.
+  name: Timescale Invites API
+  slug: timescale-invites-api
+- description: The Pricing API from Timescale — 1 operation(s) for pricing.
+  name: Timescale Pricing API
+  slug: timescale-pricing-api
+- description: The Projects API from Timescale — 1 operation(s) for projects.
+  name: Timescale Projects API
+  slug: timescale-projects-api
+- description: The Read Replica Sets API from Timescale — 6 operation(s) for read replica sets.
+  name: Timescale Read Replica Sets API
+  slug: timescale-read-replica-sets-api
+- description: Manage services, read replicas, and their associated actions.
+  name: Timescale Services API
+  slug: timescale-services-api
+- description: The Spaces API from Timescale — 31 operation(s) for spaces.
+  name: Timescale Spaces API
+  slug: timescale-spaces-api
+- description: Manage VPCs and their peering connections.
+  name: Timescale VP Cs API
+  slug: timescale-vpcs-api
+artifact_total: 18
 common:
 - group: agent
   title: ''
@@ -231,21 +258,23 @@ modified: '2026-08-05'
 name: Timescale
 nav: Providers
 network: true
-overview: 'Timescale publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tiger Cloud API and Ghost API. Tagged areas include Company, Database, PostgreSQL, Time Series, and Analytics.
+overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Feedback API, and 8 more. Tagged areas include Company, Database, PostgreSQL, Time Series, and Analytics.
 
 
   Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 38 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: strong
-  composite: 60.7
+  composite: 60.6
+  delta: -0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.7
+    contract_quality: 54.2
     developer_ergonomics: 90.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,7 +286,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Timescale Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The public, anonymously-readable WordPress REST content API served by inflammatix.com. Alongside the standard WordPress collections (posts, pages, media, categories, tags, comments, search) it exposes
@@ -142,7 +142,7 @@ overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Inflammatix''s developer surface includes support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 48
+random_paper: 18
 score:
   band: thin
   composite: 39.5
@@ -171,8 +171,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:
 - kind: authentication
   name: Inflammatix Authentication

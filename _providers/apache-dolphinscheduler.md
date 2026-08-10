@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -175,7 +175,7 @@ plans:
 - name: Apache Dolphinscheduler Plans Pricing
   plan_count: 3
   slug: apache-dolphinscheduler-plans-pricing
-random_paper: 104
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Apache Dolphinscheduler Rate Limits
@@ -202,7 +202,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 42.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/screenshots/apache-dolphinscheduler-2026-06-20T172053.png
 security:

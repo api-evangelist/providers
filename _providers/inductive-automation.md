@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -415,7 +415,7 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
 
 
   Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
-random_paper: 71
+random_paper: 17
 rules:
 - name: Inductive Automation API Rules
   rule_count: 5
@@ -453,7 +453,7 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:

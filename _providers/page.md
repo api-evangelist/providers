@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Page is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Page''s developer surface includes engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 74
+random_paper: 65
 score:
   band: emerging
   composite: 16.5
@@ -107,8 +107,9 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/page/refs/heads/main/screenshots/page-2026-08-07T191257.png
 security:
 - kind: domain-security
   name: Page Domain Security

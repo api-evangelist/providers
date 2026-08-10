@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 20
 apis:
 - description: Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported local payment methods. Backs merchant pay-in flo
@@ -240,7 +240,7 @@ overview: 'AstroPay publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   AstroPay''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, support, signup flow, and 22 more developer resources.'
-random_paper: 92
+random_paper: 71
 score:
   band: emerging
   composite: 23.6
@@ -260,7 +260,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/screenshots/astropay-2026-06-20T172512.png
 security:

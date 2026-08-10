@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Making and managing bookings.
@@ -114,7 +114,7 @@ overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Impala''s developer surface includes authentication, sandbox, and 12 more developer resources.'
-random_paper: 63
+random_paper: 48
 score:
   band: thin
   composite: 30.7
@@ -143,7 +143,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Matterworks is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Matterworks'' developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 89
+random_paper: 59
 score:
   band: emerging
   composite: 15.3
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matterworks/refs/heads/main/screenshots/matterworks-2026-07-25T230432.png
 security:

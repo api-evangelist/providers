@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Beechwood Data Systems
 nav: Providers
 network: true
 overview: Beechwood Data Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Telecommunications, Systems Integration, and Enterprise Software.
-random_paper: 89
+random_paper: 32
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: beechwood-data-systems
 tags:

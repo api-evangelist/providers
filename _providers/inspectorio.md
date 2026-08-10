@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 25
 apis:
 - description: The ANALYTICS API from Inspectorio — 2 operation(s) for analytics.
@@ -255,7 +255,7 @@ overview: 'Inspectorio publishes 25 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Inspectorio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 24 more developer resources.'
-random_paper: 69
+random_paper: 39
 score:
   band: strong
   composite: 56.2
@@ -278,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
 security:

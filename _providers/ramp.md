@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -362,7 +362,7 @@ plans:
 - name: Ramp Plans Pricing
   plan_count: 3
   slug: ramp-plans-pricing
-random_paper: 93
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Ramp Rate Limits
@@ -417,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

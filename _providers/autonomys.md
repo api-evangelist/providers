@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Auto Drive API API from Autonomys — 25 operation(s) for auto drive api.
@@ -151,7 +151,7 @@ overview: 'Autonomys publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 103
+random_paper: 79
 score:
   band: developing
   composite: 43.0
@@ -174,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:

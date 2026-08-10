@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'REST/XML API for managing the full Vulnerability Management Detection and Response lifecycle including asset inventory, scans, vulnerability findings, prioritization, and reports. Base URL varies per '
@@ -102,7 +102,7 @@ overview: 'Qualys publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Qualys'' developer surface includes documentation, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 106
+random_paper: 91
 score:
   band: emerging
   composite: 25.5
@@ -116,7 +116,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualys/refs/heads/main/screenshots/qualys-2026-06-20T192405.png
 security:

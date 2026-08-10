@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,14 +17,29 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 33.6
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
-- description: The anonymously readable WordPress REST API behind us.allotex.com. It exposes the 16 published corporate pages (Home, For Europe, About Us, Science, History, Conditions We Treat, Procedure, Refractive
+- description: Pages, posts, reusable blocks and navigation.
   name: Allotex Content API
   slug: allotex-content-api
-artifact_total: 4
+- description: Route index, cross-content search and the oEmbed provider endpoint.
+  name: Allotex Discovery API
+  slug: allotex-discovery-api
+- description: Public author records.
+  name: Allotex Identity API
+  slug: allotex-identity-api
+- description: The 218-item media library and its size variants.
+  name: Allotex Media API
+  slug: allotex-media-api
+- description: Registered post types, taxonomies and statuses.
+  name: Allotex Schema API
+  slug: allotex-schema-api
+- description: Categories and tags.
+  name: Allotex Taxonomy API
+  slug: allotex-taxonomy-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -164,26 +179,39 @@ modified: '2026-08-06'
 name: Allotex
 nav: Providers
 network: true
-overview: 'Allotex publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, medical-devices, ophthalmology, biologics, and vision-correction.
+overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Identity API, and 3 more. Tagged areas include Company, medical-devices, ophthalmology, biologics, and vision-correction.
 
 
   The Allotex catalog on APIs.io includes 1 JSON-LD context.
 
 
   Allotex''s developer surface includes support, authentication, and 29 more developer resources.'
-random_paper: 83
+random_paper: 65
 score:
-  band: thin
-  composite: 33.3
+  band: emerging
+  composite: 20.8
+  delta: 0.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 62.8
-    developer_ergonomics: 21.7
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 18.6
+    developer_ergonomics: 16.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 20.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:
 - kind: authentication
   name: Allotex Authentication

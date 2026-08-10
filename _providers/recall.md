@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: Admin endpoints
@@ -144,7 +144,7 @@ overview: 'Recall publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Recall''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 62
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Recall Rate Limits
@@ -171,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

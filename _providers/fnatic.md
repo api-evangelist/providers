@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ overview: 'Fnatic publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fnatic''s developer surface includes documentation, authentication, support, engineering blog, signup flow, YouTube channel, and 38 more developer resources.'
-random_paper: 64
+random_paper: 49
 scopes:
 - name: Fnatic Scopes
   scope_count: 4
@@ -253,8 +253,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/screenshots/fnatic-2026-08-07T165400.png
 security:
 - kind: authentication
   name: Fnatic Authentication

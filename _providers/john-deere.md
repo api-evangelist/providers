@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The John Deere API allows developers to access and integrate data from John Deere's connected agricultural equipment and software platforms. The API surfaces equipment performance, field conditions, m
@@ -84,7 +84,7 @@ plans:
 - name: John Deere Plans Pricing
   plan_count: 1
   slug: john-deere-plans-pricing
-random_paper: 89
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: John Deere Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 29.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png
 security:

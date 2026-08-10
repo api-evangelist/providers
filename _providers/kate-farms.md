@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Shopify Storefront GraphQL API as deployed on Kate Farms' own host. Anonymous introspection succeeded on 2026-08-04, returning 424 types, 35 root query fields and 41 mutations covering products, c
@@ -153,7 +153,7 @@ overview: 'Kate Farms publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kate Farms'' developer surface includes documentation, getting-started guide, authentication, support, signup flow, and 22 more developer resources.'
-random_paper: 99
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Kate Farms Rate Limits
@@ -186,8 +186,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kate-farms/refs/heads/main/screenshots/kate-farms-2026-08-07T171111.png
 security:
 - kind: authentication
   name: Kate Farms Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ overview: 'Physics Wallah is profiled on the [APIs.io](https://apis.io/) network
 
 
   Physics Wallah''s developer surface includes support and 6 more developer resources.'
-random_paper: 93
+random_paper: 57
 score:
   band: minimal
   composite: 10.8
@@ -86,7 +86,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

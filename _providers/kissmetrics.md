@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST API for programmatic access to Kissmetrics reports, segments, events, properties, and account metadata. Used to pull report data into dashboards, spreadsheets, and BI tools, and to export user se
@@ -90,7 +90,7 @@ overview: 'Kissmetrics publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kissmetrics'' developer surface includes documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 71
+random_paper: 41
 score:
   band: minimal
   composite: 10.6
@@ -104,7 +104,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:

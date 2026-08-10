@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
@@ -180,7 +180,7 @@ overview: 'YouScan publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 18 more developer resources.'
-random_paper: 92
+random_paper: 74
 score:
   band: developing
   composite: 52.1
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

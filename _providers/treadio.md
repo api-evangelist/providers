@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -345,7 +345,7 @@ overview: 'tread.io publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   tread.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 20 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: developing
   composite: 53.3
@@ -369,7 +369,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

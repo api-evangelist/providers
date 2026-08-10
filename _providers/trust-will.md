@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,10 +112,11 @@ overview: 'Trust & Will is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Trust & Will''s developer surface includes support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 46
+random_paper: 19
 score:
   band: emerging
   composite: 23.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -123,10 +124,12 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 10.5
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Trust Will Domain Security

@@ -18,13 +18,34 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: The anonymously readable WordPress REST API behind atsenatx.com. It exposes Atsena Therapeutics press releases and company news (posts), the program pages for ATSN-201/XLRS, ATSN-101/LCA1, ATSN-301/US
-  name: Atsena Therapeutics Content API
-  slug: atsena-therapeutics-content-api
-artifact_total: 3
+- description: Post categories
+  name: Atsena Therapeutics Categories API
+  slug: atsena-therapeutics-categories-api
+- description: Route index, content types, taxonomies and post statuses
+  name: Atsena Therapeutics Discovery API
+  slug: atsena-therapeutics-discovery-api
+- description: Media library items
+  name: Atsena Therapeutics Media API
+  slug: atsena-therapeutics-media-api
+- description: oEmbed representation of site URLs
+  name: Atsena Therapeutics O Embed API
+  slug: atsena-therapeutics-oembed-api
+- description: 'Static site pages: programs, technology, clinical trials, patients, about'
+  name: Atsena Therapeutics Pages API
+  slug: atsena-therapeutics-pages-api
+- description: Press releases and company news
+  name: Atsena Therapeutics Posts API
+  slug: atsena-therapeutics-posts-api
+- description: Cross-content search over posts and pages
+  name: Atsena Therapeutics Search API
+  slug: atsena-therapeutics-search-api
+- description: Post tags
+  name: Atsena Therapeutics Tags API
+  slug: atsena-therapeutics-tags-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -105,7 +126,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/atsena-therapeutics-wp-rest-openapi.yml
+  url: openapi/_original/atsena-therapeutics-wp-rest-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -159,20 +180,20 @@ modified: '2026-08-02'
 name: Atsena Therapeutics
 nav: Providers
 network: true
-overview: 'Atsena Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Gene Therapy, Life Sciences, and Pharmaceuticals.
+overview: 'Atsena Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Gene Therapy, Life Sciences, and Pharmaceuticals.
 
 
   Atsena Therapeutics'' developer surface includes engineering blog, product news, support, authentication, and 27 more developer resources.'
-random_paper: 57
+random_paper: 6
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 30.3
+  delta: -0.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 60.5
+    contract_quality: 57.8
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 30.4
@@ -191,8 +212,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/screenshots/atsena-therapeutics-2026-08-07T161907.png
 security:
 - kind: authentication
   name: Atsena Therapeutics Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -189,7 +189,7 @@ plans:
 - name: Hbku Plans Pricing
   plan_count: 2
   slug: hbku-plans-pricing
-random_paper: 87
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Hbku Rate Limits
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/screenshots/hbku-2026-06-20T182545.png
 security:

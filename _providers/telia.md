@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
-random_paper: 75
+random_paper: 63
 scopes:
 - name: Telia Scopes
   scope_count: 2
@@ -321,7 +321,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

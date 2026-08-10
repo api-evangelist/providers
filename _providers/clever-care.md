@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ overview: 'Clever Care publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Clever Care''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 19 more developer resources.'
-random_paper: 80
+random_paper: 53
 scopes:
 - name: Clever Care Scopes
   scope_count: 4
@@ -199,21 +199,21 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 47.4
+  composite: 49.7
   delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 46.3
+    contract_quality: 49.7
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 47.4
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
@@ -224,9 +224,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.3
+    score: 86.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/screenshots/clever-care-2026-07-25T205602.png
 security:

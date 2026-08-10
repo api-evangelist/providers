@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases.
@@ -69,7 +69,7 @@ plans:
 - name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Plans Pricing
   plan_count: 3
   slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--plans-pricing
-random_paper: 111
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Rate Limits
@@ -93,7 +93,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/screenshots/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--2026-06-20T190024.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zeroclick''s developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: emerging
   composite: 19.8
@@ -136,7 +136,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

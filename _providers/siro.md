@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The Audit API from Siro — 1 operation(s) for audit.
@@ -165,7 +165,7 @@ overview: 'Siro publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 106
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Siro Rate Limits
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

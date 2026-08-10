@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Epic! Creations is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Epic! Creations'' developer surface includes pricing and 2 more developer resources.'
-random_paper: 74
+random_paper: 38
 score:
   band: minimal
   composite: 7.1
@@ -69,7 +69,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-creations/refs/heads/main/screenshots/epic-creations-2026-07-25T213516.png
 security:

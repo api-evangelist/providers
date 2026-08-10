@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for opendata.gov.je, a consistent JSON-over-HTTP interface over a catalog of 118 datasets. Standard actions include package_search, package_show, package_list, organization_list, group
@@ -84,7 +84,7 @@ plans:
 - name: Opendata Gov Je Plans Pricing
   plan_count: 1
   slug: opendata-gov-je-plans-pricing
-random_paper: 4
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Opendata Gov Je Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-gov-je/refs/heads/main/screenshots/opendata-gov-je-2026-06-20T190935.png
 security:

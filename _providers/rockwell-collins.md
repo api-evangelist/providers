@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -116,7 +116,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/flightaware-aeroapi-openapi.yml
+  url: openapi/_original/flightaware-aeroapi-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
-random_paper: 86
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Rockwell Collins Rate Limits
@@ -235,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png
 security:

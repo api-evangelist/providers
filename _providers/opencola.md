@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: OpenCola
 nav: Providers
 network: true
 overview: OpenCola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Decentralization, Local-First, and Personal Data.
-random_paper: 58
+random_paper: 37
 score:
   band: minimal
   composite: 5.7
@@ -66,8 +66,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opencola/refs/heads/main/screenshots/opencola-2026-08-07T190539.png
 security:
 - kind: domain-security
   name: Opencola Domain Security

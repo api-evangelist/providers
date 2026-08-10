@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -145,7 +145,7 @@ overview: 'Lemon Perfect publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Lemon Perfect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 86
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Lemon Perfect Rate Limits
@@ -172,8 +172,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/screenshots/lemon-perfect-2026-08-07T171544.png
 security:
 - kind: authentication
   name: Lemon Perfect Authentication

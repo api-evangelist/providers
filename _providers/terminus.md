@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The account-based marketing platform API behind Terminus (now the DemandScience ABM Platform). The API host api.terminusplatform.com is live and answers every anonymous request with HTTP 401 "Authenti
@@ -118,10 +118,11 @@ overview: 'Terminus publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Terminus'' developer surface includes documentation, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 96
+random_paper: 75
 score:
   band: emerging
   composite: 26.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -129,10 +130,12 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 13.2
+  previous_composite: 26.9
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Terminus Authentication

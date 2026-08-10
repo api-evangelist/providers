@@ -28,13 +28,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The Scryfall REST API exposes Magic - The Gathering card data, set metadata, Oracle rulings, symbology, catalogs of in-game data points, daily bulk-data exports, and card-object migration records. The
-  name: Scryfall API
-  slug: scryfall-api
-artifact_total: 68
+- description: Large daily exports of the entire Scryfall card database.
+  name: Scryfall Bulk Data API
+  slug: scryfall-bulk-data-api
+- description: Look up, search, and fetch Magic card objects in many ways.
+  name: Scryfall Cards API
+  slug: scryfall-cards-api
+- description: Convenience lists of Magic data points (card names, types, supertypes, etc.).
+  name: Scryfall Catalogs API
+  slug: scryfall-catalogs-api
+- description: Records of card-object migrations and merges.
+  name: Scryfall Migrations API
+  slug: scryfall-migrations-api
+- description: Oracle rulings, WotC release notes, and Scryfall notes for a card.
+  name: Scryfall Rulings API
+  slug: scryfall-rulings-api
+- description: 'List and retrieve Magic: The Gathering set metadata.'
+  name: Scryfall Sets API
+  slug: scryfall-sets-api
+- description: All card symbols and their semantics.
+  name: Scryfall Symbology API
+  slug: scryfall-symbology-api
+artifact_total: 74
 common:
 - group: build
   title: ''
@@ -334,7 +352,7 @@ modified: '2026-05-29'
 name: Scryfall
 nav: Providers
 network: true
-overview: 'Scryfall publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics, Magic The Gathering, Card Data, Open Data, and Free.
+overview: 'Scryfall publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Cards API, Catalogs API, and 4 more. Tagged areas include Games And Comics, Magic The Gathering, Card Data, Open Data, and Free.
 
 
   The Scryfall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -345,7 +363,7 @@ plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
   slug: scryfall-plans-pricing
-random_paper: 73
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Scryfall Rate Limits
@@ -373,9 +391,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.7
+    contract_quality: 64.3
     developer_ergonomics: 52.2
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 57.6
@@ -392,7 +410,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

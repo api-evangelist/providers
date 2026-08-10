@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Essendant invests in marketing innovations to help dealers ...
   url: https://www.essendant.com/wp-content/uploads/2024/03/Independent-Dealer-2024-Essendant-Marketing-new.pdf
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 3.5
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/screenshots/essendant-2026-06-20T180823.png
 security:

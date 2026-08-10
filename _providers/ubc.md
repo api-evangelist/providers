@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -215,7 +215,7 @@ plans:
 - name: Ubc Plans Pricing
   plan_count: 2
   slug: ubc-plans-pricing
-random_paper: 88
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Ubc Rate Limits
@@ -263,7 +263,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:

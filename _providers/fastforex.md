@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Fastforex Plans Pricing
   plan_count: 4
   slug: fastforex-plans-pricing
-random_paper: 74
+random_paper: 50
 rate_limits:
 - limit_count: 9
   name: Fastforex Rate Limits
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/screenshots/fastforex-2026-06-20T181050.png
 security:

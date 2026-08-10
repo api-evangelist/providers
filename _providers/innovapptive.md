@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The external Operator Rounds (mRounds) REST API on the Innovapptive Connected Business Operations host. It lets a tenant programmatically list published round plans, read a specific round plan with it
@@ -166,7 +166,7 @@ overview: 'Innovapptive publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Innovapptive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, training material, and 25 more developer resources.'
-random_paper: 72
+random_paper: 39
 score:
   band: thin
   composite: 30.7
@@ -182,8 +182,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/innovapptive/refs/heads/main/screenshots/innovapptive-2026-08-07T170708.png
 security:
 - kind: authentication
   name: Innovapptive Authentication

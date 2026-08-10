@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 7
+random_paper: 84
 score:
   band: strong
   composite: 59.8
@@ -220,8 +220,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
 security:
 - kind: authentication
   name: Nitro Software Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -87,7 +87,11 @@ apis:
 - description: Real-time event webhook subscriptions
   name: Snov.io Webhooks API
   slug: snov-io-webhooks-api
-artifact_total: 24
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Snov.io API
+  slug: open-snov
 common:
 - group: agent
   title: ''
@@ -149,6 +153,10 @@ common:
   title: ''
   type: FinOps
   url: finops/snov-io-finops.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/snov-io-scopes.yml
 created: '2026-06-12'
 description: Snov.io is a sales automation and lead generation platform serving over 300,000 companies across 180+ countries. The platform provides a REST API enabling developers to programmatically access email finding, domain search, email verification, drip campaign management, and LinkedIn prospect automation. Authentication uses OAuth 2.0 client credentials to obtain short-lived Bearer tokens, and all API operations consume credits from the account balance. The API covers the full sales outreach lifecycle from prospect discovery and contact enrichment through multi-channel campaign execution and CRM pipeline management.
 finops:
@@ -166,7 +174,7 @@ jsonld:
   property_count: 28
   slug: snov-io-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-08-08'
 name: Snov.io
 nav: Providers
 network: true
@@ -176,16 +184,21 @@ overview: 'Snov.io publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Snov.io catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Snov.io''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Snov.io''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Snov Io Plans Pricing
   plan_count: 7
   slug: snov-io-plans-pricing
-random_paper: 37
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Snov Io Rate Limits
   slug: snov-io-rate-limits
+scopes:
+- name: Snov Io Scopes
+  scope_count: 0
+  slug: snov-io-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
   composite: 45.2
@@ -206,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:

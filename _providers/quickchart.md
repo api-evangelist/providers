@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Generate chart and graph images
@@ -64,7 +64,7 @@ name: QuickChart
 nav: Providers
 network: true
 overview: QuickChart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 54
+random_paper: 27
 score:
   band: minimal
   composite: 7.3
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickchart/refs/heads/main/screenshots/quickchart-2026-06-20T192429.png
 security:

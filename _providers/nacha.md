@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: thin
   composite: 36.5
@@ -236,8 +236,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:
 - kind: authentication
   name: Nacha Authentication

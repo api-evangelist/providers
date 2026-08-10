@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -237,7 +237,7 @@ plans:
 - name: Fazz Plans Pricing
   plan_count: 2
   slug: fazz-plans-pricing
-random_paper: 104
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Fazz Rate Limits
@@ -271,7 +271,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

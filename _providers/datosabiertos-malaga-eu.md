@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Portal Datos Abiertos Ayuntamiento de Málaga, a consistent JSON-over-HTTP interface over a catalog of 1,368 datasets. Standard actions include package_search, package_show, package
@@ -84,7 +84,7 @@ plans:
 - name: Datosabiertos Malaga Eu Plans Pricing
   plan_count: 1
   slug: datosabiertos-malaga-eu-plans-pricing
-random_paper: 55
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Datosabiertos Malaga Eu Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png
 security:

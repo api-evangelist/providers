@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Upmem is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Upmem''s developer surface includes documentation, getting-started guide, support, CLI, sandbox, changelog, and 7 more developer resources.'
-random_paper: 96
+random_paper: 84
 score:
   band: emerging
   composite: 18.3
@@ -109,7 +109,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

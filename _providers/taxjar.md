@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Taxjar Plans Pricing
   plan_count: 2
   slug: taxjar-plans-pricing
-random_paper: 85
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Taxjar Rate Limits
@@ -263,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png
 security:

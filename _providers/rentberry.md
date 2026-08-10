@@ -18,16 +18,148 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 46
 apis:
-- description: Versioned REST API behind the Rentberry rental marketplace, described by an OpenAPI 3.0.0 document published in the Swagger UI at https://api.rentberry.com/docs. 188 paths / 220 operations across 44 t
-  name: Rentberry API
-  slug: rentberry-api
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
   name: Rentberry Geocoder (gRPC)
   slug: rentberry-geocoder-grpc
-artifact_total: 4
+- description: Applications
+  name: Rentberry Applications API
+  slug: rentberry-applications-api
+- description: Auth
+  name: Rentberry Auth API
+  slug: rentberry-auth-api
+- description: Breadcrumbs
+  name: Rentberry Breadcrumbs API
+  slug: rentberry-breadcrumbs-api
+- description: Complaints
+  name: Rentberry Complaints API
+  slug: rentberry-complaints-api
+- description: Contract Templates
+  name: Rentberry Contract Templates API
+  slug: rentberry-contract-templates-api
+- description: Contracts
+  name: Rentberry Contracts API
+  slug: rentberry-contracts-api
+- description: Devices
+  name: Rentberry Devices API
+  slug: rentberry-devices-api
+- description: Events
+  name: Rentberry Events API
+  slug: rentberry-events-api
+- description: Features
+  name: Rentberry Features API
+  slug: rentberry-features-api
+- description: Integration Requests
+  name: Rentberry Integration Requests API
+  slug: rentberry-integration-requests-api
+- description: Landing Pages
+  name: Rentberry Landing Pages API
+  slug: rentberry-landing-pages-api
+- description: Landing Statistics
+  name: Rentberry Landing Statistics API
+  slug: rentberry-landing-statistics-api
+- description: Leads
+  name: Rentberry Leads API
+  slug: rentberry-leads-api
+- description: Listing Pictures
+  name: Rentberry Listing Pictures API
+  slug: rentberry-listing-pictures-api
+- description: Listings
+  name: Rentberry Listings API
+  slug: rentberry-listings-api
+- description: Location
+  name: Rentberry Location API
+  slug: rentberry-location-api
+- description: Messages
+  name: Rentberry Messages API
+  slug: rentberry-messages-api
+- description: Mobile Search
+  name: Rentberry Mobile Search API
+  slug: rentberry-mobile-search-api
+- description: Newsletter
+  name: Rentberry Newsletter API
+  slug: rentberry-newsletter-api
+- description: Notifications
+  name: Rentberry Notifications API
+  slug: rentberry-notifications-api
+- description: OAuth
+  name: Rentberry O Auth API
+  slug: rentberry-oauth-api
+- description: Payments
+  name: Rentberry Payments API
+  slug: rentberry-payments-api
+- description: Providers
+  name: Rentberry Providers API
+  slug: rentberry-providers-api
+- description: Registration
+  name: Rentberry Registration API
+  slug: rentberry-registration-api
+- description: Rental
+  name: Rentberry Rental API
+  slug: rentberry-rental-api
+- description: Rental Payments
+  name: Rentberry Rental Payments API
+  slug: rentberry-rental-payments-api
+- description: Rental Subscription
+  name: Rentberry Rental Subscription API
+  slug: rentberry-rental-subscription-api
+- description: Rentals
+  name: Rentberry Rentals API
+  slug: rentberry-rentals-api
+- description: Resources
+  name: Rentberry Resources API
+  slug: rentberry-resources-api
+- description: Saved Search
+  name: Rentberry Saved Search API
+  slug: rentberry-saved-search-api
+- description: Screening
+  name: Rentberry Screening API
+  slug: rentberry-screening-api
+- description: Screening Reports
+  name: Rentberry Screening Reports API
+  slug: rentberry-screening-reports-api
+- description: Search
+  name: Rentberry Search API
+  slug: rentberry-search-api
+- description: SEO Redirects
+  name: Rentberry SEO Redirects API
+  slug: rentberry-seo-redirects-api
+- description: SEO URLs
+  name: Rentberry SEO URLs API
+  slug: rentberry-seo-urls-api
+- description: SMS
+  name: Rentberry SMS API
+  slug: rentberry-sms-api
+- description: Subscriptions
+  name: Rentberry Subscriptions API
+  slug: rentberry-subscriptions-api
+- description: Translation
+  name: Rentberry Translation API
+  slug: rentberry-translation-api
+- description: User
+  name: Rentberry User API
+  slug: rentberry-user-api
+- description: User Phone Verification
+  name: Rentberry User Phone Verification API
+  slug: rentberry-user-phone-verification-api
+- description: User Settings
+  name: Rentberry User Settings API
+  slug: rentberry-user-settings-api
+- description: User Status
+  name: Rentberry User Status API
+  slug: rentberry-user-status-api
+- description: User Verification
+  name: Rentberry User Verification API
+  slug: rentberry-user-verification-api
+- description: The V{version} API from Rentberry — 21 operation(s) for v{version}.
+  name: Rentberry V{version} API
+  slug: rentberry-v-version-api
+- description: Virtual Tours
+  name: Rentberry Virtual Tours API
+  slug: rentberry-virtual-tours-api
+artifact_total: 48
 common:
 - group: company
   title: ''
@@ -92,7 +224,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rentberry-openapi.yml
+  url: openapi/_original/rentberry-openapi.yml
 - group: other
   title: ''
   type: Protobuf
@@ -157,18 +289,18 @@ modified: '2026-08-02'
 name: Rentberry
 nav: Providers
 network: true
-overview: 'Rentberry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include real-estate, proptech, rentals, rental-marketplace, and property-management.
+overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include real-estate, proptech, rentals, rental-marketplace, and property-management.
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: thin
   composite: 41.2
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 47.9
+    contract_quality: 47.8
     developer_ergonomics: 49.5
     discoverability: 87.0
     governance: 11.5
@@ -190,7 +322,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

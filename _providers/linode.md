@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -518,7 +518,7 @@ plans:
 - name: Linode Plans Pricing
   plan_count: 6
   slug: linode-plans-pricing
-random_paper: 70
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Linode Rate Limits
@@ -557,7 +557,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/screenshots/linode-2026-06-20T184550.png
 security:

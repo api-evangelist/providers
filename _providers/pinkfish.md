@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Pinkfish publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 17 more developer resources.'
-random_paper: 69
+random_paper: 48
 score:
   band: developing
   composite: 48.1
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

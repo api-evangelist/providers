@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -286,7 +286,7 @@ plans:
 - name: Opik Plans Pricing
   plan_count: 5
   slug: opik-plans-pricing
-random_paper: 96
+random_paper: 87
 rate_limits:
 - limit_count: 4
   name: Opik Rate Limits
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: White-labeled embedded finance REST API for offering business financing — creating businesses, persons, and bank accounts; generating capital offers; creating capital, line-of-credit, and pay-over-tim
@@ -128,7 +128,7 @@ overview: 'Parafin publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Parafin''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 13 more developer resources.'
-random_paper: 59
+random_paper: 41
 score:
   band: emerging
   composite: 24.2
@@ -150,8 +150,9 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/screenshots/parafin-2026-08-07T191409.png
 security:
 - kind: authentication
   name: Parafin Authentication

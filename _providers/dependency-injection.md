@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description for the Dependency Injection design pattern.
@@ -73,7 +73,7 @@ plans:
 - name: Dependency Injection Plans Pricing
   plan_count: 3
   slug: dependency-injection-plans-pricing
-random_paper: 29
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Dependency Injection Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dependency-injection/refs/heads/main/screenshots/dependency-injection-2026-06-20T175927.png
 slug: dependency-injection

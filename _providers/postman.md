@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -829,7 +829,7 @@ rules:
 score:
   band: exemplar
   composite: 75.8
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 73.0
@@ -837,7 +837,7 @@ score:
     discoverability: 75.9
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 76.8
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     contracts:
@@ -846,7 +846,7 @@ score:
       marker_coverage: 50.0
       total: 34
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

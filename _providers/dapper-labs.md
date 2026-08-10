@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Dapper Labs publishes 11 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dapper Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, sandbox, and 14 more developer resources.'
-random_paper: 82
+random_paper: 55
 score:
   band: thin
   composite: 41.3
@@ -195,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png
 security:

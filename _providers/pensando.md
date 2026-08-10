@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for the AMD Pensando Policy and Services Manager control plane — manage clusters, networks, security policy, and services on Pensando DPUs. The API is served per-appliance; live interactive d
@@ -92,7 +92,7 @@ overview: 'Pensando * publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Pensando *''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 65
+random_paper: 44
 score:
   band: minimal
   composite: 10.8
@@ -106,7 +106,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

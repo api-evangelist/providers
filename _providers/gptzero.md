@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/gptzero-openapi-original.json
+  url: openapi/_original/gptzero-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -190,7 +190,7 @@ plans:
 - name: Gptzero Plans
   plan_count: 4
   slug: gptzero-plans
-random_paper: 101
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Gptzero Rate Limits
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:

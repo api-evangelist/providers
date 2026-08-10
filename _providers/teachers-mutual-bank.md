@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -170,7 +170,7 @@ overview: 'Teachers Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Teachers Mutual Bank''s developer surface includes authentication, API reference, getting-started guide, documentation, support, and 20 more developer resources.'
-random_paper: 92
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Teachers Mutual Bank Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
 security:

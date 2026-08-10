@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 56
+random_paper: 11
 score:
   band: developing
   composite: 42.1
@@ -196,8 +196,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/screenshots/oden-technologies-2026-08-07T190003.png
 security:
 - kind: authentication
   name: Oden Technologies Authentication

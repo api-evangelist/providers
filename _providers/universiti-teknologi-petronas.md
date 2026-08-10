@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: UTPedia ("UTP Electronic and Digital Intellectual Asset") is the UTP institutional repository running EPrints 3.4.7. It exposes a public OAI-PMH 2.0 endpoint for harvesting bibliographic metadata of t
@@ -96,7 +96,7 @@ plans:
 - name: Universiti Teknologi Petronas Plans Pricing
   plan_count: 2
   slug: universiti-teknologi-petronas-plans-pricing
-random_paper: 106
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Universiti Teknologi Petronas Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/screenshots/universiti-teknologi-petronas-2026-06-20T200138.png
 security:

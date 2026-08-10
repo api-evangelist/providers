@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
@@ -233,23 +233,23 @@ overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 10
+random_paper: 96
 score:
   band: developing
-  composite: 47.6
+  composite: 48.4
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.1
+    contract_quality: 62.0
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 47.6
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
@@ -262,7 +262,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

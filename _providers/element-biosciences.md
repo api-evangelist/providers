@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 16
   slug: element-biosciences-agentic-access
   summary_line: 16 operations
-api_count: 1
+api_count: 5
 apis:
-- description: 'The Element Biosciences Cloud API provides programmatic, read-oriented access to data in the ElemBio Cloud platform: instrument runs (sequencing and multiomics), workflow executions, registered instru'
-  name: Element Biosciences Cloud API
-  slug: cloud-api
-artifact_total: 6
+- description: AuthService reports information about the API key making the request.
+  name: Element Biosciences Auth Service API
+  slug: element-biosciences-authservice-api
+- description: ExecutionService provides access to workflow executions — runs of a bioinformatics workflow that process instrument data. Listing and reading execution metadata requires the "executions:read" scope; l
+  name: Element Biosciences Execution Service API
+  slug: element-biosciences-executionservice-api
+- description: InstrumentService provides access to instruments registered to the authenticated tenant. Requires the "instruments:read" scope.
+  name: Element Biosciences Instrument Service API
+  slug: element-biosciences-instrumentservice-api
+- description: RunService provides access to instrument runs, both sequencing and multiomics. Listing and reading run metadata requires the "runs:read" scope; listing run files and obtaining download credentials req
+  name: Element Biosciences Run Service API
+  slug: element-biosciences-runservice-api
+- description: 'StorageConnectionService provides access to storage connections: their metadata (requires the "storage:read" scope) and the files within them (ListFiles / GetDownloadCredentials, which require the "st'
+  name: Element Biosciences Storage Connection Service API
+  slug: element-biosciences-storageconnectionservice-api
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -174,11 +186,11 @@ modified: '2026-08-04'
 name: Element Biosciences
 nav: Providers
 network: true
-overview: 'Element Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
+overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth Service API, Execution Service API, Instrument Service API, and 2 more. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
 
 
   Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
-random_paper: 29
+random_paper: 94
 scopes:
 - name: Element Biosciences Scopes
   scope_count: 12
@@ -186,13 +198,13 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.8
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.1
+    contract_quality: 61.2
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 50.2
@@ -213,8 +225,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/screenshots/element-biosciences-2026-08-07T164822.png
 security:
 - kind: authentication
   name: Element Biosciences Authentication

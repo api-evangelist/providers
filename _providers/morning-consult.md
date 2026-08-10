@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Morning Consult publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
@@ -214,8 +214,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:
 - kind: authentication
   name: Morning Consult Authentication

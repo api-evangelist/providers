@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ overview: 'Aha.io publishes 59 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Aha.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 72
+random_paper: 66
 scopes:
 - name: Aha Scopes
   scope_count: 0
@@ -303,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/screenshots/aha-2026-06-20T170530.png
 security:

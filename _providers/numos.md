@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Numos
 nav: Providers
 network: true
 overview: Numos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Accounting, and Finance.
-random_paper: 110
+random_paper: 98
 score:
   band: minimal
   composite: 12.4
@@ -78,8 +78,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/numos/refs/heads/main/screenshots/numos-2026-08-07T185740.png
 security:
 - kind: domain-security
   name: Numos Domain Security

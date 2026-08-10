@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: Register and manage the exams (assessments) that will be proctored - exam name, proctoring type (automated, live, audit), duration, allowed resources, rules, and the launch URL handed back to the LMS.
@@ -81,7 +81,7 @@ plans:
 - name: Examity Plans Pricing
   plan_count: 0
   slug: examity-plans-pricing
-random_paper: 91
+random_paper: 73
 score:
   band: minimal
   composite: 6.5
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

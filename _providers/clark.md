@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Clark is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Clark''s developer surface includes engineering blog, legal docs, and 9 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: emerging
   composite: 14.9
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

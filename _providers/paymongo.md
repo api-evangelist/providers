@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -301,7 +301,7 @@ plans:
 - name: Paymongo Plans Pricing
   plan_count: 4
   slug: paymongo-plans-pricing
-random_paper: 83
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Paymongo Rate Limits
@@ -335,8 +335,9 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:
 - kind: authentication
   name: Paymongo Authentication

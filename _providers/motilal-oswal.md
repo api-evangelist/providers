@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Motilal Oswal is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Motilal Oswal''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 106
+random_paper: 73
 score:
   band: emerging
   composite: 14.9
@@ -91,8 +91,9 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/motilal-oswal/refs/heads/main/screenshots/motilal-oswal-2026-08-07T184325.png
 security:
 - kind: domain-security
   name: Motilal Oswal Domain Security

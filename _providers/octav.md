@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ overview: 'Octav publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Octav''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 89
+random_paper: 77
 score:
   band: developing
   composite: 54.2
@@ -248,8 +248,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
 security:
 - kind: authentication
   name: Octav Authentication

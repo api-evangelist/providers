@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: SAFe Studio is the online platform for learning and implementing SAFe. It provides access to training courses, agile planning tools, assessments, and a global community of over 400,000 SAFe practition
@@ -124,7 +124,7 @@ plans:
 - name: Scaled Agile Plans Pricing
   plan_count: 3
   slug: scaled-agile-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Scaled Agile Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scaled-agile/refs/heads/main/screenshots/scaled-agile-2026-06-20T193507.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -191,7 +191,7 @@ plans:
 - name: Soda Co Plans Pricing
   plan_count: 3
   slug: soda-co-plans-pricing
-random_paper: 0
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Soda Co Rate Limits
@@ -225,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:

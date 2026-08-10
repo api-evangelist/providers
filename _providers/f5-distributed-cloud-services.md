@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ overview: 'F5 Distributed Cloud Services publishes 2 APIs on the [APIs.io](https
 
 
   F5 Distributed Cloud Services'' developer surface includes authentication, documentation, pricing, signup flow, developer console, support, engineering blog, and 5 more developer resources.'
-random_paper: 55
+random_paper: 96
 score:
   band: thin
   composite: 32.6
@@ -134,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

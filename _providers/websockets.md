@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 12
 asyncapis:
@@ -131,7 +131,7 @@ overview: 'WebSockets is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   The WebSockets catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.'
-random_paper: 65
+random_paper: 38
 rules:
 - name: WebSockets API Rules
   rule_count: 4
@@ -162,7 +162,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 29.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websockets/refs/heads/main/screenshots/websockets-2026-06-20T201337.png
 slug: websockets

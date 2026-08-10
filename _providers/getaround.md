@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Historical partner/owner REST API used by fleet-management integrators (CarSync, FleetWire, Kitts) to sync bookings onto external calendars, block vehicle availability, generate invoices for professio
@@ -66,34 +66,86 @@ common:
   title: ''
   type: Blog
   url: https://getaround.com/blog/feed
+- group: other
+  title: ''
+  type: Company
+  url: https://getaround.com/about-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.getaround.com
+- group: other
+  title: ''
+  type: Business
+  url: https://getaround.com/business
+- group: other
+  title: ''
+  type: OwnerProgram
+  url: https://getaround.com/share-your-car
+- group: other
+  title: ''
+  type: ConnectTechnology
+  url: https://getaround.com/connect
+- group: company
+  title: ''
+  type: Press
+  url: https://getaround.com/press
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investors.getaround.com
+- group: company
+  title: ''
+  type: Careers
+  url: https://getaround.com/careers
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/Getaround
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/Getaround
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/Getaround
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/getaround
+- group: other
+  title: ''
+  type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Getaround
 created: '2026-07-03'
 description: Getaround was a peer-to-peer and connected car-sharing marketplace (merged with France's Drivy in 2019) that let owners list personal or fleet vehicles fitted with Getaround Connect - a BLE/telematics smart-lock kit - for keyless, app-based rental. Getaround historically ran a documented Owner API and webhook program for fleet-management partners (CarSync, FleetWire, Invers Fleet Hawk) plus a native Connect Blueforce BLE SDK for lock/unlock. OPERATING STATUS (as of 2026-07-03) - the company is winding down - it shut down U.S. operations (including its HyreCar subsidiary) in February 2025, sold its European car-sharing business to Denmark's GoMore ApS effective April 30, 2026, and Getaround Inc.'s board voted June 5, 2026 to pursue formal Delaware dissolution and liquidation (stockholder vote July 29, 2026, no distribution expected). The api.getaround.com API host no longer resolves and its owner API documentation page is now empty, so the API described here is historical/discontinued
   rather than currently operable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getaround.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-08-08'
 name: Getaround
 nav: Providers
 network: true
 overview: 'Getaround publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Car Sharing, Mobility, Connected Car, Fleet Management, and Peer to Peer.
 
 
-  Getaround''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 65
+  Getaround''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
+random_paper: 41
 score:
   band: minimal
-  composite: 8.8
-  delta: 0.0
+  composite: 9.7
+  delta: 0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/screenshots/getaround-2026-07-25T215717.png
 security:

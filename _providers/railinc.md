@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Railinc's suite of APIs empowers customers to simplify and automate business processes essential to the lifecycle of freight rail operations, including equipment, shipment, asset health, and routing d
@@ -82,7 +82,7 @@ plans:
 - name: Railinc Plans Pricing
   plan_count: 3
   slug: railinc-plans-pricing
-random_paper: 60
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Railinc Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/railinc/refs/heads/main/screenshots/railinc-2026-06-20T192531.png
 security:

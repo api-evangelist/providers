@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'Desaisiv Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Desaisiv Inc.''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 85
+random_paper: 55
 score:
   band: minimal
   composite: 6.0
@@ -75,7 +75,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ plans:
 - name: Sisense Plans Pricing
   plan_count: 3
   slug: sisense-plans-pricing
-random_paper: 84
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Sisense Rate Limits
@@ -243,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
 security:

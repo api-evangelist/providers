@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 11
 apis:
 - description: Electronic customs declaration filing for import, export and transit. Creates consignments and deliveries, transmits them to national customs systems (German ATLAS, EU AES/NCTS, UK CHIEF), and polls d
@@ -117,7 +117,7 @@ overview: 'AEB publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   AEB''s developer surface includes documentation, changelog, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: thin
   composite: 28.4
@@ -137,8 +137,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb
 tags:
 - Logistics

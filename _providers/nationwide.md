@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Nationwide announces $1.5 billion investment to accelerate ...
   url: https://news.nationwide.com/nationwide-announces-15-billion-investment-to-accelerate-technology-ai/
-random_paper: 57
+random_paper: 30
 score:
   band: minimal
   composite: 6.0
@@ -99,7 +99,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide/refs/heads/main/screenshots/nationwide-2026-06-20T190053.png
 security:

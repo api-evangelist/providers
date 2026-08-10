@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The FastAPI API from Timeswap — 1 operation(s) for fastapi.
@@ -156,7 +156,7 @@ overview: 'Timeswap publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Timeswap''s developer surface includes documentation, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 83
+random_paper: 62
 score:
   band: thin
   composite: 34.3
@@ -179,7 +179,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

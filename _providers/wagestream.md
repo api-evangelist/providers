@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 11
   slug: wagestream-agentic-access
   summary_line: 11 operations · 6 acting
-api_count: 1
+api_count: 5
 apis:
-- description: Batch push API used by employers and HR/WFM/payroll vendors to feed Stream the employee, shift, absence and off-cycle payment data that drives earned wage access, and to read back the Stream-generated
-  name: Wagestream Integrations API
-  slug: wagestream-integrations-api
-artifact_total: 5
+- description: Operations relating to absences
+  name: Wagestream Absences API
+  slug: wagestream-absences-api
+- description: Operations relating to employees
+  name: Wagestream Employees API
+  slug: wagestream-employees-api
+- description: Operations relating to enrolling employees in Wagestream
+  name: Wagestream Enrollment API
+  slug: wagestream-enrollment-api
+- description: Operations relating to off-cycle payments
+  name: Wagestream Off Cycle Payment API
+  slug: wagestream-off-cycle-payment-api
+- description: Operations relating to Shifts
+  name: Wagestream Shifts API
+  slug: wagestream-shifts-api
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -157,21 +169,23 @@ modified: '2026-08-05'
 name: Wagestream
 nav: Providers
 network: true
-overview: 'Wagestream publishes 1 API on the [APIs.io](https://apis.io/) network: Integrations API. Tagged areas include financial-wellbeing, earned-wage-access, fintech, payroll, and human-resources.
+overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Employees API, Enrollment API, and 2 more. Tagged areas include financial-wellbeing, earned-wage-access, fintech, payroll, and human-resources.
 
 
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 55
+random_paper: 28
 score:
   band: developing
-  composite: 50.9
+  composite: 51.1
+  delta: 0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.5
+    contract_quality: 58.1
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -183,7 +197,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Wagestream Authentication

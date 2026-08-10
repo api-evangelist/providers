@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 11
 apis:
 - description: Chat completion API for conversational AI using Mistral's language models, with function calling, streaming, and JSON / structured output.
@@ -198,7 +198,7 @@ overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Mistral AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: thin
   composite: 37.0
@@ -214,8 +214,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mistralai/refs/heads/main/screenshots/mistralai-2026-08-07T183801.png
 security:
 - kind: authentication
   name: Mistralai Authentication

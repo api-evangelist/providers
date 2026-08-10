@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Zyla API Hub provides a centralized marketplace for discovering, testing, and integrating thousands of APIs across categories including finance, weather, geolocation, communication, and more, all acce
@@ -100,7 +100,7 @@ plans:
 - name: Zyla Plans Pricing
   plan_count: 3
   slug: zyla-plans-pricing
-random_paper: 109
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Zyla Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zyla/refs/heads/main/screenshots/zyla-2026-06-20T202016.png
 security:

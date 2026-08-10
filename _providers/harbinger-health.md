@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -36,15 +36,120 @@ agentic_access:
   operation_count: 236
   slug: harbinger-health-agentic-access
   summary_line: 236 operations · 130 acting
-api_count: 2
+api_count: 37
 apis:
-- description: The stock WordPress REST API served by Harbinger Health's corporate site at https://harbinger-health.com/wp-json/. Confirmed live and anonymously readable on 2026-08-04 (HTTP 200, application/json, 25
-  name: Harbinger Health WordPress REST API
-  slug: harbinger-health-wordpress-rest-api
 - description: A live Model Context Protocol server namespace published on Harbinger Health's own host at https://harbinger-health.com/wp-json/mcp/, exposing two servers - mcp-oauth-server and mcp-adapter-default-se
   name: Harbinger Health MCP Server
   slug: harbinger-health-mcp-server
-artifact_total: 12
+- description: WordPress block-directory resource routes.
+  name: Harbinger Health Block Directory API
+  slug: harbinger-health-block-directory-api
+- description: WordPress block-patterns resource routes.
+  name: Harbinger Health Block Patterns API
+  slug: harbinger-health-block-patterns-api
+- description: WordPress block-renderer resource routes.
+  name: Harbinger Health Block Renderer API
+  slug: harbinger-health-block-renderer-api
+- description: WordPress block-types resource routes.
+  name: Harbinger Health Block Types API
+  slug: harbinger-health-block-types-api
+- description: WordPress blocks resource routes.
+  name: Harbinger Health Blocks API
+  slug: harbinger-health-blocks-api
+- description: WordPress categories resource routes.
+  name: Harbinger Health Categories API
+  slug: harbinger-health-categories-api
+- description: WordPress comments resource routes.
+  name: Harbinger Health Comments API
+  slug: harbinger-health-comments-api
+- description: WordPress events resource routes.
+  name: Harbinger Health Events API
+  slug: harbinger-health-events-api
+- description: WordPress font-collections resource routes.
+  name: Harbinger Health Font Collections API
+  slug: harbinger-health-font-collections-api
+- description: WordPress font-families resource routes.
+  name: Harbinger Health Font Families API
+  slug: harbinger-health-font-families-api
+- description: WordPress global-styles resource routes.
+  name: Harbinger Health Global Styles API
+  slug: harbinger-health-global-styles-api
+- description: WordPress icons resource routes.
+  name: Harbinger Health Icons API
+  slug: harbinger-health-icons-api
+- description: WordPress index resource routes.
+  name: Harbinger Health Index API
+  slug: harbinger-health-index-api
+- description: WordPress media resource routes.
+  name: Harbinger Health Media API
+  slug: harbinger-health-media-api
+- description: WordPress menu-items resource routes.
+  name: Harbinger Health Menu Items API
+  slug: harbinger-health-menu-items-api
+- description: WordPress menu-locations resource routes.
+  name: Harbinger Health Menu Locations API
+  slug: harbinger-health-menu-locations-api
+- description: WordPress menus resource routes.
+  name: Harbinger Health Menus API
+  slug: harbinger-health-menus-api
+- description: WordPress navigation resource routes.
+  name: Harbinger Health Navigation API
+  slug: harbinger-health-navigation-api
+- description: WordPress pages resource routes.
+  name: Harbinger Health Pages API
+  slug: harbinger-health-pages-api
+- description: WordPress pattern-directory resource routes.
+  name: Harbinger Health Pattern Directory API
+  slug: harbinger-health-pattern-directory-api
+- description: WordPress plugins resource routes.
+  name: Harbinger Health Plugins API
+  slug: harbinger-health-plugins-api
+- description: WordPress posts resource routes.
+  name: Harbinger Health Posts API
+  slug: harbinger-health-posts-api
+- description: WordPress search resource routes.
+  name: Harbinger Health Search API
+  slug: harbinger-health-search-api
+- description: WordPress settings resource routes.
+  name: Harbinger Health Settings API
+  slug: harbinger-health-settings-api
+- description: WordPress sidebars resource routes.
+  name: Harbinger Health Sidebars API
+  slug: harbinger-health-sidebars-api
+- description: WordPress statuses resource routes.
+  name: Harbinger Health Statuses API
+  slug: harbinger-health-statuses-api
+- description: WordPress tags resource routes.
+  name: Harbinger Health Tags API
+  slug: harbinger-health-tags-api
+- description: WordPress taxonomies resource routes.
+  name: Harbinger Health Taxonomies API
+  slug: harbinger-health-taxonomies-api
+- description: WordPress template-parts resource routes.
+  name: Harbinger Health Template Parts API
+  slug: harbinger-health-template-parts-api
+- description: WordPress templates resource routes.
+  name: Harbinger Health Templates API
+  slug: harbinger-health-templates-api
+- description: WordPress themes resource routes.
+  name: Harbinger Health Themes API
+  slug: harbinger-health-themes-api
+- description: WordPress types resource routes.
+  name: Harbinger Health Types API
+  slug: harbinger-health-types-api
+- description: WordPress users resource routes.
+  name: Harbinger Health Users API
+  slug: harbinger-health-users-api
+- description: WordPress widget-types resource routes.
+  name: Harbinger Health Widget Types API
+  slug: harbinger-health-widget-types-api
+- description: WordPress widgets resource routes.
+  name: Harbinger Health Widgets API
+  slug: harbinger-health-widgets-api
+- description: WordPress wp_pattern_category resource routes.
+  name: Harbinger Health Wp Pattern Category API
+  slug: harbinger-health-wp-pattern-category-api
+artifact_total: 47
 common:
 - group: company
   title: ''
@@ -219,11 +324,11 @@ modified: '2026-08-04'
 name: Harbinger Health
 nav: Providers
 network: true
-overview: 'Harbinger Health publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Health, Healthcare, Biotechnology, Cancer Detection, and Diagnostics.
+overview: 'Harbinger Health publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 33 more. Tagged areas include Health, Healthcare, Biotechnology, Cancer Detection, and Diagnostics.
 
 
   Harbinger Health''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 31 more developer resources.'
-random_paper: 39
+random_paper: 113
 scopes:
 - name: Harbinger Health Scopes
   scope_count: 1
@@ -231,13 +336,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 42.4
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.2
+    contract_quality: 54.3
     developer_ergonomics: 27.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 42.8
@@ -258,8 +363,9 @@ score:
     regime_id: health
     score: 75.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:
 - kind: authentication
   name: Harbinger Health Authentication

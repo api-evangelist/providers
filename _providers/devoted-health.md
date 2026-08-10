@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 21
 apis:
 - description: The CodeSystem FHIR resource type
@@ -208,7 +208,7 @@ overview: 'Devoted Health publishes 21 APIs on the [APIs.io](https://apis.io/) n
 
 
   Devoted Health''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 66
+random_paper: 30
 scopes:
 - name: Devoted Health Scopes
   scope_count: 14
@@ -216,20 +216,20 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 43.2
+  composite: 44.0
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 43.6
+    contract_quality: 47.0
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 43.2
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 21
@@ -242,7 +242,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:

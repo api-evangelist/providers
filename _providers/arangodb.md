@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 5
@@ -26,18 +26,81 @@ agentic_access:
   operation_count: 254
   slug: arangodb-agentic-access
   summary_line: 254 operations · 146 acting · 5 human-in-the-loop
-api_count: 3
+api_count: 24
 apis:
-- description: 'The RESTful HTTP API of the ArangoDB Core database system, version 3.12.10 (API v0). 174 paths and 254 operations across 22 tags covering documents, collections, databases, named graphs, indexes, AQL '
-  name: ArangoDB Core API
-  slug: arangodb-core-api
 - description: The control-plane API of the Arango Managed Platform (formerly ArangoGraph Insights Platform / Oasis) — the managed ArangoDB cloud. It is a gRPC API defined in protocol buffers, covering organizations
   name: Arango Managed Platform (AMP) API
   slug: amp-api
 - description: 'SCIM 2.0 user and group provisioning endpoint for Arango Managed Platform organizations, used to synchronize identities from an external identity provider into an AMP organization. Authenticated with '
   name: Arango Managed Platform SCIM API
   slug: amp-scim-api
-artifact_total: 7
+- description: Get server information, manage licenses, shut down nodes, and more
+  name: ArangoDB Administration API
+  slug: arangodb-administration-api
+- description: Manage Analyzers for transforming data
+  name: ArangoDB Analyzers API
+  slug: arangodb-analyzers-api
+- description: Manage session tokens and JWT secrets
+  name: ArangoDB Authentication API
+  slug: arangodb-authentication-api
+- description: Run multiple operations using a single request
+  name: ArangoDB Batch Requests API
+  slug: arangodb-batch-requests-api
+- description: Get information, monitor, and administrate cluster deployments
+  name: ArangoDB Cluster API
+  slug: arangodb-cluster-api
+- description: Manage collections for organizing documents
+  name: ArangoDB Collections API
+  slug: arangodb-collections-api
+- description: Manage databases for organizing collections
+  name: ArangoDB Databases API
+  slug: arangodb-databases-api
+- description: Perform CRUD operations on JSON-based records
+  name: ArangoDB Documents API
+  slug: arangodb-documents-api
+- description: Manage microservices written in JavaScript
+  name: ArangoDB Foxx API
+  slug: arangodb-foxx-api
+- description: Manage named graphs and query edges
+  name: ArangoDB Graphs API
+  slug: arangodb-graphs-api
+- description: Manage incremental data backups
+  name: ArangoDB Hot Backups API
+  slug: arangodb-hot-backups-api
+- description: Load JSON data in bulk
+  name: ArangoDB Import API
+  slug: arangodb-import-api
+- description: Improve the performance of queries
+  name: ArangoDB Indexes API
+  slug: arangodb-indexes-api
+- description: Execute requests asynchronously
+  name: ArangoDB Jobs API
+  slug: arangodb-jobs-api
+- description: Access logs, statistics, and metrics
+  name: ArangoDB Monitoring API
+  slug: arangodb-monitoring-api
+- description: Run, process, and manage AQL queries
+  name: ArangoDB Queries API
+  slug: arangodb-queries-api
+- description: Control data replication for deployments
+  name: ArangoDB Replication API
+  slug: arangodb-replication-api
+- description: Configure audit logging, encryption at rest and encryption in transit
+  name: ArangoDB Security API
+  slug: arangodb-security-api
+- description: Set up JavaScript code to run periodically or timed
+  name: ArangoDB Tasks API
+  slug: arangodb-tasks-api
+- description: Execute JavaScript and Stream Transactions
+  name: ArangoDB Transactions API
+  slug: arangodb-transactions-api
+- description: Manage ArangoDB user accounts
+  name: ArangoDB Users API
+  slug: arangodb-users-api
+- description: Manage Views to use ArangoSearch for information retrieval
+  name: ArangoDB Views API
+  slug: arangodb-views-api
+artifact_total: 28
 common:
 - group: company
   title: ''
@@ -175,18 +238,18 @@ modified: '2026-08-02'
 name: ArangoDB
 nav: Providers
 network: true
-overview: 'ArangoDB publishes 1 API on the [APIs.io](https://apis.io/) network: Core API. Tagged areas include Company, Database, Graph Database, Multi-Model Database, and NoSQL.
+overview: 'ArangoDB publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analyzers API, Authentication API, and 19 more. Tagged areas include Company, Database, Graph Database, Multi-Model Database, and NoSQL.
 
 
   ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 39
+random_paper: 18
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 50.8
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.2
+    contract_quality: 49.7
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -203,8 +266,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/screenshots/arangodb-2026-08-07T161603.png
 security:
 - kind: authentication
   name: Arangodb Authentication

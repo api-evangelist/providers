@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -106,14 +106,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/contour-gateway-rules.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/manage-httpproxy-routing.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/configure-gateway-api-routing.yml
 - group: start
   title: ''
   type: GettingStarted
@@ -311,12 +303,12 @@ overview: 'Contour publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Contour catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 16 more developer resources.'
+  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 14 more developer resources.'
 plans:
 - name: Contour Plans Pricing
   plan_count: 1
   slug: contour-plans-pricing
-random_paper: 100
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Contour Rate Limits
@@ -366,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:

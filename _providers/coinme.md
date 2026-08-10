@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 70
+random_paper: 55
 scopes:
 - name: Coinme Scopes
   scope_count: 3
@@ -406,7 +406,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

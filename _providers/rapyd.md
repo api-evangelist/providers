@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
@@ -104,7 +104,7 @@ plans:
 - name: Rapyd Plans Pricing
   plan_count: 1
   slug: rapyd-plans-pricing
-random_paper: 92
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Rapyd Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapyd/refs/heads/main/screenshots/rapyd-2026-06-20T192606.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -68,7 +68,7 @@ plans:
 - name: Linux Foundation Europe Plans Pricing
   plan_count: 3
   slug: linux-foundation-europe-plans-pricing
-random_paper: 12
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Linux Foundation Europe Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linux-foundation-europe/refs/heads/main/screenshots/linux-foundation-europe-2026-06-20T184552.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,14 +27,35 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 19.4
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: The Rundeck REST API provides programmatic access to job execution, project management, node management, execution history, user management, ACL policies, system administration, cluster operations, an
-  name: Rundeck API
-  slug: rundeck-api
-artifact_total: 12
+- description: Manage Access Control List (ACL) policies for fine-grained permission control.
+  name: Rundeck ACL Policies API
+  slug: rundeck-acl-policies-api
+- description: Monitor running executions, retrieve execution history, and manage execution state.
+  name: Rundeck Executions API
+  slug: rundeck-executions-api
+- description: List, create, import, export, run, and delete automation jobs.
+  name: Rundeck Jobs API
+  slug: rundeck-jobs-api
+- description: Query and manage nodes (target machines) associated with Rundeck projects.
+  name: Rundeck Nodes API
+  slug: rundeck-nodes-api
+- description: Create and manage Rundeck projects which organize jobs and node configurations.
+  name: Rundeck Projects API
+  slug: rundeck-projects-api
+- description: Access system information, health checks, execution modes, metrics, and configuration.
+  name: Rundeck System API
+  slug: rundeck-system-api
+- description: Create, list, and delete API authentication tokens.
+  name: Rundeck Tokens API
+  slug: rundeck-tokens-api
+- description: Manage user profiles, roles, and API token generation.
+  name: Rundeck Users API
+  slug: rundeck-users-api
+artifact_total: 19
 common:
 - group: auth
   title: ''
@@ -112,7 +133,7 @@ modified: '2026-05-02'
 name: Rundeck
 nav: Providers
 network: true
-overview: 'Rundeck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, DevOps, Job Scheduling, Orchestration, and Workflow.
+overview: 'Rundeck publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACL Policies API, Executions API, Jobs API, and 5 more. Tagged areas include Automation, DevOps, Job Scheduling, Orchestration, and Workflow.
 
 
   The Rundeck catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -123,7 +144,7 @@ plans:
 - name: Rundeck Plans Pricing
   plan_count: 3
   slug: rundeck-plans-pricing
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Rundeck Rate Limits
@@ -147,13 +168,13 @@ rules:
   slug: rundeck-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 47.2
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.4
+    contract_quality: 63.6
     developer_ergonomics: 15.2
-    discoverability: 59.3
+    discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
   previous_composite: 47.6
@@ -164,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:

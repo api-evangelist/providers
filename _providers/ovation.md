@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'Ovation is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ovation''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 90
+random_paper: 72
 score:
   band: emerging
   composite: 13.5
@@ -106,7 +106,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovation/refs/heads/main/screenshots/ovation-2026-06-20T191237.png
 security:

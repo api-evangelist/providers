@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -233,7 +233,7 @@ overview: 'Enviance publishes 39 APIs on the [APIs.io](https://apis.io/) network
 
 
   Enviance''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 50
+random_paper: 29
 score:
   band: emerging
   composite: 26.5
@@ -257,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/screenshots/enviance-2026-07-25T213455.png
 security:

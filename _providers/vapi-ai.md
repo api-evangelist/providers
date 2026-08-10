@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -631,7 +631,7 @@ plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
   slug: vapi-ai-plans-pricing
-random_paper: 1
+random_paper: 99
 rate_limits:
 - limit_count: 4
   name: Vapi Ai Rate Limits
@@ -683,7 +683,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

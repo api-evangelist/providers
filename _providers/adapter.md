@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -121,7 +121,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/adapter-openapi.json
+  url: openapi/_original/adapter-openapi.json
 - group: agent
   title: ''
   type: MCPServer
@@ -218,7 +218,7 @@ overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 59
+random_paper: 41
 scopes:
 - name: Adapter Scopes
   scope_count: 2
@@ -247,8 +247,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:
 - kind: authentication
   name: Adapter Authentication

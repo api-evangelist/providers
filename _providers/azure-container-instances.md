@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -394,7 +394,7 @@ plans:
 - name: Azure Container Instances Plans Pricing
   plan_count: 3
   slug: azure-container-instances-plans-pricing
-random_paper: 86
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Azure Container Instances Rate Limits
@@ -423,25 +423,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.5
+  composite: 51.5
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.0
+    contract_quality: 60.9
     developer_ergonomics: 26.1
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 50.5
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/screenshots/azure-container-instances-2026-06-20T172844.png
 security:

@@ -28,13 +28,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: Datadog APM REST API for traces, spans, services, service definitions, and SLOs. Provides endpoints for searching traces, managing service catalog entries, and configuring service level objectives.
-  name: Datadog APM API
-  slug: datadog-apm-api
-artifact_total: 10
+- description: The Service Definitions API from Datadog APM — 2 operation(s) for service definitions.
+  name: Datadog APM Service Definitions API
+  slug: datadog-apm-service-definitions-api
+- description: The Services API from Datadog APM — 1 operation(s) for services.
+  name: Datadog APM Services API
+  slug: datadog-apm-services-api
+- description: The SLOs API from Datadog APM — 3 operation(s) for slos.
+  name: Datadog APM SL Os API
+  slug: datadog-apm-slos-api
+- description: The Spans API from Datadog APM — 2 operation(s) for spans.
+  name: Datadog APM Spans API
+  slug: datadog-apm-spans-api
+- description: The Traces API from Datadog APM — 1 operation(s) for traces.
+  name: Datadog APM Traces API
+  slug: datadog-apm-traces-api
+artifact_total: 14
 common:
 - group: auth
   title: ''
@@ -84,10 +96,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/datadog-apm-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/datadog-apm-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -113,18 +121,18 @@ modified: '2026-04-28'
 name: Datadog APM
 nav: Providers
 network: true
-overview: 'Datadog APM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APM, Distributed Tracing, Microservices, Observability, and Performance Monitoring.
+overview: 'Datadog APM publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Service Definitions API, Services API, SL Os API, and 2 more. Tagged areas include APM, Distributed Tracing, Microservices, Observability, and Performance Monitoring.
 
 
   The Datadog APM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Datadog APM''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, signup flow, and 9 more developer resources.'
+  Datadog APM''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, signup flow, and 8 more developer resources.'
 plans:
 - name: Datadog Apm Plans Pricing
   plan_count: 3
   slug: datadog-apm-plans-pricing
-random_paper: 70
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Datadog Apm Rate Limits
@@ -148,13 +156,13 @@ rules:
   slug: datadog-apm-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 52.9
+  delta: -0.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.6
+    contract_quality: 69.8
     developer_ergonomics: 21.7
-    discoverability: 59.3
+    discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 53.3
@@ -165,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

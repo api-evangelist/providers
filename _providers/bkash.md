@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
@@ -151,7 +151,7 @@ overview: 'bKash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   bKash''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, pricing, and 16 more developer resources.'
-random_paper: 69
+random_paper: 57
 score:
   band: thin
   composite: 40.4
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/screenshots/bkash-2026-07-25T203226.png
 security:

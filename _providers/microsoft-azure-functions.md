@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -643,7 +643,7 @@ plans:
 - name: Microsoft Azure Functions Plans Pricing
   plan_count: 3
   slug: microsoft-azure-functions-plans-pricing
-random_paper: 9
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Functions Rate Limits
@@ -680,25 +680,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 63.7
+  composite: 64.7
   delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.3
+    contract_quality: 59.2
     developer_ergonomics: 80.4
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 68.4
-  previous_composite: 63.7
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 22
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/screenshots/microsoft-azure-functions-2026-06-20T185418.png
 security:

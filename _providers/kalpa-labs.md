@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -150,7 +150,7 @@ overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
-random_paper: 80
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Kalpa Labs Rate Limits
@@ -183,7 +183,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST access to live, vetted India job openings. `GET /jobs` searches by keyword (`q`), Indian city or state (`location`), posting age in days (`days`, 1–365) and result count (`limit`, 1–20, default 1
@@ -27,7 +27,7 @@ apis:
 - description: 'Hosted MCP server over Streamable HTTP with two tools — `search_jobs` (q, location, days, limit) and `get_job` (job_id). Discovery is public: tools/list answers without credentials, so a client can en'
   name: Jobvetta MCP Server
   slug: jobvetta-mcp-server
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -44,6 +44,10 @@ common:
 created: '2026-08-02'
 description: 'Jobvetta is a jobs API for India — live openings gathered and checked against official employer sources, exposed as a REST API and a hosted MCP server that share one key. Search by keyword, Indian city or state, and posting age; fetch full structured detail for a single job. It is India-only by design: non-Indian locations return no results. The MCP server answers tools/list without credentials, so an agent can discover the two tools before signing up, and installation is a single documented `claude mcp add` command. Free during early access, with a shared limit of 50 tool calls per day and up to 20 jobs per search across both surfaces.'
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-02'
 name: Jobvetta
 nav: Providers
@@ -52,7 +56,7 @@ overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Jobvetta''s developer surface includes documentation, signup flow, and 1 more developer resources.'
-random_paper: 72
+random_paper: 51
 score:
   band: minimal
   composite: 10.3
@@ -66,8 +70,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jobvetta/refs/heads/main/screenshots/jobvetta-2026-08-07T171010.png
 slug: jobvetta
 tags:
 - Jobs

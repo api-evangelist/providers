@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
@@ -148,6 +148,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/patients-know-best-sandbox.yml
 created: '2026-07-17'
 description: Patients Know Best (PKB) is a UK health-technology company operating what it describes as the world's largest personal health record, with more than seven million registered patients across the NHS and other health systems. The platform lets patients hold, view and share their medical records, messages, test results, care plans and questionnaires with clinicians and carers across web, mobile and the NHS App. For integrators, PKB publishes a HL7 FHIR STU3 (3.0.2) API — the "Facade" FHIR server at my.patientsknowbest.com/fhir — that conforms to the NHS CareConnect profiles and exposes patient demographics, documents, observations, appointments, consent, questionnaires and read receipts, secured with OAuth 2.0 client-credentials. PKB was surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patients-know-best.png
@@ -156,23 +160,23 @@ mcp_servers:
 - description: ''
   name: patients-know-best-mcp.yml
   slug: patients-know-best-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Patients Know Best
 nav: Providers
 network: true
 overview: 'Patients Know Best publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Electronic Health Records, and Personal Health Record.
 
 
-  Patients Know Best''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 31
+  Patients Know Best''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 22 more developer resources.'
+random_paper: 99
 score:
-  band: thin
-  composite: 41.4
-  delta: 0.0
+  band: developing
+  composite: 42.6
+  delta: 1.2
   facets:
     commercial_clarity: 31.6
     contract_quality: 40.0
-    developer_ergonomics: 45.1
+    developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
@@ -188,8 +192,9 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png
 security:
 - kind: authentication
   name: Patients Know Best Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -132,7 +132,7 @@ overview: 'Pinokio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pinokio''s developer surface includes documentation, GitHub presence, release notes, privacy policy, and 18 more developer resources.'
-random_paper: 103
+random_paper: 61
 score:
   band: emerging
   composite: 13.7
@@ -146,7 +146,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/screenshots/pinokio-computer-2026-06-20T191720.png
 security:

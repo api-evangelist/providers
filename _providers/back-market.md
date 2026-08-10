@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -26,12 +26,36 @@ agentic_access:
   operation_count: 39
   slug: back-market-agentic-access
   summary_line: 39 operations · 14 acting
-api_count: 1
+api_count: 9
 apis:
-- description: 'The Back Market seller (partner) API — a REST API over JSON that lets professional refurbishers manage their presence on the Back Market marketplace: browse the marketplace category tree, create and u'
-  name: Back Market API
-  slug: back-market-api
-artifact_total: 8
+- description: The Backbox API from Back Market — 2 operation(s) for backbox.
+  name: Back Market Backbox API
+  slug: back-market-backbox-api
+- description: The Backship API from Back Market — 4 operation(s) for backship.
+  name: Back Market Backship API
+  slug: back-market-backship-api
+- description: The BuyBack API from Back Market — 12 operation(s) for buyback.
+  name: Back Market Buy Back API
+  slug: back-market-buyback-api
+- description: The Care API from Back Market — 6 operation(s) for care.
+  name: Back Market Care API
+  slug: back-market-care-api
+- description: The Categories API from Back Market — 2 operation(s) for categories.
+  name: Back Market Categories API
+  slug: back-market-categories-api
+- description: The Listings API from Back Market — 3 operation(s) for listings.
+  name: Back Market Listings API
+  slug: back-market-listings-api
+- description: The Orderline API from Back Market — 1 operation(s) for orderline.
+  name: Back Market Orderline API
+  slug: back-market-orderline-api
+- description: The Orders API from Back Market — 3 operation(s) for orders.
+  name: Back Market Orders API
+  slug: back-market-orders-api
+- description: The TaskManager API from Back Market — 1 operation(s) for taskmanager.
+  name: Back Market Task Manager API
+  slug: back-market-taskmanager-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -88,7 +112,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/back-market-openapi-original.yml
+  url: openapi/_original/back-market-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -182,14 +206,14 @@ modified: '2026-08-02'
 name: Back Market
 nav: Providers
 network: true
-overview: 'Back Market publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Refurbished Electronics.
+overview: 'Back Market publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Backbox API, Backship API, Buy Back API, and 6 more. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Refurbished Electronics.
 
 
   The Back Market catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   Back Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 73
+random_paper: 46
 rate_limits:
 - limit_count: 13
   name: Back Market Rate Limits
@@ -205,13 +229,13 @@ rules:
   slug: back-market-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 53.9
+  delta: 0.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.6
+    contract_quality: 61.0
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 32.3
     operational_transparency: 47.4
   previous_composite: 53.7
@@ -226,8 +250,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/screenshots/back-market-2026-08-07T162100.png
 security:
 - kind: authentication
   name: Back Market Authentication

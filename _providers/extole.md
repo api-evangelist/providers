@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -319,7 +319,7 @@ overview: 'Extole publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
-random_paper: 92
+random_paper: 77
 rules:
 - name: Extole API Rules
   rule_count: 8
@@ -352,7 +352,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Plains All American Pipeline and Plains GP Holdings ...
   url: https://energynow.com/2026/05/plains-all-american-pipeline-and-plains-gp-holdings-provide-update-on-the-ngl-sale-process/
-random_paper: 3
+random_paper: 95
 score:
   band: minimal
   composite: 5.5
@@ -108,7 +108,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plains-gp/refs/heads/main/screenshots/plains-gp-2026-06-20T191746.png
 security:

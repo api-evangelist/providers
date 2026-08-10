@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Maxim Integrated Products, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/maxim-integrated-products%2C-inc./
-random_paper: 91
+random_paper: 25
 score:
   band: minimal
   composite: 3.3
@@ -81,7 +81,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: maxim-integrated-products
 tags:

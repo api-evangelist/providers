@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,23 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/nexthopai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://nexthop.ai/website-terms-and-conditions-of-use/
 created: '2026-07-17'
 description: Nexthop AI is a networking infrastructure company building next-generation, highly efficient AI and cloud networking for hyperscalers and neo-cloud operators. Founded by former Arista Networks operations leader Anshul Sadana, it designs scale-out and scale-across Ethernet switches, a networking software portfolio, and optics and cables engineered to lower the cost per token of large GPU clusters by improving power efficiency, cost, reliability, and speed of deployment. The company raised a $500M Series B led by Lightspeed Venture Partners and Andreessen Horowitz at a $4.2B valuation and is tracked in the API Evangelist network as a Kleiner Perkins portfolio lead. It publishes no public web/REST API surface; this profile captures company identity and domain security posture.
 image: https://nexthop.ai/wp-content/uploads/2025/02/logo-color.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Nexthop AI
 nav: Providers
 network: true
 overview: 'Nexthop AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Networking, Infrastructure, and Switches.
 
 
-  Nexthop AI''s developer surface includes engineering blog, product news, support, documentation, and 7 more developer resources.'
-random_paper: 4
+  Nexthop AI''s developer surface includes engineering blog, product news, support, documentation, and 8 more developer resources.'
+random_paper: 93
 score:
   band: emerging
   composite: 14.9
@@ -101,8 +105,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nexthop-ai/refs/heads/main/screenshots/nexthop-ai-2026-08-07T185224.png
 security:
 - kind: domain-security
   name: Nexthop Ai Domain Security

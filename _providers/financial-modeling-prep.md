@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +69,11 @@ apis:
 - description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
-artifact_total: 30
+artifact_total: 33
 asyncapis:
+- description: AsyncAPI 2.6 description of Financial Modeling Prep's real-time market data WebSocket surface, documented at https://site.financialmodelingprep.com/datasets/websocket and https://site.financialmodelin
+  name: Financial Modeling Prep Real-Time WebSocket API
+  slug: financial-modeling-prep-asyncapi
 - description: Real-time market data streaming from Financial Modeling Prep. Authenticate with a login event carrying your API key, then subscribe to tickers or predefined market streams. Derived from the Websockets
   name: Financial Modeling Prep WebSocket API
   slug: financial-modeling-prep-websocket-asyncapi
@@ -108,6 +111,9 @@ collections:
 - collection_type: open
   name: Financial Modeling Prep API
   slug: open-financial-modeling-prep
+- collection_type: open
+  name: Financial Modeling Prep API
+  slug: open-financialmodelingprep
 common:
 - group: build
   title: ''
@@ -272,7 +278,7 @@ network: true
 overview: 'Financial Modeling Prep publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Balance Sheet Statement API, Cash Flow Statement API, Historical Price Full API, and 7 more. Tagged areas include Financial Data, Market Data, Stocks, Quotes, and Fundamentals.
 
 
-  The Financial Modeling Prep catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Financial Modeling Prep catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Financial Modeling Prep''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, API reference, support, and 29 more developer resources.'
@@ -280,21 +286,30 @@ plans:
 - name: Financial Modeling Prep Plans Pricing
   plan_count: 4
   slug: financial-modeling-prep-plans-pricing
-random_paper: 49
+random_paper: 105
 rate_limits:
 - limit_count: 4
   name: Financial Modeling Prep Rate Limits
   slug: financial-modeling-prep-rate-limits
+rules:
+- name: Financial Modeling Prep API Rules
+  rule_count: 6
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 5
+  slug: financial-modeling-prep-asyncapi-spectral-rules
 score:
-  band: strong
-  composite: 65.6
-  delta: 0.0
+  band: exemplar
+  composite: 69.9
+  delta: 4.3
   facets:
     commercial_clarity: 86.8
     contract_quality: 75.2
     developer_ergonomics: 49.5
     discoverability: 92.6
-    governance: 11.5
+    governance: 53.1
     operational_transparency: 76.3
   previous_composite: 65.6
   provenance:
@@ -314,7 +329,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Learnworlds Plans Pricing
   plan_count: 4
   slug: learnworlds-plans-pricing
-random_paper: 67
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Learnworlds Rate Limits
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/screenshots/learnworlds-2026-07-25T224802.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: DaVita HealthCare Partners Coverage
   url: https://medcitynews.com/tag/davita-healthcare-partners/
-random_paper: 44
+random_paper: 91
 score:
   band: minimal
   composite: 6.3
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/davita-healthcare-partners/refs/heads/main/screenshots/davita-healthcare-partners-2026-06-20T175733.png
 security:

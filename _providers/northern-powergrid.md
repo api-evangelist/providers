@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ overview: 'Northern Powergrid publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 38 more developer resources.'
-random_paper: 96
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Northern Powergrid Rate Limits
@@ -281,8 +281,9 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:
 - kind: authentication
   name: Northern Powergrid Authentication

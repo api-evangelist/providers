@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,7 +60,7 @@ name: Wiley
 nav: Providers
 network: true
 overview: Wiley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Publishing, Education, Academic, and Research.
-random_paper: 102
+random_paper: 90
 score:
   band: minimal
   composite: 4.2
@@ -74,7 +74,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 29 more developer resources.'
-random_paper: 67
+random_paper: 46
 scopes:
 - name: Goodlord Scopes
   scope_count: 2
@@ -242,8 +242,9 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:
 - kind: authentication
   name: Goodlord Authentication

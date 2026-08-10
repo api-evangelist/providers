@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 16
 common:
@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: Smurfit Westrock launches prototype of glueline-free ...
   url: https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-launches-prototype-of-glueline-free-packaging-solution
-random_paper: 91
+random_paper: 70
 score:
   band: emerging
   composite: 13.6
@@ -127,7 +127,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

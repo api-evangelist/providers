@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'MEDITECH publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 44
+random_paper: 23
 rules:
 - name: MEDITECH API Rules
   rule_count: 6
@@ -234,7 +234,7 @@ scopes:
 score:
   band: developing
   composite: 44.5
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 31.4
@@ -242,9 +242,10 @@ score:
     discoverability: 85.2
     governance: 70.8
     operational_transparency: 0.0
-  previous_composite: 38.6
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 8
@@ -257,8 +258,8 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:
 - kind: authentication

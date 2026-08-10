@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -147,7 +147,7 @@ plans:
 - name: Metriport Plans Pricing
   plan_count: 4
   slug: metriport-plans-pricing
-random_paper: 94
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Metriport Rate Limits
@@ -178,8 +178,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:
 - kind: authentication
   name: Metriport Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -124,10 +124,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/datafiniti-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/datafiniti-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -179,12 +175,12 @@ overview: 'Datafiniti publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Datafiniti catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Datafiniti''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
+  Datafiniti''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
   slug: datafiniti-plans-pricing
-random_paper: 36
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Datafiniti Rate Limits
@@ -226,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/screenshots/datafiniti-2026-06-20T175637.png
 security:

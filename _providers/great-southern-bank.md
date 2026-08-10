@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -175,7 +175,7 @@ overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Great Southern Bank''s developer surface includes authentication, API reference, developer portal, documentation, support, engineering blog, and 20 more developer resources.'
-random_paper: 0
+random_paper: 65
 scopes:
 - name: Great Southern Bank Scopes
   scope_count: 13
@@ -209,7 +209,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

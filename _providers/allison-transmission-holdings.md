@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Allison Transmission Holdings, Inc. (ALSN) Q1 2026 ...
   url: https://seekingalpha.com/article/4898143-allison-transmission-holdings-inc-alsn-q1-2026-earnings-call-transcript
-random_paper: 84
+random_paper: 6
 score:
   band: minimal
   composite: 3.0
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/screenshots/allison-transmission-holdings-2026-06-20T171533.png
 slug: allison-transmission-holdings

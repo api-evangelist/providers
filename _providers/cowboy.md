@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Cowboy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cowboy''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 94
+random_paper: 79
 score:
   band: emerging
   composite: 15.6
@@ -101,7 +101,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowboy/refs/heads/main/screenshots/cowboy-2026-07-25T210617.png
 security:

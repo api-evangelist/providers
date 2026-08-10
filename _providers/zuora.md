@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -340,7 +340,7 @@ plans:
 - name: Zuora Plans Pricing
   plan_count: 3
   slug: zuora-plans-pricing
-random_paper: 109
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Zuora Rate Limits
@@ -371,7 +371,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

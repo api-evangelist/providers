@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Green Power Index for Germany (Grünstromindex/GSI)
@@ -56,7 +56,7 @@ name: GrünstromIndex
 nav: Providers
 network: true
 overview: GrünstromIndex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 4
+random_paper: 81
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gr-nstromindex/refs/heads/main/screenshots/gr-nstromindex-2026-06-20T182308.png
 security:

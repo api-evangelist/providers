@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Morado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Morado''s developer surface includes signup flow, pricing, support, and 7 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: emerging
   composite: 17.3
@@ -103,8 +103,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/morado/refs/heads/main/screenshots/morado-2026-08-07T184258.png
 security:
 - kind: domain-security
   name: Morado Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Red Points is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Red Points'' developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 12
+random_paper: 101
 score:
   band: emerging
   composite: 15.0
@@ -93,7 +93,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

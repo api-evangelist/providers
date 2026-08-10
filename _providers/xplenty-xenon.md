@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Xplenty (Xenon)
 nav: Providers
 network: true
 overview: Xplenty (Xenon) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Infrastructure.
-random_paper: 29
+random_paper: 109
 score:
   band: minimal
   composite: 4.8
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: xplenty-xenon
 tags:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,10 +70,11 @@ overview: 'Vulcan Elements is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Vulcan Elements'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 86
+random_paper: 47
 score:
   band: minimal
   composite: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -81,8 +82,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 5.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Vulcan Elements Domain Security

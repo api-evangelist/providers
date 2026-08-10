@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: 'Darden Restaurants Q1 FY2026: Revenue Growth, Margin ...'
   url: https://www.linkedin.com/posts/scottwilliamsphr_olive-garden-owner-darden-restaurants-disappoints-activity-7374857286441201665-GZka
-random_paper: 71
+random_paper: 23
 score:
   band: minimal
   composite: 4.1
@@ -138,7 +138,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/darden-restaurants/refs/heads/main/screenshots/darden-restaurants-2026-07-25T211215.png
 security:

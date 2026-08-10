@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-06'
+  score: 39.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -26,18 +26,24 @@ agentic_access:
   operation_count: 41
   slug: appfire-agentic-access
   summary_line: 41 operations · 27 acting · 2 human-in-the-loop
-api_count: 3
+api_count: 5
 apis:
-- description: Worklog and account-settings API for 7pace Timetracker for Jira (an Appfire product). Two versions are published side by side — v1 and v2 — each described by its own OpenAPI 3.0 document served from t
-  name: 7pace Timetracker for Jira REST API
-  slug: 7pace-timetracker-for-jira-rest-api
-- description: Public export and update API for the Appfire OKR (Objectives and Key Results) app for Jira Cloud. OpenAPI 3.1 document served anonymously from the OKR service. Provides cursor-paginated export of obje
-  name: Appfire OKR API
-  slug: appfire-okr-api
 - description: Public REST API for BigPicture, BigGantt and BigTemplate on Atlassian Cloud (Appfire's portfolio and project-management suite). Exposes boxes, box types, tasks, teams, team memberships, resources, ski
   name: BigPicture Cloud Public API
   slug: bigpicture-cloud-public-api
-artifact_total: 7
+- description: 'Retrieve objectives, key results, updates, and comments. Use **expand** to include related entities (teams, periods, labels, etc.) instead of IDs only. Authenticate with the **API-Token** header. For '
+  name: Appfire API query methods API
+  slug: appfire-api-query-methods-api
+- description: '**POST** with a JSON body. Send **Content-Type: application/json** and the **API-Token** header. Creates update records that set current status (and key-result progress where applicable).'
+  name: Appfire API update methods API
+  slug: appfire-api-update-methods-api
+- description: The Settings API from Appfire — 16 operation(s) for settings.
+  name: Appfire Settings API
+  slug: appfire-settings-api
+- description: The Worklogs API from Appfire — 10 operation(s) for worklogs.
+  name: Appfire Worklogs API
+  slug: appfire-worklogs-api
+artifact_total: 9
 common:
 - group: agent
   title: ''
@@ -159,23 +165,37 @@ modified: '2026-08-06'
 name: Appfire
 nav: Providers
 network: true
-overview: 'Appfire publishes 2 APIs on the [APIs.io](https://apis.io/) network: 7pace Timetracker for Jira REST API and OKR API. Tagged areas include atlassian, jira, confluence, project-portfolio-management, and work-management.
+overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include atlassian, jira, confluence, project-portfolio-management, and work-management.
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 21 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: developing
-  composite: 49.2
+  composite: 46.8
+  delta: -0.3
   facets:
     commercial_clarity: 36.8
-    contract_quality: 56.6
-    developer_ergonomics: 60.9
+    contract_quality: 55.3
+    developer_ergonomics: 56.0
     discoverability: 88.9
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 31.6
+  previous_composite: 47.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:
 - kind: authentication
   name: Appfire Authentication

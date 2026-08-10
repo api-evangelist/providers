@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Invaluable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Invaluable''s developer surface includes API reference, support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 42
+random_paper: 15
 score:
   band: emerging
   composite: 15.3
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invaluable/refs/heads/main/screenshots/invaluable-2026-07-25T222731.png
 security:

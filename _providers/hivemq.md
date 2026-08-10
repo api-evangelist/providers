@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -120,11 +120,75 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.hivemq.com/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.hivemq.com/developers/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.hivemq.cloud/
+- group: start
+  title: ''
+  type: Login
+  url: https://console.hivemq.cloud/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hivemq.com/company/support/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/hivemq
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hivemq.com/legal/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hivemq.com/legal/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.hivemq.cloud/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.hivemq.com/solutions/technology/hivemq-security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.hivemq.com/solutions/technology/hivemq-security/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hivemq-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hivemq-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/hivemq-cli.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hivemq-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hivemq-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hivemq-llms.txt
 created: '2026-05-11'
 description: HiveMQ is an enterprise MQTT broker and IoT connectivity platform that provides reliable, scalable bidirectional messaging between connected devices and back-end systems using the MQTT protocol. It supports MQTT 3, MQTT 5, MQTT over WebSocket, clustering, multi-cloud deployments, and an extensible enterprise extension framework for security, data routing, and stream processing through HiveMQ Data Hub. HiveMQ exposes a REST API (OpenAPI 3.0) for broker administration, client management, backups, trace recordings, and Data Hub policy management.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hivemq.png
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: HiveMQ
 nav: Providers
 network: true
@@ -134,8 +198,8 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The HiveMQ catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 9 more developer resources.'
-random_paper: 85
+  HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, support, and 24 more developer resources.'
+random_paper: 70
 rules:
 - name: HiveMQ API Rules
   rule_count: 2
@@ -146,16 +210,16 @@ rules:
     warn: 2
   slug: hivemq-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 36.4
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: 19.1
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 60.5
     contract_quality: 62.8
-    developer_ergonomics: 21.7
-    discoverability: 64.8
-    governance: 52.1
-    operational_transparency: 5.3
+    developer_ergonomics: 47.8
+    discoverability: 72.2
+    governance: 64.6
+    operational_transparency: 31.6
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -169,11 +233,11 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 31.9
+    score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-06-20T182802.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:
 - kind: authentication
   name: Hivemq Authentication

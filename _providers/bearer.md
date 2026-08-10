@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Bearer is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bearer''s developer surface includes documentation, quickstart, API reference, engineering blog, CLI, changelog, and 10 more developer resources.'
-random_paper: 60
+random_paper: 45
 score:
   band: emerging
   composite: 21.2
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bearer/refs/heads/main/screenshots/bearer-2026-07-25T202543.png
 security:

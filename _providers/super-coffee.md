@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service that Super Coffee's storefront implements over MCP transport. An anonymous tools/list returns 13 tools covering catalog search and lookup, produc
@@ -118,7 +118,7 @@ overview: 'Super Coffee publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Super Coffee''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 90
+random_paper: 60
 scopes:
 - name: Super Coffee Scopes
   scope_count: 4
@@ -127,6 +127,7 @@ scopes:
 score:
   band: emerging
   composite: 26.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -134,12 +135,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Super Coffee Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Repository issues (collaborative objects)
@@ -73,7 +73,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: openapi/radicle-httpd-openapi.yml
+  url: openapi/_original/radicle-httpd-openapi.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -174,7 +174,7 @@ overview: 'Radicle publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Radicle''s developer surface includes documentation, getting-started guide, API reference, engineering blog, FAQ, support, CLI, and 19 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: developing
   composite: 44.2
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

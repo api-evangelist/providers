@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -143,7 +143,7 @@ plans:
 - name: Kubevirt Plans Pricing
   plan_count: 3
   slug: kubevirt-plans-pricing
-random_paper: 85
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Kubevirt Rate Limits
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/screenshots/kubevirt-2026-06-20T184209.png
 security:

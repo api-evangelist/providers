@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
@@ -51,7 +51,7 @@ apis:
 - description: 'Unauthenticated JSON API that NordVPN''s own clients and the open-source Linux client use to enumerate the server estate — servers, countries, cities, groups and technologies. It is publicly reachable '
   name: NordVPN Public Server API
   slug: nordvpn-public-server-api
-artifact_total: 16
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -233,6 +233,9 @@ mcp_servers:
 - description: ''
   name: nord-security-mcp.yml
   slug: nord-security-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-01'
 name: Nord Security
 nav: Providers
@@ -241,7 +244,7 @@ overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 12
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits
@@ -263,8 +266,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:
 - kind: authentication
   name: Nord Security Authentication

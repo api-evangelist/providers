@@ -15,7 +15,7 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-06'
+  score: 50.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -206,6 +206,38 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/coactiveai
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/coactive-authentication.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coactive-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/coactive-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/coactive-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/coactive-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/coactive-data-model.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.coactive.ai/docs-guides/introduction/release-notes
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CoactiveAI
 created: '2026-07-17'
 description: Coactive is a multimodal AI platform that delivers a contextual intelligence layer for modern media, turning unstructured images and video into structured, searchable intelligence. The platform ingests visual assets at scale and provides agentic and semantic search, dynamic tagging, concept training and classification, celebrity and face detection, video narrative metadata and summarization, ad-segment context studio workflows, and analytics that plug into data warehouses and BI tools. Every capability is exposed programmatically through a versioned REST API (api.coactive.ai) with an official Python SDK, bearer-token authentication, and a hosted documentation MCP server. Coactive was founded to help enterprises search, moderate, understand, and monetize their content libraries for contextual advertising, brand safety, and content operations.
 image: https://www.coactive.ai/favicon.ico
@@ -214,26 +246,26 @@ mcp_servers:
 - description: ''
   name: coactive-mcp.yml
   slug: coactive-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Coactive
 nav: Providers
 network: true
 overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agentic-search > agenticSearch API, celebrity-detection API, classification API, and 19 more. Tagged areas include Company, Ai, Multimodal AI, Computer Vision, and Video Intelligence.
 
 
-  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 55
+  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 26 more developer resources.'
+random_paper: 34
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 55.0
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.9
-    developer_ergonomics: 58.2
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 31.6
+    operational_transparency: 44.7
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -246,9 +278,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205820.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:
 - kind: authentication
   name: Coactive Authentication

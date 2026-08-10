@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Asynchronous speech-to-text transcription API that turns audio and video into text with high accuracy. Supports batch, real-time, and human-in-the-loop transcription, multipart and remote-URL submissi
@@ -183,7 +183,7 @@ overview: 'Kensho publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Kensho''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 83
+random_paper: 68
 scopes:
 - name: Kensho Scopes
   scope_count: 2
@@ -206,7 +206,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/screenshots/kensho-2026-07-25T223619.png
 security:

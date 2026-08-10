@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -152,9 +152,9 @@ common:
   title: ''
   type: VSCodeExtension
   url: https://github.com/simplelocalize/vscode-simplelocalize
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://github.com/simplelocalize/simplelocalize-mcp-server
 - group: build
   title: ''
@@ -217,7 +217,7 @@ plans:
 - name: Simplelocalize Plans Pricing
   plan_count: 5
   slug: simplelocalize-plans-pricing
-random_paper: 32
+random_paper: 109
 rate_limits:
 - limit_count: 3
   name: Simplelocalize Rate Limits
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/screenshots/simplelocalize-2026-06-20T193932.png
 security:

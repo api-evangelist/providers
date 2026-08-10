@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -223,6 +223,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/lemon-markets/
+- group: company
+  title: ''
+  type: Blog
+  url: https://lemon.markets/en-de/blog
 created: '2026-07-17'
 description: lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage infrastructure as an API. Its Brokerage API lets fintechs, banks and platforms embed investing — account opening and KYC/identification, securities accounts, order placement and execution, trades, positions, transactions, withdrawals, settlements, corporate actions, income distributions, tax exemption orders (Freistellungsauftrag) and treasury products — without building or licensing a broker-dealer stack themselves. Coverage spans 10,000+ ETFs, ETPs, stocks, bonds and funds, and the platform supports omnibus, fully disclosed and BPO (business process outsourcing) operating models. The REST API is complemented by a webhook/event surface, an Idempotency-Key contract on order placement, and a sandbox environment with published test ISINs. API access is invite-only.
 image: https://www.lemon.markets/favicon.ico
@@ -231,7 +235,7 @@ mcp_servers:
 - description: ''
   name: lemonmarkets-mcp.yml
   slug: lemonmarkets-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: lemon.markets
 nav: Providers
 network: true
@@ -241,16 +245,16 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The lemon.markets catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 25 more developer resources.'
-random_paper: 55
+  lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 26 more developer resources.'
+random_paper: 22
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 49.6
+  delta: 0.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 67.2
-    developer_ergonomics: 60.3
+    developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
@@ -272,7 +276,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

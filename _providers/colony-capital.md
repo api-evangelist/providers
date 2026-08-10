@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 30
 common:
@@ -138,7 +138,7 @@ overview: 'Colony Capital (DigitalBridge Group) is profiled on the [APIs.io](htt
 
 
   Colony Capital (DigitalBridge Group)''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 83
+random_paper: 47
 score:
   band: minimal
   composite: 5.4
@@ -152,7 +152,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colony-capital/refs/heads/main/screenshots/colony-capital-2026-06-20T174751.png
 security:

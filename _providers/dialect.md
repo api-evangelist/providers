@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dialect''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: developing
   composite: 50.4
@@ -248,7 +248,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:

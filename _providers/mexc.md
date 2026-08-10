@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 6
@@ -202,7 +202,7 @@ plans:
 - name: Mexc Plans Pricing
   plan_count: 5
   slug: mexc-plans-pricing
-random_paper: 90
+random_paper: 81
 rate_limits:
 - limit_count: 12
   name: Mexc Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/screenshots/mexc-2026-06-20T185344.png
 security:

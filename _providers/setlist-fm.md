@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-06'
+  score: 36.9
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,11 @@ apis:
 - description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
   name: setlist.fm /1.0/venue/{venueId}/setlists API
   slug: setlist-fm-1-0-venue-venueid-setlists-api
-artifact_total: 37
+artifact_total: 39
+collections:
+- collection_type: open
+  name: setlist.fm REST API
+  slug: open-setlistfm
 common:
 - group: agent
   title: ''
@@ -133,6 +137,10 @@ common:
   title: ''
   type: FinOps
   url: finops/setlist-fm-finops.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/setlist-fm-authentication.yml
 created: '2026-06-13'
 description: setlist.fm is a concert setlist database providing a REST API for accessing setlists, searching by artist or venue, tracking tour dates, and accessing live music performance data. The API supports JSON and XML responses, uses MusicBrainz IDs for artist identification, and provides endpoints for artists, venues, cities, countries, and user attendance data.
 finops:
@@ -190,7 +198,7 @@ json_schemas:
   property_count: 4
   slug: setlist-fm-Venues
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: setlist.fm
 nav: Providers
 network: true
@@ -200,12 +208,12 @@ overview: 'setlist.fm publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
   The setlist.fm catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  setlist.fm''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  setlist.fm''s developer surface includes documentation, engineering blog, pricing, authentication, and 9 more developer resources.'
 plans:
 - name: Setlist Fm Plans Pricing
   plan_count: 2
   slug: setlist-fm-plans-pricing
-random_paper: 15
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Setlist Fm Rate Limits
@@ -221,12 +229,12 @@ rules:
   slug: setlist-fm-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 39.0
+  delta: 2.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 46.5
-    developer_ergonomics: 10.9
+    developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
@@ -239,10 +247,14 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
 security:
+- kind: authentication
+  name: Setlist Fm Authentication
+  slug: setlist-fm-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Setlist Fm Domain Security
   slug: setlist-fm-domain-security

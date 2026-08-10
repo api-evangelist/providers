@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Provides situation of the COVID-19 patients reported in Sri Lanka
@@ -56,7 +56,7 @@ name: COVID-19 Tracker Sri Lanka
 nav: Providers
 network: true
 overview: COVID-19 Tracker Sri Lanka publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 47
+random_paper: 100
 score:
   band: minimal
   composite: 6.0
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-tracker-sri-lanka/refs/heads/main/screenshots/covid-19-tracker-sri-lanka-2026-06-20T175154.png
 security:

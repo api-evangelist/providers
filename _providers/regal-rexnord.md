@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Regal Rexnord API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Regal Rexnord Plans Pricing
   plan_count: 1
   slug: regal-rexnord-plans-pricing
-random_paper: 95
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Regal Rexnord Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-rexnord/refs/heads/main/screenshots/regal-rexnord-2026-06-20T192753.png
 security:

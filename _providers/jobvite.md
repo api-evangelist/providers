@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'REST APIs for exchanging candidate, requisition, and application data between Jobvite and external systems in JSON format. Includes the Onboard New Hire API for pushing employee data into the Jobvite '
@@ -87,7 +87,7 @@ overview: 'Jobvite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Jobvite''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 77
+random_paper: 59
 score:
   band: minimal
   composite: 12.7
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobvite/refs/heads/main/screenshots/jobvite-2026-06-20T183746.png
 security:

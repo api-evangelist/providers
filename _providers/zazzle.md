@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -28,15 +28,15 @@ agentic_access:
   summary_line: 3 operations
 api_count: 3
 apis:
-- description: 'URL linkover API that injects a partner site''s images and text into a Zazzle product template and returns a finished, purchasable product. Supports 1-to-1 (single template, ax=Linkover) and 1-to-many '
-  name: Zazzle Create-a-Product API
-  slug: create-a-product
-- description: Dynamic product mockup image service. Given a Zazzle template product ID and the same partner-supplied image/text parameters used by the Create-a-Product API, returns a rendered square product image s
-  name: Zazzle RealView Product Image API
-  slug: realview
-- description: Partner-gated XML RPC API used by Zazzle manufacturing partners (Makers) to pull new and cancelled orders, retrieve a single order with its line items and print files, fetch packing sheets, and buy or
-  name: Zazzle Vendor (Maker) API
-  slug: vendor
+- description: Build a purchasable Zazzle product from a template plus partner-supplied images and text.
+  name: Zazzle Create a Product API
+  slug: zazzle-create-a-product-api
+- description: Dynamic product mockup image rendering.
+  name: Zazzle Real View API
+  slug: zazzle-realview-api
+- description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
+  name: Zazzle Vendor API
+  slug: zazzle-vendor-api
 artifact_total: 7
 common:
 - group: company
@@ -164,21 +164,23 @@ modified: '2026-08-05'
 name: Zazzle
 nav: Providers
 network: true
-overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create-a-Product API, RealView Product Image API, and Vendor (Maker) API. Tagged areas include Company, E-Commerce, Marketplace, Print On Demand, and Manufacturing.
+overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print On Demand, and Manufacturing.
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 22 more developer resources.'
-random_paper: 107
+random_paper: 92
 score:
   band: thin
-  composite: 41.1
+  composite: 40.6
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 31.4
+    contract_quality: 29.5
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,7 +192,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Zazzle Authentication

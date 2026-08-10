@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST/JSON API providing programmatic read-only access to AdMob account data, apps, ad units, mediation configuration, and network/mediation performance reports. Authorized with Google OAuth 2.0.
@@ -160,7 +160,7 @@ overview: 'AdMob publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 21 more developer resources.'
-random_paper: 63
+random_paper: 51
 scopes:
 - name: Admob Scopes
   scope_count: 2
@@ -179,7 +179,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 35.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:

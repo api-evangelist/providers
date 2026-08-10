@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,20 +11,23 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 39.4
+  scored_at: '2026-08-10'
+api_count: 2
 apis:
-- description: REST API served by the customer-installed aP Connect Agent. Retrieves Agent service configuration and status, lists aP Connect workflows, invokes workflow actions (run and runPartList — the REST-drive
-  name: aP Connect Agent REST API
-  slug: ap-connect-agent-rest-api
-artifact_total: 5
+- description: Agent Controller
+  name: aPriori Agent API
+  slug: apriori-agent-api
+- description: Workflows Controller
+  name: aPriori Workflow API
+  slug: apriori-workflow-api
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -142,23 +145,36 @@ modified: '2026-08-06'
 name: aPriori
 nav: Providers
 network: true
-overview: 'aPriori publishes 1 API on the [APIs.io](https://apis.io/) network: aP Connect Agent REST API. Tagged areas include Company, manufacturing, product-cost-management, design-for-manufacturability, and should-cost.
+overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent API and Workflow API. Tagged areas include Company, manufacturing, product-cost-management, design-for-manufacturability, and should-cost.
 
 
   aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 80
+random_paper: 62
 score:
   band: developing
-  composite: 48.8
+  composite: 44.8
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.6
-    developer_ergonomics: 58.7
+    contract_quality: 48.3
+    developer_ergonomics: 47.3
     discoverability: 77.8
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 45.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:
 - kind: authentication
   name: Apriori Authentication

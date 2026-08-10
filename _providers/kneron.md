@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -151,7 +151,7 @@ overview: 'Kneron is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kneron''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 88
+random_paper: 73
 score:
   band: emerging
   composite: 25.2
@@ -165,8 +165,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kneron/refs/heads/main/screenshots/kneron-2026-08-07T171256.png
 security:
 - kind: domain-security
   name: Kneron Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -208,7 +208,7 @@ overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   HookLogic (Criteo)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 68
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Hooklogic Criteo Rate Limits
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:

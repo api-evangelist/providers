@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
@@ -135,7 +135,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/civicplus-seeclickfix-open311-openapi-original.yml
+  url: openapi/_original/civicplus-seeclickfix-open311-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -156,7 +156,7 @@ overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   CivicPlus'' developer surface includes support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 74
+random_paper: 50
 score:
   band: thin
   composite: 39.1
@@ -184,7 +184,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:

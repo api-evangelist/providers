@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Newleos Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Newleos Therapeutics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 73
+random_paper: 19
 score:
   band: minimal
   composite: 9.7
@@ -79,8 +79,9 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newleos-therapeutics/refs/heads/main/screenshots/newleos-therapeutics-2026-08-07T185112.png
 slug: newleos-therapeutics
 tags:
 - Company

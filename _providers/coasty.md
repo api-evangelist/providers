@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -173,7 +173,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/coasty-openapi-original.json
+  url: openapi/_original/coasty-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -269,7 +269,7 @@ plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 94
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Coasty Rate Limits
@@ -297,7 +297,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

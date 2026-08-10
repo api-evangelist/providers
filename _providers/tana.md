@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tana-input-api-openapi.yml
+  url: openapi/_original/tana-input-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -182,7 +182,7 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 81
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
@@ -210,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

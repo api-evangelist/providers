@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -123,6 +123,38 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/moxion-power
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/MoxionPower
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/moxion-power-co
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/moxion-power-co
+- group: other
+  title: ''
+  type: Successor
+  url: https://viridiparente.com/moxion-inquire/
+- group: other
+  title: ''
+  type: BankruptcyCoverage
+  url: https://www.latitudemedia.com/news/portable-battery-startup-moxion-is-bankrupt-what-happened/
+- group: other
+  title: ''
+  type: AcquisitionCoverage
+  url: https://www.grandviewindependent.com/viridi-powers-into-richmond-replaces-moxion/
+- group: company
+  title: ''
+  type: Blog
+  url: https://viridiparente.com/feed/
 created: '2026-07-17'
 description: Moxion Power Co is a mobile energy storage company (a Y Combinator alum) that builds trailer-mounted, zero-emission Mobile Power Units (MPUs) used as quiet, clean replacements for diesel generators on construction sites, film productions, events, and grid-support jobs. Moxion operated a REST Developer API that let fleet operators fetch device metadata, real-time GPS location, and time-series telemetry (state of charge, pack voltage, net/output power, energy available/capacity, cellular signal) for their Mobile Power Units, along with active fault codes. The API additionally exposed AEMP 2.0 (ISO 15143-3 v.20190501) compliant fleet-snapshot endpoints so telematics platforms could ingest Moxion equipment alongside other heavy-equipment fleets. Authentication used bearer tokens issued to Service Accounts. Note the company filed for bankruptcy in August 2024; the developer documentation remains online but the API host may no longer be operational.
 image: https://files.readme.io/6ee0605-small-Moxion_Icon_Logo_PNG.png
@@ -131,26 +163,26 @@ mcp_servers:
 - description: ''
   name: moxion-power-co-mcp.yml
   slug: moxion-power-co-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Moxion Power Co
 nav: Providers
 network: true
 overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Faults API, Device Location API, Device Metrics API, and 3 more. Tagged areas include Company, Energy Storage, Mobile Power, Battery, and Telemetry.
 
 
-  Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 13 more developer resources.'
-random_paper: 54
+  Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 19 more developer resources.'
+random_paper: 15
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: developing
+  composite: 42.6
+  delta: 1.1
   facets:
     commercial_clarity: 13.2
     contract_quality: 63.6
-    developer_ergonomics: 49.5
+    developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 31.3
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 41.5
   provenance:
     conformance: first-party
@@ -162,8 +194,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:
 - kind: authentication
   name: Moxion Power Co Authentication

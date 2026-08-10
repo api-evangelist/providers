@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Payments Fraud API is the core REST endpoint of the Kount 360 platform for AI-driven digital fraud prevention. Merchants submit order, payment, customer, and device session data, and receive a rea
@@ -161,7 +161,7 @@ overview: 'Kount publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kount''s developer surface includes developer portal, documentation, getting-started guide, support, and 15 more developer resources.'
-random_paper: 109
+random_paper: 97
 score:
   band: emerging
   composite: 15.6
@@ -181,7 +181,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kount/refs/heads/main/screenshots/kount-2026-06-20T184141.png
 security:

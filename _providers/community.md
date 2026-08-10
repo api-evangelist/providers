@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 93
+random_paper: 69
 scopes:
 - name: Community Scopes
   scope_count: 0
@@ -222,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:

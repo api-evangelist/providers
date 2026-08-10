@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,7 +100,7 @@ overview: 'Alteon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Alteon''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 78
+random_paper: 63
 score:
   band: emerging
   composite: 18.2
@@ -114,7 +114,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/screenshots/alteon-2026-07-25T195817.png
 security:

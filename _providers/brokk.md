@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Brokk is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brokk''s developer surface includes documentation, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 85
+random_paper: 73
 score:
   band: emerging
   composite: 16.1
@@ -115,7 +115,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/screenshots/brokk-2026-07-25T203947.png
 security:

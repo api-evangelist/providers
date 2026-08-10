@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: 'TerraPower is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TerraPower''s developer surface includes product news, GitHub presence, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 82
+random_paper: 55
 score:
   band: minimal
   composite: 6.1
@@ -130,7 +130,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrapower/refs/heads/main/screenshots/terrapower-2026-06-20T195136.png
 security:

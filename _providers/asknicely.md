@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,20 +17,29 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-06'
-api_count: 3
+  score: 55.2
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
-- description: The AskNicely REST API. Import and update contacts, trigger NPS/CSAT/5-Star surveys, bulk-load contacts (JSON or CSV importer), retrieve survey responses in JSON or CSV, read NPS/sent/historical stati
-  name: AskNicely API
-  slug: asknicely-api
-- description: 'Server-to-server endpoint that exchanges an HMAC-SHA256-signed contact identity for a one-time survey slug, so an AskNicely survey can be rendered inside your own website or mobile application rather '
-  name: AskNicely In-App Survey API
-  slug: asknicely-in-app-survey-api
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
   name: AskNicely MCP Server (Ask NiceAI)
   slug: asknicely-mcp-server-ask-niceai
-artifact_total: 10
+- description: Import, look up, deactivate and privacy-delete contacts.
+  name: AskNicely Contacts API
+  slug: asknicely-contacts-api
+- description: Server-to-server negotiation of an in-app survey slug.
+  name: AskNicely In-App Surveys API
+  slug: asknicely-in-app-surveys-api
+- description: Retrieve survey responses.
+  name: AskNicely Responses API
+  slug: asknicely-responses-api
+- description: NPS, sent and historical survey statistics.
+  name: AskNicely Statistics API
+  slug: asknicely-statistics-api
+- description: Trigger NPS/CSAT/5-Star surveys to contacts.
+  name: AskNicely Surveys API
+  slug: asknicely-surveys-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Asknicely Webhooks
@@ -176,14 +185,14 @@ modified: '2026-08-06'
 name: AskNicely
 nav: Providers
 network: true
-overview: 'AskNicely publishes 2 APIs on the [APIs.io](https://apis.io/) network, including In-App Survey API, and 1 more. Tagged areas include Company, Customer Experience, Net Promoter Score, Surveys, and Feedback.
+overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 2 more. Tagged areas include Company, Customer Experience, Net Promoter Score, Surveys, and Feedback.
 
 
   The AskNicely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 59
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Asknicely Rate Limits
@@ -195,14 +204,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.1
+  composite: 62.9
+  delta: -0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.4
-    developer_ergonomics: 58.7
+    contract_quality: 71.9
+    developer_ergonomics: 53.8
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 84.2
+  previous_composite: 63.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -210,7 +230,9 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:
 - kind: authentication
   name: Asknicely Authentication

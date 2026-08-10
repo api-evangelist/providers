@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -37,11 +37,8 @@ agentic_access:
   operation_count: 16
   slug: inworld-ai-agentic-access
   summary_line: 16 operations · 9 acting
-api_count: 6
+api_count: 7
 apis:
-- description: 'Inworld LLM Router — OpenAI-and-Anthropic-compatible chat-completions endpoint that routes prompts across hundreds of provider models (OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, Groq, etc.). '
-  name: Inworld LLM Router API
-  slug: inworld-router-api
 - description: Discover available models.
   name: Inworld AI Models API
   slug: inworld-ai-models-api
@@ -57,7 +54,13 @@ apis:
 - description: Voice cloning, design, and lifecycle.
   name: Inworld AI Voices API
   slug: inworld-ai-voices-api
-artifact_total: 57
+- description: OpenAI-compatible chat completions through the LLM Router.
+  name: Inworld AI Chat Completions API
+  slug: inworld-ai-chat-completions-api
+- description: Named reusable routers with provider, conditional, and split rules.
+  name: Inworld AI Routers API
+  slug: inworld-ai-routers-api
+artifact_total: 58
 asyncapis:
 - description: 'AsyncAPI description of Inworld AI''s publicly documented runtime WebSocket surface. Inworld exposes three independent WebSocket endpoints: * **TTS streaming** — bidirectional text-to-speech synthesis '
   name: Inworld AI Runtime WebSocket APIs
@@ -381,7 +384,7 @@ modified: '2026-05-25'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inworld LLM Router API, Models API, Realtime API, and 3 more. Tagged areas include AI, Artificial Intelligence, Voice, Text To Speech, and Speech To Text.
+overview: 'Inworld AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Speech To Text API, and 4 more. Tagged areas include AI, Artificial Intelligence, Voice, Text To Speech, and Speech To Text.
 
 
   The Inworld AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -392,7 +395,7 @@ plans:
 - name: Inworld Ai Plans Pricing
   plan_count: 5
   slug: inworld-ai-plans-pricing
-random_paper: 110
+random_paper: 86
 rate_limits:
 - limit_count: 4
   name: Inworld Ai Rate Limits
@@ -424,11 +427,11 @@ rules:
   slug: inworld-ai-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 61.6
+  delta: -0.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 79.8
+    contract_quality: 76.4
     developer_ergonomics: 69.6
     discoverability: 64.8
     governance: 47.9
@@ -448,7 +451,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:

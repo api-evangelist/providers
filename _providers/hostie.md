@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Hostie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hostie''s developer surface includes pricing, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 87
+random_paper: 72
 score:
   band: emerging
   composite: 14.4
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostie/refs/heads/main/screenshots/hostie-2026-07-25T221448.png
 security:

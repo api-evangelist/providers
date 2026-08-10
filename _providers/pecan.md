@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,19 +91,23 @@ common:
   title: ''
   type: DomainSecurity
   url: security/pecan-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.pecan.ai/contact/
 created: '2026-07-17'
 description: Pecan AI is a predictive analytics platform that lets business teams generate machine-learning predictions without data-science expertise. Users describe a business question in natural language and Pecan builds, trains, and deploys predictive models for outcomes such as customer churn, lifetime value (LTV), lead scoring, demand forecasting, upsell and cross-sell, campaign ROAS, and fraud prevention. Predictions connect back to CRMs, marketing platforms, and BI dashboards through native integrations or an API. The company markets itself as a predictive AI agent built for business outcomes rather than raw models, and runs on AWS with ISO 27001 and SOC 2 Type II security certifications.
 image: https://d11l08mk9rlgne.cloudfront.net/wp-content/uploads/2026/01/featured-image.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Pecan
 nav: Providers
 network: true
 overview: 'Pecan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Predictive Analytics, Machine Learning, and Data Science.
 
 
-  Pecan''s developer surface includes documentation, engineering blog, getting-started guide, pricing, and 11 more developer resources.'
-random_paper: 67
+  Pecan''s developer surface includes documentation, engineering blog, getting-started guide, pricing, support, and 11 more developer resources.'
+random_paper: 55
 score:
   band: emerging
   composite: 25.2
@@ -119,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

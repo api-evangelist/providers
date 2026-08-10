@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: KMPR Kemper Corporation Stock Price & Overview
   url: https://seekingalpha.com/symbol/KMPR
-random_paper: 79
+random_paper: 64
 score:
   band: minimal
   composite: 6.0
@@ -95,7 +95,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kemper/refs/heads/main/screenshots/kemper-2026-06-20T183949.png
 security:

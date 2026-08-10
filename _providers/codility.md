@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Codility is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Codility''s developer surface includes pricing, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 74
+random_paper: 53
 score:
   band: emerging
   composite: 24.7
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codility/refs/heads/main/screenshots/codility-2026-07-25T205940.png
 security:

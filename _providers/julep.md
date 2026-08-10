@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ overview: 'Julep publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 9 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: thin
   composite: 36.1
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

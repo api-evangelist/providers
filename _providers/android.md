@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -849,7 +849,7 @@ plans:
 - name: Android Plans Pricing
   plan_count: 6
   slug: android-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits
@@ -898,7 +898,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Avant is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Avant''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 86
+random_paper: 74
 score:
   band: emerging
   composite: 14.8
@@ -107,7 +107,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avant/refs/heads/main/screenshots/avant-2026-07-25T201907.png
 security:

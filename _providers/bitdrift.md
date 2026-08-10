@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
@@ -171,7 +171,7 @@ overview: 'bitdrift publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   bitdrift''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 65
+random_paper: 44
 score:
   band: developing
   composite: 53.4
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/screenshots/bitdrift-2026-07-25T203143.png
 security:

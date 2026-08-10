@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Buildvision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Buildvision''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 62
+random_paper: 32
 score:
   band: emerging
   composite: 19.9
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildvision/refs/heads/main/screenshots/buildvision-2026-07-25T204052.png
 security:

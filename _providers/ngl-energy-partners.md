@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1504461/000150446123000002/ngl-20221230.htm
-random_paper: 19
+random_paper: 84
 score:
   band: minimal
   composite: 10.7
@@ -139,7 +139,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngl-energy-partners/refs/heads/main/screenshots/ngl-energy-partners-2026-06-20T190313.png
 security:

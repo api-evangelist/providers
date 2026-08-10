@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ overview: 'Cart.com publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cart.com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 112
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Cart Com Rate Limits
@@ -229,8 +229,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
 security:
 - kind: authentication
   name: Cart Com Authentication

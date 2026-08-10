@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/meter-openapi-original.yml
+  url: openapi/_original/meter-openapi-original.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -194,7 +194,7 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 89
+random_paper: 77
 score:
   band: thin
   composite: 41.3
@@ -218,8 +218,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:
 - kind: domain-security
   name: Meter Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,7 +144,7 @@ plans:
 - name: Nx Plans
   plan_count: 3
   slug: nx-plans
-random_paper: 4
+random_paper: 114
 score:
   band: thin
   composite: 39.4
@@ -160,8 +160,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nx/refs/heads/main/screenshots/nx-2026-08-07T185818.png
 security:
 - kind: domain-security
   name: Nx Domain Security

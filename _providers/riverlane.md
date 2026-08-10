@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Bearer-token cloud service backing the Deltakit SDK. Exposes the compute-heavy and proprietary parts of the QEC workflow that do not run locally: leakage noise generation and simulation, decoding with'
@@ -143,11 +143,11 @@ overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Riverlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 19 more developer resources.'
-random_paper: 64
+random_paper: 40
 score:
   band: thin
   composite: 29.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -155,11 +155,11 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 30.8
+  previous_composite: 29.7
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

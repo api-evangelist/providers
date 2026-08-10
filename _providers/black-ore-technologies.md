@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -109,7 +109,7 @@ overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/)
 
 
   Black Ore Technologies'' developer surface includes pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 62
+random_paper: 5
 score:
   band: emerging
   composite: 23.7
@@ -125,7 +125,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/screenshots/black-ore-technologies-2026-07-25T203235.png
 security:

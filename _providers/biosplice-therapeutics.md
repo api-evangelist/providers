@@ -1,6 +1,95 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/biosplice-therapeutics-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/biosplice-therapeutics-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/biosplice-therapeutics-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.biosplice.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.biosplice.com/mission/default.aspx
+- group: other
+  title: ''
+  type: Pipeline
+  url: https://www.biosplice.com/our-programs/detail.aspx?id=20
+- group: other
+  title: ''
+  type: Team
+  url: https://www.biosplice.com/management/default.aspx
+- group: other
+  title: ''
+  type: Publications
+  url: https://www.biosplice.com/publications/default.aspx
+- group: company
+  title: ''
+  type: News
+  url: https://www.biosplice.com/news/default.aspx
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.biosplice.com/news/default.aspx
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.biosplice.com/careers/default.aspx
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.biosplice.com/contact-us/default.aspx
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.biosplice.com/contact-us/default.aspx
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.biosplice.com/privacy/default.aspx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.biosplice.com/terms/default.aspx
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/biospliceinc
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/biosplice-therapeutics_stock/
 coverage:
   checked: '2026-08-07'
   detail: Biosplice is a clinical-stage drug developer whose product is an injectable small molecule, not software; www.biosplice.com is a 13KB ASP.NET brochure site with no robots.txt and no sitemap.xml, every spec and /.well-known/ path is rewritten to the CMS 404 page, and api./developer./docs./portal./status./graphql./mcp.biosplice.com have no DNS record at all.
@@ -27,7 +116,38 @@ modified: '2026-08-07'
 name: Biosplice Therapeutics
 nav: Providers
 network: true
-random_paper: 36
+overview: 'Biosplice Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Drug Development.
+
+
+  Biosplice Therapeutics'' developer surface includes product news, engineering blog, support, and 14 more developer resources.'
+random_paper: 92
+score:
+  band: minimal
+  composite: 12.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 64.8
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/biosplice-therapeutics/refs/heads/main/screenshots/biosplice-therapeutics-2026-08-07T162507.png
+security:
+- kind: domain-security
+  name: Biosplice Therapeutics Domain Security
+  slug: biosplice-therapeutics-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: biosplice-therapeutics
 tags:
 - Company
@@ -40,4 +160,5 @@ tags:
 - Small Molecule Therapeutics
 - Health Care
 - San Diego
+website: https://www.biosplice.com/
 ---

@@ -27,7 +27,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -114,7 +114,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -152,7 +152,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -179,18 +179,18 @@
      "slug": "microsoft",
      "description": "Collection of Microsoft's primary APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 60.0,
+     "score": 59.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 78.9,
+      "contract_quality": 75.5,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -239,7 +239,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -277,7 +277,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -309,13 +309,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 32.4,
+      "contract_quality": 32.5,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -363,7 +363,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -401,7 +401,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -439,7 +439,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

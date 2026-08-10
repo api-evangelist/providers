@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 3
@@ -309,7 +309,7 @@ overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mend''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 81
+random_paper: 72
 score:
   band: developing
   composite: 51.2
@@ -333,8 +333,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/screenshots/mend-2026-08-07T172510.png
 security:
 - kind: authentication
   name: Mend Authentication

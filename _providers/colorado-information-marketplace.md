@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Colorado State Government Open Data
@@ -56,7 +56,7 @@ name: Colorado Information Marketplace
 nav: Providers
 network: true
 overview: Colorado Information Marketplace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 15
+random_paper: 44
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorado-information-marketplace/refs/heads/main/screenshots/colorado-information-marketplace-2026-06-20T174757.png
 security:

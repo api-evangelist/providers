@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OpenYurt extends Kubernetes with CRDs for edge computing including NodePool for grouping edge nodes, YurtAppSet for deploying applications across node pools, YurtAppDaemon for pool-scoped daemon workl
@@ -72,7 +72,7 @@ plans:
 - name: Openyurt Plans Pricing
   plan_count: 3
   slug: openyurt-plans-pricing
-random_paper: 111
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Openyurt Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openyurt/refs/heads/main/screenshots/openyurt-2026-06-20T191055.png
 security:

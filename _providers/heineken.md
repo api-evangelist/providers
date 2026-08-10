@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Heineken operates an internal API portal under its HEIWAY platform used for B2B and partner integrations (distributors, on-trade customers, and internal systems). The portal is reached via developer.h
@@ -75,7 +75,7 @@ overview: 'Heineken publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Heineken''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
-random_paper: 48
+random_paper: 27
 score:
   band: minimal
   composite: 7.9
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heineken/refs/heads/main/screenshots/heineken-2026-06-20T182617.png
 security:

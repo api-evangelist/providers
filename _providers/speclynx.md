@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -144,7 +144,7 @@ plans:
 - name: Speclynx Plans Pricing
   plan_count: 3
   slug: speclynx-plans-pricing
-random_paper: 95
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Speclynx Rate Limits
@@ -171,7 +171,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speclynx/refs/heads/main/screenshots/speclynx-2026-06-20T194256.png
 security:

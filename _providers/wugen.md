@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,15 +26,30 @@ agentic_access:
   operation_count: 38
   slug: wugen-agentic-access
   summary_line: 38 operations
-api_count: 2
+api_count: 7
 apis:
-- description: 'The anonymously readable WordPress REST API that alloteratx.com serves at /wp-json/wp/v2 — the company press-release archive (81 posts), corporate and patient-facing pages (18: pipeline, science, clin'
-  name: Allotera (formerly Wugen) Content API (WordPress REST wp/v2)
-  slug: allotera-content
-- description: The anonymously readable WordPress REST API still served from the retired wugen.com brand domain at /wp-json/wp/v2. Although the human-facing wugen.com site was reduced to a single splash page forward
-  name: Wugen Legacy Content API (WordPress REST wp/v2)
-  slug: legacy-content
-artifact_total: 5
+- description: The Comments API from Wugen — 2 operation(s) for comments.
+  name: Wugen Comments API
+  slug: wugen-comments-api
+- description: The Discovery API from Wugen — 7 operation(s) for discovery.
+  name: Wugen Discovery API
+  slug: wugen-discovery-api
+- description: The Media API from Wugen — 2 operation(s) for media.
+  name: Wugen Media API
+  slug: wugen-media-api
+- description: The Pages API from Wugen — 2 operation(s) for pages.
+  name: Wugen Pages API
+  slug: wugen-pages-api
+- description: The Posts API from Wugen — 2 operation(s) for posts.
+  name: Wugen Posts API
+  slug: wugen-posts-api
+- description: The Search API from Wugen — 1 operation(s) for search.
+  name: Wugen Search API
+  slug: wugen-search-api
+- description: The Taxonomy API from Wugen — 4 operation(s) for taxonomy.
+  name: Wugen Taxonomy API
+  slug: wugen-taxonomy-api
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -165,21 +180,23 @@ modified: '2026-08-05'
 name: Wugen
 nav: Providers
 network: true
-overview: 'Wugen publishes 2 APIs on the [APIs.io](https://apis.io/) network: Allotera (formerly Wugen) Content API (WordPress REST wp/v2) and Legacy Content API (WordPress REST wp/v2). Tagged areas include Company, Biotechnology, Cell Therapy, Oncology, and Life Sciences.
+overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 4 more. Tagged areas include Company, Biotechnology, Cell Therapy, Oncology, and Life Sciences.
 
 
   Wugen''s developer surface includes authentication, code examples, product news, support, and 26 more developer resources.'
-random_paper: 98
+random_paper: 86
 score:
   band: emerging
-  composite: 20.1
+  composite: 20.2
+  delta: 0.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 13.8
+    contract_quality: 12.1
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 20.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,7 +213,8 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Wugen Authentication

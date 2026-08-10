@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,11 @@ apis:
 - description: The Prices API from SF Compute — 1 operation(s) for prices.
   name: SF Compute Prices API
   slug: sfcompute-prices-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: SF Compute API
+  slug: open-sf-compute
 - collection_type: open
   name: SF Compute API
   slug: open-sfcompute
@@ -110,42 +113,99 @@ common:
   title: ''
   type: Blog
   url: https://sfcompute.com/blog
+- group: other
+  title: ''
+  type: Developer
+  url: https://docs.sfcompute.com
+- group: start
+  title: ''
+  type: Signup
+  url: https://sfcompute.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://sfcompute.com/signin
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://sfcompute.com/prices
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://sfcompute.com/changelog
+- group: operate
+  title: ''
+  type: Support
+  url: https://sfcompute.com/contact
+- group: build
+  title: ''
+  type: CLI
+  url: https://github.com/sfcompute/cli
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/sfcompute/nodes-go
+- group: other
+  title: ''
+  type: GPUs
+  url: ''
+- group: other
+  title: ''
+  type: Customers
+  url: ''
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.sfcompute.com/llms.txt
 created: '2026-06-21'
 description: SF Compute (San Francisco Compute Company) runs a spot-priced market for very large scale GPU clusters. The api.sfcompute.com REST API lets buyers and sellers place market orders for blocks of H100 GPU-hours, manage tradable cluster contracts, query live market prices, check balances, and provision managed Kubernetes clusters, nodes, and VMs - all driven by the `sf` CLI and language SDKs.
+features:
+- description: Per-node hourly pricing fluctuates with supply and demand, with no long-term contracts.
+  name: Market-Based GPU Pricing
+- description: Reserve any number of H100 or H200 nodes for custom durations and start times.
+  name: Flexible Node Reservations
+- description: Slurm-scheduled clusters available on request for larger training jobs.
+  name: Managed Slurm Clusters
+- description: Direct bare-metal access for advanced workloads on request.
+  name: Bare Metal Clusters
+- description: Automatic refunds for failed nodes with hardware-level monitoring.
+  name: Hardware Failure Refunds
+- description: Cancel or resell unused capacity without penalty.
+  name: Cancel Anytime
 finops:
 - name: Sfcompute Finops
   service_category: Compute
   slug: sfcompute-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sfcompute.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-08-08'
 name: SF Compute
 nav: Providers
 network: true
 overview: 'SF Compute publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Balance API, Clusters API, and 4 more. Tagged areas include GPU, Compute, Marketplace, H100, and Spot Pricing.
 
 
-  SF Compute''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  SF Compute''s developer surface includes authentication, documentation, engineering blog, signup flow, pricing, changelog, support, and 13 more developer resources.'
 plans:
 - name: Sfcompute Plans Pricing
   plan_count: 3
   slug: sfcompute-plans-pricing
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Sfcompute Rate Limits
   slug: sfcompute-rate-limits
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 48.8
+  delta: 10.2
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 63.2
     contract_quality: 56.5
-    developer_ergonomics: 21.7
+    developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -155,8 +215,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/screenshots/sfcompute-2026-06-20T193742.png
 security:
 - kind: authentication
   name: Sfcompute Authentication

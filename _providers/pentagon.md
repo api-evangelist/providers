@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Pentagon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pentagon''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, and 9 more developer resources.'
-random_paper: 69
+random_paper: 48
 score:
   band: emerging
   composite: 21.8
@@ -113,7 +113,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

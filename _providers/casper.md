@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -88,7 +88,7 @@ overview: 'Casper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Casper''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 73
+random_paper: 58
 scopes:
 - name: Casper Scopes
   scope_count: 4
@@ -109,8 +109,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/casper/refs/heads/main/screenshots/casper-2026-08-07T163102.png
 security:
 - kind: authentication
   name: Casper Authentication

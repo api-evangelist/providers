@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'REST API providing partner access to OnDeck''s small business lending platform, supporting credit pre-qualifications, loan application submission, business health score retrieval via the OnDeck Score, '
@@ -100,7 +100,7 @@ plans:
 - name: Ondeck Plans Pricing
   plan_count: 1
   slug: ondeck-plans-pricing
-random_paper: 63
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Ondeck Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/screenshots/ondeck-2026-06-20T190706.png
 security:

@@ -22,13 +22,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-06'
+  score: 4.7
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -107,6 +107,58 @@ common:
   title: ''
   type: License
   url: https://github.com/promptfoo/promptfoo/blob/main/LICENSE
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.promptfoo.dev
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.promptfoo.app
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/promptfoo
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/promptfoo/promptfoo
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/promptfoo/promptfoo-python
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/promptfoo/promptfoo-action
+- group: build
+  title: ''
+  type: CodeExamples
+  url: https://github.com/promptfoo/example-app
+- group: build
+  title: ''
+  type: Library
+  url: https://github.com/promptfoo/js-rouge
+- group: build
+  title: ''
+  type: Package
+  url: https://www.npmjs.com/package/promptfoo
+- group: other
+  title: ''
+  type: HelmChart
+  url: https://github.com/promptfoo/promptfoo/tree/main/helm/chart/promptfoo
+- group: operate
+  title: ''
+  type: Forums
+  url: https://discord.gg/promptfoo
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/promptfoo
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/promptfoo/promptfoo/releases
 created: '2026-05-23'
 description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM vulnerabilities in IDE and CI, and proxy Model Context Protocol traffic. Promptfoo also operates a commercial Enterprise platform at promptfoo.app for teams that need centralized governance, remediation reports, and shared evaluation history.
 features:
@@ -151,38 +203,38 @@ integrations:
 - description: MCP Proxy and MCP provider support for agentic workflows.
   name: Model Context Protocol
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-08'
 name: Promptfoo
 nav: Providers
 network: true
 overview: 'Promptfoo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Red Teaming, AI Security, Guardrails, and Open Source.
 
 
-  Promptfoo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
+  Promptfoo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, developer portal, tooling, and 20 more developer resources.'
 plans:
 - name: Promptfoo Plans Pricing
   plan_count: 1
   slug: promptfoo-plans-pricing
-random_paper: 94
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Promptfoo Rate Limits
   slug: promptfoo-rate-limits
 score:
-  band: emerging
-  composite: 27.0
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: 7.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 57.9
   previous_composite: 27.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/screenshots/promptfoo-2026-06-20T192156.png
 security:
 - kind: domain-security

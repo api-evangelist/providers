@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Backend API for the Tolmo cloud security platform, consumed through the Tolmo CLI (SQL/Cypher queries over the infrastructure graph, security findings management, and a secure server-side proxy for co
@@ -140,7 +140,7 @@ overview: 'Tolmo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tolmo''s developer surface includes documentation, getting-started guide, authentication, CLI, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 103
+random_paper: 91
 score:
   band: thin
   composite: 29.8
@@ -156,7 +156,7 @@ score:
   provenance:
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

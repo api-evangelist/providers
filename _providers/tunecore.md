@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,7 +128,7 @@ overview: 'TuneCore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TuneCore''s developer surface includes signup flow, pricing, engineering blog, support, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 78
+random_paper: 57
 score:
   band: minimal
   composite: 9.1
@@ -142,7 +142,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tunecore/refs/heads/main/screenshots/tunecore-2026-06-20T195827.png
 security:

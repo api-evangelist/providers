@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Insamo
 nav: Providers
 network: true
 overview: Insamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Biotechnology, Drug Discovery, and Peptides.
-random_paper: 82
+random_paper: 67
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insamo/refs/heads/main/screenshots/insamo-2026-07-25T222520.png
 security:

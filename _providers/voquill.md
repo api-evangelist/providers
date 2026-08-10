@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'Voquill is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Voquill''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 11 more developer resources.'
-random_paper: 102
+random_paper: 84
 score:
   band: emerging
   composite: 25.3
@@ -137,7 +137,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

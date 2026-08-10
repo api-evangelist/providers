@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ overview: 'Tin Can is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tin Can''s developer surface includes support, engineering blog, pricing, authentication, and 10 more developer resources.'
-random_paper: 4
+random_paper: 102
 scopes:
 - name: Tin Can Scopes
   scope_count: 4
@@ -132,7 +132,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

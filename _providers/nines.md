@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Nines is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nines'' developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 89
+random_paper: 77
 score:
   band: emerging
   composite: 15.1
@@ -105,8 +105,9 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nines/refs/heads/main/screenshots/nines-2026-08-07T185320.png
 security:
 - kind: trust-center
   name: Nines Trust Center

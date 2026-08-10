@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -115,7 +115,7 @@ plans:
 - name: Shellrecharge Plans Pricing
   plan_count: 1
   slug: shellrecharge-plans-pricing
-random_paper: 13
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Shellrecharge Rate Limits
@@ -151,7 +151,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

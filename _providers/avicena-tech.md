@@ -1,6 +1,87 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/avicena-tech-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/avicena-tech-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://avicena.tech/
+- group: other
+  title: ''
+  type: Technology
+  url: https://avicena.tech/technology/
+- group: other
+  title: ''
+  type: Applications
+  url: https://avicena.tech/applications/
+- group: company
+  title: ''
+  type: About
+  url: https://avicena.tech/company/
+- group: company
+  title: ''
+  type: Blog
+  url: https://avicena.tech/press-releases/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://avicena.tech/feed/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://avicena.tech/contact/
+- group: company
+  title: ''
+  type: Careers
+  url: https://avicena.tech/careers/
+- group: start
+  title: ''
+  type: CustomerPortal
+  url: https://avicena.tech/customer-portal-login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://avicena.tech/website-terms-of-use/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/avicena-tech/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/AvicenaTech
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/avicena-tech
 coverage:
   checked: '2026-08-06'
   detail: Avicena sells microLED optical-interconnect silicon and the LightBundle eKit evaluation hardware, not software; the only credentialed surface on avicena.tech is a SuiteDash-hosted customer portal for eKit buyers, and every contract-discovery path on the marketing site returned the WordPress 404 template.
@@ -26,7 +107,32 @@ modified: '2026-08-06'
 name: Avicena Tech
 nav: Providers
 network: true
-random_paper: 62
+overview: 'Avicena Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Photonics, Optical Interconnects, and microLED.
+
+
+  Avicena Tech''s developer surface includes engineering blog and 14 more developer resources.'
+random_paper: 32
+score:
+  band: minimal
+  composite: 9.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 68.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.4
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/avicena-tech/refs/heads/main/screenshots/avicena-tech-2026-08-07T162027.png
+security:
+- kind: domain-security
+  name: Avicena Tech Domain Security
+  slug: avicena-tech-domain-security
+  summary_line: TLSv1.2
 slug: avicena-tech
 tags:
 - Company
@@ -38,4 +144,5 @@ tags:
 - Artificial Intelligence
 - High Performance Computing
 - Hardware
+website: https://avicena.tech/
 ---

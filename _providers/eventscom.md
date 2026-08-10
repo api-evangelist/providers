@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -26,21 +26,348 @@ agentic_access:
   operation_count: 979
   slug: eventscom-agentic-access
   summary_line: 979 operations · 598 acting · 291 human-in-the-loop
-api_count: 4
+api_count: 113
 apis:
-- description: The Spring Boot backend of Events.com's DataGol data and AI platform, self-documented as "Saasxl-api doc". 865 operations across 85 controller groups covering no-code database tables (NoCoDb v1/v2/v3)
-  name: DataGol Platform API (Saasxl)
-  slug: datagol-platform-api-saasxl
-- description: FastAPI service exposing Events.com's DataGol AI surface — conversations and messages with streaming agent runs, a SQL parser and dialect converter, dashboard and widget generation, machine-learning m
-  name: DataGol AI API
-  slug: datagol-ai-api
-- description: FastAPI service running Events.com's sandboxed Python analysis agent — a unified query endpoint, session lifecycle and status, stale-session cleanup, streaming run cancellation, Plotly figure retrieva
-  name: DataGol Python Agent API
-  slug: datagol-python-agent-api
 - description: Hosted Model Context Protocol server for the DataGol workbook surface, reachable at the /mcp, /sse and /messages transport paths. Connections are gated on workspace_id, workbook_id and token query par
   name: DataGol MCP Server
   slug: datagol-mcp-server
-artifact_total: 9
+- description: The agent-config-controller API from Events.com — 3 operation(s) for agent-config-controller.
+  name: Events.com Agent Config Controller API
+  slug: eventscom-agent-config-controller-api
+- description: The agent-config-migration-controller API from Events.com — 1 operation(s) for agent-config-migration-controller.
+  name: Events.com Agent Config Migration Controller API
+  slug: eventscom-agent-config-migration-controller-api
+- description: The agent-email-controller API from Events.com — 1 operation(s) for agent-email-controller.
+  name: Events.com Agent Email Controller API
+  slug: eventscom-agent-email-controller-api
+- description: The agent-job-update-controller API from Events.com — 1 operation(s) for agent-job-update-controller.
+  name: Events.com Agent Job Update Controller API
+  slug: eventscom-agent-job-update-controller-api
+- description: Manage company-level MCP servers for custom agents
+  name: Events.com Agent MCP API
+  slug: eventscom-agent-mcp-api
+- description: The agent-mcp-config-controller API from Events.com — 2 operation(s) for agent-mcp-config-controller.
+  name: Events.com Agent MCP Config Controller API
+  slug: eventscom-agent-mcp-config-controller-api
+- description: The Agent Memory API from Events.com — 4 operation(s) for agent memory.
+  name: Events.com Agent Memory API
+  slug: eventscom-agent-memory-api
+- description: The agent-skill-controller API from Events.com — 6 operation(s) for agent-skill-controller.
+  name: Events.com Agent Skill Controller API
+  slug: eventscom-agent-skill-controller-api
+- description: The agent-template-controller API from Events.com — 3 operation(s) for agent-template-controller.
+  name: Events.com Agent Template Controller API
+  slug: eventscom-agent-template-controller-api
+- description: The ai-feedback-controller API from Events.com — 3 operation(s) for ai-feedback-controller.
+  name: Events.com AI Feedback Controller API
+  slug: eventscom-ai-feedback-controller-api
+- description: The ai-third-party-page-controller API from Events.com — 1 operation(s) for ai-third-party-page-controller.
+  name: Events.com AI Third Party Page Controller API
+  slug: eventscom-ai-third-party-page-controller-api
+- description: The alert-controller API from Events.com — 5 operation(s) for alert-controller.
+  name: Events.com Alert Controller API
+  slug: eventscom-alert-controller-api
+- description: APIs for managing alert execution history
+  name: Events.com Alert History API
+  slug: eventscom-alert-history-api
+- description: The alert-notification-history-controller API from Events.com — 16 operation(s) for alert-notification-history-controller.
+  name: Events.com Alert Notification History Controller API
+  slug: eventscom-alert-notification-history-controller-api
+- description: The api-post-workflow-test-controller API from Events.com — 4 operation(s) for api-post-workflow-test-controller.
+  name: Events.com API Post Workflow Test Controller API
+  slug: eventscom-api-post-workflow-test-controller-api
+- description: Deploy and manage AppX apps in EKS
+  name: Events.com AppX Deployment API
+  slug: eventscom-appx-deployment-api
+- description: The bi-page-controller API from Events.com — 9 operation(s) for bi-page-controller.
+  name: Events.com Bi Page Controller API
+  slug: eventscom-bi-page-controller-api
+- description: The bi_rag API from Events.com — 6 operation(s) for bi_rag.
+  name: Events.com Bi Rag API
+  slug: eventscom-bi-rag-api
+- description: The biv-1-controller API from Events.com — 2 operation(s) for biv-1-controller.
+  name: Events.com Biv 1 Controller API
+  slug: eventscom-biv-1-controller-api
+- description: The biv-2-controller API from Events.com — 7 operation(s) for biv-2-controller.
+  name: Events.com Biv 2 Controller API
+  slug: eventscom-biv-2-controller-api
+- description: The cache-controller API from Events.com — 2 operation(s) for cache-controller.
+  name: Events.com Cache Controller API
+  slug: eventscom-cache-controller-api
+- description: The catalog-search-controller API from Events.com — 1 operation(s) for catalog-search-controller.
+  name: Events.com Catalog Search Controller API
+  slug: eventscom-catalog-search-controller-api
+- description: The chat-conversation-controller API from Events.com — 2 operation(s) for chat-conversation-controller.
+  name: Events.com Chat Conversation Controller API
+  slug: eventscom-chat-conversation-controller-api
+- description: The comment-controller API from Events.com — 4 operation(s) for comment-controller.
+  name: Events.com Comment Controller API
+  slug: eventscom-comment-controller-api
+- description: The company-ontology-controller API from Events.com — 3 operation(s) for company-ontology-controller.
+  name: Events.com Company Ontology Controller API
+  slug: eventscom-company-ontology-controller-api
+- description: The company-unstructured-data-controller API from Events.com — 1 operation(s) for company-unstructured-data-controller.
+  name: Events.com Company Unstructured Data Controller API
+  slug: eventscom-company-unstructured-data-controller-api
+- description: The config-controller API from Events.com — 3 operation(s) for config-controller.
+  name: Events.com Config Controller API
+  slug: eventscom-config-controller-api
+- description: The connector-controller API from Events.com — 17 operation(s) for connector-controller.
+  name: Events.com Connector Controller API
+  slug: eventscom-connector-controller-api
+- description: The conversation-controller API from Events.com — 3 operation(s) for conversation-controller.
+  name: Events.com Conversation Controller API
+  slug: eventscom-conversation-controller-api
+- description: The Conversation File Upload API from Events.com — 6 operation(s) for conversation file upload.
+  name: Events.com Conversation File Upload API
+  slug: eventscom-conversation-file-upload-api
+- description: The Conversation Message V2 API from Events.com — 4 operation(s) for conversation message v2.
+  name: Events.com Conversation Message V2 API
+  slug: eventscom-conversation-message-v2-api
+- description: The Conversation V2 API from Events.com — 2 operation(s) for conversation v2.
+  name: Events.com Conversation V2 API
+  slug: eventscom-conversation-v2-api
+- description: Custom agent CRUD, runs, and schedule management
+  name: Events.com Custom Agents API
+  slug: eventscom-custom-agents-api
+- description: The Data Download API from Events.com — 1 operation(s) for data download.
+  name: Events.com Data Download API
+  slug: eventscom-data-download-api
+- description: The Data Extraction API from Events.com — 6 operation(s) for data extraction.
+  name: Events.com Data Extraction API
+  slug: eventscom-data-extraction-api
+- description: The data-pipeline-controller API from Events.com — 13 operation(s) for data-pipeline-controller.
+  name: Events.com Data Pipeline Controller API
+  slug: eventscom-data-pipeline-controller-api
+- description: The data-pipeline-controller-v2 API from Events.com — 11 operation(s) for data-pipeline-controller-v2.
+  name: Events.com Data Pipeline Controller V2 API
+  slug: eventscom-data-pipeline-controller-v2-api
+- description: The data-quality-controller API from Events.com — 7 operation(s) for data-quality-controller.
+  name: Events.com Data Quality Controller API
+  slug: eventscom-data-quality-controller-api
+- description: The data-source-migration-controller API from Events.com — 3 operation(s) for data-source-migration-controller.
+  name: Events.com Data Source Migration Controller API
+  slug: eventscom-data-source-migration-controller-api
+- description: The Data Source Tables Controller API from Events.com — 2 operation(s) for data source tables controller.
+  name: Events.com Data Source Tables Controller API
+  slug: eventscom-data-source-tables-controller-api
+- description: The data-sources-controller API from Events.com — 55 operation(s) for data-sources-controller.
+  name: Events.com Data Sources Controller API
+  slug: eventscom-data-sources-controller-api
+- description: The Document Validation Demo API from Events.com — 2 operation(s) for document validation demo.
+  name: Events.com Document Validation Demo API
+  slug: eventscom-document-validation-demo-api
+- description: The element-link-controller API from Events.com — 6 operation(s) for element-link-controller.
+  name: Events.com Element Link Controller API
+  slug: eventscom-element-link-controller-api
+- description: Operations for managing element permissions
+  name: Events.com Element Permissions API
+  slug: eventscom-element-permissions-api
+- description: The etl-controller API from Events.com — 31 operation(s) for etl-controller.
+  name: Events.com Etl Controller API
+  slug: eventscom-etl-controller-api
+- description: The external-controller API from Events.com — 1 operation(s) for external-controller.
+  name: Events.com External Controller API
+  slug: eventscom-external-controller-api
+- description: The external-embedding-config-controller API from Events.com — 7 operation(s) for external-embedding-config-controller.
+  name: Events.com External Embedding Config Controller API
+  slug: eventscom-external-embedding-config-controller-api
+- description: The extraction-controller API from Events.com — 7 operation(s) for extraction-controller.
+  name: Events.com Extraction Controller API
+  slug: eventscom-extraction-controller-api
+- description: The file-controller API from Events.com — 6 operation(s) for file-controller.
+  name: Events.com File Controller API
+  slug: eventscom-file-controller-api
+- description: The folder-controller API from Events.com — 5 operation(s) for folder-controller.
+  name: Events.com Folder Controller API
+  slug: eventscom-folder-controller-api
+- description: The formula-processing-controller API from Events.com — 1 operation(s) for formula-processing-controller.
+  name: Events.com Formula Processing Controller API
+  slug: eventscom-formula-processing-controller-api
+- description: The Gemini File Search (deprecated) API from Events.com — 3 operation(s) for gemini file search (deprecated).
+  name: Events.com Gemini File Search (deprecated) API
+  slug: eventscom-gemini-file-search-deprecated-api
+- description: The Global ID API from Events.com — 1 operation(s) for global id.
+  name: Events.com Global ID API
+  slug: eventscom-global-id-api
+- description: The health check API from Events.com — 1 operation(s) for health check.
+  name: Events.com health check API
+  slug: eventscom-health-check-api
+- description: The health-check-controller API from Events.com — 2 operation(s) for health-check-controller.
+  name: Events.com Health Check Controller API
+  slug: eventscom-health-check-controller-api
+- description: The Home Chat Agent APIs API from Events.com — 11 operation(s) for home chat agent apis.
+  name: Events.com Home Chat Agent APIs API
+  slug: eventscom-home-chat-agent-apis-api
+- description: The IDP API from Events.com — 65 operation(s) for idp.
+  name: Events.com IDP API
+  slug: eventscom-idp-api
+- description: The Internal API from Events.com — 5 operation(s) for internal.
+  name: Events.com Internal API
+  slug: eventscom-internal-api
+- description: The internal-company-controller API from Events.com — 15 operation(s) for internal-company-controller.
+  name: Events.com Internal Company Controller API
+  slug: eventscom-internal-company-controller-api
+- description: The internal-login-and-registration-controller API from Events.com — 2 operation(s) for internal-login-and-registration-controller.
+  name: Events.com Internal Login And Registration Controller API
+  slug: eventscom-internal-login-and-registration-controller-api
+- description: The internal-table-controller API from Events.com — 4 operation(s) for internal-table-controller.
+  name: Events.com Internal Table Controller API
+  slug: eventscom-internal-table-controller-api
+- description: The invoice-controller API from Events.com — 2 operation(s) for invoice-controller.
+  name: Events.com Invoice Controller API
+  slug: eventscom-invoice-controller-api
+- description: The JIRA API from Events.com — 2 operation(s) for jira.
+  name: Events.com JIRA API
+  slug: eventscom-jira-api
+- description: The KB Connectors API from Events.com — 25 operation(s) for kb connectors.
+  name: Events.com KB Connectors API
+  slug: eventscom-kb-connectors-api
+- description: The KB Internal API from Events.com — 6 operation(s) for kb internal.
+  name: Events.com KB Internal API
+  slug: eventscom-kb-internal-api
+- description: The Knowledge Graph API from Events.com — 2 operation(s) for knowledge graph.
+  name: Events.com Knowledge Graph API
+  slug: eventscom-knowledge-graph-api
+- description: The kyuubi-admin-controller API from Events.com — 1 operation(s) for kyuubi-admin-controller.
+  name: Events.com Kyuubi Admin Controller API
+  slug: eventscom-kyuubi-admin-controller-api
+- description: The lineages-controller API from Events.com — 8 operation(s) for lineages-controller.
+  name: Events.com Lineages Controller API
+  slug: eventscom-lineages-controller-api
+- description: Unified connect-or-initiate flow for known connectors (Gmail, Google Drive, Calendar) via Composio, with per-company auth mapping and per-user connections.
+  name: Events.com MCP Connector Auth API
+  slug: eventscom-mcp-connector-auth-api
+- description: Register MCP server OAuth2 credentials via auto-discovery. Supports authorization_code (redirect) and client_credentials (immediate) flows.
+  name: Events.com MCP Connectors API
+  slug: eventscom-mcp-connectors-api
+- description: The Memories API from Events.com — 1 operation(s) for memories.
+  name: Events.com Memories API
+  slug: eventscom-memories-api
+- description: The Message Feedback API from Events.com — 1 operation(s) for message feedback.
+  name: Events.com Message Feedback API
+  slug: eventscom-message-feedback-api
+- description: The ML-Dashboard API from Events.com — 6 operation(s) for ml-dashboard.
+  name: Events.com ML Dashboard API
+  slug: eventscom-ml-dashboard-api
+- description: The NoCoDb API from Events.com — 18 operation(s) for nocodb.
+  name: Events.com No Co Db API
+  slug: eventscom-nocodb-api
+- description: The NoCoDbV1 API from Events.com — 1 operation(s) for nocodbv1.
+  name: Events.com No Co Db V1 API
+  slug: eventscom-nocodbv1-api
+- description: The NoCoDbV2 API from Events.com — 110 operation(s) for nocodbv2.
+  name: Events.com No Co Db V2 API
+  slug: eventscom-nocodbv2-api
+- description: The NoCoDbV3 API from Events.com — 9 operation(s) for nocodbv3.
+  name: Events.com No Co Db V3 API
+  slug: eventscom-nocodbv3-api
+- description: The node-group-config-controller API from Events.com — 3 operation(s) for node-group-config-controller.
+  name: Events.com Node Group Config Controller API
+  slug: eventscom-node-group-config-controller-api
+- description: The orchestration-controller API from Events.com — 15 operation(s) for orchestration-controller.
+  name: Events.com Orchestration Controller API
+  slug: eventscom-orchestration-controller-api
+- description: The orchestrator-controller API from Events.com — 4 operation(s) for orchestrator-controller.
+  name: Events.com Orchestrator Controller API
+  slug: eventscom-orchestrator-controller-api
+- description: The preference-controller API from Events.com — 2 operation(s) for preference-controller.
+  name: Events.com Preference Controller API
+  slug: eventscom-preference-controller-api
+- description: The Python Agent API from Events.com — 9 operation(s) for python agent.
+  name: Events.com Python Agent API
+  slug: eventscom-python-agent-api
+- description: The Python Agent V2 API from Events.com — 4 operation(s) for python agent v2.
+  name: Events.com Python Agent V2 API
+  slug: eventscom-python-agent-v2-api
+- description: The query-parser-controller API from Events.com — 3 operation(s) for query-parser-controller.
+  name: Events.com Query Parser Controller API
+  slug: eventscom-query-parser-controller-api
+- description: The Research API from Events.com — 2 operation(s) for research.
+  name: Events.com Research API
+  slug: eventscom-research-api
+- description: The search-controller API from Events.com — 1 operation(s) for search-controller.
+  name: Events.com Search Controller API
+  slug: eventscom-search-controller-api
+- description: The send-email-controller API from Events.com — 2 operation(s) for send-email-controller.
+  name: Events.com Send Email Controller API
+  slug: eventscom-send-email-controller-api
+- description: The shared-item-controller API from Events.com — 3 operation(s) for shared-item-controller.
+  name: Events.com Shared Item Controller API
+  slug: eventscom-shared-item-controller-api
+- description: The shared-item-email-controller API from Events.com — 1 operation(s) for shared-item-email-controller.
+  name: Events.com Shared Item Email Controller API
+  slug: eventscom-shared-item-email-controller-api
+- description: The shared-item-response-controller API from Events.com — 3 operation(s) for shared-item-response-controller.
+  name: Events.com Shared Item Response Controller API
+  slug: eventscom-shared-item-response-controller-api
+- description: The shared-permissions-controller API from Events.com — 3 operation(s) for shared-permissions-controller.
+  name: Events.com Shared Permissions Controller API
+  slug: eventscom-shared-permissions-controller-api
+- description: The slack-messaging-controller API from Events.com — 1 operation(s) for slack-messaging-controller.
+  name: Events.com Slack Messaging Controller API
+  slug: eventscom-slack-messaging-controller-api
+- description: The spark-job-controller API from Events.com — 4 operation(s) for spark-job-controller.
+  name: Events.com Spark Job Controller API
+  slug: eventscom-spark-job-controller-api
+- description: The SQL Parser APIs API from Events.com — 6 operation(s) for sql parser apis.
+  name: Events.com SQL Parser APIs API
+  slug: eventscom-sql-parser-apis-api
+- description: The table-migration-controller API from Events.com — 6 operation(s) for table-migration-controller.
+  name: Events.com Table Migration Controller API
+  slug: eventscom-table-migration-controller-api
+- description: The third-party-page-admin-controller API from Events.com — 1 operation(s) for third-party-page-admin-controller.
+  name: Events.com Third Party Page Admin Controller API
+  slug: eventscom-third-party-page-admin-controller-api
+- description: Resolve embedded page or agent config for third-party integrations
+  name: Events.com Third Party Pages API
+  slug: eventscom-third-party-pages-api
+- description: The trigger-type-controller API from Events.com — 2 operation(s) for trigger-type-controller.
+  name: Events.com Trigger Type Controller API
+  slug: eventscom-trigger-type-controller-api
+- description: The unreal-engine-controller API from Events.com — 7 operation(s) for unreal-engine-controller.
+  name: Events.com Unreal Engine Controller API
+  slug: eventscom-unreal-engine-controller-api
+- description: The widget-controller API from Events.com — 4 operation(s) for widget-controller.
+  name: Events.com Widget Controller API
+  slug: eventscom-widget-controller-api
+- description: The WidgetV1 API from Events.com — 7 operation(s) for widgetv1.
+  name: Events.com Widget V1 API
+  slug: eventscom-widgetv1-api
+- description: The work-flow-controller API from Events.com — 9 operation(s) for work-flow-controller.
+  name: Events.com Work Flow Controller API
+  slug: eventscom-work-flow-controller-api
+- description: The work-flow-v-2-controller API from Events.com — 6 operation(s) for work-flow-v-2-controller.
+  name: Events.com Work Flow V 2 Controller API
+  slug: eventscom-work-flow-v-2-controller-api
+- description: The Workbook Agent API from Events.com — 6 operation(s) for workbook agent.
+  name: Events.com Workbook Agent API
+  slug: eventscom-workbook-agent-api
+- description: The Workbook AI Generate API from Events.com — 3 operation(s) for workbook ai generate.
+  name: Events.com Workbook AI Generate API
+  slug: eventscom-workbook-ai-generate-api
+- description: Configure and run AI enrichments on workbook table rows using Databar
+  name: Events.com Workbook Enrichments API
+  slug: eventscom-workbook-enrichments-api
+- description: The Workbook Generate Dashboard API from Events.com — 3 operation(s) for workbook generate dashboard.
+  name: Events.com Workbook Generate Dashboard API
+  slug: eventscom-workbook-generate-dashboard-api
+- description: The Workflow Builder API from Events.com — 2 operation(s) for workflow builder.
+  name: Events.com Workflow Builder API
+  slug: eventscom-workflow-builder-api
+- description: The workflow-job-scheduler-controller API from Events.com — 2 operation(s) for workflow-job-scheduler-controller.
+  name: Events.com Workflow Job Scheduler Controller API
+  slug: eventscom-workflow-job-scheduler-controller-api
+- description: The workflow-status-controller API from Events.com — 1 operation(s) for workflow-status-controller.
+  name: Events.com Workflow Status Controller API
+  slug: eventscom-workflow-status-controller-api
+- description: The workflow-template-controller API from Events.com — 5 operation(s) for workflow-template-controller.
+  name: Events.com Workflow Template Controller API
+  slug: eventscom-workflow-template-controller-api
+- description: The workspace-template-controller API from Events.com — 2 operation(s) for workspace-template-controller.
+  name: Events.com Workspace Template Controller API
+  slug: eventscom-workspace-template-controller-api
+artifact_total: 118
 asyncapis:
 - description: ''
   name: Eventscom Webhooks
@@ -150,23 +477,23 @@ modified: '2026-08-04'
 name: Events.com
 nav: Providers
 network: true
-overview: 'Events.com publishes 3 APIs on the [APIs.io](https://apis.io/) network: DataGol Platform API (Saasxl), DataGol AI API, and DataGol Python Agent API. Tagged areas include event-management, ticketing, event-registration, event-marketing, and sponsorship.
+overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include event-management, ticketing, event-registration, event-marketing, and sponsorship.
 
 
   The Events.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 76
+random_paper: 52
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.4
+    contract_quality: 54.7
     developer_ergonomics: 34.2
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 42.7
@@ -181,8 +508,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:
 - kind: authentication
   name: Eventscom Authentication

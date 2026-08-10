@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 17
 common:
@@ -102,7 +102,7 @@ overview: 'Cheetah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cheetah''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 26
 score:
   band: minimal
   composite: 6.3
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/screenshots/cheetah-2026-06-20T174249.png
 security:

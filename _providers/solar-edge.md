@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,17 +19,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 45.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: API version information
   name: SolarEdge Version API
   slug: solar-edge-version-api
-artifact_total: 24
+artifact_total: 25
 common:
 - group: agent
   title: ''
@@ -117,6 +117,62 @@ common:
   title: ''
   type: FinOps
   url: finops/solar-edge-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.solaredge.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.solaredge.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SolarEdge
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.solaredge.com/us/service/support
+- group: start
+  title: ''
+  type: SignUp
+  url: https://monitoring.solaredge.com/solaredge-web/p/login
+- group: start
+  title: ''
+  type: Login
+  url: https://monitoring.solaredge.com/solaredge-web/p/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.solaredge.com/us/legal/eula
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.solaredge.com/us/legal/privacy-policy
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/solar-edge-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/solar-edge-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/solar-edge-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/solar-edge-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/solar-edge-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/solar-edge-llms.txt
 created: '2026-06-13'
 description: SolarEdge Technologies provides a cloud-based Monitoring API that enables web services and third-party applications to access real-time and historical solar production data stored on the SolarEdge monitoring server. The REST API delivers site energy measurements, power flow data, inverter technical telemetry, battery storage status, equipment inventory, and environmental benefit metrics for SolarEdge-connected systems. Authentication is handled via an API key generated through the SolarEdge monitoring portal, and all requests are made over HTTPS with responses returned in JSON format. The platform supports both site-level and account-level queries, with bulk call options allowing developers to retrieve data across multiple sites in a single request. SolarEdge serves residential, commercial, and utility-scale solar installations globally, making their API central to energy management integrations, home automation platforms, and fleet monitoring solutions.
 examples:
@@ -156,7 +212,11 @@ jsonld:
   property_count: 44
   slug: solar-edge-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: solar-edge-mcp.yml
+  slug: solar-edge-mcpyml
+modified: '2026-08-08'
 name: SolarEdge
 nav: Providers
 network: true
@@ -166,12 +226,12 @@ overview: 'SolarEdge publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The SolarEdge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SolarEdge''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  SolarEdge''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, support, signup flow, and 20 more developer resources.'
 plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 91
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Solar Edge Rate Limits
@@ -186,15 +246,15 @@ rules:
     warn: 4
   slug: solar-edge-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.9
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: 16.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 73.7
     contract_quality: 69.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
+    developer_ergonomics: 50.0
+    discoverability: 92.6
+    governance: 79.2
     operational_transparency: 36.8
   previous_composite: 44.9
   provenance:
@@ -209,10 +269,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 23.0
+    score: 33.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:
 - kind: authentication

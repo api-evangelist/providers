@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Nomagic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nomagic''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 9.1
@@ -81,8 +81,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nomagic/refs/heads/main/screenshots/nomagic-2026-08-07T185444.png
 security:
 - kind: domain-security
   name: Nomagic Domain Security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
   slug: uptrace-plans-pricing
-random_paper: 78
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Uptrace Rate Limits
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:

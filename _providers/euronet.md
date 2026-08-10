@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Euronet Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Euronet Worldwide''s developer surface includes authentication, API reference, pricing, engineering blog, documentation, signup flow, and 22 more developer resources.'
-random_paper: 92
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Euronet Rate Limits
@@ -206,7 +206,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

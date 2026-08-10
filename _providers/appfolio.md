@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -152,7 +152,7 @@ overview: 'AppFolio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AppFolio''s developer surface includes Stack Overflow tag, GitHub presence, engineering blog, pricing, YouTube channel, and 21 more developer resources.'
-random_paper: 67
+random_paper: 46
 score:
   band: emerging
   composite: 21.6
@@ -166,7 +166,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 21.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfolio/refs/heads/main/screenshots/appfolio-2026-06-20T172316.png
 security:

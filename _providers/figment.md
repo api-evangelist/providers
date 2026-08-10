@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -26,15 +26,84 @@ agentic_access:
   operation_count: 129
   slug: figment-agentic-access
   summary_line: 129 operations · 87 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 25
 apis:
-- description: Unified REST API for institutional staking across proof-of-stake networks. Endpoints build ready-to-sign transactions (stake, delegate, undelegate, withdraw, exit, compound, consolidate, transfer, cla
-  name: Figment API
-  slug: figment-api
 - description: Hosted Model Context Protocol server served from Figment's own documentation host at docs.figment.io/mcp, exposing the Figment documentation and API reference to MCP clients. The endpoint is OAuth-pro
   name: Figment Documentation MCP Server
   slug: figment-documentation-mcp-server
-artifact_total: 9
+- description: The Addresses API from Figment — 1 operation(s) for addresses.
+  name: Figment Addresses API
+  slug: figment-addresses-api
+- description: The Aptos API from Figment — 1 operation(s) for aptos.
+  name: Figment Aptos API
+  slug: figment-aptos-api
+- description: The Avalanche API from Figment — 5 operation(s) for avalanche.
+  name: Figment Avalanche API
+  slug: figment-avalanche-api
+- description: The Blockfrost Projects API from Figment — 2 operation(s) for blockfrost projects.
+  name: Figment Blockfrost Projects API
+  slug: figment-blockfrost-projects-api
+- description: The Cardano API from Figment — 12 operation(s) for cardano.
+  name: Figment Cardano API
+  slug: figment-cardano-api
+- description: The Cosmos API from Figment — 6 operation(s) for cosmos.
+  name: Figment Cosmos API
+  slug: figment-cosmos-api
+- description: The Ethereum API from Figment — 20 operation(s) for ethereum.
+  name: Figment Ethereum API
+  slug: figment-ethereum-api
+- description: The NEAR API from Figment — 6 operation(s) for near.
+  name: Figment NEAR API
+  slug: figment-near-api
+- description: The Osmosis API from Figment — 3 operation(s) for osmosis.
+  name: Figment Osmosis API
+  slug: figment-osmosis-api
+- description: The Partners - Ethereum API from Figment — 1 operation(s) for partners - ethereum.
+  name: Figment Partners - Ethereum API
+  slug: figment-partners-ethereum-api
+- description: The Polkadot API from Figment — 4 operation(s) for polkadot.
+  name: Figment Polkadot API
+  slug: figment-polkadot-api
+- description: The Polygon API from Figment — 1 operation(s) for polygon.
+  name: Figment Polygon API
+  slug: figment-polygon-api
+- description: The Portfolio API from Figment — 1 operation(s) for portfolio.
+  name: Figment Portfolio API
+  slug: figment-portfolio-api
+- description: The Rewards API from Figment — 6 operation(s) for rewards.
+  name: Figment Rewards API
+  slug: figment-rewards-api
+- description: The Solana API from Figment — 12 operation(s) for solana.
+  name: Figment Solana API
+  slug: figment-solana-api
+- description: The Stablecoins API from Figment — 6 operation(s) for stablecoins.
+  name: Figment Stablecoins API
+  slug: figment-stablecoins-api
+- description: The Staking Flows API from Figment — 3 operation(s) for staking flows.
+  name: Figment Staking Flows API
+  slug: figment-staking-flows-api
+- description: The Statements API from Figment — 1 operation(s) for statements.
+  name: Figment Statements API
+  slug: figment-statements-api
+- description: The Sui API from Figment — 4 operation(s) for sui.
+  name: Figment Sui API
+  slug: figment-sui-api
+- description: The Transactions API from Figment — 1 operation(s) for transactions.
+  name: Figment Transactions API
+  slug: figment-transactions-api
+- description: The Validators API from Figment — 1 operation(s) for validators.
+  name: Figment Validators API
+  slug: figment-validators-api
+- description: The Vaulta API from Figment — 5 operation(s) for vaulta.
+  name: Figment Vaulta API
+  slug: figment-vaulta-api
+- description: The Vaults API from Figment — 19 operation(s) for vaults.
+  name: Figment Vaults API
+  slug: figment-vaults-api
+- description: The x402 API from Figment — 5 operation(s) for x402.
+  name: Figment X402 API
+  slug: figment-x402-api
+artifact_total: 32
 common:
 - group: company
   title: ''
@@ -213,24 +282,24 @@ modified: '2026-08-04'
 name: Figment
 nav: Providers
 network: true
-overview: 'Figment publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include staking, blockchain, digital-assets, proof-of-stake, and validators.
+overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include staking, blockchain, digital-assets, proof-of-stake, and validators.
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 68
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Figment Rate Limits
   slug: figment-rate-limits
 score:
   band: strong
-  composite: 57.1
-  delta: 0.0
+  composite: 57.4
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 47.8
+    contract_quality: 46.7
     developer_ergonomics: 75.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
   previous_composite: 57.1
@@ -245,8 +314,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:
 - kind: authentication
   name: Figment Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the 99 Counties Shopify store via the Universal Commerce Protocol over MCP — catalog search, cart, checkout, fulfillment, and buyer-approved order completion.
@@ -120,7 +120,7 @@ overview: '99 Counties publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   99 Counties'' developer surface includes documentation, authentication, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 16
+random_paper: 105
 scopes:
 - name: 99 Counties Scopes
   scope_count: 4
@@ -143,8 +143,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/screenshots/99-counties-2026-08-07T160727.png
 security:
 - kind: authentication
   name: 99 Counties Authentication

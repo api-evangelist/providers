@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
   slug: google-drive-plans-pricing
-random_paper: 90
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Google Drive Rate Limits
@@ -294,7 +294,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Focus Universal Unveils a New Class of Artificial ...
   url: https://www.newmediawire.com/news/focus-universal-unveils-a-new-class-of-artificial-intelligence-with-relation-to-the-breakthrough-sec-financial-reporting-software-7086546
-random_paper: 81
+random_paper: 57
 score:
   band: minimal
   composite: 8.7
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universal/refs/heads/main/screenshots/universal-2026-06-20T200109.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -180,7 +180,7 @@ overview: 'OpenX is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   OpenX''s developer surface includes documentation, engineering blog, YouTube channel, and 30 more developer resources.'
-random_paper: 102
+random_paper: 90
 score:
   band: minimal
   composite: 12.1
@@ -194,7 +194,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'PersistIQ publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   PersistIQ''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 92
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

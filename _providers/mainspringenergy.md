@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -63,27 +63,31 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/mainspringenergy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.mainspringenergy.com/contact
 created: '2026-07-17'
 description: Mainspring Energy is a Menlo Park, California power-infrastructure company that designs, manufactures, and deploys the Linear Generator, a modular, fuel-flexible onsite power generation system. Its technology delivers firm, dispatchable, and low-emission electricity for data centers, utilities, and industrial and enterprise facilities, running today on natural gas and biogas with a seamless transition to zero-carbon fuels such as hydrogen and ammonia. Backed by Khosla Ventures and other investors, Mainspring has more than one gigawatt of Linear Generator capacity in late-stage development and operation. Mainspring is a hardware and power-systems company and does not currently publish a public developer API, SDK, or developer portal; this profile captures its corporate, security, and compliance surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mainspringenergy.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Mainspring Energy
 nav: Providers
 network: true
 overview: 'Mainspring Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Power Generation, Clean Energy, and Distributed Energy.
 
 
-  Mainspring Energy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 35
+  Mainspring Energy''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 106
 score:
   band: emerging
-  composite: 15.7
-  delta: 0.0
+  composite: 16.4
+  delta: 0.7
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 6.5
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
@@ -95,7 +99,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mainspringenergy/refs/heads/main/screenshots/mainspringenergy-2026-07-25T225921.png
 security:

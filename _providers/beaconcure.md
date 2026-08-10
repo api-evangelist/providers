@@ -1,6 +1,79 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-08-10'
 api_count: 1
-artifact_total: 0
+apis:
+- description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
+  name: Beaconcure Verify API
+  slug: beaconcure-verify-api
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://beaconcure.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://beaconcure.com/api/
+- group: company
+  title: ''
+  type: Blog
+  url: https://beaconcure.com/resources/
+- group: operate
+  title: ''
+  type: Support
+  url: https://beaconcure.com/contact-us/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Beaconcure-Inc
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://beaconcure.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://beaconcure.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/beaconcure-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/beaconcure-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/beaconcure-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/beaconcure-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/beaconcure-llms.txt
 coverage:
   checked: '2026-08-06'
   detail: The public Verify API page describes the REST surface in prose but issues no reference — each customer gets a unique API version and endpoint URL from Beaconcure's customer success team, reachable only from an IP allowlist supplied at onboarding.
@@ -25,7 +98,42 @@ modified: '2026-08-06'
 name: Beaconcure
 nav: Providers
 network: true
-random_paper: 30
+overview: 'Beaconcure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Clinical Data, Life Sciences, and Pharmaceuticals.
+
+
+  Beaconcure''s developer surface includes documentation, engineering blog, support, authentication, and 8 more developer resources.'
+random_paper: 3
+score:
+  band: emerging
+  composite: 18.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 66.7
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 18.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 25.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beaconcure/refs/heads/main/screenshots/beaconcure-2026-08-07T162233.png
+security:
+- kind: authentication
+  name: Beaconcure Authentication
+  slug: beaconcure-authentication
+  summary_line: apiKey/ipAllowlist · 2 schemes
+- kind: domain-security
+  name: Beaconcure Domain Security
+  slug: beaconcure-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: beaconcure
 tags:
 - Company
@@ -38,4 +146,5 @@ tags:
 - Artificial Intelligence
 - Biometrics
 - Healthcare
+website: https://beaconcure.com/
 ---

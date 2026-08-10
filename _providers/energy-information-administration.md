@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Energy Information Administration Plans Pricing
   plan_count: 3
   slug: energy-information-administration-plans-pricing
-random_paper: 50
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Energy Information Administration Rate Limits
@@ -174,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/screenshots/energy-information-administration-2026-06-20T180702.png
 security:

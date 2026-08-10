@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -246,7 +246,7 @@ plans:
 - name: Scalr Plans Pricing
   plan_count: 2
   slug: scalr-plans-pricing
-random_paper: 81
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Scalr Rate Limits
@@ -294,7 +294,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/screenshots/scalr-2026-06-20T193608.png
 security:

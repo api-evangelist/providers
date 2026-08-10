@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: 'REST API for relevance-scored, ticker-linked financial news with nine stable endpoints covering news feeds, trending, insider (SEC Form 4) data, symbols, and sentiment/insider rollups. API key bearer '
@@ -39,17 +39,21 @@ apis:
 - description: 'Open-source pack of Claude Code agent skills wrapping the MCP tools into ready-made workflows: one-ticker brief, market pulse, insider-activity scan, two-ticker read-across, and alert management.'
   name: AlphaAI Claude Code Skills
   slug: alphaai-claude-code-skills
-artifact_total: 3
+artifact_total: 4
 created: '2026-07-05'
 description: A REST API and agent-native platform for relevance-scored, ticker-linked financial news, built for trading bots, agent backends, and dashboards. Articles are enriched at ingest with relevance scores, categories, and per-ticker sentiment, plus structured SEC Form 4 insider data.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphaai.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-05'
 name: AlphaAI
 nav: Providers
 network: true
 overview: 'AlphaAI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.'
-random_paper: 42
+random_paper: 24
 score:
   band: minimal
   composite: 12.7
@@ -69,7 +73,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: alphaai
 tags:

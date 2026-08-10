@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/certifaction-local-api-openapi.yml
+  url: openapi/_original/certifaction-local-api-openapi.yml
 - group: build
   title: ''
   type: Packages
@@ -209,7 +209,7 @@ overview: 'Certifaction publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Certifaction''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 32
+random_paper: 115
 score:
   band: developing
   composite: 55.7
@@ -233,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png
 security:

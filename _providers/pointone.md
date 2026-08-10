@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Pointone is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pointone''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: emerging
   composite: 16.7
@@ -95,7 +95,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

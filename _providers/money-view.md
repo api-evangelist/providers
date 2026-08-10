@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,28 +71,32 @@ common:
   title: ''
   type: DomainSecurity
   url: security/money-view-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/money-view-llms.txt
 created: '2026-07-17'
 description: Moneyview is an Indian consumer fintech platform offering a suite of financial services including personal loans (up to Rs 10L), home loans, business loans, loans against property, credit cards, fixed deposits, digital gold, motor insurance, credit tracking, and UPI payments. The platform reports serving over 12 crore users across 18,400+ pincodes. Moneyview publishes ISO 27001:2022 and PCI DSS certifications and a responsible vulnerability disclosure program, but exposes no public developer API, developer portal, or OpenAPI surface. This profile was surfaced as a portfolio company of Accel and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/money-view.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Money View
 nav: Providers
 network: true
 overview: 'Money View is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fintech, Lending, and Personal Loans.
 
 
-  Money View''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 23
+  Money View''s developer surface includes engineering blog, support, and 9 more developer resources.'
+random_paper: 112
 score:
   band: emerging
-  composite: 19.5
-  delta: 0.0
+  composite: 20.2
+  delta: 0.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
   previous_composite: 19.5
@@ -105,8 +109,9 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/money-view/refs/heads/main/screenshots/money-view-2026-08-07T184158.png
 security:
 - kind: domain-security
   name: Money View Domain Security

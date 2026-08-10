@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Frame Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Frame Security''s developer surface includes pricing, support, and 7 more developer resources.'
-random_paper: 100
+random_paper: 64
 score:
   band: emerging
   composite: 18.0
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frame-security/refs/heads/main/screenshots/frame-security-2026-07-25T215108.png
 security:

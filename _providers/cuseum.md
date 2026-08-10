@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'Cuseum is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cuseum''s developer surface includes documentation, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 93
+random_paper: 78
 score:
   band: emerging
   composite: 21.1
@@ -113,7 +113,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuseum/refs/heads/main/screenshots/cuseum-2026-07-25T211004.png
 security:

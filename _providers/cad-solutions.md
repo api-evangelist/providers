@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: CAD Solutions
 nav: Providers
 network: true
 overview: CAD Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CAD, Computer Aided Design, Engineering Software, and Design Software.
-random_paper: 106
+random_paper: 73
 score:
   band: minimal
   composite: 5.0
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: cad-solutions
 tags:

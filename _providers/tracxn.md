@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Programmatic access to Tracxn's private-market database (API version 2.2). JSON-over-HTTPS POST endpoints for companies, investors, funding transactions and acquisition transactions, filtered by feed/
@@ -152,7 +152,7 @@ overview: 'Tracxn publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 18 more developer resources.'
-random_paper: 91
+random_paper: 76
 score:
   band: thin
   composite: 30.6
@@ -169,7 +169,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -160,7 +160,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/zededa-node_service-openapi.json
+  url: openapi/_original/zededa-node_service-openapi.json
 - group: design
   title: ''
   type: Conventions
@@ -269,7 +269,7 @@ overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 56
+random_paper: 41
 score:
   band: developing
   composite: 42.5
@@ -293,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Microsoft Active Directory Plans Pricing
   plan_count: 3
   slug: microsoft-active-directory-plans-pricing
-random_paper: 90
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Microsoft Active Directory Rate Limits
@@ -163,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-active-directory/refs/heads/main/screenshots/microsoft-active-directory-2026-06-20T185347.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Armory.io is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Armory.io''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 91
+random_paper: 70
 score:
   band: minimal
   composite: 9.5
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armoryio/refs/heads/main/screenshots/armoryio-2026-07-25T201231.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Bureau Of Transportation Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-transportation-statistics-plans-pricing
-random_paper: 19
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Bureau Of Transportation Statistics Rate Limits
@@ -151,7 +151,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/screenshots/bureau-of-transportation-statistics-2026-06-20T173820.png
 security:

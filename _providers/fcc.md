@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 9
+  scored_at: '2026-08-10'
+api_count: 19
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
   name: FCC License View API
@@ -37,12 +37,6 @@ apis:
 - description: Returns a high-level overview of spectrum ownership across the United States within the 225 MHz to 3700 MHz frequency range, including call sign, licensee name, common name, radio service code, and ma
   name: FCC Spectrum Dashboard API
   slug: spectrum-dashboard
-- description: Returns market data, US Census Bureau Census Block population data, FIPS Code, and associated US State and County names based on latitude and longitude coordinates.
-  name: FCC Area and Census Block API
-  slug: area-census-block
-- description: Returns broadcast radio and television service area data. Includes coverage contours for FM and TV stations by call sign, Facility ID, or ApplicationID, plus elevation and Height Above Average Terrain
-  name: FCC Contours API
-  slug: contours
 - description: Enables external users and organizations to search the FCC Electronic Comment Filing System (ECFS) for regulatory filings and public comments without using the web interface. Free API key registration
   name: FCC Electronic Comment Filing System (ECFS) API
   slug: ecfs
@@ -58,7 +52,43 @@ apis:
 - description: Makes FCC website content accessible to applications, leveraging Drupal as a content management system to deliver news, documents, and regulatory content programmatically.
   name: FCC Content API
   slug: content
-artifact_total: 13
+- description: Get AM antenna pattern data
+  name: FCC (Federal Communications Commission) Am Pattern API
+  slug: fcc-am-pattern-api
+- description: Get antenna pattern data for TV and FM stations
+  name: FCC (Federal Communications Commission) Antenna API
+  slug: fcc-antenna-api
+- description: Get market area data by latitude and longitude
+  name: FCC (Federal Communications Commission) Area API
+  slug: fcc-area-api
+- description: Get census block, county, and state FIPS codes by latitude and longitude
+  name: FCC (Federal Communications Commission) Block API
+  slug: fcc-block-api
+- description: Convert between decimal degrees and degrees-minutes-seconds
+  name: FCC (Federal Communications Commission) Coordinate Conversion API
+  slug: fcc-coordinate-conversion-api
+- description: Get service contour for TV and FM stations
+  name: FCC (Federal Communications Commission) Coverage API
+  slug: fcc-coverage-api
+- description: Calculate distance using F-curve propagation curves
+  name: FCC (Federal Communications Commission) Distance API
+  slug: fcc-distance-api
+- description: Get terrain elevation data at a given location
+  name: FCC (Federal Communications Commission) Elevation API
+  slug: fcc-elevation-api
+- description: Get coverage contour by entity (call sign, facility ID, or application ID)
+  name: FCC (Federal Communications Commission) Entity API
+  slug: fcc-entity-api
+- description: Get Height Above Average Terrain (HAAT) data
+  name: FCC (Federal Communications Commission) Haat API
+  slug: fcc-haat-api
+- description: Get terrain elevation profile between two points
+  name: FCC (Federal Communications Commission) Profile API
+  slug: fcc-profile-api
+- description: Project coordinates between coordinate reference systems
+  name: FCC (Federal Communications Commission) Projection API
+  slug: fcc-projection-api
+artifact_total: 23
 common:
 - group: auth
   title: ''
@@ -124,7 +154,7 @@ modified: '2026-06-13'
 name: FCC (Federal Communications Commission)
 nav: Providers
 network: true
-overview: 'FCC (Federal Communications Commission) publishes 2 APIs on the [APIs.io](https://apis.io/) network: FCC Area and Census Block API and FCC Contours API. Tagged areas include Federal Government, Telecommunications, Radio, Broadband, and Spectrum.
+overview: 'FCC (Federal Communications Commission) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Am Pattern API, Antenna API, Area API, and 9 more. Tagged areas include Federal Government, Telecommunications, Radio, Broadband, and Spectrum.
 
 
   FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -132,18 +162,18 @@ plans:
 - name: Fcc Plans Pricing
   plan_count: 1
   slug: fcc-plans-pricing
-random_paper: 74
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Fcc Rate Limits
   slug: fcc-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 32.3
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.0
+    contract_quality: 52.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
@@ -162,7 +192,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

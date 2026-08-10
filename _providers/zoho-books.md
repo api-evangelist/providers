@@ -27,13 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 4
 apis:
-- description: The Zoho Books REST API v3 provides full programmatic access to the Zoho Books accounting data model including contacts, invoices, estimates, sales orders, purchase orders, bills, expenses, banking, i
-  name: Zoho Books REST API v3
-  slug: rest-api-v3
-artifact_total: 3
+- description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
+  name: Zoho Books Contacts API
+  slug: zoho-books-contacts-api
+- description: The Invoices API from Zoho Books — 5 operation(s) for invoices.
+  name: Zoho Books Invoices API
+  slug: zoho-books-invoices-api
+- description: The Items API from Zoho Books — 2 operation(s) for items.
+  name: Zoho Books Items API
+  slug: zoho-books-items-api
+- description: The Organizations API from Zoho Books — 1 operation(s) for organizations.
+  name: Zoho Books Organizations API
+  slug: zoho-books-organizations-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -103,20 +112,20 @@ modified: '2026-05-11'
 name: Zoho Books
 nav: Providers
 network: true
-overview: 'Zoho Books publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v3. Tagged areas include Accounting, Bookkeeping, Invoicing, Expenses, and Banking.
+overview: 'Zoho Books publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Bookkeeping, Invoicing, Expenses, and Banking.
 
 
   Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 9 more developer resources.'
-random_paper: 18
+random_paper: 107
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 34.4
+  delta: 0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.2
+    contract_quality: 50.4
     developer_ergonomics: 21.7
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 34.1
@@ -133,7 +142,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

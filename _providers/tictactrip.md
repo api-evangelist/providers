@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tictactrip-openapi-original.json
+  url: openapi/_original/tictactrip-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -173,7 +173,7 @@ overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
-random_paper: 62
+random_paper: 35
 score:
   band: thin
   composite: 38.8
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

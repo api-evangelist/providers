@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ overview: 'Eder Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Eder Labs'' developer surface includes documentation, getting-started guide, GitHub presence, support, and 6 more developer resources.'
-random_paper: 88
+random_paper: 67
 score:
   band: thin
   composite: 33.1
@@ -127,7 +127,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:

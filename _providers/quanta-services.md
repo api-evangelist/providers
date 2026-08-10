@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: 'Stock Of The Day: Quanta Services Forges New Buy Point'
   url: https://www.investors.com/research/ibd-stock-of-the-day/quanta-services-stock-buy-point/
-random_paper: 94
+random_paper: 55
 score:
   band: minimal
   composite: 5.5
@@ -103,7 +103,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

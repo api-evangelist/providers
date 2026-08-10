@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Bandsintown Plans Pricing
   plan_count: 2
   slug: bandsintown-plans-pricing
-random_paper: 61
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Bandsintown Rate Limits
@@ -170,25 +170,25 @@ rules:
   slug: bandsintown-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 50.3
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.4
+    contract_quality: 61.2
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 49.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 19
 common:
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Innovation
   url: https://www.albemarle.com/us/en/who-we-are/innovation
-random_paper: 29
+random_paper: 5
 score:
   band: minimal
   composite: 11.4
@@ -129,7 +129,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png
 security:

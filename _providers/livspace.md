@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Livspace is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Livspace''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 64
+random_paper: 43
 score:
   band: minimal
   composite: 11.6
@@ -97,7 +97,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livspace/refs/heads/main/screenshots/livspace-2026-07-25T225408.png
 security:

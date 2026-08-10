@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -133,7 +133,7 @@ plans:
 - name: Estuary Flow Plans Pricing
   plan_count: 1
   slug: estuary-flow-plans-pricing
-random_paper: 23
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Estuary Flow Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/screenshots/estuary-flow-2026-06-20T180830.png
 security:

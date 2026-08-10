@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -99,7 +99,7 @@ overview: 'Foreman is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Foreman''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 19.2
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreman/refs/heads/main/screenshots/foreman-2026-07-25T214932.png
 slug: foreman

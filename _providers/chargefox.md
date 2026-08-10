@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Chargefox's documented REST API for fleet customers, described by an OpenAPI 3.0.1 contract titled "Fleets API" version 1.0 that the company renders publicly with Redoc at https://app.chargefox.com/de
@@ -184,7 +184,7 @@ overview: 'Chargefox publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Chargefox''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, code examples, and 25 more developer resources.'
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 25
   name: Chargefox Rate Limits
@@ -212,8 +212,9 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:
 - kind: authentication
   name: Chargefox Authentication

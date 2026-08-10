@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Capital Com Public Api Plans Pricing
   plan_count: 3
   slug: capital-com-public-api-plans-pricing
-random_paper: 107
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Capital Com Public Api Rate Limits
@@ -188,7 +188,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:

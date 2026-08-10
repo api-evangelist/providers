@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -37,18 +37,36 @@ agentic_access:
   operation_count: 11
   slug: tensordock-agentic-access
   summary_line: 11 operations · 7 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 9
 apis:
-- description: 'The original TensorDock Marketplace REST API (v0) for deploying, managing, starting, stopping, and deleting GPU virtual machines across the global marketplace of independent hardware hosts. Endpoints '
-  name: TensorDock Marketplace API
-  slug: tensordock-marketplace-api
 - description: The current TensorDock Instances API (v2) at https://dashboard.tensordock.com/api/v2/instances for creating, listing, inspecting, starting, stopping, modifying, and deleting GPU and CPU virtual machin
   name: TensorDock Instances API
   slug: tensordock-instances-api
 - description: The TensorDock Secrets API (v2) for managing SSH keys and generic secrets that are encrypted at rest and in transit and can be attached to instances at deploy time. Two secret types are supported — `S
   name: TensorDock Secrets API
   slug: tensordock-secrets-api
-artifact_total: 42
+- description: Verify and list API authorization pairs
+  name: TensorDock Authorization API
+  slug: tensordock-authorization-api
+- description: Retrieve balance, revenue, and monthly summaries
+  name: TensorDock Billing API
+  slug: tensordock-billing-api
+- description: Deploy, scale, terminate, and inspect containers
+  name: TensorDock Containers API
+  slug: tensordock-containers-api
+- description: Discover available hostnodes and GPU/CPU configurations
+  name: TensorDock Hostnodes API
+  slug: tensordock-hostnodes-api
+- description: Deploy and inspect pre-configured Instant VMs
+  name: TensorDock Instant VMs API
+  slug: tensordock-instant-vms-api
+- description: Validate spot instance pricing for new and existing instances
+  name: TensorDock Spot API
+  slug: tensordock-spot-api
+- description: Deploy, list, start, stop, modify, and delete virtual machines
+  name: TensorDock Virtual Machines API
+  slug: tensordock-virtual-machines-api
+artifact_total: 48
 collections:
 - collection_type: postman
   name: TensorDock Instances API
@@ -315,7 +333,7 @@ modified: '2026-05-25'
 name: TensorDock
 nav: Providers
 network: true
-overview: 'TensorDock publishes 3 APIs on the [APIs.io](https://apis.io/) network: Marketplace API, Instances API, and Secrets API. Tagged areas include GPU, Cloud, Marketplace, Compute, and Virtual Machines.
+overview: 'TensorDock publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Secrets API, Authorization API, and 6 more. Tagged areas include GPU, Cloud, Marketplace, Compute, and Virtual Machines.
 
 
   The TensorDock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -326,7 +344,7 @@ plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 67
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits
@@ -350,11 +368,11 @@ rules:
   slug: tensordock-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 61.5
+  delta: -1.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.8
+    contract_quality: 64.9
     developer_ergonomics: 63.0
     discoverability: 64.8
     governance: 58.3
@@ -368,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

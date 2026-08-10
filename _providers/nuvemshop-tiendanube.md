@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'REST API for building public apps and integrations on the Nuvemshop / Tiendanube e-commerce platform: products, orders, customers, categories, coupons, discounts, transactions, shipping, locations, me'
@@ -142,7 +142,7 @@ overview: 'Nuvemshop Tiendanube publishes 1 API on the [APIs.io](https://apis.io
 
 
   Nuvemshop Tiendanube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, and 14 more developer resources.'
-random_paper: 63
+random_paper: 9
 scopes:
 - name: Nuvemshop Tiendanube Scopes
   scope_count: 12
@@ -170,8 +170,9 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/screenshots/nuvemshop-tiendanube-2026-08-07T185801.png
 security:
 - kind: authentication
   name: Nuvemshop Tiendanube Authentication

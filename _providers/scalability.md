@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: KEDA is a Kubernetes-based event-driven autoscaling component and CNCF graduate project. It provides fine-grained autoscaling (including to/from zero) for event-driven Kubernetes workloads by bridging
@@ -131,7 +131,7 @@ plans:
 - name: Scalability Plans Pricing
   plan_count: 3
   slug: scalability-plans-pricing
-random_paper: 39
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Scalability Rate Limits
@@ -158,7 +158,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalability/refs/heads/main/screenshots/scalability-2026-06-20T193457.png
 slug: scalability

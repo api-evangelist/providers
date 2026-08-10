@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Consumer comparison platform pulling real-time quotes from 120+ carriers, with AI-powered declaration page scanning for policy upload and real-time price-drop alerts. No public API; carrier connectivi
@@ -92,7 +92,7 @@ plans:
 - name: Insurify Plans Pricing
   plan_count: 1
   slug: insurify-plans-pricing
-random_paper: 98
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Insurify Rate Limits
@@ -116,7 +116,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

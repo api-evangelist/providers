@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ overview: 'MacroFab is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MacroFab''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 36
+random_paper: 15
 scopes:
 - name: Macrofab Scopes
   scope_count: 2
@@ -129,7 +129,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrofab/refs/heads/main/screenshots/macrofab-2026-07-25T225819.png
 security:

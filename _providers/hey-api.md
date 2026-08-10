@@ -13,13 +13,13 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-06'
+  score: 45.7
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -36,15 +36,30 @@ agentic_access:
   operation_count: 38
   slug: hey-api-agentic-access
   summary_line: 38 operations · 23 acting
-api_count: 2
+api_count: 7
 apis:
-- description: 'The Hey API Platform REST backend. Stores OpenAPI specifications against an organization and project with full CI provenance (repository, branch, commit SHA, workflow, run, actor, tags, version), and '
-  name: Hey API Platform API
-  slug: hey-api-platform
 - description: '@hey-api/openapi-ts is an OpenAPI to TypeScript code generator that emits production-grade SDKs, types, validators, query hooks, mocks and web framework handlers from any OpenAPI 2.0, 3.0 or 3.1 docum'
   name: Hey API Openapi-Ts
   slug: hey-api
-artifact_total: 9
+- description: The Get API from Hey API — 1 operation(s) for get.
+  name: Hey API Get API
+  slug: hey-api-get-api
+- description: The Hey API API from Hey API — 1 operation(s) for hey api.
+  name: Hey API Hey API API
+  slug: hey-api-hey-api-api
+- description: The Internal API from Hey API — 3 operation(s) for internal.
+  name: Hey API Internal API
+  slug: hey-api-internal-api
+- description: The Organizations API from Hey API — 13 operation(s) for organizations.
+  name: Hey API Organizations API
+  slug: hey-api-organizations-api
+- description: The Specifications API from Hey API — 1 operation(s) for specifications.
+  name: Hey API Specifications API
+  slug: hey-api-specifications-api
+- description: The Users API from Hey API — 6 operation(s) for users.
+  name: Hey API Users API
+  slug: hey-api-users-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Hey Api Platform Webhooks
@@ -170,7 +185,7 @@ modified: '2026-08-06'
 name: Hey API
 nav: Providers
 network: true
-overview: 'Hey API publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDKs, and TypeScript.
+overview: 'Hey API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API API, Internal API, and 3 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDKs, and TypeScript.
 
 
   The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -181,26 +196,30 @@ plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
   slug: hey-api-plans-pricing
-random_paper: 7
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Hey Api Rate Limits
   slug: hey-api-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 37.7
+  composite: 56.1
+  delta: 0.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 52.7
-    developer_ergonomics: 76.1
-    discoverability: 77.8
-    governance: 20.8
+    contract_quality: 51.0
+    developer_ergonomics: 71.2
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 68.4
-  previous_composite: 20.4
+  previous_composite: 56.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:
 - kind: authentication

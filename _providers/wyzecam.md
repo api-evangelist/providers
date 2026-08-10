@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Official Wyze token-issuance API for third-party integrations. Users create an API key in the Wyze Developer API Console, then POST to /api/user/login with Keyid and Apikey headers to obtain an access
@@ -79,7 +79,7 @@ overview: 'Wyze Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wyze Labs'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 90
+random_paper: 72
 score:
   band: emerging
   composite: 18.5
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: wyzecam
 tags:

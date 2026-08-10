@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Frontlinewildfire is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Frontlinewildfire''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 23
+random_paper: 91
 score:
   band: minimal
   composite: 12.1
@@ -95,7 +95,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontlinewildfire/refs/heads/main/screenshots/frontlinewildfire-2026-07-25T215251.png
 security:

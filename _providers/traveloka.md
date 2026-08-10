@@ -29,19 +29,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 15
 apis:
-- description: 'REST API for distribution partners reselling Traveloka accommodation inventory. Covers hotel and room content, rate search and rate re-validation, booking creation, booking retrieval and cancellation '
-  name: Traveloka Partners Network (LOKA) v2 Accommodation API
-  slug: traveloka-partners-network-loka-v2-accommodation-api
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
   name: Traveloka Connect - Connectivity API
   slug: traveloka-connect-connectivity-api
-- description: 'Published JSON contract that accommodation suppliers implement on their own infrastructure so Traveloka can search and book against them - the direction of the integration is inverted, with Traveloka '
-  name: Traveloka Atlas - Traveloka Specification API
-  slug: traveloka-atlas-traveloka-specification-api
-artifact_total: 8
+- description: The 1.1 Content - Hotel & Room API from Traveloka — 2 operation(s) for 1.1 content - hotel & room.
+  name: Traveloka 1.1 Content - Hotel & Room API
+  slug: traveloka-1-1-content-hotel-room-api
+- description: The 2.1 Search - HotelList API from Traveloka — 1 operation(s) for 2.1 search - hotellist.
+  name: Traveloka 2.1 Search - HotelList API
+  slug: traveloka-2-1-search-hotellist-api
+- description: The 2.2 Search - RoomList API from Traveloka — 1 operation(s) for 2.2 search - roomlist.
+  name: Traveloka 2.2 Search - RoomList API
+  slug: traveloka-2-2-search-roomlist-api
+- description: The 2.3 Search - BulkRoomList API from Traveloka — 1 operation(s) for 2.3 search - bulkroomlist.
+  name: Traveloka 2.3 Search - BulkRoomList API
+  slug: traveloka-2-3-search-bulkroomlist-api
+- description: The 3.1 Booking - Book API from Traveloka — 1 operation(s) for 3.1 booking - book.
+  name: Traveloka 3.1 Booking - Book API
+  slug: traveloka-3-1-booking-book-api
+- description: The 3.2 Booking - IssueCheck API from Traveloka — 1 operation(s) for 3.2 booking - issuecheck.
+  name: Traveloka 3.2 Booking - IssueCheck API
+  slug: traveloka-3-2-booking-issuecheck-api
+- description: The 3.3 Booking - Issue API from Traveloka — 1 operation(s) for 3.3 booking - issue.
+  name: Traveloka 3.3 Booking - Issue API
+  slug: traveloka-3-3-booking-issue-api
+- description: The 3.4 Booking - BookingSummary API from Traveloka — 1 operation(s) for 3.4 booking - bookingsummary.
+  name: Traveloka 3.4 Booking - BookingSummary API
+  slug: traveloka-3-4-booking-bookingsummary-api
+- description: The 3.5 Booking - Cancel API from Traveloka — 1 operation(s) for 3.5 booking - cancel.
+  name: Traveloka 3.5 Booking - Cancel API
+  slug: traveloka-3-5-booking-cancel-api
+- description: The Authorization API from Traveloka — 1 operation(s) for authorization.
+  name: Traveloka Authorization API
+  slug: traveloka-authorization-api
+- description: The Booking API from Traveloka — 4 operation(s) for booking.
+  name: Traveloka Booking API
+  slug: traveloka-booking-api
+- description: The Content API from Traveloka — 2 operation(s) for content.
+  name: Traveloka Content API
+  slug: traveloka-content-api
+- description: This API is optional and intended for partners who do not have their own master data.
+  name: Traveloka Discovery (Optional) API
+  slug: traveloka-discovery-optional-api
+- description: The Rate API from Traveloka — 2 operation(s) for rate.
+  name: Traveloka Rate API
+  slug: traveloka-rate-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Traveloka Connect Webhooks
@@ -171,28 +207,30 @@ modified: '2026-08-05'
 name: Traveloka
 nav: Providers
 network: true
-overview: 'Traveloka publishes 2 APIs on the [APIs.io](https://apis.io/) network: Partners Network (LOKA) v2 Accommodation API and Atlas - Traveloka Specification API. Tagged areas include travel, online-travel-agency, accommodation, hotel-booking, and flights.
+overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include travel, online-travel-agency, accommodation, hotel-booking, and flights.
 
 
   The Traveloka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 65
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Traveloka Rate Limits
   slug: traveloka-rate-limits
 score:
   band: developing
-  composite: 51.9
+  composite: 51.1
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.2
+    contract_quality: 63.0
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -203,7 +241,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Traveloka Authentication

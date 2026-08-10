@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Pandorum Technologies
 nav: Providers
 network: true
 overview: Pandorum Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Tissue Engineering, Regenerative Medicine, and Life Sciences.
-random_paper: 52
+random_paper: 111
 score:
   band: minimal
   composite: 5.4
@@ -68,8 +68,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pandorum-technologies/refs/heads/main/screenshots/pandorum-technologies-2026-08-07T191334.png
 security:
 - kind: domain-security
   name: Pandorum Technologies Domain Security

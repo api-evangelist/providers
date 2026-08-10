@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -152,7 +152,7 @@ overview: 'Crescendo Lab publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 15 more developer resources.'
-random_paper: 55
+random_paper: 22
 score:
   band: developing
   composite: 45.5
@@ -181,7 +181,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

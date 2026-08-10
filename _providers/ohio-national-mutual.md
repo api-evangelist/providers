@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ name: Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar
 nav: Providers
 network: true
 overview: Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Annuities, Demutualization, Financial Services, and Indexed Life.
-random_paper: 5
+random_paper: 67
 score:
   band: minimal
   composite: 5.6
@@ -97,7 +97,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohio-national-mutual/refs/heads/main/screenshots/ohio-national-mutual-2026-06-20T190641.png
 security:

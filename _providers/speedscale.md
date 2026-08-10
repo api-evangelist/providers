@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -144,7 +144,7 @@ plans:
 - name: Speedscale Plans Pricing
   plan_count: 3
   slug: speedscale-plans-pricing
-random_paper: 32
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Speedscale Rate Limits
@@ -179,7 +179,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 42.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/screenshots/speedscale-2026-06-20T194303.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'Youi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Youi''s developer surface includes support, engineering blog, and 18 more developer resources.'
-random_paper: 2
+random_paper: 106
 score:
   band: emerging
   composite: 23.3
@@ -137,7 +137,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

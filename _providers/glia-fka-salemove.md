@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Glia's REST API for managing engagements, operators, sites, and Glia Functions. Authenticates via a bearer token exchanged from a Site ID and API Key (POST /operator_authentication/tokens).
@@ -144,7 +144,7 @@ overview: 'Glia (fka SaleMove) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Glia (fka SaleMove)''s developer surface includes documentation, engineering blog, pricing, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 87
+random_paper: 45
 score:
   band: thin
   composite: 34.9
@@ -167,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia-fka-salemove/refs/heads/main/screenshots/glia-fka-salemove-2026-07-25T215857.png
 security:

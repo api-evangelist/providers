@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Urban Sports Club is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Urban Sports Club''s developer surface includes support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 36
+random_paper: 107
 score:
   band: emerging
   composite: 19.4
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

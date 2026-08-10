@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,12 +22,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-06'
+  score: 35.1
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: Full-text search across the joke corpus.
   name: chucknorris.io Search API
   slug: chucknorris-io-search-api
-artifact_total: 40
+artifact_total: 48
 collections:
 - collection_type: open
   name: Chuck Norris Jokes API
@@ -100,6 +100,46 @@ common:
   title: ''
   type: Tools
   url: ''
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.chucknorris.io
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/chucknorris-io
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/chucknorris-io
+- group: company
+  title: ''
+  type: Blog
+  url: https://api.chucknorris.io
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://api.chucknorris.io
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chucknorris.io
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/MatChilling
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chucknorris-io-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chucknorris-io-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/chucknorris-io-finops.yml
 created: '2026-05-28'
 description: Free JSON REST API for hand-curated Chuck Norris jokes (facts) maintained by @matchilling. Supports random retrieval, category filtering, full-text search, and direct lookup by joke identifier. Hosted at api.chucknorris.io with an open-source Spring Boot service (chuck-api), official Node.js and Java client SDKs, a Chrome extension, a Storybook addon, and Messenger / Alexa companion apps published under the chucknorris-io GitHub organization.
 examples:
@@ -127,6 +167,12 @@ examples:
 - key_count: 5
   name: Chucknorris Io Searchjokes Example
   slug: chucknorris-io-searchJokes-example
+- key_count: 7
+  name: Random Joke
+  slug: random-joke
+- key_count: 2
+  name: Search Result
+  slug: search-result
 features:
 - description: GET /jokes/random returns a single random Chuck Norris fact.
   name: Random Joke
@@ -140,6 +186,10 @@ features:
   name: Lookup By Id
 - description: All endpoints honor Accept text/plain for shell-friendly output.
   name: Plain-Text Variant
+finops:
+- name: Chucknorris Io Finops
+  service_category: ''
+  slug: chucknorris-io-finops
 image: https://api.chucknorris.io/img/avatar/chuck-norris.png
 integrations:
 - description: Slack slash command integration referenced in the public docs.
@@ -165,6 +215,12 @@ json_schemas:
 - name: SearchResult
   property_count: 2
   slug: chucknorris-io-search-result
+- name: JokeSearchResult
+  property_count: 2
+  slug: joke-search-result
+- name: Joke
+  property_count: 7
+  slug: joke
 json_structures:
 - name: Chucknorris Io Category List Structure
   property_count: 0
@@ -183,19 +239,31 @@ jsonld:
   name: Chucknorris Io Context
   property_count: 8
   slug: chucknorris-io-context
+- class_count: 4
+  name: context Context
+  property_count: 8
+  slug: context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-08-08'
 name: chucknorris.io
 nav: Providers
 network: true
 overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Jokes API, and Search API. Tagged areas include Entertainment, Jokes, Chuck Norris, Open Source, and Public APIs.
 
 
-  The chucknorris.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The chucknorris.io catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  chucknorris.io''s developer surface includes tooling and 10 more developer resources.'
-random_paper: 100
+  chucknorris.io''s developer surface includes tooling, documentation, engineering blog, pricing, and 17 more developer resources.'
+plans:
+- name: Chucknorris Io Plans Pricing
+  plan_count: 1
+  slug: chucknorris-io-plans-pricing
+random_paper: 64
+rate_limits:
+- limit_count: 0
+  name: Chucknorris Io Rate Limits
+  slug: chucknorris-io-rate-limits
 rules:
 - name: chucknorris.io API Rules
   rule_count: 5
@@ -214,16 +282,16 @@ rules:
     warn: 6
   slug: chucknorris-io-rules
 score:
-  band: thin
-  composite: 37.3
-  delta: 0.0
+  band: developing
+  composite: 49.5
+  delta: 12.2
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 39.5
     contract_quality: 75.7
-    developer_ergonomics: 6.5
+    developer_ergonomics: 17.4
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -233,8 +301,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
 security:
 - kind: domain-security

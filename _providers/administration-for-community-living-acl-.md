@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
@@ -99,7 +99,7 @@ plans:
 - name: Administration For Community Living Acl  Plans Pricing
   plan_count: 3
   slug: administration-for-community-living-acl--plans-pricing
-random_paper: 57
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Administration For Community Living Acl  Rate Limits
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/screenshots/administration-for-community-living-acl--2026-06-20T164721.png
 security:

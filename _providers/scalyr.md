@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Scalyr is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Scalyr''s developer surface includes documentation, API reference, pricing, engineering blog, and 3 more developer resources.'
-random_paper: 89
+random_paper: 74
 score:
   band: emerging
   composite: 13.2
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

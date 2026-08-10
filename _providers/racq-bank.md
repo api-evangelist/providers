@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ overview: 'RACQ Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   RACQ Bank''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, and 15 more developer resources.'
-random_paper: 89
+random_paper: 68
 score:
   band: thin
   composite: 38.1
@@ -187,7 +187,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png
 security:

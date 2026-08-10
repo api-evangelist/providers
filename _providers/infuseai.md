@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -131,7 +131,7 @@ overview: 'InfuseAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   InfuseAI''s developer surface includes documentation, engineering blog, pricing, signup flow, sandbox, CLI, changelog, and 15 more developer resources.'
-random_paper: 61
+random_paper: 40
 score:
   band: thin
   composite: 30.0
@@ -147,7 +147,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infuseai/refs/heads/main/screenshots/infuseai-2026-07-25T222427.png
 security:

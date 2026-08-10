@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Army National Guard Recruiting API provides access to job listings, Military Occupational Specialties (MOS), unit locations, and recruiter contact information for prospective members interested in
@@ -105,7 +105,7 @@ plans:
 - name: Army National Guard Plans Pricing
   plan_count: 3
   slug: army-national-guard-plans-pricing
-random_paper: 108
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Army National Guard Rate Limits
@@ -123,7 +123,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/army-national-guard/refs/heads/main/screenshots/army-national-guard-2026-06-20T172436.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'Public Ethereum JSON-RPC interface for the Ancient8 Mainnet (chain ID 888888888, currency ETH), available over HTTPS and WebSocket. Standard Ethereum method set for reading chain state and submitting '
@@ -86,7 +86,7 @@ overview: 'Ancient8 publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Ancient8''s developer surface includes documentation, getting-started guide, and 7 more developer resources.'
-random_paper: 3
+random_paper: 98
 score:
   band: emerging
   composite: 16.8
@@ -102,7 +102,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ancient8/refs/heads/main/screenshots/ancient8-2026-07-25T200216.png
 security:

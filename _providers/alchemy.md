@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ common:
   title: ''
   type: Website
   url: https://www.alchemy.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.alchemy.com/
 - group: commercial
   title: ''
   type: Plans
@@ -306,7 +310,7 @@ jsonld:
   property_count: 14
   slug: alchemy-transfers-api-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-07'
 name: Alchemy
 nav: Providers
 network: true
@@ -316,12 +320,12 @@ overview: 'Alchemy publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Alchemy catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Alchemy''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
+  Alchemy''s developer surface includes authentication, engineering blog, documentation, and 11 more developer resources.'
 plans:
 - name: Alchemy Plans Pricing
   plan_count: 4
   slug: alchemy-plans-pricing
-random_paper: 61
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Alchemy Rate Limits
@@ -352,13 +356,13 @@ rules:
     warn: 19
   slug: alchemy-spectral-rules
 score:
-  band: thin
-  composite: 41.3
-  delta: 0.0
+  band: developing
+  composite: 43.0
+  delta: 1.7
   facets:
     commercial_clarity: 47.4
     contract_quality: 45.1
-    developer_ergonomics: 13.0
+    developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
@@ -371,7 +375,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/screenshots/alchemy-2026-06-20T171514.png
 security:

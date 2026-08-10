@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'Meal Ticket is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Meal Ticket''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 87
+random_paper: 60
 score:
   band: emerging
   composite: 16.4
@@ -102,8 +102,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meal-ticket/refs/heads/main/screenshots/meal-ticket-2026-08-07T172255.png
 security:
 - kind: authentication
   name: Meal Ticket Authentication

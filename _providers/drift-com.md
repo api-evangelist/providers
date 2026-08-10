@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -66,11 +66,14 @@ apis:
 - description: '[https://devdocs.drift.com/docs/user-model](https://devdocs.drift.com/docs/user-model)'
   name: Drift Users API
   slug: drift-com-users-api
-artifact_total: 36
+artifact_total: 38
 collections:
 - collection_type: open
   name: Drift
   slug: open-drift-com
+- collection_type: open
+  name: Drift
+  slug: open-drift
 common:
 - group: agent
   title: ''
@@ -167,6 +170,10 @@ integrations:
   name: Marketo
 - description: Conversation notifications, routing, and rep response from Slack channels and DMs.
   name: Slack
+json_structures:
+- name: Drift Com Structure
+  property_count: 0
+  slug: drift-com-structure
 layout: provider
 modified: '2026-05-25'
 name: Drift
@@ -180,7 +187,7 @@ plans:
 - name: Drift Com Plans Pricing
   plan_count: 1
   slug: drift-com-plans-pricing
-random_paper: 110
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Drift Com Rate Limits
@@ -211,9 +218,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180232.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:
 - kind: authentication
   name: Drift Com Authentication

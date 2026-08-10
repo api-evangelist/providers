@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Equifax API platform provides programmatic access to Equifax''s consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized '
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Equifax Releases 2025 Security Annual Report
   url: https://www.prnewswire.com/news-releases/equifax-releases-2025-security-annual-report-302716637.html
-random_paper: 77
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Equifax Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/screenshots/equifax-2026-06-20T180803.png
 security:

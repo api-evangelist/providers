@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Searches a firm's extracted clauses and definitions across its connected contract database, with intelligent ranking by frequency, document type, and metadata, surfaced inside Microsoft Word and Outlo
@@ -94,25 +94,25 @@ plans:
 - name: Henchman Plans Pricing
   plan_count: 3
   slug: henchman-plans-pricing
-random_paper: 43
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Henchman Rate Limits
   slug: henchman-rate-limits
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 26.8
+  delta: -0.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.3
+    contract_quality: 31.8
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png
 security:

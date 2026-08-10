@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ overview: 'Legion Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Legion Security''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 73
+random_paper: 58
 score:
   band: emerging
   composite: 14.8
@@ -121,7 +121,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legion/refs/heads/main/screenshots/legion-2026-07-25T224835.png
 security:

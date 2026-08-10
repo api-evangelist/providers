@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -13456,7 +13456,7 @@ plans:
 - name: Webex Plans Pricing
   plan_count: 3
   slug: webex-plans-pricing
-random_paper: 87
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Webex Rate Limits
@@ -13509,7 +13509,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:

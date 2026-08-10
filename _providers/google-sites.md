@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Google Sites API allows developers to programmatically access and manage Google Sites content, including pages, lists, and attachments.
@@ -96,7 +96,7 @@ plans:
 - name: Google Sites Plans Pricing
   plan_count: 3
   slug: google-sites-plans-pricing
-random_paper: 104
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Google Sites Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 39.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sites/refs/heads/main/screenshots/google-sites-2026-06-20T182235.png
 security:

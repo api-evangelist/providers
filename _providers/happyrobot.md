@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: A hosted documentation-search MCP server on the docs host, discovered via RFC 9728 protected-resource metadata at https://docs.happyrobot.ai/.well-known/oauth-protected-resource. It advertises a singl
   name: Happyrobot Docs MCP Server
   slug: happyrobot-docs-mcp-server
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Happyrobot Events
@@ -218,7 +218,7 @@ common:
   url: overlays/happyrobot-public-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://mcp.platform.happyrobot.ai/workflows/mcp
 created: '2026-08-01'
 description: HappyRobot is an AI orchestration platform — "the AI operating system for the real economy" — that lets enterprises build, govern and deploy AI agents ("AI workers") into operational workflows across logistics, freight brokerage, 3PL, utilities, airlines, finance, insurance, manufacturing, retail and telecom. Agents place and answer phone calls, send and receive email, SMS, WhatsApp and chat, read and write to TMS/ERP systems, and execute multi-step workflows built as node graphs in a visual builder. The Happyrobot Public API (v2) exposes 205 operations across 32 resource families — workflows, versions and nodes, runs, sessions and messages, contacts and memories, knowledge bases, phone numbers and SIP trunks, integrations, chat and voice tokens, signals, billing, plus a full agent-governance surface (audits, northstars, custom evals, adversarial tests and suites). Authentication is a bearer API key scoped to an organization and an environment; the platform additionally runs
@@ -229,6 +229,12 @@ mcp_servers:
 - description: ''
   name: happyrobot-mcp.yml
   slug: happyrobot-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+- description: ''
+  name: mcp
+  slug: mcp-2
 modified: '2026-08-01'
 name: Happyrobot
 nav: Providers
@@ -240,7 +246,7 @@ overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 79
+random_paper: 52
 scopes:
 - name: Happyrobot Scopes
   scope_count: 8
@@ -264,8 +270,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:
 - kind: authentication
   name: Happyrobot Authentication

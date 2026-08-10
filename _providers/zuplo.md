@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -463,7 +463,7 @@ plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
   slug: zuplo-plans-pricing
-random_paper: 5
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Zuplo Rate Limits
@@ -505,7 +505,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:

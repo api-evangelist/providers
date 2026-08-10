@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -163,10 +163,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/shopify-admin-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/store-management.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -219,12 +215,12 @@ overview: 'Shopify Admin API publishes 9 APIs on the [APIs.io](https://apis.io/)
   The Shopify Admin API catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Shopify Admin API''s developer surface includes authentication, documentation, changelog, engineering blog, GitHub presence, code examples, and 17 more developer resources.'
+  Shopify Admin API''s developer surface includes authentication, documentation, changelog, engineering blog, GitHub presence, code examples, and 16 more developer resources.'
 plans:
 - name: Shopify Admin Plans Pricing
   plan_count: 5
   slug: shopify-admin-plans-pricing
-random_paper: 93
+random_paper: 60
 rate_limits:
 - limit_count: 13
   name: Shopify Admin Rate Limits
@@ -274,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
 security:

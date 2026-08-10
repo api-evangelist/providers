@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,7 +120,7 @@ overview: 'UX Magic AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   UX Magic AI''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 25
+random_paper: 114
 score:
   band: emerging
   composite: 26.9
@@ -136,7 +136,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

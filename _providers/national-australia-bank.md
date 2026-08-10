@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: NAB's first-party merchant payments REST API platform (the NAB Gateway / NAB Transact developer portal at nabgateway-developer.nab.com.au), distinct from the CDR Open Banking surface. Documents a full
@@ -185,7 +185,7 @@ overview: 'National Australia Bank publishes 7 APIs on the [APIs.io](https://api
 
 
   National Australia Bank''s developer surface includes developer portal, documentation, API reference, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 62
+random_paper: 2
 scopes:
 - name: National Australia Bank Scopes
   scope_count: 11
@@ -219,7 +219,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png
 security:

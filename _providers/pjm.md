@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -234,7 +234,7 @@ overview: 'PJM Interconnection publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   PJM Interconnection''s developer surface includes documentation, signup flow, authentication, engineering blog, support, legal docs, API reference, and 36 more developer resources.'
-random_paper: 101
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Pjm Rate Limits
@@ -261,7 +261,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

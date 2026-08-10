@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The JSON API behind the Arbital Health adjudication platform at platform.arbitalhealth.com. Observed live and returning JSON, but every resource path answers 401 {"error":"Unauthorized"} to an anonymo
@@ -126,7 +126,7 @@ overview: 'Arbital Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Arbital Health''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
-random_paper: 54
+random_paper: 18
 scopes:
 - name: Arbital Health Scopes
   scope_count: 3
@@ -135,6 +135,7 @@ scopes:
 score:
   band: thin
   composite: 29.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -142,6 +143,9 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 10.5
+  previous_composite: 29.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
@@ -149,7 +153,9 @@ score:
     regime_id: insurance
     score: 74.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/screenshots/arbital-health-2026-08-07T161614.png
 security:
 - kind: authentication
   name: Arbital Health Authentication

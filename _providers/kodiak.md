@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,20 +87,40 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kodiak-domain-security.yml
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://kodiak.ai/investors
+- group: other
+  title: ''
+  type: Media
+  url: https://kodiak.ai/media
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kodiakai
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/KodiakRobotics
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCRG0KWUWZF3Kq-nPZ8Td56A
 created: '2026-07-17'
 description: Kodiak AI, Inc. (formerly Kodiak Robotics) is a Mountain View, California company building the Kodiak Driver, an AI-powered ground autonomy system for driverless trucking and defense vehicles. Founded in April 2018 by Don Burnette, Kodiak develops a purpose-built autonomous driving stack — sensor pods, 4D radar, sparse maps, and fallback systems — that integrates into third-party driving platforms rather than shipping a vehicle of its own. The company runs commercial driverless freight lanes in Texas, Oklahoma, Ohio and Indiana with partners including Atlas Energy Solutions, Maersk, Martin Brower, Roehl Transport, JB Hunt and Werner, and it adapts the same driver to defense and industrial missions with General Dynamics Land Systems, Textron Systems and the US Army. Kodiak raised a $125M Series B in 2021 with Lightspeed Venture Partners, Battery Ventures, CRV, SIP Global Partners and others participating, and became a public company through a business combination with Ares Acquisition
   Corporation II. Kodiak publishes a corporate web presence, a news/RSS feed and an llms.txt for agents, but does not currently operate a public developer program, API, or SDK surface.
 image: https://images.prismic.io/kodiak/970b4048-fba9-4aed-b149-719ba24de0f1_preview.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Kodiak AI
 nav: Providers
 network: true
 overview: 'Kodiak AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, Robotics, Artificial Intelligence, and Trucking.
 
 
-  Kodiak AI''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 62
+  Kodiak AI''s developer surface includes engineering blog, support, YouTube channel, and 16 more developer resources.'
+random_paper: 47
 score:
   band: emerging
   composite: 13.1
@@ -114,8 +134,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kodiak/refs/heads/main/screenshots/kodiak-2026-08-07T171305.png
 security:
 - kind: domain-security
   name: Kodiak Domain Security

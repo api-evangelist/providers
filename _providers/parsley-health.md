@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -137,7 +137,7 @@ overview: 'Parsley Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Parsley Health''s developer surface includes engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 87
+random_paper: 51
 score:
   band: emerging
   composite: 23.6
@@ -159,8 +159,9 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/screenshots/parsley-health-2026-08-07T191503.png
 security:
 - kind: domain-security
   name: Parsley Health Domain Security

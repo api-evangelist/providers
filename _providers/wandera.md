@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Query the risk states of enrolled devices and override device risk classifications. JWT bearer auth (15-minute tokens) obtained from Application ID/Secret via HTTP Basic. Base host https://api.wandera
@@ -163,7 +163,7 @@ overview: 'Wandera publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Wandera''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 60
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Wandera Rate Limits
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

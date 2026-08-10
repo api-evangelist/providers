@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: TLC is the primary model checker for specifications written in TLA+. It can be run from the command line using tla2tools.jar or consumed as a Java dependency via Maven from central.sonatype.org. Requi
@@ -121,7 +121,7 @@ plans:
 - name: Tla Plus Foundation Plans Pricing
   plan_count: 3
   slug: tla-plus-foundation-plans-pricing
-random_paper: 21
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Tla Plus Foundation Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tla-plus-foundation/refs/heads/main/screenshots/tla-plus-foundation-2026-06-20T195420.png
 security:

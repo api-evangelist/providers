@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Signeasy Plans Pricing
   plan_count: 4
   slug: signeasy-plans-pricing
-random_paper: 76
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Signeasy Rate Limits
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Shopify-native Universal Commerce Protocol surface served on crukafe.com: a hosted MCP endpoint for agent-driven catalog search, cart, and buyer-approved checkout, backed by Shopify Customer Account O'
@@ -73,7 +73,7 @@ name: CRU Kafe
 nav: Providers
 network: true
 overview: CRU Kafe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coffee, Ecommerce, Retail, and Consumer Goods.
-random_paper: 104
+random_paper: 86
 scopes:
 - name: Cru Kafe Scopes
   scope_count: 0
@@ -95,8 +95,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cru-kafe/refs/heads/main/screenshots/cru-kafe-2026-08-07T163930.png
 security:
 - kind: authentication
   name: Cru Kafe Authentication

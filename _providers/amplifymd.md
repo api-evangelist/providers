@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,23 @@ common:
   title: ''
   type: DomainSecurity
   url: security/amplifymd-domain-security.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://amplifymd.com/blog/feed/
 created: '2026-07-17'
 description: AmplifyMD is a virtual care platform for hospitals and health systems, providing a nationwide network of remote specialists across more than 15 essential fields. It powers telemedicine across emergent, inpatient, asynchronous, SNF/LTAC, virtual clinic, and direct-to-patient care models, and integrates with major EHR systems including Epic, Oracle Health, athenahealth, Allscripts, eClinicalWorks, NextGen, TruBridge, and MedHost to help organizations build sustainable clinical staffing models. Backed by Forerunner Ventures.
 image: https://amplifymd.com/wp-content/uploads/2025/08/AmplifyMD_Symbol_Primary_Full_Color_Darker_Green_RGB.jpg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: AmplifyMD
 nav: Providers
 network: true
 overview: 'AmplifyMD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Telemedicine.
 
 
-  AmplifyMD''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 59
+  AmplifyMD''s developer surface includes engineering blog, support, and 6 more developer resources.'
+random_paper: 35
 score:
   band: emerging
   composite: 13.8
@@ -91,7 +95,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplifymd/refs/heads/main/screenshots/amplifymd-2026-07-25T200136.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Confident LIMS publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Confident LIMS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 80
+random_paper: 44
 score:
   band: developing
   composite: 53.3
@@ -235,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
 security:

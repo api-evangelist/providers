@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,20 +111,56 @@ common:
   title: ''
   type: Facebook
   url: https://www.facebook.com/HippoInsurance
+- group: other
+  title: ''
+  type: Homeowners
+  url: https://www.hippo.com/homeowners-insurance
+- group: other
+  title: ''
+  type: Auto
+  url: https://www.hippo.com/auto-insurance
+- group: other
+  title: ''
+  type: Flood
+  url: https://www.hippo.com/flood-insurance
+- group: other
+  title: ''
+  type: Pet
+  url: https://www.hippo.com/pet-insurance
+- group: other
+  title: ''
+  type: Landlord
+  url: https://www.hippo.com/landlord-insurance
+- group: other
+  title: ''
+  type: HippoHomeApp
+  url: https://www.hippo.com/hippo-home-app
+- group: company
+  title: ''
+  type: About
+  url: https://www.hippo.com/about-us
+- group: other
+  title: ''
+  type: FirstConnect
+  url: https://www.firstconnectinsurance.com
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://investors.hippo.com/news-releases
 created: '2026-05-25'
 description: 'Hippo is a US homeowners insurance carrier headquartered in Palo Alto, California, operating as the insurance subsidiary of Hippo Holdings Inc. (NYSE: HIPO). Founded in 2015, Hippo modernizes home insurance with instant online quotes — typically under sixty seconds — and a smart home oriented approach that pairs policies with proactive home maintenance guidance through the Hippo Home mobile app, DIY checklists, home health scoring, and partnerships with smart device makers. The company writes homeowners, condo, landlord, flood, auto, and pet policies and operates as both a direct-to-consumer brand and an MGA distributing through a network of 70+ carrier partners, including Bamboo, Stillwater, Nationwide, American Integrity, Liberty Mutual, and Progressive. Hippo''s underwriting capacity is anchored by its wholly-owned admitted carrier, Spinnaker Insurance Company, acquired in 2020. Hippo serves 500K+ homeowners across the United States, with concentrated presence in Texas,
   California, Arizona, Colorado, Missouri, Ohio, South Carolina, Tennessee, and Virginia. There is no publicly documented developer API, SDK, or open-source release for Hippo or Spinnaker; the GitHub organization hippoinsurance exists but has no public repositories, and the api.hippo.com hostname is not exposed to the public internet. Integrations with smart home device partners, agents, and MGA carriers are handled through private partner channels rather than an open developer program.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hippo-com.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Hippo
 nav: Providers
 network: true
 overview: 'Hippo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Home Insurance, Homeowners Insurance, Smart Home, and Insurtech.
 
 
-  Hippo''s developer surface includes engineering blog, FAQ, legal docs, GitHub presence, and 16 more developer resources.'
-random_paper: 4
+  Hippo''s developer surface includes engineering blog, FAQ, legal docs, GitHub presence, and 25 more developer resources.'
+random_paper: 96
 score:
   band: minimal
   composite: 10.2
@@ -144,7 +180,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hippo-com/refs/heads/main/screenshots/hippo-com-2026-06-20T182748.png
 security:

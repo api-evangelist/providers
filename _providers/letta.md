@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-06'
+  score: 50.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -162,8 +162,15 @@ apis:
 - description: Voice (low-latency) chat completions endpoint for agents.
   name: Letta Voice API
   slug: letta-voice-api
-artifact_total: 443
+artifact_total: 446
+asyncapis:
+- description: AsyncAPI 2.6 description of Letta's **agent message streaming** surface. Letta does not publish a WebSocket API. The only asynchronous / event-style transport documented in Letta's OpenAPI spec (https
+  name: Letta Agent Message Streaming (HTTP + SSE)
+  slug: letta-asyncapi
 collections:
+- collection_type: open
+  name: Letta API
+  slug: open-letta-ai
 - collection_type: open
   name: Letta API
   slug: open-letta
@@ -256,6 +263,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.letta.com/llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/letta-ai
 created: '2026-05-08'
 description: Letta (formerly MemGPT) is a stateful AI agents platform built around long-term memory, tool execution, and multi-agent coordination. The Letta REST API exposes 239 endpoints across 36 public resource categories — agents, memory blocks, archival memory, sources (RAG), custom tools (sandboxed/client-side/MCP), MCP servers, multi-agent groups, identities, runs, scheduled messages, and a streaming voice-mode endpoint. Open-source server (Apache-2.0, 22.9k+ stars) is available on GitHub; Letta Cloud is the managed offering; the Agent Development Environment (ADE) provides a web UI for inspecting context windows, memory blocks, and run history. Python and TypeScript SDKs ship alongside the REST API, and the open `.af` agent file format lets agents migrate between deployments.
 examples:
@@ -1451,27 +1462,35 @@ jsonld:
   property_count: 34
   slug: letta-context
 layout: provider
-modified: '2026-05-22'
+modified: '2026-08-08'
 name: Letta
 nav: Providers
 network: true
 overview: 'Letta publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Archives API, and 37 more. Tagged areas include AI, Agents, Stateful Agents, Memory, and MemGPT.
 
 
-  The Letta catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Letta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Letta''s developer surface includes authentication, engineering blog, documentation, GitHub presence, pricing, and 17 more developer resources.'
+  Letta''s developer surface includes authentication, engineering blog, documentation, GitHub presence, pricing, and 18 more developer resources.'
 plans:
 - name: Letta Plans Pricing
   plan_count: 3
   slug: letta-plans-pricing
-random_paper: 86
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Letta Rate Limits
   slug: letta-rate-limits
 rules:
+- name: Letta API Rules
+  rule_count: 8
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 7
+  slug: letta-asyncapi-spectral-rules
 - name: Letta API Rules
   rule_count: 6
   severity_counts:
@@ -1482,14 +1501,14 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 55.4
+  delta: 0.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 78.1
+    contract_quality: 87.4
     developer_ergonomics: 21.7
     discoverability: 68.5
-    governance: 68.8
+    governance: 52.1
     operational_transparency: 26.3
   previous_composite: 55.0
   provenance:
@@ -1500,9 +1519,9 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-06-20T184428.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:
 - kind: authentication
   name: Letta Authentication

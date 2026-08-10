@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'CHEQ AI Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   CHEQ AI Technologies'' developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 72
+random_paper: 21
 score:
   band: emerging
   composite: 21.0
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 21.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheq-ai-technologies/refs/heads/main/screenshots/cheq-ai-technologies-2026-07-25T205201.png
 security:

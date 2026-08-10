@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The locale API from Makeswift — 3 operation(s) for locale.
@@ -146,7 +146,7 @@ overview: 'Makeswift publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Makeswift''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
-random_paper: 67
+random_paper: 43
 score:
   band: developing
   composite: 49.3
@@ -169,7 +169,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/screenshots/makeswift-2026-07-25T225954.png
 security:

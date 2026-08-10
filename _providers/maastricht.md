@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 7
@@ -250,7 +250,7 @@ plans:
 - name: Maastricht Plans Pricing
   plan_count: 2
   slug: maastricht-plans-pricing
-random_paper: 55
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Maastricht Rate Limits
@@ -298,7 +298,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:

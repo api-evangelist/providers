@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -59,10 +59,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/chocoapp
-- group: other
-  title: Open Source Contact
-  type: email
-  url: open.source@choco.com
 - group: company
   title: ''
   type: LinkedIn
@@ -87,8 +83,8 @@ network: true
 overview: 'Choco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Ordering, Food Distribution, Suppliers, and ERP Integration.
 
 
-  Choco''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 72
+  Choco''s developer surface includes support, engineering blog, and 8 more developer resources.'
+random_paper: 60
 score:
   band: emerging
   composite: 15.4
@@ -102,7 +98,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choco/refs/heads/main/screenshots/choco-2026-06-20T174321.png
 security:

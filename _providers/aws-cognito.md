@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -5728,7 +5728,7 @@ plans:
 - name: Aws Cognito Plans Pricing
   plan_count: 3
   slug: aws-cognito-plans-pricing
-random_paper: 1
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Aws Cognito Rate Limits
@@ -5770,7 +5770,7 @@ score:
       marker_coverage: 0.0
       total: 124
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:

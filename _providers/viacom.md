@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: How Viacom uses artificial intelligence to predict the ...
   url: https://digiday.com/media/viacom-uses-artificial-intelligence-predict-success-social-campaigns/
-random_paper: 74
+random_paper: 59
 score:
   band: minimal
   composite: 6.3
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viacom/refs/heads/main/screenshots/viacom-2026-06-20T201007.png
 slug: viacom

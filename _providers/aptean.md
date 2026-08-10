@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ overview: 'Aptean publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aptean''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 15 more developer resources.'
-random_paper: 68
+random_paper: 53
 score:
   band: developing
   composite: 43.2
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/screenshots/aptean-2026-07-25T200918.png
 security:

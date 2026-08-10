@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -119,7 +119,7 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SnapAPI''s developer surface includes documentation, API reference, signup flow, pricing, changelog, engineering blog, and 3 more developer resources.'
-random_paper: 94
+random_paper: 64
 score:
   band: thin
   composite: 33.3
@@ -139,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: snapapi-pics
 tags:

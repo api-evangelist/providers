@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 11
 apis:
 - description: The EcoStruxure IT Expert API provides programmatic access to data center infrastructure management data. It enables integrations to query locations, devices, alarms, sensors, and measurements from th
@@ -156,7 +156,7 @@ plans:
 - name: Schneider Electric Exchange Plans Pricing
   plan_count: 3
   slug: schneider-electric-exchange-plans-pricing
-random_paper: 5
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Schneider Electric Exchange Rate Limits
@@ -183,7 +183,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 36.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/screenshots/schneider-electric-exchange-2026-06-20T193528.png
 security:

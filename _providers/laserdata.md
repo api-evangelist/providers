@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 18
 apis:
 - description: User account, sign-in, sessions, settings
@@ -238,14 +238,14 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LaserData''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 25 more developer resources.'
-random_paper: 41
+random_paper: 17
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 58.4
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 74.5
+    contract_quality: 70.6
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'Maple Finance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Maple Finance''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 12 more developer resources.'
-random_paper: 53
+random_paper: 20
 score:
   band: emerging
   composite: 26.7
@@ -132,7 +132,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maple-finance/refs/heads/main/screenshots/maple-finance-2026-07-25T230119.png
 security:

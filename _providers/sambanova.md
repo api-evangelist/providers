@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Sambanova Plans Pricing
   plan_count: 1
   slug: sambanova-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Sambanova Rate Limits
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:

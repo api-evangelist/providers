@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 13
 common:
@@ -126,7 +126,7 @@ overview: 'Hippocratic AI is profiled on the [APIs.io](https://apis.io/) network
 
 
   Hippocratic AI''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 65
+random_paper: 29
 score:
   band: emerging
   composite: 14.4
@@ -146,7 +146,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/screenshots/hippocratic-ai-2026-06-20T182751.png
 security:

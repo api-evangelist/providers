@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Get decisions from your knowledge maps. **Start** a session, **inject** any available facts, run a **query**, provide a **response** to any questions asked and **undo** your answers to give a differen
@@ -96,7 +96,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rainbird-technologies-openapi-original.json
+  url: openapi/_original/rainbird-technologies-openapi-original.json
 - group: build
   title: ''
   type: Packages
@@ -185,7 +185,7 @@ overview: 'Rainbird Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Rainbird Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 23 more developer resources.'
-random_paper: 25
+random_paper: 84
 score:
   band: developing
   composite: 47.8
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

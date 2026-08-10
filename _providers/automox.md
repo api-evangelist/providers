@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for managing the Automox endpoint management platform including organizations, zones, devices, groups, policies, packages, worklets, commands, events, reports, and user accounts. Authenticati
@@ -83,7 +83,7 @@ overview: 'Automox publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Automox''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 103
+random_paper: 85
 score:
   band: emerging
   composite: 13.0
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automox/refs/heads/main/screenshots/automox-2026-06-20T172659.png
 security:

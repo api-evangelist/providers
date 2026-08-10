@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Abstract REST API provides programmatic access to design projects, branches, commits, files, collections, and component libraries managed within the Abstract platform. Access is provided via the a
@@ -116,7 +116,7 @@ plans:
 - name: Abstract Plans Pricing
   plan_count: 5
   slug: abstract-plans-pricing
-random_paper: 61
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Abstract Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract/refs/heads/main/screenshots/abstract-2026-06-20T163425.png
 security:

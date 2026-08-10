@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: false
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-06'
+  score: 35.1
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -135,26 +135,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/zircuit-mcp.yml
-- group: agent
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: design
-  title: ''
-  type: DataModel
-  url: data-model/zircuit-data-model.yml
-- group: other
-  title: ''
-  type: Overlay
-  url: overlays/zircuit-gud-trading-engine-overlay.yaml
-- group: build
-  title: ''
-  type: Packages
-  url: packages/zircuit-packages.yml
-- group: build
-  title: ''
-  type: SDKs
-  url: packages/zircuit-packages.yml
 created: '2026-07-17'
 description: Zircuit is a zero-knowledge (zk) rollup Layer 2 blockchain and secure onchain finance platform. The network is fully EVM-compatible and OP-Stack based, letting developers deploy standard Solidity smart contracts (via Foundry and the usual Ethereum tooling) while settling to Ethereum with zk validity proofs. Zircuit exposes standard Ethereum JSON-RPC endpoints for mainnet (chain ID 48900) and the Garfield testnet (chain ID 48898), a canonical L1<>L2 bridge, a relayer service (EIP-7702 gasless relaying), a transaction simulation surface, and the GUD Trading Engine — a REST API that aggregates cross-chain liquidity to return best-execution quotes and signable transaction data. On top of the chain, Zircuit Finance and the Liquidity Hub offer institutional-grade yield and LST/LRT staking. Backed by Pantera Capital; the network and contracts have been audited by six independent security firms and run a bug-bounty program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zircuit.png
@@ -170,18 +150,18 @@ network: true
 overview: 'Zircuit publishes 1 API on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Company, Crypto, Blockchain, Layer 2, and Rollup.
 
 
-  Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 22 more developer resources.'
-random_paper: 100
+  Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
+random_paper: 82
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 48.9
+  delta: -3.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.6
-    developer_ergonomics: 73.9
+    developer_ergonomics: 60.9
     discoverability: 87.0
-    governance: 20.8
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 52.5
   provenance:
@@ -193,7 +173,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

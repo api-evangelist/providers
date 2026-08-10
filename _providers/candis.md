@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
@@ -106,7 +106,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/candis-openapi.json
+  url: openapi/_original/candis-openapi.json
 - group: agent
   title: ''
   type: MCPServer
@@ -187,7 +187,7 @@ overview: 'Candis publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Candis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 61
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Candis Rate Limits
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:

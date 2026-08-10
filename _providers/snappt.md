@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -26,12 +26,30 @@ agentic_access:
   operation_count: 48
   slug: snappt-agentic-access
   summary_line: 48 operations · 22 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 7
 apis:
-- description: 'Partner REST API for the Snappt fraud-detection, income-verification and identity-verification platform. Covers account lookup, property creation and feature configuration, applicant sessions (create '
-  name: Snappt Enterprise API
-  slug: snappt-enterprise-api
-artifact_total: 6
+- description: The Account API from Snappt — 1 operation(s) for account.
+  name: Snappt Account API
+  slug: snappt-account-api
+- description: The Applicant Sessions API from Snappt — 8 operation(s) for applicant sessions.
+  name: Snappt Applicant Sessions API
+  slug: snappt-applicant-sessions-api
+- description: The Applicants API from Snappt — 7 operation(s) for applicants.
+  name: Snappt Applicants API
+  slug: snappt-applicants-api
+- description: The ID Verification API from Snappt — 8 operation(s) for id verification.
+  name: Snappt ID Verification API
+  slug: snappt-id-verification-api
+- description: The Internal IDV API from Snappt — 1 operation(s) for internal idv.
+  name: Snappt Internal IDV API
+  slug: snappt-internal-idv-api
+- description: The Properties API from Snappt — 8 operation(s) for properties.
+  name: Snappt Properties API
+  slug: snappt-properties-api
+- description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
+  name: Snappt Webhooks API
+  slug: snappt-webhooks-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Snappt Enterprise Api Webhooks
@@ -177,24 +195,26 @@ modified: '2026-08-05'
 name: Snappt
 nav: Providers
 network: true
-overview: 'Snappt publishes 1 API on the [APIs.io](https://apis.io/) network: Enterprise API. Tagged areas include Company, fraud-detection, document-verification, identity-verification, and income-verification.
+overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Applicant Sessions API, Applicants API, and 4 more. Tagged areas include Company, fraud-detection, document-verification, identity-verification, and income-verification.
 
 
   The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 97
+random_paper: 82
 score:
   band: strong
-  composite: 59.2
+  composite: 59.3
+  delta: 0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.8
+    contract_quality: 61.0
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -206,7 +226,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Snappt Authentication

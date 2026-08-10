@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 65.3
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,11 @@ apis:
 - description: Event delivery to partner-configured endpoints.
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
-artifact_total: 20
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Digits Com Webhooks
+  slug: digits-com-webhooks
 collections:
 - collection_type: open
   name: Digits Connect API
@@ -131,6 +135,110 @@ common:
   title: ''
   type: Blog
   url: https://digits.com/blog/rss.xml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.digits.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.digits.com/reference/companyservice_get
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.digits.com/docs/app-creation
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://digits.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://my.digits.com
+- group: start
+  title: ''
+  type: Login
+  url: https://my.digits.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://my.digits.com/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://my.digits.com/legal/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.digits.com
+- group: auth
+  title: ''
+  type: Security
+  url: https://digits.com/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.digits.com
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/digits-com-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/digits-com-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/digits-com-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/digits-com-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/digits-com-security.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/digits-com-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/digits-com-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/digits-com-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/digits-com-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/digits-com-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/digits-com-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/digits-com-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/digits-com-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/digits-com-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-01'
 description: Digits is an AI-native accounting and bookkeeping platform for startups and their accountants, built around the Autonomous General Ledger (AGL) that auto-books the majority of transactions in real time. The Digits Connect API opens the AGL programmatically over REST with OAuth 2.0, letting partners send raw transaction, party, and dimension data for AI categorization and vendor enrichment, and read back ledger entries and financial statements. Digits also publishes an MCP server for AI agents (ChatGPT, Claude) to query the ledger.
 finops:
@@ -139,19 +247,26 @@ finops:
   slug: digits-com-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digits-com.png
 layout: provider
-modified: '2026-07-01'
+mcp_servers:
+- description: ''
+  name: digits-com-mcp.yml
+  slug: digits-com-mcpyml
+modified: '2026-08-08'
 name: Digits
 nav: Providers
 network: true
 overview: 'Digits publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 6 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and AI.
 
 
-  Digits'' developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  The Digits catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Digits'' developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Digits Com Plans Pricing
   plan_count: 2
   slug: digits-com-plans-pricing
-random_paper: 104
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Digits Com Rate Limits
@@ -162,16 +277,16 @@ scopes:
   slug: digits-com-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.0
-  delta: 0.0
+  band: exemplar
+  composite: 68.1
+  delta: 31.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 57.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 26.3
+    commercial_clarity: 89.5
+    contract_quality: 67.2
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 52.6
   previous_composite: 37.0
   provenance:
     agentic_access: derived
@@ -181,8 +296,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:
 - kind: authentication

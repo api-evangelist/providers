@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Zumper API provides access to rental listings, property data, rental price insights, and tenant application management. Partners and property management software providers can use the API to syndi
@@ -100,7 +100,7 @@ plans:
 - name: Plans
   plan_count: 8
   slug: plans
-random_paper: 110
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/screenshots/zumper-2026-06-20T201958.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ name: Onramp Payments
 nav: Providers
 network: true
 overview: Onramp Payments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Trucking, and Fleet Management.
-random_paper: 110
+random_paper: 71
 score:
   band: minimal
   composite: 10.6
@@ -81,8 +81,9 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onramp-payments/refs/heads/main/screenshots/onramp-payments-2026-08-07T190408.png
 security:
 - kind: domain-security
   name: Onramp Payments Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ common:
 - group: design
   title: ''
   type: Webhooks
-  url: openapi/parade-partner-webhooks-openapi.yaml
+  url: openapi/_original/parade-partner-webhooks-openapi.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -168,7 +168,7 @@ overview: 'Parade publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 56
+random_paper: 41
 score:
   band: developing
   composite: 42.2
@@ -192,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
 security:
 - kind: authentication
   name: Parade Authentication

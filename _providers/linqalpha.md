@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: Briefing Agent — automated market briefings with scheduling and delivery
@@ -191,7 +191,7 @@ overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Linqalpha Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:

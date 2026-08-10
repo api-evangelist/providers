@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
   slug: marine-traffic-plans-pricing
-random_paper: 60
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Marine Traffic Rate Limits
@@ -346,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:

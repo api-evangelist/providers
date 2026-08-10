@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 20
 apis:
 - description: The Account API from OTO Global — 4 operation(s) for account.
@@ -156,7 +156,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/oto-global-openapi.yml
+  url: openapi/_original/oto-global-openapi.yml
 - group: build
   title: ''
   type: Postman
@@ -232,7 +232,7 @@ overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 104
+random_paper: 80
 score:
   band: developing
   composite: 54.5
@@ -255,8 +255,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:
 - kind: authentication
   name: Oto Global Authentication

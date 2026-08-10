@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Okcredit
 nav: Providers
 network: true
 overview: Okcredit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bookkeeping, Digital Ledger, and Small Business.
-random_paper: 62
+random_paper: 41
 score:
   band: minimal
   composite: 5.7
@@ -68,8 +68,9 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/okcredit/refs/heads/main/screenshots/okcredit-2026-08-07T190044.png
 security:
 - kind: domain-security
   name: Okcredit Domain Security

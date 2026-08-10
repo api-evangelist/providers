@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Mind Candy, Moshi is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Mind Candy, Moshi''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: emerging
   composite: 13.1
@@ -93,8 +93,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mind-candy-moshi/refs/heads/main/screenshots/mind-candy-moshi-2026-08-07T172927.png
 security:
 - kind: domain-security
   name: Mind Candy Moshi Domain Security

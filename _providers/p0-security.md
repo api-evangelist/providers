@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -171,7 +171,7 @@ overview: 'P0 Security publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   P0 Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 20 more developer resources.'
-random_paper: 76
+random_paper: 49
 score:
   band: developing
   composite: 51.5
@@ -195,8 +195,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/screenshots/p0-security-2026-08-07T191227.png
 security:
 - kind: authentication
   name: P0 Security Authentication

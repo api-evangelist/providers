@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
-random_paper: 97
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Freight Waves Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:

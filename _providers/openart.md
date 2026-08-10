@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'OpenArt''s remote Model Context Protocol server, letting AI agents generate and edit images and video, discover models, manage the library and projects, and check account credits — authorized with the '
@@ -120,7 +120,7 @@ overview: 'Openart publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Openart''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 83
+random_paper: 65
 scopes:
 - name: Openart Scopes
   scope_count: 1
@@ -142,8 +142,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/screenshots/openart-2026-08-07T190531.png
 security:
 - kind: authentication
   name: Openart Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Amtrak''s complete national timetable published as a static General Transit Feed Specification archive, served from content.amtrak.com with no registration, no API key, no click-through licence and no '
@@ -108,7 +108,7 @@ overview: 'Amtrak publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Amtrak''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 75
+random_paper: 60
 score:
   band: emerging
   composite: 23.0
@@ -131,8 +131,9 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/screenshots/amtrak-2026-08-07T161348.png
 security:
 - kind: authentication
   name: Amtrak Authentication

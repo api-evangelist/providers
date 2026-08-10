@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -167,7 +167,7 @@ overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Momento''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 89
+random_paper: 71
 score:
   band: developing
   composite: 44.7
@@ -191,8 +191,9 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
 security:
 - kind: authentication
   name: Momento Authentication

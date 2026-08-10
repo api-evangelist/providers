@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ overview: 'LemonBox is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LemonBox''s developer surface includes engineering blog, FAQ, and 9 more developer resources.'
-random_paper: 77
+random_paper: 56
 score:
   band: minimal
   composite: 7.3
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonbox/refs/heads/main/screenshots/lemonbox-2026-07-25T224911.png
 security:

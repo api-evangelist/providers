@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The private cloud API behind the Beta Bionics Bionic (HCP) Portal and the iLet / Bionic Circle mobile apps. Observed as an Amazon API Gateway deployment at us-main-prod.betabionicsapi.com, authenticat
@@ -107,7 +107,7 @@ overview: 'Beta Bionics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Beta Bionics'' developer surface includes support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 70
+random_paper: 40
 scopes:
 - name: Beta Bionics Scopes
   scope_count: 4
@@ -134,8 +134,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/screenshots/beta-bionics-2026-08-07T162324.png
 security:
 - kind: authentication
   name: Beta Bionics Authentication

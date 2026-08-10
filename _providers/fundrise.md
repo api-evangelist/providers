@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -26,11 +26,35 @@ agentic_access:
   operation_count: 17
   slug: fundrise-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 1
+api_count: 9
 apis:
-- description: Fundrise Connect is Fundrise's external partner API for Client onboarding and investment into its alternative-asset offerings. It is organized around REST with resource-oriented URLs, JSON responses a
-  name: Fundrise Connect API
-  slug: fundrise-connect
+- description: The Acknowledgments API provides acknowledgments needed to place Investments and Liquidations.
+  name: Fundrise Acknowledgments API
+  slug: fundrise-acknowledgments-api
+- description: '### Getting access To get started, please contact the support team via <a href="mailto:connect@fundrise.com" target="_blank">connect@fundrise.com</a>. ### Terminology - <strong>Client</strong>: This r'
+  name: Fundrise Authentication API
+  slug: fundrise-authentication-api
+- description: The Clients API provides operations for creating new Clients and updating fields for existing Clients. The Client represents an End-User of the platform. Newly created Clients will have exactly one ac
+  name: Fundrise Clients API
+  slug: fundrise-clients-api
+- description: The Holdings API contains up-to-date information about the status and performance of a Client's holdings in Fundrise. This endpoint may be used to fetch holding information after a Client's initial Tr
+  name: Fundrise Holdings API
+  slug: fundrise-holdings-api
+- description: The Investment APIs provide operations for placing and cancelling Investments in various Offerings on behalf of an authenticated Client.
+  name: Fundrise Investments API
+  slug: fundrise-investments-api
+- description: The Liquidations APIs provide operations for a Client to place a Liquidation request. A Liquidation request results in selling shares in exchange for dollars.
+  name: Fundrise Liquidations API
+  slug: fundrise-liquidations-api
+- description: The Offerings API contains information about all Offerings available via Fundrise Connect and documents associated with those offerings. Each Offering has a status indicating whether or not they are a
+  name: Fundrise Offerings API
+  slug: fundrise-offerings-api
+- description: The Tax Form API provides operations for fetching tax document information for a given tax year.
+  name: Fundrise Tax Forms API
+  slug: fundrise-tax-forms-api
+- description: The Transactions API provides operations for fetching Transactions (individual or bulk) on behalf of authenticated Clients.
+  name: Fundrise Transactions API
+  slug: fundrise-transactions-api
 arazzos:
 - description: ''
   name: _Index
@@ -38,7 +62,7 @@ arazzos:
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 9
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -133,11 +157,11 @@ modified: '2026-08-04'
 name: Fundrise
 nav: Providers
 network: true
-overview: 'Fundrise publishes 1 API on the [APIs.io](https://apis.io/) network: Connect API. Tagged areas include Company, Financial Services, Investing, Real Estate, and Private Credit.
+overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial Services, Investing, Real Estate, and Private Credit.
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 15 more developer resources.'
-random_paper: 73
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Fundrise Rate Limits
@@ -149,13 +173,13 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 44.2
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
+    contract_quality: 64.3
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.6
@@ -170,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

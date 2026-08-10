@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ name: Linear Technology Corporation
 nav: Providers
 network: true
 overview: Linear Technology Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Analog, Integrated Circuits, and Power Management.
-random_paper: 43
+random_paper: 108
 score:
   band: minimal
   composite: 5.0
@@ -71,8 +71,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linear-technologies/refs/heads/main/screenshots/linear-technologies-2026-08-07T171709.png
 security:
 - kind: domain-security
   name: Linear Technologies Domain Security

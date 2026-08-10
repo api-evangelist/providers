@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -140,7 +140,7 @@ overview: 'Tintri publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 101
+random_paper: 86
 score:
   band: emerging
   composite: 26.5
@@ -158,7 +158,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

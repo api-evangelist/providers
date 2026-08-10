@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Soylent storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on payme'
@@ -112,7 +112,7 @@ overview: 'Soylent publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Soylent''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 104
+random_paper: 86
 scopes:
 - name: Soylent Scopes
   scope_count: 4
@@ -134,7 +134,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

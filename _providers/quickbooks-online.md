@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ overview: 'QuickBooks Online publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   QuickBooks Online''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 78
+random_paper: 33
 scopes:
 - name: Quickbooks Online Scopes
   scope_count: 5
@@ -154,7 +154,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-online/refs/heads/main/screenshots/quickbooks-online-2026-06-20T192431.png
 security:

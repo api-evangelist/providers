@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1553,7 +1553,7 @@ plans:
 - name: Amazon Iam Access Analyzer Plans Pricing
   plan_count: 3
   slug: amazon-iam-access-analyzer-plans-pricing
-random_paper: 102
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Access Analyzer Rate Limits
@@ -1577,11 +1577,11 @@ rules:
   slug: amazon-iam-access-analyzer-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: 0.0
+  composite: 66.0
+  delta: -1.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 76.8
+    contract_quality: 72.2
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
@@ -1595,7 +1595,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

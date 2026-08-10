@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ plans:
 - name: Azure Dev Ops Plans Pricing
   plan_count: 3
   slug: azure-dev-ops-plans-pricing
-random_paper: 55
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Azure Dev Ops Rate Limits
@@ -339,25 +339,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 60.0
-  delta: 1.7
+  composite: 61.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.3
+    contract_quality: 61.2
     developer_ergonomics: 58.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 58.3
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/screenshots/azure-dev-ops-2026-06-20T172849.png
 security:

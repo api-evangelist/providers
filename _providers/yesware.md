@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Yesware is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Yesware''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 90
+random_paper: 72
 score:
   band: emerging
   composite: 21.9
@@ -125,7 +125,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

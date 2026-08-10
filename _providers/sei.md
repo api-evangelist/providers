@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ overview: 'Sei publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Sei''s developer surface includes documentation, GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 95
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Sei Cosmos Rest Api Rate Limits
@@ -175,7 +175,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/screenshots/sei-2026-06-20T193635.png
 security:

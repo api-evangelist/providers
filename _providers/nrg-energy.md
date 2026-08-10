@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: NRG Energy invests in AI tech to enhance grid stability
   url: https://www.investing.com/news/company-news/nrg-energy-invests-in-ai-tech-to-enhance-grid-stability-93CH-3924537
-random_paper: 5
+random_paper: 94
 score:
   band: minimal
   composite: 4.7
@@ -88,7 +88,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png
 security:

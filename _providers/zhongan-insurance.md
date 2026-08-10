@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'ZhongAn Insurance is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ZhongAn Insurance''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 75
+random_paper: 30
 score:
   band: minimal
   composite: 7.1
@@ -75,7 +75,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

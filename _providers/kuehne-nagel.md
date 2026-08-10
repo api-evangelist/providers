@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 17
 apis:
 - description: Find and show details of the customer's shipments, with contents reflecting the visibility configured in myKN. Search shipments, load a single shipment by unique reference, and read history records. R
@@ -119,7 +119,7 @@ overview: 'Kuehne+Nagel publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 5 more developer resources.'
-random_paper: 74
+random_paper: 44
 score:
   band: emerging
   composite: 26.8
@@ -139,8 +139,9 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel
 tags:
 - Logistics

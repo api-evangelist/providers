@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Gigacatalyst
 nav: Providers
 network: true
 overview: Gigacatalyst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SaaS, Sales Enablement, and Solutions Engineering.
-random_paper: 34
+random_paper: 1
 score:
   band: minimal
   composite: 5.7
@@ -62,7 +62,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/screenshots/gigacatalyst-2026-07-25T215805.png
 slug: gigacatalyst

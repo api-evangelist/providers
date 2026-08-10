@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Grab Plans Pricing
   plan_count: 1
   slug: grab-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Grab Rate Limits
@@ -215,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/screenshots/grab-2026-06-20T182311.png
 security:

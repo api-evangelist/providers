@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Nutmeg (J.P. Morgan Personal Investing) is profiled on the [APIs.io](
 
 
   Nutmeg (J.P. Morgan Personal Investing)''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 91
+random_paper: 76
 score:
   band: minimal
   composite: 12.6
@@ -89,8 +89,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nutmeg/refs/heads/main/screenshots/nutmeg-2026-08-07T185757.png
 security:
 - kind: domain-security
   name: Nutmeg Domain Security

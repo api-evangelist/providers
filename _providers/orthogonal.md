@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Credit balance, usage, and transaction history.
@@ -174,7 +174,7 @@ overview: 'Orthogonal publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 22 more developer resources.'
-random_paper: 68
+random_paper: 41
 scopes:
 - name: Orthogonal Scopes
   scope_count: 0
@@ -202,8 +202,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication
   name: Orthogonal Authentication

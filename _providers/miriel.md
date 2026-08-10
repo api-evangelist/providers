@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/miriel-openapi.yml
+  url: openapi/_original/miriel-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -173,7 +173,7 @@ overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: thin
   composite: 40.2
@@ -197,8 +197,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:
 - kind: authentication
   name: Miriel Authentication

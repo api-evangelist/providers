@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ overview: 'PRA Health Sciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   PRA Health Sciences'' developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 80
+random_paper: 32
 score:
   band: minimal
   composite: 4.8
@@ -81,7 +81,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pra-health-sciences/refs/heads/main/screenshots/pra-health-sciences-2026-06-20T192037.png
 slug: pra-health-sciences

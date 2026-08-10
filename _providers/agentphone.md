@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ overview: 'AgentPhone publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AgentPhone''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 48
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Agentphone Rate Limits
@@ -256,7 +256,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:

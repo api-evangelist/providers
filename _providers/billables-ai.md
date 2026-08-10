@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Billables Ai is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Billables Ai''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 55
+random_paper: 25
 score:
   band: emerging
   composite: 14.7
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billables-ai/refs/heads/main/screenshots/billables-ai-2026-07-25T202942.png
 security:

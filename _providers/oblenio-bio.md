@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Oblenio Bio
 nav: Providers
 network: true
 overview: Oblenio Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Immunotherapy, and Autoimmune.
-random_paper: 86
+random_paper: 59
 score:
   band: minimal
   composite: 5.4
@@ -68,8 +68,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oblenio-bio/refs/heads/main/screenshots/oblenio-bio-2026-08-07T185903.png
 security:
 - kind: domain-security
   name: Oblenio Bio Domain Security

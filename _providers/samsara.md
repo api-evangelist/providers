@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 90
 apis:
 - description: The Activity API from Samsara — 1 operation(s) for activity.
@@ -427,7 +427,7 @@ plans:
 - name: Samsara Plans Pricing
   plan_count: 3
   slug: samsara-plans-pricing
-random_paper: 66
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Samsara Rate Limits
@@ -468,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 90
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png
 security:

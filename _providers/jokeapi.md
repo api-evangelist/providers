@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: Health and discovery endpoints.
   name: JokeAPI System API
   slug: jokeapi-system-api
-artifact_total: 53
+artifact_total: 54
 collections:
 - collection_type: open
   name: JokeAPI
@@ -125,6 +125,14 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/jokeapi-vocabulary.yml
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/Sv443-Network
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/jokeapi-finops.yml
 created: '2026-05-28'
 description: JokeAPI is a free, open source REST API that delivers consistently formatted jokes in JSON, XML, YAML, or plain text. It exposes seven joke categories (Any, Misc, Programming, Dark, Pun, Spooky, Christmas), six blacklist content flags (nsfw, religious, political, racist, sexist, explicit), and filters for language, joke type, ID range, contains-text search, amount, and safe-mode. No sign-up is required and CORS is enabled. The service is rate-limited at 120 requests per minute per IP (5 per minute on submissions) and is maintained by Sv443 under the MIT license. The canonical source lives on Sv443's own Git server, with this GitHub repo kept open for issues and the community wrapper-library index.
 examples:
@@ -170,6 +178,10 @@ examples:
 - key_count: 9
   name: Jokeapi Twopart Joke Example
   slug: jokeapi-twopart-joke-example
+finops:
+- name: Jokeapi Finops
+  service_category: ''
+  slug: jokeapi-finops
 image: https://sv443.net/cdn/jokeapi/icon_readme.png
 json_schemas:
 - name: CategoriesResponse
@@ -263,7 +275,7 @@ jsonld:
   property_count: 47
   slug: jokeapi-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: JokeAPI
 nav: Providers
 network: true
@@ -273,12 +285,12 @@ overview: 'JokeAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The JokeAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  JokeAPI''s developer surface includes documentation, GitHub presence, and 16 more developer resources.'
+  JokeAPI''s developer surface includes documentation, GitHub presence, and 18 more developer resources.'
 plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
   slug: jokeapi-plans-pricing
-random_paper: 61
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Jokeapi Rate Limits
@@ -302,10 +314,10 @@ rules:
   slug: jokeapi-spectral-rules
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 34.5
+  delta: 1.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 28.9
     contract_quality: 23.3
     developer_ergonomics: 8.7
     discoverability: 74.1
@@ -320,7 +332,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:

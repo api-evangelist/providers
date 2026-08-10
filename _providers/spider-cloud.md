@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-06'
+  score: 41.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Access content behind anti-bot protections.
   name: Spider Unblocker API
   slug: spider-cloud-unblocker-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Spider Cloud API
@@ -137,7 +137,7 @@ common:
   url: https://docs.rs/spider
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://mcp.spider.cloud/mcp
 - group: operate
   title: ''
@@ -167,6 +167,10 @@ finops:
   slug: spider-cloud-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spider-cloud.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-25'
 name: Spider
 nav: Providers
@@ -179,23 +183,23 @@ plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
   slug: spider-cloud-plans-pricing
-random_paper: 97
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Spider Cloud Rate Limits
   slug: spider-cloud-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 51.4
   delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.6
-    developer_ergonomics: 47.8
+    developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 49.7
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

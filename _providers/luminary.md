@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'Luminary publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Luminary''s developer surface includes engineering blog, pricing, support, authentication, and 21 more developer resources.'
-random_paper: 90
+random_paper: 69
 scopes:
 - name: Luminary Scopes
   scope_count: 4
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -488,7 +488,7 @@ plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 28
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits
@@ -538,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:

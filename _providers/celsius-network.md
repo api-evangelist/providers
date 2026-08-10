@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -26,12 +26,21 @@ agentic_access:
   operation_count: 24
   slug: celsius-network-agentic-access
   summary_line: 24 operations · 7 acting
-api_count: 1
+api_count: 4
 apis:
-- description: 'The partner-facing wallet and earning API for the Celsius Network platform, also called the Wallet API. 21 paths and 24 operations across four tags — Wallet (balances, accrued interest, transactions, '
-  name: Celsius Partner API
-  slug: partner-api
-artifact_total: 5
+- description: Know-Your-Customer application submission and status.
+  name: Celsius Network KYC API
+  slug: celsius-network-kyc-api
+- description: Creation and maintenance of partner-owned Celsius users (Segmented Integration).
+  name: Celsius Network Users API
+  slug: celsius-network-users-api
+- description: Reference data, statistics, terms of use and health.
+  name: Celsius Network Utility API
+  slug: celsius-network-utility-api
+- description: Balances, accrued interest, transactions, deposits and withdrawals.
+  name: Celsius Network Wallet API
+  slug: celsius-network-wallet-api
+artifact_total: 8
 collections:
 - collection_type: postman
   name: Celsius API
@@ -72,7 +81,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/celsius-network-partner-api-openapi.yml
+  url: openapi/_original/celsius-network-partner-api-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -154,20 +163,20 @@ modified: '2026-08-02'
 name: Celsius Network
 nav: Providers
 network: true
-overview: 'Celsius Network publishes 1 API on the [APIs.io](https://apis.io/) network: Celsius Partner API. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial Services, and Lending.
+overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including KYC API, Users API, Utility API, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial Services, and Lending.
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 1
+random_paper: 75
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 43.3
+  delta: -0.3
   facets:
     commercial_clarity: 23.7
-    contract_quality: 68.2
+    contract_quality: 64.3
     developer_ergonomics: 49.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 43.6
@@ -187,8 +196,9 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:
 - kind: authentication
   name: Celsius Network Authentication

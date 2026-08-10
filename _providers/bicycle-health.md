@@ -1,6 +1,75 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bicycle-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bicyclehealth.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bicyclehealth.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bicyclehealth.com/contact-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bicyclehealth.com/insurance-and-pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.bicyclehealth.com/we-are-here-to-help
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bicyclehealth.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bicyclehealth.com/legal/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Bicycle-Health
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bicycle-health-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bicycle-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/bicycle-health-conformance.yml
 coverage:
   checked: '2026-08-07'
   detail: Bicycle Health is a virtual OUD clinic, not a software vendor — its patient app is served by a private Express backend at api.bicyclehealth.com (GET / returns "Cannot GET /", GET /health returns 204) that publishes no spec, no docs host, and no developer program of any kind; the only machine-readable thing it ships is a patient-facing llms.txt for AI answer engines.
@@ -28,7 +97,40 @@ modified: '2026-08-07'
 name: Bicycle Health
 nav: Providers
 network: true
-random_paper: 50
+overview: 'Bicycle Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Digital Health.
+
+
+  Bicycle Health''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
+random_paper: 14
+score:
+  band: emerging
+  composite: 21.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 12.5
+    operational_transparency: 5.3
+  previous_composite: 21.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 30.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bicycle-health/refs/heads/main/screenshots/bicycle-health-2026-08-07T162414.png
+security:
+- kind: domain-security
+  name: Bicycle Health Domain Security
+  slug: bicycle-health-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: bicycle-health
 tags:
 - Company
@@ -41,4 +143,5 @@ tags:
 - Opioid Use Disorder
 - Medication for Addiction Treatment
 - Virtual Care
+website: https://www.bicyclehealth.com/
 ---

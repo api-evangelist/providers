@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Benepass is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Benepass'' developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 58
+random_paper: 37
 score:
   band: emerging
   composite: 22.3
@@ -125,7 +125,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 22.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benepass/refs/heads/main/screenshots/benepass-2026-07-25T202727.png
 security:

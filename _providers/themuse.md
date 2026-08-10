@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ apis:
 - description: Live job openings, searchable by category, level, company, and location.
   name: The Muse Jobs API
   slug: themuse-jobs-api
-artifact_total: 7
+artifact_total: 8
 collections:
 - collection_type: open
   name: The Muse Public API
@@ -78,6 +78,14 @@ common:
   title: ''
   type: FinOps
   url: finops/themuse-finops.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/themuse-domain-security.yml
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 created: '2026-07-11'
 description: The Muse is a careers and company-profiles platform that helps people find jobs at companies whose values match their own. Its free, documented public REST API (v2) exposes hundreds of thousands of live job openings - searchable by category, experience level, company, and location - alongside rich employer company profiles (industry, size, locations, and behind-the-scenes content). An optional api_key raises rate limits. This makes The Muse a strong source for "job openings", jobs, careers, and recruiting use cases and for building job boards, career sites, and employer-branding integrations.
 finops:
@@ -86,19 +94,19 @@ finops:
   slug: themuse-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/themuse.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-08-08'
 name: The Muse
 nav: Providers
 network: true
 overview: 'The Muse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Companies API and Jobs API. Tagged areas include Job Openings, Jobs, Careers, Recruiting, and Employment.
 
 
-  The Muse''s developer surface includes documentation and 6 more developer resources.'
+  The Muse''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Themuse Plans Pricing
   plan_count: 3
   slug: themuse-plans-pricing
-random_paper: 85
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Themuse Rate Limits
@@ -123,8 +131,14 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/screenshots/themuse-2026-06-20T195325.png
+security:
+- kind: domain-security
+  name: Themuse Domain Security
+  slug: themuse-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: themuse
 tags:
 - Job Openings

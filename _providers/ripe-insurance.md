@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
-random_paper: 89
+random_paper: 53
 scopes:
 - name: Ripe Insurance Scopes
   scope_count: 2
@@ -212,7 +212,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

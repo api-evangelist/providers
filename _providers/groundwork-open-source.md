@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
@@ -60,7 +60,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/groundwork-open-source-tcg-openapi-original.yml
+  url: openapi/_original/groundwork-open-source-tcg-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -141,7 +141,7 @@ overview: 'Groundwork Open Source publishes 8 APIs on the [APIs.io](https://apis
 
 
   Groundwork Open Source''s developer surface includes authentication, documentation, API reference, and 14 more developer resources.'
-random_paper: 27
+random_paper: 83
 score:
   band: emerging
   composite: 26.3
@@ -164,7 +164,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png
 security:

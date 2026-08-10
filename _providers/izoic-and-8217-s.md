@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: IZOIC&#8217;s
 nav: Providers
 network: true
 overview: IZOIC&#8217;s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Government.
-random_paper: 66
+random_paper: 33
 score:
   band: minimal
   composite: 3.5
@@ -59,7 +59,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: izoic-and-8217-s
 tags:

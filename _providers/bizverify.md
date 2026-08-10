@@ -18,16 +18,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 10
 apis:
-- description: REST API for business entity verification. 21 operations across 20 paths covering verification submission and job status, entity lookup and history, jurisdiction discovery, account and credit manageme
-  name: BizVerify API
-  slug: bizverify-api
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
   name: BizVerify MCP Server
   slug: bizverify-mcp-server
-artifact_total: 2
+- description: The Account API from BizVerify — 5 operation(s) for account.
+  name: BizVerify Account API
+  slug: bizverify-account-api
+- description: The Auth API from BizVerify — 2 operation(s) for auth.
+  name: BizVerify Auth API
+  slug: bizverify-auth-api
+- description: The Billing API from BizVerify — 2 operation(s) for billing.
+  name: BizVerify Billing API
+  slug: bizverify-billing-api
+- description: The Entities API from BizVerify — 2 operation(s) for entities.
+  name: BizVerify Entities API
+  slug: bizverify-entities-api
+- description: The Meta API from BizVerify — 2 operation(s) for meta.
+  name: BizVerify Meta API
+  slug: bizverify-meta-api
+- description: The Public API from BizVerify — 2 operation(s) for public.
+  name: BizVerify Public API
+  slug: bizverify-public-api
+- description: The Search API from BizVerify — 1 operation(s) for search.
+  name: BizVerify Search API
+  slug: bizverify-search-api
+- description: The Tools API from BizVerify — 2 operation(s) for tools.
+  name: BizVerify Tools API
+  slug: bizverify-tools-api
+- description: The Verification API from BizVerify — 2 operation(s) for verification.
+  name: BizVerify Verification API
+  slug: bizverify-verification-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -72,30 +96,35 @@ common:
 created: '2026-08-02'
 description: 'BizVerify is a business entity verification (KYB) API built for AI agents as much as for developers. It confirms business registrations, status, good standing and available public company details across supported US and international jurisdictions, through a REST API and a hosted MCP server that exposes the same capability as nine tools. The agent surface is the unusual part for a provider this size: alongside the OpenAPI it publishes an llms.txt, a proper RFC 9727 API catalog served as application/linkset+json, per-vendor tool manifests at /tools/openai.json and /tools/anthropic.json, and an open-source MCP client repository. Access is credit-based with a free-tier allowance, and the MCP server answers tools/list without credentials.'
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-02'
 name: BizVerify
 nav: Providers
 network: true
-overview: 'BizVerify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business Verification, KYB, Know Your Business, Entity Verification, and Compliance.
+overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 6 more. Tagged areas include Business Verification, KYB, Know Your Business, Entity Verification, and Compliance.
 
 
   BizVerify''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 82
+random_paper: 58
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 25.8
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.2
+    contract_quality: 45.9
     developer_ergonomics: 8.7
-    discoverability: 77.8
+    discoverability: 83.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 26.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify
 tags:
 - Business Verification

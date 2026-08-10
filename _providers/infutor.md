@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
@@ -107,7 +107,7 @@ overview: 'Infutor publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Infutor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 97
+random_paper: 79
 score:
   band: emerging
   composite: 23.6
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/screenshots/infutor-2026-07-25T222430.png
 security:

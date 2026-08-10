@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/priorlabs-openapi-original.json
+  url: openapi/_original/priorlabs-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -174,7 +174,7 @@ overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: developing
   composite: 50.4
@@ -198,7 +198,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

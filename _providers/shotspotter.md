@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: REST data APIs for ShotSpotter gunfire detection — incident data, CAD incident ID lookup, and ILS (Investigative Lead Summary) retrieval.
@@ -113,7 +113,7 @@ overview: 'ShotSpotter (SoundThinking) publishes 2 APIs on the [APIs.io](https:/
 
 
   ShotSpotter (SoundThinking)''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 8 more developer resources.'
-random_paper: 101
+random_paper: 71
 score:
   band: thin
   composite: 32.1
@@ -135,7 +135,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

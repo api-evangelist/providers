@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Carlyle Agrees to Acquire Adastra
   url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
-random_paper: 107
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Carlyle Group Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/screenshots/carlyle-group-2026-06-20T174007.png
 security:

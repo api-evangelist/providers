@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,6 +92,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/jubilee-tv-domain-security.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://getjubileetv.com/account/register
+- group: start
+  title: ''
+  type: Login
+  url: https://getjubileetv.com/account/login
 created: '2026-07-17'
 description: 'JubileeTV (by Caavo) is a US consumer remote-caregiving system that turns an aging loved one''s existing television into a family connection and monitoring hub. A caregiver uses their phone to control the senior''s TV remotely, host multi-way video calls on the big screen, run one-way wellness check-ins, send photos and reminders, and get alerts when TV routines or room activity look off. Hardware plus a subscription membership; no learning curve for the senior. The company publishes no bespoke developer API, but its getjubileetv.com storefront exposes a real agentic-commerce surface on Shopify: an OIDC/OAuth Customer Accounts authorization server, a Universal Commerce Protocol (UCP) merchant profile, a shopping MCP endpoint, and published /llms.txt and /agents.md agent instructions.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jubilee-tv.png
@@ -100,15 +108,15 @@ mcp_servers:
 - description: ''
   name: jubilee-tv-mcp.yml
   slug: jubilee-tv-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Jubilee TV
 nav: Providers
 network: true
 overview: 'Jubilee TV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Caregiving, Seniors, and Smart TV.
 
 
-  Jubilee TV''s developer surface includes engineering blog, support, pricing, authentication, and 11 more developer resources.'
-random_paper: 111
+  Jubilee TV''s developer surface includes engineering blog, support, pricing, authentication, signup flow, and 12 more developer resources.'
+random_paper: 87
 scopes:
 - name: Jubilee Tv Scopes
   scope_count: 4
@@ -116,10 +124,10 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 23.8
+  delta: 2.6
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 68.5
@@ -131,8 +139,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jubilee-tv/refs/heads/main/screenshots/jubilee-tv-2026-08-07T171053.png
 security:
 - kind: authentication
   name: Jubilee Tv Authentication

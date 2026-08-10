@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Vs Code Marketplace Plans Pricing
   plan_count: 3
   slug: vs-code-marketplace-plans-pricing
-random_paper: 87
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Vs Code Marketplace Rate Limits
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/screenshots/vs-code-marketplace-2026-06-20T201145.png
 security:

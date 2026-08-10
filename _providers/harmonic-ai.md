@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
@@ -37,7 +37,7 @@ apis:
 - description: Hosted, agent-native MCP server exposing 40+ tools for enrichment, search, saved searches, lists, investors, network mapping, batch lookup, custom fields, and team. Listed in the Claude Connector stor
   name: Harmonic MCP Server
   slug: harmonic-mcp-server
-artifact_total: 6
+artifact_total: 7
 common:
 - group: start
   title: ''
@@ -147,6 +147,9 @@ mcp_servers:
 - description: ''
   name: harmonic-ai-mcp.yml
   slug: harmonic-ai-mcpyml
+- description: ''
+  name: mcp.api.harmonic.ai
+  slug: mcpapiharmonicai
 modified: '2026-07-22'
 name: Harmonic.ai
 nav: Providers
@@ -155,7 +158,7 @@ overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 79
+random_paper: 52
 scopes:
 - name: Harmonic Ai Scopes
   scope_count: 2
@@ -183,7 +186,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:

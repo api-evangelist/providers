@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -296,7 +296,7 @@ overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 27 more developer resources.'
-random_paper: 97
+random_paper: 88
 score:
   band: strong
   composite: 57.5
@@ -326,7 +326,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

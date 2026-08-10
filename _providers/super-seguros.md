@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Quotes API from Super Seguros — 1 operation(s) for quotes.
@@ -120,7 +120,7 @@ overview: 'Super Seguros publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Super Seguros'' developer surface includes authentication, documentation, getting-started guide, API reference, sandbox, and 12 more developer resources.'
-random_paper: 24
+random_paper: 104
 score:
   band: thin
   composite: 34.5
@@ -149,7 +149,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

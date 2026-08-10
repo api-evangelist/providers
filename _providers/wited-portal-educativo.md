@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Wited (Portal Educativo) is profiled on the [APIs.io](https://apis.io
 
 
   Wited (Portal Educativo)''s developer surface includes signup flow, pricing, support, and 9 more developer resources.'
-random_paper: 106
+random_paper: 49
 score:
   band: emerging
   composite: 17.3
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Atlantic Money is profiled on the [APIs.io](https://apis.io/) network
 
 
   Atlantic Money''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 89
+random_paper: 53
 score:
   band: emerging
   composite: 14.5
@@ -91,7 +91,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlantic-money/refs/heads/main/screenshots/atlantic-money-2026-07-25T201543.png
 security:

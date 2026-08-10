@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.7
-  scored_at: '2026-08-06'
+  score: 4.3
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
@@ -157,26 +157,29 @@ plans:
 - name: Ogen Plans Pricing
   plan_count: 3
   slug: ogen-plans-pricing
-random_paper: 86
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Ogen Rate Limits
   slug: ogen-rate-limits
 score:
-  band: developing
-  composite: 42.1
-  delta: 23.6
+  band: thin
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 9.7
-    developer_ergonomics: 65.2
+    developer_ergonomics: 60.3
     discoverability: 77.8
     governance: 22.9
     operational_transparency: 63.2
-  previous_composite: 18.5
+  previous_composite: 41.1
+  provenance:
+    conformance: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
 security:
 - kind: domain-security

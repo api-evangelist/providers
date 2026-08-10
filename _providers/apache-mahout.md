@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Qumat is a unified Python API for building and executing quantum circuits across multiple quantum computing backends including Qiskit, Cirq, and Amazon Braket. It provides a hardware-agnostic interfac
@@ -121,7 +121,7 @@ plans:
 - name: Apache Mahout Plans Pricing
   plan_count: 3
   slug: apache-mahout-plans-pricing
-random_paper: 66
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Apache Mahout Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/screenshots/apache-mahout-2026-06-20T172120.png
 security:

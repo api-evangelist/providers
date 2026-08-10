@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ press:
 - date: '2026-05-25'
   title: FINANCIAL RESULTS AND BUSINESS UPDATE
   url: https://investors.biogen.com/static-files/0612f509-be22-438f-b817-3acba3917b0b
-random_paper: 63
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Biogen Rate Limits
@@ -256,7 +256,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

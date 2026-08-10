@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Bambu Lab is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bambu Lab''s developer surface includes documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
-random_paper: 76
+random_paper: 55
 score:
   band: emerging
   composite: 19.4
@@ -109,7 +109,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bambu-lab/refs/heads/main/screenshots/bambu-lab-2026-07-25T202322.png
 security:

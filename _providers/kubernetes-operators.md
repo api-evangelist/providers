@@ -11,7 +11,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-api_count: 6
+api_count: 11
 artifact_total: 0
 created: '2025-01-01'
 description: Kubernetes Operators are a method of packaging, deploying, and managing Kubernetes applications that extend the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.
@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Kubernetes Operators
 nav: Providers
 network: true
-random_paper: 82
+random_paper: 28
 slug: kubernetes-operators
 tags:
 - Automation

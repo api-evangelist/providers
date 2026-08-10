@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: BANCOMAT Pay is a mobile payment service enabling Italian consumers to make e-commerce purchases and P2P transfers through a smartphone app linked to their bank account by phone number and IBAN. Merch
@@ -117,7 +117,7 @@ plans:
 - name: Bancomat Plans Pricing
   plan_count: 3
   slug: bancomat-plans-pricing
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bancomat Rate Limits
@@ -150,7 +150,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png
 security:

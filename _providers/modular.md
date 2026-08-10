@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API served by MAX. Exposes /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/responses (image and video generation), and /v1/models. Hosted at api.modular.com with
@@ -152,7 +152,7 @@ overview: 'Modular publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Modular''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 78
+random_paper: 60
 score:
   band: thin
   composite: 40.1
@@ -168,8 +168,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/modular/refs/heads/main/screenshots/modular-2026-08-07T184028.png
 security:
 - kind: authentication
   name: Modular Authentication

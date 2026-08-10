@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Strongly-typed GraphQL API to query and mutate the Rad TV platform — catalog (features, series, seasons, episodes, streams, miniseries), content management, uploads (TUS resumable), transcoding with A
@@ -108,7 +108,7 @@ overview: 'Rad. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rad.''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 8 more developer resources.'
-random_paper: 85
+random_paper: 79
 scopes:
 - name: Rad Scopes
   scope_count: 1
@@ -131,7 +131,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

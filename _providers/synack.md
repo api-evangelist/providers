@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -260,7 +260,7 @@ overview: 'Synack publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Synack''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 84
+random_paper: 69
 scopes:
 - name: Synack Scopes
   scope_count: 21
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

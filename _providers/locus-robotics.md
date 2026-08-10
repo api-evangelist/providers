@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 3.6
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,35 +79,39 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/locus-robotics-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/locus-robotics-well-known.yml
 created: '2026-07-17'
 description: Locus Robotics is a warehouse-automation company that pairs autonomous mobile robots (AMRs) with an intelligent orchestration platform. Its robot line — Locus Array (Robots-to-Goods), Locus Origin, and Locus Vector — works alongside the LocusONE platform and the LocusHub business-intelligence engine to raise pick/putaway rates and reduce labor across distribution and fulfillment operations. LocusONE integrates with warehouse management systems (WMS) and ERP platforms through APIs delivered via the Locus Global Alliance Network partner program; the company also maintains 100+ open-source ROS robotics repositories on GitHub. There is no public self-serve developer portal or published API specification — integration is arranged through partners and direct engagement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/locus-robotics.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Locus Robotics
 nav: Providers
 network: true
 overview: 'Locus Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Warehouse Automation, Autonomous Mobile Robots, and Supply Chain.
 
 
-  Locus Robotics'' developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 108
+  Locus Robotics'' developer surface includes documentation, engineering blog, support, signup flow, and 9 more developer resources.'
+random_paper: 72
 score:
   band: emerging
-  composite: 19.5
-  delta: 0.0
+  composite: 20.6
+  delta: 1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/locus-robotics/refs/heads/main/screenshots/locus-robotics-2026-07-25T225442.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/locus-robotics/refs/heads/main/screenshots/locus-robotics-2026-07-25T225446.png
 security:
 - kind: domain-security
   name: Locus Robotics Domain Security

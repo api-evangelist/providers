@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -303,7 +303,7 @@ plans:
 - name: Eaton Plans Pricing
   plan_count: 9
   slug: eaton-plans-pricing
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Eaton Rate Limits
@@ -356,7 +356,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:

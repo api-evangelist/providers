@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: AI-native browser for macOS (Apple Silicon) that turns browsing into a working surface for an embedded assistant. Surfaces contextual chat, Morning Brief, Reports, Better Meetings, Live Work, and spli
@@ -87,7 +87,7 @@ plans:
 - name: Dia Browser Plans Pricing
   plan_count: 1
   slug: dia-browser-plans-pricing
-random_paper: 102
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Dia Browser Rate Limits
@@ -105,7 +105,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dia-browser/refs/heads/main/screenshots/dia-browser-2026-06-20T180005.png
 security:

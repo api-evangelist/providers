@@ -18,13 +18,37 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 9
 apis:
-- description: The anonymously readable WordPress REST API behind www.nacuity.com. It exposes the 29 published corporate and clinical-programme pages (Home, About Us, Our Science, Pipeline, Development Programs, Inv
-  name: Nacuity Pharmaceuticals Content API
-  slug: nacuity-pharmaceuticals-content-api
-artifact_total: 4
+- description: Route, type, taxonomy and status discovery documents.
+  name: Nacuity Pharmaceuticals Discovery API
+  slug: nacuity-pharmaceuticals-discovery-api
+- description: Media library (140 attachments at harvest time).
+  name: Nacuity Pharmaceuticals Media API
+  slug: nacuity-pharmaceuticals-media-api
+- description: oEmbed 1.0 provider endpoint for nacuity.com URLs.
+  name: Nacuity Pharmaceuticals Oembed API
+  slug: nacuity-pharmaceuticals-oembed-api
+- description: Corporate, clinical-programme and press-release pages (29 published at harvest time). Nacuity authors its news items as pages, not as posts.
+  name: Nacuity Pharmaceuticals Pages API
+  slug: nacuity-pharmaceuticals-pages-api
+- description: The `portfolio` custom post type registered by the site theme and used for leadership entries. Registered and reachable, but empty (X-WP-Total 0).
+  name: Nacuity Pharmaceuticals Portfolio API
+  slug: nacuity-pharmaceuticals-portfolio-api
+- description: Blog/news post collection. Registered and reachable, but empty (X-WP-Total 0) — every press release is a page under /news/.
+  name: Nacuity Pharmaceuticals Posts API
+  slug: nacuity-pharmaceuticals-posts-api
+- description: Cross-content search across published objects.
+  name: Nacuity Pharmaceuticals Search API
+  slug: nacuity-pharmaceuticals-search-api
+- description: Yoast SEO head-tag rendering for a nacuity.com URL — the only anonymously readable operation in the yoast/v1 namespace.
+  name: Nacuity Pharmaceuticals Seo API
+  slug: nacuity-pharmaceuticals-seo-api
+- description: Categories, tags and the `portfolio-types` custom taxonomy. Categories holds one term (Uncategorized, count 0); tags is empty; portfolio-types holds one term (leadership, count 0).
+  name: Nacuity Pharmaceuticals Taxonomy API
+  slug: nacuity-pharmaceuticals-taxonomy-api
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -164,26 +188,26 @@ modified: '2026-08-04'
 name: Nacuity Pharmaceuticals
 nav: Providers
 network: true
-overview: 'Nacuity Pharmaceuticals publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biopharmaceuticals, pharmaceuticals, ophthalmology, and rare-disease.
+overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 6 more. Tagged areas include Company, biopharmaceuticals, pharmaceuticals, ophthalmology, and rare-disease.
 
 
   The Nacuity Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
   Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 28 more developer resources.'
-random_paper: 27
+random_paper: 80
 score:
   band: thin
   composite: 30.3
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 59.2
+    contract_quality: 56.8
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 30.3
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +217,9 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:
 - kind: authentication
   name: Nacuity Pharmaceuticals Authentication

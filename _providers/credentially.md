@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -242,7 +242,7 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
 
 
   Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 37
+random_paper: 4
 score:
   band: strong
   composite: 56.3
@@ -272,7 +272,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

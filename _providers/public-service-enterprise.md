@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: PSEG ANNOUNCES FIRST QUARTER 2026 RESULTS
   url: https://www.prnewswire.com/news-releases/pseg-announces-first-quarter-2026-results-302762109.html
-random_paper: 85
+random_paper: 19
 score:
   band: minimal
   composite: 5.8
@@ -103,7 +103,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-service-enterprise/refs/heads/main/screenshots/public-service-enterprise-2026-06-20T192245.png
 security:

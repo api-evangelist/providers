@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Bandcamp Plans Pricing
   plan_count: 2
   slug: bandcamp-plans-pricing
-random_paper: 31
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Bandcamp Rate Limits
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/screenshots/bandcamp-2026-06-20T172941.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Whirlpool connected appliances cloud API enables control and monitoring of Whirlpool, Maytag, KitchenAid, and Consul smart appliances including washers, dryers, ovens, refrigerators, and air condi
@@ -138,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: Whirlpool Announces Strategic Recapitalization to ...
   url: https://www.prnewswire.com/news-releases/whirlpool-announces-strategic-recapitalization-to-accelerate-deleveraging-and-strategic-growth-302694986.html
-random_paper: 88
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Whirlpool Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png
 security:

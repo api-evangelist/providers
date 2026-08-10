@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ plans:
 - name: Cover Genius Plans Pricing
   plan_count: 1
   slug: cover-genius-plans-pricing
-random_paper: 109
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Cover Genius Rate Limits
@@ -145,7 +145,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png
 security:

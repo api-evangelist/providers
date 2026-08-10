@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Cryptocurrency Trading Platform
@@ -66,7 +66,7 @@ overview: 'CoinDCX publishes 1 API on the [APIs.io](https://apis.io/) network: S
 
 
   The CoinDCX catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 66
+random_paper: 48
 rules:
 - name: CoinDCX API Rules
   rule_count: 9
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 25.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coindcx/refs/heads/main/screenshots/coindcx-2026-06-20T174731.png
 security:

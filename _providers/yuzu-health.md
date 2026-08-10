@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -198,7 +198,7 @@ overview: 'Yuzu Health publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 22
+random_paper: 108
 score:
   band: developing
   composite: 47.7
@@ -228,7 +228,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

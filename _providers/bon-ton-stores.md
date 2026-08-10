@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Starcom Wins Bon-Ton Media Duties 10/13/2011
   url: https://www.mediapost.com/publications/article/160399/starcom-wins-bon-ton-media-duties.html
-random_paper: 62
+random_paper: 26
 score:
   band: minimal
   composite: 5.0
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bon-ton-stores/refs/heads/main/screenshots/bon-ton-stores-2026-06-20T173558.png
 security:

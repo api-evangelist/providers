@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Tyson wins bidding war to buy Hillshire Brands
   url: https://www.latimes.com/business/la-fi-tyson-wins-bid-for-hillshire-brands-20140609-story.html
-random_paper: 61
+random_paper: 19
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: hillshire-brands
 tags:

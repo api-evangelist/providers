@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ overview: 'Afori is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Afori''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 77
+random_paper: 65
 score:
   band: emerging
   composite: 19.0
@@ -104,7 +104,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/afori/refs/heads/main/screenshots/afori-2026-07-25T181742.png
 security:

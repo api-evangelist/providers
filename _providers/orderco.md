@@ -12,22 +12,58 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-06'
-api_count: 2
+  score: 36.7
+  scored_at: '2026-08-10'
+api_count: 14
 apis:
-- description: The public, anonymous Atlassian Statuspage v2 API for the Order.co platform, served on Order.co's own host status.order.co (page id ckzwmwkw4x3f) and documented by Order.co at https://status.order.co/
-  name: Order.co Status API
-  slug: orderco-status-api
-- description: 'The public, anonymous WordPress REST API behind www.order.co. It is not the Order.co procurement API, but it is a real first-party machine-readable surface and it carries the corpus an agent actually '
+- description: The individual services Order.co reports health for.
+  name: Order.co Components API
+  slug: orderco-components-api
+- description: Posts, pages and media.
   name: Order.co Content API
   slug: orderco-content-api
-artifact_total: 15
+- description: Published Order.co customer case studies.
+  name: Order.co Customer Stories API
+  slug: orderco-customer-stories-api
+- description: Self-describing route, type and taxonomy introspection.
+  name: Order.co Discovery API
+  slug: orderco-discovery-api
+- description: Question-and-answer entries used across the site.
+  name: Order.co FA Qs API
+  slug: orderco-faqs-api
+- description: Open and historical incidents with their dated updates.
+  name: Order.co Incidents API
+  slug: orderco-incidents-api
+- description: Scheduled maintenance windows.
+  name: Order.co Maintenance API
+  slug: orderco-maintenance-api
+- description: First-party cn/v1 theme namespace.
+  name: Order.co Newsroom API
+  slug: orderco-newsroom-api
+- description: Ebooks, webinars, tools and spend insights.
+  name: Order.co Resources API
+  slug: orderco-resources-api
+- description: Cross-type search.
+  name: Order.co Search API
+  slug: orderco-search-api
+- description: The rollup status indicator for the whole page.
+  name: Order.co Status API
+  slug: orderco-status-api
+- description: Categories, tags, industries and use cases.
+  name: Order.co Taxonomies API
+  slug: orderco-taxonomies-api
+- description: Customer quotes.
+  name: Order.co Testimonials API
+  slug: orderco-testimonials-api
+- description: Published Order.co vendor/supplier case studies.
+  name: Order.co Vendor Stories API
+  slug: orderco-vendor-stories-api
+artifact_total: 27
 common:
 - group: auth
   title: ''
@@ -164,23 +200,23 @@ modified: '2026-08-04'
 name: Order.co
 nav: Providers
 network: true
-overview: 'Order.co publishes 2 APIs on the [APIs.io](https://apis.io/) network: Status API and Content API. Tagged areas include Company, Procurement, Spend Management, Accounts Payable, and Purchasing.
+overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Components API, Content API, Customer Stories API, and 11 more. Tagged areas include Company, Procurement, Spend Management, Accounts Payable, and Purchasing.
 
 
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 20 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: thin
-  composite: 28.0
-  delta: -9.7
+  composite: 28.3
+  delta: 0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 13.8
+    contract_quality: 13.0
     developer_ergonomics: 14.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 37.7
+  previous_composite: 28.0
   provenance:
     conformance: derived
     contracts:
@@ -196,8 +232,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: falling
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:
 - kind: authentication
   name: Orderco Authentication

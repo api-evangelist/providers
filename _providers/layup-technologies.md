@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -194,7 +194,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/layup-technologies-openapi-original.json
+  url: openapi/_original/layup-technologies-openapi-original.json
 - group: build
   title: ''
   type: Packages
@@ -270,7 +270,7 @@ overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io
 
 
   LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 76
+random_paper: 28
 score:
   band: developing
   composite: 44.0
@@ -300,7 +300,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:

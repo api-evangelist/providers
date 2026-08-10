@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Pico API lets developers build custom workflows and integrations on the Pico creator platform — including searching and managing contacts across an account. Every request authenticates with an X-A
@@ -80,7 +80,7 @@ overview: 'Pico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pico''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 3 more developer resources.'
-random_paper: 88
+random_paper: 79
 score:
   band: emerging
   composite: 17.1
@@ -100,7 +100,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

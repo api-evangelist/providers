@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -139,7 +139,7 @@ plans:
 - name: Searchcraft Plans Pricing
   plan_count: 3
   slug: searchcraft-plans-pricing
-random_paper: 28
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Searchcraft Rate Limits
@@ -164,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

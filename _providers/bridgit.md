@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -261,7 +261,7 @@ overview: 'Bridgit publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bridgit''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 63
+random_paper: 45
 score:
   band: thin
   composite: 31.0
@@ -282,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

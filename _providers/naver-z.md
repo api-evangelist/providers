@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'NAVER Z is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NAVER Z''s developer surface includes CLI, documentation, API reference, getting-started guide, pricing, and 5 more developer resources.'
-random_paper: 29
+random_paper: 11
 score:
   band: emerging
   composite: 15.8
@@ -97,8 +97,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/naver-z/refs/heads/main/screenshots/naver-z-2026-08-07T184728.png
 security:
 - kind: domain-security
   name: Naver Z Domain Security

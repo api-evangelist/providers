@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-06'
+  score: 55.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -26,18 +26,72 @@ agentic_access:
   operation_count: 55
   slug: sandboxaq-agentic-access
   summary_line: 55 operations · 9 acting
-api_count: 3
+api_count: 21
 apis:
-- description: 'The Flint AI Platform API gives programmatic access to everything the Flint AI Platform discovers about an organization''s AI estate: the agents found in code, the models, tools and MCP servers they us'
-  name: Flint AI Platform API
-  slug: flint-ai-platform-api
 - description: AQtive Guard is SandboxAQ's cryptography and non-human-identity management platform, built on the Cryptosense analyzer it acquired. Its API is GraphQL, served at /api/v2 and authenticated with an API-
   name: AQtive Guard API
   slug: aqtive-guard-api
 - description: A fully managed, per-tenant Model Context Protocol server that exposes SandboxAQ's proprietary scientific AI models as callable tools inside Claude and other MCP clients. It carries the aqcat tool (de
   name: SandboxAQ MCP Server
   slug: mcp-server
-artifact_total: 7
+- description: The aispm-agents API from SandboxAQ — 3 operation(s) for aispm-agents.
+  name: SandboxAQ Aispm Agents API
+  slug: sandboxaq-aispm-agents-api
+- description: The aispm-dashboard API from SandboxAQ — 1 operation(s) for aispm-dashboard.
+  name: SandboxAQ Aispm Dashboard API
+  slug: sandboxaq-aispm-dashboard-api
+- description: The aispm-guardrails API from SandboxAQ — 3 operation(s) for aispm-guardrails.
+  name: SandboxAQ Aispm Guardrails API
+  slug: sandboxaq-aispm-guardrails-api
+- description: The aispm-llm-interactions API from SandboxAQ — 2 operation(s) for aispm-llm-interactions.
+  name: SandboxAQ Aispm Llm Interactions API
+  slug: sandboxaq-aispm-llm-interactions-api
+- description: The aispm-llm-sessions API from SandboxAQ — 1 operation(s) for aispm-llm-sessions.
+  name: SandboxAQ Aispm Llm Sessions API
+  slug: sandboxaq-aispm-llm-sessions-api
+- description: The aispm-mcp-servers API from SandboxAQ — 3 operation(s) for aispm-mcp-servers.
+  name: SandboxAQ Aispm MCP Servers API
+  slug: sandboxaq-aispm-mcp-servers-api
+- description: The aispm-models API from SandboxAQ — 3 operation(s) for aispm-models.
+  name: SandboxAQ Aispm Models API
+  slug: sandboxaq-aispm-models-api
+- description: The aispm-tools API from SandboxAQ — 3 operation(s) for aispm-tools.
+  name: SandboxAQ Aispm Tools API
+  slug: sandboxaq-aispm-tools-api
+- description: The assets API from SandboxAQ — 3 operation(s) for assets.
+  name: SandboxAQ Assets API
+  slug: sandboxaq-assets-api
+- description: The client-storage API from SandboxAQ — 4 operation(s) for client-storage.
+  name: SandboxAQ Client Storage API
+  slug: sandboxaq-client-storage-api
+- description: The fine-issues API from SandboxAQ — 1 operation(s) for fine-issues.
+  name: SandboxAQ Fine Issues API
+  slug: sandboxaq-fine-issues-api
+- description: The inventory API from SandboxAQ — 1 operation(s) for inventory.
+  name: SandboxAQ Inventory API
+  slug: sandboxaq-inventory-api
+- description: The issues aispm histograms API from SandboxAQ — 1 operation(s) for issues aispm histograms.
+  name: SandboxAQ issues aispm histograms API
+  slug: sandboxaq-issues-aispm-histograms-api
+- description: The issues API from SandboxAQ — 8 operation(s) for issues.
+  name: SandboxAQ Issues API
+  slug: sandboxaq-issues-api
+- description: The locations API from SandboxAQ — 2 operation(s) for locations.
+  name: SandboxAQ Locations API
+  slug: sandboxaq-locations-api
+- description: The rules API from SandboxAQ — 5 operation(s) for rules.
+  name: SandboxAQ Rules API
+  slug: sandboxaq-rules-api
+- description: The scans API from SandboxAQ — 1 operation(s) for scans.
+  name: SandboxAQ Scans API
+  slug: sandboxaq-scans-api
+- description: The scans assets API from SandboxAQ — 1 operation(s) for scans assets.
+  name: SandboxAQ scans assets API
+  slug: sandboxaq-scans-assets-api
+- description: The viewExports API from SandboxAQ — 1 operation(s) for viewexports.
+  name: SandboxAQ View Exports API
+  slug: sandboxaq-viewexports-api
+artifact_total: 25
 common:
 - group: agent
   title: ''
@@ -102,7 +156,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sandboxaq-flint-ai-platform-openapi.json
+  url: openapi/_original/sandboxaq-flint-ai-platform-openapi.json
 - group: docs
   title: ''
   type: GraphQL
@@ -191,18 +245,18 @@ modified: '2026-08-02'
 name: SandboxAQ
 nav: Providers
 network: true
-overview: 'SandboxAQ publishes 1 API on the [APIs.io](https://apis.io/) network: Flint AI Platform API. Tagged areas include Company, Artificial Intelligence, Security, Cryptography, and Post-Quantum Cryptography.
+overview: 'SandboxAQ publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Aispm Agents API, Aispm Dashboard API, Aispm Guardrails API, and 16 more. Tagged areas include Company, Artificial Intelligence, Security, Cryptography, and Post-Quantum Cryptography.
 
 
   SandboxAQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 28 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 51.2
+  delta: 2.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.1
+    contract_quality: 59.7
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
@@ -214,7 +268,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

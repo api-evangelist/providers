@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,7 +119,7 @@ overview: 'HqO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   HqO''s developer surface includes support, documentation, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 102
+random_paper: 96
 score:
   band: emerging
   composite: 23.4
@@ -135,7 +135,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hqo/refs/heads/main/screenshots/hqo-2026-07-25T221543.png
 security:

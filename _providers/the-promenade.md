@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: mppx (HTTP 402) purchases - virtual clout and Simcluster Delta
@@ -106,7 +106,7 @@ overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
-random_paper: 78
+random_paper: 45
 score:
   band: thin
   composite: 31.4
@@ -129,7 +129,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

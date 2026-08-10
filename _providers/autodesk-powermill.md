@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The PowerMill Macro API provides an automation interface using macro commands to control PowerMill operations and workflows for CNC machining automation. Macros can automate repetitive toolpath genera
@@ -124,7 +124,7 @@ plans:
 - name: Autodesk Powermill Plans Pricing
   plan_count: 3
   slug: autodesk-powermill-plans-pricing
-random_paper: 88
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Autodesk Powermill Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-powermill/refs/heads/main/screenshots/autodesk-powermill-2026-06-20T172635.png
 security:

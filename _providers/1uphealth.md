@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-06'
+  score: 48.9
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -62,7 +62,7 @@ apis:
 - description: Population-scale connectivity and Bulk Data (Flat FHIR) export solution for acquiring and computing over large member/patient populations as FHIR.
   name: 1up Population Connect (Bulk FHIR)
   slug: 1uphealth-population-connect-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: 1Uphealth Subscription Webhooks
@@ -200,43 +200,96 @@ common:
   title: ''
   type: WellKnown
   url: well-known/1uphealth-well-known.yml
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/1uphealth
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/1uphealth/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/1up_health
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://1up.health/blog/feed/
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/1uphealth-context.jsonld
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/1uphealth-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/1uphealth-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/1uphealth-finops.yml
 created: '2026-07-24'
 description: 1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer
   documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).
+finops:
+- name: 1Uphealth Finops
+  service_category: ''
+  slug: 1uphealth-finops
+graphqls:
+- description: '1upHealth provides a GraphQL API endpoint layered on top of its FHIR R4 platform, enabling clients to query FHIR resources and 1upHealth-specific data objects using a single, flexible query language. '
+  name: 1upHealth GraphQL API
+  slug: 1uphealth-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+jsonld:
+- class_count: 32
+  name: 1Uphealth Context
+  property_count: 0
+  slug: 1uphealth-context
 layout: provider
 mcp_servers:
 - description: ''
   name: 1uphealth-mcp.yml
   slug: 1uphealth-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-08'
 name: 1upHealth
 nav: Providers
 network: true
 overview: '1upHealth publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, FHIR, HL7, and Interoperability.
 
 
-  The 1upHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The 1upHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 26 more developer resources.'
-random_paper: 4
+  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 34 more developer resources.'
+plans:
+- name: 1Uphealth Plans Pricing
+  plan_count: 6
+  slug: 1uphealth-plans-pricing
+random_paper: 96
+rate_limits:
+- limit_count: 4
+  name: 1Uphealth Rate Limits
+  slug: 1uphealth-rate-limits
 scopes:
 - name: 1Uphealth Scopes
   scope_count: 1
   slug: 1uphealth-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 58.2
-  delta: 0.0
+  band: exemplar
+  composite: 71.1
+  delta: 12.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 55.0
+    commercial_clarity: 89.5
+    contract_quality: 67.7
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 12.5
-    operational_transparency: 55.3
+    operational_transparency: 86.8
   previous_composite: 58.2
   provenance:
     conformance: first-party
@@ -249,8 +302,8 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
 security:
 - kind: authentication

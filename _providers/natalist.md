@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Natalist
 nav: Providers
 network: true
 overview: Natalist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fertility, Pregnancy, and Women's Health.
-random_paper: 73
+random_paper: 52
 score:
   band: minimal
   composite: 5.0
@@ -62,8 +62,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/natalist/refs/heads/main/screenshots/natalist-2026-08-07T184643.png
 security:
 - kind: domain-security
   name: Natalist Domain Security

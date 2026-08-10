@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Integration Patterns is profiled on the [APIs.io](https://apis.io/) n
 
 
   The Integration Patterns catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 80
+random_paper: 26
 rules:
 - name: Integration Patterns API Rules
   rule_count: 0
@@ -96,7 +96,7 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-patterns/refs/heads/main/screenshots/integration-patterns-2026-06-20T183430.png
 slug: integration-patterns

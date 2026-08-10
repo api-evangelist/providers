@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: cordproject
 nav: Providers
 network: true
 overview: cordproject is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice Messaging, Audio, Messaging, and Consumer.
-random_paper: 53
+random_paper: 23
 score:
   band: minimal
   composite: 5.5
@@ -68,7 +68,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordproject/refs/heads/main/screenshots/cordproject-2026-07-25T210417.png
 security:

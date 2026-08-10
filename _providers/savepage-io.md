@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: A free, RESTful API used to screenshot any desktop, or mobile website
@@ -63,7 +63,7 @@ overview: 'SavePage.io publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SavePage.io''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 88
+random_paper: 61
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/savepage-io/refs/heads/main/screenshots/savepage-io-2026-06-20T193441.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -1156,7 +1156,7 @@ plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
   slug: gitlab-plans-pricing
-random_paper: 62
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Gitlab Rate Limits
@@ -1213,7 +1213,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

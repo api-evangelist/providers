@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Amazon B2B Data Interchange publishes 6 APIs on the [APIs.io](https:/
 
 
   Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 12 more developer resources.'
-random_paper: 111
+random_paper: 45
 rules:
 - name: Amazon B2B Data Interchange API Rules
   rule_count: 5
@@ -210,7 +210,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

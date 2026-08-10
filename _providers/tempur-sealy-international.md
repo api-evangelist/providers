@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Tempur Sealy integrates A.I. in newest ActiveBreeze smart ...
   url: https://www.furnituretoday.com/bedding-manufacturers/tempur-sealy-integrates-a-i-in-newest-activebreeze-smart-bed/
-random_paper: 102
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Tempur Sealy International Rate Limits
@@ -166,7 +166,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png
 security:

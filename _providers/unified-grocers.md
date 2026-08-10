@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Lidl CEO Rejects Retail Media, Focuses ...
   url: https://www.linkedin.com/posts/numainville_why-lidl-keeps-its-distance-from-retail-media-activity-7383464922615226368-g0GA
-random_paper: 73
+random_paper: 34
 score:
   band: minimal
   composite: 4.1
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

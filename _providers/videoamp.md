@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -26,15 +26,54 @@ agentic_access:
   operation_count: 118
   slug: videoamp-agentic-access
   summary_line: 118 operations · 57 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 15
 apis:
-- description: The VideoAmp Public API powers audience building and lookup, campaign and media plan creation and optimization, inventory sets, rate cards and reach curves, ad and content measurement reporting with p
-  name: VideoAmp Public API
-  slug: videoamp-public-api
 - description: VideoAmp's hosted remote Model Context Protocol server, exposing 101 tools that mirror the VideoAmp Public API operations for audiences, measurement, planning, inventory, data streams and sharing. Str
   name: VideoAmp MCP Server
   slug: videoamp-mcp-server
-artifact_total: 9
+- description: adMeasurements operations.
+  name: VideoAmp Ad Measurements API
+  slug: videoamp-admeasurements-api
+- description: audiences operations.
+  name: VideoAmp Audiences API
+  slug: videoamp-audiences-api
+- description: campaigns operations.
+  name: VideoAmp Campaigns API
+  slug: videoamp-campaigns-api
+- description: consents operations.
+  name: VideoAmp Consents API
+  slug: videoamp-consents-api
+- description: content operations.
+  name: VideoAmp Content API
+  slug: videoamp-content-api
+- description: currency-of-record operations.
+  name: VideoAmp Currency Of Record API
+  slug: videoamp-currency-of-record-api
+- description: dataStreams operations.
+  name: VideoAmp Data Streams API
+  slug: videoamp-datastreams-api
+- description: dataStreamTypes operations.
+  name: VideoAmp Data Stream Types API
+  slug: videoamp-datastreamtypes-api
+- description: inventories operations.
+  name: VideoAmp Inventories API
+  slug: videoamp-inventories-api
+- description: library operations.
+  name: VideoAmp Library API
+  slug: videoamp-library-api
+- description: me operations.
+  name: VideoAmp Me API
+  slug: videoamp-me-api
+- description: plans operations.
+  name: VideoAmp Plans API
+  slug: videoamp-plans-api
+- description: reports operations.
+  name: VideoAmp Reports API
+  slug: videoamp-reports-api
+- description: shares operations.
+  name: VideoAmp Shares API
+  slug: videoamp-shares-api
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -168,11 +207,11 @@ modified: '2026-08-02'
 name: VideoAmp
 nav: Providers
 network: true
-overview: 'VideoAmp publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include media-measurement, advertising, adtech, tv-currency, and audience-measurement.
+overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Measurements API, Audiences API, Campaigns API, and 11 more. Tagged areas include media-measurement, advertising, adtech, tv-currency, and audience-measurement.
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 23 more developer resources.'
-random_paper: 62
+random_paper: 41
 scopes:
 - name: Videoamp Scopes
   scope_count: 4
@@ -180,13 +219,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceAuthorization
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 50.9
+  delta: -0.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 65.1
+    contract_quality: 61.2
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 51.3
@@ -201,7 +240,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

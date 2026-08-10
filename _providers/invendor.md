@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -266,7 +266,7 @@ overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 78
+random_paper: 57
 scopes:
 - name: Invendor Scopes
   scope_count: 2
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Mazama Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Mazama Energy''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 38
+random_paper: 5
 score:
   band: minimal
   composite: 11.8
@@ -91,8 +91,9 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mazamaenergy/refs/heads/main/screenshots/mazamaenergy-2026-08-07T172143.png
 security:
 - kind: domain-security
   name: Mazamaenergy Domain Security

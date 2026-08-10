@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: IDG Capital
 nav: Providers
 network: true
-random_paper: 70
+random_paper: 43
 slug: idg-capital
 tags:
 - Venture Capital

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: People's United Financial
 nav: Providers
 network: true
 overview: People's United Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Regional Bank, Defunct, Acquired, and Financial Services.
-random_paper: 59
+random_paper: 112
 score:
   band: minimal
   composite: 4.9
@@ -72,7 +72,7 @@ score:
     regime_id: banking_open_finance
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoples-united-financial/refs/heads/main/screenshots/peoples-united-financial-2026-06-20T191551.png
 slug: peoples-united-financial

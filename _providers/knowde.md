@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The GraphQL API is Knowde's recommended primary programmatic interface to the platform — anything possible in the REST API is intended to also be possible in GraphQL. The reference is generated from t
@@ -161,7 +161,7 @@ overview: 'Knowde publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Knowde''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, support, and 23 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: thin
   composite: 36.7
@@ -177,8 +177,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/knowde/refs/heads/main/screenshots/knowde-2026-08-07T171300.png
 security:
 - kind: authentication
   name: Knowde Authentication

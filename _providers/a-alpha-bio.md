@@ -18,12 +18,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
-- description: 'The HTTP API behind Atlas, A-Alpha Bio''s protein-protein interaction data platform. Nine read operations over Atlas "Data Blocks": list accessible datasets (with flags for all versions, locked/purchas'
-  name: Atlas Data Product API
-  slug: atlas-data-product-api
+- description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
+  name: A-Alpha Bio Datasets API
+  slug: a-alpha-bio-datasets-api
 artifact_total: 10
 common:
 - group: auth
@@ -167,21 +167,23 @@ modified: '2026-08-06'
 name: A-Alpha Bio
 nav: Providers
 network: true
-overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Atlas Data Product API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
+overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 21 more developer resources.'
-random_paper: 2
+random_paper: 91
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 41.4
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.8
+    contract_quality: 65.9
     developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -192,7 +194,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:
 - kind: authentication
   name: A Alpha Bio Authentication

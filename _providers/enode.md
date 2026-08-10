@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -140,7 +140,7 @@ plans:
 - name: Enode Plans Pricing
   plan_count: 2
   slug: enode-plans-pricing
-random_paper: 71
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Enode Rate Limits
@@ -171,7 +171,7 @@ score:
     regime_id: energy_utilities
     score: 24.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/screenshots/enode-2026-07-25T213409.png
 security:

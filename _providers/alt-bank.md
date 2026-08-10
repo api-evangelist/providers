@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-06'
+  score: 41.4
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -106,6 +106,10 @@ common:
   title: ''
   type: WellKnown
   url: well-known/alt-bank-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
 description: alt.bank (Alt Bank) is a Brazilian fintech providing a fully integrated, turnkey credit-card and consumer-credit platform for partners who want to launch prepaid and postpaid cards without becoming a financial institution. Its flagship product, GUARD, is a machine-learning underwriting / credit-risk engine ("Brazil's most accurate credit model") that returns a Guard Score, risk band and credit-limit decision through a real-time partner API. The platform also bundles white-label credit cards (novücard), Visa BIN sponsorship, KYC, anti-fraud, dispute management and Pix/boleto payment processing. Partners integrate over a documented HTTPS API secured with a per-partner X-Partner-Auth token plus IP allow-listing, with a mirrored staging sandbox and asynchronous callback delivery of underwriting results. Backed by Anthemis, Union Square Ventures, Repeat Ventures and SquareOne Capital, alt.bank targets financial inclusion for underbanked consumers.
 image: https://altbank.ai/wp-content/uploads/2020/08/cropped-alt.bank-logo-square-300x300.png
@@ -114,7 +118,7 @@ mcp_servers:
 - description: ''
   name: alt-bank-mcp.yml
   slug: alt-bank-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: Alt Bank
 nav: Providers
 network: true
@@ -124,16 +128,16 @@ overview: 'Alt Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network.
   The Alt Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 100
+  Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 10 more developer resources.'
+random_paper: 82
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 32.7
+  delta: 1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
-    developer_ergonomics: 58.7
+    developer_ergonomics: 65.2
     discoverability: 83.3
     governance: 0.0
     operational_transparency: 7.9
@@ -147,9 +151,9 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195808.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
 security:
 - kind: authentication
   name: Alt Bank Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: MessageMe *
 nav: Providers
 network: true
 overview: MessageMe * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Messaging, Communication, and Defunct.
-random_paper: 47
+random_paper: 23
 score:
   band: minimal
   composite: 4.3
@@ -64,8 +64,9 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/messageme/refs/heads/main/screenshots/messageme-2026-08-07T172629.png
 slug: messageme
 tags:
 - Company

@@ -28,13 +28,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: The Sorry™ REST API provides programmatic access to manage status pages, components, incident notices, notice updates, and subscriber lists. Supports Bearer token authentication and rate limiting of 1
-  name: Sorry Status Page API
-  slug: sorry-status-page-api
-artifact_total: 13
+- description: Manage components displayed on status pages
+  name: Sorry Components API
+  slug: sorry-components-api
+- description: Publish updates to active notices
+  name: Sorry Notice Updates API
+  slug: sorry-notice-updates-api
+- description: Manage incident and maintenance notices
+  name: Sorry Notices API
+  slug: sorry-notices-api
+- description: Manage status pages in your account
+  name: Sorry Status Pages API
+  slug: sorry-status-pages-api
+- description: Manage subscriber lists for status page notifications
+  name: Sorry Subscribers API
+  slug: sorry-subscribers-api
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -124,7 +136,7 @@ modified: '2026-05-02'
 name: Sorry
 nav: Providers
 network: true
-overview: 'Sorry publishes 1 API on the [APIs.io](https://apis.io/) network: Status Page API. Tagged areas include Status Pages, Incident Management, Developer Tools, Monitoring, and Notifications.
+overview: 'Sorry publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Notice Updates API, Notices API, and 2 more. Tagged areas include Status Pages, Incident Management, Developer Tools, Monitoring, and Notifications.
 
 
   The Sorry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -135,7 +147,7 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 10
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits
@@ -163,9 +175,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.1
+    contract_quality: 69.8
     developer_ergonomics: 19.6
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
   previous_composite: 54.7
@@ -176,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
 security:

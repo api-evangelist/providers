@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 13
 apis:
 - description: The Amortization API from LendAPI — 1 operation(s) for amortization.
@@ -131,7 +131,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/lendapi-openapi.json
+  url: openapi/_original/lendapi-openapi.json
 - group: other
   title: ''
   type: Overlay
@@ -240,7 +240,7 @@ overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendAPI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: developing
   composite: 54.2
@@ -269,7 +269,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/screenshots/lendapi-2026-07-25T224857.png
 security:

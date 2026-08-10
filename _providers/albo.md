@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,10 +94,11 @@ overview: 'Albo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Albo''s developer surface includes support, pricing, signup flow, YouTube channel, and 7 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: emerging
   composite: 16.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -105,6 +106,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
@@ -112,7 +114,9 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/albo/refs/heads/main/screenshots/albo-2026-08-07T161145.png
 security:
 - kind: domain-security
   name: Albo Domain Security

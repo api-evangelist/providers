@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Programmatic access to GigSky's catalog of regional and global eSIM data plans by destination and price zone, used by partners and enterprises to browse and select connectivity. Endpoints, base URL, a
@@ -106,7 +106,7 @@ plans:
 - name: Gigsky Plans Pricing
   plan_count: 3
   slug: gigsky-plans-pricing
-random_paper: 89
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Gigsky Rate Limits
@@ -130,7 +130,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/screenshots/gigsky-2026-07-25T215813.png
 security:

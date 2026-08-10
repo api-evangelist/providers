@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ overview: 'Crafting, Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Crafting, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 75
+random_paper: 45
 score:
   band: emerging
   composite: 27.1
@@ -134,7 +134,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crafting-inc/refs/heads/main/screenshots/crafting-inc-2026-07-25T210635.png
 security:

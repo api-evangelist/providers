@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: RESTful Data API over BuildZoom's Building Permit Database — property permit history and contractor license/permit information, with batch requests and sub-second latency. Delivered as part of the bui
@@ -95,7 +95,7 @@ overview: 'BuildZoom publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   BuildZoom''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 77
+random_paper: 53
 score:
   band: emerging
   composite: 20.3
@@ -109,7 +109,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildzoom/refs/heads/main/screenshots/buildzoom-2026-07-25T204054.png
 security:

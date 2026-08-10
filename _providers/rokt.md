@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Comprehensive reporting API for querying account and campaign performance data with flexible filtering, metrics selection, and date range specification.
@@ -129,7 +129,7 @@ plans:
 - name: Rokt Plans Pricing
   plan_count: 0
   slug: rokt-plans-pricing
-random_paper: 109
+random_paper: 100
 rate_limits:
 - limit_count: 2
   name: Rokt Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rokt/refs/heads/main/screenshots/rokt-2026-06-20T193204.png
 security:

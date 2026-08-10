@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -533,6 +533,10 @@ common:
   title: ''
   type: Compliance
   url: security/altimate-ai-trust-center.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/altimate-ai-changelog.yml
 created: '2026-07-17'
 description: Altimate AI is an agentic data engineering platform that gives data teams AI "Datamates" — trustworthy agents that build data pipelines, migrate workloads, manage infrastructure, optimize warehouse cost, and enforce data governance across dbt, Snowflake, Databricks, Airflow and more. It is delivered through an MCP engine and IDE/agent integrations (Cursor, Claude Code, VS Code, GitHub Copilot, Windsurf, Gemini CLI), an open-source terminal harness (altimate-code), the DataPilot CLI, and the Power User for dbt extension. The platform is tech-stack agnostic, token-efficient, and open source, and exposes a large REST API at api.myaltimate.com covering queries, lineage, data contracts, governance, cost, and AI studio surfaces. SOC 2 Type II audited.
 image: https://altimate.ai/og/altimate-home.jpg
@@ -541,26 +545,26 @@ mcp_servers:
 - description: ''
   name: altimate-ai-mcp.yml
   slug: altimate-ai-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: Altimate AI
 nav: Providers
 network: true
 overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) network, including ACCOUNT_COSTS API, ade-bench API, AGENTS API, and 120 more. Tagged areas include Company, Data, Data Engineering, Artificial Intelligence, and Agents.
 
 
-  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 79
+  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+random_paper: 52
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 52.3
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.8
     developer_ergonomics: 75.5
     discoverability: 68.5
     governance: 11.5
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -573,9 +577,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195829.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:
 - kind: authentication
   name: Altimate Ai Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -167,7 +167,7 @@ overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 79
+random_paper: 55
 score:
   band: thin
   composite: 34.6
@@ -191,8 +191,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
 security:
 - kind: authentication
   name: Navistone Authentication

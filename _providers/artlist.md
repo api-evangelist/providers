@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,18 +26,24 @@ agentic_access:
   operation_count: 5
   slug: artlist-agentic-access
   summary_line: 5 operations
-api_count: 3
+api_count: 5
 apis:
-- description: Search and retrieve the Artlist music catalog — songs (with mood, genre, instrument and video-theme category filters, BPM, duration, vocal type and free-text query), artists and albums. Returns AAC st
-  name: Artlist Enterprise Search API
-  slug: search
-- description: Mint a downloadable URL for a licensed Artlist asset. Takes the asset type (currently song), the asset id (numeric or UUID) and the desired format (mp3 or wave), and returns the URL of the downloadabl
-  name: Artlist Enterprise Download API
-  slug: download
 - description: Hosted Model Context Protocol server for the Artlist Enterprise API documentation. Exposes a single anonymous read-only tool, searchDocs, that searches developer.artlist.io and returns documentation p
   name: Artlist Developer Docs MCP Server
   slug: docs-mcp
-artifact_total: 8
+- description: The album API from Artlist — 1 operation(s) for album.
+  name: Artlist Album API
+  slug: artlist-album-api
+- description: The artist API from Artlist — 1 operation(s) for artist.
+  name: Artlist Artist API
+  slug: artlist-artist-api
+- description: The downloadable API from Artlist — 1 operation(s) for downloadable.
+  name: Artlist Downloadable API
+  slug: artlist-downloadable-api
+- description: The song API from Artlist — 2 operation(s) for song.
+  name: Artlist Song API
+  slug: artlist-song-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -179,22 +185,22 @@ modified: '2026-08-02'
 name: Artlist
 nav: Providers
 network: true
-overview: 'Artlist publishes 2 APIs on the [APIs.io](https://apis.io/) network: Enterprise Search API and Enterprise Download API. Tagged areas include Company, Music, Audio, Media, and Stock Media.
+overview: 'Artlist publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Downloadable API, and 1 more. Tagged areas include Company, Music, Audio, Media, and Stock Media.
 
 
   Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 93
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Artlist Rate Limits
   slug: artlist-rate-limits
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 52.1
+  delta: -1.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 48.8
+    contract_quality: 45.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -211,8 +217,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:
 - kind: authentication
   name: Artlist Authentication

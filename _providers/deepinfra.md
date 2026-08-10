@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Deepinfra Plans Pricing
   plan_count: 1
   slug: deepinfra-plans-pricing
-random_paper: 38
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Deepinfra Rate Limits
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/screenshots/deepinfra-2026-06-20T175818.png
 security:

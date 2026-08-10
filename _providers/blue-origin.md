@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -136,7 +136,7 @@ overview: 'Blue Origin publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blue Origin''s developer surface includes engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 100
+random_paper: 73
 scopes:
 - name: Blue Origin Scopes
   scope_count: 38
@@ -159,7 +159,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

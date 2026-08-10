@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Flockjay
 nav: Providers
 network: true
 overview: Flockjay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, Learning Management, and Revenue Operations.
-random_paper: 60
+random_paper: 39
 score:
   band: emerging
   composite: 13.4
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
 security:

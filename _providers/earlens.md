@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ overview: 'EarLens is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EarLens'' developer surface includes support, engineering blog, FAQ, and 9 more developer resources.'
-random_paper: 68
+random_paper: 50
 score:
   band: emerging
   composite: 13.7
@@ -102,8 +102,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/earlens/refs/heads/main/screenshots/earlens-2026-08-07T164624.png
 security:
 - kind: domain-security
   name: Earlens Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ name: hewlett-packard
 nav: Providers
 network: true
 overview: hewlett-packard is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 67
+random_paper: 28
 score:
   band: minimal
   composite: 4.2
@@ -69,7 +69,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hewlett-packard/refs/heads/main/screenshots/hewlett-packard-2026-06-20T182702.png
 security:

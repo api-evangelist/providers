@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API with 16 pay-per-call POST endpoints for domain security and performance audits, payable via x402/USDC on Base. Includes an OpenAPI 3.1 contract plus agent-native surfaces (llms.txt, llms-full
@@ -33,7 +33,7 @@ name: Tinstop Website Intelligence API
 nav: Providers
 network: true
 overview: 'Tinstop Website Intelligence API publishes 1 API on the [APIs.io](https://apis.io/) network: Website Intelligence API. Tagged areas include Website Intelligence, Domain Security, DNS, SSL/TLS, and Email Authentication.'
-random_paper: 92
+random_paper: 8
 score:
   band: emerging
   composite: 14.0
@@ -47,7 +47,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: tinstop-website-intelligence-api
 tags:

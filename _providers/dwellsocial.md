@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: DwellSocial
 nav: Providers
 network: true
 overview: DwellSocial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Drink, Food Delivery, Restaurants, and Community.
-random_paper: 41
+random_paper: 11
 score:
   band: minimal
   composite: 5.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwellsocial/refs/heads/main/screenshots/dwellsocial-2026-07-25T212543.png
 security:

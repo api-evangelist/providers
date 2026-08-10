@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Cabot Oil & Gas Corp
   url: https://www.reuters.com/company/cabot-oil-gas-corp/
-random_paper: 20
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Cabot Oil And Gas Rate Limits
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabot-oil-and-gas/refs/heads/main/screenshots/cabot-oil-and-gas-2026-06-20T173833.png
 security:

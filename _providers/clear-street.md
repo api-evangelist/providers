@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -26,21 +26,78 @@ agentic_access:
   operation_count: 98
   slug: clear-street-agentic-access
   summary_line: 98 operations · 35 acting
-api_count: 4
+api_count: 23
 apis:
-- description: 'A unified RESTful API for client interactions with the Clear Street Active trading platform: accounts and balances, order submission/replacement/cancellation, executions, positions and position instru'
-  name: Clear Street Trading API
-  slug: trading-api
-- description: The Clear Street Studio prime-brokerage API — an integrated Risk Management, Portfolio Management and Execution Management surface. Covers entities and accounts, holdings, orders and bulk orders, trad
-  name: Clear Street Studio API
-  slug: studio-api
 - description: Clear Street's official remote Model Context Protocol server, exposing the Clear Street Trading API to AI assistants such as Claude and Gemini. OAuth-protected per RFC 9728 — an anonymous request retu
   name: Clear Street MCP Server
   slug: mcp
 - description: Clear Street's legacy post-trade API for booking and cancelling trades and for submitting bulk trade-file uploads. Published as a Swagger 2.0 document in the clear-street/docs GitHub repository alongs
   name: Clear Street API (Trades and Uploads)
   slug: legacy-api
-artifact_total: 12
+- description: The Accounts API from Clear Street — 6 operation(s) for accounts.
+  name: Clear Street Accounts API
+  slug: clear-street-accounts-api
+- description: Endpoints for API service metadata.
+  name: Clear Street API version API
+  slug: clear-street-api-version-api
+- description: Access clocks and financial calendars for market sessions and events.
+  name: Clear Street Calendar API
+  slug: clear-street-calendar-api
+- description: The Entities API from Clear Street — 2 operation(s) for entities.
+  name: Clear Street Entities API
+  slug: clear-street-entities-api
+- description: The Holdings API from Clear Street — 1 operation(s) for holdings.
+  name: Clear Street Holdings API
+  slug: clear-street-holdings-api
+- description: Retrieve instrument analytics, market data, news, and related reference data.
+  name: Clear Street Instrument Data API
+  slug: clear-street-instrument-data-api
+- description: The Instruments API from Clear Street — 6 operation(s) for instruments.
+  name: Clear Street Instruments API
+  slug: clear-street-instruments-api
+- description: The Inventories API from Clear Street — 1 operation(s) for inventories.
+  name: Clear Street Inventories API
+  slug: clear-street-inventories-api
+- description: The Locates API from Clear Street — 2 operation(s) for locates.
+  name: Clear Street Locates API
+  slug: clear-street-locates-api
+- description: The Margin API from Clear Street — 2 operation(s) for margin.
+  name: Clear Street Margin API
+  slug: clear-street-margin-api
+- description: The Margin Simulations API from Clear Street — 2 operation(s) for margin simulations.
+  name: Clear Street Margin Simulations API
+  slug: clear-street-margin-simulations-api
+- description: Thread-centric AI assistant for conversational trading. Create threads to start conversations, poll response objects for in-progress output, and read finalized messages from thread history. Thread/mes
+  name: Clear Street Omni AI API
+  slug: clear-street-omni-ai-api
+- description: The Orders API from Clear Street — 6 operation(s) for orders.
+  name: Clear Street Orders API
+  slug: clear-street-orders-api
+- description: The Performance API from Clear Street — 1 operation(s) for performance.
+  name: Clear Street Performance API
+  slug: clear-street-performance-api
+- description: The PNL API from Clear Street — 3 operation(s) for pnl.
+  name: Clear Street PNL API
+  slug: clear-street-pnl-api
+- description: The Positions API from Clear Street — 6 operation(s) for positions.
+  name: Clear Street Positions API
+  slug: clear-street-positions-api
+- description: The Rates API from Clear Street — 1 operation(s) for rates.
+  name: Clear Street Rates API
+  slug: clear-street-rates-api
+- description: Search instruments and manage saved screeners.
+  name: Clear Street Screener API
+  slug: clear-street-screener-api
+- description: Trade endpoints are used to insert or cancel trades into a our systems.
+  name: Clear Street Trades API
+  slug: clear-street-trades-api
+- description: 'Upload endpoints allow you to upload a `CSV` file that contain trades, in the same format as our <b>[trade-file specification](https://github.com/clear-street/docs/blob/master/trade_file.md)</b>. You '
+  name: Clear Street Uploads API
+  slug: clear-street-uploads-api
+- description: Create and manage watchlists.
+  name: Clear Street Watchlist API
+  slug: clear-street-watchlist-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Clear Street Studio Events
@@ -210,14 +267,14 @@ modified: '2026-08-02'
 name: Clear Street
 nav: Providers
 network: true
-overview: 'Clear Street publishes 3 APIs on the [APIs.io](https://apis.io/) network: Trading API, Studio API, and API (Trades and Uploads). Tagged areas include Company, Financial Services, Capital Markets, Prime Brokerage, and Trading.
+overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 19 more. Tagged areas include Company, Financial Services, Capital Markets, Prime Brokerage, and Trading.
 
 
   The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
-random_paper: 97
+random_paper: 67
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -225,11 +282,11 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 64.2
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.9
+    contract_quality: 66.6
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 20.8
@@ -252,8 +309,9 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:
 - kind: authentication
   name: Clear Street Authentication

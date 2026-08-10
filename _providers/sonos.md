@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
@@ -143,7 +143,7 @@ overview: 'Sonos publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sonos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 110
+random_paper: 98
 scopes:
 - name: Sonos Scopes
   scope_count: 1
@@ -172,7 +172,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

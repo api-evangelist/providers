@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-06'
+  score: 42.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -26,33 +26,81 @@ agentic_access:
   operation_count: 276
   slug: pryon-agentic-access
   summary_line: 276 operations · 146 acting
-api_count: 8
+api_count: 24
 apis:
-- description: The Pryon Platform administrative API — organizations, teams, members, knowledge collections and knowledge domains, content and content groups, connectors, subjects, regression tests, messages, analyt
-  name: Pryon Admin API
-  slug: pryon-admin-api
-- description: The Pryon Retrieval Engine API — create and continue retrievals over a knowledge collection (REST, WebSocket and server-sent events), fetch content, content groups, extracts, summaries and content ima
-  name: Pryon Retrieval API
-  slug: pryon-retrieval-api
-- description: The Pryon Generative Engine API — OpenAI-compatible chat completions and model listing, query guardrails (toxicity and prompt-injection classification), query routing, query rewriting for multi-turn c
-  name: Pryon Generative API
-  slug: pryon-generative-api
-- description: Create, list, retrieve and delete knowledge collections for an organization, resolve the active knowledge domain behind a collection, and decommission knowledge domain versions.
-  name: Pryon Knowledge Collections API
-  slug: pryon-knowledge-collections-api
-- description: Conversational exchange over a Pryon collection — start or continue a conversation, review the exchange request and response cycle, and stream ExchangeEvent messages as data-only server-sent events.
+- description: The Analytics API from Pryon — 8 operation(s) for analytics.
+  name: Pryon Analytics API
+  slug: pryon-analytics-api
+- description: The ConnectorServiceExternal API from Pryon — 11 operation(s) for connectorserviceexternal.
+  name: Pryon Connector Service External API
+  slug: pryon-connectorserviceexternal-api
+- description: The Content Service API from Pryon — 16 operation(s) for content service.
+  name: Pryon Content Service API
+  slug: pryon-content-service-api
+- description: The ContentService API from Pryon — 13 operation(s) for contentservice.
+  name: Pryon Content Service API
+  slug: pryon-contentservice-api
+- description: The Exchange API from Pryon — 3 operation(s) for exchange.
   name: Pryon Exchange API
   slug: pryon-exchange-api
-- description: Ratings, rating reviews, approvals and verified answers across extractive exchanges, generative exchanges and generative retrievals — the human-in-the-loop surface that curates what a Pryon collection
+- description: The ExchangeEvent API from Pryon — 1 operation(s) for exchangeevent.
+  name: Pryon Exchange Event API
+  slug: pryon-exchangeevent-api
+- description: The Feedback API from Pryon — 9 operation(s) for feedback.
   name: Pryon Feedback API
   slug: pryon-feedback-api
-- description: The contract a customer implements to connect any content repository that has no prebuilt Pryon connector — discover content sources with pagination, download content data in parts, return content met
-  name: Pryon Universal Connector API
-  slug: pryon-universal-connector-api
-- description: Define, list, update and delete user-defined metadata fields and field values at the organization and collection level, and list the collections that use a given metadata field — the filters that narr
-  name: Pryon User-Defined Metadata API
-  slug: pryon-user-defined-metadata-api
-artifact_total: 14
+- description: The Generative API from Pryon — 6 operation(s) for generative.
+  name: Pryon Generative API
+  slug: pryon-generative-api
+- description: The GenerativeExchange API from Pryon — 3 operation(s) for generativeexchange.
+  name: Pryon Generative Exchange API
+  slug: pryon-generativeexchange-api
+- description: The GenerativeFeedback API from Pryon — 6 operation(s) for generativefeedback.
+  name: Pryon Generative Feedback API
+  slug: pryon-generativefeedback-api
+- description: The GenerativeRetrieval API from Pryon — 2 operation(s) for generativeretrieval.
+  name: Pryon Generative Retrieval API
+  slug: pryon-generativeretrieval-api
+- description: The GenerativeRetrievalFeedback API from Pryon — 6 operation(s) for generativeretrievalfeedback.
+  name: Pryon Generative Retrieval Feedback API
+  slug: pryon-generativeretrievalfeedback-api
+- description: The Knowledge Collection Service API from Pryon — 1 operation(s) for knowledge collection service.
+  name: Pryon Knowledge Collection Service API
+  slug: pryon-knowledge-collection-service-api
+- description: The KnowledgeCollectionService API from Pryon — 11 operation(s) for knowledgecollectionservice.
+  name: Pryon Knowledge Collection Service API
+  slug: pryon-knowledgecollectionservice-api
+- description: The KnowledgeDomain API from Pryon — 17 operation(s) for knowledgedomain.
+  name: Pryon Knowledge Domain API
+  slug: pryon-knowledgedomain-api
+- description: The List Knowledge Collections API from Pryon — 1 operation(s) for list knowledge collections.
+  name: Pryon List Knowledge Collections API
+  slug: pryon-list-knowledge-collections-api
+- description: The Messages API from Pryon — 3 operation(s) for messages.
+  name: Pryon Messages API
+  slug: pryon-messages-api
+- description: The OrganizationService API from Pryon — 23 operation(s) for organizationservice.
+  name: Pryon Organization Service API
+  slug: pryon-organizationservice-api
+- description: The RegressionTest API from Pryon — 7 operation(s) for regressiontest.
+  name: Pryon Regression Test API
+  slug: pryon-regressiontest-api
+- description: The Retrieval API from Pryon — 4 operation(s) for retrieval.
+  name: Pryon Retrieval API
+  slug: pryon-retrieval-api
+- description: The RetrievalFeedback API from Pryon — 9 operation(s) for retrievalfeedback.
+  name: Pryon Retrieval Feedback API
+  slug: pryon-retrievalfeedback-api
+- description: The Subjects API from Pryon — 6 operation(s) for subjects.
+  name: Pryon Subjects API
+  slug: pryon-subjects-api
+- description: The TextToSpeech API from Pryon — 1 operation(s) for texttospeech.
+  name: Pryon Text To Speech API
+  slug: pryon-texttospeech-api
+- description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
+  name: Pryon User Defined Metadata API
+  slug: pryon-userdefinedmetadata-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Pryon Events
@@ -191,21 +239,21 @@ modified: '2026-08-02'
 name: Pryon
 nav: Providers
 network: true
-overview: 'Pryon publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Retrieval API, Generative API, and 5 more. Tagged areas include Artificial Intelligence, Retrieval Augmented Generation, Enterprise Search, Knowledge Management, and Generative AI.
+overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connector Service External API, Content Service API, and 21 more. Tagged areas include Artificial Intelligence, Retrieval Augmented Generation, Enterprise Search, Knowledge Management, and Generative AI.
 
 
   The Pryon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Pryon''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 23 more developer resources.'
-random_paper: 3
+random_paper: 104
 score:
   band: developing
   composite: 47.5
   delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 57.8
+    contract_quality: 57.6
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
@@ -217,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

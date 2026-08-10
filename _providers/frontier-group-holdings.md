@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Frontier Group Holdings is profiled on the [APIs.io](https://apis.io/
 
 
   Frontier Group Holdings'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 3
+random_paper: 56
 score:
   band: minimal
   composite: 4.9
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontier-group-holdings/refs/heads/main/screenshots/frontier-group-holdings-2026-06-20T181600.png
 security:

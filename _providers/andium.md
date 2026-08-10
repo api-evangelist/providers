@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
@@ -138,7 +138,7 @@ overview: 'Andium publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Andium''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 73
+random_paper: 58
 scopes:
 - name: Andium Scopes
   scope_count: 4
@@ -147,6 +147,7 @@ scopes:
 score:
   band: emerging
   composite: 26.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -154,6 +155,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 26.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
@@ -161,7 +167,9 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/screenshots/andium-2026-08-07T161400.png
 security:
 - kind: authentication
   name: Andium Authentication

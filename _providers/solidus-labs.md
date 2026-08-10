@@ -18,13 +18,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The public REST API behind TokenSniffer, the token-security platform that powers Solidus Labs' HALO Token Monitoring module. Analyzes token contract source code and bytecode against a database of 10,0
-  name: TokenSniffer API
-  slug: tokensniffer-api
-artifact_total: 7
+- description: The Address API API from Solidus Labs — 1 operation(s) for address api.
+  name: Solidus Labs Address API API
+  slug: solidus-labs-address-api-api
+- description: The Chain API API from Solidus Labs — 1 operation(s) for chain api.
+  name: Solidus Labs Chain API API
+  slug: solidus-labs-chain-api-api
+- description: The Corrections API from Solidus Labs — 1 operation(s) for corrections.
+  name: Solidus Labs Corrections API
+  slug: solidus-labs-corrections-api
+- description: The Latest API from Solidus Labs — 1 operation(s) for latest.
+  name: Solidus Labs Latest API
+  slug: solidus-labs-latest-api
+- description: The Scams API from Solidus Labs — 2 operation(s) for scams.
+  name: Solidus Labs Scams API
+  slug: solidus-labs-scams-api
+- description: The Token API API from Solidus Labs — 1 operation(s) for token api.
+  name: Solidus Labs Token API API
+  slug: solidus-labs-token-api-api
+- description: The Webhooks API API from Solidus Labs — 2 operation(s) for webhooks api.
+  name: Solidus Labs Webhooks API API
+  slug: solidus-labs-webhooks-api-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Solidus Labs Tokensniffer Webhooks
@@ -179,7 +197,7 @@ modified: '2026-08-05'
 name: Solidus Labs
 nav: Providers
 network: true
-overview: 'Solidus Labs publishes 1 API on the [APIs.io](https://apis.io/) network: TokenSniffer API. Tagged areas include Company, Compliance, RegTech, Trade Surveillance, and Market Integrity.
+overview: 'Solidus Labs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Address API API, Chain API API, Corrections API, and 4 more. Tagged areas include Company, Compliance, RegTech, Trade Surveillance, and Market Integrity.
 
 
   The Solidus Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,21 +208,23 @@ plans:
 - name: Solidus Labs Plans
   plan_count: 2
   slug: solidus-labs-plans
-random_paper: 104
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Solidus Labs Rate Limits
   slug: solidus-labs-rate-limits
 score:
   band: exemplar
-  composite: 67.9
+  composite: 68.1
+  delta: 0.2
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.1
+    contract_quality: 70.8
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 31.3
     operational_transparency: 60.5
+  previous_composite: 67.9
   provenance:
     conformance: first-party
     contracts:
@@ -215,7 +235,8 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Solidus Labs Authentication

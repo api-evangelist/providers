@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: A hosted Esri feature service published by Manitoba Hydro's ArcGIS Online organization (org id QoeQkfdOG126FqSi, org name "Manitoba Hydro", item owner dcarpenter@hydro.mb.ca) carrying live unplanned p
@@ -189,7 +189,7 @@ overview: 'Manitoba Hydro publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Manitoba Hydro''s developer surface includes authentication, code examples, documentation, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 82
+random_paper: 46
 score:
   band: thin
   composite: 30.3
@@ -211,8 +211,9 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/screenshots/manitoba-hydro-2026-08-07T171956.png
 security:
 - kind: authentication
   name: Manitoba Hydro Authentication

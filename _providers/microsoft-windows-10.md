@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -1052,7 +1052,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 27
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits
@@ -1086,7 +1086,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:

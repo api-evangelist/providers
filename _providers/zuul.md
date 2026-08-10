@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Netflix Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, and security.
@@ -68,7 +68,7 @@ plans:
 - name: Zuul Plans Pricing
   plan_count: 3
   slug: zuul-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Zuul Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuul/refs/heads/main/screenshots/zuul-2026-06-20T202005.png
 slug: zuul

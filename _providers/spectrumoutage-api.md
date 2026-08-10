@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for live Spectrum internet, TV, and phone outage data across the US. Bearer API key required on all endpoints. Endpoints include /stats, /reports, /cities/{slug}, /states, /zip/{zip}, and /ma
@@ -33,7 +33,7 @@ name: SpectrumOutage API
 nav: Providers
 network: true
 overview: 'SpectrumOutage API publishes 1 API on the [APIs.io](https://apis.io/) network: v1. Tagged areas include spectrum, outage, internet, tv, and phone.'
-random_paper: 79
+random_paper: 31
 score:
   band: minimal
   composite: 11.9
@@ -53,7 +53,7 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: spectrumoutage-api
 tags:

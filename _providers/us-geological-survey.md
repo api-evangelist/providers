@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Us Geological Survey Plans Pricing
   plan_count: 1
   slug: us-geological-survey-plans-pricing
-random_paper: 20
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Us Geological Survey Rate Limits
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:

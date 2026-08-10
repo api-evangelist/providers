@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hackajob''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 28
+random_paper: 7
 score:
   band: emerging
   composite: 17.7
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackajob/refs/heads/main/screenshots/hackajob-2026-07-25T220519.png
 security:

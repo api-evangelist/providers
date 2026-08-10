@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The OpenID Connect and OAuth 2.0 provider behind SEED player accounts. Klang publishes no documentation for it; this entry is recorded from the public discovery documents at seed.game and login.seed.g
@@ -116,7 +116,7 @@ overview: 'Klang Games publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Klang Games'' developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 73
+random_paper: 61
 scopes:
 - name: Klang Scopes
   scope_count: 5
@@ -137,7 +137,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/screenshots/klang-2026-07-25T223927.png
 security:

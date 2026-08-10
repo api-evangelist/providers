@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Deep Interactions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Deep Interactions'' developer surface includes signup flow and 3 more developer resources.'
-random_paper: 63
+random_paper: 18
 score:
   band: minimal
   composite: 7.6
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-interactions/refs/heads/main/screenshots/deep-interactions-2026-07-25T211538.png
 security:

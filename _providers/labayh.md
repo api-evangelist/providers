@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Labayh publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Labayh''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 60
+random_paper: 45
 score:
   band: thin
   composite: 39.7
@@ -216,7 +216,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

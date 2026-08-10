@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -187,7 +187,7 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 22 more developer resources.'
-random_paper: 66
+random_paper: 45
 score:
   band: developing
   composite: 45.5
@@ -216,7 +216,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

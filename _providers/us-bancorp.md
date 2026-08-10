@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ press:
 - date: '2026-05-25'
   title: U.S. Bancorp Annual Report 2025
   url: https://s203.q4cdn.com/711684571/files/doc_financials/2025/ar/2025-Annual-Report_ADA_F.pdf
-random_paper: 1
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Us Bancorp Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png
 security:

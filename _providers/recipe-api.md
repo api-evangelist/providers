@@ -18,13 +18,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: B2B Recipe API providing structured recipes with comprehensive nutrition data.
-  name: Recipe API
-  slug: recipe-api
-artifact_total: 5
+- description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
+  name: Recipe API Discovery API
+  slug: recipe-api-discovery-api
+- description: The Image Generation API from Recipe API — 1 operation(s) for image generation.
+  name: Recipe API Image Generation API
+  slug: recipe-api-image-generation-api
+- description: Search ingredients free. Per-100g USDA nutrition by ID costs 1 credit.
+  name: Recipe API Ingredients API
+  slug: recipe-api-ingredients-api
+- description: No authentication required. Try `/api/v1/dinner` for a complete recipe example.
+  name: Recipe API Public API
+  slug: recipe-api-public-api
+- description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
+  name: Recipe API Recipes API
+  slug: recipe-api-recipes-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -86,7 +98,7 @@ modified: '2026-08-03'
 name: Recipe API
 nav: Providers
 network: true
-overview: 'Recipe API publishes 1 API on the [APIs.io](https://apis.io/) network: Recipe API. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
+overview: 'Recipe API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Image Generation API, Ingredients API, and 2 more. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
 
 
   Recipe API''s developer surface includes documentation, pricing, signup flow, authentication, and 8 more developer resources.'
@@ -94,20 +106,20 @@ plans:
 - name: Recipe Api Plans
   plan_count: 4
   slug: recipe-api-plans
-random_paper: 87
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
   slug: recipe-api-rate-limits
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 48.0
+  delta: -0.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 63.6
+    contract_quality: 59.2
     developer_ergonomics: 28.3
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 48.5
@@ -119,7 +131,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

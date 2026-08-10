@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: Bank Jago
 nav: Providers
 network: true
 overview: Bank Jago is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Bank, and Indonesia.
-random_paper: 83
+random_paper: 62
 score:
   band: emerging
   composite: 14.3
@@ -90,7 +90,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/screenshots/bank-jago-2026-07-25T202329.png
 security:

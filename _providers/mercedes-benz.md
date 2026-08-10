@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,11 +24,11 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-06'
+  score: 3.2
+  scored_at: '2026-08-10'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -167,7 +167,7 @@ modified: '2026-04-28'
 name: Mercedes-Benz
 nav: Providers
 network: true
-overview: 'Mercedes-Benz publishes 2 APIs on the [APIs.io](https://apis.io/) network: Car Configurator API and Connect Your Business API. Tagged areas include Automobiles, Cars, and Vehicles.
+overview: 'Mercedes-Benz publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, and Vehicles.
 
 
   Mercedes-Benz''s developer surface includes developer portal, product news, getting-started guide, support, FAQ, signup flow, and 11 more developer resources.'
@@ -175,26 +175,26 @@ plans:
 - name: Mercedes Benz Plans Pricing
   plan_count: 3
   slug: mercedes-benz-plans-pricing
-random_paper: 73
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Mercedes Benz Rate Limits
   slug: mercedes-benz-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 31.9
+  delta: -8.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 32.3
+    contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 40.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/screenshots/mercedes-benz-2026-06-20T185205.png
 security:
 - kind: domain-security

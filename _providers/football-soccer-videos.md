@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more
@@ -56,7 +56,7 @@ name: Football (Soccer) Videos
 nav: Providers
 network: true
 overview: Football (Soccer) Videos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 83
+random_paper: 26
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/football-soccer-videos/refs/heads/main/screenshots/football-soccer-videos-2026-06-20T181409.png
 security:

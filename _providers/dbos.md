@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -83,10 +83,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/dbos-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/dbos-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -130,12 +126,12 @@ overview: 'DBOS publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The DBOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DBOS''s developer surface includes documentation, developer console, pricing, engineering blog, and 11 more developer resources.'
+  DBOS''s developer surface includes documentation, developer console, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Dbos Plans Pricing
   plan_count: 3
   slug: dbos-plans-pricing
-random_paper: 85
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Dbos Rate Limits
@@ -170,7 +166,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/screenshots/dbos-2026-06-20T175736.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ plans:
 - name: Ion Group Plans Pricing
   plan_count: 3
   slug: ion-group-plans-pricing
-random_paper: 24
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Ion Group Rate Limits
@@ -130,7 +130,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/screenshots/ion-group-2026-06-20T183527.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,11 +69,14 @@ apis:
 - description: The Phone API from SEON — 1 operation(s) for phone.
   name: SEON Phone API
   slug: seon-tech-phone-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: SEON API
   slug: open-seon-tech
+- collection_type: open
+  name: SEON REST API
+  slug: open-seon
 common:
 - group: agent
   title: ''
@@ -187,6 +190,18 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.seon.io/llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/seon-tech-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/seon-tech-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/seon-tech-finops.yml
 created: '2026-05-25'
 description: SEON is a Budapest-headquartered fraud prevention, AML compliance, and digital footprint analysis platform that exposes a modular REST API for fraud scoring, identity verification, email enrichment, phone enrichment, IP intelligence, BIN lookup, AML screening, device intelligence, and identity verification (IDV). SEON combines real-time enrichment of email, phone, IP, BIN, and device signals with customer-defined rules and machine learning to score risk and prevent fraud, account takeover, multi-accounting, and money laundering across digital channels.
 finops:
@@ -195,19 +210,19 @@ finops:
   slug: seon-tech-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seon-tech.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: SEON
 nav: Providers
 network: true
 overview: 'SEON publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AML API, BIN API, Email API, and 3 more. Tagged areas include AML Compliance, Device Intelligence, Digital Footprint, Fraud Prevention, and Identity Verification.
 
 
-  SEON''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
+  SEON''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 24 more developer resources.'
 plans:
 - name: Seon Tech Plans Pricing
   plan_count: 3
   slug: seon-tech-plans-pricing
-random_paper: 111
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Seon Tech Rate Limits
@@ -232,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/screenshots/seon-tech-2026-06-20T193713.png
 security:

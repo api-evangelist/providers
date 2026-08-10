@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -26,27 +26,120 @@ agentic_access:
   operation_count: 194
   slug: aleph-alpha-agentic-access
   summary_line: 194 operations · 96 acting
-api_count: 6
+api_count: 37
 apis:
-- description: Access and interact with Aleph Alpha models and functionality over HTTP endpoints. Provides completion, chat completions, embeddings, semantic and batch semantic embeddings, tokenization and detokeniz
-  name: PhariaInference API
-  slug: pharia-inference
-- description: The PhariaData API provides a comprehensive suite of endpoints to manage data workflows within the Pharia Data Platform — repositories, datasets, datapoints, stages, files, downloads, connectors, tran
-  name: PhariaData API
-  slug: pharia-data
-- description: The Document Index is a service that provides semantic search over your knowledge base. It handles chunking and embedding of documents and keeps embeddings in sync, and exposes namespaces, collections
-  name: PhariaSearch / Document Index API
-  slug: pharia-search
-- description: PhariaStudio is the collaborative development environment for building, debugging, evaluating and deploying organisation-specific AI solutions. Its API covers projects, traces, spans and events, evalu
-  name: PhariaStudio API
-  slug: pharia-studio
-- description: PhariaOS is a resource management system that oversees the entire lifecycle of AI resources, from inception to maintenance. The Manager API covers cluster GPUs, nodes and taints, use cases and deploym
-  name: PhariaOS Manager API
-  slug: pharia-os
-- description: 'A stateful, OpenAI-compatible Responses API for building agentic applications on PhariaAI. Supports conversations, response persistence and retrieval, guardrail checks, client-executed function tools '
-  name: Responses API (Stateful Responses)
-  slug: responses
-artifact_total: 11
+- description: The API description API from Aleph Alpha — 2 operation(s) for api description.
+  name: Aleph Alpha API description API
+  slug: aleph-alpha-api-description-api
+- description: The Application Traces API from Aleph Alpha — 2 operation(s) for application traces.
+  name: Aleph Alpha Application Traces API
+  slug: aleph-alpha-application-traces-api
+- description: Endpoints for handling execution instances of benchmarks. These provides an overview of all evaluation steps during execution (run, evaluation, aggregation).
+  name: Aleph Alpha Benchmark Executions API
+  slug: aleph-alpha-benchmark-executions-api
+- description: Endpoints for handling benchmarks. A Benchmark provides a way to compare and evaluate the quality of your task results for a specific dataset.
+  name: Aleph Alpha Benchmarks API
+  slug: aleph-alpha-benchmarks-api
+- description: The cluster API from Aleph Alpha — 4 operation(s) for cluster.
+  name: Aleph Alpha Cluster API
+  slug: aleph-alpha-cluster-api
+- description: Management of document collections
+  name: Aleph Alpha Collection API
+  slug: aleph-alpha-collection-api
+- description: Available connectors for the Data Platform to ingest data from external sources.
+  name: Aleph Alpha Connectors API
+  slug: aleph-alpha-connectors-api
+- description: Create, retrieve, update, delete, and list conversations.
+  name: Aleph Alpha Conversations API
+  slug: aleph-alpha-conversations-api
+- description: Represents the primary data abstraction within the data platform, serving as a structured collection of data points. Datasets can be either manually uploaded or generated through data transformations,
+  name: Aleph Alpha Datasets API
+  slug: aleph-alpha-datasets-api
+- description: A Document represents an individual item stored within a Search Store. Documents can contain content from various modalities, such as text, images, or pre-chunked data.
+  name: Aleph Alpha Document API
+  slug: aleph-alpha-document-api
+- description: 'Endpoints for managing and tracking dataset download requests within the data platform. These endpoints allow users to initiate new downloads, retrieve details of specific download requests, and list '
+  name: Aleph Alpha Downloads API
+  slug: aleph-alpha-downloads-api
+- description: Endpoints for handling evaluation datasets, which are specific datasets to be used for evaluation in the Pharia Studio SDK.
+  name: Aleph Alpha Evaluation Datasets API
+  slug: aleph-alpha-evaluation-datasets-api
+- description: Endpoints for handling Events. Events capture detailed information about specific occurrences within a Span. This includes logs, exceptions, and other relevant data points that provide a granular view
+  name: Aleph Alpha Events API
+  slug: aleph-alpha-events-api
+- description: Management of search filter indexes
+  name: Aleph Alpha Filter Index API
+  slug: aleph-alpha-filter-index-api
+- description: Check content against guardrail policies.
+  name: Aleph Alpha Guardrails API
+  slug: aleph-alpha-guardrails-api
+- description: Management of search indexes
+  name: Aleph Alpha Index API
+  slug: aleph-alpha-index-api
+- description: Lineages represent the results of a benchmark execution. A single lineage represents an evaluation of a single example with a task and evaluation logic. They contain all task and evaluation logic inpu
+  name: Aleph Alpha Lineages API
+  slug: aleph-alpha-lineages-api
+- description: The models API from Aleph Alpha — 6 operation(s) for models.
+  name: Aleph Alpha Models API
+  slug: aleph-alpha-models-api
+- description: Management of namespaces
+  name: Aleph Alpha Namespace API
+  slug: aleph-alpha-namespace-api
+- description: Health checks and operational endpoints.
+  name: Aleph Alpha Operations API
+  slug: aleph-alpha-operations-api
+- description: The permissions API from Aleph Alpha — 1 operation(s) for permissions.
+  name: Aleph Alpha Permissions API
+  slug: aleph-alpha-permissions-api
+- description: A Project is an abstraction representing a group of running operations associated with the same task in the Studio. Endpoints under this tag allow you to create, update, delete, and retrieve projects.
+  name: Aleph Alpha Projects API
+  slug: aleph-alpha-projects-api
+- description: A collection of data organized by a common type, modality, and schema, stored within datasets (lists of data points) in the repositories. To share datasets externally, they must first be exported as f
+  name: Aleph Alpha Repositories API
+  slug: aleph-alpha-repositories-api
+- description: Create, retrieve, and delete responses. Supports streaming and multi-turn conversations via response chaining.
+  name: Aleph Alpha Responses API
+  slug: aleph-alpha-responses-api
+- description: A Search Store is a structured data repository optimized for indexing and retrieving searchable entities. It supports full-text search, metadata-based filtering, and relevance ranking. Each Search Sto
+  name: Aleph Alpha Search Store API
+  slug: aleph-alpha-search-store-api
+- description: Service health and status
+  name: Aleph Alpha Service API
+  slug: aleph-alpha-service-api
+- description: Endpoints for managing Spans. A Span is a single unit of work within a Trace and represents an individual operation in the execution sequence. Spans help in breaking down the Trace into more manageabl
+  name: Aleph Alpha Spans API
+  slug: aleph-alpha-spans-api
+- description: 'Stages serve as the data platform''s entry point for data collection, where source files are securely stored, enabling subsequent transformations and dataset generation. Files can be uploaded directly '
+  name: Aleph Alpha Stages API
+  slug: aleph-alpha-stages-api
+- description: The steering API from Aleph Alpha — 1 operation(s) for steering.
+  name: Aleph Alpha Steering API
+  slug: aleph-alpha-steering-api
+- description: Requests for different types of tasks you can request with our models.
+  name: Aleph Alpha Tasks API
+  slug: aleph-alpha-tasks-api
+- description: Manage tokens associated with your user account for API access.
+  name: Aleph Alpha Tokens API
+  slug: aleph-alpha-tokens-api
+- description: Trace management endpoints. A Trace provides a mechanism similar to OpenTelemetry for tracking the execution flow of a task. It allows you to monitor and analyze the sequence of operations, their timi
+  name: Aleph Alpha Traces API
+  slug: aleph-alpha-traces-api
+- description: Available transformations can be applied to an input data object of type A to produce an output data object of type B. The output data object will consist of a sequence of items, each of which will co
+  name: Aleph Alpha Transformations API
+  slug: aleph-alpha-transformations-api
+- description: '**Usecases (Applications)** Usecases are full-stack end to end AI applications. The application exposes the necessary REST endpoints so AI usecases can be consumed and, optionally, a front-end (UI) to'
+  name: Aleph Alpha Usecases API
+  slug: aleph-alpha-usecases-api
+- description: The users API from Aleph Alpha — 2 operation(s) for users.
+  name: Aleph Alpha Users API
+  slug: aleph-alpha-users-api
+- description: The v1/models API from Aleph Alpha — 4 operation(s) for v1/models.
+  name: Aleph Alpha V1/models API
+  slug: aleph-alpha-v1-models-api
+- description: A Workspace is a shared environment where users can collaborate on projects. Workspaces help in organizing and managing projects in large organizations efficiently.
+  name: Aleph Alpha Workspaces API
+  slug: aleph-alpha-workspaces-api
+artifact_total: 42
 common:
 - group: agent
   title: ''
@@ -237,20 +330,20 @@ modified: '2026-08-02'
 name: Aleph Alpha
 nav: Providers
 network: true
-overview: 'Aleph Alpha publishes 6 APIs on the [APIs.io](https://apis.io/) network, including PhariaInference API, PhariaData API, PhariaSearch / Document Index API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Generative AI.
+overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Generative AI.
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 68
+random_paper: 41
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.6
+  delta: -0.8
   facets:
     commercial_clarity: 26.3
-    contract_quality: 54.4
+    contract_quality: 52.8
     developer_ergonomics: 82.1
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 49.4
@@ -271,8 +364,9 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:
 - kind: authentication
   name: Aleph Alpha Authentication

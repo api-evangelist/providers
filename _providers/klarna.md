@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -379,7 +379,7 @@ plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 68
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Klarna Rate Limits
@@ -427,7 +427,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
@@ -118,7 +118,7 @@ overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OpenLattice''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 46
+random_paper: 16
 score:
   band: emerging
   composite: 26.9
@@ -146,8 +146,9 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/screenshots/openlattice-2026-08-07T190610.png
 security:
 - kind: authentication
   name: Openlattice Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: The Authorization API from Nory — 1 operation(s) for authorization.
@@ -90,7 +90,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nory-middleware-openapi.json
+  url: openapi/_original/nory-middleware-openapi.json
 - group: other
   title: ''
   type: Overlay
@@ -159,7 +159,7 @@ overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 4
+random_paper: 108
 score:
   band: thin
   composite: 34.6
@@ -182,8 +182,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
 security:
 - kind: authentication
   name: Nory Authentication

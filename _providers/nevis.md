@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API to automate the Nevis Authentication Cloud — passwordless registration, authentication and transaction signing (FIDO2 / passkeys, Access App, OATH TOTP, SMS OTP, recovery codes), user and aut
@@ -144,7 +144,7 @@ overview: 'Nevis publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nevis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 97
+random_paper: 85
 score:
   band: thin
   composite: 32.8
@@ -161,8 +161,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/screenshots/nevis-2026-08-07T185048.png
 security:
 - kind: authentication
   name: Nevis Authentication

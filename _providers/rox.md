@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,7 +136,7 @@ overview: 'Rox is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Rox''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, and 17 more developer resources.'
-random_paper: 6
+random_paper: 113
 score:
   band: thin
   composite: 29.9
@@ -150,7 +150,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 29.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

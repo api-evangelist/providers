@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Findoctave is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Findoctave''s developer surface includes engineering blog, getting-started guide, pricing, support, and 8 more developer resources.'
-random_paper: 42
+random_paper: 15
 score:
   band: emerging
   composite: 19.0
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findoctave/refs/heads/main/screenshots/findoctave-2026-07-25T214516.png
 security:

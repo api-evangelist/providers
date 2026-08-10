@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: The Webhooks API from Chameleon — 2 operation(s) for webhooks.
   name: Chameleon Webhooks API
   slug: chameleon-webhooks-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Chameleon REST API
@@ -143,6 +143,26 @@ common:
   title: ''
   type: LlmsText
   url: https://developers.chameleon.io/llms.txt
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/chamaeleonidae
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.chameleon.io/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.chameleon.io/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chameleon.io/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/trychameleon
 created: '2026-05-08'
 description: Chameleon delivers in-app product tours, microsurveys, tooltips, launchers, and product demos to drive activation and feedback.
 finops:
@@ -150,35 +170,43 @@ finops:
   service_category: Product
   slug: chameleon-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chameleon.png
+jsonld:
+- class_count: 0
+  name: Chameleon Context
+  property_count: 29
+  slug: chameleon-context
 layout: provider
-modified: '2026-05-08'
+modified: '2026-08-08'
 name: Chameleon
 nav: Providers
 network: true
 overview: 'Chameleon publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alert Groups API, Companies API, Deliveries API, and 14 more. Tagged areas include Product, In-App Guidance, Onboarding, Surveys, and Analytics.
 
 
-  Chameleon''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  The Chameleon catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Chameleon''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Chameleon Plans Pricing
   plan_count: 1
   slug: chameleon-plans-pricing
-random_paper: 36
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Chameleon Rate Limits
   slug: chameleon-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 41.7
+  delta: 6.8
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 57.4
-    developer_ergonomics: 19.6
+    commercial_clarity: 47.4
+    contract_quality: 63.6
+    developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 42.1
   previous_composite: 34.9
   provenance:
     agentic_access: derived
@@ -188,9 +216,9 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/screenshots/chameleon-2026-06-20T174207.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/screenshots/chameleon-2026-06-20T174211.png
 security:
 - kind: authentication
   name: Chameleon Authentication

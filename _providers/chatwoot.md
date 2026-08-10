@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -138,7 +138,11 @@ apis:
 - description: Event notification webhooks
   name: Chatwoot Webhooks API
   slug: chatwoot-webhooks-api
-artifact_total: 63
+artifact_total: 64
+collections:
+- collection_type: open
+  name: Chatwoot API
+  slug: open-chatwoot-com
 common:
 - group: agent
   title: ''
@@ -196,6 +200,10 @@ common:
   title: ''
   type: FinOps
   url: finops/chatwoot-finops.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/chatwoot
 created: '2026-06-13'
 description: Chatwoot is an open-source customer support and omni-channel messaging platform that provides REST APIs for managing conversations, contacts, agents, teams, labels, and integrating customer communication workflows. It supports live chat, email, WhatsApp, Facebook, Instagram, Telegram, SMS, and more, with Application APIs for agent-level automation, Client APIs for custom chat interfaces, and Platform APIs for managing self-hosted installations at scale.
 examples:
@@ -278,7 +286,7 @@ jsonld:
   property_count: 47
   slug: chatwoot-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: Chatwoot
 nav: Providers
 network: true
@@ -288,12 +296,12 @@ overview: 'Chatwoot publishes 32 APIs on the [APIs.io](https://apis.io/) network
   The Chatwoot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chatwoot''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Chatwoot''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Chatwoot Plans Pricing
   plan_count: 4
   slug: chatwoot-plans-pricing
-random_paper: 82
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Chatwoot Rate Limits
@@ -333,9 +341,9 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-06-20T174237.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-07-25T205121.png
 security:
 - kind: authentication
   name: Chatwoot Authentication

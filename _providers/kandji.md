@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -223,7 +223,7 @@ overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endp
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 60
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Kandji Rate Limits
@@ -251,8 +251,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
 - kind: authentication
   name: Kandji Authentication

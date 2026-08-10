@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -424,7 +424,7 @@ plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
   slug: sharepoint-plans-pricing
-random_paper: 68
+random_paper: 41
 rate_limits:
 - limit_count: 27
   name: Sharepoint Rate Limits
@@ -473,7 +473,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:

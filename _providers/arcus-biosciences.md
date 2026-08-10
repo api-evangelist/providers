@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Arcus Biosciences
 nav: Providers
 network: true
 overview: Arcus Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Oncology.
-random_paper: 51
+random_paper: 6
 score:
   band: minimal
   composite: 9.5
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcus-biosciences/refs/heads/main/screenshots/arcus-biosciences-2026-07-25T201108.png
 security:

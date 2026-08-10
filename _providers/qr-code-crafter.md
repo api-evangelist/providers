@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for generating static and bulk QR codes and managing dynamic URL redirects/vaults with aggregate analytics. Includes an OpenAPI 3.0.1 contract, WebMCP browser-agent context, ai-plugin.json, l
@@ -49,7 +49,7 @@ overview: 'QR Code Crafter publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   QR Code Crafter''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 2
+random_paper: 79
 score:
   band: emerging
   composite: 15.7
@@ -63,7 +63,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: qr-code-crafter
 tags:

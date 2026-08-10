@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,7 +102,7 @@ overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HealthTap''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: emerging
   composite: 23.3
@@ -124,8 +124,9 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/screenshots/healthtap-2026-08-07T170028.png
 security:
 - kind: domain-security
   name: Healthtap Domain Security

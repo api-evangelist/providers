@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 81
 apis:
 - description: The Address API from Precisely APIs — 2 operation(s) for address.
@@ -384,7 +384,7 @@ plans:
 - name: Precisely Apis Plans Pricing
   plan_count: 3
   slug: precisely-apis-plans-pricing
-random_paper: 94
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Precisely Apis Rate Limits
@@ -408,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/screenshots/precisely-apis-2026-06-20T192041.png
 security:

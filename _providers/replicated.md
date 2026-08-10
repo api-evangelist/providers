@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -333,30 +333,30 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 36
+random_paper: 9
 score:
   band: strong
-  composite: 63.4
+  composite: 64.4
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.5
+    contract_quality: 70.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 63.4
+  previous_composite: 64.4
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 22
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

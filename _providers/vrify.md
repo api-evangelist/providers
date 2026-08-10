@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -193,10 +193,11 @@ overview: 'VRIFY is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   VRIFY''s developer surface includes documentation, getting-started guide, support, pricing, changelog, authentication, legal docs, and 29 more developer resources.'
-random_paper: 108
+random_paper: 96
 score:
   band: thin
   composite: 30.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -204,8 +205,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
+  previous_composite: 30.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Vrify Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,31 +79,39 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/omada-health-llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.omadahealth.com/resource-center-latest
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/omadahealth
 created: '2026-07-17'
 description: Omada Health is a virtual-first healthcare company founded in 2011 and headquartered in San Francisco that delivers integrated, evidence-based care programs for chronic disease management. Omada combines one-on-one health coaching, connected smart devices (cellular scales, blood pressure monitors, glucose meters), interactive lessons, and peer communities to support people managing prediabetes, type 2 diabetes, hypertension, high cholesterol, and musculoskeletal (MSK) conditions, along with GLP-1 medication support and weight health. The company sells to employers, health plans, benefit consultants, and health systems rather than to individual consumers directly, and operates as a HIPAA covered entity and business associate. Omada Health is publicly traded and is a portfolio company of Andreessen Horowitz (a16z). It has no publicly documented developer API surface; this profile captures the company's public identity, security/compliance posture, and operational transparency
   pages.
 image: https://www.omadahealth.com/hs-fs/hubfs/omada_logo_horizontal.png?name=omada_logo_horizontal.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Omada Health
 nav: Providers
 network: true
 overview: 'Omada Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Virtual Care, Chronic Disease Management, and Diabetes.
 
 
-  Omada Health''s developer surface includes support and 11 more developer resources.'
-random_paper: 59
+  Omada Health''s developer surface includes support, engineering blog, and 12 more developer resources.'
+random_paper: 29
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 20.3
+  delta: 0.9
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 6.5
     discoverability: 57.4
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 21.1
   previous_composite: 19.4
   provenance:
     conformance: first-party
@@ -114,8 +122,9 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/omada-health/refs/heads/main/screenshots/omada-health-2026-08-07T190132.png
 security:
 - kind: domain-security
   name: Omada Health Domain Security

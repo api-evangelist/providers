@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'DeepIP is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   DeepIP''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 66
+random_paper: 51
 score:
   band: emerging
   composite: 17.2
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepip/refs/heads/main/screenshots/deepip-2026-07-25T211555.png
 security:

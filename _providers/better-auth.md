@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints that the developer mounts under their own do
@@ -101,7 +101,7 @@ plans:
 - name: Better Auth Plans Pricing
   plan_count: 1
   slug: better-auth-plans-pricing
-random_paper: 108
+random_paper: 81
 rate_limits:
 - limit_count: 2
   name: Better Auth Rate Limits
@@ -119,7 +119,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

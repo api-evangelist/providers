@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 20
 apis:
 - description: The Allowances API from Angle — 1 operation(s) for allowances.
@@ -160,7 +160,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/angle-api-openapi.json
+  url: openapi/_original/angle-api-openapi.json
 - group: agent
   title: ''
   type: AgentSkill
@@ -189,7 +189,7 @@ overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Angle''s developer surface includes authentication, documentation, and 19 more developer resources.'
-random_paper: 67
+random_paper: 55
 score:
   band: thin
   composite: 34.3
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

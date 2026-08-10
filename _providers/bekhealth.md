@@ -1,6 +1,115 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bekhealth-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bekhealth.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bekhealth.com/clinical-research-blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bekhealth.com/contact/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.bekhealth.com/contact/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bekhealth.com/pricing-roi/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bekhealth.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bekhealth.com/privacy-policy/
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.bekhealth.com/
+- group: other
+  title: ''
+  type: KnowledgeBase
+  url: https://www.bekhealth.com/ehr-library/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.bekhealth.com/news/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.bekhealth.com/frequently-asked-questions/
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://aws.amazon.com/marketplace/pp/prodview-kmhelvjo5koma
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/14836396/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/bekhealth_stock/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bekhealth-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bekhealth-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bekhealth-authentication.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: authentication/bekhealth-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/bekhealth-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bekhealth-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/bekhealth-conformance.yml
 coverage:
   checked: '2026-08-06'
   detail: BEKhealth runs a real documentation portal at docs.bekhealth.com, but every path on it — the root, /openapi.json, /llms.txt, even /.well-known/agent-card.json — returns a 302 into the company's Auth0 tenant at auth.bekhealth.com, so the contract is readable only by an existing customer with a signed BAA/DUA; nothing on the public marketing site names an API at all.
@@ -28,7 +137,49 @@ modified: '2026-08-06'
 name: BEKHealth
 nav: Providers
 network: true
-random_paper: 32
+overview: 'BEKHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical Trials, Clinical Research, and Electronic Health Records.
+
+
+  BEKHealth''s developer surface includes engineering blog, support, pricing, FAQ, authentication, and 17 more developer resources.'
+random_paper: 8
+scopes:
+- name: Bekhealth Scopes
+  scope_count: 0
+  slug: bekhealth-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 28.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 0.0
+  previous_composite: 28.9
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 66.3
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bekhealth/refs/heads/main/screenshots/bekhealth-2026-08-07T162257.png
+security:
+- kind: authentication
+  name: Bekhealth Authentication
+  slug: bekhealth-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Bekhealth Domain Security
+  slug: bekhealth-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bekhealth
 tags:
 - Company
@@ -41,4 +192,5 @@ tags:
 - Patient Recruitment
 - Life Sciences
 - Health Data
+website: https://www.bekhealth.com/
 ---

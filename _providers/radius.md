@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Radius Plans Pricing
   plan_count: 3
   slug: radius-plans-pricing
-random_paper: 83
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Radius Rate Limits
@@ -202,25 +202,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 34.4
+  composite: 35.4
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 43.2
+    contract_quality: 47.1
     developer_ergonomics: 30.4
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.4
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 27
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png
 security:

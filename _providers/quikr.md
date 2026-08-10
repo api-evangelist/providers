@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The App API from Quikr — 1 operation(s) for app.
@@ -86,7 +86,7 @@ overview: 'Quikr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
 
 
   Quikr''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 104
+random_paper: 92
 score:
   band: thin
   composite: 28.8
@@ -106,7 +106,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

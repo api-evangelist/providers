@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 27
 apis:
 - description: Frictionless mobile-number verification that confirms ownership of the MSISDN currently in use on the device, using the operator network rather than SMS one-time-passcodes. Implements the CAMARA Numbe
@@ -210,7 +210,7 @@ overview: 'Vodafone publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vodafone''s developer surface includes getting-started guide, sandbox, GitHub presence, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 59
+random_paper: 38
 score:
   band: minimal
   composite: 12.9
@@ -230,7 +230,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vodafone/refs/heads/main/screenshots/vodafone-2026-06-20T201126.png
 security:

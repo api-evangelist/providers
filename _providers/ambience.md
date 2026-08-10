@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Gated integration API for embedding Ambience''s ambient AI clinical documentation into EHR and partner workflows — medical encounter transcription, clinical note generation, integrated CDI with ICD-10 '
@@ -83,19 +83,47 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/ambience-llms.txt
+- group: build
+  title: ''
+  type: Clinicians
+  url: https://www.ambiencehealthcare.com/clinicians
+- group: other
+  title: ''
+  type: Business
+  url: https://www.ambiencehealthcare.com/business
+- group: other
+  title: ''
+  type: Informatics
+  url: https://www.ambiencehealthcare.com/informatics
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.ambiencehealthcare.com/demo
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.ambiencehealthcare.com/careers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ambience-healthcare
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/AmbienceHQ
 created: '2026-07-17'
 description: Ambience Healthcare builds an AI operating system for healthcare that reduces clinician administrative burden and protects revenue integrity at the point of care. Its ambient AI platform performs real-time medical encounter transcription, clinical note generation, integrated clinical documentation improvement (CDI) with ICD-10 coding suggestions, and EHR patient-context enrichment across more than 100 specialties in outpatient, emergency, and inpatient settings. The platform integrates directly with major EHRs including Epic, Oracle Cerner, and athenahealth. Founded in 2020 and headquartered in San Francisco, Ambience is backed by roughly $370M in funding, including a $243M Series C co-led by Andreessen Horowitz (a16z) and Oak HC/FT. Ambience exposes a gated Integration API (documentation and access granted on request via emr-integration@ambiencehealthcare.com) rather than a public self-serve developer program.
 image: https://framerusercontent.com/images/l2jbzG0Wzk7GJYt31m2QzU82JzQ.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: Ambience
 nav: Providers
 network: true
 overview: 'Ambience publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Clinical Documentation, and Ambient AI.
 
 
-  Ambience''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 29
+  Ambience''s developer surface includes documentation, engineering blog, support, and 16 more developer resources.'
+random_paper: 8
 score:
   band: emerging
   composite: 19.6
@@ -115,7 +143,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience/refs/heads/main/screenshots/ambience-2026-07-25T200021.png
 security:

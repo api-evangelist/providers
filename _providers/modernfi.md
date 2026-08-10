@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 61
+random_paper: 40
 score:
   band: developing
   composite: 44.2
@@ -207,8 +207,9 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:
 - kind: authentication
   name: Modernfi Authentication

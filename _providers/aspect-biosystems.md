@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Aspect Biosystems is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Aspect Biosystems'' developer surface includes product news, YouTube channel, and 11 more developer resources.'
-random_paper: 96
+random_paper: 51
 score:
   band: minimal
   composite: 10.1
@@ -107,8 +107,9 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aspect-biosystems/refs/heads/main/screenshots/aspect-biosystems-2026-08-07T161801.png
 security:
 - kind: domain-security
   name: Aspect Biosystems Domain Security

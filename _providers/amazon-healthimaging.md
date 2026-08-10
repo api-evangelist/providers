@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1119,7 +1119,7 @@ plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 19
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits
@@ -1143,11 +1143,11 @@ rules:
   slug: amazon-healthimaging-spectral-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 63.1
+  delta: -0.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.7
+    contract_quality: 73.6
     developer_ergonomics: 58.7
     discoverability: 74.1
     governance: 68.8
@@ -1167,7 +1167,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:

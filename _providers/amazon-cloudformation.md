@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -339,7 +339,7 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
 
 
   Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
-random_paper: 54
+random_paper: 113
 rules:
 - name: Amazon CloudFormation API Rules
   rule_count: 6
@@ -360,7 +360,7 @@ rules:
 score:
   band: strong
   composite: 61.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 81.4
@@ -368,7 +368,7 @@ score:
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 59.3
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,7 +379,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:

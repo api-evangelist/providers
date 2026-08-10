@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -275,7 +275,7 @@ plans:
 - name: Whoop Co Plans Pricing
   plan_count: 3
   slug: whoop-co-plans-pricing
-random_paper: 21
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Whoop Co Rate Limits
@@ -328,7 +328,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/screenshots/whoop-co-2026-06-20T201452.png
 security:

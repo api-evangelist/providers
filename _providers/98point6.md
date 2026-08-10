@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,10 +104,11 @@ overview: '98point6 Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   98point6 Technologies'' developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 43
+random_paper: 25
 score:
   band: emerging
   composite: 19.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -115,6 +116,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 19.4
   provenance:
     conformance: first-party
   regulatory:
@@ -124,7 +126,9 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/98point6/refs/heads/main/screenshots/98point6-2026-08-07T160721.png
 security:
 - kind: domain-security
   name: 98Point6 Domain Security

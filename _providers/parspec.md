@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Parspec is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parspec''s developer surface includes signup flow, documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: emerging
   composite: 18.0
@@ -105,8 +105,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parspec/refs/heads/main/screenshots/parspec-2026-08-07T191503.png
 security:
 - kind: domain-security
   name: Parspec Domain Security

@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -17,20 +17,86 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-06'
-api_count: 3
+  score: 49.1
+  scored_at: '2026-08-10'
+api_count: 25
 apis:
-- description: 'The current Cordial REST API. 106 operations across 24 resource groups: contacts, contact activities, orders, products, supplements, account lists, contact attributes, batch messages, automation templ'
-  name: Cordial API v2
-  slug: cordial-api-v2
-- description: The legacy Cordial REST API, still published and documented alongside v2. 83 operations across 50 paths covering the same contact, event, order, product, supplement, list, message and job surface at a
-  name: Cordial API v1
-  slug: cordial-api-v1
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
   name: Cordial MCP Server
   slug: cordial-mcp
-artifact_total: 11
+- description: The account attributes API from Cordial — 4 operation(s) for account attributes.
+  name: Cordial account attributes API
+  slug: cordial-account-attributes-api
+- description: The account lists API from Cordial — 7 operation(s) for account lists.
+  name: Cordial account lists API
+  slug: cordial-account-lists-api
+- description: The account monitor export API from Cordial — 1 operation(s) for account monitor export.
+  name: Cordial account monitor export API
+  slug: cordial-account-monitor-export-api
+- description: The alerts API from Cordial — 2 operation(s) for alerts.
+  name: Cordial Alerts API
+  slug: cordial-alerts-api
+- description: The analytics audiences API from Cordial — 2 operation(s) for analytics audiences.
+  name: Cordial analytics audiences API
+  slug: cordial-analytics-audiences-api
+- description: The analytics messages API from Cordial — 2 operation(s) for analytics messages.
+  name: Cordial analytics messages API
+  slug: cordial-analytics-messages-api
+- description: The audiencecount API from Cordial — 1 operation(s) for audiencecount.
+  name: Cordial Audiencecount API
+  slug: cordial-audiencecount-api
+- description: The automation templates API from Cordial — 15 operation(s) for automation templates.
+  name: Cordial automation templates API
+  slug: cordial-automation-templates-api
+- description: The batch messages API from Cordial — 18 operation(s) for batch messages.
+  name: Cordial batch messages API
+  slug: cordial-batch-messages-api
+- description: The contact activities API from Cordial — 2 operation(s) for contact activities.
+  name: Cordial contact activities API
+  slug: cordial-contact-activities-api
+- description: The contact activity exports API from Cordial — 2 operation(s) for contact activity exports.
+  name: Cordial contact activity exports API
+  slug: cordial-contact-activity-exports-api
+- description: The contact exports API from Cordial — 2 operation(s) for contact exports.
+  name: Cordial contact exports API
+  slug: cordial-contact-exports-api
+- description: The contact imports API from Cordial — 2 operation(s) for contact imports.
+  name: Cordial contact imports API
+  slug: cordial-contact-imports-api
+- description: The contacts API from Cordial — 17 operation(s) for contacts.
+  name: Cordial Contacts API
+  slug: cordial-contacts-api
+- description: The data jobs API from Cordial — 5 operation(s) for data jobs.
+  name: Cordial data jobs API
+  slug: cordial-data-jobs-api
+- description: The jobs API from Cordial — 4 operation(s) for jobs.
+  name: Cordial Jobs API
+  slug: cordial-jobs-api
+- description: The message content includes API from Cordial — 4 operation(s) for message content includes.
+  name: Cordial message content includes API
+  slug: cordial-message-content-includes-api
+- description: The orchestrations API from Cordial — 4 operation(s) for orchestrations.
+  name: Cordial Orchestrations API
+  slug: cordial-orchestrations-api
+- description: The orders API from Cordial — 4 operation(s) for orders.
+  name: Cordial Orders API
+  slug: cordial-orders-api
+- description: The ordersimport API from Cordial — 2 operation(s) for ordersimport.
+  name: Cordial Ordersimport API
+  slug: cordial-ordersimport-api
+- description: The productimports API from Cordial — 2 operation(s) for productimports.
+  name: Cordial Productimports API
+  slug: cordial-productimports-api
+- description: The products API from Cordial — 4 operation(s) for products.
+  name: Cordial Products API
+  slug: cordial-products-api
+- description: The programs API from Cordial — 2 operation(s) for programs.
+  name: Cordial Programs API
+  slug: cordial-programs-api
+- description: The supplements API from Cordial — 12 operation(s) for supplements.
+  name: Cordial Supplements API
+  slug: cordial-supplements-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Cordial Webhooks
@@ -197,14 +263,14 @@ modified: '2026-08-04'
 name: Cordial
 nav: Providers
 network: true
-overview: 'Cordial publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v2 and API v1. Tagged areas include Company, Marketing, Marketing Automation, Messaging, and Email.
+overview: 'Cordial publishes 24 APIs on the [APIs.io](https://apis.io/) network, including account attributes API, account lists API, account monitor export API, and 21 more. Tagged areas include Company, Marketing, Marketing Automation, Messaging, and Email.
 
 
   The Cordial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits
@@ -216,20 +282,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 60.8
+  delta: 0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.2
+    contract_quality: 60.8
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 59.9
+  previous_composite: 60.7
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -242,8 +308,9 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:
 - kind: authentication
   name: Cordial Authentication

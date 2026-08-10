@@ -4,7 +4,7 @@ agent_readiness:
   dimensions:
     agent_card: flavored
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-06'
+  score: 44.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -26,18 +26,24 @@ agentic_access:
   operation_count: 9
   slug: antimetal-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 3
+api_count: 5
 apis:
-- description: Public-facing REST API for external integrations with Antimetal. Provides programmatic access to issue creation and lifecycle management, asynchronous investigation results including root-cause and re
-  name: Antimetal External API
-  slug: antimetal-external-api
 - description: Remote Model Context Protocol server exposing Antimetal's investigation, root-cause analysis and remediation capabilities to MCP-compatible clients such as Claude Code, Cursor, VS Code, Windsurf and C
   name: Antimetal MCP Server
   slug: antimetal-mcp-server
 - description: Public protobuf/Connect definitions for the Antimetal system agent — the component that connects customer infrastructure to the Antimetal platform. Covers agent config and instance, hardware and Linux
   name: Antimetal Agent APIs (Protobuf)
   slug: antimetal-agent-apis
-artifact_total: 10
+- description: The Artifacts API from Antimetal — 1 operation(s) for artifacts.
+  name: Antimetal Artifacts API
+  slug: antimetal-artifacts-api
+- description: The Issues API from Antimetal — 4 operation(s) for issues.
+  name: Antimetal Issues API
+  slug: antimetal-issues-api
+- description: The Query API from Antimetal — 1 operation(s) for query.
+  name: Antimetal Query API
+  slug: antimetal-query-api
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -192,11 +198,11 @@ modified: '2026-08-06'
 name: Antimetal
 nav: Providers
 network: true
-overview: 'Antimetal publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Observability, Incident Management, Site Reliability Engineering, and Artificial Intelligence.
+overview: 'Antimetal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Artifacts API, Issues API, and Query API. Tagged areas include Company, Observability, Incident Management, Site Reliability Engineering, and Artificial Intelligence.
 
 
   Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 28 more developer resources.'
-random_paper: 55
+random_paper: 31
 scopes:
 - name: Antimetal Scopes
   scope_count: 4
@@ -204,16 +210,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: developing
-  composite: 55.1
+  composite: 54.5
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.6
+    contract_quality: 54.3
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
+  previous_composite: 55.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
 security:
 - kind: authentication
   name: Antimetal Authentication

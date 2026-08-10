@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -340,7 +340,7 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 97
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
@@ -374,8 +374,9 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:
 - kind: authentication
   name: Ocrolus Authentication

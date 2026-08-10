@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Create, retrieve, revise, and delete metric alarms.
@@ -146,7 +146,7 @@ overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Pepperdata''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 45
+random_paper: 18
 score:
   band: developing
   composite: 44.1
@@ -169,7 +169,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

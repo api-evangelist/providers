@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: 'Proprietary API-driven banking core that underpins all Cross River partner programs. Provides a real-time subledger, KYC / KYB, compliance workflows, accounts, payments, cards, and lending primitives '
@@ -113,7 +113,7 @@ plans:
 - name: Cross River Bank Plans Pricing
   plan_count: 1
   slug: cross-river-bank-plans-pricing
-random_paper: 26
+random_paper: 100
 rate_limits:
 - limit_count: 2
   name: Cross River Bank Rate Limits
@@ -137,7 +137,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river-bank/refs/heads/main/screenshots/cross-river-bank-2026-06-20T175244.png
 security:

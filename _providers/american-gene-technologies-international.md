@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-06'
+  score: 37.4
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,12 +26,66 @@ agentic_access:
   operation_count: 68
   slug: american-gene-technologies-international-agentic-access
   summary_line: 68 operations
-api_count: 1
+api_count: 19
 apis:
-- description: The anonymously readable WordPress REST API served from https://www.americangene.com/wp-json. It exposes American Gene Technologies' corporate content as structured JSON across 23 registered namespace
-  name: American Gene Technologies Content API
-  slug: content-api
-artifact_total: 4
+- description: The AGT Jobs API from American Gene Technologies — 2 operation(s) for agt jobs.
+  name: American Gene Technologies AGT Jobs API
+  slug: american-gene-technologies-international-agt-jobs-api
+- description: The AGT Newsletters API from American Gene Technologies — 2 operation(s) for agt newsletters.
+  name: American Gene Technologies AGT Newsletters API
+  slug: american-gene-technologies-international-agt-newsletters-api
+- description: The Blogs API from American Gene Technologies — 2 operation(s) for blogs.
+  name: American Gene Technologies Blogs API
+  slug: american-gene-technologies-international-blogs-api
+- description: The Discovery API from American Gene Technologies — 6 operation(s) for discovery.
+  name: American Gene Technologies Discovery API
+  slug: american-gene-technologies-international-discovery-api
+- description: The Gene Therapies API from American Gene Technologies — 2 operation(s) for gene therapies.
+  name: American Gene Technologies Gene Therapies API
+  slug: american-gene-technologies-international-gene-therapies-api
+- description: The In The News API from American Gene Technologies — 2 operation(s) for in the news.
+  name: American Gene Technologies In The News API
+  slug: american-gene-technologies-international-in-the-news-api
+- description: The Media API from American Gene Technologies — 2 operation(s) for media.
+  name: American Gene Technologies Media API
+  slug: american-gene-technologies-international-media-api
+- description: The Milestones API from American Gene Technologies — 2 operation(s) for milestones.
+  name: American Gene Technologies Milestones API
+  slug: american-gene-technologies-international-milestones-api
+- description: The News Releases API from American Gene Technologies — 2 operation(s) for news releases.
+  name: American Gene Technologies News Releases API
+  slug: american-gene-technologies-international-news-releases-api
+- description: The oEmbed API from American Gene Technologies — 1 operation(s) for oembed.
+  name: American Gene Technologies O Embed API
+  slug: american-gene-technologies-international-oembed-api
+- description: The Pages API from American Gene Technologies — 2 operation(s) for pages.
+  name: American Gene Technologies Pages API
+  slug: american-gene-technologies-international-pages-api
+- description: The Patents API from American Gene Technologies — 2 operation(s) for patents.
+  name: American Gene Technologies Patents API
+  slug: american-gene-technologies-international-patents-api
+- description: The Posts API from American Gene Technologies — 2 operation(s) for posts.
+  name: American Gene Technologies Posts API
+  slug: american-gene-technologies-international-posts-api
+- description: The Scientific And Clinical Advisors API from American Gene Technologies — 2 operation(s) for scientific and clinical advisors.
+  name: American Gene Technologies Scientific And Clinical Advisors API
+  slug: american-gene-technologies-international-scientific-and-clinical-advisors-api
+- description: The Search API from American Gene Technologies — 1 operation(s) for search.
+  name: American Gene Technologies Search API
+  slug: american-gene-technologies-international-search-api
+- description: The Taxonomies API from American Gene Technologies — 30 operation(s) for taxonomies.
+  name: American Gene Technologies Taxonomies API
+  slug: american-gene-technologies-international-taxonomies-api
+- description: The Video Series Videos API from American Gene Technologies — 2 operation(s) for video series videos.
+  name: American Gene Technologies Video Series Videos API
+  slug: american-gene-technologies-international-video-series-videos-api
+- description: The Videos API from American Gene Technologies — 2 operation(s) for videos.
+  name: American Gene Technologies Videos API
+  slug: american-gene-technologies-international-videos-api
+- description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
+  name: American Gene Technologies Young Minds API
+  slug: american-gene-technologies-international-young-minds-api
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -190,21 +244,33 @@ modified: '2026-08-06'
 name: American Gene Technologies
 nav: Providers
 network: true
-overview: 'American Gene Technologies publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Life Sciences, Gene Therapy, and Cell Therapy.
+overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https://apis.io/) network, including AGT Jobs API, AGT Newsletters API, Blogs API, and 16 more. Tagged areas include Company, Biotechnology, Life Sciences, Gene Therapy, and Cell Therapy.
 
 
   American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 30 more developer resources.'
-random_paper: 111
+random_paper: 6
 score:
-  band: thin
-  composite: 31.8
+  band: emerging
+  composite: 21.1
+  delta: 0.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 58.9
-    developer_ergonomics: 23.9
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 14.7
+    developer_ergonomics: 19.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 20.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -212,7 +278,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:
 - kind: authentication
   name: American Gene Technologies International Authentication

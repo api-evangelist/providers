@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -1066,7 +1066,7 @@ plans:
 - name: Wikipedia Plans Pricing
   plan_count: 3
   slug: wikipedia-plans-pricing
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits
@@ -1114,7 +1114,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:

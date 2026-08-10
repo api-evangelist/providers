@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Domain Group''s developer surface includes authentication, documentation, API reference, signup flow, getting-started guide, sandbox, support, and 44 more developer resources.'
-random_paper: 104
+random_paper: 74
 scopes:
 - name: Domain Group Scopes
   scope_count: 25
@@ -330,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png
 security:

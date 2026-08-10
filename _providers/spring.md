@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,11 +81,14 @@ apis:
 - description: Thread dump and virtual thread information
   name: Spring Framework Threads API
   slug: spring-threads-api
-artifact_total: 31
+artifact_total: 38
 collections:
 - collection_type: open
   name: Spring Boot Actuator API
   slug: open-spring-boot-actuator
+- collection_type: open
+  name: Spring Cloud Gateway Actuator API
+  slug: open-spring-gateway-actuator
 - collection_type: open
   name: Spring Initializr API
   slug: open-spring-initializr-api
@@ -142,12 +145,30 @@ common:
   title: ''
   type: ReleaseNotes
   url: https://github.com/spring-projects/spring-framework/releases
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/spring-cloud
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/spring-cloud
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/spring-vocabulary.yml
 created: '2026-05-02'
 description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring Boot enables rapid application development with embedded servers and auto-configuration. Spring is maintained by VMware and hosted under the Spring Projects GitHub organization.
 examples:
 - key_count: 4
   name: Spring Actuator Health Example
   slug: spring-actuator-health-example
+- key_count: 6
+  name: Spring Circuit Breaker Example
+  slug: spring-circuit-breaker-example
+- key_count: 6
+  name: Spring Eureka Registration Example
+  slug: spring-eureka-registration-example
 - key_count: 4
   name: Spring Initializr Generate Example
   slug: spring-initializr-generate-example
@@ -163,37 +184,54 @@ json_schemas:
 - name: Spring Boot Application
   property_count: 12
   slug: spring-boot-application
+- name: Spring Cloud Configuration Properties
+  property_count: 2
+  slug: spring-config-properties
+- name: Spring Cloud Service Instance
+  property_count: 8
+  slug: spring-service-instance
 json_structures:
 - name: Spring Boot Application Structure
   property_count: 0
   slug: spring-boot-application-structure
+- name: Spring Service Registry Structure
+  property_count: 0
+  slug: spring-service-registry-structure
 jsonld:
 - class_count: 23
   name: Spring Context
   property_count: 6
   slug: spring-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Spring Framework
 nav: Providers
 network: true
 overview: 'Spring Framework publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 7 more. Tagged areas include AI, Cloud Native, Enterprise, Framework, and Java.
 
 
-  The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Spring Framework''s developer surface includes authentication, GitHub presence, documentation, engineering blog, release notes, and 8 more developer resources.'
+  Spring Framework''s developer surface includes authentication, GitHub presence, documentation, engineering blog, release notes, Stack Overflow tag, and 10 more developer resources.'
 plans:
 - name: Spring Plans Pricing
   plan_count: 2
   slug: spring-plans-pricing
-random_paper: 94
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Spring Rate Limits
   slug: spring-rate-limits
 rules:
+- name: Spring Framework API Rules
+  rule_count: 7
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 4
+  slug: spring-gateway-rules
 - name: Spring Framework API Rules
   rule_count: 5
   severity_counts:
@@ -212,14 +250,14 @@ rules:
   slug: spring-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 44.2
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.5
     developer_ergonomics: 26.1
     discoverability: 63.0
-    governance: 58.3
+    governance: 31.3
     operational_transparency: 42.1
   previous_composite: 47.4
   provenance:
@@ -230,9 +268,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194402.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:
 - kind: authentication
   name: Spring Authentication

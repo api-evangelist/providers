@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Moneyfellows is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Moneyfellows'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 73
+random_paper: 40
 score:
   band: emerging
   composite: 13.1
@@ -89,8 +89,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moneyfellows/refs/heads/main/screenshots/moneyfellows-2026-08-07T184154.png
 security:
 - kind: domain-security
   name: Moneyfellows Domain Security

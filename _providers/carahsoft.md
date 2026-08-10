@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Partner-only integration surface advertised through the Carahsoft Developer Center covering accounts, quotes, orders, invoices, price lists, purchase orders, and resource distribution. Access requires
@@ -79,7 +79,7 @@ overview: 'Carahsoft publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Carahsoft''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: minimal
   composite: 10.2
@@ -99,7 +99,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carahsoft/refs/heads/main/screenshots/carahsoft-2026-06-20T173947.png
 security:

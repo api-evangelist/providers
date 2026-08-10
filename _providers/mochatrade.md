@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Mochatrade
 nav: Providers
 network: true
 overview: Mochatrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Brokerage, Fintech, and Cryptocurrency.
-random_paper: 31
+random_paper: 4
 score:
   band: minimal
   composite: 4.3
@@ -68,8 +68,9 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mochatrade/refs/heads/main/screenshots/mochatrade-2026-08-07T183906.png
 slug: mochatrade
 tags:
 - Company

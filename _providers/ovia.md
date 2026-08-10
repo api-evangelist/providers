@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: OVIA
 nav: Providers
 network: true
 overview: OVIA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Assessment, Video Interviewing, and Human Resources.
-random_paper: 92
+random_paper: 83
 score:
   band: minimal
   composite: 10.3
@@ -86,8 +86,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ovia/refs/heads/main/screenshots/ovia-2026-08-07T191144.png
 security:
 - kind: domain-security
   name: Ovia Domain Security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -123,7 +123,7 @@ overview: 'RSA Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   RSA Insurance''s developer surface includes documentation, developer portal, support, engineering blog, authentication, YouTube channel, and 16 more developer resources.'
-random_paper: 96
+random_paper: 63
 score:
   band: emerging
   composite: 24.8
@@ -145,7 +145,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

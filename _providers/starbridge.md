@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -58,7 +58,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/starbridge-openapi.json
+  url: openapi/_original/starbridge-openapi.json
 - group: agent
   title: ''
   type: MCPServer
@@ -182,7 +182,7 @@ overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 46
+random_paper: 19
 score:
   band: developing
   composite: 51.9
@@ -211,7 +211,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ press:
 - date: '2026-05-25'
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 83
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits
@@ -435,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:

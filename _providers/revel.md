@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for the Revel Systems iPad POS platform, covering orders, payments, products, inventory, customers, employees, scheduling, cash management, discounts, tax, tables, purchase orders, house acco
@@ -112,7 +112,7 @@ plans:
 - name: Revel Plans Pricing
   plan_count: 2
   slug: revel-plans-pricing
-random_paper: 90
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Revel Rate Limits
@@ -136,7 +136,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel/refs/heads/main/screenshots/revel-2026-06-20T193052.png
 security:

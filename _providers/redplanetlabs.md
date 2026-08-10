@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: In-cluster HTTP+JSON RPC surface exposed by Rama Supervisors (default port 2000) for appending to depots, querying PStates by navigation path, and invoking query topologies. POST-only; no application-
@@ -124,6 +124,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/redplanetlabs-domain-security.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://redplanetlabs.com/download
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/redplanetlabs
 created: '2026-07-17'
 description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while providing ACID semantics, reactive queries, fine-grained change detection, and linear scalability. Rama exposes a REST API (an in-cluster HTTP+JSON RPC surface for depot appends, PState queries, and query-topology invokes), ships a `rama` operations CLI, publishes Maven client libraries under the com.rpl groupId, open-sources the Specter data-navigation library, and provides first-party Agent Skills for authoring Rama backends. Surfaced as a portfolio company of Kindred Ventures and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redplanetlabs.png
@@ -132,21 +140,21 @@ mcp_servers:
 - description: ''
   name: redplanetlabs-mcp.yml
   slug: redplanetlabs-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Redplanetlabs
 nav: Providers
 network: true
 overview: 'Redplanetlabs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend Platform, Database, Distributed Systems, and JVM.
 
 
-  Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 15 more developer resources.'
-random_paper: 21
+  Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 17 more developer resources.'
+random_paper: 101
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 27.8
+  delta: 2.6
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 60.9
     discoverability: 77.8
@@ -158,7 +166,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

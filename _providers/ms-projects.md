@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: REST API for accessing and managing Project Online data, including projects, tasks, resources, and assignments.
@@ -94,7 +94,7 @@ plans:
 - name: Ms Projects Plans Pricing
   plan_count: 3
   slug: ms-projects-plans-pricing
-random_paper: 13
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Ms Projects Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 27.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-projects/refs/heads/main/screenshots/ms-projects-2026-06-20T185849.png
 security:

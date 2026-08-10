@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,7 +127,7 @@ overview: 'SA Power Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   SA Power Networks'' developer surface includes engineering blog, developer portal, documentation, support, authentication, and 18 more developer resources.'
-random_paper: 57
+random_paper: 12
 scopes:
 - name: Sa Power Networks Scopes
   scope_count: 36
@@ -154,7 +154,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

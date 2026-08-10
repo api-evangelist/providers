@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: 'Classic v1 REST API — fully supported, not deprecated. SMS sending with single-request multi-recipient batches and custom tracked-link domains, plus everything v2 does not carry: contacts, lists and c'
   name: Transmit SMS API
   slug: transmit-sms-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Kudosity Webhooks
@@ -149,7 +149,7 @@ common:
   url: mcp/kudosity-mcp.yml
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://developers.kudosity.com/mcp
 - group: build
   title: ''
@@ -259,6 +259,9 @@ mcp_servers:
 - description: ''
   name: kudosity-mcp.yml
   slug: kudosity-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-27'
 name: Kudosity
 nav: Providers
@@ -274,7 +277,7 @@ plans:
 - name: Kudosity Plans
   plan_count: 4
   slug: kudosity-plans
-random_paper: 101
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Kudosity Rate Limits
@@ -303,7 +306,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:

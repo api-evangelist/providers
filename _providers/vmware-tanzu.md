@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 12
   slug: vmware-tanzu-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 4
+api_count: 5
 apis:
 - description: Exchange CSP API tokens for Bearer access tokens
   name: VMware Tanzu Authentication API
@@ -51,7 +51,10 @@ apis:
 - description: Manage resource groups for policy enforcement and monitoring
   name: VMware Tanzu Resource Groups API
   slug: vmware-tanzu-resource-groups-api
-artifact_total: 19
+- description: Create and manage TanzuKubernetesCluster resources
+  name: VMware Tanzu Tanzu Kubernetes Clusters API
+  slug: vmware-tanzu-tanzu-kubernetes-clusters-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: VMware Tanzu Service Mesh API
@@ -155,7 +158,7 @@ modified: '2026-05-19'
 name: VMware Tanzu
 nav: Providers
 network: true
-overview: 'VMware Tanzu publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Clusters API, Global Namespaces API, and 1 more. Tagged areas include Cloud Native, Containers, Enterprise, Kubernetes, and Multi-Cloud.
+overview: 'VMware Tanzu publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Clusters API, Global Namespaces API, and 2 more. Tagged areas include Cloud Native, Containers, Enterprise, Kubernetes, and Multi-Cloud.
 
 
   The VMware Tanzu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -166,7 +169,7 @@ plans:
 - name: Vmware Tanzu Plans Pricing
   plan_count: 3
   slug: vmware-tanzu-plans-pricing
-random_paper: 22
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Vmware Tanzu Rate Limits
@@ -190,11 +193,11 @@ rules:
   slug: vmware-tanzu-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 51.0
+  delta: -1.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.3
+    contract_quality: 68.5
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 58.3
@@ -208,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/screenshots/vmware-tanzu-2026-06-20T201119.png
 security:

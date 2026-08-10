@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -344,7 +344,7 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 27 more developer resources.'
-random_paper: 94
+random_paper: 85
 score:
   band: developing
   composite: 48.9
@@ -374,8 +374,9 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:
 - kind: authentication
   name: Nfon Authentication

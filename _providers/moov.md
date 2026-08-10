@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -87,7 +87,7 @@ apis:
 - description: Create and manage Moov digital wallets that hold funds within the platform. Supports wallet transactions and balance adjustments.
   name: Moov Wallets API
   slug: moov-wallets-api
-artifact_total: 109
+artifact_total: 110
 asyncapis:
 - description: Moov delivers real-time event notifications to your application via webhooks when state changes occur on your platform. When an event occurs, Moov sends an HTTP POST request with a JSON payload to you
   name: Moov Webhooks
@@ -96,6 +96,9 @@ collections:
 - collection_type: open
   name: Moov API
   slug: open-moov-api
+- collection_type: open
+  name: Moov API
+  slug: open-moov-io
 common:
 - group: agent
   title: ''
@@ -145,6 +148,18 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.moov.io/llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/moov-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/moov-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/moov-finops.yml
 created: '2026-03-21'
 description: Moov is a financial infrastructure platform that enables developers to embed money movement capabilities directly into their applications. Their developer platform provides a RESTful API, client-side JavaScript SDK, pre-built UI components, and official backend SDKs across multiple languages for building compliant, full-featured financial products.
 features:
@@ -372,7 +387,7 @@ jsonld:
   property_count: 16
   slug: moov-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Moov
 nav: Providers
 network: true
@@ -382,12 +397,12 @@ overview: 'Moov publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Moov catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Moov''s developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
+  Moov''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Moov Plans Pricing
   plan_count: 7
   slug: moov-plans-pricing
-random_paper: 110
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Moov Rate Limits
@@ -435,9 +450,9 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-06-20T185802.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:
 - kind: authentication
   name: Moov Authentication

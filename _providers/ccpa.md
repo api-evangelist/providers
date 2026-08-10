@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Global Privacy Control is a browser-level signal that communicates a user's opt-out preference to websites. The California Attorney General has affirmed that GPC must be treated as a valid CCPA "Do No
@@ -135,7 +135,7 @@ plans:
 - name: Ccpa Plans Pricing
   plan_count: 3
   slug: ccpa-plans-pricing
-random_paper: 68
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Ccpa Rate Limits
@@ -153,7 +153,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/screenshots/ccpa-2026-06-20T174058.png
 security:

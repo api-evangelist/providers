@@ -1,6 +1,47 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/atomic-semi-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://fab2.com/
+- group: company
+  title: ''
+  type: About
+  url: https://fab2.com/about/
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobs.ashbyhq.com/fab2
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.hiive.com/securities/atomic-semi-stock
 coverage:
   checked: '2026-08-06'
   detail: atomicsemi.com 301s to fab2.com, a three-page marketing site (root, /about/, /careers/) whose own sitemap.xml lists no developer surface at all; the company makes chip-fab hardware, its one software product (the Studio in-browser EDA) is used internally rather than sold, and its GitHub org holds only forks of upstream open-source EDA tools with no first-party code.
@@ -26,7 +67,29 @@ modified: '2026-08-06'
 name: Atomic Semi
 nav: Providers
 network: true
-random_paper: 95
+overview: Atomic Semi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Manufacturing, and Electronic Design Automation.
+random_paper: 68
+score:
+  band: minimal
+  composite: 4.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 46.3
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 4.6
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-semi/refs/heads/main/screenshots/atomic-semi-2026-08-07T161925.png
+security:
+- kind: domain-security
+  name: Atomic Semi Domain Security
+  slug: atomic-semi-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: atomic-semi
 tags:
 - Company
@@ -36,4 +99,5 @@ tags:
 - Electronic Design Automation
 - Chip Design
 - Deep Tech
+website: https://fab2.com/
 ---

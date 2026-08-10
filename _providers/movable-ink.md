@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: A write-only HTTP collector that ingests customer behavioral events in real time so Movable Ink Studio can use them for targeting and content generation. Callers POST Segment-shaped JSON events (type,
@@ -161,7 +161,7 @@ overview: 'Movable Ink publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Movable Ink''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, CLI, and 23 more developer resources.'
-random_paper: 92
+random_paper: 65
 scopes:
 - name: Movable Ink Scopes
   scope_count: 0
@@ -182,8 +182,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/movable-ink/refs/heads/main/screenshots/movable-ink-2026-08-07T184344.png
 security:
 - kind: authentication
   name: Movable Ink Authentication

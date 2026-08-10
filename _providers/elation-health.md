@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ overview: 'Elation Health publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 67
+random_paper: 31
 scopes:
 - name: Elation Health Scopes
   scope_count: 5
@@ -339,7 +339,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -26,12 +26,30 @@ agentic_access:
   operation_count: 18
   slug: activefence-agentic-access
   summary_line: 18 operations · 16 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 7
 apis:
-- description: Single REST API covering both Alice product families. ActiveFamily endpoints accept text, image, video and audio items — plus users, collections and user flags — and return per-violation risk scores b
-  name: Alice API (formerly ActiveFence)
-  slug: alice-api-formerly-activefence
-artifact_total: 5
+- description: Provides APIs to manage API key(s), including adding new keys, listing existing keys, and deleting keys.
+  name: ActiveFence api keys API
+  slug: activefence-api-keys-api
+- description: Collection API Represents grouped entities. A collection is comprised of multiple items grouped together in a playlist, album, folder, group or channel on your platform. For example, a playlist of vid
+  name: ActiveFence Collection API
+  slug: activefence-collection-api
+- description: Content APIs Represents WHAT content was created on your platform, such as a post, comment, review, message, article or data. For example, a web page containing a video, a customer review of a product
+  name: ActiveFence Content API
+  slug: activefence-content-api
+- description: The Flags API enables you to send details about the flag made on an item on your platform to the Alice T&S platform.
+  name: ActiveFence Flags API
+  slug: activefence-flags-api
+- description: Users API Represents WHO created content on your platform. These are the end users that have uploaded content to your platform, meaning the people who are the creators or publishers of the content. Fo
+  name: ActiveFence Users API
+  slug: activefence-users-api
+- description: WonderBuild provides red teaming and security assessment tools for AI applications. APIs for running comprehensive security assessments on gen-AI applications.
+  name: ActiveFence Wonder Build API
+  slug: activefence-wonderbuild-api
+- description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
+  name: ActiveFence Wonder Fence API
+  slug: activefence-wonderfence-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Activefence Webhooks
@@ -162,24 +180,26 @@ modified: '2026-08-06'
 name: ActiveFence
 nav: Providers
 network: true
-overview: 'ActiveFence publishes 1 API on the [APIs.io](https://apis.io/) network: Alice API (formerly ActiveFence). Tagged areas include ai-safety, ai-security, trust-and-safety, content-moderation, and guardrails.
+overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include ai-safety, ai-security, trust-and-safety, content-moderation, and guardrails.
 
 
   The ActiveFence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 22 more developer resources.'
-random_paper: 19
+random_paper: 105
 score:
   band: developing
-  composite: 54.6
+  composite: 54.4
+  delta: -0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 76.3
+    contract_quality: 73.0
     developer_ergonomics: 71.2
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -191,7 +211,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:
 - kind: authentication
   name: Activefence Authentication

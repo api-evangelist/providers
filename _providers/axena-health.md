@@ -1,6 +1,95 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/axena-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://axenahealth.com/
+- group: company
+  title: ''
+  type: ProductWebsite
+  url: https://www.levacares.com/
+- group: company
+  title: ''
+  type: About
+  url: https://axenahealth.com/about-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://axenahealth.com/latest-blogs/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://axenahealth.com/feed/
+- group: operate
+  title: ''
+  type: Support
+  url: https://axenahealth.com/contact-us/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://levacares.com/faqs/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://axenahealth.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://axenahealth.com/privacy-policy/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/axena-health/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/axena-health-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/axena-health-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/axena-health-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/axena-health-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/axena-health-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/axena-health-llms.txt
 coverage:
   checked: '2026-08-06'
   detail: Axena Health ships Leva only as an FDA-cleared prescription end-user product — there is no developer portal, no API reference, no SDK and no GitHub org; the only machine-readable surfaces on either host are the default WordPress REST API and a WordPress MCP Adapter on levacares.com that answers tools/list with 401 mcp_unauthorized.
@@ -19,11 +108,58 @@ created: '2026-08-06'
 description: 'Axena Health, Inc. is a Waltham, Massachusetts women''s health medical device company whose flagship product is the Leva Pelvic Health System, an FDA-cleared prescription digital therapeutic that pairs a vaginal motion sensor with a mobile app to deliver supervised pelvic floor muscle training for stress, mixed and mild-to-moderate urgency urinary incontinence and chronic fecal incontinence. Leva is prescribed by clinicians, dispensed to patients through telehealth and specialty channels, and is reimbursed through commercial health plans and federal channels including the Veterans Health Administration. Axena Health ships software only as a regulated end-user product: as of this profile it operates no developer portal, no public API reference, no SDKs and no partner integration program. The only machine-readable surfaces reachable without credentials are the default WordPress REST API on its two marketing sites and an OAuth-protected WordPress MCP Adapter endpoint on levacares.com.'
 image: https://axenahealth.com/wp-content/uploads/cropped-AxenaSquare-e1713986234486.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: axena-health-mcp.yml
+  slug: axena-health-mcpyml
 modified: '2026-08-06'
 name: Axena Health
 nav: Providers
 network: true
-random_paper: 70
+overview: 'Axena Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Medical Devices, and Women''s Health.
+
+
+  Axena Health''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
+random_paper: 40
+scopes:
+- name: Axena Health Scopes
+  scope_count: 0
+  slug: axena-health-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 23.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 0.0
+  previous_composite: 23.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/screenshots/axena-health-2026-08-07T162030.png
+security:
+- kind: authentication
+  name: Axena Health Authentication
+  slug: axena-health-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Axena Health Domain Security
+  slug: axena-health-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: axena-health
 tags:
 - Company
@@ -35,4 +171,5 @@ tags:
 - Pelvic Health
 - Medical Software
 - Telehealth
+website: https://axenahealth.com/
 ---

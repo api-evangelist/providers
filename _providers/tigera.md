@@ -7,7 +7,7 @@ agent_readiness:
     agentic_access: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
@@ -17,13 +17,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-06'
-api_count: 4
+  score: 57.4
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: 'The Calico aggregated Kubernetes API server. It serves the projectcalico.org/v3 API group — 27 resources covering network policy (NetworkPolicy, GlobalNetworkPolicy, tiers and their staged variants), '
-  name: Calico API (projectcalico.org/v3)
-  slug: calico-api
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
   name: Goldmane Flows API
   slug: goldmane-flows-api
@@ -33,7 +30,19 @@ apis:
 - description: A read-only REST API on the Calico Cloud SaaS management plane that returns the same vCPU usage and managed-cluster data shown on the Usage Metrics page, for capacity planning, FinOps and license-comp
   name: Calico Cloud Usage API
   slug: calico-cloud-usage-api
-artifact_total: 11
+- description: The apis API from Tigera — 1 operation(s) for apis.
+  name: Tigera APIS API
+  slug: tigera-apis-api
+- description: The projectcalicoOrg API from Tigera — 1 operation(s) for projectcalicoorg.
+  name: Tigera Projectcalico Org API
+  slug: tigera-projectcalicoorg-api
+- description: The projectcalicoOrg_v3 API from Tigera — 121 operation(s) for projectcalicoorg_v3.
+  name: Tigera Projectcalico Org V3 API
+  slug: tigera-projectcalicoorg-v3-api
+- description: The version API from Tigera — 1 operation(s) for version.
+  name: Tigera Version API
+  slug: tigera-version-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Tigera Calico Cloud Webhooks
@@ -219,14 +228,14 @@ modified: '2026-08-05'
 name: Tigera
 nav: Providers
 network: true
-overview: 'Tigera publishes 1 API on the [APIs.io](https://apis.io/) network: Calico API (projectcalico.org/v3). Tagged areas include Company, Kubernetes, Networking, Network Security, and Container Security.
+overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, including APIS API, Projectcalico Org API, Projectcalico Org V3 API, and 1 more. Tagged areas include Company, Kubernetes, Networking, Network Security, and Container Security.
 
 
   The Tigera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 71
+random_paper: 56
 scopes:
 - name: Tigera Scopes
   scope_count: 1
@@ -234,20 +243,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 56.1
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 48.1
     developer_ergonomics: 75.5
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 55.3
+  previous_composite: 57.0
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Tigera Authentication

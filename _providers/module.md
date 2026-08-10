@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Module
 nav: Providers
 network: true
 overview: Module is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing, Construction, Manufacturing, and Modular.
-random_paper: 81
+random_paper: 66
 score:
   band: minimal
   composite: 5.0
@@ -62,8 +62,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/module/refs/heads/main/screenshots/module-2026-08-07T184034.png
 security:
 - kind: domain-security
   name: Module Domain Security

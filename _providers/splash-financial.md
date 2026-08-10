@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,10 +92,11 @@ overview: 'Splash Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Splash Financial''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 47
+random_paper: 5
 score:
   band: emerging
   composite: 15.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -103,8 +104,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 15.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Splash Financial Domain Security

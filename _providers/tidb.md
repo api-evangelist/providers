@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -207,7 +207,7 @@ plans:
 - name: Tidb Plans Pricing
   plan_count: 6
   slug: tidb-plans-pricing
-random_paper: 80
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: Tidb Rate Limits
@@ -241,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/screenshots/tidb-2026-06-20T195336.png
 security:

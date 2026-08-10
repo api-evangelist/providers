@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Wholesale reseller API for domain-name lookup, registration, transfer, renewal, DNS-zone management and TLS/SSL certificate ordering. An XML-over-HTTPS POST protocol authenticated with a reseller user
@@ -162,7 +162,7 @@ overview: 'Tucows publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Tucows'' developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 18 more developer resources.'
-random_paper: 112
+random_paper: 97
 score:
   band: developing
   composite: 45.8
@@ -186,7 +186,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

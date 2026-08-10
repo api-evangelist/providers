@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'The Postmates Fleet API (also referred to as the Postmates On-Demand Delivery API and Postmates Anywhere API) was a REST API that let merchants programmatically create delivery jobs, quote pickup and '
@@ -107,7 +107,7 @@ plans:
 - name: Postmates Plans Pricing
   plan_count: 1
   slug: postmates-plans-pricing
-random_paper: 88
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Postmates Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/screenshots/postmates-2026-06-20T192010.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Komoju Plans Pricing
   plan_count: 3
   slug: komoju-plans-pricing
-random_paper: 96
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Komoju Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png
 security:

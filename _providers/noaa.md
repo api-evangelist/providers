@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ plans:
 - name: Noaa Plans Pricing
   plan_count: 1
   slug: noaa-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Noaa Rate Limits
@@ -273,7 +273,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa/refs/heads/main/screenshots/noaa-2026-06-20T190339.png
 security:

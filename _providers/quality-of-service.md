@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2025-01-01'
@@ -39,7 +39,7 @@ name: Quality of Service
 nav: Providers
 network: true
 overview: Quality of Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quality of Service.
-random_paper: 25
+random_paper: 93
 score:
   band: minimal
   composite: 4.1
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: quality-of-service
 tags:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Extensity''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 101
+random_paper: 77
 score:
   band: emerging
   composite: 13.2
@@ -103,7 +103,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extensity/refs/heads/main/screenshots/extensity-2026-07-25T213949.png
 security:

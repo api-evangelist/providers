@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,33 +67,53 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/urbancompany-llms.txt
+- group: company
+  title: ''
+  type: About
+  url: https://www.urbancompany.com/about
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://medium.com/feed/urbanclap-engineering
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/urbanclap-engg
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investorrelations.urbancompany.com/
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://www.urbancompany.com/infosec-policy-statement-and-objective
 created: '2026-07-17'
 description: Urban Company (formerly UrbanClap) is an on-demand home services marketplace that connects customers with trained, hand-picked service professionals for beauty and salon services, cleaning, appliance repair, plumbing, electrical work, painting, and pest control. The Accel-backed platform operates across 40+ cities in India as well as the UAE, Saudi Arabia, and Singapore, and is delivered through its website and mobile apps. Urban Company does not publish a public developer API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urbancompany.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: UrbanCompany
 nav: Providers
 network: true
 overview: 'UrbanCompany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Home Services, Marketplace, and Beauty.
 
 
-  UrbanCompany''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 52
+  UrbanCompany''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
+random_paper: 19
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 17.0
+  delta: 2.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 15.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

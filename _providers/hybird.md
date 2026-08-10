@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'HyBird is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HyBird''s developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: emerging
   composite: 16.5
@@ -99,7 +99,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hybird/refs/heads/main/screenshots/hybird-2026-07-25T221809.png
 security:

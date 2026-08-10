@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Thrive Capital
 nav: Providers
 network: true
-random_paper: 81
+random_paper: 45
 slug: thrive-capital
 tags:
 - Venture Capital

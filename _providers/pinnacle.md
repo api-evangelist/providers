@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,157 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-08-10'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Pinnacle Agentic Access
+  operation_count: 18
+  slug: pinnacle-agentic-access
+  summary_line: 18 operations · 2 acting
 api_count: 12
-artifact_total: 0
+apis:
+- description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
+  name: Pinnacle Bets API
+  slug: pinnacle-bets-api
+- description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
+  name: Pinnacle Lines API
+  slug: pinnacle-lines-api
+- description: The Cancellationreasons API from Pinnacle Sports Betting — 1 operation(s) for cancellationreasons.
+  name: ' Pinnacle Sports Betting Cancellationreasons API'
+  slug: pinnacle-cancellationreasons-api
+- description: The Currencies API from Pinnacle Sports Betting — 1 operation(s) for currencies.
+  name: ' Pinnacle Sports Betting Currencies API'
+  slug: pinnacle-currencies-api
+- description: The Fixtures API from Pinnacle Sports Betting — 4 operation(s) for fixtures.
+  name: ' Pinnacle Sports Betting Fixtures API'
+  slug: pinnacle-fixtures-api
+- description: The Inrunning API from Pinnacle Sports Betting — 1 operation(s) for inrunning.
+  name: ' Pinnacle Sports Betting Inrunning API'
+  slug: pinnacle-inrunning-api
+- description: The Leagues API from Pinnacle Sports Betting — 1 operation(s) for leagues.
+  name: ' Pinnacle Sports Betting Leagues API'
+  slug: pinnacle-leagues-api
+- description: The Line API from Pinnacle Sports Betting — 4 operation(s) for line.
+  name: ' Pinnacle Sports Betting Line API'
+  slug: pinnacle-line-api
+- description: The Odds API from Pinnacle Sports Betting — 3 operation(s) for odds.
+  name: ' Pinnacle Sports Betting Odds API'
+  slug: pinnacle-odds-api
+- description: The Periods API from Pinnacle Sports Betting — 1 operation(s) for periods.
+  name: ' Pinnacle Sports Betting Periods API'
+  slug: pinnacle-periods-api
+- description: The Sports API from Pinnacle Sports Betting — 1 operation(s) for sports.
+  name: ' Pinnacle Sports Betting Sports API'
+  slug: pinnacle-sports-api
+- description: The Teaser API from Pinnacle Sports Betting — 1 operation(s) for teaser.
+  name: ' Pinnacle Sports Betting Teaser API'
+  slug: pinnacle-teaser-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Pinnacle Lines API - Long-Poll Surface
+  slug: open-pinnacle-asyncapi
+- collection_type: open
+  name: Pinnacle Lines API
+  slug: open-pinnacle
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pinnacle-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pinnacle-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pinnacle-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/pinnacle-sports
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/pinnacleapi
 created: '2024-11-07T00:00:00.000Z'
 description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
+finops:
+- name: Pinnacle Finops
+  service_category: API
+  slug: pinnacle-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pinnacle.png
 layout: provider
 modified: '2026-05-30'
 name: ' Pinnacle Sports Betting'
 nav: Providers
 network: true
-random_paper: 51
+overview: 'Pinnacle Sports Betting publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Pinnacle Lines API, g Cancellationreasons API, g Currencies API, and 8 more. Tagged areas include Gambling and Sports Betting.
+
+
+  Pinnacle Sports Betting''s developer surface includes authentication and 4 more developer resources.'
+plans:
+- name: Pinnacle Plans Pricing
+  plan_count: 3
+  slug: pinnacle-plans-pricing
+random_paper: 30
+rate_limits:
+- limit_count: 5
+  name: Pinnacle Rate Limits
+  slug: pinnacle-rate-limits
+score:
+  band: thin
+  composite: 35.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 62.5
+    developer_ergonomics: 10.9
+    discoverability: 46.3
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 35.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 90.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/screenshots/pinnacle-2026-06-20T191716.png
+security:
+- kind: authentication
+  name: Pinnacle Authentication
+  slug: pinnacle-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Pinnacle Domain Security
+  slug: pinnacle-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: pinnacle
 tags:
 - Gambling

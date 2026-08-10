@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Read-only public game-data feeds for OGame, served per game server. Returns highscore rankings, player and alliance rosters, universe/planet layouts, localization tables, and server metadata as XML (a
@@ -95,7 +95,7 @@ overview: 'Gameforge publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Gameforge''s developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: emerging
   composite: 19.5
@@ -109,7 +109,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameforge/refs/heads/main/screenshots/gameforge-2026-07-25T215416.png
 security:

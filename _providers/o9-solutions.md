@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The public UI APIs available in the o9 platform, used to access the GraphCube server data and its model in order to query and visualize planning data. The API reference is published in the o9 Guide bu
@@ -126,7 +126,7 @@ overview: 'o9 Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   o9 Solutions'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 91
+random_paper: 61
 scopes:
 - name: O9 Solutions Scopes
   scope_count: 3
@@ -147,8 +147,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/screenshots/o9-solutions-2026-08-07T185839.png
 security:
 - kind: authentication
   name: O9 Solutions Authentication

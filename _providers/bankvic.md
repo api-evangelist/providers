@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'BankVic publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BankVic''s developer surface includes authentication, documentation, getting-started guide, API reference, support, signup flow, and 21 more developer resources.'
-random_paper: 56
+random_paper: 38
 scopes:
 - name: Bankvic Scopes
   scope_count: 9
@@ -230,7 +230,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
 security:

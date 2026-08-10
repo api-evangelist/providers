@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Rocket Pool publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rocket Pool''s developer surface includes documentation, getting-started guide, and 30 more developer resources.'
-random_paper: 5
+random_paper: 91
 rules:
 - name: Rocket Pool API Rules
   rule_count: 5
@@ -302,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
 security:

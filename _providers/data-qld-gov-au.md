@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Queensland Government Data, a consistent JSON-over-HTTP interface over a catalog of 188,778 datasets. Standard actions include package_search, package_show, package_list, organizat
@@ -88,7 +88,7 @@ plans:
 - name: Data Qld Gov Au Plans Pricing
   plan_count: 1
   slug: data-qld-gov-au-plans-pricing
-random_paper: 56
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Data Qld Gov Au Rate Limits
@@ -112,7 +112,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-qld-gov-au/refs/heads/main/screenshots/data-qld-gov-au-2026-06-20T175614.png
 security:

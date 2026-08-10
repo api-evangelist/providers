@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -165,7 +165,7 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 103
+random_paper: 22
 score:
   band: thin
   composite: 32.1
@@ -194,7 +194,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:

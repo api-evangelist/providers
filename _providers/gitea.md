@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -694,7 +694,7 @@ plans:
 - name: Gitea Plans Pricing
   plan_count: 3
   slug: gitea-plans-pricing
-random_paper: 70
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Gitea Rate Limits
@@ -743,7 +743,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'GraniteShares is profiled on the [APIs.io](https://apis.io/) network.
 
 
   GraniteShares'' developer surface includes support, FAQ, authentication, and 8 more developer resources.'
-random_paper: 36
+random_paper: 0
 score:
   band: emerging
   composite: 13.4
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graniteshares/refs/heads/main/screenshots/graniteshares-2026-07-25T220226.png
 security:

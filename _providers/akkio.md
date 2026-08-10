@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Create and populate datasets that models train on.
@@ -150,7 +150,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/akkio-api-openapi.yml
+  url: openapi/_original/akkio-api-openapi.yml
 created: '2026-07-17'
 description: 'Akkio is a no-code predictive AI and AI-workflow-automation platform built for media agencies and data providers. Teams use it to activate data across the campaign lifecycle: audience segmentation, propensity modeling, RFM analysis, media-mix modeling, performance measurement, and campaign-strategy development, all from unified intelligence. Beyond the app, Akkio exposes a developer REST API at https://api.akk.io/v1 (API-key auth) for managing datasets, training predictive models, and generating predictions with optional feature explanations, backed by official Python and JavaScript SDKs. The company is SOC 2 Type 2 and HIPAA compliant (verified via Drata).'
 image: https://cdn.prod.website-files.com/5c97e8c9de94e8a3480419a5/6959836988084dcbb9ac3605_Screenshot%202026-01-03%20at%2012.58.19%E2%80%AFPM.png
@@ -167,7 +167,7 @@ overview: 'Akkio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Da
 
 
   Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 75
+random_paper: 63
 score:
   band: developing
   composite: 48.0
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png
 security:

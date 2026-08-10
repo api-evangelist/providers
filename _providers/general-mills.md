@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: General Mills is 'innovating how we innovate' with AI
   url: https://www.fooddive.com/news/general-mills-product-innovation-ai/812457/
-random_paper: 81
+random_paper: 48
 score:
   band: minimal
   composite: 5.7
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-mills/refs/heads/main/screenshots/general-mills-2026-06-20T181727.png
 security:

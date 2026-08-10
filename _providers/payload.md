@@ -28,13 +28,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
 - description: Payload is a TypeScript-first headless CMS and application framework that automatically generates REST, GraphQL, and Local APIs from collection schemas, with built-in authentication, access control, a
   name: Payload
   slug: payload
-artifact_total: 6
+- description: The Authentication API from Payload — 8 operation(s) for authentication.
+  name: Payload Authentication API
+  slug: payload-authentication-api
+- description: The Collections API from Payload — 3 operation(s) for collections.
+  name: Payload Collections API
+  slug: payload-collections-api
+- description: The Globals API from Payload — 1 operation(s) for globals.
+  name: Payload Globals API
+  slug: payload-globals-api
+- description: The Preferences API from Payload — 1 operation(s) for preferences.
+  name: Payload Preferences API
+  slug: payload-preferences-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -96,7 +108,7 @@ modified: '2026-04-28'
 name: Payload
 nav: Providers
 network: true
-overview: 'Payload publishes 1 API on the [APIs.io](https://apis.io/) network: Payload. Tagged areas include Application Framework, CMS, Content, Headless, and Next.js.
+overview: 'Payload publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Collections API, Globals API, and 1 more. Tagged areas include Application Framework, CMS, Content, Headless, and Next.js.
 
 
   Payload''s developer surface includes documentation, engineering blog, GitHub presence, pricing, and 7 more developer resources.'
@@ -104,20 +116,20 @@ plans:
 - name: Payload Plans Pricing
   plan_count: 3
   slug: payload-plans-pricing
-random_paper: 68
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Payload Rate Limits
   slug: payload-rate-limits
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -0.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 53.5
+    contract_quality: 49.6
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 42.3
@@ -128,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png
 security:

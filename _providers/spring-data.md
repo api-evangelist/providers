@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Spring Data Plans Pricing
   plan_count: 1
   slug: spring-data-plans-pricing
-random_paper: 97
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Spring Data Rate Limits
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:

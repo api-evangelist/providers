@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ apis:
 - description: The Webhooks API from Lemon Squeezy — 2 operation(s) for webhooks.
   name: Lemon Squeezy Webhooks API
   slug: lemon-squeezy-webhooks-api
-artifact_total: 55
+artifact_total: 56
 collections:
 - collection_type: open
   name: Lemon Squeezy API
@@ -140,6 +140,9 @@ collections:
 - collection_type: open
   name: Lemon Squeezy License API
   slug: open-lemon-squeezy-license-api
+- collection_type: open
+  name: Lemon Squeezy API
+  slug: open-lemonsqueezy
 common:
 - group: agent
   title: ''
@@ -201,6 +204,18 @@ common:
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/lemonsqueezyapp/lemon-squeezy-workspace/overview
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lemon-squeezy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lemon-squeezy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lemon-squeezy-finops.yml
 created: '2024-01-01'
 description: Lemon Squeezy is on a mission to make selling digital products easy-peasy. We know first-hand the challenges of selling digital goods globally and are here to shake that up for the better.
 features:
@@ -226,19 +241,19 @@ finops:
   slug: lemon-squeezy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lemon-squeezy.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Lemon Squeezy
 nav: Providers
 network: true
 overview: 'Lemon Squeezy publishes 31 APIs on the [APIs.io](https://apis.io/) network, including License API, 7c41 API, Affiliates API, and 28 more. Tagged areas include Digital Products, Ecommerce, and Products.
 
 
-  Lemon Squeezy''s developer surface includes authentication, documentation, changelog, engineering blog, pricing, support, and 9 more developer resources.'
+  Lemon Squeezy''s developer surface includes authentication, documentation, changelog, engineering blog, pricing, support, and 12 more developer resources.'
 plans:
 - name: Lemon Squeezy Plans Pricing
   plan_count: 2
   slug: lemon-squeezy-plans-pricing
-random_paper: 18
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Lemon Squeezy Rate Limits
@@ -263,9 +278,9 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/screenshots/lemon-squeezy-2026-06-20T184415.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/screenshots/lemon-squeezy-2026-07-25T224849.png
 security:
 - kind: authentication
   name: Lemon Squeezy Authentication

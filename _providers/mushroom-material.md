@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Mushroom Material
 nav: Providers
 network: true
 overview: Mushroom Material is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, Packaging, Materials, and Mycelium.
-random_paper: 87
+random_paper: 42
 score:
   band: minimal
   composite: 6.1
@@ -66,8 +66,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mushroom-material/refs/heads/main/screenshots/mushroom-material-2026-08-07T184448.png
 security:
 - kind: domain-security
   name: Mushroom Material Domain Security

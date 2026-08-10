@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -144,7 +144,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 4 more developer resources.'
-random_paper: 62
+random_paper: 41
 scopes:
 - name: Kanastra Scopes
   scope_count: 5
@@ -178,7 +178,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

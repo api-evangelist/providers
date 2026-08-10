@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Merit Systems Protection Board protects federal merit systems and safeguards the rights of federal employees against prohibited personnel practices under 5 U.S.C. 2301(b).
@@ -61,7 +61,7 @@ plans:
 - name: Merit Systems Protection Board Plans Pricing
   plan_count: 3
   slug: merit-systems-protection-board-plans-pricing
-random_paper: 36
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Merit Systems Protection Board Rate Limits
@@ -85,7 +85,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems-protection-board/refs/heads/main/screenshots/merit-systems-protection-board-2026-06-20T185222.png
 security:

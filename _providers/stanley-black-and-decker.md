@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ press:
 - date: '2026-05-25'
   title: H2O.ai Empowers Stanley Black & Decker to Develop ...
   url: https://h2o.ai/company/press-media/2018/h2o-ai-empowers-stanley-black-decker-to-develop-innovative-manufacturing-processes/
-random_paper: 81
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Stanley Black And Decker Rate Limits
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
 security:

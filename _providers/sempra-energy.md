@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-08'
   title: '<a href="https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin" hreflang="en">Energy and National Security: Conversation with Jeffrey W. Martin and LTG H.R. McMaster </a>'
   url: https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin
-random_paper: 100
+random_paper: 67
 score:
   band: minimal
   composite: 2.6
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

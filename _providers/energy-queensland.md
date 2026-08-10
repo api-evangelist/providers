@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 23 more developer resources.'
-random_paper: 72
+random_paper: 27
 rate_limits:
 - limit_count: 15
   name: Energy Queensland Rate Limits
@@ -203,8 +203,9 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:
 - kind: authentication
   name: Energy Queensland Authentication

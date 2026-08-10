@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -26,12 +26,456 @@ agentic_access:
   operation_count: 383
   slug: smart-pension-agentic-access
   summary_line: 383 operations · 180 acting
-api_count: 1
+api_count: 149
 apis:
-- description: The public REST API behind the Keystone platform and the Smart Pension UK master trust. It exposes the same operations Smart's own employer, employee and adviser portals consume — companies, employees
-  name: Keystone API
-  slug: keystone-api
-artifact_total: 8
+- description: The Account-Claiming API from Smart Pension — 8 operation(s) for account-claiming.
+  name: Smart Pension Account Claiming API
+  slug: smart-pension-account-claiming-api
+- description: The Accounts API from Smart Pension — 1 operation(s) for accounts.
+  name: Smart Pension Accounts API
+  slug: smart-pension-accounts-api
+- description: The AccountSubaccountsSwitchPlans API from Smart Pension — 2 operation(s) for accountsubaccountsswitchplans.
+  name: Smart Pension Account Subaccounts Switch Plans API
+  slug: smart-pension-accountsubaccountsswitchplans-api
+- description: The AdditionalTaxResidences API from Smart Pension — 2 operation(s) for additionaltaxresidences.
+  name: Smart Pension Additional Tax Residences API
+  slug: smart-pension-additionaltaxresidences-api
+- description: The AddMoneyForms API from Smart Pension — 2 operation(s) for addmoneyforms.
+  name: Smart Pension Add Money Forms API
+  slug: smart-pension-addmoneyforms-api
+- description: The Adviser API from Smart Pension — 4 operation(s) for adviser.
+  name: Smart Pension Adviser API
+  slug: smart-pension-adviser-api
+- description: The AdviserCompanies API from Smart Pension — 2 operation(s) for advisercompanies.
+  name: Smart Pension Adviser Companies API
+  slug: smart-pension-advisercompanies-api
+- description: The AdviserExports API from Smart Pension — 1 operation(s) for adviserexports.
+  name: Smart Pension Adviser Exports API
+  slug: smart-pension-adviserexports-api
+- description: The AdviserInvitations API from Smart Pension — 2 operation(s) for adviserinvitations.
+  name: Smart Pension Adviser Invitations API
+  slug: smart-pension-adviserinvitations-api
+- description: The Advisers API from Smart Pension — 2 operation(s) for advisers.
+  name: Smart Pension Advisers API
+  slug: smart-pension-advisers-api
+- description: The Assessments API from Smart Pension — 2 operation(s) for assessments.
+  name: Smart Pension Assessments API
+  slug: smart-pension-assessments-api
+- description: The AvailableFunds API from Smart Pension — 1 operation(s) for availablefunds.
+  name: Smart Pension Available Funds API
+  slug: smart-pension-availablefunds-api
+- description: The AvailableGlidepath API from Smart Pension — 1 operation(s) for availableglidepath.
+  name: Smart Pension Available Glidepath API
+  slug: smart-pension-availableglidepath-api
+- description: The AvailableWithdrawalOptions API from Smart Pension — 1 operation(s) for availablewithdrawaloptions.
+  name: Smart Pension Available Withdrawal Options API
+  slug: smart-pension-availablewithdrawaloptions-api
+- description: The BankAccountDetail API from Smart Pension — 2 operation(s) for bankaccountdetail.
+  name: Smart Pension Bank Account Detail API
+  slug: smart-pension-bankaccountdetail-api
+- description: The BankAccountDetails API from Smart Pension — 4 operation(s) for bankaccountdetails.
+  name: Smart Pension Bank Account Details API
+  slug: smart-pension-bankaccountdetails-api
+- description: The Batch API from Smart Pension — 1 operation(s) for batch.
+  name: Smart Pension Batch API
+  slug: smart-pension-batch-api
+- description: The Benefit API from Smart Pension — 3 operation(s) for benefit.
+  name: Smart Pension Benefit API
+  slug: smart-pension-benefit-api
+- description: The BenefitCategories API from Smart Pension — 2 operation(s) for benefitcategories.
+  name: Smart Pension Benefit Categories API
+  slug: smart-pension-benefitcategories-api
+- description: The BenefitCheckResults API from Smart Pension — 2 operation(s) for benefitcheckresults.
+  name: Smart Pension Benefit Check Results API
+  slug: smart-pension-benefitcheckresults-api
+- description: The BenefitEvidenceTypes API from Smart Pension — 1 operation(s) for benefitevidencetypes.
+  name: Smart Pension Benefit Evidence Types API
+  slug: smart-pension-benefitevidencetypes-api
+- description: The BenefitForm API from Smart Pension — 9 operation(s) for benefitform.
+  name: Smart Pension Benefit Form API
+  slug: smart-pension-benefitform-api
+- description: The BenefitGroupAutoAllocatorResults API from Smart Pension — 2 operation(s) for benefitgroupautoallocatorresults.
+  name: Smart Pension Benefit Group Auto Allocator Results API
+  slug: smart-pension-benefitgroupautoallocatorresults-api
+- description: The BenefitGroups API from Smart Pension — 3 operation(s) for benefitgroups.
+  name: Smart Pension Benefit Groups API
+  slug: smart-pension-benefitgroups-api
+- description: The BenefitMoneyOutState API from Smart Pension — 1 operation(s) for benefitmoneyoutstate.
+  name: Smart Pension Benefit Money Out State API
+  slug: smart-pension-benefitmoneyoutstate-api
+- description: The Benefits API from Smart Pension — 2 operation(s) for benefits.
+  name: Smart Pension Benefits API
+  slug: smart-pension-benefits-api
+- description: The BenefitSchedule API from Smart Pension — 1 operation(s) for benefitschedule.
+  name: Smart Pension Benefit Schedule API
+  slug: smart-pension-benefitschedule-api
+- description: The BenefitStatements API from Smart Pension — 3 operation(s) for benefitstatements.
+  name: Smart Pension Benefit Statements API
+  slug: smart-pension-benefitstatements-api
+- description: The Cities API from Smart Pension — 1 operation(s) for cities.
+  name: Smart Pension Cities API
+  slug: smart-pension-cities-api
+- description: The Companies API from Smart Pension — 2 operation(s) for companies.
+  name: Smart Pension Companies API
+  slug: smart-pension-companies-api
+- description: The Company API from Smart Pension — 3 operation(s) for company.
+  name: Smart Pension Company API
+  slug: smart-pension-company-api
+- description: The CompanyAutomations API from Smart Pension — 1 operation(s) for companyautomations.
+  name: Smart Pension Company Automations API
+  slug: smart-pension-companyautomations-api
+- description: The CompanyBranding API from Smart Pension — 1 operation(s) for companybranding.
+  name: Smart Pension Company Branding API
+  slug: smart-pension-companybranding-api
+- description: The CompanyBrandingStocks API from Smart Pension — 1 operation(s) for companybrandingstocks.
+  name: Smart Pension Company Branding Stocks API
+  slug: smart-pension-companybrandingstocks-api
+- description: The CompanyExports API from Smart Pension — 2 operation(s) for companyexports.
+  name: Smart Pension Company Exports API
+  slug: smart-pension-companyexports-api
+- description: The CompanyFees API from Smart Pension — 2 operation(s) for companyfees.
+  name: Smart Pension Company Fees API
+  slug: smart-pension-companyfees-api
+- description: The CompanyLookup API from Smart Pension — 2 operation(s) for companylookup.
+  name: Smart Pension Company Lookup API
+  slug: smart-pension-companylookup-api
+- description: The CompanyLookups API from Smart Pension — 1 operation(s) for companylookups.
+  name: Smart Pension Company Lookups API
+  slug: smart-pension-companylookups-api
+- description: The CompanyRules API from Smart Pension — 1 operation(s) for companyrules.
+  name: Smart Pension Company Rules API
+  slug: smart-pension-companyrules-api
+- description: The CompanySchemeDetails API from Smart Pension — 1 operation(s) for companyschemedetails.
+  name: Smart Pension Company Scheme Details API
+  slug: smart-pension-companyschemedetails-api
+- description: The Constants API from Smart Pension — 1 operation(s) for constants.
+  name: Smart Pension Constants API
+  slug: smart-pension-constants-api
+- description: The Contribution API from Smart Pension — 1 operation(s) for contribution.
+  name: Smart Pension Contribution API
+  slug: smart-pension-contribution-api
+- description: The Contributions API from Smart Pension — 2 operation(s) for contributions.
+  name: Smart Pension Contributions API
+  slug: smart-pension-contributions-api
+- description: The Countries API from Smart Pension — 1 operation(s) for countries.
+  name: Smart Pension Countries API
+  slug: smart-pension-countries-api
+- description: The Currency API from Smart Pension — 1 operation(s) for currency.
+  name: Smart Pension Currency API
+  slug: smart-pension-currency-api
+- description: The CustomAppStyling API from Smart Pension — 1 operation(s) for customappstyling.
+  name: Smart Pension Custom App Styling API
+  slug: smart-pension-customappstyling-api
+- description: The Customer API from Smart Pension — 4 operation(s) for customer.
+  name: Smart Pension Customer API
+  slug: smart-pension-customer-api
+- description: The CustomerLead API from Smart Pension — 3 operation(s) for customerlead.
+  name: Smart Pension Customer Lead API
+  slug: smart-pension-customerlead-api
+- description: The DeclarationOfComplianceEmployeeTotals API from Smart Pension — 1 operation(s) for declarationofcomplianceemployeetotals.
+  name: Smart Pension Declaration Of Compliance Employee Totals API
+  slug: smart-pension-declarationofcomplianceemployeetotals-api
+- description: The DiscountedValuation API from Smart Pension — 1 operation(s) for discountedvaluation.
+  name: Smart Pension Discounted Valuation API
+  slug: smart-pension-discountedvaluation-api
+- description: The Discovery API from Smart Pension — 1 operation(s) for discovery.
+  name: Smart Pension Discovery API
+  slug: smart-pension-discovery-api
+- description: The Documents API from Smart Pension — 1 operation(s) for documents.
+  name: Smart Pension Documents API
+  slug: smart-pension-documents-api
+- description: The EconomicZone API from Smart Pension — 1 operation(s) for economiczone.
+  name: Smart Pension Economic Zone API
+  slug: smart-pension-economiczone-api
+- description: The Employee API from Smart Pension — 10 operation(s) for employee.
+  name: Smart Pension Employee API
+  slug: smart-pension-employee-api
+- description: The EmployeeConfiguration API from Smart Pension — 1 operation(s) for employeeconfiguration.
+  name: Smart Pension Employee Configuration API
+  slug: smart-pension-employeeconfiguration-api
+- description: The EmployeeExternalPensions API from Smart Pension — 2 operation(s) for employeeexternalpensions.
+  name: Smart Pension Employee External Pensions API
+  slug: smart-pension-employeeexternalpensions-api
+- description: The EmployeeFundHoldings API from Smart Pension — 3 operation(s) for employeefundholdings.
+  name: Smart Pension Employee Fund Holdings API
+  slug: smart-pension-employeefundholdings-api
+- description: The EmployeeRateRecommendation API from Smart Pension — 1 operation(s) for employeeraterecommendation.
+  name: Smart Pension Employee Rate Recommendation API
+  slug: smart-pension-employeeraterecommendation-api
+- description: The EmployeeVerificationChecks API from Smart Pension — 3 operation(s) for employeeverificationchecks.
+  name: Smart Pension Employee Verification Checks API
+  slug: smart-pension-employeeverificationchecks-api
+- description: The EmploymentCategory API from Smart Pension — 1 operation(s) for employmentcategory.
+  name: Smart Pension Employment Category API
+  slug: smart-pension-employmentcategory-api
+- description: The EmploymentPeriods API from Smart Pension — 1 operation(s) for employmentperiods.
+  name: Smart Pension Employment Periods API
+  slug: smart-pension-employmentperiods-api
+- description: The Enrolment API from Smart Pension — 2 operation(s) for enrolment.
+  name: Smart Pension Enrolment API
+  slug: smart-pension-enrolment-api
+- description: The EnrolmentEmployees API from Smart Pension — 1 operation(s) for enrolmentemployees.
+  name: Smart Pension Enrolment Employees API
+  slug: smart-pension-enrolmentemployees-api
+- description: The Envelopes API from Smart Pension — 1 operation(s) for envelopes.
+  name: Smart Pension Envelopes API
+  slug: smart-pension-envelopes-api
+- description: The EnvelopeSigning API from Smart Pension — 1 operation(s) for envelopesigning.
+  name: Smart Pension Envelope Signing API
+  slug: smart-pension-envelopesigning-api
+- description: The EstimateBenefitValuations API from Smart Pension — 1 operation(s) for estimatebenefitvaluations.
+  name: Smart Pension Estimate Benefit Valuations API
+  slug: smart-pension-estimatebenefitvaluations-api
+- description: The Exports API from Smart Pension — 1 operation(s) for exports.
+  name: Smart Pension Exports API
+  slug: smart-pension-exports-api
+- description: The ExpressionOfWish API from Smart Pension — 1 operation(s) for expressionofwish.
+  name: Smart Pension Expression Of Wish API
+  slug: smart-pension-expressionofwish-api
+- description: The ExternalEmployeeDataAvailability API from Smart Pension — 1 operation(s) for externalemployeedataavailability.
+  name: Smart Pension External Employee Data Availability API
+  slug: smart-pension-externalemployeedataavailability-api
+- description: The FeatureFlags API from Smart Pension — 1 operation(s) for featureflags.
+  name: Smart Pension Feature Flags API
+  slug: smart-pension-featureflags-api
+- description: The Funds API from Smart Pension — 1 operation(s) for funds.
+  name: Smart Pension Funds API
+  slug: smart-pension-funds-api
+- description: The FundSplits API from Smart Pension — 1 operation(s) for fundsplits.
+  name: Smart Pension Fund Splits API
+  slug: smart-pension-fundsplits-api
+- description: The Glidepaths API from Smart Pension — 1 operation(s) for glidepaths.
+  name: Smart Pension Glidepaths API
+  slug: smart-pension-glidepaths-api
+- description: The Group API from Smart Pension — 2 operation(s) for group.
+  name: Smart Pension Group API
+  slug: smart-pension-group-api
+- description: The HistoricalContribution API from Smart Pension — 1 operation(s) for historicalcontribution.
+  name: Smart Pension Historical Contribution API
+  slug: smart-pension-historicalcontribution-api
+- description: The HistoricalContributions API from Smart Pension — 1 operation(s) for historicalcontributions.
+  name: Smart Pension Historical Contributions API
+  slug: smart-pension-historicalcontributions-api
+- description: The HistoricalTransferIn API from Smart Pension — 1 operation(s) for historicaltransferin.
+  name: Smart Pension Historical Transfer In API
+  slug: smart-pension-historicaltransferin-api
+- description: The HistoricalTransferIns API from Smart Pension — 1 operation(s) for historicaltransferins.
+  name: Smart Pension Historical Transfer Ins API
+  slug: smart-pension-historicaltransferins-api
+- description: The Identity API from Smart Pension — 2 operation(s) for identity.
+  name: Smart Pension Identity API
+  slug: smart-pension-identity-api
+- description: The Import API from Smart Pension — 3 operation(s) for import.
+  name: Smart Pension Import API
+  slug: smart-pension-import-api
+- description: The IncomeAdequacyProjection API from Smart Pension — 1 operation(s) for incomeadequacyprojection.
+  name: Smart Pension Income Adequacy Projection API
+  slug: smart-pension-incomeadequacyprojection-api
+- description: The Individual API from Smart Pension — 1 operation(s) for individual.
+  name: Smart Pension Individual API
+  slug: smart-pension-individual-api
+- description: The InvestmentsPerformance API from Smart Pension — 1 operation(s) for investmentsperformance.
+  name: Smart Pension Investments Performance API
+  slug: smart-pension-investmentsperformance-api
+- description: The Jwks API from Smart Pension — 1 operation(s) for jwks.
+  name: Smart Pension Jwks API
+  slug: smart-pension-jwks-api
+- description: The LaterLifeProjection API from Smart Pension — 1 operation(s) for laterlifeprojection.
+  name: Smart Pension Later Life Projection API
+  slug: smart-pension-laterlifeprojection-api
+- description: The LegalBankLocation API from Smart Pension — 1 operation(s) for legalbanklocation.
+  name: Smart Pension Legal Bank Location API
+  slug: smart-pension-legalbanklocation-api
+- description: The Letter API from Smart Pension — 2 operation(s) for letter.
+  name: Smart Pension Letter API
+  slug: smart-pension-letter-api
+- description: The Letters API from Smart Pension — 6 operation(s) for letters.
+  name: Smart Pension Letters API
+  slug: smart-pension-letters-api
+- description: The MandateChargeSchedule API from Smart Pension — 1 operation(s) for mandatechargeschedule.
+  name: Smart Pension Mandate Charge Schedule API
+  slug: smart-pension-mandatechargeschedule-api
+- description: The Mandates API from Smart Pension — 4 operation(s) for mandates.
+  name: Smart Pension Mandates API
+  slug: smart-pension-mandates-api
+- description: The MarketingPreference API from Smart Pension — 2 operation(s) for marketingpreference.
+  name: Smart Pension Marketing Preference API
+  slug: smart-pension-marketingpreference-api
+- description: The MembershipFees API from Smart Pension — 1 operation(s) for membershipfees.
+  name: Smart Pension Membership Fees API
+  slug: smart-pension-membershipfees-api
+- description: The MobileAppVersions API from Smart Pension — 1 operation(s) for mobileappversions.
+  name: Smart Pension Mobile App Versions API
+  slug: smart-pension-mobileappversions-api
+- description: The ModellerProjections API from Smart Pension — 1 operation(s) for modellerprojections.
+  name: Smart Pension Modeller Projections API
+  slug: smart-pension-modellerprojections-api
+- description: The MoneySummary API from Smart Pension — 1 operation(s) for moneysummary.
+  name: Smart Pension Money Summary API
+  slug: smart-pension-moneysummary-api
+- description: The Nationalities API from Smart Pension — 1 operation(s) for nationalities.
+  name: Smart Pension Nationalities API
+  slug: smart-pension-nationalities-api
+- description: The NextPayPeriodDate API from Smart Pension — 1 operation(s) for nextpayperioddate.
+  name: Smart Pension Next Pay Period Date API
+  slug: smart-pension-nextpayperioddate-api
+- description: The Notifications API from Smart Pension — 2 operation(s) for notifications.
+  name: Smart Pension Notifications API
+  slug: smart-pension-notifications-api
+- description: The NotificationsAccounts API from Smart Pension — 1 operation(s) for notificationsaccounts.
+  name: Smart Pension Notifications Accounts API
+  slug: smart-pension-notificationsaccounts-api
+- description: The Onboarding API from Smart Pension — 4 operation(s) for onboarding.
+  name: Smart Pension Onboarding API
+  slug: smart-pension-onboarding-api
+- description: The OptInRequest API from Smart Pension — 2 operation(s) for optinrequest.
+  name: Smart Pension Opt In Request API
+  slug: smart-pension-optinrequest-api
+- description: The OverfundingThresholds API from Smart Pension — 1 operation(s) for overfundingthresholds.
+  name: Smart Pension Overfunding Thresholds API
+  slug: smart-pension-overfundingthresholds-api
+- description: The PageVisit API from Smart Pension — 1 operation(s) for pagevisit.
+  name: Smart Pension Page Visit API
+  slug: smart-pension-pagevisit-api
+- description: The PaidInAmounts API from Smart Pension — 1 operation(s) for paidinamounts.
+  name: Smart Pension Paid In Amounts API
+  slug: smart-pension-paidinamounts-api
+- description: The Password API from Smart Pension — 2 operation(s) for password.
+  name: Smart Pension Password API
+  slug: smart-pension-password-api
+- description: The Payment API from Smart Pension — 2 operation(s) for payment.
+  name: Smart Pension Payment API
+  slug: smart-pension-payment-api
+- description: The PaymentApprovals API from Smart Pension — 2 operation(s) for paymentapprovals.
+  name: Smart Pension Payment Approvals API
+  slug: smart-pension-paymentapprovals-api
+- description: The Payroll configuration details API from Smart Pension — 1 operation(s) for payroll configuration details.
+  name: Smart Pension Payroll configuration details API
+  slug: smart-pension-payroll-configuration-details-api
+- description: The Payroll configurations API from Smart Pension — 2 operation(s) for payroll configurations.
+  name: Smart Pension Payroll configurations API
+  slug: smart-pension-payroll-configurations-api
+- description: The PayrollConfiguration API from Smart Pension — 2 operation(s) for payrollconfiguration.
+  name: Smart Pension Payroll Configuration API
+  slug: smart-pension-payrollconfiguration-api
+- description: The PayrollConfigurationDetail API from Smart Pension — 3 operation(s) for payrollconfigurationdetail.
+  name: Smart Pension Payroll Configuration Detail API
+  slug: smart-pension-payrollconfigurationdetail-api
+- description: The PensionForecast API from Smart Pension — 1 operation(s) for pensionforecast.
+  name: Smart Pension Pension Forecast API
+  slug: smart-pension-pensionforecast-api
+- description: The PensionForecastInputs API from Smart Pension — 1 operation(s) for pensionforecastinputs.
+  name: Smart Pension Pension Forecast Inputs API
+  slug: smart-pension-pensionforecastinputs-api
+- description: The PensionlabConsent API from Smart Pension — 1 operation(s) for pensionlabconsent.
+  name: Smart Pension Pensionlab Consent API
+  slug: smart-pension-pensionlabconsent-api
+- description: The Portfolios API from Smart Pension — 2 operation(s) for portfolios.
+  name: Smart Pension Portfolios API
+  slug: smart-pension-portfolios-api
+- description: The Postponement API from Smart Pension — 3 operation(s) for postponement.
+  name: Smart Pension Postponement API
+  slug: smart-pension-postponement-api
+- description: The PreviewContributionRates API from Smart Pension — 1 operation(s) for previewcontributionrates.
+  name: Smart Pension Preview Contribution Rates API
+  slug: smart-pension-previewcontributionrates-api
+- description: The Projection API from Smart Pension — 1 operation(s) for projection.
+  name: Smart Pension Projection API
+  slug: smart-pension-projection-api
+- description: The Referrals API from Smart Pension — 1 operation(s) for referrals.
+  name: Smart Pension Referrals API
+  slug: smart-pension-referrals-api
+- description: The RegularIncomeProjection API from Smart Pension — 1 operation(s) for regularincomeprojection.
+  name: Smart Pension Regular Income Projection API
+  slug: smart-pension-regularincomeprojection-api
+- description: The Role API from Smart Pension — 1 operation(s) for role.
+  name: Smart Pension Role API
+  slug: smart-pension-role-api
+- description: The Scheme API from Smart Pension — 2 operation(s) for scheme.
+  name: Smart Pension Scheme API
+  slug: smart-pension-scheme-api
+- description: The SchemesAvailableCurrencies API from Smart Pension — 1 operation(s) for schemesavailablecurrencies.
+  name: Smart Pension Schemes Available Currencies API
+  slug: smart-pension-schemesavailablecurrencies-api
+- description: The SSIF Import API from Smart Pension — 1 operation(s) for ssif import.
+  name: Smart Pension SSIF Import API
+  slug: smart-pension-ssif-import-api
+- description: The SSIFHeadersMappings API from Smart Pension — 2 operation(s) for ssifheadersmappings.
+  name: Smart Pension SSIF Headers Mappings API
+  slug: smart-pension-ssifheadersmappings-api
+- description: The SSIFImports API from Smart Pension — 7 operation(s) for ssifimports.
+  name: Smart Pension SSIF Imports API
+  slug: smart-pension-ssifimports-api
+- description: The StagingDate API from Smart Pension — 1 operation(s) for stagingdate.
+  name: Smart Pension Staging Date API
+  slug: smart-pension-stagingdate-api
+- description: The Subaccount Groups Valuations API from Smart Pension — 2 operation(s) for subaccount groups valuations.
+  name: Smart Pension Subaccount Groups Valuations API
+  slug: smart-pension-subaccount-groups-valuations-api
+- description: The Subaccounts API from Smart Pension — 3 operation(s) for subaccounts.
+  name: Smart Pension Subaccounts API
+  slug: smart-pension-subaccounts-api
+- description: The Summaries API from Smart Pension — 4 operation(s) for summaries.
+  name: Smart Pension Summaries API
+  slug: smart-pension-summaries-api
+- description: The Switches API from Smart Pension — 3 operation(s) for switches.
+  name: Smart Pension Switches API
+  slug: smart-pension-switches-api
+- description: The Tasks API from Smart Pension — 2 operation(s) for tasks.
+  name: Smart Pension Tasks API
+  slug: smart-pension-tasks-api
+- description: The Tax Preview API from Smart Pension — 1 operation(s) for tax preview.
+  name: Smart Pension Tax Preview API
+  slug: smart-pension-tax-preview-api
+- description: The TaxInformationChange API from Smart Pension — 1 operation(s) for taxinformationchange.
+  name: Smart Pension Tax Information Change API
+  slug: smart-pension-taxinformationchange-api
+- description: The TaxResidence API from Smart Pension — 1 operation(s) for taxresidence.
+  name: Smart Pension Tax Residence API
+  slug: smart-pension-taxresidence-api
+- description: The ThirdPartyPaymentProvider API from Smart Pension — 1 operation(s) for thirdpartypaymentprovider.
+  name: Smart Pension Third Party Payment Provider API
+  slug: smart-pension-thirdpartypaymentprovider-api
+- description: The ThirdPartyPaymentProviders API from Smart Pension — 3 operation(s) for thirdpartypaymentproviders.
+  name: Smart Pension Third Party Payment Providers API
+  slug: smart-pension-thirdpartypaymentproviders-api
+- description: The TodoItems API from Smart Pension — 2 operation(s) for todoitems.
+  name: Smart Pension Todo Items API
+  slug: smart-pension-todoitems-api
+- description: The Tokens API from Smart Pension — 4 operation(s) for tokens.
+  name: Smart Pension Tokens API
+  slug: smart-pension-tokens-api
+- description: The TotalFundsAMCs API from Smart Pension — 1 operation(s) for totalfundsamcs.
+  name: Smart Pension Total Funds AM Cs API
+  slug: smart-pension-totalfundsamcs-api
+- description: The Transactions API from Smart Pension — 2 operation(s) for transactions.
+  name: Smart Pension Transactions API
+  slug: smart-pension-transactions-api
+- description: The TransferIn API from Smart Pension — 2 operation(s) for transferin.
+  name: Smart Pension Transfer In API
+  slug: smart-pension-transferin-api
+- description: The TransferMoneyReview API from Smart Pension — 1 operation(s) for transfermoneyreview.
+  name: Smart Pension Transfer Money Review API
+  slug: smart-pension-transfermoneyreview-api
+- description: The UltimateBeneficialOwnerAndConfiguration API from Smart Pension — 1 operation(s) for ultimatebeneficialownerandconfiguration.
+  name: Smart Pension Ultimate Beneficial Owner And Configuration API
+  slug: smart-pension-ultimatebeneficialownerandconfiguration-api
+- description: The UltimateBeneficialOwners API from Smart Pension — 2 operation(s) for ultimatebeneficialowners.
+  name: Smart Pension Ultimate Beneficial Owners API
+  slug: smart-pension-ultimatebeneficialowners-api
+- description: The Urls API from Smart Pension — 1 operation(s) for urls.
+  name: Smart Pension URLS API
+  slug: smart-pension-urls-api
+- description: The User API from Smart Pension — 3 operation(s) for user.
+  name: Smart Pension User API
+  slug: smart-pension-user-api
+- description: The Valuations API from Smart Pension — 4 operation(s) for valuations.
+  name: Smart Pension Valuations API
+  slug: smart-pension-valuations-api
+- description: The VerificationChecks API from Smart Pension — 3 operation(s) for verificationchecks.
+  name: Smart Pension Verification Checks API
+  slug: smart-pension-verificationchecks-api
+artifact_total: 156
 common:
 - group: agent
   title: ''
@@ -178,11 +622,11 @@ modified: '2026-08-05'
 name: Smart Pension
 nav: Providers
 network: true
-overview: 'Smart Pension publishes 1 API on the [APIs.io](https://apis.io/) network: Keystone API. Tagged areas include pensions, retirement, workplace-pension, auto-enrolment, and payroll.
+overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) network, including Account Claiming API, Accounts API, Account Subaccounts Switch Plans API, and 146 more. Tagged areas include pensions, retirement, workplace-pension, auto-enrolment, and payroll.
 
 
   Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 4
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Smart Pension Rate Limits
@@ -194,16 +638,16 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.5
-  delta: 9.1
+  composite: 56.7
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.9
+    contract_quality: 52.7
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 47.4
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,8 +659,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Smart Pension Authentication

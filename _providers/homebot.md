@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -134,7 +134,7 @@ overview: 'Homebot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Homebot''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: developing
   composite: 44.7
@@ -150,7 +150,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homebot/refs/heads/main/screenshots/homebot-2026-07-25T221335.png
 security:

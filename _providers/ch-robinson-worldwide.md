@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The C.H. Robinson Carrier API enables carriers to find, offer, book, and auto-create loads directly from their own TMS, send visibility updates, upload documents for faster invoicing, and check paymen
@@ -183,7 +183,7 @@ press:
 - date: '2026-05-25'
   title: In-House Tech and AI Agents Expand Impact
   url: https://www.chrobinson.com/en-us/about-us/newsroom/news/2026/lean-ai-growing-shipper-impact/
-random_paper: 110
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Ch Robinson Worldwide Rate Limits
@@ -201,7 +201,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png
 security:

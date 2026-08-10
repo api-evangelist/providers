@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ plans:
 - name: Bot Butcher Plans Pricing
   plan_count: 3
   slug: bot-butcher-plans-pricing
-random_paper: 102
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Bot Butcher Rate Limits
@@ -116,7 +116,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/screenshots/bot-butcher-2026-06-20T173615.png
 security:

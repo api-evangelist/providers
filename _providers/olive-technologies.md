@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Olive Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Olive Technologies'' developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 64
+random_paper: 16
 score:
   band: emerging
   composite: 14.4
@@ -85,8 +85,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/olive-technologies/refs/heads/main/screenshots/olive-technologies-2026-08-07T190120.png
 security:
 - kind: domain-security
   name: Olive Technologies Domain Security

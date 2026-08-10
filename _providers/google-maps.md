@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -386,22 +386,6 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/google-maps-address-to-place-details-workflow.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/directions.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/geocoding.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/places.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/location-intelligence.yaml
 created: '2024-01-01'
 description: Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.
 examples:
@@ -1099,12 +1083,12 @@ overview: 'Google Maps Platform publishes 7 APIs on the [APIs.io](https://apis.i
   The Google Maps Platform catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Maps Platform''s developer surface includes authentication, developer console, pricing, engineering blog, support, FAQ, getting-started guide, and 40 more developer resources.'
+  Google Maps Platform''s developer surface includes authentication, developer console, pricing, engineering blog, support, FAQ, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Google Maps Plans Pricing
   plan_count: 3
   slug: google-maps-plans-pricing
-random_paper: 98
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Google Maps Rate Limits
@@ -1148,7 +1132,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

@@ -9,6 +9,26 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 55.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -84,7 +104,11 @@ apis:
 - description: The Vendors API from Puzzle — 2 operation(s) for vendors.
   name: Puzzle Vendors API
   slug: puzzle-vendors-api
-artifact_total: 29
+artifact_total: 33
+collections:
+- collection_type: open
+  name: Puzzle Accounting API
+  slug: open-puzzle-io
 common:
 - group: start
   title: ''
@@ -133,7 +157,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/puzzle-openapi-original.json
+  url: openapi/_original/puzzle-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -222,28 +246,81 @@ common:
   title: ''
   type: Components
   url: components/puzzle-components.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/puzzlefin
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/puzzle-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/puzzle-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/puzzle-finops.yml
 created: '2026-07-17'
 description: 'Puzzle is an AI-powered accounting platform for startups, SMBs, and accounting firms, built around a real-time, append-only general ledger. Its agent-native architecture pairs deterministic Puzzle agents that draft categorization, reconciliation, and month-end close for human review with native integrations to banking, card, revenue, and payroll systems (Stripe, Brex, Mercury, Ramp, Gusto, Rippling, and more). The Puzzle Accounting API gives developers programmatic, OAuth 2.0 + PKCE-secured access to the same ledger: transactions, chart of accounts, journal entries, bills, invoices, vendors, customers, payroll, financial statements (income statement, balance sheet, cash activity), and metrics such as burn, runway, and revenue. A companion read-only MCP server connects AI tools like Claude, Cursor, and Windsurf to the ledger for natural-language financial analysis.'
+finops:
+- name: Puzzle Finops
+  service_category: Accounting and Financial Management
+  slug: puzzle-finops
 image: https://puzzle.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
   name: puzzle-mcp.yml
   slug: puzzle-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Puzzle
 nav: Providers
 network: true
 overview: 'Puzzle publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Bills API, and 19 more. Tagged areas include Company, Accounting, Financial, Bookkeeping, and Fintech.
 
 
-  Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 4
+  Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
+plans:
+- name: Puzzle Plans Pricing
+  plan_count: 4
+  slug: puzzle-plans-pricing
+random_paper: 102
+rate_limits:
+- limit_count: 3
+  name: Puzzle Rate Limits
+  slug: puzzle-rate-limits
 scopes:
 - name: Puzzle Scopes
   scope_count: 21
   slug: puzzle-scopes
   summary_line: 21 scopes
+score:
+  band: strong
+  composite: 63.9
+  delta: 12.0
+  facets:
+    commercial_clarity: 100.0
+    contract_quality: 52.0
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
+    operational_transparency: 50.0
+  previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: rising
 security:
 - kind: authentication
   name: Puzzle Authentication

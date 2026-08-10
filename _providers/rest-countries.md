@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-06'
+  score: 36.9
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - description: Lookup countries by translated name.
   name: REST Countries Translation API
   slug: rest-countries-translation-api
-artifact_total: 22
+artifact_total: 32
 collections:
 - collection_type: open
   name: REST Countries
@@ -117,14 +117,67 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/rest-countries-vocabulary.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/rest-countries-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/apilayer/restcountries
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://restcountries.com/plans
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.restcountries.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rest-countries-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/rest-countries-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/rest-countries-finops.yml
 created: '2026-05-28'
 description: REST Countries is a free, open-source RESTful API that returns rich country reference data — ISO 3166-1 codes (cca2, cca3, ccn3, cioc), common/official and native names, translations, capitals, regions and subregions, continents, currencies, languages, calling codes, top-level domains, timezones, geographic coordinates, borders, area, population, demonyms, flags and coats of arms, postal code formats, Gini index, FIFA code, independence and UN membership status, driving side, and start of week. The canonical hosted instance runs at restcountries.com (v3.1) and the source is community-maintained at github.com/apilayer/restcountries (mirror of gitlab.com/restcountries/restcountries), licensed under MPL-2.0. The hosted API is unauthenticated and free; for production use the project encourages self-hosting from source.
 examples:
+- key_count: 1
+  name: Error 401 Unauthorized
+  slug: error-401-unauthorized
+- key_count: 1
+  name: List All Countries Response
+  slug: list-all-countries-response
+- key_count: 1
+  name: Lookup By Alpha2 Code Response
+  slug: lookup-by-alpha2-code-response
 - key_count: 35
   name: Rest Countries Country Example
   slug: rest-countries-country-example
+- key_count: 1
+  name: Search By Name Response
+  slug: search-by-name-response
+finops:
+- name: Rest Countries Finops
+  service_category: ''
+  slug: rest-countries-finops
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/rest-countries.png
 json_schemas:
+- name: CountriesListResponse
+  property_count: 1
+  slug: countries-list-response
+- name: Country
+  property_count: 29
+  slug: country
+- name: ErrorResponse
+  property_count: 1
+  slug: error-response
 - name: Country
   property_count: 35
   slug: rest-countries-country
@@ -133,27 +186,31 @@ json_structures:
   property_count: 35
   slug: rest-countries-country-structure
 jsonld:
+- class_count: 0
+  name: Rest Countries Api Context
+  property_count: 0
+  slug: rest-countries-api
 - class_count: 49
   name: Rest Countries Context
   property_count: 0
   slug: rest-countries-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: REST Countries
 nav: Providers
 network: true
 overview: 'REST Countries publishes 11 APIs on the [APIs.io](https://apis.io/) network, including All API, Alpha API, Capital API, and 8 more. Tagged areas include Countries, Geocoding, Geography, ISO 3166, and Open Source.
 
 
-  The REST Countries catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The REST Countries catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  REST Countries'' developer surface includes documentation and 9 more developer resources.'
+  REST Countries'' developer surface includes documentation, authentication, pricing, and 14 more developer resources.'
 plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
   slug: rest-countries-plans-pricing
-random_paper: 10
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Rest Countries Rate Limits
@@ -177,15 +234,15 @@ rules:
   slug: rest-countries-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 52.6
+  delta: 8.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 39.5
     contract_quality: 73.1
-    developer_ergonomics: 8.7
+    developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 52.6
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -195,10 +252,14 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193003.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193018.png
 security:
+- kind: authentication
+  name: Rest Countries Authentication
+  slug: rest-countries-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Rest Countries Domain Security
   slug: rest-countries-domain-security

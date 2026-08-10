@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,33 +63,41 @@ common:
   title: ''
   type: WellKnown
   url: well-known/brit-well-known.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.brit.co
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brit-llms.txt
 created: '2026-07-17'
 description: Brit + Co is a lifestyle and entertainment media platform founded by Brit Morin that publishes content and creative education for a primarily women audience. It covers self-care, food, home and DIY, travel, relationships, celebrity and entertainment news, horoscopes, shopping guides, and games, and operates a learning platform (learn.brit.co) offering more than one hundred creative online classes. The company was surfaced as a portfolio company of Slow Ventures. It is a consumer media and e-learning brand and does not currently publish a public developer API, developer portal, or machine-readable API artifacts; this profile captures its public web identity and domain-security posture.
 image: https://www.brit.co/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Brit + Co
 nav: Providers
 network: true
 overview: 'Brit + Co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Lifestyle, Entertainment, and Content.
 
 
-  Brit + Co''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 94
+  Brit + Co''s developer surface includes support, signup flow, engineering blog, and 7 more developer resources.'
+random_paper: 85
 score:
   band: emerging
-  composite: 13.8
-  delta: 0.0
+  composite: 15.0
+  delta: 1.2
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 61.1
+    developer_ergonomics: 6.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

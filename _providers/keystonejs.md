@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Auto-generated GraphQL API served at /api/graphql that provides full CRUD operations for every list in the schema. Includes single-item queries, list queries with filtering and pagination, count queri
@@ -100,7 +100,7 @@ plans:
 - name: Keystonejs Plans Pricing
   plan_count: 4
   slug: keystonejs-plans-pricing
-random_paper: 86
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Keystonejs Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keystonejs/refs/heads/main/screenshots/keystonejs-2026-06-20T184013.png
 security:

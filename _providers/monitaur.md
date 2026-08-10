@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ overview: 'Monitaur is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Monitaur''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 88
+random_paper: 67
 score:
   band: emerging
   composite: 13.2
@@ -91,8 +91,9 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/monitaur/refs/heads/main/screenshots/monitaur-2026-08-07T184201.png
 security:
 - kind: domain-security
   name: Monitaur Domain Security

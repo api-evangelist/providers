@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'CraftCoffee is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CraftCoffee''s developer surface includes engineering blog, support, signup flow, pricing, and 6 more developer resources.'
-random_paper: 14
+random_paper: 100
 score:
   band: emerging
   composite: 16.4
@@ -97,8 +97,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/craftcoffee/refs/heads/main/screenshots/craftcoffee-2026-08-07T163829.png
 security:
 - kind: domain-security
   name: Craftcoffee Domain Security

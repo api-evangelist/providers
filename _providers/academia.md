@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,10 +96,11 @@ overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Academia''s developer surface includes support and 10 more developer resources.'
-random_paper: 14
+random_paper: 109
 score:
   band: emerging
   composite: 14.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,8 +108,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
+  previous_composite: 14.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/screenshots/academia-2026-08-07T160744.png
 security:
 - kind: domain-security
   name: Academia Domain Security

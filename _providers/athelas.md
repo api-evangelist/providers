@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Athelas publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
-random_paper: 60
+random_paper: 42
 scopes:
 - name: Athelas Scopes
   scope_count: 31
@@ -228,7 +228,7 @@ score:
     regime_id: health
     score: 92.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

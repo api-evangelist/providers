@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Xalts is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xalts'' developer surface includes support and 6 more developer resources.'
-random_paper: 104
+random_paper: 92
 score:
   band: minimal
   composite: 12.8
@@ -91,7 +91,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

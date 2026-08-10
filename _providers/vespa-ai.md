@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,11 +37,8 @@ agentic_access:
   operation_count: 2
   slug: vespa-ai-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 8
+api_count: 9
 apis:
-- description: The Vespa Document API (/document/v1) provides synchronous REST access to document operations against a Vespa content cluster. It supports Put, Get, Update (partial update with assign/add/remove opera
-  name: Vespa Document API
-  slug: vespa-document-api
 - description: The Vespa Deploy API (/application/v2) manages application packages on a Vespa configuration server. It supports preparing, activating, and tearing down application packages, session-based deployments
   name: Vespa Deploy API
   slug: vespa-deploy-api
@@ -63,7 +60,13 @@ apis:
 - description: The Query API from Vespa — 1 operation(s) for query.
   name: Vespa Query API
   slug: vespa-ai-query-api
-artifact_total: 63
+- description: Single-document GET, POST, PUT, DELETE operations
+  name: Vespa Documents API
+  slug: vespa-ai-documents-api
+- description: Bulk visit (iteration) operations
+  name: Vespa Visit API
+  slug: vespa-ai-visit-api
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Vespa Query API
@@ -71,6 +74,9 @@ collections:
 - collection_type: open
   name: Vespa Query API
   slug: open-vespa-query-api
+- collection_type: open
+  name: Vespa Document API
+  slug: open-vespa
 common:
 - group: build
   title: ''
@@ -208,6 +214,26 @@ common:
   title: ''
   type: FinOps
   url: finops/vespa-ai-finops.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/vespa-ai
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.vespa.ai/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/vespa-engine/vespa
+- group: other
+  title: Vespa Cloud
+  type: CommercialOffering
+  url: https://cloud.vespa.ai/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.vespa.ai/llms.txt
 created: '2026-05-25'
 description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a single distributed serving engine that scales to billions of documents with sub-100ms latency. Vespa Cloud is the fully managed commercial offering operated by the Vespa.ai team across AWS and GCP, with Startup, Basic, Commercial, and Enterprise plans plus a Self-Managed option for customers running the open-source engine on their own infrastructure. Vespa is widely used at Spotify, Perplexity, Yahoo, Farfetch, and Elicit for search, recommendation, personalization, and Retrieval-Augmented Generation (RAG).
 examples:
@@ -273,22 +299,22 @@ jsonld:
   property_count: 6
   slug: vespa-ai-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Vespa
 nav: Providers
 network: true
-overview: 'Vespa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Document API and Query API. Tagged areas include AI, Search, Vector Database, Big Data, and Machine Learning.
+overview: 'Vespa publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, Documents API, and Visit API. Tagged areas include AI, Search, Vector Database, Big Data, and Machine Learning.
 
 
   The Vespa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 27 more developer resources.'
+  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 32 more developer resources.'
 plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
   slug: vespa-ai-plans-pricing
-random_paper: 112
+random_paper: 94
 rate_limits:
 - limit_count: 6
   name: Vespa Ai Rate Limits
@@ -312,12 +338,12 @@ rules:
   slug: vespa-ai-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 59.9
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.1
-    developer_ergonomics: 63.0
+    contract_quality: 56.1
+    developer_ergonomics: 71.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
@@ -330,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:

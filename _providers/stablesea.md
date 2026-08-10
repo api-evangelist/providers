@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Liquidity Providers API from Stablesea — 2 operation(s) for liquidity providers.
@@ -95,7 +95,7 @@ overview: 'Stablesea publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stablesea''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 44
+random_paper: 20
 score:
   band: thin
   composite: 33.8
@@ -124,7 +124,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

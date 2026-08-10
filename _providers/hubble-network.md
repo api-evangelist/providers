@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -26,12 +26,30 @@ agentic_access:
   operation_count: 39
   slug: hubble-network-agentic-access
   summary_line: 39 operations · 19 acting
-api_count: 1
+api_count: 7
 apis:
-- description: The Hubble Cloud API is the API-first control plane for the Hubble Network platform. It manages devices (register, list, get, update, batch update, batch delete), retrieves and streams decrypted Bluet
-  name: Hubble Platform API
-  slug: hubble-platform-api
-artifact_total: 19
+- description: The API Keys API from Hubble Network — 4 operation(s) for api keys.
+  name: Hubble Network API Keys API
+  slug: hubble-network-api-keys-api
+- description: The Billing API from Hubble Network — 6 operation(s) for billing.
+  name: Hubble Network Billing API
+  slug: hubble-network-billing-api
+- description: The Devices API from Hubble Network — 3 operation(s) for devices.
+  name: Hubble Network Devices API
+  slug: hubble-network-devices-api
+- description: The Organizations API from Hubble Network — 4 operation(s) for organizations.
+  name: Hubble Network Organizations API
+  slug: hubble-network-organizations-api
+- description: The Packet Webhooks API from Hubble Network — 3 operation(s) for packet webhooks.
+  name: Hubble Network Packet Webhooks API
+  slug: hubble-network-packet-webhooks-api
+- description: The Packets API from Hubble Network — 2 operation(s) for packets.
+  name: Hubble Network Packets API
+  slug: hubble-network-packets-api
+- description: The Platform Metrics API from Hubble Network — 4 operation(s) for platform metrics.
+  name: Hubble Network Platform Metrics API
+  slug: hubble-network-platform-metrics-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Hubble Network Packet Webhooks
@@ -260,7 +278,7 @@ modified: '2026-08-04'
 name: Hubble Network
 nav: Providers
 network: true
-overview: 'Hubble Network publishes 1 API on the [APIs.io](https://apis.io/) network: Hubble Platform API. Tagged areas include Company, IoT, Bluetooth, Satellite, and Connectivity.
+overview: 'Hubble Network publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Billing API, Devices API, and 4 more. Tagged areas include Company, IoT, Bluetooth, Satellite, and Connectivity.
 
 
   The Hubble Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -271,7 +289,7 @@ plans:
 - name: Hubble Network Plans Pricing
   plan_count: 4
   slug: hubble-network-plans-pricing
-random_paper: 93
+random_paper: 57
 rate_limits:
 - limit_count: 7
   name: Hubble Network Rate Limits
@@ -283,13 +301,13 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 72.9
-  delta: 0.0
+  composite: 72.8
+  delta: -0.1
   facets:
     commercial_clarity: 76.3
-    contract_quality: 78.3
+    contract_quality: 75.8
     developer_ergonomics: 78.3
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 94.7
   previous_composite: 72.9
@@ -304,8 +322,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-07T170350.png
 security:
 - kind: authentication
   name: Hubble Network Authentication

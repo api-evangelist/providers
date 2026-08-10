@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Perennial Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Perennial Labs'' developer surface includes documentation, API reference, getting-started guide, and 9 more developer resources.'
-random_paper: 65
+random_paper: 29
 score:
   band: emerging
   composite: 16.1
@@ -111,7 +111,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

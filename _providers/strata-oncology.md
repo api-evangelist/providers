@@ -18,13 +18,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 10
 apis:
-- description: The public, anonymous, read-only content API behind strataoncology.com. It is the standard WordPress REST API (wp/v2 namespace) exposing the company's publications, resources, team profiles, testimoni
-  name: Strata Oncology Website Content API
-  slug: strata-oncology-content-api
-artifact_total: 3
+- description: Registered types, taxonomies and statuses.
+  name: Strata Oncology Discovery API
+  slug: strata-oncology-discovery-api
+- description: Uploaded media items.
+  name: Strata Oncology Media API
+  slug: strata-oncology-media-api
+- description: Website pages.
+  name: Strata Oncology Pages API
+  slug: strata-oncology-pages-api
+- description: Blog posts.
+  name: Strata Oncology Posts API
+  slug: strata-oncology-posts-api
+- description: Press releases and published research.
+  name: Strata Oncology Publications API
+  slug: strata-oncology-publications-api
+- description: Patient and provider resource documents.
+  name: Strata Oncology Resources API
+  slug: strata-oncology-resources-api
+- description: Cross-content-type search.
+  name: Strata Oncology Search API
+  slug: strata-oncology-search-api
+- description: Categories and tags.
+  name: Strata Oncology Taxonomy API
+  slug: strata-oncology-taxonomy-api
+- description: Leadership and team member profiles.
+  name: Strata Oncology Team API
+  slug: strata-oncology-team-api
+- description: Published testimonials.
+  name: Strata Oncology Testimonials API
+  slug: strata-oncology-testimonials-api
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -126,20 +153,20 @@ modified: '2026-08-02'
 name: Strata Oncology
 nav: Providers
 network: true
-overview: 'Strata Oncology publishes 1 API on the [APIs.io](https://apis.io/) network: Website Content API. Tagged areas include Company, Healthcare, Precision Medicine, Oncology, and Genomics.
+overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Pages API, and 7 more. Tagged areas include Company, Healthcare, Precision Medicine, Oncology, and Genomics.
 
 
   Strata Oncology''s developer surface includes engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 105
+random_paper: 66
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 26.0
+  delta: 0.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 14.9
+    contract_quality: 14.0
     developer_ergonomics: 3.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 25.7
@@ -159,7 +186,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

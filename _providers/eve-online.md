@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -545,7 +545,7 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 42 more developer resources.'
-random_paper: 106
+random_paper: 82
 rules:
 - name: EVE Online API Rules
   rule_count: 5
@@ -588,7 +588,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

@@ -18,16 +18,34 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: The anonymously readable WordPress REST API behind www.adarx.com. It exposes 46 published posts (23 press releases, 9 board biographies, 7 clinical-trial listings, 5 leadership biographies and 3 publi
+- description: The STOP-HAE trial-site (clinic) registry.
+  name: ADARx Pharmaceuticals Clinics API
+  slug: adarx-pharmaceuticals-clinics-api
+- description: Press releases, publications and corporate pages.
   name: ADARx Pharmaceuticals Content API
   slug: adarx-pharmaceuticals-content-api
-- description: 'The anonymously readable WordPress REST API behind stophae.com, the patient-recruitment site for STOP-HAE — ADARx''s Phase 3 randomized, double-blind, placebo-controlled study of ADX-324 (onvuzosiran) '
-  name: ADARx STOP-HAE Trial Site API
-  slug: adarx-pharmaceuticals-stop-hae-api
-artifact_total: 5
+- description: oEmbed provider and SEO head rendering.
+  name: ADARx Pharmaceuticals Embed API
+  slug: adarx-pharmaceuticals-embed-api
+- description: Route discovery and site identity.
+  name: ADARx Pharmaceuticals Index API
+  slug: adarx-pharmaceuticals-index-api
+- description: The site media library.
+  name: ADARx Pharmaceuticals Media API
+  slug: adarx-pharmaceuticals-media-api
+- description: Content authors registered on the site.
+  name: ADARx Pharmaceuticals People API
+  slug: adarx-pharmaceuticals-people-api
+- description: Cross-content search.
+  name: ADARx Pharmaceuticals Search API
+  slug: adarx-pharmaceuticals-search-api
+- description: Categories, tags, taxonomies and post statuses.
+  name: ADARx Pharmaceuticals Taxonomy API
+  slug: adarx-pharmaceuticals-taxonomy-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -171,24 +189,26 @@ modified: '2026-08-06'
 name: ADARx Pharmaceuticals
 nav: Providers
 network: true
-overview: 'ADARx Pharmaceuticals publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and ADARx STOP-HAE Trial Site API. Tagged areas include Company, biotechnology, biopharmaceuticals, rna-therapeutics, and sirna.
+overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, biotechnology, biopharmaceuticals, rna-therapeutics, and sirna.
 
 
   The ADARx Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
   ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
-random_paper: 16
+random_paper: 75
 score:
   band: thin
   composite: 33.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.3
+    contract_quality: 59.0
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 33.0
   provenance:
     conformance: derived
     contracts:
@@ -198,7 +218,9 @@ score:
       total: 2
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:
 - kind: authentication
   name: Adarx Pharmaceuticals Authentication

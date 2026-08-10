@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/relace-openapi-original.json
+  url: openapi/_original/relace-openapi-original.json
 - group: agent
   title: ''
   type: MCPServer
@@ -182,7 +182,7 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Relace''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 55
+random_paper: 40
 score:
   band: developing
   composite: 52.3
@@ -206,7 +206,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Answer operations
@@ -151,7 +151,7 @@ overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: an
 
 
   Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 110
+random_paper: 98
 score:
   band: developing
   composite: 52.4
@@ -174,7 +174,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

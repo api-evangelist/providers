@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Guide Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Guide Labs'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: minimal
   composite: 11.6
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guide-labs/refs/heads/main/screenshots/guide-labs-2026-07-25T220419.png
 security:

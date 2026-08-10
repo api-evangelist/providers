@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'REST API for UQ eSpace providing programmatic access to research outputs and dataset records held in the repository. UQ Library has published API documentation with executable examples describing the '
@@ -115,7 +115,7 @@ plans:
 - name: Uq Plans Pricing
   plan_count: 2
   slug: uq-plans-pricing
-random_paper: 4
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Uq Rate Limits
@@ -139,7 +139,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Shopify Storefront GraphQL API for the Slingshot Bio online store, declared by the company in its own /.well-known/api-catalog. Serves products, collections, cart and checkout operations for the c
@@ -125,7 +125,7 @@ overview: 'Slingshot Biosciences publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Slingshot Biosciences'' developer surface includes engineering blog, support, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 44
+random_paper: 103
 scopes:
 - name: Slingshot Biosciences Scopes
   scope_count: 4
@@ -134,7 +134,7 @@ scopes:
 score:
   band: thin
   composite: 37.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 43.2
@@ -142,7 +142,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,7 +154,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

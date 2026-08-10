@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Google Cloud Secret Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-secret-manager-plans-pricing
-random_paper: 85
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Google Cloud Secret Manager Rate Limits
@@ -200,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/screenshots/google-cloud-secret-manager-2026-06-20T182131.png
 security:

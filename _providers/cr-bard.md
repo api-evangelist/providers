@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: BD accelerates offerings with Bard
   url: https://www.hmenews.com/article/bd-accelerates-offerings-bard
-random_paper: 102
+random_paper: 87
 score:
   band: minimal
   composite: 9.2
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cr-bard/refs/heads/main/screenshots/cr-bard-2026-06-20T175204.png
 security:

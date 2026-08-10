@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 19
 common:
@@ -114,7 +114,7 @@ plans:
 - name: Allianz Plans Pricing
   plan_count: 1
   slug: allianz-plans-pricing
-random_paper: 69
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Allianz Rate Limits
@@ -138,7 +138,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz/refs/heads/main/screenshots/allianz-2026-06-20T171535.png
 security:

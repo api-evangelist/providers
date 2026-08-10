@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ overview: 'GetVocal publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   GetVocal''s developer surface includes documentation, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 62
+random_paper: 41
 score:
   band: thin
   composite: 40.8
@@ -156,7 +156,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/screenshots/getvocal-2026-07-25T215750.png
 security:

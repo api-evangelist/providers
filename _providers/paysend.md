@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
@@ -134,7 +134,7 @@ overview: 'Paysend publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Paysend''s developer surface includes documentation, API reference, authentication, engineering blog, getting-started guide, support, sandbox, and 14 more developer resources.'
-random_paper: 78
+random_paper: 60
 score:
   band: thin
   composite: 40.8
@@ -157,8 +157,9 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paysend/refs/heads/main/screenshots/paysend-2026-08-07T191655.png
 security:
 - kind: authentication
   name: Paysend Authentication

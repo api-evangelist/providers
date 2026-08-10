@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 36
 apis:
 - description: Account Token
@@ -268,7 +268,7 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 106
+random_paper: 79
 score:
   band: developing
   composite: 45.8
@@ -297,7 +297,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

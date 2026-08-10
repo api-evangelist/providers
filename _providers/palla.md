@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Palla''s developer surface includes documentation, API reference, authentication, and 25 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: developing
   composite: 50.3
@@ -226,8 +226,9 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:
 - kind: authentication
   name: Palla Authentication

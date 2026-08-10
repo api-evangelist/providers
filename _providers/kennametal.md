@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Kennametal Announces Strategic Investment in CAM AI ...
   url: https://www.prnewswire.com/news-releases/kennametal-announces-strategic-investment-in-cam-ai-software-leader-toolpath-labs-to-advance-intelligent-machining-302463424.html
-random_paper: 39
+random_paper: 12
 score:
   band: minimal
   composite: 5.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kennametal/refs/heads/main/screenshots/kennametal-2026-06-20T183951.png
 security:

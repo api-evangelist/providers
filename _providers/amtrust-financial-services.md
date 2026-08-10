@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -138,10 +138,6 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/amtrust-financial-services-quote-response-schema.json
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: json-schema/amtrust-financial-services-policy-schema.json
 - group: design
   title: ''
   type: JSONLD
@@ -259,7 +255,7 @@ overview: 'AmTrust Financial Services publishes 4 APIs on the [APIs.io](https://
   The AmTrust Financial Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AmTrust Financial Services'' developer surface includes authentication, developer portal, documentation, signup flow, support, engineering blog, and 17 more developer resources.'
+  AmTrust Financial Services'' developer surface includes authentication, developer portal, documentation, signup flow, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Amtrust Financial Services Plans Pricing
   plan_count: 3
@@ -280,7 +276,7 @@ press:
 - date: '2026-05-25'
   title: 'AmTrust partners with Blackstone: Insurance news'
   url: https://www.dig-in.com/news/amtrust-partners-with-blackstone-insurance-news
-random_paper: 76
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amtrust Financial Services Rate Limits
@@ -328,7 +324,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:

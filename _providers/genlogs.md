@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'GenLogs publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   GenLogs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: developing
   composite: 43.7
@@ -194,7 +194,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/screenshots/genlogs-2026-07-25T215622.png
 security:

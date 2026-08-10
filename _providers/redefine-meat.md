@@ -18,18 +18,18 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
-- description: The WooCommerce Store API served from www.redefinemeat.com/wp-json/wc/store/v1 - a public, unauthenticated commerce surface covering the Redefine Meat product catalog (B2B and B2C categories), product
-  name: Redefine Meat Store API
-  slug: store
-- description: The WordPress REST API (wp/v2) served from www.redefinemeat.com/wp-json/wp/v2 - posts, pages, media, comments, taxonomies and the site's custom post types for products, press releases, news, recipes a
-  name: Redefine Meat Content API
-  slug: content
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
   name: Redefine Meat MCP Server
   slug: mcp
+- description: The wc/store/v1 API from Redefine Meat — 30 operation(s) for wc/store/v1.
+  name: Redefine Meat Wc/store/v1 API
+  slug: redefine-meat-wc-store-v1-api
+- description: The wp/v2 API from Redefine Meat — 117 operation(s) for wp/v2.
+  name: Redefine Meat Wp/v2 API
+  slug: redefine-meat-wp-v2-api
 artifact_total: 8
 asyncapis:
 - description: ''
@@ -149,14 +149,14 @@ modified: '2026-08-05'
 name: Redefine Meat
 nav: Providers
 network: true
-overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) network: Store API and Content API. Tagged areas include Food and Beverage, Alternative Protein, Plant-Based, Food Technology, and Manufacturing.
+overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) network: Wc/store/v1 API and Wp/v2 API. Tagged areas include Food and Beverage, Alternative Protein, Plant-Based, Food Technology, and Manufacturing.
 
 
   The Redefine Meat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 59
+random_paper: 26
 scopes:
 - name: Redefine Meat Scopes
   scope_count: 1
@@ -164,11 +164,11 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 35.7
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 67.5
+    contract_quality: 63.6
     developer_ergonomics: 19.0
     discoverability: 92.6
     governance: 20.8
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

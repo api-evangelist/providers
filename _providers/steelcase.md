@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ press:
 - date: '2025-09-30'
   title: Steelcase 2025 Impact Report Highlights the Strength of Community and Progress Toward a Net-Zero Future
   url: https://www.steelcase.com/press-releases/steelcase-2025-impact-report-highlights-the-strength-of-community-and-progress-toward-a-net-zero-future/
-random_paper: 49
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Steelcase Rate Limits
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

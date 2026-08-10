@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -226,7 +226,7 @@ overview: 'Orum publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orum''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 112
+random_paper: 103
 scopes:
 - name: Orum Scopes
   scope_count: 29
@@ -261,8 +261,9 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/screenshots/orum-2026-08-07T191005.png
 security:
 - kind: authentication
   name: Orum Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/mem-openapi-original.json
+  url: openapi/_original/mem-openapi-original.json
 - group: agent
   title: ''
   type: MCPServer
@@ -199,7 +199,7 @@ overview: 'Mem publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 93
+random_paper: 87
 rate_limits:
 - limit_count: 4
   name: Mem Rate Limits
@@ -232,8 +232,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:
 - kind: authentication
   name: Mem Authentication

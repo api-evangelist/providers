@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 78
 apis:
 - description: The ClientApi API from Automile — 1 operation(s) for clientapi.
@@ -386,7 +386,7 @@ overview: 'Automile publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Automile''s developer surface includes documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 73
+random_paper: 52
 scopes:
 - name: Automile Scopes
   scope_count: 2
@@ -414,7 +414,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/screenshots/automile-2026-07-25T201834.png
 security:

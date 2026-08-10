@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -2169,7 +2169,7 @@ overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://a
 
 
   Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
-random_paper: 10
+random_paper: 60
 rules:
 - name: Amazon Compute Optimizer API Rules
   rule_count: 5
@@ -2209,7 +2209,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:

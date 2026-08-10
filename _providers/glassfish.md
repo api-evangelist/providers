@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Built-in REST administration API exposed by the GlassFish Domain Administration Server (DAS) for managing domains, applications, JDBC and JMS resources, clusters, monitoring data, and configuration. S
@@ -83,7 +83,7 @@ overview: 'Eclipse GlassFish publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Eclipse GlassFish''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 9.7
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassfish/refs/heads/main/screenshots/glassfish-2026-06-20T181901.png
 security:

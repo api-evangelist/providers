@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -119,6 +119,14 @@ common:
   title: ''
   type: GitHub
   url: https://github.com/sutrolabs
+- group: other
+  title: ''
+  type: Activations
+  url: https://fivetran.com/docs/activations
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.getcensus.com/
 created: '2026-03-27'
 description: Census is a reverse ETL and data activation platform that syncs data from cloud data warehouses (Snowflake, BigQuery, Databricks, Redshift) into operational SaaS applications. Census was acquired by Fivetran and is now branded as Fivetran Activations, offering a REST API for managing workspaces, datasets, syncs, destinations, and custom destinations, plus embedded Activations (Connect Links) for Powered by Fivetran use cases.
 finops:
@@ -131,19 +139,19 @@ graphqls:
   slug: census-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/census.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-08'
 name: Census
 nav: Providers
 network: true
 overview: 'Census publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Destinations API, Models API, Segments API, and 4 more. Tagged areas include Connectors, Data Activation, Data Warehouse, Destinations, and Fivetran Activations.
 
 
-  Census'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, and 7 more developer resources.'
+  Census'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, signup flow, and 8 more developer resources.'
 plans:
 - name: Census Plans Pricing
   plan_count: 3
   slug: census-plans-pricing
-random_paper: 92
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Census Rate Limits
@@ -168,9 +176,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174116.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:
 - kind: authentication
   name: Census Authentication

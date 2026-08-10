@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: IQVIA
 nav: Providers
 network: true
 overview: IQVIA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Clinical Research, Fortune 500, Healthcare, and Life Sciences.
-random_paper: 86
+random_paper: 74
 score:
   band: minimal
   composite: 6.0
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/screenshots/iqvia-2026-06-20T183608.png
 security:

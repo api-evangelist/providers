@@ -1,6 +1,47 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bionaut-labs-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bionautlabs.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bionaut-labs
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/bionaut-labs_stock/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bionaut-labs-llms.txt
 coverage:
   checked: '2026-08-07'
   detail: Bionaut Labs builds a magnetically steered micro-robot drug-delivery device regulated as a medical device, and its entire website now serves the same 790-byte logo placeholder for every path — /newsroom, /team/*, /.well-known/* and /openapi.json all return byte-identical HTML to a nonsense control path — so there is no developer surface, and no documentation surface at all, to read.
@@ -25,7 +66,35 @@ modified: '2026-08-07'
 name: Bionaut Labs
 nav: Providers
 network: true
-random_paper: 87
+overview: Bionaut Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Robotics, Healthcare, and Biotechnology.
+random_paper: 57
+score:
+  band: minimal
+  composite: 6.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bionaut-labs/refs/heads/main/screenshots/bionaut-labs-2026-08-07T162512.png
+security:
+- kind: domain-security
+  name: Bionaut Labs Domain Security
+  slug: bionaut-labs-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: bionaut-labs
 tags:
 - Company
@@ -37,4 +106,5 @@ tags:
 - Neurology
 - Micro-Robotics
 - Life Sciences
+website: https://www.bionautlabs.com/
 ---

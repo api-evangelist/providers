@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: ANNUAL REPORT 2024
   url: https://www.clevelandcliffs.com/investors/sec-filings/annual-reports/content/0000764065-25-000074/0000764065-25-000074.pdf
-random_paper: 94
+random_paper: 31
 score:
   band: minimal
   composite: 7.5
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cliffs-natural-resources/refs/heads/main/screenshots/cliffs-natural-resources-2026-06-20T174519.png
 security:

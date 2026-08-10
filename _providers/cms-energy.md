@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: CMS Energy Exceeds Earnings Guidance in 2025, Raises ...
   url: https://www.prnewswire.com/news-releases/cms-energy-exceeds-earnings-guidance-in-2025-raises-2026-adjusted-eps-guidance-302679615.html
-random_paper: 1
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Cms Energy Rate Limits
@@ -183,7 +183,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png
 security:

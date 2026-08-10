@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -595,7 +595,7 @@ plans:
 - name: Opsgenie Plans Pricing
   plan_count: 5
   slug: opsgenie-plans-pricing
-random_paper: 67
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Opsgenie Rate Limits
@@ -637,7 +637,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

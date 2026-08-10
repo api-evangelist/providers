@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Provides current and historical currency exchange rates with free plan 1K requests/month
@@ -63,7 +63,7 @@ overview: 'CurrencyFreaks publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   CurrencyFreaks'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 42
+random_paper: 3
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencyfreaks/refs/heads/main/screenshots/currencyfreaks-2026-06-20T175337.png
 security:

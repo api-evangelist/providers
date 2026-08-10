@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The private, organization-scoped HTTP API behind Steno's first-party case-management integrations. The Steno-Litify Salesforce managed package is configured with a Steno API URL and an API Key that St
@@ -127,10 +127,11 @@ overview: 'Steno publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Steno''s developer surface includes documentation, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 101
+random_paper: 89
 score:
   band: emerging
   composite: 27.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -138,10 +139,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 27.5
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Steno Authentication

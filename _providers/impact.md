@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: REST API for brands to manage partnership campaigns, track conversions, process commissions, manage contracts, and report on partnership performance.
@@ -130,7 +130,7 @@ plans:
 - name: Impact Plans Pricing
   plan_count: 4
   slug: impact-plans-pricing
-random_paper: 73
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Impact Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 31.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:

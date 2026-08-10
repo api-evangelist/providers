@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The live, anonymous REST API behind the SP Energy Networks Open Data Portal — ScottishPower's regulated distribution and transmission arm publishing its network data under Ofgem's Data Best Practice "
@@ -209,7 +209,7 @@ overview: 'ScottishPower publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   ScottishPower''s developer surface includes authentication, changelog, code examples, API reference, getting-started guide, signup flow, documentation, and 31 more developer resources.'
-random_paper: 82
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Scottishpower Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

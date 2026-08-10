@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -157,7 +157,7 @@ overview: 'Hudl is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hudl''s developer surface includes changelog, engineering blog, support, GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 90
+random_paper: 81
 score:
   band: minimal
   composite: 10.6
@@ -171,7 +171,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 10.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hudl/refs/heads/main/screenshots/hudl-2026-06-20T182923.png
 security:

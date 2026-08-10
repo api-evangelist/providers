@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -26,21 +26,144 @@ agentic_access:
   operation_count: 263
   slug: bigeye-agentic-access
   summary_line: 263 operations · 158 acting · 5 human-in-the-loop
-api_count: 4
+api_count: 45
 apis:
-- description: 'The Bigeye Metadata API covers the data catalog and workspace administration surface: sources, schemas, tables, columns and virtual tables; catalog rebuilds and schema-change tracking; lineage (v1 and'
-  name: Bigeye Metadata API
-  slug: bigeye-metadata-api
-- description: 'The Bigeye Observability API covers monitoring and data quality: metrics (monitors) and metric templates, custom SQL rules, autometrics, backfills and batch metric runs, collections of monitors, delta'
-  name: Bigeye Observability API
-  slug: bigeye-observability-api
-- description: 'The Bigeye Sensitivity API covers sensitive data discovery and classification: classifiers, data classes and data class categories, scan jobs and scan job configuration, scan runs, and the aggregate a'
-  name: Bigeye Sensitivity API
-  slug: bigeye-sensitivity-api
 - description: The Bigeye MCP Gateway is a hosted Model Context Protocol server at https://mcpgateway.bigeye.com/mcp that exposes 56 tools over the Bigeye platform for AI assistants and agents — listing and triaging
   name: Bigeye MCP Gateway
   slug: bigeye-mcp-gateway
-artifact_total: 11
+- description: The AgentService API from Bigeye — 5 operation(s) for agentservice.
+  name: Bigeye Agent Service API
+  slug: bigeye-agentservice-api
+- description: The ApiKeyService API from Bigeye — 6 operation(s) for apikeyservice.
+  name: Bigeye API Key Service API
+  slug: bigeye-apikeyservice-api
+- description: The CatalogRebuildsService API from Bigeye — 3 operation(s) for catalogrebuildsservice.
+  name: Bigeye Catalog Rebuilds Service API
+  slug: bigeye-catalogrebuildsservice-api
+- description: The ClassifierService API from Bigeye — 6 operation(s) for classifierservice.
+  name: Bigeye Classifier Service API
+  slug: bigeye-classifierservice-api
+- description: The CollectionService API from Bigeye — 4 operation(s) for collectionservice.
+  name: Bigeye Collection Service API
+  slug: bigeye-collectionservice-api
+- description: The CollectionV2Service API from Bigeye — 3 operation(s) for collectionv2service.
+  name: Bigeye Collection V2 Service API
+  slug: bigeye-collectionv2service-api
+- description: The ColumnService API from Bigeye — 3 operation(s) for columnservice.
+  name: Bigeye Column Service API
+  slug: bigeye-columnservice-api
+- description: The CompanyService API from Bigeye — 1 operation(s) for companyservice.
+  name: Bigeye Company Service API
+  slug: bigeye-companyservice-api
+- description: The ComparisonTableService API from Bigeye — 6 operation(s) for comparisontableservice.
+  name: Bigeye Comparison Table Service API
+  slug: bigeye-comparisontableservice-api
+- description: The ConfigService API from Bigeye — 2 operation(s) for configservice.
+  name: Bigeye Config Service API
+  slug: bigeye-configservice-api
+- description: The CustomRuleService API from Bigeye — 8 operation(s) for customruleservice.
+  name: Bigeye Custom Rule Service API
+  slug: bigeye-customruleservice-api
+- description: The DashboardService API from Bigeye — 2 operation(s) for dashboardservice.
+  name: Bigeye Dashboard Service API
+  slug: bigeye-dashboardservice-api
+- description: The DataClassCategoryService API from Bigeye — 1 operation(s) for dataclasscategoryservice.
+  name: Bigeye Data Class Category Service API
+  slug: bigeye-dataclasscategoryservice-api
+- description: The DataClassService API from Bigeye — 4 operation(s) for dataclassservice.
+  name: Bigeye Data Class Service API
+  slug: bigeye-dataclassservice-api
+- description: The DeltaService API from Bigeye — 5 operation(s) for deltaservice.
+  name: Bigeye Delta Service API
+  slug: bigeye-deltaservice-api
+- description: The DimensionService API from Bigeye — 5 operation(s) for dimensionservice.
+  name: Bigeye Dimension Service API
+  slug: bigeye-dimensionservice-api
+- description: The FavoriteService API from Bigeye — 4 operation(s) for favoriteservice.
+  name: Bigeye Favorite Service API
+  slug: bigeye-favoriteservice-api
+- description: The GroupService API from Bigeye — 4 operation(s) for groupservice.
+  name: Bigeye Group Service API
+  slug: bigeye-groupservice-api
+- description: The IntegrationService API from Bigeye — 7 operation(s) for integrationservice.
+  name: Bigeye Integration Service API
+  slug: bigeye-integrationservice-api
+- description: The IssueService API from Bigeye — 5 operation(s) for issueservice.
+  name: Bigeye Issue Service API
+  slug: bigeye-issueservice-api
+- description: The JoinService API from Bigeye — 3 operation(s) for joinservice.
+  name: Bigeye Join Service API
+  slug: bigeye-joinservice-api
+- description: The LineageService API from Bigeye — 8 operation(s) for lineageservice.
+  name: Bigeye Lineage Service API
+  slug: bigeye-lineageservice-api
+- description: The LineageV2Service API from Bigeye — 7 operation(s) for lineagev2service.
+  name: Bigeye Lineage V2 Service API
+  slug: bigeye-lineagev2service-api
+- description: The MetricObservedColumnService API from Bigeye — 7 operation(s) for metricobservedcolumnservice.
+  name: Bigeye Metric Observed Column Service API
+  slug: bigeye-metricobservedcolumnservice-api
+- description: The MetricService API from Bigeye — 20 operation(s) for metricservice.
+  name: Bigeye Metric Service API
+  slug: bigeye-metricservice-api
+- description: The MetricTemplateService API from Bigeye — 3 operation(s) for metrictemplateservice.
+  name: Bigeye Metric Template Service API
+  slug: bigeye-metrictemplateservice-api
+- description: The NamedScheduleService API from Bigeye — 3 operation(s) for namedscheduleservice.
+  name: Bigeye Named Schedule Service API
+  slug: bigeye-namedscheduleservice-api
+- description: The ObjectOwnerService API from Bigeye — 2 operation(s) for objectownerservice.
+  name: Bigeye Object Owner Service API
+  slug: bigeye-objectownerservice-api
+- description: The QueryService API from Bigeye — 1 operation(s) for queryservice.
+  name: Bigeye Query Service API
+  slug: bigeye-queryservice-api
+- description: The RoleService API from Bigeye — 4 operation(s) for roleservice.
+  name: Bigeye Role Service API
+  slug: bigeye-roleservice-api
+- description: The ScanJobService API from Bigeye — 12 operation(s) for scanjobservice.
+  name: Bigeye Scan Job Service API
+  slug: bigeye-scanjobservice-api
+- description: The ScanRunService API from Bigeye — 2 operation(s) for scanrunservice.
+  name: Bigeye Scan Run Service API
+  slug: bigeye-scanrunservice-api
+- description: The SchemaChangeService API from Bigeye — 1 operation(s) for schemachangeservice.
+  name: Bigeye Schema Change Service API
+  slug: bigeye-schemachangeservice-api
+- description: The SchemaService API from Bigeye — 6 operation(s) for schemaservice.
+  name: Bigeye Schema Service API
+  slug: bigeye-schemaservice-api
+- description: The SearchService API from Bigeye — 1 operation(s) for searchservice.
+  name: Bigeye Search Service API
+  slug: bigeye-searchservice-api
+- description: The ServiceAccountApiKeyService API from Bigeye — 4 operation(s) for serviceaccountapikeyservice.
+  name: Bigeye Service Account API Key Service API
+  slug: bigeye-serviceaccountapikeyservice-api
+- description: The SourceService API from Bigeye — 7 operation(s) for sourceservice.
+  name: Bigeye Source Service API
+  slug: bigeye-sourceservice-api
+- description: The TableService API from Bigeye — 14 operation(s) for tableservice.
+  name: Bigeye Table Service API
+  slug: bigeye-tableservice-api
+- description: The TagService API from Bigeye — 5 operation(s) for tagservice.
+  name: Bigeye Tag Service API
+  slug: bigeye-tagservice-api
+- description: The UserService API from Bigeye — 4 operation(s) for userservice.
+  name: Bigeye User Service API
+  slug: bigeye-userservice-api
+- description: The VirtualTableService API from Bigeye — 5 operation(s) for virtualtableservice.
+  name: Bigeye Virtual Table Service API
+  slug: bigeye-virtualtableservice-api
+- description: The WorkflowService API from Bigeye — 1 operation(s) for workflowservice.
+  name: Bigeye Workflow Service API
+  slug: bigeye-workflowservice-api
+- description: The WorkflowV2Service API from Bigeye — 2 operation(s) for workflowv2service.
+  name: Bigeye Workflow V2 Service API
+  slug: bigeye-workflowv2service-api
+- description: The WorkspaceService API from Bigeye — 4 operation(s) for workspaceservice.
+  name: Bigeye Workspace Service API
+  slug: bigeye-workspaceservice-api
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Bigeye Webhooks
@@ -206,21 +329,21 @@ modified: '2026-08-02'
 name: Bigeye
 nav: Providers
 network: true
-overview: 'Bigeye publishes 3 APIs on the [APIs.io](https://apis.io/) network: Metadata API, Observability API, and Sensitivity API. Tagged areas include Company, Data Observability, Data Quality, Data Lineage, and Data Governance.
+overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Agent Service API, API Key Service API, Catalog Rebuilds Service API, and 41 more. Tagged areas include Company, Data Observability, Data Quality, Data Lineage, and Data Governance.
 
 
   The Bigeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 64
+random_paper: 49
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 56.9
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.1
+    contract_quality: 55.8
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -232,8 +355,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:
 - kind: authentication
   name: Bigeye Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
 
 
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
-random_paper: 111
+random_paper: 102
 rules:
 - name: Ruby Programming Language and Popular API Gems API Rules
   rule_count: 5
@@ -310,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:

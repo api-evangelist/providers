@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -168,7 +168,7 @@ overview: 'Akia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Akia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 67
+random_paper: 58
 scopes:
 - name: Akia Scopes
   scope_count: 16
@@ -177,6 +177,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -184,6 +185,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 18.4
+  previous_composite: 53.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
@@ -191,7 +196,9 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
 security:
 - kind: authentication
   name: Akia Authentication

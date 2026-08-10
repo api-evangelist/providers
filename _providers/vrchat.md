@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The HTTP API at api.vrchat.cloud/api/1 that backs the VRChat client and the vrchat.com website — authentication, users, friends, worlds, avatars, instances, groups, files and notifications. VRChat ope
@@ -149,10 +149,11 @@ overview: 'VRChat publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   VRChat''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, changelog, CLI, and 20 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: thin
   composite: 32.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -160,10 +161,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
+  previous_composite: 32.7
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: domain-security
   name: Vrchat Domain Security

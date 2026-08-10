@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for TOUR (TOhoku University Repository), the university's institutional repository hosted on NII JAIRO Cloud (WEKO3). Verified live, returning a valid Identify
@@ -104,7 +104,7 @@ plans:
 - name: Tohoku Plans Pricing
   plan_count: 2
   slug: tohoku-plans-pricing
-random_paper: 101
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Tohoku Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png
 security:

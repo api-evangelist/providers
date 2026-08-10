@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 15
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: TrinityRail Enters Joint Venture to Transform North America's ...
   url: https://www.trin.net/investor/press-releases/news-details/2020/TrinityRail-Enters-Joint-Venture-to-Transform-North-Americas-Rail-Industry/default.aspx
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 5.0
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

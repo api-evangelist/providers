@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,25 +71,33 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/7Cups
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.7cups.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.7cups.com/upgrade/
 created: '2026-07-17'
 description: 7 Cups (7cups.com) is an on-demand emotional health and online therapy service founded in 2013 and backed by Y Combinator. It connects people seeking support with a network of trained volunteer listeners for free, anonymous one-on-one chat, and matches members with licensed therapists and social workers for paid online therapy delivered by messaging, audio, or video. The platform also runs peer community forums, group support chat rooms, and self-help "growth path" content. 7 Cups operates across 189 countries in 140 languages with hundreds of thousands of trained listeners. It is a consumer web and mobile product rather than an API-first developer platform; this profile is maintained in the API Evangelist network as a company record and carries no public API at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/7cups.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: 7 Cups
 nav: Providers
 network: true
 overview: '7 Cups is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Online Therapy, Emotional Support, and Counseling.
 
 
-  7 Cups'' developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 46
+  7 Cups'' developer surface includes support, signup flow, pricing, and 9 more developer resources.'
+random_paper: 34
 score:
   band: emerging
-  composite: 14.6
-  delta: 0.0
+  composite: 16.4
+  delta: 1.8
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 4.3
     discoverability: 57.4
@@ -103,7 +111,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

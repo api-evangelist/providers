@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ overview: 'Kyash is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kyash''s developer surface includes engineering blog, support, pricing, signup flow, product news, and 16 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: emerging
   composite: 24.0
@@ -148,7 +148,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyash/refs/heads/main/screenshots/kyash-2026-07-25T224346.png
 security:

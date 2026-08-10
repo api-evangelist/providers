@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Eigen
 nav: Providers
 network: true
 overview: Eigen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document AI, Intelligent Document Processing, Data Extraction, and Natural Language Processing.
-random_paper: 68
+random_paper: 56
 score:
   band: minimal
   composite: 7.1
@@ -76,7 +76,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigen/refs/heads/main/screenshots/eigen-2026-07-25T213006.png
 security:

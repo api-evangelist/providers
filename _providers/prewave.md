@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -241,7 +241,7 @@ overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 84
+random_paper: 66
 score:
   band: developing
   composite: 46.3
@@ -265,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

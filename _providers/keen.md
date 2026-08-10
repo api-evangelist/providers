@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -169,6 +169,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://keen.io/privacy-policy
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 created: '2026-03-26'
 description: Keen is an event analytics platform and API that enables developers to collect, store, analyze, and visualize custom event data. It provides a flexible RESTful API for streaming events, running multi-dimensional queries, and building embedded analytics dashboards for products and internal tools.
 finops:
@@ -197,7 +201,7 @@ json_structures:
   property_count: 0
   slug: keen-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Keen
 nav: Providers
 network: true
@@ -207,12 +211,12 @@ overview: 'Keen publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The Keen catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Keen''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 12 more developer resources.'
+  Keen''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 13 more developer resources.'
 plans:
 - name: Keen Plans Pricing
   plan_count: 4
   slug: keen-plans-pricing
-random_paper: 80
+random_paper: 71
 rate_limits:
 - limit_count: 13
   name: Keen Rate Limits
@@ -246,9 +250,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/screenshots/keen-2026-06-20T183935.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/screenshots/keen-2026-06-20T183939.png
 security:
 - kind: authentication
   name: Keen Authentication

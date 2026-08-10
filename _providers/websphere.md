@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -1559,7 +1559,7 @@ plans:
 - name: Websphere Plans Pricing
   plan_count: 1
   slug: websphere-plans-pricing
-random_paper: 61
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Websphere Rate Limits
@@ -1601,7 +1601,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:

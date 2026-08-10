@@ -1,6 +1,6 @@
 {
- "total": 60,
- "shown": 60,
+ "total": 58,
+ "shown": 58,
  "limit": 1000,
  "bands": [
   {
@@ -15,6 +15,7 @@
      "name": "Enphase Energy",
      "slug": "enphase",
      "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png",
      "score": 63.6,
      "band": "strong",
      "band_label": "Strong",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -71,7 +72,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -105,6 +106,7 @@
      "name": "OpenADR Alliance",
      "slug": "openadr-alliance",
      "description": "The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate demand response and dispatch distributed energy resources. It is a standards body, not a service operator: it publishes the OpenADR 2.0a/2.0b profile specifications (approved by the IEC as IEC/PAS 62746-10-1) and OpenADR 3.0/3.1, which abandoned the SOAP-era design and is now defined entirely by an OpenAPI 3.0 contract covering programs, events, reports, subscriptions, VENs, and resources, secured with OAuth 2.0 client credentials. It also runs the OpenADR and EcoPort (CTA-2045-B) certification programmes and their public certified-product databases. Its API posture is honest but narrow: the OpenADR 3 OpenAPI is a genuine, parseable machine-readable contract, and the specifications are license-free, but the Alliance itself operates no developer portal, no api./developer./docs. subdomain, and no hosted API — its canonical specification repository (github.com/oadr3-org) has zero public repositories and requires membership, and the public route to the spec is a registration form that emails download links under terms and conditions. It publishes no consumer energy data and no open grid or market data; it defines the protocol that other parties implement. Home market is the United States, with adoption across Europe, Japan, Korea, and Australia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png",
      "score": 59.9,
      "band": "strong",
      "band_label": "Strong",
@@ -116,7 +118,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -154,13 +156,14 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 21,
-   "shown": 21,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Green Button Alliance",
      "slug": "green-button-alliance",
      "description": "The Green Button Alliance (GBA) is the non-profit that stewards, tests and certifies the Green Button standard — the NAESB REQ.21 Energy Services Provider Interface (ESPI) profile for utility customer electricity, natural gas and water usage data, in its Download My Data (DMD) and Connect My Data (CMD) forms. Incorporated in North Carolina and headquartered at PO Box 268, Jamison, Pennsylvania, it was formed after the 2012 White House / U.S. Department of Energy / NIST call to action and is the industry's only source of Green Button certification (Data Custodian DMD $3,000, CMD $3,200, membership not required), alongside a free public Directory Services listing of utilities, third-party apps and platform providers. GBA sits in the standards-and-certification layer of the United States energy value chain, above the investor-owned utilities and the energy-data platforms (UtilityAPI, Con Edison and Enbridge Gas are sponsor members) that actually move consumer data. Its API posture is contracts without a service: three real OpenAPI 3.x definitions - the CMD ESPI resource server, the ApplicationInformation registration resource, and the OpenESPI OAuth 2.0 / OIDC authorization server - are published free under Apache 2.0 on GitHub, but the normative ESPI v4.0 standard itself must be purchased from NAESB, GBA operates no production consumer-data or market-data API of its own, and its ESPI sandbox at sandbox.greenbuttonalliance.org:8443 is offline pending a replacement platform expected 2026Q3. Green Button in the United States is voluntary — there is no federal mandate — with obligation arriving only through state action and, outside the US, Ontario's O. Reg. 633/21.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png",
      "score": 55.7,
      "band": "developing",
      "band_label": "Developing",
@@ -172,7 +175,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -206,6 +209,7 @@
      "name": "ERCOT",
      "slug": "ercot",
      "description": "The Electric Reliability Council of Texas (ERCOT) is the independent system operator that manages the flow of electric power to roughly 27 million Texas customers on the ERCOT Interconnection, running the wholesale Day-Ahead and Real-Time energy markets, ancillary services, congestion revenue rights, and retail switching for the competitive Texas market. Its home market is the United States (Texas). ERCOT sits at the wholesale/system-operator layer of the energy value chain, upstream of the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) and the retail electric providers that serve end customers. Its API posture is a clean split: market and grid data are genuinely open — ERCOT publishes a real, versioned OpenAPI 3.0 for the Public Data API covering 106 EMIL data-product endpoints (locational marginal prices, settlement point prices, system load, wind and solar production, ancillary services, outage capacity), and the Market Information System still serves public report archives anonymously with no account at all. Consumer energy data is a different story: ERCOT operates no consumer usage API and implements no Green Button / ESPI surface. Texas residential interval data lives in Smart Meter Texas, which is operated by the joint Transmission and Distribution Utilities under PUCT oversight, not by ERCOT. The market-participant SOAP estate (ERCOT Web Services, MarkeTrak, Retail API) is documented publicly on GitHub but reachable only by certified market participants.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png",
      "score": 54.7,
      "band": "developing",
      "band_label": "Developing",
@@ -217,7 +221,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -262,7 +266,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -308,7 +312,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -335,6 +339,7 @@
      "name": "Genability",
      "slug": "genability",
      "description": "Genability is a United States energy-data platform, based in San Francisco and now part of Arcadia, that sells programmatic access to North American electricity tariff data and a bill-calculation engine. Its Signal API — served from api.genability.com and documented as \"Arcadia Platform - Signal\" — covers electricity utilities, tariffs, territories, seasons, time-of-use definitions, calendars, utility taxes and typical-usage baselines across the USA, Canada and Mexico, plus on-demand and mass cost calculations used for solar savings analysis, storage dispatch, EV charging economics, procurement and bill auditing. Genability sits in the private, commercial layer of the energy value chain: it is not a utility, not a retailer and not a designated data holder under any consumer-energy-data mandate, so no Green Button, ESPI, CDR or other energy data standard is referenced anywhere in its documentation. Its API posture is honestly \"self-serve but entirely closed data\": a developer can sign up at dash.genability.com in minutes, but every endpoint — including the ones pathed /rest/public/ — returns 401 without an appId/appKey, so none of this tariff or market reference data is openly published, and Genability exposes no individual customer's usage or billing data at all (that consumer-data surface lives in Arcadia's separate Plug/Arc API).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png",
      "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
@@ -346,7 +351,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -380,6 +385,7 @@
      "name": "Leap",
      "slug": "leapfrog-power",
      "description": "Leap (Leapfrog Power, Inc.) is a San Francisco based energy software company whose primary domain leap.ac 301-redirects to www.leap.energy. Leap sits in the private, unmandated layer of the United States energy stack — between distributed energy resources and the wholesale markets — letting technology brands build and scale virtual power plants without owning market access. Its software-only platform aggregates residential and commercial battery storage, smart thermostats, heat pumps, HVAC and EV charging, registers those assets into CAISO, NYISO, PJM and utility demand response programs, and settles the revenue back to the partner. Leap publishes a genuinely open developer portal at developer.leap.energy with eight anonymously downloadable OpenAPI definitions covering meter creation, enrollment and idle periods, meter details, market nominations, dispatch, webhooks, interval data upload and revenue and analytics. Its API posture is open documentation over a closed door — every specification and guide can be read without an account, but no key can be self-issued — keys are created only inside a Leap-provisioned partner account and prospective partners are told to contact an account manager or partners@leap.ac. No data-sharing mandate applies to Leap. It is not a utility, not a retailer and not a designated data holder anywhere; it is a downstream recipient of consumer data that California's investor-owned utilities are compelled to share, integrating PG&E, SCE and SDG&E through their Share My Data authorization flow. Leap's documentation never names Green Button, ESPI, OpenADR, IEEE 2030.5, OCPP or CIM. Consumer usage and settlement data are reachable through the API but only for a partner's own consented, enrolled meters, and Leap publishes no open grid or market data at all.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png",
      "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
@@ -391,7 +397,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -425,6 +431,7 @@
      "name": "ISO New England",
      "slug": "iso-new-england",
      "description": "ISO New England Inc. is the independent, nonprofit regional transmission organization authorized by the Federal Energy Regulatory Commission to operate the high-voltage power system, administer the wholesale electricity markets, and plan the power system for Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire, and most of Maine. Home market is the United States. It sits at the wholesale layer of the value chain, between generators, transmission owners, interconnections with New York and Canada, and the load-serving entities that resell power to retail customers - and it states on its own site that handling retail electricity is something it does not do. Its API posture is the sector's classic split, read from the wholesale end. Market and system data is genuinely open, so open that the ISO Express portal serves full nodal day-ahead LMP files as anonymous CSV and the public dashboards are backed by an anonymous JSON feed. Consumer data does not exist here at all, and cannot, because ISO New England holds no retail customer relationships and no Green Button, ESPI, or consumer data-portability mandate reaches it. The one documented programmatic contract, the Web Services API v1.1, is a real, richly documented RESTful surface of 477 path templates across 90 market and operations resources, but it answers 401 to anonymous callers - a developer must first create a free, self-serve ISO Express account, which the ISO says automatically grants access to the data feeds, and then authenticate with HTTP Basic over SSL.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png",
      "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
@@ -436,7 +443,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -481,7 +488,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -527,7 +534,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -573,7 +580,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -607,18 +614,19 @@
      "name": "MISO",
      "slug": "miso",
      "description": "MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Manitoba, serving a footprint of roughly forty-five million people from headquarters in Carmel, Indiana. Formed in 1998 and operating the region since December 2001, it is regulated by the Federal Energy Regulatory Commission, dispatches generation in real time, clears day-ahead and real-time energy and ancillary services markets, runs the ARR/FTR market and the generator interconnection queue, and plans the transmission system. It sits squarely in the middle of the value chain: it owns no generation, no wires and no retail customers, but it holds the market-wide operational data that every generator, transmission owner, load-serving entity and trader in the Midwest and the South depends on. Its API posture is the classic system operator split, and it is an unusually clean example of it. On the market side MISO is genuinely open — thirty-seven JSON endpoints at public-api.misoenergy.org return real-time fuel mix, load, prices, binding constraints and interchange to an anonymous GET with no key, no account and no click-through, and the full market report archive at docs.misoenergy.org downloads anonymously as CSV and XLSX. On the consumer side there is nothing to open: MISO is not a retail utility, holds no customer usage or billing data, and no energy-data mandate of any kind applies to it. Green Button is voluntary in the United States and is a distribution-utility standard; MISO publishes no Green Button, ESPI, or consumer data-sharing surface, and makes no claim to. Its newer MISO Data Exchange developer portal adds a keyed but self-serve tier over historical market report data, and its MUI 2.0 market interface is a genuinely closed, client-certificate-gated API for registered market participants only.",
-     "score": 49.7,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png",
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 30.0,
+      "discoverability": 77.8,
+      "contract_quality": 32.2,
       "governance": 11.5,
       "operational_transparency": 52.6,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -627,7 +635,7 @@
       "score": 44.6,
       "matched_via": "tags"
      },
-     "agent_score": 44.4,
+     "agent_score": 48.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -635,7 +643,7 @@
       "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -652,6 +660,7 @@
      "name": "EIA",
      "slug": "eia",
      "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/screenshots/eia-2026-08-07T164749.png",
      "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
@@ -663,7 +672,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -708,7 +717,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -753,7 +762,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -799,7 +808,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -830,48 +839,10 @@
      "rank": 18
     },
     {
-     "name": "Patch",
-     "slug": "patch",
-     "description": "Patch is a carbon removal and offsetting REST API platform that enables businesses to programmatically purchase high-quality carbon credits and integrate sustainability directly into their products and services. The API provides access to a curated marketplace of vetted carbon removal projects including reforestation, direct air capture, enhanced weathering, and other negative emissions technologies. Developers can embed carbon removal at the order level, calculating emissions estimates and placing orders ranging from a single gram to thousands of tonnes of CO2 equivalent. Patch combines an API-first approach with deep carbon market expertise, diligence, and portfolio management tools to help organizations meet science-based net-zero targets with integrity and transparency.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patch/refs/heads/main/screenshots/patch-2026-06-20T191437.png",
-     "score": 47.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Carbon & Climate Accounting",
-     "rank": 19
-    },
-    {
      "name": "FERC",
      "slug": "ferc",
      "description": "The Federal Energy Regulatory Commission (FERC) is the independent United States federal agency that regulates the interstate transmission of electricity, natural gas, and oil, licenses hydropower projects, and oversees the wholesale power markets run by the seven ISOs and RTOs. FERC sits on the wholesale side of the US energy value chain — it does not regulate retail utility service, retail rates, or the customer relationship, which remain with the fifty state public utility commissions. That jurisdictional line defines FERC's API posture exactly. FERC operates a real, self-serve open data API at api.data.ferc.gov, documented at data.ferc.gov with a published OpenAPI 3.0 description, a free 40-character API key issued from a sign-up form, a 1,000-request-per-hour rate limit, and X-Api-Key header or api_key query authentication on the api.data.gov API Umbrella stack — genuinely open market and regulatory data covering the Market-Based Rate Database, FERC Form No. 552 natural gas transactions, FERC Form 556 qualifying facility certifications, Company Registration, Annual Charges, Information Collections Management, and the NEPA infrastructure schedule. FERC also runs a credentialed OAuth2 XBRL submission API at ecollection.ferc.gov for the mandated eForms filings (Form Nos. 1, 2, 3-Q, 6, 60, 552, 714). What FERC does NOT do is any part of consumer energy data — there is no Green Button, no ESPI, no consumer data right, and no individual customer usage or billing API anywhere in FERC's surface, because retail customer data is outside its statutory reach. FERC is therefore an open-market-data, zero-consumer-data regulator, and it publishes a better documented API than most of the utilities it indirectly touches.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png",
      "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
@@ -883,7 +854,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -911,45 +882,7 @@
       "dry_run_mode": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 20
-    },
-    {
-     "name": "Solaredge",
-     "slug": "solaredge",
-     "description": "SolarEdge Technologies is a global provider of DC-optimized photovoltaic (PV) inverter systems — combining power optimizers, string inverters, batteries, EV chargers and a cloud monitoring platform for residential, commercial and utility solar installations. Its public developer surface is the SolarEdge Monitoring API, a read-only REST API over monitoringapi.solaredge.com that exposes site inventory, energy and power production, battery/storage telemetry, environmental benefits, equipment/inverter data, meters and sensors for the sites an account can access. Authentication is a single api_key query parameter issued in the SolarEdge monitoring platform; responses are JSON by default and errors use RFC 9457 problem+json (verified live).",
-     "score": 46.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 62.8,
-      "governance": 11.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Solar & Distributed Energy",
-     "rank": 21
+     "rank": 19
     },
     {
      "name": "PJM Interconnection",
@@ -966,7 +899,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -994,7 +927,7 @@
       "dry_run_mode": false
      },
      "tier": "System & Market Operators",
-     "rank": 22
+     "rank": 20
     },
     {
      "name": "WattTime",
@@ -1012,7 +945,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1040,12 +973,13 @@
       "dry_run_mode": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 23
+     "rank": 21
     },
     {
      "name": "Con Edison",
      "slug": "con-edison",
      "description": "Consolidated Edison Company of New York, Inc. (CECONY, trading as Con Edison) is the investor-owned electric, gas and steam utility that serves New York City and Westchester County, and together with its sibling Orange & Rockland Utilities (ORU) forms the regulated utility core of Consolidated Edison, Inc. It is a wires-and-pipes distribution utility rather than a competitive retailer: it owns and operates the distribution system, meters the customer and bills the customer, while wholesale energy markets are run by NYISO and competitive supply is sold by ESCOs. It is rate-regulated by the New York State Public Service Commission. Its API posture is the most interesting in the United States sample because both halves are real and they are gated completely differently. On the consumer side Con Edison runs a genuine, verified Green Button Connect My Data implementation — the NAESB REQ.21 ESPI standard, branded \"Share My Data\" — with a live production base URI at https://api.coned.com/gbc/espi/1_1 that answers anonymously with HTTP 401 \"Unauthorized. Access token is missing or invalid.\", a publicly downloadable 37-path Swagger 2.0 definition (\"DCX GBC API V2\"), a public Postman collection titled \"GBC Certification Third party V3.3\", OAuth 2.0 authorization-code and client-credentials flows, ESPI functional-block scopes, batch and real-time interval endpoints, and a 35-page technical onboarding document last revised 2026-05-07. The United States has no federal energy consumer data right; Con Edison's adoption sits under New York PSC supervision (the Joint Utilities DSIP proceeding, Case 16-M-0411, in which it committed to implement the first phase of GBC by end of 2017, the Data Access Framework in Case 20-M-0082, and a Customer Data Access Tariff) rather than under a statutory mandate like Australia's Consumer Data Right or Ontario Regulation 633/21. That data is not self-serve: a third party must register, sign a Data Security Agreement, submit a technical onboarding form and pass 30 to 60 days of supervised testing before production credentials are issued, and Con Edison states plainly that it \"is unable to support API development for third parties.\" On the market side, by contrast, Con Edison publishes distribution-grid data openly and anonymously: the Hosting Capacity Map documents REST API access, and its ArcGIS feature services for segmented and network hosting capacity, EV transformer capacity, 33kV feeders, non-wires-solutions networks and disadvantaged communities all answer unauthenticated. Open on the grid, accredited on the customer — that split is the finding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png",
      "score": 42.4,
      "band": "developing",
      "band_label": "Developing",
@@ -1057,7 +991,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1085,7 +1019,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 24
+     "rank": 22
     }
    ],
    "open": true
@@ -1114,7 +1048,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1142,7 +1076,7 @@
       "dry_run_mode": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 25
+     "rank": 23
     },
     {
      "name": "Xcel Energy",
@@ -1160,7 +1094,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1188,12 +1122,13 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 26
+     "rank": 24
     },
     {
      "name": "California ISO",
      "slug": "caiso",
      "description": "The California Independent System Operator (CAISO) is the non-profit public benefit corporation that operates the high-voltage transmission grid serving roughly 80 percent of California plus a portion of Nevada, and runs the wholesale day-ahead and real-time electricity markets, the Western Energy Imbalance Market (WEIM), and the Extended Day-Ahead Market (EDAM). As a system and market operator in the United States it sits at the wholesale layer of the energy value chain — upstream of the investor-owned utilities that bill retail customers, and therefore it holds no retail customer accounts and publishes no consumer usage data. Its API posture is a clean split: market data is genuinely open and consumer data does not exist. The OASIS Download API at https://oasis.caiso.com/oasisapi serves locational marginal prices, demand and renewables forecasts, ancillary services, transmission and nodal reference data as zipped CSV or CIM XML to anonymous callers with no key, no account and no registration — CAISO states in writing that every system it operates except OASIS requires a company User Access Administrator to grant access. The Today's Outlook telemetry feeds under https://www.caiso.com/outlook publish five-minute fuel mix, demand, net demand and CO2 as plain CSV, also anonymously. Everything else — market submission, dispatch, settlements and the participant portals — is behind PKI client certificates and UAA-sponsored accounts, and even the OASIS reference documentation on the developer site requires a signup reviewed against a corporate email domain and a written justification. No Green Button, ESPI, or Consumer Data Right surface exists here and none is expected to; the obligation CAISO answers to is FERC's open-access transparency regime, not a consumer data right. No OpenAPI, AsyncAPI, or other machine-readable contract is published for any of it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/screenshots/caiso-2026-08-07T162911.png",
      "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1205,7 +1140,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1233,7 +1168,7 @@
       "dry_run_mode": false
      },
      "tier": "System & Market Operators",
-     "rank": 27
+     "rank": 25
     },
     {
      "name": "ChargePoint",
@@ -1251,7 +1186,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1279,12 +1214,13 @@
       "dry_run_mode": false
      },
      "tier": "EV Charging",
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "New York Independent System Operator (NYISO)",
      "slug": "nyiso",
      "description": "The New York Independent System Operator (NYISO) is the not-for-profit FERC-jurisdictional entity that operates New York State's bulk electricity grid, administers the state's wholesale energy, capacity and ancillary-services markets, and performs long-term power system planning. Formed in 1999 out of the New York Power Pool, it sits squarely in the wholesale middle of the value chain - between generators, transmission owners and interconnectors on one side and the investor-owned utilities and retail suppliers who actually bill New York consumers on the other. NYISO's API posture is the sector's classic two-speed split, and NYISO lands hard on both ends of it. Market and system data is genuinely open - the MIS public archive at mis.nyiso.com/public serves roughly sixty machine-readable report families (day-ahead and real-time LBMP, actual and forecast load, real-time fuel mix, ATC/TTC, outages, constraints, interface flows, bid data, capacity, uplift, emissions) as daily CSV and monthly ZIP with no account, no key and no referrer check, and the FERC-mandated OASIS node publishes an anonymously listable object store of transmission postings. Consumer data is the exact opposite - there is none, and none is expected, because NYISO holds no retail customer relationships. Every real REST API NYISO documents - the Finance APIs (Metering, Settlements, Invoicing) and the Metering API under api.nyiso.com - is market-participant-only, gated behind an MIS user account plus a NAESB-accredited digital certificate, and every one of those endpoints answers 401 anonymously. The United States has no consumer energy data mandate behind Green Button, and in any case Green Button binds distribution utilities, not system operators, so NYISO carries no Green Button or Consumer Data Right obligation at all.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nyiso/refs/heads/main/screenshots/nyiso-2026-08-07T185826.png",
      "score": 29.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1296,7 +1232,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1324,7 +1260,7 @@
       "dry_run_mode": false
      },
      "tier": "System & Market Operators",
-     "rank": 29
+     "rank": 27
     },
     {
      "name": "Persefoni",
@@ -1342,7 +1278,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1363,7 +1299,7 @@
       "dry_run_mode": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 30
+     "rank": 28
     },
     {
      "name": "Southern California Edison",
@@ -1380,7 +1316,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1408,7 +1344,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 31
+     "rank": 29
     }
    ]
   },
@@ -1436,7 +1372,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1464,7 +1400,7 @@
       "dry_run_mode": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 32
+     "rank": 30
     },
     {
      "name": "EVgo",
@@ -1481,7 +1417,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1509,7 +1445,7 @@
       "dry_run_mode": false
      },
      "tier": "EV Charging",
-     "rank": 33
+     "rank": 31
     },
     {
      "name": "Watershed",
@@ -1526,7 +1462,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1547,12 +1483,13 @@
       "dry_run_mode": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 34
+     "rank": 32
     },
     {
      "name": "NAESB",
      "slug": "naesb",
      "description": "The North American Energy Standards Board (NAESB) is the non-profit, industry-consensus standards development organization formed in 1994 that writes the business practice standards for the North American wholesale and retail natural gas and electricity markets, organized into four quadrants — Wholesale Electric (WEQ), Retail Electric (REQ), Wholesale Gas (WGQ) and Retail Gas (RGQ). Headquartered in Houston, Texas, its home market is the United States (with Canadian and Mexican participation). NAESB sits upstream of every utility, ISO/RTO and energy-data platform in the value chain: it authors REQ.21 Energy Services Provider Interface (ESPI), the standard that is the basis of every Green Button implementation in North America, and it operates the NAESB Electric Industry Registry (EIR) that underpins electronic tagging across the wholesale electric market. Its API posture is deliberately split and must not be overstated. NAESB is not a data holder and no consumer-data mandate applies to it; the Green Button standard it publishes is adopted by US utilities purely voluntarily, with no federal obligation behind it. The specifications themselves are copyright-protected and paywalled — $8,000/year membership, $2,000 per quadrant version, or $250 per individual standard — with only a free, view-only, three-business-day evaluation waiver for non-members. The single genuinely open artifact is the set of ESPI XML schemas, released under Apache 2.0 as a documented one-time exception to the NAESB Copyright Policy and downloadable anonymously after a one-click terms-of-use acknowledgement. The one real API NAESB operates, the EIR webRegistry SOAP service administered by OATI, is closed: it requires a paid registry subscription and a digitally signed X.509 certificate issued by an NAESB-Authorized Certification Authority, and its endpoint could not even complete a TLS handshake anonymously. Open standard schemas, closed standards text, closed registry API, no consumer data and no open market data of its own.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/naesb/refs/heads/main/screenshots/naesb-2026-08-07T184604.png",
      "score": 25.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1564,7 +1501,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1592,12 +1529,13 @@
       "dry_run_mode": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "Landis+Gyr",
      "slug": "landis-gyr",
      "description": "Landis+Gyr Group AG is a 130-year-old energy technology company that builds the smart electricity, gas and water meters, the RF-mesh and cellular networks, and the head-end, meter-data-management and grid-analytics software that utilities run advanced metering infrastructure on. It is incorporated in Cham, Switzerland and listed on the SIX Swiss Exchange, but after divesting its EMEA business to AURELIUS in March 2026 its centre of gravity — and its Americas headquarters and much of its executive team — sits in Alpharetta, Georgia, making the United States its home market. Landis+Gyr sits one layer UPSTREAM of the consumer: it sells to the roughly 2,000 utilities that are themselves the regulated data holders, so no data-sharing mandate — not US Green Button, not Ontario's Green Button regulation, not Australia's Consumer Data Right for energy — attaches to Landis+Gyr itself. Its API posture reflects that. Landis+Gyr publishes NO open market or grid data and NO consumer usage API; the meter interval data its Gridstream Connect and MDMS products produce reaches households only after a utility customer re-publishes it, typically through a third-party Green Button–certified portal that Landis+Gyr does not operate. There is a real developer portal at developers.landisgyr.com — the Gridstream Connect Apps / Revelo edge-app program, with App Studio, documents, learning paths, a Stack Overflow Teams developer forum and a Revelo developer-kit request flow — but every content route renders empty without authentication, the registration path carries an admin invitation and approval workflow, and the corporate site never links to it: the public call to action on the Apps Ecosystem page is \"Email Our Team\", pointing at a sales inquiry form. No OpenAPI, Swagger, Postman collection, SDK download or endpoint reference is published anywhere in public. The only interoperability standard Landis+Gyr states publicly is Wi-SUN FAN certification (15 certified products) over standards-based IPv6 mesh — a network standard, not a customer-data standard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/screenshots/landis-gyr-2026-08-07T171436.png",
      "score": 25.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1609,7 +1547,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1637,12 +1575,13 @@
       "dry_run_mode": false
      },
      "tier": "Metering",
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "NERC",
      "slug": "nerc",
      "description": "The North American Electric Reliability Corporation (NERC) is the not-for-profit international regulatory authority certified by FERC in July 2006 as the Electric Reliability Organization under Section 215 of the Federal Power Act, added by the Energy Policy Act of 2005. From offices in Washington, DC and Atlanta, and working through six Regional Entities (MRO, NPCC, RF, SERC, Texas RE, WECC), NERC develops and enforces the mandatory Reliability Standards, including the CIP cyber security standards, that govern the bulk power system across the contiguous United States, all of Canada, and a portion of Baja California, Mexico. It registers and certifies the entities that operate that system, monitors and enforces compliance, runs the Electricity Information Sharing and Analysis Center (E-ISAC), and collects mandatory industry performance data through Rules of Procedure Section 1600 data requests into GADS, TADS, DADS and MIDAS. NERC sits at the top of the North American bulk-power value chain, above the ISOs/RTOs, transmission owners and generator owners it registers, and entirely above the retail utility-to-customer relationship. Its API posture is the plainest in this series. NERC publishes NO developer API, NO OpenAPI, NO SDK, NO developer portal and NO open data portal. A site search of nerc.com for the term API on 2026-07-27 returned zero matching documents. NERC is a MANDATOR of energy data, not a publisher of it. The obligation it imposes is to SUBMIT data upward to NERC, and the data submitted is explicitly confidential under Rules of Procedure Section 1500. What NERC does publish anonymously is documents: reliability assessments, the State of Reliability report, aggregated GADS/TADS statistics, Power BI dashboards and the public NERC Compliance Registry Matrix spreadsheet of every registered entity. Everything machine-facing, including the ERO Portal, Align, the Secure Evidence Locker, CORES, the GADS/TADS data stores and the E-ISAC portal, is behind an approved account. No Green Button, no ESPI, no consumer data right, and no consumer usage or billing API exists anywhere in NERC's surface, because retail customer data is outside its reach entirely. NERC is a regulator whose peer FERC publishes a documented public API and whose neighbour EIA publishes one of the best government APIs anywhere, while NERC itself publishes none.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/screenshots/nerc-2026-08-07T184904.png",
      "score": 24.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1654,7 +1593,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1682,7 +1621,7 @@
       "dry_run_mode": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "Yes Energy",
@@ -1699,7 +1638,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1727,12 +1666,13 @@
       "dry_run_mode": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Blink Charging",
      "slug": "blink-charging",
      "description": "Blink Charging Co. (Nasdaq BLNK) is a United States electric vehicle charging company headquartered at 17301 Melford Boulevard, Bowie, Maryland, with additional offices in California, the United Kingdom, Belgium and India. It designs and sells Level 2 and DC fast chargers (Series 7, 8 and 9, Shasta, the EQ/PQ line and the HYC DC fast chargers), owns and operates chargers under both owner-operator and host-owned business models, and runs the Blink Network - the proprietary cloud platform behind its host portal, driver mobile app and fleet management product. In the energy value chain Blink is a charge point operator and a load on the distribution grid, not a utility, retailer or system operator. It publishes no electricity usage, tariff, grid or market data of its own, and no consumer energy data right obligation applies to it in its home market of the United States - Green Button is a voluntary NAESB/NIST standard aimed at utilities, and Blink is not a utility. Its API posture is a closed door behind a live legal surface. The Blink Network Terms and Conditions, last modified 2 December 2025, explicitly govern \"the Blink API\" and state that use is \"under your username\", but no live developer portal, API reference, base URL or machine-readable contract is published anywhere on blinkcharging.com. The historical BlinkMap API developer page at prod.blinknetwork.com/developer.html - an application form gated by a Blink Network, LLC Data License Agreement - now refuses connections and was last archived in July 2021. The only live data-access surface Blink publishes is a United Kingdom open data request page citing the Public Charge Point Regulations 2023, where a Google Form request is reviewed by Blink's data team, shared with the aggregator Eco-Movement and answered \"in api format\" - an application-approval gate, not an open feed. Blink's real standards adoption sits below the API layer: OCPP 2.0.1 certification for its Series 7, 8 and 9 chargers announced September 2025, and OpenADR 2.0 approval for the Blink Network announced March 2020 enabling utility load management across its charging network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blink-charging/refs/heads/main/screenshots/blink-charging-2026-08-07T162622.png",
      "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1744,7 +1684,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1772,7 +1712,7 @@
       "dry_run_mode": false
      },
      "tier": "EV Charging",
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Uplight",
@@ -1789,7 +1729,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1817,12 +1757,13 @@
       "dry_run_mode": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "EnergyHub",
      "slug": "energyhub",
      "description": "EnergyHub is a Brooklyn, New York distributed energy resource management system (DERMS) vendor and an independent subsidiary of Alarm.com (Nasdaq ALRM), operating in its home market of the United States. Its Edge DERMS platform (formerly marketed as Mercury DERMS) lets electric utilities enroll, forecast, dispatch, and measure customer-owned distributed energy resources - smart thermostats, batteries, electric vehicles and EV chargers, solar inverters, and commercial and industrial loads - as virtual power plants, and the company says it has been running load control programs since 2009. EnergyHub sits squarely in the private middle layer of the energy value chain. It is not a utility, not a retailer, and not a market operator, so no consumer energy data mandate applies to it: there is no Green Button obligation, no Consumer Data Right designation, and no Ontario regulation in play. Its API posture is honestly partner-only and entirely undocumented in public. Two APIs are publicly announced by the company - the Mercury Edge Connect API, which EnergyHub states is \"based on the Open ADR standard\", and a Marketplace API for demand-response pre-enrollment at the device point of sale - but neither has public reference documentation, a published base URI, a schema, or a self-serve signup. The knowledge base at help.energyhub.com serves a public landing page while every technical guide and device-partner integration article behind it is gated by an Okta SSO login. A live host at mec.energyhub.com answers TLS with a valid DigiCert certificate and rejects every anonymous request with \"400 No required SSL certificate was sent\", which is mutual-TLS client-certificate enforcement rather than a public API. No consumer usage or billing data API exists for third parties, and no open grid or market data is published, so EnergyHub is closed on both the consumer-data and the market-data axis, and a developer gets in only by signing a commercial or DER partner agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energyhub/refs/heads/main/screenshots/energyhub-2026-08-07T164917.png",
      "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1834,7 +1775,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1862,7 +1803,7 @@
       "dry_run_mode": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "CenterPoint Energy",
@@ -1880,7 +1821,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1908,7 +1849,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Electrify America",
@@ -1926,7 +1867,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1954,7 +1895,7 @@
       "dry_run_mode": false
      },
      "tier": "EV Charging",
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Constellation Energy",
@@ -1972,7 +1913,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2000,12 +1941,13 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "Ameren",
      "slug": "ameren",
      "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png",
      "score": 17.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2017,7 +1959,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2045,7 +1987,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "PSEG",
@@ -2062,7 +2004,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2090,7 +2032,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Southern Company",
@@ -2107,7 +2049,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2135,7 +2077,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Vistra Corp",
@@ -2152,7 +2094,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2180,7 +2122,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Sunrun",
@@ -2198,7 +2140,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2219,7 +2161,7 @@
       "dry_run_mode": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 49
+     "rank": 47
     }
    ]
   },
@@ -2235,6 +2177,7 @@
      "name": "AutoGrid",
      "slug": "autogrid",
      "description": "AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants, and automated demand response under the AutoGrid Flex platform, selling to investor-owned utilities, retailers, and aggregators rather than to end consumers. It sits on the grid-tech / DERMS layer of the energy value chain - a buyer and orchestrator of utility and device data, not a data custodian - so no Green Button, Consumer Data Right, or smart-meter data-sharing obligation attaches to it. Schneider Electric took control of AutoGrid and then sold it to Uplight in a deal announced 14 December 2023 and closed in early 2024; auto-grid.com now serves only a 270-byte meta-refresh to uplight.com (on an expired TLS certificate as of 27 July 2026) and every developer, docs, api, and data subdomain fails to resolve. Its API posture is therefore honestly none-published - no public developer portal, no OpenAPI, no SDK, no consumer usage API, and no open market data. Its machine-readable contract is instead expressed as protocol conformance, and that is real and still published by the certifying bodies. AutoGrid is a certified OpenADR 2.0a and 2.0b VTN (server) - AutoGrid DROMS and OpenDR Server 2.0, Simple HTTP + XMPP, pull and push - and holds SunSpec Alliance certificate CS-000074 for AutoGrid Flex as an IEEE 2030.5-2018 / CSIP server, tested by Intertek on 12 December 2023 and awarded 22 January 2024. Both surfaces authenticate with mutual TLS x.509 client certificates and were reachable only under commercial contract. The successor surface at docs.uplight.com is real but fully login-gated, redirecting anonymous visitors to a ReadMe dashboard login, and api.uplight.com answers HTTP 401 with \"Invalid or no token provided\" - partner and customer access only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autogrid/refs/heads/main/screenshots/autogrid-2026-08-07T161954.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2246,7 +2189,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2274,7 +2217,7 @@
       "dry_run_mode": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Exelon",
@@ -2292,13 +2235,105 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 49
+    },
+    {
+     "name": "FirstEnergy",
+     "slug": "firstenergy",
+     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "score": 9.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 50
+    },
+    {
+     "name": "American Electric Power",
+     "slug": "american-electric-power",
+     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -2323,28 +2358,28 @@
      "rank": 51
     },
     {
-     "name": "FirstEnergy",
-     "slug": "firstenergy",
-     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
-     "score": 9.9,
+     "name": "Dominion Energy",
+     "slug": "dominion-energy",
+     "description": "Dominion Energy is one of the nation's largest producers and transporters of energy, providing electricity and natural gas to customers across multiple U.S. states including Virginia, North Carolina, South Carolina, Ohio, and Utah. No public developer APIs are currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominion-energy/refs/heads/main/screenshots/dominion-energy-2026-06-20T180141.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 18.9,
+      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -2369,11 +2404,11 @@
      "rank": 52
     },
     {
-     "name": "American Electric Power",
-     "slug": "american-electric-power",
-     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
-     "score": 6.9,
+     "name": "NextEra Energy",
+     "slug": "nextera-energy",
+     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2381,10 +2416,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2415,22 +2450,22 @@
      "rank": 53
     },
     {
-     "name": "Dominion Energy",
-     "slug": "dominion-energy",
-     "description": "Dominion Energy is one of the nation's largest producers and transporters of energy, providing electricity and natural gas to customers across multiple U.S. states including Virginia, North Carolina, South Carolina, Ohio, and Utah. No public developer APIs are currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominion-energy/refs/heads/main/screenshots/dominion-energy-2026-06-20T180141.png",
-     "score": 5.5,
+     "name": "Entergy",
+     "slug": "entergy",
+     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2461,22 +2496,22 @@
      "rank": 54
     },
     {
-     "name": "NextEra Energy",
-     "slug": "nextera-energy",
-     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
-     "score": 5.5,
+     "name": "NRG Energy",
+     "slug": "nrg-energy",
+     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2507,30 +2542,22 @@
      "rank": 55
     },
     {
-     "name": "Entergy",
-     "slug": "entergy",
-     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
-     "score": 5.0,
+     "name": "Dte Energy",
+     "slug": "dte-energy",
+     "description": "DTE Energy is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide, with utility operations in Michigan.",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2553,30 +2580,22 @@
      "rank": 56
     },
     {
-     "name": "NRG Energy",
-     "slug": "nrg-energy",
-     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
-     "score": 4.7,
+     "name": "Duke Energy",
+     "slug": "duke-energy",
+     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2599,21 +2618,22 @@
      "rank": 57
     },
     {
-     "name": "Dte Energy",
-     "slug": "dte-energy",
-     "description": "DTE Energy is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide, with utility operations in Michigan.",
-     "score": 3.3,
+     "name": "Sempra",
+     "slug": "sempra",
+     "description": "Sempra is a North American energy infrastructure company with operations in Texas, California, Mexico, and emerging markets, serving utility customers and developing energy networks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/screenshots/sempra-2026-06-20T193648.png",
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2635,83 +2655,6 @@
      },
      "tier": "Utilities & Retailers",
      "rank": 58
-    },
-    {
-     "name": "Duke Energy",
-     "slug": "duke-energy",
-     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 59
-    },
-    {
-     "name": "Sempra",
-     "slug": "sempra",
-     "description": "Sempra is a North American energy infrastructure company with operations in Texas, California, Mexico, and emerging markets, serving utility customers and developing energy networks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/screenshots/sempra-2026-06-20T193648.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 60
     }
    ]
   }

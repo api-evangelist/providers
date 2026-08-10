@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Virginia Open Data, a consistent JSON-over-HTTP interface over a catalog of 33,247 datasets. Standard actions include package_search, package_show, package_list, organization_list,
@@ -84,7 +84,7 @@ plans:
 - name: Data Virginia Gov Plans Pricing
   plan_count: 1
   slug: data-virginia-gov-plans-pricing
-random_paper: 107
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Data Virginia Gov Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-virginia-gov/refs/heads/main/screenshots/data-virginia-gov-2026-06-20T175622.png
 security:

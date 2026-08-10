@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Resultid
 nav: Providers
 network: true
 overview: Resultid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operational Intelligence, Analytics, Enterprise Software, and Artificial Intelligence.
-random_paper: 85
+random_paper: 64
 score:
   band: minimal
   composite: 9.7
@@ -78,7 +78,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

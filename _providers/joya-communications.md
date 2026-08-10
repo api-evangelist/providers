@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Joya Communications is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Joya Communications'' developer surface includes support, signup flow, pricing, and 4 more developer resources.'
-random_paper: 72
+random_paper: 21
 score:
   band: emerging
   composite: 16.4
@@ -91,7 +91,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joya-communications/refs/heads/main/screenshots/joya-communications-2026-07-25T223248.png
 security:

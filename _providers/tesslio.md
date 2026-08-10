@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -148,7 +148,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tesslio-openapi-original.json
+  url: openapi/_original/tesslio-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -301,7 +301,7 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 93
+random_paper: 75
 score:
   band: developing
   composite: 52.0
@@ -325,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

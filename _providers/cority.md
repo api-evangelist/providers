@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: RESTful API and SDK for developing custom interfaces with the Cority Enviance system and integrating it with corporate and third-party systems. Use requires an express Cority Enviance Connectors licen
@@ -111,7 +111,7 @@ overview: 'Cority publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cority''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 101
+random_paper: 86
 score:
   band: emerging
   composite: 25.5
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cority/refs/heads/main/screenshots/cority-2026-07-25T210437.png
 security:

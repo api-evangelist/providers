@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'Supafax is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Supafax''s developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 82
+random_paper: 64
 score:
   band: emerging
   composite: 20.4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

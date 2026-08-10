@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'MadCap Software is profiled on the [APIs.io](https://apis.io/) networ
 
 
   MadCap Software''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 65
+random_paper: 26
 score:
   band: emerging
   composite: 20.8
@@ -110,7 +110,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madcap-software/refs/heads/main/screenshots/madcap-software-2026-07-25T225825.png
 security:

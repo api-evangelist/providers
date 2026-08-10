@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: EXECUTING FOR GROWTH
   url: https://www.sec.gov/Archives/edgar/data/1519751/000119312524075285/d600382dars.pdf
-random_paper: 41
+random_paper: 73
 score:
   band: minimal
   composite: 5.0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortune-brands-home-and-security/refs/heads/main/screenshots/fortune-brands-home-and-security-2026-06-20T181445.png
 security:

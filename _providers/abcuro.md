@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,12 +26,45 @@ agentic_access:
   operation_count: 30
   slug: abcuro-agentic-access
   summary_line: 30 operations
-api_count: 1
+api_count: 12
 apis:
-- description: The public, anonymously readable WordPress REST API serving abcuro.com. It exposes the corporate content graph as JSON — press releases (posts), site pages, media assets, categories, and four Abcuro-s
-  name: Abcuro Content API (WordPress REST)
-  slug: abcuro-content-api-wordpress-rest
-artifact_total: 5
+- description: Job postings.
+  name: Abcuro Careers API
+  slug: abcuro-careers-api
+- description: Comment records.
+  name: Abcuro Comments API
+  slug: abcuro-comments-api
+- description: Route, type, taxonomy, status and oEmbed discovery.
+  name: Abcuro Discovery API
+  slug: abcuro-discovery-api
+- description: Investor records.
+  name: Abcuro Investors API
+  slug: abcuro-investors-api
+- description: Media library assets including clinical presentation PDFs.
+  name: Abcuro Media API
+  slug: abcuro-media-api
+- description: Static site pages.
+  name: Abcuro Pages API
+  slug: abcuro-pages-api
+- description: Leadership, team and board-of-directors records.
+  name: Abcuro People API
+  slug: abcuro-people-api
+- description: Abcuro corporate and clinical press releases.
+  name: Abcuro Press Releases API
+  slug: abcuro-press-releases-api
+- description: Scientific publications.
+  name: Abcuro Publications API
+  slug: abcuro-publications-api
+- description: Cross-type site search.
+  name: Abcuro Search API
+  slug: abcuro-search-api
+- description: Categories, tags and the person_role taxonomy.
+  name: Abcuro Taxonomy API
+  slug: abcuro-taxonomy-api
+- description: Site author accounts.
+  name: Abcuro Users API
+  slug: abcuro-users-api
+artifact_total: 16
 common:
 - group: agent
   title: ''
@@ -84,7 +117,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/abcuro-content-openapi.yml
+  url: openapi/_original/abcuro-content-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -149,20 +182,20 @@ modified: '2026-08-02'
 name: Abcuro
 nav: Providers
 network: true
-overview: 'Abcuro publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST). Tagged areas include biotechnology, pharmaceuticals, immunology, autoimmune-disease, and oncology.
+overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Careers API, Comments API, Discovery API, and 9 more. Tagged areas include biotechnology, pharmaceuticals, immunology, autoimmune-disease, and oncology.
 
 
   Abcuro''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 56
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 26.8
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 16.3
+    contract_quality: 15.3
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 26.5
@@ -183,8 +216,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:
 - kind: authentication
   name: Abcuro Authentication

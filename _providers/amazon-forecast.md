@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ plans:
 - name: Amazon Forecast Plans Pricing
   plan_count: 3
   slug: amazon-forecast-plans-pricing
-random_paper: 77
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Forecast Rate Limits
@@ -351,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/screenshots/amazon-forecast-2026-06-20T171651.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Riiid's adaptive learning engine analyzes learner interaction data in real time to recommend personalized study paths and content. It is delivered inside Riiid/Socra products (Santa) and to partners v
@@ -101,25 +101,25 @@ plans:
 - name: Riiid Plans Pricing
   plan_count: 2
   slug: riiid-plans-pricing
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Riiid Rate Limits
   slug: riiid-rate-limits
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 25.4
+  delta: -0.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 31.8
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 25.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

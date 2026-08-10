@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -636,7 +636,7 @@ plans:
 - name: Shodan Plans Pricing
   plan_count: 6
   slug: shodan-plans-pricing
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 17
   name: Shodan Rate Limits
@@ -686,7 +686,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

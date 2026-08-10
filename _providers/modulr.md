@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -225,7 +225,7 @@ overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 29 more developer resources.'
-random_paper: 94
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Modulr Rate Limits
@@ -254,8 +254,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:
 - kind: authentication
   name: Modulr Authentication

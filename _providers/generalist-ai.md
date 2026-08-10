@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,19 +51,23 @@ common:
   title: ''
   type: Support
   url: https://generalistai.com/contact
+- group: company
+  title: ''
+  type: About
+  url: https://generalistai.com/about
 created: '2026-07-17'
 description: Generalist AI, Inc. is a frontier AI research and product-driven company building general intelligence for the physical world — training robots that work autonomously across factories, warehouses, laboratories, restaurants, farms, homes, and beyond. Its flagship model, GEN-1, is a general-purpose embodied foundation model trained from scratch that reaches mastery of simple physical tasks, going beyond world models and vision-language-action (VLA) approaches. Backed by Spark Capital, the company publishes its research through a blog and open-sources vision and robotics tooling on GitHub. Generalist AI exposes no public developer API, SDK, or documentation surface at this time; this profile captures its identity and web properties for the API Evangelist network.
 image: https://generalistai.com/assets/videos/index-hero/generalist-gen1-poster.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Generalist AI
 nav: Providers
 network: true
 overview: 'Generalist AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Foundation Models, and Physical AI.
 
 
-  Generalist AI''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 74
+  Generalist AI''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 41
 score:
   band: minimal
   composite: 7.0
@@ -77,7 +81,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/generalist-ai/refs/heads/main/screenshots/generalist-ai-2026-07-25T215553.png
 security:

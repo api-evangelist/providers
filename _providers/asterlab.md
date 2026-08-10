@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created in the inference console and set the base U
@@ -104,7 +104,7 @@ overview: 'Asterlab publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Asterlab''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 7 more developer resources.'
-random_paper: 55
+random_paper: 34
 score:
   band: emerging
   composite: 26.8
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 26.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/screenshots/asterlab-2026-07-25T201459.png
 security:

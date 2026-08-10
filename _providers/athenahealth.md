@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The athenaOne proprietary REST API suite provides over 800 endpoints covering patient management, scheduling, clinical data, revenue cycle, and care coordination. Requires OAuth 2.0 authentication and
@@ -130,7 +130,7 @@ plans:
 - name: Athenahealth Plans Pricing
   plan_count: 3
   slug: athenahealth-plans-pricing
-random_paper: 12
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Athenahealth Rate Limits
@@ -154,7 +154,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:

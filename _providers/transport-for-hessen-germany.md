@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: RMV API (Public Transport in Hessen)
@@ -60,7 +60,7 @@ name: Transport for Hessen, Germany
 nav: Providers
 network: true
 overview: Transport for Hessen, Germany publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 43
+random_paper: 84
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transport-for-hessen-germany/refs/heads/main/screenshots/transport-for-hessen-germany-2026-06-20T195604.png
 security:

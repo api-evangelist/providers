@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,7 +120,7 @@ overview: 'Niteshift is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Niteshift''s developer surface includes documentation, quickstart, pricing, engineering blog, support, changelog, authentication, and 11 more developer resources.'
-random_paper: 70
+random_paper: 46
 scopes:
 - name: Niteshift Scopes
   scope_count: 4
@@ -141,8 +141,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/niteshift/refs/heads/main/screenshots/niteshift-2026-08-07T185339.png
 security:
 - kind: authentication
   name: Niteshift Authentication

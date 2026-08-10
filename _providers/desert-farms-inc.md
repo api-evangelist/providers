@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'DESERT FARMS INC. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   DESERT FARMS INC.''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: minimal
   composite: 11.6
@@ -85,8 +85,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/desert-farms-inc/refs/heads/main/screenshots/desert-farms-inc-2026-08-07T164306.png
 security:
 - kind: domain-security
   name: Desert Farms Inc Domain Security

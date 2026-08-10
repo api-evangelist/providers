@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Reynolds American CEO David Waterfield on Growing ...
   url: https://www.linkedin.com/posts/reynoldsamericaninc_yesterday-reynolds-american-inc-president-activity-7430296497134399488-6ZU7
-random_paper: 62
+random_paper: 17
 rules:
 - name: Reynolds American API Rules
   rule_count: 4
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,12 +24,12 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.7
-  scored_at: '2026-08-06'
-api_count: 6
+  score: 20.9
+  scored_at: '2026-08-10'
+api_count: 12
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
   name: Cloudflare Zero Trust API
@@ -49,7 +49,25 @@ apis:
 - description: Twingate is a software-defined ZTNA platform that exposes a GraphQL Admin API for managing remote networks, resources, groups, users, service accounts, and connectors.
   name: Twingate API
   slug: twingate-api
-artifact_total: 34
+- description: Account-level WARP deployment groups.
+  name: Zero Trust Network Access Deployment Groups API
+  slug: zero-trust-network-access-deployment-groups-api
+- description: WARP devices enrolled in Zero Trust.
+  name: Zero Trust Network Access Devices API
+  slug: zero-trust-network-access-devices-api
+- description: Digital Experience Monitoring tests.
+  name: Zero Trust Network Access DEX Tests API
+  slug: zero-trust-network-access-dex-tests-api
+- description: WARP device IP profiles.
+  name: Zero Trust Network Access IP Profiles API
+  slug: zero-trust-network-access-ip-profiles-api
+- description: Per-user WARP registrations on a device.
+  name: Zero Trust Network Access Registrations API
+  slug: zero-trust-network-access-registrations-api
+- description: Global Cloudflare WARP override state.
+  name: Zero Trust Network Access WARP Override API
+  slug: zero-trust-network-access-warp-override-api
+artifact_total: 40
 common:
 - group: auth
   title: ''
@@ -198,7 +216,7 @@ modified: '2026-05-03'
 name: Zero Trust Network Access
 nav: Providers
 network: true
-overview: 'Zero Trust Network Access publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Access Control, Cloud Security, Cybersecurity, Identity Management, and Network Access.
+overview: 'Zero Trust Network Access publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Deployment Groups API, Devices API, DEX Tests API, and 3 more. Tagged areas include Access Control, Cloud Security, Cybersecurity, Identity Management, and Network Access.
 
 
   The Zero Trust Network Access catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -209,7 +227,7 @@ plans:
 - name: Zero Trust Network Access Plans Pricing
   plan_count: 3
   slug: zero-trust-network-access-plans-pricing
-random_paper: 79
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Zero Trust Network Access Rate Limits
@@ -224,12 +242,12 @@ rules:
     warn: 4
   slug: zero-trust-network-access-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.2
-  delta: 0.0
+  band: developing
+  composite: 46.9
+  delta: 9.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 21.0
+    contract_quality: 59.7
     developer_ergonomics: 17.4
     discoverability: 72.2
     governance: 58.3
@@ -242,8 +260,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/screenshots/zero-trust-network-access-2026-06-20T201911.png
 security:
 - kind: domain-security

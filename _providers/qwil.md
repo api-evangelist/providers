@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Qwil's private, authenticated production REST API (Django REST Framework). Requires a bearer token; no public OpenAPI specification is published.
@@ -68,7 +68,7 @@ overview: 'Qwil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Qwil''s developer surface includes authentication and 4 more developer resources.'
-random_paper: 106
+random_paper: 97
 score:
   band: emerging
   composite: 13.8
@@ -88,7 +88,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

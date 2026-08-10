@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Olist is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Olist''s developer surface includes signup flow, support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 103
+random_paper: 91
 score:
   band: emerging
   composite: 13.8
@@ -99,8 +99,9 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/olist/refs/heads/main/screenshots/olist-2026-08-07T190120.png
 security:
 - kind: domain-security
   name: Olist Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -137,7 +137,7 @@ overview: 'Ambi Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ambi Robotics'' developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 80
+random_paper: 47
 score:
   band: emerging
   composite: 16.1
@@ -151,7 +151,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambi-robotics/refs/heads/main/screenshots/ambi-robotics-2026-06-20T171853.png
 security:

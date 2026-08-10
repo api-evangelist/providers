@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -323,7 +323,7 @@ plans:
 - name: Vectara Plans Pricing
   plan_count: 1
   slug: vectara-plans-pricing
-random_paper: 64
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Vectara Rate Limits
@@ -370,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:

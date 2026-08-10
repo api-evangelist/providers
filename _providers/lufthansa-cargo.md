@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: Retrieves the current status of an air freight shipment by IATA Air Waybill, keyed on a 3-digit AWB prefix (020 = Lufthansa Cargo) plus an 8-digit AWB number. Returns the milestone plan, booking, flig
@@ -125,7 +125,7 @@ overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 7 more developer resources.'
-random_paper: 66
+random_paper: 27
 score:
   band: thin
   composite: 33.6
@@ -145,8 +145,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png
 slug: lufthansa-cargo
 tags:
 - Logistics

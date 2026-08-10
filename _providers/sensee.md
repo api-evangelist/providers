@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Sensee
 nav: Providers
 network: true
 overview: Sensee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, Contact Lenses, and Optical.
-random_paper: 78
+random_paper: 63
 score:
   band: minimal
   composite: 8.6
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

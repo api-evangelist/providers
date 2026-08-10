@@ -1,6 +1,95 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blossomhill-therapeutics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bhtherapeutics.com/
+- group: company
+  title: ''
+  type: About
+  url: https://bhtherapeutics.com/about-us/
+- group: other
+  title: ''
+  type: Pipeline
+  url: https://bhtherapeutics.com/pipeline/
+- group: company
+  title: ''
+  type: Investors
+  url: https://bhtherapeutics.com/investors/
+- group: company
+  title: ''
+  type: Blog
+  url: https://bhtherapeutics.com/news/
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://bhtherapeutics.com/press-releases/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bhtherapeutics.com/feed/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://bhtherapeutics.com/contact/
+- group: company
+  title: ''
+  type: Careers
+  url: https://bhtherapeutics.com/careers/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://bhtherapeutics.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://bhtherapeutics.com/privacy-policy/
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://bhtherapeutics.com/cookie-policy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blossomhill-therapeutics-llms.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/blossomhill-therapeutics-inc
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/bhtherapeutics
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/blossomhill-therapeutics_stock/
 coverage:
   checked: '2026-08-07'
   detail: BlossomHill is a clinical-stage oncology drug-discovery company with no developer site and no API product; every OpenAPI, GraphQL, MCP and agent-card path on bhtherapeutics.com returns 404, api./docs./developer.bhtherapeutics.com do not resolve, and the only machine-readable surface on the domain is the default WordPress /wp-json REST root its marketing CMS exposes.
@@ -25,7 +114,38 @@ modified: '2026-08-07'
 name: BlossomHill Therapeutics
 nav: Providers
 network: true
-random_paper: 48
+overview: 'BlossomHill Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
+
+
+  BlossomHill Therapeutics'' developer surface includes engineering blog and 16 more developer resources.'
+random_paper: 98
+score:
+  band: minimal
+  composite: 11.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blossomhill-therapeutics/refs/heads/main/screenshots/blossomhill-therapeutics-2026-08-07T162640.png
+security:
+- kind: domain-security
+  name: Blossomhill Therapeutics Domain Security
+  slug: blossomhill-therapeutics-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: blossomhill-therapeutics
 tags:
 - Company
@@ -36,4 +156,5 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Precision Medicine
+website: https://bhtherapeutics.com/
 ---

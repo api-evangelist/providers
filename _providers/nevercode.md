@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -211,7 +211,7 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nevercode''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: developing
   composite: 53.8
@@ -235,8 +235,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/screenshots/nevercode-2026-08-07T185044.png
 security:
 - kind: authentication
   name: Nevercode Authentication

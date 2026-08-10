@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Micro-Service Architecture Patterns
 nav: Providers
 network: true
 overview: Micro-Service Architecture Patterns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Design Patterns, Distributed Systems, Microservices, and Software Engineering.
-random_paper: 42
+random_paper: 65
 score:
   band: minimal
   composite: 6.3
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microservice-architecture-patterns/refs/heads/main/screenshots/microservice-architecture-patterns-2026-06-20T185336.png
 slug: microservice-architecture-patterns

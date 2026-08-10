@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Motif is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Motif''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 91
+random_paper: 79
 score:
   band: emerging
   composite: 17.0
@@ -97,8 +97,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/motif/refs/heads/main/screenshots/motif-2026-08-07T184323.png
 security:
 - kind: domain-security
   name: Motif Domain Security

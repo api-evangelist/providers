@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Martie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Martie''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: minimal
   composite: 10.5
@@ -81,8 +81,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/martie/refs/heads/main/screenshots/martie-2026-08-07T172115.png
 security:
 - kind: domain-security
   name: Martie Domain Security

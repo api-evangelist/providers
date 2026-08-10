@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Roofstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Roofstock''s developer surface includes getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 82
+random_paper: 58
 score:
   band: emerging
   composite: 16.0
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

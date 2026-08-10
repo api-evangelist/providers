@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Chrome River (Emburse) is profiled on the [APIs.io](https://apis.io/)
 
 
   Chrome River (Emburse)''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 1
+random_paper: 63
 score:
   band: emerging
   composite: 23.1
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chrome-river-emburse/refs/heads/main/screenshots/chrome-river-emburse-2026-07-25T205304.png
 security:

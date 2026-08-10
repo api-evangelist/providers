@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Standard Signal
 nav: Providers
 network: true
 overview: Standard Signal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hedge Fund, Fintech, and Trading.
-random_paper: 63
+random_paper: 24
 score:
   band: minimal
   composite: 4.3
@@ -64,7 +64,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: standard-signal
 tags:

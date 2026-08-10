@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: '4DReplay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   4DReplay''s developer surface includes documentation, support, signup flow, YouTube channel, and 13 more developer resources.'
-random_paper: 14
+random_paper: 109
 score:
   band: emerging
   composite: 16.7
@@ -119,8 +119,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/4dreplay/refs/heads/main/screenshots/4dreplay-2026-08-07T160703.png
 security:
 - kind: domain-security
   name: 4Dreplay Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Foundational API providing access to EquipmentWatch's manufacturer and model database, covering the taxonomy used across the broader API suite for construction and heavy equipment.
@@ -94,7 +94,7 @@ plans:
 - name: Equipmentwatch Plans Pricing
   plan_count: 3
   slug: equipmentwatch-plans-pricing
-random_paper: 50
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Equipmentwatch Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/screenshots/equipmentwatch-2026-06-20T180808.png
 security:

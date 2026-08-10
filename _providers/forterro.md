@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +119,7 @@ overview: 'Forterro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Forterro''s developer surface includes support, engineering blog, product news, and 16 more developer resources.'
-random_paper: 92
+random_paper: 71
 score:
   band: emerging
   composite: 13.7
@@ -133,7 +133,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/screenshots/forterro-2026-07-25T215009.png
 security:

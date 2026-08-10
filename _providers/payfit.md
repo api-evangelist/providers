@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ overview: 'PayFit publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayFit''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 88
+random_paper: 73
 score:
   band: thin
   composite: 30.0
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/screenshots/payfit-2026-06-20T191458.png
 security:

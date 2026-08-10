@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -26,15 +26,39 @@ agentic_access:
   operation_count: 89
   slug: vestaron-agentic-access
   summary_line: 89 operations · 54 acting
-api_count: 2
+api_count: 10
 apis:
-- description: The anonymously readable WordPress REST API that vestaron.com serves at /wp-json/wp/v2 — the corporate newsroom (94 published posts spanning 2015-06-12 to 2026-03-11 across the News, Articles, Recogni
-  name: Vestaron Content API (WordPress REST wp/v2)
-  slug: content
 - description: 'A remote Model Context Protocol server published on the vestaron.com host and advertised anonymously through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. The '
   name: Vestaron MCP Server (WordPress MCP Adapter)
   slug: mcp
-artifact_total: 7
+- description: The Comments API from Vestaron — 2 operation(s) for comments.
+  name: Vestaron Comments API
+  slug: vestaron-comments-api
+- description: The Discovery API from Vestaron — 5 operation(s) for discovery.
+  name: Vestaron Discovery API
+  slug: vestaron-discovery-api
+- description: The Media API from Vestaron — 4 operation(s) for media.
+  name: Vestaron Media API
+  slug: vestaron-media-api
+- description: The Pages API from Vestaron — 6 operation(s) for pages.
+  name: Vestaron Pages API
+  slug: vestaron-pages-api
+- description: The Posts API from Vestaron — 6 operation(s) for posts.
+  name: Vestaron Posts API
+  slug: vestaron-posts-api
+- description: The Search API from Vestaron — 1 operation(s) for search.
+  name: Vestaron Search API
+  slug: vestaron-search-api
+- description: The Settings API from Vestaron — 1 operation(s) for settings.
+  name: Vestaron Settings API
+  slug: vestaron-settings-api
+- description: The Taxonomy API from Vestaron — 6 operation(s) for taxonomy.
+  name: Vestaron Taxonomy API
+  slug: vestaron-taxonomy-api
+- description: The Users API from Vestaron — 6 operation(s) for users.
+  name: Vestaron Users API
+  slug: vestaron-users-api
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -107,7 +131,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vestaron-content-openapi.yml
+  url: openapi/_original/vestaron-content-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -185,11 +209,11 @@ modified: '2026-08-05'
 name: Vestaron
 nav: Providers
 network: true
-overview: 'Vestaron publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Crop Protection.
+overview: 'Vestaron publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Crop Protection.
 
 
   Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 28 more developer resources.'
-random_paper: 91
+random_paper: 70
 scopes:
 - name: Vestaron Scopes
   scope_count: 1
@@ -197,14 +221,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 28.5
+  composite: 28.8
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.1
+    contract_quality: 14.1
     developer_ergonomics: 25.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +248,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Vestaron Authentication

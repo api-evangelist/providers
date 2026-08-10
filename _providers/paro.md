@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Paro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Paro''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 95
+random_paper: 86
 score:
   band: emerging
   composite: 13.9
@@ -105,8 +105,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paro/refs/heads/main/screenshots/paro-2026-08-07T191448.png
 security:
 - kind: domain-security
   name: Paro Domain Security

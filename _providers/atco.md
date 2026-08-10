@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'ATCO publishes 1 API on the [APIs.io](https://apis.io/) network: Elec
 
 
   ATCO''s developer surface includes authentication, support, product news, and 23 more developer resources.'
-random_paper: 84
+random_paper: 75
 score:
   band: thin
   composite: 36.7
@@ -201,8 +201,9 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png
 security:
 - kind: authentication
   name: Atco Authentication

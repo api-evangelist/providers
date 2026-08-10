@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Toronto Hydro's Green Button Connect My Data (CMD) implementation, required of rate-regulated Ontario electricity utilities by O. Reg. 633/21 and built to the NAESB REQ.21 Energy Services Provider Int
@@ -170,7 +170,7 @@ overview: 'Toronto Hydro publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 25 more developer resources.'
-random_paper: 28
+random_paper: 108
 scopes:
 - name: Toronto Hydro Scopes
   scope_count: 0
@@ -203,7 +203,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

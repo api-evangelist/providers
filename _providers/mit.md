@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The MIT Roles API provides programmatic access to institutional role and authorization data, enabling MIT applications and authorized integrators to query, manage, and synchronize roles assigned to pe
@@ -72,7 +72,7 @@ plans:
 - name: Mit Plans Pricing
   plan_count: 3
   slug: mit-plans-pricing
-random_paper: 104
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Mit Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mit/refs/heads/main/screenshots/mit-2026-06-20T185615.png
 security:

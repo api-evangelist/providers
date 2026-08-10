@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: カスタム家族項目テンプレートを操作します
@@ -106,7 +106,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kufu-smarthr-openapi.json
+  url: openapi/_original/kufu-smarthr-openapi.json
 - group: other
   title: ''
   type: Overlay
@@ -214,30 +214,30 @@ overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カ
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 104
+random_paper: 95
 score:
   band: developing
-  composite: 53.6
+  composite: 54.5
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.0
+    contract_quality: 58.9
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 53.6
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:

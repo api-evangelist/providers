@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,7 +98,7 @@ name: ClearMotion
 nav: Providers
 network: true
 overview: ClearMotion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Automotive Technology, Suspension, and Mobility.
-random_paper: 51
+random_paper: 21
 score:
   band: minimal
   composite: 9.6
@@ -112,8 +112,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clearmotion/refs/heads/main/screenshots/clearmotion-2026-08-07T163444.png
 security:
 - kind: domain-security
   name: Clearmotion Domain Security

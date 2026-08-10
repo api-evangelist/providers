@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'RESTful JSON web service exposing OneStream Data Automation functions: Authentication, Data Management (ExecuteSequence, ExecuteStep), and Data Provider (ADO datasets from adapters, Cube Views, SQL, a'
@@ -148,7 +148,7 @@ overview: 'OneStream publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   OneStream''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: thin
   composite: 32.7
@@ -165,8 +165,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onestream/refs/heads/main/screenshots/onestream-2026-08-07T190345.png
 security:
 - kind: authentication
   name: Onestream Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Pdb Plans Pricing
   plan_count: 1
   slug: pdb-plans-pricing
-random_paper: 84
+random_paper: 78
 rate_limits:
 - limit_count: 7
   name: Pdb Rate Limits
@@ -180,7 +180,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/screenshots/pdb-2026-06-20T191514.png
 security:

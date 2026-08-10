@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
@@ -17,20 +17,89 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-06'
-api_count: 3
+  score: 65.1
+  scored_at: '2026-08-10'
+api_count: 26
 apis:
-- description: The REST API behind PlantPredict, Terabase Energy's utility-scale solar performance-modeling platform. It exposes the full modeling engine — projects, predictions, power plant designs (blocks/arrays/i
-  name: PlantPredict Performance API
-  slug: plantpredict-performance-api
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
   name: PlantPredict MCP Connector
   slug: plantpredict-mcp-connector
 - description: Terabase Energy's terrain analysis and solar site-planning API, used by the Terrain Pro application for elevation data extraction, layout generation, grading/earthwork solutions, pile binning and reve
   name: Terrain Pro API
   slug: terrain-pro-api
-artifact_total: 8
+- description: ASHRAE climate station lookup
+  name: Terabase Energy ASHRAE API
+  slug: terabase-energy-ashrae-api
+- description: Company settings and user management
+  name: Terabase Energy Company API
+  slug: terabase-energy-company-api
+- description: Reference country data
+  name: Terabase Energy Country API
+  slug: terabase-energy-country-api
+- description: The Definition API from Terabase Energy — 1 operation(s) for definition.
+  name: Terabase Energy Definition API
+  slug: terabase-energy-definition-api
+- description: Enum and model type definitions
+  name: Terabase Energy Definitions API
+  slug: terabase-energy-definitions-api
+- description: Financial model parameters and cashflow results
+  name: Terabase Energy Financial Model API
+  slug: terabase-energy-financialmodel-api
+- description: The Home API from Terabase Energy — 1 operation(s) for home.
+  name: Terabase Energy Home API
+  slug: terabase-energy-home-api
+- description: The Inverter API from Terabase Energy — 8 operation(s) for inverter.
+  name: Terabase Energy Inverter API
+  slug: terabase-energy-inverter-api
+- description: Inverter library management
+  name: Terabase Energy Inverters API
+  slug: terabase-energy-inverters-api
+- description: The Module API from Terabase Energy — 9 operation(s) for module.
+  name: Terabase Energy Module API
+  slug: terabase-energy-module-api
+- description: PV module library and single-diode parameter generation
+  name: Terabase Energy Modules API
+  slug: terabase-energy-modules-api
+- description: Power plant design (blocks, arrays, inverters, transformers)
+  name: Terabase Energy Power Plant API
+  slug: terabase-energy-powerplant-api
+- description: Energy prediction configuration and execution
+  name: Terabase Energy Predictions API
+  slug: terabase-energy-predictions-api
+- description: The Project API from Terabase Energy — 47 operation(s) for project.
+  name: Terabase Energy Project API
+  slug: terabase-energy-project-api
+- description: Solar project management
+  name: Terabase Energy Projects API
+  slug: terabase-energy-projects-api
+- description: Report generation and export
+  name: Terabase Energy Reports API
+  slug: terabase-energy-reports-api
+- description: Prediction results — summary, details, nodal, average energy
+  name: Terabase Energy Results API
+  slug: terabase-energy-results-api
+- description: The ShadeEngine API from Terabase Energy — 14 operation(s) for shadeengine.
+  name: Terabase Energy Shade Engine API
+  slug: terabase-energy-shadeengine-api
+- description: 3D shade scene management and calculations
+  name: Terabase Energy Shade Scene API
+  slug: terabase-energy-shadescene-api
+- description: System version and maintenance status
+  name: Terabase Energy System API
+  slug: terabase-energy-system-api
+- description: The TABTEngine API from Terabase Energy — 7 operation(s) for tabtengine.
+  name: Terabase Energy TABT Engine API
+  slug: terabase-energy-tabtengine-api
+- description: Custom time series data inputs
+  name: Terabase Energy Time Series API
+  slug: terabase-energy-timeseries-api
+- description: The Version API from Terabase Energy — 1 operation(s) for version.
+  name: Terabase Energy Version API
+  slug: terabase-energy-version-api
+- description: Weather file import, download, and management
+  name: Terabase Energy Weather API
+  slug: terabase-energy-weather-api
+artifact_total: 32
 common:
 - group: company
   title: ''
@@ -180,15 +249,18 @@ mcp_servers:
 - description: ''
   name: terabase-energy-mcp.yml
   slug: terabase-energy-mcpyml
+- description: ''
+  name: mcp.plantpredict.terabase.energy
+  slug: mcpplantpredictterabaseenergy
 modified: '2026-08-05'
 name: Terabase Energy
 nav: Providers
 network: true
-overview: 'Terabase Energy publishes 1 API on the [APIs.io](https://apis.io/) network: PlantPredict Performance API. Tagged areas include solar, renewable-energy, energy-modeling, utility-scale-solar, and simulation.
+overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include solar, renewable-energy, energy-modeling, utility-scale-solar, and simulation.
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 65
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Terabase Energy Rate Limits
@@ -199,15 +271,17 @@ scopes:
   slug: terabase-energy-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 56.3
+  band: developing
+  composite: 53.6
+  delta: -2.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.5
+    contract_quality: 54.1
     developer_ergonomics: 78.3
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 20.8
     operational_transparency: 21.1
+  previous_composite: 56.3
   provenance:
     conformance: first-party
     contracts:
@@ -218,7 +292,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Terabase Energy Authentication

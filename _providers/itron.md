@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -174,10 +174,6 @@ common:
   title: ''
   type: FinOps
   url: finops/itron-finops.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/
 - group: design
   title: ''
   type: Vocabulary
@@ -240,12 +236,12 @@ overview: 'Itron publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Itron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Itron''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 21 more developer resources.'
+  Itron''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Itron Plans Pricing
   plan_count: 4
   slug: itron-plans-pricing
-random_paper: 104
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Itron Rate Limits
@@ -293,7 +289,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:

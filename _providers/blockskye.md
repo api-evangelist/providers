@@ -1,6 +1,87 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-08-10'
 api_count: 1
-artifact_total: 0
+apis:
+- description: 'Live production API host operated by Blockskye, discovered by probe. The host answers as a Fastify service behind AWS API Gateway: GET /health returns 200 with a JSON status/bootId payload, every othe'
+  name: Blockskye API
+  slug: blockskye-api
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blockskye.com/
+- group: other
+  title: ''
+  type: Platform
+  url: https://www.blockskye.com/blockskye-platform
+- group: company
+  title: ''
+  type: About
+  url: https://www.blockskye.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.blockskye.com/latestnews
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.blockskye.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.blockskye.com/support/home
+- group: start
+  title: ''
+  type: Login
+  url: https://horizon.blockskye.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.blockskye.com/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.blockskye.com/privacy-policy
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.blockskye.com/careers
+- group: other
+  title: ''
+  type: Glossary
+  url: https://www.blockskye.com/glossary
+- group: build
+  title: ''
+  type: Library
+  url: https://www.blockskye.com/resources/library
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blockskye-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blockskye-llms.txt
 coverage:
   checked: '2026-08-07'
   detail: Blockskye runs a live production API at api.blockskye.com whose /health endpoint answers 200 anonymously, but the only Blockskye documentation that exists sits in a Freshworks-backed knowledge base where /support/solutions chains 302 to /support/home to /support/login and out to a blockskye.myfreshworks.com OAuth authorize URL, so the reference is reachable only by an existing customer tenant.
@@ -32,7 +113,42 @@ modified: '2026-08-07'
 name: Blockskye
 nav: Providers
 network: true
-random_paper: 63
+overview: 'Blockskye publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Corporate Travel, Travel Management, Payments, and Settlement.
+
+
+  Blockskye''s developer surface includes engineering blog, support, and 12 more developer resources.'
+random_paper: 39
+rate_limits:
+- limit_count: 1
+  name: Blockskye Rate Limits
+  slug: blockskye-rate-limits
+score:
+  band: emerging
+  composite: 19.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 75.9
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 19.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 21.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blockskye/refs/heads/main/screenshots/blockskye-2026-08-07T162631.png
+security:
+- kind: domain-security
+  name: Blockskye Domain Security
+  slug: blockskye-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: blockskye
 tags:
 - Travel
@@ -45,4 +161,5 @@ tags:
 - Blockchain
 - Distributed Ledger
 - Enterprise
+website: https://www.blockskye.com/
 ---

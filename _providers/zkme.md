@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'zkMe publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 12 more developer resources.'
-random_paper: 100
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Zkme Rate Limits
@@ -163,7 +163,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

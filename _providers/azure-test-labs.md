@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -557,7 +557,7 @@ plans:
 - name: Azure Test Labs Plans Pricing
   plan_count: 3
   slug: azure-test-labs-plans-pricing
-random_paper: 38
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Azure Test Labs Rate Limits
@@ -586,25 +586,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 58.8
+  composite: 59.8
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.6
+    contract_quality: 63.4
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 58.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 25
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

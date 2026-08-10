@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ostrom''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 111
+random_paper: 96
 score:
   band: developing
   composite: 50.5
@@ -218,8 +218,9 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
 security:
 - kind: authentication
   name: Ostrom Authentication

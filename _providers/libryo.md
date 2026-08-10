@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Libryo Platform''s partner-facing RESTful API. Third-party applications integrate on behalf of a Libryo user using the OAuth 2.0 authorization-code flow, then call the versioned /api/v1 surface to '
@@ -120,7 +120,7 @@ overview: 'Libryo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Libryo''s developer surface includes documentation, support, pricing, and 15 more developer resources.'
-random_paper: 92
+random_paper: 77
 scopes:
 - name: Libryo Scopes
   scope_count: 3
@@ -141,7 +141,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libryo/refs/heads/main/screenshots/libryo-2026-07-25T225027.png
 security:

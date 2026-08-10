@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: derived
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-06'
+  score: 48.0
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,27 +26,123 @@ agentic_access:
   operation_count: 69
   slug: miso-agentic-access
   summary_line: 69 operations
-api_count: 6
+api_count: 38
 apis:
-- description: Real-time market and operations data displays, served from one host under /api/ with no authentication. Covers both the Markets and Operations display tables MISO documents together.
-  name: MISO Public API
-  slug: miso-public-api
-- description: The pricing half of MISO Data Exchange, MISO's Azure API Management developer programme over Market Report data. Ten documented GET operations covering day-ahead and real-time ex-ante and ex-post loca
-  name: MISO Data Exchange Pricing API
-  slug: miso-data-exchange-pricing-api
-- description: The system-data half of MISO Data Exchange. Twenty-two documented GET operations spanning actual load, day-ahead and real-time cleared demand, day-ahead cleared generation both physical and virtual, d
-  name: MISO Data Exchange Load, Generation, and Interchange API
-  slug: miso-data-exchange-load-generation-interchange-api
 - description: 'MISO''s long-running bulk market report surface — the second fully anonymous layer of its open market data, and the archive the Data Exchange APIs sit on top of. Every published report is a plain HTTP '
   name: MISO Market Reports
   slug: miso-market-reports
-- description: The closed counterpart to everything else in this profile — MISO's programmatic JSON web API for registered market participants to submit energy supply offers and demand bids, query submissions, and q
-  name: MISO Market User Interface (MUI) 2.0 API
-  slug: miso-mui-2-0-api
 - description: The bulk file-retrieval counterpart to MUI 2.0, on the same two client-certificate-gated hosts and documented only in a PDF. MISO's File Download Specification lays out a consistent pair of operations
   name: MISO File Download API
   slug: miso-file-download-api
-artifact_total: 75
+- description: The Financial Transmission Rights / Multi-Period Multi-Auction market user API — four SOAP services covering the FTR market itself, auctions, bulk download and the secondary market. MISO publishes rea
+  name: MISO FTR MPMA Market User API
+  slug: miso-ftr-mpma-market-user-api
+- description: A SOAP service for uploading meter data and offer data to MISO, with a published WSDL and six XSD schemas (MdUploadPayload, MdUploadResponse, MeterData, OfferData, OfferDataUploadPayload, OfferUploadR
+  name: MISO EDR Service (Electronic Data Reporting)
+  slug: miso-edr-service
+- description: The outage-scheduling interface, built on the CROW product, documented in a PDF reference plus a MISO-specific addendum and shipped with worked XML request and response examples — submit, cancel and w
+  name: MISO CROW API (Outage Scheduling)
+  slug: miso-crow-api
+- description: Data request API for fuel and consumables information, documented in a 171KB PDF API guide on MISO's CDN and nowhere else.
+  name: MISO Fuel and Consumables Data Request API
+  slug: miso-fuel-and-consumables-api
+- description: Market Portal API for retrieving meter data and settlement statements, documented in a 1MB PDF on MISO's CDN. Sits alongside the File Download API in the settlements area of the estate.
+  name: MISO Market Portal Meter Data and Settlement Statements API
+  slug: miso-meter-data-and-settlement-statements-api
+- description: The Ace API from MISO — 1 operation(s) for ace.
+  name: MISO Ace API
+  slug: miso-ace-api
+- description: The Admin API from MISO — 6 operation(s) for admin.
+  name: MISO Admin API
+  slug: miso-admin-api
+- description: The Aggregated Pnode API from MISO — 1 operation(s) for aggregated pnode.
+  name: MISO Aggregated Pnode API
+  slug: miso-aggregated-pnode-api
+- description: The Bidding API from MISO — 2 operation(s) for bidding.
+  name: MISO Bidding API
+  slug: miso-bidding-api
+- description: The BindingConstraints API from MISO — 3 operation(s) for bindingconstraints.
+  name: MISO Binding Constraints API
+  slug: miso-bindingconstraints-api
+- description: The Contracts API from MISO — 4 operation(s) for contracts.
+  name: MISO Contracts API
+  slug: miso-contracts-api
+- description: The CoordinatedTransactionScheduling API from MISO — 1 operation(s) for coordinatedtransactionscheduling.
+  name: MISO Coordinated Transaction Scheduling API
+  slug: miso-coordinatedtransactionscheduling-api
+- description: The CsatNextDayShortTermReserveRequirement API from MISO — 1 operation(s) for csatnextdayshorttermreserverequirement.
+  name: MISO Csat Next Day Short Term Reserve Requirement API
+  slug: miso-csatnextdayshorttermreserverequirement-api
+- description: The CsatSupplyDemand API from MISO — 1 operation(s) for csatsupplydemand.
+  name: MISO Csat Supply Demand API
+  slug: miso-csatsupplydemand-api
+- description: The Day Ahead API from MISO — 11 operation(s) for day ahead.
+  name: MISO Day Ahead API
+  slug: miso-day-ahead-api
+- description: The Forecast API from MISO — 6 operation(s) for forecast.
+  name: MISO Forecast API
+  slug: miso-forecast-api
+- description: The FuelMix API from MISO — 3 operation(s) for fuelmix.
+  name: MISO Fuel Mix API
+  slug: miso-fuelmix-api
+- description: The GenerationOutages API from MISO — 1 operation(s) for generationoutages.
+  name: MISO Generation Outages API
+  slug: miso-generationoutages-api
+- description: The Historical API from MISO — 1 operation(s) for historical.
+  name: MISO Historical API
+  slug: miso-historical-api
+- description: The IMM API from MISO — 1 operation(s) for imm.
+  name: MISO IMM API
+  slug: miso-imm-api
+- description: The Interchange API from MISO — 9 operation(s) for interchange.
+  name: MISO Interchange API
+  slug: miso-interchange-api
+- description: The MarketPricing API from MISO — 6 operation(s) for marketpricing.
+  name: MISO Market Pricing API
+  slug: miso-marketpricing-api
+- description: The Model API from MISO — 1 operation(s) for model.
+  name: MISO Model API
+  slug: miso-model-api
+- description: The Notifications API from MISO — 6 operation(s) for notifications.
+  name: MISO Notifications API
+  slug: miso-notifications-api
+- description: The Notifications Format API from MISO — 7 operation(s) for notifications format.
+  name: MISO Notifications Format API
+  slug: miso-notifications-format-api
+- description: The Offer API from MISO — 7 operation(s) for offer.
+  name: MISO Offer API
+  slug: miso-offer-api
+- description: The Real Time API from MISO — 17 operation(s) for real time.
+  name: MISO Real Time API
+  slug: miso-real-time-api
+- description: The RealTimeRSGCommitments API from MISO — 1 operation(s) for realtimersgcommitments.
+  name: MISO Real Time RSG Commitments API
+  slug: miso-realtimersgcommitments-api
+- description: The RealTimeTotalLoad API from MISO — 1 operation(s) for realtimetotalload.
+  name: MISO Real Time Total Load API
+  slug: miso-realtimetotalload-api
+- description: The RegionalDirectionalTransfer API from MISO — 1 operation(s) for regionaldirectionaltransfer.
+  name: MISO Regional Directional Transfer API
+  slug: miso-regionaldirectionaltransfer-api
+- description: The Reports API from MISO — 14 operation(s) for reports.
+  name: MISO Reports API
+  slug: miso-reports-api
+- description: The Reserves API from MISO — 6 operation(s) for reserves.
+  name: MISO Reserves API
+  slug: miso-reserves-api
+- description: The Snapshot API from MISO — 1 operation(s) for snapshot.
+  name: MISO Snapshot API
+  slug: miso-snapshot-api
+- description: The Transactions API from MISO — 5 operation(s) for transactions.
+  name: MISO Transactions API
+  slug: miso-transactions-api
+- description: The Weather API from MISO — 1 operation(s) for weather.
+  name: MISO Weather API
+  slug: miso-weather-api
+- description: The WindSolar API from MISO — 7 operation(s) for windsolar.
+  name: MISO Wind Solar API
+  slug: miso-windsolar-api
+artifact_total: 107
 common:
 - group: agent
   title: ''
@@ -383,7 +479,7 @@ modified: '2026-08-04'
 name: MISO
 nav: Providers
 network: true
-overview: 'MISO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API, Data Exchange Pricing API, Data Exchange Load, Generation, and Interchange API, and 1 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'MISO publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Ace API, Admin API, Aggregated Pnode API, and 28 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   MISO''s developer surface includes authentication, code examples, sandbox, documentation, API reference, signup flow, getting-started guide, and 26 more developer resources.'
@@ -391,20 +487,20 @@ plans:
 - name: Miso Plans
   plan_count: 5
   slug: miso-plans
-random_paper: 101
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Miso Rate Limits
   slug: miso-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 48.9
+  delta: -0.8
   facets:
     commercial_clarity: 65.8
-    contract_quality: 30.0
+    contract_quality: 32.2
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 77.8
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 49.7
@@ -412,10 +508,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 80.0
+      callable: 66.7
       derived: 3
-      marker_coverage: 80.0
-      total: 5
+      marker_coverage: 66.7
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -425,8 +521,9 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:
 - kind: authentication
   name: Miso Authentication

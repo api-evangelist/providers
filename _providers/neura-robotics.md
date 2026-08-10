@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'NEURA Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   NEURA Robotics'' developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
-random_paper: 97
+random_paper: 61
 score:
   band: emerging
   composite: 14.8
@@ -93,8 +93,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neura-robotics/refs/heads/main/screenshots/neura-robotics-2026-08-07T185004.png
 security:
 - kind: domain-security
   name: Neura Robotics Domain Security

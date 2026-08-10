@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ overview: 'Chamber Cardio is profiled on the [APIs.io](https://apis.io/) network
 
 
   Chamber Cardio''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 37
+random_paper: 1
 score:
   band: emerging
   composite: 13.1
@@ -100,7 +100,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber-cardio/refs/heads/main/screenshots/chamber-cardio-2026-07-25T205029.png
 security:

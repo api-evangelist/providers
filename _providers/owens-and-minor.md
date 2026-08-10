@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Owens & Minor is in talks to sell Products & Healthcare ...
   url: https://www.massdevice.com/owens-minor-to-sell-products-healthcare-services/
-random_paper: 33
+random_paper: 110
 score:
   band: minimal
   composite: 5.7
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owens-and-minor/refs/heads/main/screenshots/owens-and-minor-2026-06-20T191250.png
 security:

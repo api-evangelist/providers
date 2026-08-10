@@ -12,25 +12,109 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-06'
-api_count: 3
+  score: 56.5
+  scored_at: '2026-08-10'
+api_count: 31
 apis:
-- description: The core zerohash REST API — 167 operations across participants, accounts, assets, trades, liquidity (RFQ), the central limit order book, deposits, withdrawals, transfers, positions, market data, paym
-  name: zerohash API
-  slug: zerohash-api
-- description: Session and access-token API behind the zerohash Auth product for onchain account linking across custodial and non-custodial wallets. Two operations — OAuth 2.0 client-credentials token issuance and s
-  name: zerohash Auth (Connect) API
-  slug: zerohash-auth-connect-api
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
   name: zerohash Private WebSocket API
   slug: zerohash-private-websocket-api
-artifact_total: 9
+- description: Create and Manage Accounts
+  name: Zero Hash Accounts API
+  slug: zero-hash-accounts-api
+- description: View available assets
+  name: Zero Hash Assets API
+  slug: zero-hash-assets-api
+- description: Awards Distribution Service
+  name: Zero Hash Awards API
+  slug: zero-hash-awards-api
+- description: Central Limit Order Book
+  name: Zero Hash CLOB API
+  slug: zero-hash-clob-api
+- description: Convert and Withdraw Services
+  name: Zero Hash Convert and Withdraw API
+  slug: zero-hash-convert-and-withdraw-api
+- description: Create and Manage Customer Accounts (MTA)
+  name: Zero Hash Customer Accounts (MTA) API
+  slug: zero-hash-customer-accounts-mta-api
+- description: Create deposit addressed and monitor deposits to accounts
+  name: Zero Hash Deposits API
+  slug: zero-hash-deposits-api
+- description: Create and Manage Entity Participants
+  name: Zero Hash Entity Participants API
+  slug: zero-hash-entity-participants-api
+- description: Fund Services
+  name: Zero Hash Fund API
+  slug: zero-hash-fund-api
+- description: Obtain the index price on an instrument
+  name: Zero Hash Index API
+  slug: zero-hash-index-api
+- description: Create and Manage Individual Participants
+  name: Zero Hash Individual Participants API
+  slug: zero-hash-individual-participants-api
+- description: Request For Quote and Execution Services
+  name: Zero Hash Liquidity API
+  slug: zero-hash-liquidity-api
+- description: Market Data Services
+  name: Zero Hash Market Data API
+  slug: zero-hash-market-data-api
+- description: The Movements API from Zero Hash — 1 operation(s) for movements.
+  name: Zero Hash Movements API
+  slug: zero-hash-movements-api
+- description: The Organization Token API from Zero Hash — 1 operation(s) for organization token.
+  name: Zero Hash Organization Token API
+  slug: zero-hash-organization-token-api
+- description: Participant jurisdiction endpoints
+  name: Zero Hash Participant Jurisdictions API
+  slug: zero-hash-participant-jurisdictions-api
+- description: Power your checkout with crypto and stablecoins
+  name: Zero Hash Payins API
+  slug: zero-hash-payins-api
+- description: Payment Services
+  name: Zero Hash Payments API
+  slug: zero-hash-payments-api
+- description: Crypto payouts
+  name: Zero Hash Payouts API
+  slug: zero-hash-payouts-api
+- description: Positions and Balances monitoring
+  name: Zero Hash Positions API
+  slug: zero-hash-positions-api
+- description: Basic API Endpoints
+  name: Zero Hash Public API
+  slug: zero-hash-public-api
+- description: Generic Participant management endpoints
+  name: Zero Hash Query Participants API
+  slug: zero-hash-query-participants-api
+- description: Rewards Distribution Service
+  name: Zero Hash Rewards API
+  slug: zero-hash-rewards-api
+- description: SDK Authorization Services
+  name: Zero Hash SDK Authorization API
+  slug: zero-hash-sdk-authorization-api
+- description: Staking, Unstaking and associated Rewards Services
+  name: Zero Hash Staking API
+  slug: zero-hash-staking-api
+- description: The Trade Strategy API from Zero Hash — 13 operation(s) for trade strategy.
+  name: Zero Hash Trade Strategy API
+  slug: zero-hash-trade-strategy-api
+- description: Trade Settlement Services
+  name: Zero Hash Trades API
+  slug: zero-hash-trades-api
+- description: Initiate and monitor transfers between accounts
+  name: Zero Hash Transfers API
+  slug: zero-hash-transfers-api
+- description: The User Token API from Zero Hash — 1 operation(s) for user token.
+  name: Zero Hash User Token API
+  slug: zero-hash-user-token-api
+- description: Initiate and monitor withdrawals from accounts
+  name: Zero Hash Withdrawals API
+  slug: zero-hash-withdrawals-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Zero Hash Webhooks
@@ -197,14 +281,14 @@ modified: '2026-08-05'
 name: Zero Hash
 nav: Providers
 network: true
-overview: 'Zero Hash publishes 2 APIs on the [APIs.io](https://apis.io/) network: zerohash API and zerohash Auth (Connect) API. Tagged areas include Company, crypto-infrastructure, digital-assets, stablecoins, and payments.
+overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Awards API, and 27 more. Tagged areas include Company, crypto-infrastructure, digital-assets, stablecoins, and payments.
 
 
   The Zero Hash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 9
+random_paper: 101
 scopes:
 - name: Zero Hash Scopes
   scope_count: 4
@@ -212,14 +296,16 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 63.5
+  composite: 60.3
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.6
+    contract_quality: 64.8
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 68.5
     governance: 20.8
     operational_transparency: 55.3
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     contracts:
@@ -236,7 +322,8 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Zero Hash Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -1146,7 +1146,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1207,7 +1207,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

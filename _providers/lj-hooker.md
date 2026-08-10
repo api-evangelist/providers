@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'LJ Hooker is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LJ Hooker''s developer surface includes engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 3
+random_paper: 95
 score:
   band: emerging
   composite: 14.9
@@ -125,7 +125,7 @@ score:
     regime_id: securities_market_data
     score: 31.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lj-hooker/refs/heads/main/screenshots/lj-hooker-2026-07-27T125340.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Apple Keynote Plans Pricing
   plan_count: 7
   slug: apple-keynote-plans-pricing
-random_paper: 99
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Apple Keynote Rate Limits
@@ -241,7 +241,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/screenshots/apple-keynote-2026-06-20T172318.png
 security:

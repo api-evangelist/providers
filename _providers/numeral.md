@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Numeral Plans Pricing
   plan_count: 3
   slug: numeral-plans-pricing
-random_paper: 78
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Numeral Rate Limits
@@ -157,8 +157,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/screenshots/numeral-2026-08-07T185732.png
 security:
 - kind: authentication
   name: Numeral Authentication

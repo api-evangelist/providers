@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Cotool is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cotool''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 91
+random_paper: 76
 score:
   band: minimal
   composite: 11.5
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cotool/refs/heads/main/screenshots/cotool-2026-07-25T210501.png
 security:

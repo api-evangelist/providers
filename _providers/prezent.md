@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/prezent-openapi-original.yml
+  url: openapi/_original/prezent-openapi-original.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -258,7 +258,7 @@ overview: 'Prezent publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 28 more developer resources.'
-random_paper: 98
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
@@ -292,7 +292,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

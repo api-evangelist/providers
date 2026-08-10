@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -244,7 +244,7 @@ overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 18 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: developing
   composite: 50.5
@@ -274,7 +274,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:

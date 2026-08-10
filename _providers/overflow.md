@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -206,7 +206,7 @@ overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 93
+random_paper: 72
 score:
   band: developing
   composite: 48.5
@@ -236,8 +236,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
 security:
 - kind: authentication
   name: Overflow Authentication

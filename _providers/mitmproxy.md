@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: mitmproxy is a free and open source interactive HTTPS proxy for intercepting, inspecting, modifying, and replaying HTTP and HTTPS traffic. It provides console-based, web-based, and command-line interf
@@ -106,7 +106,7 @@ plans:
 - name: Mitmproxy Plans Pricing
   plan_count: 3
   slug: mitmproxy-plans-pricing
-random_paper: 0
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Mitmproxy Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 23.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/screenshots/mitmproxy-2026-06-20T185616.png
 security:

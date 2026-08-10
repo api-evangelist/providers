@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,7 +136,7 @@ overview: 'Rookout is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rookout''s developer surface includes GitHub presence, signup flow, pricing, and 20 more developer resources.'
-random_paper: 109
+random_paper: 91
 score:
   band: minimal
   composite: 9.4
@@ -150,7 +150,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rookout/refs/heads/main/screenshots/rookout-2026-06-20T193214.png
 security:

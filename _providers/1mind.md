@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,33 +91,45 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/1mind-llms.txt
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.1mind.com/careers
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.1mind.com/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/1mindai
 created: '2026-07-17'
 description: 1mind is an AI-Led Growth (AILG) platform that deploys multimodal AI "Superhumans" — combining a face, a voice, and a go-to-market brain — for enterprise B2B revenue teams. Its Superhumans qualify leads, deliver demos, handle objections, book meetings, and onboard customers 24/7 across websites, in-product surfaces, live video calls, and deal rooms. Founded by Amanda Kahlow (former founder and CEO of 6sense), 1mind publicly launched in November 2025 with $40M in total funding (Series A led by Battery Ventures, with Wing Venture Capital, Primary Ventures, Operator Collective, Harmonic Growth Partners, and Success Venture Partners participating). Customers include HubSpot, Boston Dynamics, Seismic, New Relic, ZoomInfo, Coupa, Nutanix, and Tealium. The platform is the exclusive AI successor to Drift within the Clari + Salesloft Predictive Revenue System and operates a US-region REST API, backed by SOC 2 Type II, ISO 27001, and ISO 42001 certifications.
 image: https://cdn.prod.website-files.com/65d7d10c65b6b8ee3d0ec99b/6a186235bd77904753603eaf_027bb9761980ac3e5a01859700fd10ed_Website-thumbnail.jpg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-08'
 name: 1mind
 nav: Providers
 network: true
 overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Agents, Sales, and Go-To-Market.
 
 
-  1mind''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 21
+  1mind''s developer surface includes documentation, engineering blog, support, signup flow, and 14 more developer resources.'
+random_paper: 9
 score:
   band: emerging
-  composite: 21.0
-  delta: 0.0
+  composite: 24.4
+  delta: 3.4
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 21.1
   previous_composite: 21.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
 security:

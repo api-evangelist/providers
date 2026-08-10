@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
@@ -154,7 +154,7 @@ overview: 'Syft Data publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 5
+random_paper: 97
 scopes:
 - name: Syft Data Scopes
   scope_count: 0
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

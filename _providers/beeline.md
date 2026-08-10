@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ overview: 'Beeline is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Beeline''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 46
+random_paper: 28
 scopes:
 - name: Beeline Scopes
   scope_count: 4
@@ -117,8 +117,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beeline/refs/heads/main/screenshots/beeline-2026-08-07T162256.png
 security:
 - kind: authentication
   name: Beeline Authentication

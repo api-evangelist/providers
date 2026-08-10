@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Greptile Plans Pricing
   plan_count: 4
   slug: greptile-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Greptile Rate Limits
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/screenshots/greptile-2026-06-20T182408.png
 security:

@@ -18,13 +18,46 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 12
 apis:
-- description: The anonymously readable WordPress REST API served at https://twinstrandbio.com/wp-json/wp/v2 — the peer-reviewed publication index (`publication`, 38 published) with its topical and chronological tax
-  name: TwinStrand Biosciences Content API (WordPress REST wp/v2)
-  slug: content
-artifact_total: 3
+- description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
+  name: TwinStrand Biosciences Discovery API
+  slug: twinstrand-biosciences-discovery-api
+- description: The Events API from TwinStrand Biosciences — 2 operation(s) for events.
+  name: TwinStrand Biosciences Events API
+  slug: twinstrand-biosciences-events-api
+- description: The Media API from TwinStrand Biosciences — 2 operation(s) for media.
+  name: TwinStrand Biosciences Media API
+  slug: twinstrand-biosciences-media-api
+- description: The News API from TwinStrand Biosciences — 2 operation(s) for news.
+  name: TwinStrand Biosciences News API
+  slug: twinstrand-biosciences-news-api
+- description: The Pages API from TwinStrand Biosciences — 2 operation(s) for pages.
+  name: TwinStrand Biosciences Pages API
+  slug: twinstrand-biosciences-pages-api
+- description: The Patents API from TwinStrand Biosciences — 2 operation(s) for patents.
+  name: TwinStrand Biosciences Patents API
+  slug: twinstrand-biosciences-patents-api
+- description: The People API from TwinStrand Biosciences — 4 operation(s) for people.
+  name: TwinStrand Biosciences People API
+  slug: twinstrand-biosciences-people-api
+- description: The Posters API from TwinStrand Biosciences — 2 operation(s) for posters.
+  name: TwinStrand Biosciences Posters API
+  slug: twinstrand-biosciences-posters-api
+- description: The Posts API from TwinStrand Biosciences — 2 operation(s) for posts.
+  name: TwinStrand Biosciences Posts API
+  slug: twinstrand-biosciences-posts-api
+- description: The Publications API from TwinStrand Biosciences — 6 operation(s) for publications.
+  name: TwinStrand Biosciences Publications API
+  slug: twinstrand-biosciences-publications-api
+- description: The Search API from TwinStrand Biosciences — 1 operation(s) for search.
+  name: TwinStrand Biosciences Search API
+  slug: twinstrand-biosciences-search-api
+- description: The Taxonomies API from TwinStrand Biosciences — 4 operation(s) for taxonomies.
+  name: TwinStrand Biosciences Taxonomies API
+  slug: twinstrand-biosciences-taxonomies-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -131,21 +164,23 @@ modified: '2026-08-05'
 name: TwinStrand Biosciences
 nav: Providers
 network: true
-overview: 'TwinStrand Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Genomics, Biotechnology, Life Sciences, and DNA Sequencing.
+overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Events API, Media API, and 9 more. Tagged areas include Company, Genomics, Biotechnology, Life Sciences, and DNA Sequencing.
 
 
   TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 20 more developer resources.'
-random_paper: 46
+random_paper: 102
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.2
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.7
+    contract_quality: 14.7
     developer_ergonomics: 12.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 22.9
   provenance:
     conformance: derived
     contracts:
@@ -161,7 +196,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Twinstrand Biosciences Authentication

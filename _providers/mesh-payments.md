@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -168,7 +168,7 @@ overview: 'Mesh Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mesh Payments'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, authentication, and 22 more developer resources.'
-random_paper: 112
+random_paper: 79
 scopes:
 - name: Mesh Payments Scopes
   scope_count: 1
@@ -196,8 +196,9 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/screenshots/mesh-payments-2026-08-07T172624.png
 security:
 - kind: authentication
   name: Mesh Payments Authentication

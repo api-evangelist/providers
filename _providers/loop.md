@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'Loop publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Loop''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 103
+random_paper: 94
 score:
   band: developing
   composite: 49.1
@@ -240,7 +240,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:

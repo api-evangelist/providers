@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: RXO
 nav: Providers
 network: true
 overview: RXO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Transportation, Freight, Supply Chain, and Trucking.
-random_paper: 6
+random_paper: 113
 score:
   band: minimal
   composite: 4.4
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rxo/refs/heads/main/screenshots/rxo-2026-06-20T193306.png
 security:

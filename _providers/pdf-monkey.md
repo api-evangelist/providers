@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,11 @@ apis:
 - description: Manage document templates for PDF generation
   name: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
-artifact_total: 16
+artifact_total: 17
+collections:
+- collection_type: open
+  name: PDFMonkey API
+  slug: open-pdfmonkey
 common:
 - group: agent
   title: ''
@@ -106,6 +110,10 @@ common:
   title: ''
   type: FinOps
   url: finops/pdf-monkey-finops.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/pdfmonkey
 created: 2026-06-13
 description: PDF Monkey is a PDF generation REST API that uses Handlebars templates to produce high-quality PDFs from JSON data. Developers build templates in a visual dashboard, call the API with dynamic JSON payloads, and retrieve generated documents via signed download URLs or webhooks. The service supports document management, asynchronous and synchronous generation, webhook notifications powered by Svix, fillable PDF forms, password protection, and integrations with Zapier, Make, and n8n.
 examples:
@@ -136,7 +144,7 @@ jsonld:
   property_count: 0
   slug: pdf-monkey
 layout: provider
-modified: 2026-06-13
+modified: '2026-08-08'
 name: PDF Monkey
 nav: Providers
 network: true
@@ -146,12 +154,12 @@ overview: 'PDF Monkey publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The PDF Monkey catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PDF Monkey''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  PDF Monkey''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Pdf Monkey Plans Pricing
   plan_count: 5
   slug: pdf-monkey-plans-pricing
-random_paper: 1
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Pdf Monkey Rate Limits
@@ -185,9 +193,9 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/screenshots/pdf-monkey-2026-06-20T191517.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/screenshots/pdf-monkey-2026-08-07T191719.png
 security:
 - kind: authentication
   name: Pdf Monkey Authentication

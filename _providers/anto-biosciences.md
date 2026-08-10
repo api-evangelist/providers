@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Anto Biosciences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Anto Biosciences'' developer surface includes support and 3 more developer resources.'
-random_paper: 56
+random_paper: 14
 score:
   band: minimal
   composite: 10.1
@@ -79,7 +79,7 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anto-biosciences/refs/heads/main/screenshots/anto-biosciences-2026-07-25T200438.png
 slug: anto-biosciences

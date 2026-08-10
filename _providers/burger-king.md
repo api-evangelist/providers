@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The Burger King mobile app provides mobile ordering, in-store pickup, curbside pickup, and delivery via integration with DoorDash and other partners. Includes Royal Perks loyalty program access, digit
@@ -102,7 +102,7 @@ overview: 'Burger King publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Burger King''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 100
+random_paper: 73
 score:
   band: minimal
   composite: 9.1
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burger-king/refs/heads/main/screenshots/burger-king-2026-06-20T173819.png
 security:

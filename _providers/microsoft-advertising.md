@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The Microsoft Advertising Campaign Management API enables programmatic management of advertising campaigns, ad groups, ads, keywords, and targeting. Developers can create and modify campaign structure
@@ -114,7 +114,7 @@ plans:
 - name: Microsoft Advertising Plans Pricing
   plan_count: 3
   slug: microsoft-advertising-plans-pricing
-random_paper: 64
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Advertising Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 41.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-advertising/refs/heads/main/screenshots/microsoft-advertising-2026-06-20T185348.png
 security:

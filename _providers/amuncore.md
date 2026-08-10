@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Generated REST API over a connected database — full CRUD across chosen tables, with auth, pagination and docs handled by the platform.
@@ -62,7 +62,7 @@ plans:
 - name: Amuncore Plans
   plan_count: 0
   slug: amuncore-plans
-random_paper: 67
+random_paper: 46
 score:
   band: minimal
   composite: 10.8
@@ -78,8 +78,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:
 - kind: authentication
   name: Amuncore Authentication

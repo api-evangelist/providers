@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: DataSignals is Yes Energy's REST API for automated access to its North American wholesale power market data — nodal prices, transmission, generation, outages, constraints, weather, and fuels — coverin
@@ -135,7 +135,7 @@ overview: 'Yes Energy publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Yes Energy''s developer surface includes authentication, support, documentation, signup flow, pricing, engineering blog, product news, and 17 more developer resources.'
-random_paper: 15
+random_paper: 104
 score:
   band: emerging
   composite: 24.0
@@ -157,7 +157,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

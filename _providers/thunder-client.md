@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Thunder Client is the flagship VS Code REST API client extension offering a lightweight GUI for sending HTTP requests, managing collections with environment variables, and running scriptless tests. Fe
@@ -145,7 +145,7 @@ plans:
 - name: Thunder Client Plans Pricing
   plan_count: 3
   slug: thunder-client-plans-pricing
-random_paper: 90
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Thunder Client Rate Limits
@@ -172,7 +172,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 38.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thunder-client/refs/heads/main/screenshots/thunder-client-2026-06-20T195320.png
 security:

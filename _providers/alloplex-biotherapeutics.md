@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,14 +17,32 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 36.7
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The anonymously readable WordPress REST API behind alloplexbio.com. It exposes the company's 61 published press releases, scientific-news items and opinion pieces, the 19 corporate pages (About, Inves
-  name: Alloplex Biotherapeutics Content API
-  slug: alloplex-biotherapeutics-content-api
-artifact_total: 4
+- description: Route, type, taxonomy and status discovery documents.
+  name: Alloplex Biotherapeutics Discovery API
+  slug: alloplex-biotherapeutics-discovery-api
+- description: Media library (225 attachments at harvest time), including PDF executive summaries and press assets.
+  name: Alloplex Biotherapeutics Media API
+  slug: alloplex-biotherapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for alloplexbio.com URLs.
+  name: Alloplex Biotherapeutics Oembed API
+  slug: alloplex-biotherapeutics-oembed-api
+- description: Corporate pages (19 published at harvest time) — About, Investors, Scientists, Information for Patients, Media and Press, Media Kit, FAQ, Releases and Updates, Terms of use, Privacy Policy, Contact, a
+  name: Alloplex Biotherapeutics Pages API
+  slug: alloplex-biotherapeutics-pages-api
+- description: Press releases, scientific and clinical news, conference notes and opinion pieces (61 published at harvest time). Unlike many corporate WordPress deployments, content.rendered and excerpt.rendered are
+  name: Alloplex Biotherapeutics Posts API
+  slug: alloplex-biotherapeutics-posts-api
+- description: Cross-content search across published posts and pages.
+  name: Alloplex Biotherapeutics Search API
+  slug: alloplex-biotherapeutics-search-api
+- description: Categories and tags. Categories holds 11 terms (company-news, clinical-news, scientific-news, research-news, conferences, media-coverage, opinion, backgrounder, diary-marker, audio-video, uncategorize
+  name: Alloplex Biotherapeutics Taxonomy API
+  slug: alloplex-biotherapeutics-taxonomy-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -164,26 +182,38 @@ modified: '2026-08-06'
 name: Alloplex Biotherapeutics
 nav: Providers
 network: true
-overview: 'Alloplex Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, cell-therapy, immunotherapy, and oncology.
+overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 4 more. Tagged areas include Company, biotechnology, cell-therapy, immunotherapy, and oncology.
 
 
   The Alloplex Biotherapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
   Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 26 more developer resources.'
-random_paper: 35
+random_paper: 85
 score:
   band: thin
-  composite: 37.9
+  composite: 36.2
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.5
-    developer_ergonomics: 23.9
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 59.8
+    developer_ergonomics: 19.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 36.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:
 - kind: authentication
   name: Alloplex Biotherapeutics Authentication

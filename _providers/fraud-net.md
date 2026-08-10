@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Public API for evaluating cart and transaction risk pre-authorization and submitting post-event signals for model improvement, plus device, identity, and email risk endpoints.
@@ -83,7 +83,7 @@ plans:
 - name: Fraud Net Plans Pricing
   plan_count: 3
   slug: fraud-net-plans-pricing
-random_paper: 111
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Fraud Net Rate Limits
@@ -116,7 +116,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/screenshots/fraud-net-2026-06-20T181510.png
 security:

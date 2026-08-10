@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,7 +71,7 @@ overview: 'Playtika Holding is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Playtika Holding''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 67
+random_paper: 25
 score:
   band: minimal
   composite: 4.6
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playtika-holding/refs/heads/main/screenshots/playtika-holding-2026-06-20T191809.png
 security:

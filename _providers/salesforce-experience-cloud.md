@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -495,14 +495,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-experience-cloud-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/site-management.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/community-engagement.yaml
 - group: design
   title: ''
   type: JSONStructure
@@ -856,12 +848,12 @@ overview: 'Salesforce Experience Cloud publishes 35 APIs on the [APIs.io](https:
   The Salesforce Experience Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Experience Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 53 more developer resources.'
+  Salesforce Experience Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 51 more developer resources.'
 plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 40
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits
@@ -908,7 +900,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:

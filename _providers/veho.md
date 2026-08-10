@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -62,7 +62,7 @@ apis:
 - description: Serviceable Zips
   name: Veho zips API
   slug: veho-zips-api
-artifact_total: 15
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Veho Webhooks
@@ -199,6 +199,31 @@ common:
 created: '2026-07-17'
 description: Veho is a US last-mile delivery and returns carrier built for e-commerce brands, pairing a crowdsourced driver network with purpose-built logistics software. The Veho API (Version 2) is a REST/JSON API for shippers and 3PLs to create delivery orders, manage packages and shipping labels (PDF/PNG/ZPL), quote rates, check serviceable ZIP codes, manage merchants under a client account, and subscribe to 22 package milestone webhook event types, with a full sandbox environment and bulk manifest uploads over S3 or SFTP.
 image: https://cdn.prod.website-files.com/64a643946cb644441bae82c9/64a652f0e51e8362078cfd2e_Group%2055.svg
+json_schemas:
+- name: ErrorResponse
+  property_count: 0
+  slug: veho-error-response
+- name: MerchantResponse
+  property_count: 0
+  slug: veho-merchant
+- name: OrderRequest
+  property_count: 0
+  slug: veho-order-request
+- name: OrderResponse
+  property_count: 0
+  slug: veho-order
+- name: PackageResponse
+  property_count: 0
+  slug: veho-package
+- name: SimpleQuoteRequest
+  property_count: 0
+  slug: veho-quote-request
+- name: WebhookConfigurationRequest
+  property_count: 0
+  slug: veho-webhook-configuration-request
+- name: WebhookEvent
+  property_count: 0
+  slug: veho-webhook-event
 layout: provider
 mcp_servers:
 - description: ''
@@ -215,7 +240,7 @@ overview: 'Veho publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Veho''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, sandbox, and 25 more developer resources.'
-random_paper: 95
+random_paper: 86
 score:
   band: strong
   composite: 56.6
@@ -239,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

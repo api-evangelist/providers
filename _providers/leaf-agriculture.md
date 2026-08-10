@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ plans:
 - name: Leaf Agriculture Plans Pricing
   plan_count: 3
   slug: leaf-agriculture-plans-pricing
-random_paper: 62
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Leaf Agriculture Rate Limits
@@ -294,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaf-agriculture/refs/heads/main/screenshots/leaf-agriculture-2026-06-20T184352.png
 security:

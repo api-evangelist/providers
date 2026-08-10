@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -400,7 +400,7 @@ plans:
 - name: Etcd Plans Pricing
   plan_count: 1
   slug: etcd-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Etcd Rate Limits
@@ -434,7 +434,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:

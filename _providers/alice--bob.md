@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,14 +17,20 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 33.6
+  scored_at: '2026-08-10'
+api_count: 3
 apis:
-- description: The Felis Cloud API runs quantum circuits on Alice & Bob's emulators and real cat-qubit quantum hardware. A client creates a job against a named target (listed by List Targets), uploads the circuit as
-  name: Felis Cloud API
-  slug: felis-cloud-api
-artifact_total: 4
+- description: The Health API from Alice Bob — 1 operation(s) for health.
+  name: Alice Bob Health API
+  slug: alice--bob-health-api
+- description: The Jobs API from Alice Bob — 7 operation(s) for jobs.
+  name: Alice Bob Jobs API
+  slug: alice--bob-jobs-api
+- description: The Targets API from Alice Bob — 3 operation(s) for targets.
+  name: Alice Bob Targets API
+  slug: alice--bob-targets-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -138,7 +144,7 @@ modified: '2026-08-06'
 name: Alice Bob
 nav: Providers
 network: true
-overview: 'Alice Bob publishes 1 API on the [APIs.io](https://apis.io/) network: Felis Cloud API. Tagged areas include Company, Quantum Computing, Quantum, Cloud Computing, and Emulation.
+overview: 'Alice Bob publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Jobs API, and Targets API. Tagged areas include Company, Quantum Computing, Quantum, Cloud Computing, and Emulation.
 
 
   Alice Bob''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
@@ -146,19 +152,27 @@ plans:
 - name: Alice  Bob Plans
   plan_count: 3
   slug: alice--bob-plans
-random_paper: 3
+random_paper: 95
 score:
   band: developing
-  composite: 53.4
+  composite: 51.6
+  delta: 0.3
   facets:
     commercial_clarity: 55.3
-    contract_quality: 49.6
-    developer_ergonomics: 69.6
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 48.8
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 36.8
+  previous_composite: 51.3
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:
 - kind: authentication
   name: Alice  Bob Authentication

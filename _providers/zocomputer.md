@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The AI API from Zocomputer — 3 operation(s) for ai.
@@ -55,7 +55,7 @@ name: Zocomputer
 nav: Providers
 network: true
 overview: 'Zocomputer publishes 2 APIs on the [APIs.io](https://apis.io/) network: AI API and Personas API. Tagged areas include Company.'
-random_paper: 95
+random_paper: 68
 score:
   band: emerging
   composite: 20.7
@@ -75,7 +75,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

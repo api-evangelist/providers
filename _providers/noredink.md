@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: NoRedInk's OAuth 2.0 authorization server with OpenID Connect on top, used for single sign-on and partner/classroom-rostering integrations. Advertises the authorization-code + refresh-token grants, an
@@ -128,7 +128,7 @@ overview: 'NoRedInk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   NoRedInk''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 67
+random_paper: 46
 scopes:
 - name: Noredink Scopes
   scope_count: 1
@@ -149,8 +149,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/noredink/refs/heads/main/screenshots/noredink-2026-08-07T185517.png
 security:
 - kind: authentication
   name: Noredink Authentication

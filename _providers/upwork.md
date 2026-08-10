@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -410,7 +410,7 @@ plans:
 - name: Upwork Plans Pricing
   plan_count: 3
   slug: upwork-plans-pricing
-random_paper: 2
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Upwork Rate Limits
@@ -438,12 +438,12 @@ scopes:
   slug: upwork-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.1
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -1.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 32.9
+    contract_quality: 25.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
@@ -457,7 +457,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/screenshots/upwork-2026-06-20T200510.png
 security:

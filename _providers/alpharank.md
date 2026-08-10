@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Alpharank is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alpharank''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 42
+random_paper: 18
 score:
   band: minimal
   composite: 11.3
@@ -87,7 +87,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpharank/refs/heads/main/screenshots/alpharank-2026-07-25T195759.png
 security:

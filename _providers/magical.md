@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Magical is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Magical''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: emerging
   composite: 19.7
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magical/refs/heads/main/screenshots/magical-2026-07-25T225852.png
 security:

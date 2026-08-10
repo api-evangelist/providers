@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate sce
@@ -182,7 +182,7 @@ plans:
 - name: Blender Plans Pricing
   plan_count: 3
   slug: blender-plans-pricing
-random_paper: 54
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Blender Rate Limits
@@ -217,7 +217,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 41.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/screenshots/blender-2026-06-20T173348.png
 security:

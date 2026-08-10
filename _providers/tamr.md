@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Tamr Core REST API allows programmatic access to Tamr's on-premise master data management application. It supports dataset management, project workflows, machine learning model training, classific
@@ -90,7 +90,7 @@ overview: 'Tamr publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tamr''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 97
+random_paper: 88
 score:
   band: minimal
   composite: 12.5
@@ -104,7 +104,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamr/refs/heads/main/screenshots/tamr-2026-06-20T194913.png
 security:

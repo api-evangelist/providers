@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
   slug: workday-advanced-compensation-plans-pricing
-random_paper: 39
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Workday Advanced Compensation Rate Limits
@@ -284,7 +284,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:

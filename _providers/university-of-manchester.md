@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 1
@@ -280,7 +280,7 @@ plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
   slug: university-of-manchester-plans-pricing
-random_paper: 5
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: University Of Manchester Rate Limits
@@ -328,7 +328,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:

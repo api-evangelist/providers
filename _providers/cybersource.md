@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -404,7 +404,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 60
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -420,20 +420,20 @@ rules:
   slug: cybersource-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 44.7
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.2
+    contract_quality: 61.1
     developer_ergonomics: 54.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 70
@@ -444,7 +444,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png
 security:

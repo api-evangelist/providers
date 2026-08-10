@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -132,7 +132,7 @@ overview: 'Lassie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lassie''s developer surface includes support, pricing, signup flow, YouTube channel, and 18 more developer resources.'
-random_paper: 76
+random_paper: 61
 score:
   band: emerging
   composite: 23.8
@@ -154,7 +154,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png
 security:

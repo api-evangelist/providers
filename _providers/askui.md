@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -229,7 +229,7 @@ overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   AskUI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 89
+random_paper: 77
 score:
   band: developing
   composite: 52.5
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/screenshots/askui-2026-07-25T201426.png
 security:

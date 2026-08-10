@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -188,7 +188,7 @@ overview: 'Essential Energy publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Essential Energy''s developer surface includes developer portal, documentation, authentication, code examples, support, engineering blog, and 24 more developer resources.'
-random_paper: 81
+random_paper: 39
 score:
   band: thin
   composite: 28.5
@@ -212,8 +212,9 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/screenshots/essential-energy-2026-08-07T165022.png
 security:
 - kind: authentication
   name: Essential Energy Authentication

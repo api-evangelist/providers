@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -157,7 +157,7 @@ plans:
 - name: Brushfire Plans Pricing
   plan_count: 5
   slug: brushfire-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Brushfire Rate Limits
@@ -188,7 +188,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:

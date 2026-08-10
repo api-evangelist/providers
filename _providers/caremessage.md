@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Caremessage is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Caremessage''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 22
+random_paper: 108
 score:
   band: emerging
   composite: 15.7
@@ -103,7 +103,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caremessage/refs/heads/main/screenshots/caremessage-2026-07-25T204552.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ overview: 'Chaoslabs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chaoslabs'' developer surface includes documentation, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 40
+random_paper: 16
 score:
   band: emerging
   composite: 18.7
@@ -120,7 +120,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/screenshots/chaoslabs-2026-07-25T205051.png
 security:

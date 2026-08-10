@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -212,7 +212,7 @@ overview: 'Quantum Art publishes 24 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quantum Art''s developer surface includes authentication, documentation, API reference, signup flow, and 17 more developer resources.'
-random_paper: 21
+random_paper: 107
 score:
   band: thin
   composite: 36.2
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

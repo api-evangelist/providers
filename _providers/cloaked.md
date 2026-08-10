@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Cloaked is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cloaked''s developer surface includes signup flow, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 45
+random_paper: 27
 score:
   band: emerging
   composite: 19.1
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloaked/refs/heads/main/screenshots/cloaked-2026-07-25T205639.png
 security:

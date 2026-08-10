@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -174,7 +174,7 @@ plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
   slug: university-of-rochester-plans-pricing
-random_paper: 27
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits
@@ -227,7 +227,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:

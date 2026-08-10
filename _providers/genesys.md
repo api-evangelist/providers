@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -448,7 +448,7 @@ overview: 'Genesys publishes 87 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 88
+random_paper: 70
 scopes:
 - name: Genesys Scopes
   scope_count: 135
@@ -456,21 +456,21 @@ scopes:
   summary_line: 135 scopes · implicit
 score:
   band: strong
-  composite: 58.2
+  composite: 59.0
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.2
+    contract_quality: 65.1
     developer_ergonomics: 64.7
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 58.2
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 87
@@ -483,7 +483,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
 security:

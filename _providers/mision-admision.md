@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Mision Admision is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mision Admision''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 83
+random_paper: 44
 score:
   band: emerging
   composite: 13.1
@@ -89,8 +89,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mision-admision/refs/heads/main/screenshots/mision-admision-2026-08-07T183740.png
 security:
 - kind: domain-security
   name: Mision Admision Domain Security

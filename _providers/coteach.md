@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -108,7 +108,7 @@ overview: 'CoTeach is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CoTeach''s developer surface includes pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 49
+random_paper: 31
 scopes:
 - name: Coteach Scopes
   scope_count: 4
@@ -130,7 +130,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coteach/refs/heads/main/screenshots/coteach-2026-07-25T210502.png
 security:

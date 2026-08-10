@@ -18,19 +18,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-06'
-api_count: 3
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The Tapcart Development API — the REST surface behind App Studio and the Tapcart CLI. Creates and updates App Studio Components and Block Templates, reads and promotes their versions, manages an app's
-  name: Tapcart App Studio Development API
-  slug: app-studio-development-api
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
   name: Tapcart Insights Metrics API
   slug: insights-metrics-api
 - description: Tapcart's clickstream webhook delivers realtime shopper behavioral events from the mobile app to an HTTPS endpoint the merchant configures in the Tapcart dashboard. Fifteen event types are eligible fo
   name: Tapcart Clickstream Webhook
   slug: clickstream-webhook
-artifact_total: 8
+- description: The Development API - Block Templates API from Tapcart — 4 operation(s) for development api - block templates.
+  name: Tapcart Development API - Block Templates API
+  slug: tapcart-development-api-block-templates-api
+- description: The Development API - Blocks API from Tapcart — 1 operation(s) for development api - blocks.
+  name: Tapcart Development API - Blocks API
+  slug: tapcart-development-api-blocks-api
+- description: The Development API - Components API from Tapcart — 5 operation(s) for development api - components.
+  name: Tapcart Development API - Components API
+  slug: tapcart-development-api-components-api
+- description: The Development API - Dependencies API from Tapcart — 1 operation(s) for development api - dependencies.
+  name: Tapcart Development API - Dependencies API
+  slug: tapcart-development-api-dependencies-api
+- description: The Development API - Layouts API from Tapcart — 1 operation(s) for development api - layouts.
+  name: Tapcart Development API - Layouts API
+  slug: tapcart-development-api-layouts-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Tapcart Webhooks
@@ -192,24 +204,26 @@ modified: '2026-08-05'
 name: Tapcart
 nav: Providers
 network: true
-overview: 'Tapcart publishes 1 API on the [APIs.io](https://apis.io/) network: App Studio Development API. Tagged areas include Company, Mobile, Commerce, Shopify, and Ecommerce.
+overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 2 more. Tagged areas include Company, Mobile, Commerce, Shopify, and Ecommerce.
 
 
   The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: strong
-  composite: 58.8
+  composite: 58.0
+  delta: -0.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.8
+    contract_quality: 59.5
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 58.8
   provenance:
     conformance: derived
     contracts:
@@ -220,7 +234,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Tapcart Authentication

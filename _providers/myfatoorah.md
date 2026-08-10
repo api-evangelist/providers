@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Myfatoorah Plans Pricing
   plan_count: 3
   slug: myfatoorah-plans-pricing
-random_paper: 65
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Myfatoorah Rate Limits
@@ -163,8 +163,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/screenshots/myfatoorah-2026-08-07T184520.png
 security:
 - kind: authentication
   name: Myfatoorah Authentication

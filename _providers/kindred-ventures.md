@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Kindred Ventures
 nav: Providers
 network: true
-random_paper: 92
+random_paper: 50
 slug: kindred-ventures
 tags:
 - Venture Capital

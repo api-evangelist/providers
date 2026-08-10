@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The Availability API from Klook — 2 operation(s) for availability.
@@ -180,7 +180,7 @@ overview: 'Klook publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Klook''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: developing
   composite: 49.4
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

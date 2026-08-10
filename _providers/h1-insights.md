@@ -18,13 +18,43 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
-- description: REST API (formerly the Ribbon Health API) for searching and enriching United States healthcare provider, location and organization data — including insurance network participation, specialties, clinic
-  name: H1 Provider Data API
-  slug: h1-provider-data-api
-artifact_total: 4
+- description: The Cost Estimates API from H1 — 4 operation(s) for cost estimates.
+  name: H1 Cost Estimates API
+  slug: h1-insights-cost-estimates-api
+- description: The Filters API from H1 — 4 operation(s) for filters.
+  name: H1 Filters API
+  slug: h1-insights-filters-api
+- description: The Focus Area Endpoints API from H1 — 6 operation(s) for focus area endpoints.
+  name: H1 Focus Area Endpoints API
+  slug: h1-insights-focus-area-endpoints-api
+- description: The Locations API from H1 — 5 operation(s) for locations.
+  name: H1 Locations API
+  slug: h1-insights-locations-api
+- description: The Networks API from H1 — 1 operation(s) for networks.
+  name: H1 Networks API
+  slug: h1-insights-networks-api
+- description: The Organizations API from H1 — 2 operation(s) for organizations.
+  name: H1 Organizations API
+  slug: h1-insights-organizations-api
+- description: The Price Transparency API from H1 — 8 operation(s) for price transparency.
+  name: H1 Price Transparency API
+  slug: h1-insights-price-transparency-api
+- description: The Providers API from H1 — 10 operation(s) for providers.
+  name: H1 Providers API
+  slug: h1-insights-providers-api
+- description: The Reference Endpoints API from H1 — 13 operation(s) for reference endpoints.
+  name: H1 Reference Endpoints API
+  slug: h1-insights-reference-endpoints-api
+- description: The TINs API from H1 — 2 operation(s) for tins.
+  name: H1 TI Ns API
+  slug: h1-insights-tins-api
+- description: The Virtual Care Platforms API from H1 — 2 operation(s) for virtual care platforms.
+  name: H1 Virtual Care Platforms API
+  slug: h1-insights-virtual-care-platforms-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -155,20 +185,20 @@ modified: '2026-08-04'
 name: H1
 nav: Providers
 network: true
-overview: 'H1 publishes 1 API on the [APIs.io](https://apis.io/) network: Provider Data API. Tagged areas include healthcare, provider-data, provider-directory, health-insurance, and price-transparency.
+overview: 'H1 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cost Estimates API, Filters API, Focus Area Endpoints API, and 8 more. Tagged areas include healthcare, provider-data, provider-directory, health-insurance, and price-transparency.
 
 
   H1''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 54
+random_paper: 27
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.4
+  delta: -0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.2
+    contract_quality: 56.5
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 45.7
@@ -183,8 +213,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/h1-insights/refs/heads/main/screenshots/h1-insights-2026-08-07T165907.png
 security:
 - kind: authentication
   name: H1 Insights Authentication

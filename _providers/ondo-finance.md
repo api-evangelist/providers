@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -262,7 +262,7 @@ overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 71
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits
@@ -296,8 +296,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
 security:
 - kind: authentication
   name: Ondo Finance Authentication

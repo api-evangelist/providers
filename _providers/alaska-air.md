@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -105,10 +105,6 @@ common:
   title: ''
   type: Support
   url: https://www.alaskaair.com/content/about-us/investor-relations
-- group: operate
-  title: API Support Email
-  type: Support
-  url: api.support@alaskaair.com
 - group: docs
   title: Alaska Air Cargo Portal
   type: Documentation
@@ -377,7 +373,7 @@ overview: 'Alaska Airlines publishes 8 APIs on the [APIs.io](https://apis.io/) n
   The Alaska Airlines catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Alaska Airlines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, and 10 more developer resources.'
+  Alaska Airlines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, and 9 more developer resources.'
 plans:
 - name: Alaska Air Plans Pricing
   plan_count: 1
@@ -398,7 +394,7 @@ press:
 - date: '2026-05-25'
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits
@@ -445,7 +441,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the world's largest de-identified clinical and molec
@@ -89,6 +89,18 @@ common:
   title: ''
   type: Investors
   url: https://www.tempus.com/oncology/genomic-profiling/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.tempus.com/providers/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tempus.com/news/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tempus-ai-llms.txt
 created: '2026-06-20'
 description: 'Tempus AI (NASDAQ: TEM) is a precision medicine company that has built one of the world''s largest libraries of de-identified clinical and molecular data, paired with an operating system to make that data accessible for diagnostics and research, starting with cancer. Its products span genomic profiling (xT / xR), AI-enabled clinical tools (Hub, One, Next), the Lens real-world data and agentic AI platform for life sciences, cardiology and radiology AI (ECG-AI, Pixel), and a consumer health app (Olivia). Tempus does not currently publish a self-serve, documented public developer API; integrations are delivered through enterprise and EHR channels (HL7 / FHIR, e.g. Epic) under partner agreements.'
 finops:
@@ -97,32 +109,32 @@ finops:
   slug: tempus-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempus-ai.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-08'
 name: Tempus AI
 nav: Providers
 network: true
 overview: 'Tempus AI publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Precision Medicine, Genomics, Healthcare, Molecular Diagnostics, and Oncology.
 
 
-  Tempus AI''s developer surface includes documentation and 9 more developer resources.'
+  Tempus AI''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Tempus Ai Plans Pricing
   plan_count: 1
   slug: tempus-ai-plans-pricing
-random_paper: 13
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Tempus Ai Rate Limits
   slug: tempus-ai-rate-limits
 score:
   band: emerging
-  composite: 15.9
-  delta: 0.0
+  composite: 18.8
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 64.8
+    developer_ergonomics: 21.7
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 15.9
@@ -133,7 +145,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

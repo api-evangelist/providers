@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -238,7 +238,7 @@ overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 79
+random_paper: 61
 score:
   band: developing
   composite: 44.5
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/screenshots/coolify-2026-06-20T175004.png
 security:

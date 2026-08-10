@@ -27,7 +27,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -76,7 +76,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -122,7 +122,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -161,7 +161,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -210,7 +210,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -248,7 +248,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -297,7 +297,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -336,7 +336,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -375,7 +375,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -424,7 +424,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -463,7 +463,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -502,7 +502,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -529,6 +529,7 @@
      "name": "MSC Mediterranean Shipping Company",
      "slug": "msc-cargo",
      "description": "MSC (Mediterranean Shipping Company) is a privately-held, family-owned global container shipping and logistics group headquartered in Geneva, Switzerland, founded in 1970 by Gianluigi Aponte and now led by CEO Soren Toft under the Aponte-Diamant family. MSC is the world's largest container shipping line by fleet size and capacity, operating roughly 900 cargo vessels with a combined intake of about 7 million TEU and controlling more than a fifth of global container capacity as of late 2025. The carrier offers a portfolio of digital shipment-management products through its myMSC e-business platform — including Instant Quote for online rate generation, online booking, electronic Bill of Lading and Sea Waybill issuance via eDocs, container Track & Trace, and the myMSC mobile app — and exposes a Direct Integrations program for shippers, freight forwarders, and NVOCCs that combines REST APIs and EDI message exchange. The MSC Developer Portal (developerportal.msc.com), hosted on Microsoft Azure API Management, publishes documentation and EDI message implementation guides for products such as the DCSA-aligned Track & Trace API (v1.2 and v2.2), Booking, Booking Confirmation (X12 301 / EDIFACT IFTMIN), and Shipping Instructions, alongside ANSI X12 and EDIFACT IFTMIN / IFTMBC / COPRAR reference documents. MSC also runs direct-integration partnerships with INTTRA, Infor Nexus, and CargoSmart. API and EDI access is not self-service: prospective integrators must submit a Direct Integration request, and fees may apply.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -540,7 +541,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -579,7 +580,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'myTomorrows publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   myTomorrows'' developer surface includes engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 7
+random_paper: 90
 score:
   band: thin
   composite: 36.1
@@ -181,8 +181,9 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:
 - kind: domain-security
   name: Mytomorrows Domain Security

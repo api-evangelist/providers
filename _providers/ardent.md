@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -182,7 +182,7 @@ overview: 'Ardent publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ardent''s developer surface includes CLI, sandbox, authentication, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
-random_paper: 73
+random_paper: 58
 score:
   band: developing
   composite: 46.2
@@ -206,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

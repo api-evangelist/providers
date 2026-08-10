@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -174,7 +174,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/one-codex-openapi-original.json
+  url: openapi/_original/one-codex-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -270,7 +270,7 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 107
+random_paper: 86
 score:
   band: developing
   composite: 54.7
@@ -300,8 +300,9 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:
 - kind: authentication
   name: One Codex Authentication

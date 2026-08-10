@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ name: Brightfield
 nav: Providers
 network: true
 overview: Brightfield is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Workforce Intelligence, Contingent Workforce, and Procurement.
-random_paper: 26
+random_paper: 112
 score:
   band: emerging
   composite: 16.5
@@ -96,7 +96,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightfield/refs/heads/main/screenshots/brightfield-2026-07-25T204054.png
 security:

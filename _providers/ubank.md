@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -146,7 +146,7 @@ overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ubank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
-random_paper: 77
+random_paper: 65
 scopes:
 - name: Ubank Scopes
   scope_count: 9
@@ -180,7 +180,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png
 security:

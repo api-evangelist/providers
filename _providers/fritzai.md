@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Fritz.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fritz.ai''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 83
+random_paper: 65
 score:
   band: minimal
   composite: 7.4
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fritzai/refs/heads/main/screenshots/fritzai-2026-07-25T215221.png
 security:

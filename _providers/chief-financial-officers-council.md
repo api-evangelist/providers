@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Chief Financial Officers Council Plans Pricing
   plan_count: 3
   slug: chief-financial-officers-council-plans-pricing
-random_paper: 13
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Chief Financial Officers Council Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/screenshots/chief-financial-officers-council-2026-07-25T205215.png
 security:

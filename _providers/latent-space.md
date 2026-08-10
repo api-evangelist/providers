@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: Latent Space
 nav: Providers
 network: true
 overview: Latent Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Machine Learning, and Predictive Analytics.
-random_paper: 87
+random_paper: 57
 score:
   band: minimal
   composite: 7.5
@@ -86,7 +86,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latent-space/refs/heads/main/screenshots/latent-space-2026-07-25T224600.png
 security:

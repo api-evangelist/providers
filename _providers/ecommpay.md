@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Hosted, highly customisable payment form for accepting payments across cards, alternative payment methods, and wallets. Merchants open the Payment Page with a signed request (HMAC signature over the r
@@ -170,7 +170,7 @@ overview: 'ECOMMPAY publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   ECOMMPAY''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 68
+random_paper: 47
 score:
   band: developing
   composite: 51.9
@@ -192,7 +192,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png
 security:

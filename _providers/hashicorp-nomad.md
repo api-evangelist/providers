@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Hashicorp Nomad Plans Pricing
   plan_count: 3
   slug: hashicorp-nomad-plans-pricing
-random_paper: 64
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Hashicorp Nomad Rate Limits
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/screenshots/hashicorp-nomad-2026-06-20T182531.png
 security:

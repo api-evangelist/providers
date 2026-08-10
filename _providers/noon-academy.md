@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Noon Academy
 nav: Providers
 network: true
 overview: Noon Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Social Learning, and Online Learning.
-random_paper: 81
+random_paper: 51
 score:
   band: minimal
   composite: 9.9
@@ -74,8 +74,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/noon-academy/refs/heads/main/screenshots/noon-academy-2026-08-07T185501.png
 security:
 - kind: domain-security
   name: Noon Academy Domain Security

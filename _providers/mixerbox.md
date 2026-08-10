@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ overview: 'MixerBox publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   MixerBox''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 87
+random_paper: 66
 score:
   band: thin
   composite: 31.4
@@ -153,8 +153,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/screenshots/mixerbox-2026-08-07T183823.png
 security:
 - kind: authentication
   name: Mixerbox Authentication

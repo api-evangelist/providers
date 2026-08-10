@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-06'
+  score: 38.5
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -26,12 +26,51 @@ agentic_access:
   operation_count: 84
   slug: picus-security-agentic-access
   summary_line: 84 operations · 25 acting
-api_count: 1
+api_count: 14
 apis:
-- description: Public REST API for the Picus Security Validation Platform. Create, run, update, cancel and delete simulations; read simulation run results including threats, attacker objectives and per-action detail
-  name: Picus Customer API
-  slug: picus-customer-api
-artifact_total: 7
+- description: The Activity-Logs API from Picus Security — 1 operation(s) for activity-logs.
+  name: Picus Security Activity Logs API
+  slug: picus-security-activity-logs-api
+- description: The Agents API from Picus Security — 6 operation(s) for agents.
+  name: Picus Security Agents API
+  slug: picus-security-agents-api
+- description: The Authentication API from Picus Security — 2 operation(s) for authentication.
+  name: Picus Security Authentication API
+  slug: picus-security-authentication-api
+- description: The Instances API from Picus Security — 1 operation(s) for instances.
+  name: Picus Security Instances API
+  slug: picus-security-instances-api
+- description: The Integrations API from Picus Security — 2 operation(s) for integrations.
+  name: Picus Security Integrations API
+  slug: picus-security-integrations-api
+- description: The Mitigation API from Picus Security — 15 operation(s) for mitigation.
+  name: Picus Security Mitigation API
+  slug: picus-security-mitigation-api
+- description: The Simulation-Latest-Result API from Picus Security — 7 operation(s) for simulation-latest-result.
+  name: Picus Security Simulation Latest Result API
+  slug: picus-security-simulation-latest-result-api
+- description: The Simulation-Result API from Picus Security — 8 operation(s) for simulation-result.
+  name: Picus Security Simulation Result API
+  slug: picus-security-simulation-result-api
+- description: The Simulation-Result-Reports API from Picus Security — 4 operation(s) for simulation-result-reports.
+  name: Picus Security Simulation Result Reports API
+  slug: picus-security-simulation-result-reports-api
+- description: The Simulations API from Picus Security — 4 operation(s) for simulations.
+  name: Picus Security Simulations API
+  slug: picus-security-simulations-api
+- description: The Summary API from Picus Security — 1 operation(s) for summary.
+  name: Picus Security Summary API
+  slug: picus-security-summary-api
+- description: The Templates API from Picus Security — 2 operation(s) for templates.
+  name: Picus Security Templates API
+  slug: picus-security-templates-api
+- description: The Threats API from Picus Security — 13 operation(s) for threats.
+  name: Picus Security Threats API
+  slug: picus-security-threats-api
+- description: The Users API from Picus Security — 5 operation(s) for users.
+  name: Picus Security Users API
+  slug: picus-security-users-api
+artifact_total: 20
 common:
 - group: agent
   title: ''
@@ -169,39 +208,39 @@ modified: '2026-08-02'
 name: Picus Security
 nav: Providers
 network: true
-overview: 'Picus Security publishes 1 API on the [APIs.io](https://apis.io/) network: Picus Customer API. Tagged areas include cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
+overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 12
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits
   slug: picus-security-rate-limits
 score:
-  band: developing
-  composite: 54.8
-  delta: 0.0
+  band: strong
+  composite: 56.3
+  delta: 0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.3
+    contract_quality: 58.0
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 54.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 created: '2024-01-15'
@@ -39,7 +39,7 @@ name: Informatics
 nav: Providers
 network: true
 overview: Informatics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bioinformatics, Computational Biology, Healthcare, Health Informatics, and Informatics.
-random_paper: 53
+random_paper: 23
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 slug: informatics
 tags:

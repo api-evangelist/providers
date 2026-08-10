@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Konfig's developer platform for generating, validating, and publishing SDKs, API reference documentation, and interactive tutorials from OpenAPI specifications and Postman Collections. Delivered prima
@@ -118,7 +118,7 @@ plans:
 - name: Konfig Plans Pricing
   plan_count: 3
   slug: konfig-plans-pricing
-random_paper: 73
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Konfig Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfig/refs/heads/main/screenshots/konfig-2026-06-20T184127.png
 security:

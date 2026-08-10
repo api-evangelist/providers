@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ overview: 'OncoC4 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OncoC4''s developer surface includes authentication, product news, and 12 more developer resources.'
-random_paper: 17
+random_paper: 2
 scopes:
 - name: Oncoc4 Scopes
   scope_count: 0
@@ -115,7 +115,7 @@ scopes:
 score:
   band: emerging
   composite: 16.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 17.9
+  previous_composite: 16.9
   provenance:
     conformance: derived
   regulatory:
@@ -133,8 +133,9 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oncoc4/refs/heads/main/screenshots/oncoc4-2026-08-07T190225.png
 security:
 - kind: authentication
   name: Oncoc4 Authentication

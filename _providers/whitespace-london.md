@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Whitespace publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Whitespace''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 28 more developer resources.'
-random_paper: 69
+random_paper: 24
 score:
   band: developing
   composite: 47.4
@@ -227,7 +227,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

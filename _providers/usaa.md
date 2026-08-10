@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 11
 common:
@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Responsible Use of Artificial Intelligence
   url: https://www.usaa.com/about/artificial-intelligence/
-random_paper: 87
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Usaa Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:

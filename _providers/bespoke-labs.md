@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'Bespoke Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Bespoke Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 78
+random_paper: 48
 score:
   band: developing
   composite: 42.9
@@ -187,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/screenshots/bespoke-labs-2026-07-25T202750.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: CoWorkr's standard REST API for pulling workplace analytical data - historical and current occupancy, utilization and device records for WorkPoints, WorkSpace Counters, WorkHubs, WorkPlaces, FloorPlan
@@ -138,7 +138,7 @@ overview: 'R-Zero publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   R-Zero''s developer surface includes documentation, API reference, support, engineering blog, and 20 more developer resources.'
-random_paper: 42
+random_paper: 27
 score:
   band: emerging
   composite: 27.8
@@ -154,7 +154,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

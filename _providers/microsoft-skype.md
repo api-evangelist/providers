@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Skype URIs provide a mechanism for launching Skype actions from web pages and applications. Developers can create links that initiate calls, video calls, and chat conversations with specified Skype us
@@ -99,7 +99,7 @@ plans:
 - name: Microsoft Skype Plans Pricing
   plan_count: 3
   slug: microsoft-skype-plans-pricing
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Microsoft Skype Rate Limits
@@ -123,7 +123,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/screenshots/microsoft-skype-2026-06-20T185532.png
 security:

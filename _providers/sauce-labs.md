@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -139,9 +139,9 @@ common:
   title: ''
   type: ChangeLog
   url: https://changelog.saucelabs.com/en
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://github.com/saucelabs/sauce-api-mcp
 - group: build
   title: ''
@@ -212,7 +212,7 @@ plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 88
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits
@@ -246,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

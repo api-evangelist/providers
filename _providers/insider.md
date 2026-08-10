@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Send user profiles, attributes and events into Insider One's Unified Customer Database. POST JSON to the upsert endpoint authenticated with an API key (X-REQUEST-TOKEN) and partner name (X-PARTNER-NAM
@@ -140,7 +140,7 @@ overview: 'Insider publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Insider''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: thin
   composite: 34.7
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:

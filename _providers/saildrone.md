@@ -28,13 +28,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 3
 apis:
-- description: Saildrone Public Mission API (BETA). Provides authenticated access via a key/secret bearer flow to per-mission time-series telemetry across the four canonical Saildrone datasets — vehicle, atmospheric
-  name: Saildrone Mission API
-  slug: saildrone-mission-api
-artifact_total: 13
+- description: Key/secret exchange for bearer tokens and drone access discovery
+  name: Saildrone Authentication API
+  slug: saildrone-authentication-api
+- description: Service health check
+  name: Saildrone Health API
+  slug: saildrone-health-api
+- description: Mission time-series data across vehicle, atmospheric, oceanographic, and biogeochemical datasets
+  name: Saildrone Time Series API
+  slug: saildrone-time-series-api
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -183,7 +189,7 @@ modified: '2026-05-24'
 name: Saildrone
 nav: Providers
 network: true
-overview: 'Saildrone publishes 1 API on the [APIs.io](https://apis.io/) network: Mission API. Tagged areas include Maritime, Ocean Data, USV, Unmanned Surface Vehicle, and Autonomous Systems.
+overview: 'Saildrone publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Health API, and Time Series API. Tagged areas include Maritime, Ocean Data, USV, Unmanned Surface Vehicle, and Autonomous Systems.
 
 
   The Saildrone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -194,7 +200,7 @@ plans:
 - name: Saildrone Plans Pricing
   plan_count: 4
   slug: saildrone-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Saildrone Rate Limits
@@ -218,13 +224,13 @@ rules:
   slug: saildrone-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.4
+  delta: -0.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 79.1
+    contract_quality: 74.2
     developer_ergonomics: 2.2
-    discoverability: 59.3
+    discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 47.1
@@ -235,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:

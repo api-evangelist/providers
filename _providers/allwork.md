@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -138,7 +138,7 @@ overview: 'AllWork is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AllWork''s developer surface includes documentation, support, engineering blog, FAQ, authentication, and 17 more developer resources.'
-random_paper: 86
+random_paper: 68
 scopes:
 - name: Allwork Scopes
   scope_count: 10
@@ -146,16 +146,22 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 21.8
+  composite: 20.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 26.1
     discoverability: 68.5
-    governance: 12.5
+    governance: 3.1
     operational_transparency: 10.5
+  previous_composite: 20.6
+  provenance:
+    conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allwork/refs/heads/main/screenshots/allwork-2026-08-07T161234.png
 security:
 - kind: authentication
   name: Allwork Authentication

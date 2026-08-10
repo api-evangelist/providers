@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ plans:
 - name: Signzy Plans Pricing
   plan_count: 2
   slug: signzy-plans-pricing
-random_paper: 111
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Signzy Rate Limits
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

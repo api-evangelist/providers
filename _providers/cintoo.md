@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 15 more developer resources.'
-random_paper: 87
+random_paper: 72
 scopes:
 - name: Cintoo Scopes
   scope_count: 0
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/screenshots/cintoo-2026-07-25T205406.png
 security:

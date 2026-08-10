@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -26,54 +26,15 @@ agentic_access:
   operation_count: 51
   slug: qoala-agentic-access
   summary_line: 51 operations · 35 acting
-api_count: 15
+api_count: 2
 apis:
 - description: 'Session management for the Qoala for Enterprise platform — create an authentication session from an email and security code, and refresh it with a refresh token. Returns a JWT access token, a refresh '
   name: Qoala Authentication API
   slug: qoala-authentication-api
-- description: Partner-facing Bus Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Policy
-  name: Qoala Bus Insurance
-  slug: qoala-bus-insurance
-- description: 'A second published claim specification carrying the same partner claim lifecycle surface as the Claim API — create, cancel, presigned document upload and update, claim status, and claim pool balance. '
-  name: Qoala Claim API (alternate published spec)
-  slug: qoala-claim-api-alternate-published-spec
-- description: 'Partner-facing claim lifecycle API for the Qoala insurance platform: create a claim against an existing policy, cancel it, request presigned URLs to upload and update supporting claim documents, read '
-  name: Qoala Claim API
-  slug: qoala-claim-api
-- description: Partner-facing Credit Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Pol
-  name: Qoala Credit Insurance
-  slug: qoala-credit-insurance
-- description: Partner-facing Credit Life Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy
-  name: Qoala Credit Life Insurance
-  slug: qoala-credit-life-insurance
-- description: Partner-facing Experience & Event Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued
-  name: Qoala Experience & Event Insurance
-  slug: qoala-experience-event-insurance
-- description: Partner-facing Flight Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Pol
-  name: Qoala Flight Insurance
-  slug: qoala-flight-insurance
-- description: Partner-facing Gadget Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Pol
-  name: Qoala Gadget Insurance
-  slug: qoala-gadget-insurance
-- description: Partner-facing Goods Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Poli
-  name: Qoala Goods Insurance
-  slug: qoala-goods-insurance
-- description: Partner-facing Hotel Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Poli
-  name: Qoala Hotel Insurance
-  slug: qoala-hotel-insurance
-- description: Partner-facing Logistic Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. P
-  name: Qoala Logistic Insurance
-  slug: qoala-logistic-insurance
-- description: Partner-facing Micro health insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued polic
-  name: Qoala Micro health insurance
-  slug: qoala-micro-health-insurance
-- description: Partner-facing Train Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Poli
-  name: Qoala Train Insurance
-  slug: qoala-train-insurance
-- description: Partner-facing Vehicle Insurance API for the Qoala insurance platform. Creates a policy from a quotation, reads policy detail and status by quotation or policy number, and cancels an issued policy. Po
-  name: Qoala Vehicle Insurance
-  slug: qoala-vehicle-insurance
-artifact_total: 21
+- description: Policy API documentation consist of create policy, get policy detail or status, policy cancellation and policy activation.
+  name: Qoala API Specification API
+  slug: qoala-api-specification-api
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Qoala Webhooks
@@ -226,26 +187,26 @@ modified: '2026-08-05'
 name: Qoala
 nav: Providers
 network: true
-overview: 'Qoala publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Bus Insurance, Claim API (alternate published spec), and 12 more. Tagged areas include Insurance, Insurtech, Embedded Insurance, Policies, and Claims.
+overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and API Specification API. Tagged areas include Insurance, Insurtech, Embedded Insurance, Policies, and Claims.
 
 
   The Qoala catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Qoala''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 26 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: developing
-  composite: 45.9
-  delta: -0.9
+  composite: 43.9
+  delta: -2.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 71.6
+    contract_quality: 64.7
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +224,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

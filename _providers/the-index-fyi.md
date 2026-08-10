@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/the-index-fyi-openapi.yml
+  url: openapi/_original/the-index-fyi-openapi.yml
 - group: commercial
   title: ''
   type: Plans
@@ -103,7 +103,7 @@ plans:
 - name: The Index Fyi Plans Pricing
   plan_count: 1
   slug: the-index-fyi-plans-pricing
-random_paper: 32
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: The Index Fyi Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/screenshots/the-index-fyi-2026-06-20T195220.png
 security:

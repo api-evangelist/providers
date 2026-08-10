@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Buildcheck is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Buildcheck''s developer surface includes pricing, signup flow, and 3 more developer resources.'
-random_paper: 21
+random_paper: 110
 score:
   band: minimal
   composite: 9.7
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildcheck/refs/heads/main/screenshots/buildcheck-2026-07-25T204045.png
 security:

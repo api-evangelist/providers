@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Kaniko is a command-line tool distributed as the container image gcr.io/kaniko-project/executor that builds container images from a Dockerfile. It supports multiple build context sources (GCS, S3, Azu
@@ -84,7 +84,7 @@ plans:
 - name: Kaniko Plans Pricing
   plan_count: 3
   slug: kaniko-plans-pricing
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Kaniko Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 24.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaniko/refs/heads/main/screenshots/kaniko-2026-06-20T183915.png
 slug: kaniko

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -1579,7 +1579,7 @@ plans:
 - name: Youtube Plans Pricing
   plan_count: 3
   slug: youtube-plans-pricing
-random_paper: 103
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Youtube Rate Limits
@@ -1628,7 +1628,7 @@ score:
       total: 24
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

@@ -4,7 +4,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-06'
+  score: 37.8
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -26,12 +26,30 @@ agentic_access:
   operation_count: 19
   slug: aquabyte-agentic-access
   summary_line: 19 operations · 1 acting
-api_count: 1
+api_count: 7
 apis:
-- description: Read-only REST API over Aquabyte's aquaculture monitoring data. Version v3.1 exposes site and pen inventory plus historical and latest time-series for biomass (including harvest reports), sea-lice cou
-  name: Aquabyte Public API
-  slug: aquabyte-public-api
-artifact_total: 5
+- description: Behaviour APIs
+  name: Aquabyte Behaviour API
+  slug: aquabyte-behaviour-api
+- description: Biomass APIs
+  name: Aquabyte Biomass API
+  slug: aquabyte-biomass-api
+- description: The Environmental API from Aquabyte — 2 operation(s) for environmental.
+  name: Aquabyte Environmental API
+  slug: aquabyte-environmental-api
+- description: Lice APIs
+  name: Aquabyte Lice API
+  slug: aquabyte-lice-api
+- description: The Sites API from Aquabyte — 2 operation(s) for sites.
+  name: Aquabyte Sites API
+  slug: aquabyte-sites-api
+- description: Deprecated. Use v3.1 equivalents.
+  name: Aquabyte V3.0 API
+  slug: aquabyte-v3-0-api
+- description: Welfare APIs
+  name: Aquabyte Welfare API
+  slug: aquabyte-welfare-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -93,27 +111,40 @@ modified: '2026-08-06'
 name: Aquabyte
 nav: Providers
 network: true
-overview: 'Aquabyte publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Aquaculture, Fish Farming, Computer Vision, Machine Learning, and Biomass Estimation.
+overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer Vision, Machine Learning, and Biomass Estimation.
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 9 more developer resources.'
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Aquabyte Rate Limits
   slug: aquabyte-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 39.2
+  delta: 0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.0
+    contract_quality: 48.7
     developer_ergonomics: 30.4
-    discoverability: 87.0
-    governance: 20.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 26.3
+  previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:
 - kind: authentication
   name: Aquabyte Authentication

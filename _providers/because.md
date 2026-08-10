@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -112,7 +112,7 @@ overview: 'Because is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Because''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 50
+random_paper: 32
 scopes:
 - name: Because Scopes
   scope_count: 4
@@ -141,8 +141,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/screenshots/because-2026-08-07T162251.png
 security:
 - kind: authentication
   name: Because Authentication

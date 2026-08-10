@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +119,7 @@ overview: 'HopSkipDrive is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   HopSkipDrive''s developer surface includes support, engineering blog, pricing, changelog, and 17 more developer resources.'
-random_paper: 61
+random_paper: 28
 score:
   band: thin
   composite: 29.2
@@ -141,8 +141,9 @@ score:
     regime_id: government
     score: 44.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hopskipdrive/refs/heads/main/screenshots/hopskipdrive-2026-08-07T170301.png
 security:
 - kind: domain-security
   name: Hopskipdrive Domain Security

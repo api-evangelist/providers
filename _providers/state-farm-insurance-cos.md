@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/state-farm-insurance-cos-renters-openapi.yml
+  url: openapi/_original/state-farm-insurance-cos-renters-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -195,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: 147 State Farm Insurance Company Stock Photos, High- ...
   url: https://www.gettyimages.in/photos/state-farm-insurance-company
-random_paper: 22
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Cos Rate Limits
@@ -242,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/screenshots/state-farm-insurance-cos-2026-06-20T194526.png
 security:

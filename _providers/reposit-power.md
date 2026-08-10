@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -174,7 +174,7 @@ overview: 'Reposit Power publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 23 more developer resources.'
-random_paper: 20
+random_paper: 100
 score:
   band: developing
   composite: 47.9
@@ -204,7 +204,7 @@ score:
     regime_id: energy_utilities
     score: 60.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

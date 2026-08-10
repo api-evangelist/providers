@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -929,7 +929,7 @@ plans:
 - name: Rapid7 Plans Pricing
   plan_count: 1
   slug: rapid7-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Rapid7 Rate Limits
@@ -963,7 +963,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:

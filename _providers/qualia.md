@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Qualia API is a read-write GraphQL API over the Qualia title, escrow and closing platform. It lets partner organizations place title orders into Qualia Core or Connect (or route them to third-part
@@ -131,7 +131,7 @@ overview: 'Qualia publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qualia''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 72
+random_paper: 57
 score:
   band: thin
   composite: 32.7
@@ -148,7 +148,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

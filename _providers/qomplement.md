@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: The API Keys API from Qomplement — 2 operation(s) for api keys.
@@ -193,7 +193,7 @@ overview: 'Qomplement publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Qomplement''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 22 more developer resources.'
-random_paper: 73
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Qomplement Rate Limits
@@ -220,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

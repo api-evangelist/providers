@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 429
   human_in_the_loop: 29
@@ -374,7 +374,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 77
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -386,20 +386,20 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.2
+  composite: 41.1
   delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 49.2
+    contract_quality: 53.1
     developer_ergonomics: 26.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 40.2
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 71
@@ -410,7 +410,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

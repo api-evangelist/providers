@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -97,8 +97,11 @@ arazzos:
 - description: Read a user's profile, find their top artist for a period, and surface that artist's top tracks.
   name: Last.fm User Taste Profile
   slug: lastfm-user-taste-profile-workflow
-artifact_total: 42
+artifact_total: 64
 collections:
+- collection_type: postman
+  name: Last.fm Album API
+  slug: postman-lastfm-album-api
 - collection_type: postman
   name: Last.fm Web Services API (2.0)
   slug: postman-lastfm-openapi-original
@@ -299,9 +302,36 @@ common:
   title: lastfm-mcp — Cloudflare Workers MCP server with OAuth 2.0 for AI access to Last.fm listening data
   type: Tools
   url: https://github.com/rianvdm/lastfm-mcp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/last-fm
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.last.fm/blog
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/lastfm
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://x.com/lastfmstatus
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lastfm-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lastfm-finops.yml
 created: '2026-05-28'
 description: Last.fm is the long-running music recommendation, scrobbling, and music-data service operated by CBS Interactive. Its Web Services 2.0 API (the AudioScrobbler API at ws.audioscrobbler.com/2.0/) exposes catalog data (artists, albums, tracks, tags), charts, geo-listening data, user listening history (recent tracks, top tracks/albums/artists, weekly charts), and the Scrobbling 2.0 write surface (track.scrobble, track.updateNowPlaying, track.love). Every operation is dispatched through a single endpoint via the `method` parameter (e.g. `method=user.getRecentTracks`). Authentication uses an API key for reads and a signed (`api_sig`) session-key flow for writes. The API is free for non-commercial use; commercial use requires a separate agreement via partners@last.fm.
 examples:
+- key_count: 1
+  name: Artist Getinfo Response
+  slug: artist-getInfo-response
 - key_count: 1
   name: Lastfm Album Getinfo Example
   slug: lastfm-album-getinfo-example
@@ -320,8 +350,38 @@ examples:
 - key_count: 1
   name: Lastfm User Getrecenttracks Example
   slug: lastfm-user-getrecenttracks-example
+- key_count: 14
+  name: Track Scrobble Request
+  slug: track-scrobble-request
+- key_count: 1
+  name: User Getrecenttracks Response
+  slug: user-getRecentTracks-response
+features:
+- description: Comprehensive metadata for artists, albums, and tracks including biographies, images, tags, and similar items
+  name: Music Metadata
+- description: Track submission API (Scrobbling 2.0) for recording listening history from any client or device
+  name: Scrobbling
+- description: Access recent tracks, loved tracks, top artists, albums, and tracks for any user
+  name: User Listening History
+- description: Global and geographic top artists and tracks, plus tag-based and weekly user charts
+  name: Music Charts
+- description: Similar artist and track recommendations powered by Last.fm's social listening data
+  name: Music Discovery
+- description: Full-text search across the Last.fm music catalog for artists, albums, and tracks
+  name: Artist and Track Search
+- description: Browse music by community-applied tags to discover themed playlists and artists
+  name: Tag Exploration
+- description: Access user friends, listening comparisons, and shared music taste data
+  name: User Social Data
+finops:
+- name: Lastfm Finops
+  service_category: ''
+  slug: lastfm-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lastfm.png
 json_schemas:
+- name: Artist
+  property_count: 10
+  slug: artist
 - name: Last.fm Album
   property_count: 11
   slug: lastfm-album
@@ -337,6 +397,12 @@ json_schemas:
 - name: Last.fm User
   property_count: 12
   slug: lastfm-user
+- name: Scrobble
+  property_count: 10
+  slug: scrobble
+- name: Track
+  property_count: 13
+  slug: track
 json_structures:
 - name: Lastfm Album Structure
   property_count: 11
@@ -353,7 +419,7 @@ jsonld:
   property_count: 8
   slug: lastfm-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: Last.fm
 nav: Providers
 network: true
@@ -363,12 +429,12 @@ overview: 'Last.fm publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Last.fm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Last.fm''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, pricing, and 42 more developer resources.'
+  Last.fm''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, pricing, and 48 more developer resources.'
 plans:
 - name: Lastfm Plans Pricing
   plan_count: 2
   slug: lastfm-plans-pricing
-random_paper: 82
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Lastfm Rate Limits
@@ -391,16 +457,16 @@ rules:
     warn: 4
   slug: lastfm-rules
 score:
-  band: strong
-  composite: 63.0
-  delta: 0.0
+  band: exemplar
+  composite: 67.0
+  delta: 4.0
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 60.5
     contract_quality: 72.4
-    developer_ergonomics: 69.6
+    developer_ergonomics: 71.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 63.0
   provenance:
     agentic_access: derived
@@ -410,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/screenshots/lastfm-2026-06-20T184325.png
 security:
@@ -431,5 +497,18 @@ tags:
 - Charts
 - Public APIs
 - AudioScrobbler
+use_cases:
+- description: Record tracks played in music apps to Last.fm user profiles for history and recommendations
+  name: Music Player Scrobbling
+- description: Augment music catalogs with artist bios, album art, tags, and similar artist data
+  name: Music Metadata Enrichment
+- description: Display weekly, monthly, or all-time listening charts for users in applications
+  name: Personalized Charts
+- description: Power recommendation engines with similar artist and track data from Last.fm
+  name: Music Discovery Features
+- description: Show what friends are listening to and compare music tastes between users
+  name: Social Listening
+- description: Display top artists and tracks by country or region for localized music features
+  name: Geographic Music Trends
 website: https://www.last.fm
 ---

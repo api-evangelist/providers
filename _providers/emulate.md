@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Anonymous, read-only REST surface behind emulatebio.com. Emulate runs WordPress and exposes the WordPress REST API publicly, with six first-party custom namespaces registered alongside the core wp/v2 '
@@ -126,7 +126,7 @@ overview: 'Emulate publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Emulate''s developer surface includes engineering blog, support, documentation, legal docs, product news, and 17 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: emerging
   composite: 22.2
@@ -155,8 +155,9 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/screenshots/emulate-2026-08-07T164847.png
 security:
 - kind: authentication
   name: Emulate Authentication

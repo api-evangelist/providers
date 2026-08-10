@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,23 @@ common:
   title: ''
   type: DomainSecurity
   url: security/unconventional-domain-security.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://unconv.ai/feed/
 created: '2026-07-17'
 description: Unconventional (Unconventional, Inc.) is an AI-hardware research company rethinking the foundations of the computer to optimize energy efficiency for AI. Founded by experts in AI systems, analog circuits, computing theory, and neuroscience, and backed by Playground Global, the company researches dynamical-systems computing substrates — coupled-oscillator (Kuramoto) hardware, an instruction set architecture for dynamical-system hardware, and hardware/software neural co-evolution — targeting biology-scale energy efficiency. Its open-source Un-0 model generates images with simulated coupled oscillators. Unconventional does not currently publish a public API, developer portal, or hosted product.
 image: https://avatars.githubusercontent.com/u/274912506?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Unconventional
 nav: Providers
 network: true
 overview: 'Unconventional is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Hardware, Analog Computing, and Energy Efficiency.
 
 
-  Unconventional''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 54
+  Unconventional''s developer surface includes engineering blog and 9 more developer resources.'
+random_paper: 15
 score:
   band: minimal
   composite: 8.0
@@ -93,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

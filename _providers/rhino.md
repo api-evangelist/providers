@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -26,12 +26,24 @@ agentic_access:
   operation_count: 12
   slug: rhino-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 1
+api_count: 5
 apis:
-- description: API for third-party partners to create and manage insurance prospects through the SayRhino platform. Partners authenticate with an OAuth 2.0 client-credentials grant against POST /token to obtain a JW
-  name: SayRhino Partner API
-  slug: sayrhino-partner-api
-artifact_total: 7
+- description: The Authentication API from Rhino — 1 operation(s) for authentication.
+  name: Rhino Authentication API
+  slug: rhino-authentication-api
+- description: The PartnerApi::V2::Test::Resident API from Rhino — 1 operation(s) for partnerapi::v2::test::resident.
+  name: Rhino Partner Api::V2::Test::Resident API
+  slug: rhino-partnerapi-v2-test-resident-api
+- description: The PartnerApi::V2::Test::SayrhinoUser API from Rhino — 1 operation(s) for partnerapi::v2::test::sayrhinouser.
+  name: Rhino Partner Api::V2::Test::Sayrhino User API
+  slug: rhino-partnerapi-v2-test-sayrhinouser-api
+- description: The Prospects API from Rhino — 2 operation(s) for prospects.
+  name: Rhino Prospects API
+  slug: rhino-prospects-api
+- description: The Webhooks API from Rhino — 5 operation(s) for webhooks.
+  name: Rhino Webhooks API
+  slug: rhino-webhooks-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Rhino Webhooks
@@ -173,23 +185,23 @@ modified: '2026-08-02'
 name: Rhino
 nav: Providers
 network: true
-overview: 'Rhino publishes 1 API on the [APIs.io](https://apis.io/) network: SayRhino Partner API. Tagged areas include Insurance, Insurtech, Real Estate, Property Management, and Rentals.
+overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Partner Api::V2::Test::Resident API, Partner Api::V2::Test::Sayrhino User API, and 2 more. Tagged areas include Insurance, Insurtech, Real Estate, Property Management, and Rentals.
 
 
   The Rhino catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Rhino''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, code examples, and 24 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 43.9
+  delta: 0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.7
+    contract_quality: 56.9
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 43.8
@@ -205,7 +217,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

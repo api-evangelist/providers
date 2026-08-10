@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Agent-driven shopping surface on the uppercase storefront implementing the Universal Commerce Protocol over MCP: discover via /.well-known/ucp, then search_catalog, create_cart, create_checkout, updat'
@@ -104,7 +104,7 @@ overview: 'Uppercase publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Uppercase''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 64
+random_paper: 40
 scopes:
 - name: Uppercase Scopes
   scope_count: 4
@@ -126,7 +126,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

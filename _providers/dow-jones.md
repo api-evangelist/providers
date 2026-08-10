@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ overview: 'Dow Jones publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 14
+random_paper: 106
 scopes:
 - name: Dow Jones Scopes
   scope_count: 7
@@ -288,7 +288,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:

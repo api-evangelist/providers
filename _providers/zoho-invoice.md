@@ -27,13 +27,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
 - description: REST API for managing organizations, contacts, items, invoices, estimates, credit notes, recurring invoices, expenses, projects, time entries, and customer payments. Authentication is OAuth 2.0 with O
   name: Zoho Invoice API
   slug: api
-artifact_total: 3
+- description: The Contacts API from Zoho Invoice — 3 operation(s) for contacts.
+  name: Zoho Invoice Contacts API
+  slug: zoho-invoice-contacts-api
+- description: The Credit Notes API from Zoho Invoice — 2 operation(s) for credit notes.
+  name: Zoho Invoice Credit Notes API
+  slug: zoho-invoice-credit-notes-api
+- description: The Estimates API from Zoho Invoice — 2 operation(s) for estimates.
+  name: Zoho Invoice Estimates API
+  slug: zoho-invoice-estimates-api
+- description: The Invoices API from Zoho Invoice — 6 operation(s) for invoices.
+  name: Zoho Invoice Invoices API
+  slug: zoho-invoice-invoices-api
+- description: The Organizations API from Zoho Invoice — 1 operation(s) for organizations.
+  name: Zoho Invoice Organizations API
+  slug: zoho-invoice-organizations-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -79,20 +94,20 @@ modified: '2026-05-11'
 name: Zoho Invoice
 nav: Providers
 network: true
-overview: 'Zoho Invoice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Invoicing, Accounting, Small Business, Billing, and Expense Tracking.
+overview: 'Zoho Invoice publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Credit Notes API, Estimates API, and 2 more. Tagged areas include Invoicing, Accounting, Small Business, Billing, and Expense Tracking.
 
 
   Zoho Invoice''s developer surface includes documentation, pricing, signup flow, developer console, engineering blog, and 4 more developer resources.'
-random_paper: 112
+random_paper: 82
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 26.3
+  delta: 0.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 51.2
+    contract_quality: 50.4
     developer_ergonomics: 17.4
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.9
@@ -103,7 +118,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/screenshots/zoho-invoice-2026-06-20T201940.png
 security:

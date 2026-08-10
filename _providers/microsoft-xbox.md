@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Xbox Live Services provides APIs for achievements, leaderboards, multiplayer, matchmaking, social features, presence, and cloud saves. Game developers can integrate Xbox Live features for player ident
@@ -91,7 +91,7 @@ plans:
 - name: Microsoft Xbox Plans Pricing
   plan_count: 3
   slug: microsoft-xbox-plans-pricing
-random_paper: 7
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Microsoft Xbox Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/screenshots/microsoft-xbox-2026-06-20T185546.png
 security:

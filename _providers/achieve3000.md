@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Achieve3000
 nav: Providers
 network: true
 overview: Achieve3000 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Literacy, and Reading.
-random_paper: 16
+random_paper: 108
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/achieve3000/refs/heads/main/screenshots/achieve3000-2026-07-25T181454.png
 security:

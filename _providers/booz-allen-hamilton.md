@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 10
 common:
@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Booz Allen outlines tech strategy and key risks
   url: https://www.stocktitan.net/sec-filings/BAH/10-k-booz-allen-hamilton-holding-corp-files-annual-report-f81cdf47fedf.html
-random_paper: 108
+random_paper: 60
 score:
   band: minimal
   composite: 6.1
@@ -147,7 +147,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booz-allen-hamilton/refs/heads/main/screenshots/booz-allen-hamilton-2026-06-20T173608.png
 security:

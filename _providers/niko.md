@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Niko
 nav: Providers
 network: true
 overview: Niko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Solar, Renewable Energy, and Energy Efficiency.
-random_paper: 94
+random_paper: 85
 score:
   band: minimal
   composite: 5.5
@@ -68,8 +68,9 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/niko/refs/heads/main/screenshots/niko-2026-08-07T185257.png
 security:
 - kind: domain-security
   name: Niko Domain Security

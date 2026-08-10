@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -100,7 +100,7 @@ overview: 'Anine Bing is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Anine Bing''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
-random_paper: 80
+random_paper: 56
 scopes:
 - name: Anine Bing Scopes
   scope_count: 4
@@ -122,8 +122,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/anine-bing/refs/heads/main/screenshots/anine-bing-2026-08-07T161415.png
 security:
 - kind: authentication
   name: Anine Bing Authentication

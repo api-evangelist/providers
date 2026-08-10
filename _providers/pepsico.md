@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: PepsiCo Announces Industry-First AI and Digital Twin ...
   url: https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia
-random_paper: 77
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Pepsico Rate Limits
@@ -129,7 +129,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/screenshots/pepsico-2026-06-20T191557.png
 security:

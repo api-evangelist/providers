@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ arazzos:
 - description: Bypass bot detection on a protected URL, then re-render its HTML content and a PDF using the unblocked content.
   name: Browserless Unblock Then Render
   slug: browserless-unblock-then-render-workflow
-artifact_total: 33
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Browserless
@@ -235,6 +235,10 @@ jsonld:
   property_count: 4
   slug: browserless-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-25'
 name: Browserless
 nav: Providers
@@ -250,7 +254,7 @@ plans:
 - name: Browserless Plans Pricing
   plan_count: 5
   slug: browserless-plans-pricing
-random_paper: 81
+random_paper: 51
 rate_limits:
 - limit_count: 10
   name: Browserless Rate Limits
@@ -292,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:

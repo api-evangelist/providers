@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -246,7 +246,7 @@ press:
 - date: '2026-05-25'
   title: Walmart Partners with OpenAI to Create AI-First Shopping ...
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
-random_paper: 82
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Walmart Rate Limits
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:

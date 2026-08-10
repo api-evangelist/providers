@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Linktree publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Linktree''s developer surface includes documentation, API reference, authentication, changelog, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 71
+random_paper: 50
 scopes:
 - name: Linktree Scopes
   scope_count: 30
@@ -223,7 +223,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
 security:

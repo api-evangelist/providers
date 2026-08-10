@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,10 +128,11 @@ overview: 'Arrive AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Arrive AI''s developer surface includes engineering blog, support, YouTube channel, and 17 more developer resources.'
-random_paper: 52
+random_paper: 25
 score:
   band: emerging
   composite: 13.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -139,8 +140,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 13.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arrivetech/refs/heads/main/screenshots/arrivetech-2026-08-07T161735.png
 security:
 - kind: domain-security
   name: Arrivetech Domain Security

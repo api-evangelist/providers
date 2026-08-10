@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 36
@@ -289,7 +289,7 @@ overview: 'American Express Global Business Travel publishes 17 APIs on the [API
 
 
   American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 37 more developer resources.'
-random_paper: 111
+random_paper: 93
 scopes:
 - name: Amex Gbt Scopes
   scope_count: 0
@@ -318,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

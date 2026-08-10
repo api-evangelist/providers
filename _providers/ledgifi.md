@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ overview: 'LedgiFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LedgiFi''s developer surface includes documentation, support, getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: emerging
   composite: 14.1
@@ -102,7 +102,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 14.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgifi/refs/heads/main/screenshots/ledgifi-2026-07-25T224819.png
 security:

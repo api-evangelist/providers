@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -107,9 +107,9 @@ common:
   title: ''
   type: APIKeys
   url: https://help.nuclino.com/04598850-manage-api-keys
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://help.nuclino.com/70af7f4f-connect-nuclino-to-ai-assistants-with-mcp
 - group: commercial
   title: ''
@@ -174,7 +174,7 @@ plans:
 - name: Nuclino Plans Pricing
   plan_count: 3
   slug: nuclino-plans-pricing
-random_paper: 82
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Nuclino Rate Limits
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/screenshots/nuclino-2026-06-20T190507.png
 security:

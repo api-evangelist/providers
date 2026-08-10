@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ apis:
 - description: The Watchlists API from eToro — 12 operation(s) for watchlists.
   name: eToro Watchlists API
   slug: etoro-watchlists-api
-artifact_total: 363
+artifact_total: 364
 common:
 - group: agent
   title: ''
@@ -165,7 +165,7 @@ common:
   url: finops/finops.yml
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://builders.etoro.com/tools/mcp
 - group: agent
   title: ''
@@ -1186,6 +1186,9 @@ mcp_servers:
 - description: ''
   name: mcp
   slug: mcp
+- description: ''
+  name: mcp
+  slug: mcp-2
 modified: '2026-06-13'
 name: eToro
 nav: Providers
@@ -1201,7 +1204,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 101
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1241,7 +1244,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

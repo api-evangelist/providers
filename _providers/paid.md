@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -234,7 +234,7 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: developing
   composite: 52.3
@@ -263,8 +263,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:
 - kind: authentication
   name: Paid Authentication

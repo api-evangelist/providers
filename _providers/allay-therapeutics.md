@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,14 +17,35 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 33.6
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: 'The anonymously readable WordPress REST API behind www.allaytx.com. It exposes the 19 published news items — press releases, in-the-news coverage and presentations/publications spanning the company''s '
-  name: Allay Therapeutics Content API
-  slug: allay-therapeutics-content-api
-artifact_total: 3
+- description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
+  name: Allay Therapeutics Comments API
+  slug: allay-therapeutics-comments-api
+- description: Route, type, taxonomy and status discovery documents.
+  name: Allay Therapeutics Discovery API
+  slug: allay-therapeutics-discovery-api
+- description: Media library. `X-WP-Total` reports 161 attachments, but only one attachment (id 1503) is returned to an anonymous caller; the remainder are attached to non-public parents.
+  name: Allay Therapeutics Media API
+  slug: allay-therapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for www.allaytx.com URLs.
+  name: Allay Therapeutics Oembed API
+  slug: allay-therapeutics-oembed-api
+- description: Corporate pages. 9 published at harvest time — Home, About Us, Our Science, Pipeline, News, Careers, Contact Us, Privacy Notices, Terms of Service.
+  name: Allay Therapeutics Pages API
+  slug: allay-therapeutics-pages-api
+- description: News archive — press releases, in-the-news coverage, and presentations/publications. 19 posts published at harvest time, spanning 2021-05-13 (company launch with first clinical data) through 2025-06-0
+  name: Allay Therapeutics Posts API
+  slug: allay-therapeutics-posts-api
+- description: Cross-content search across published posts and pages.
+  name: Allay Therapeutics Search API
+  slug: allay-therapeutics-search-api
+- description: 'Categories and tags. Four categories are registered — Press Releases (14), In The News (4), Presentations and Publications (1), Uncategorized (0). The post_tag taxonomy holds three unused placeholder '
+  name: Allay Therapeutics Taxonomy API
+  slug: allay-therapeutics-taxonomy-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -127,21 +148,31 @@ modified: '2026-08-06'
 name: Allay Therapeutics
 nav: Providers
 network: true
-overview: 'Allay Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Pain Management, and Drug Delivery.
+overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Pain Management, and Drug Delivery.
 
 
   Allay Therapeutics'' developer surface includes product news, authentication, and 21 more developer resources.'
-random_paper: 65
+random_paper: 17
 score:
   band: thin
-  composite: 31.0
+  composite: 30.7
+  delta: 0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.1
-    developer_ergonomics: 17.4
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 53.1
+    developer_ergonomics: 12.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 30.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -149,7 +180,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/screenshots/allay-therapeutics-2026-08-07T161209.png
 security:
 - kind: authentication
   name: Allay Therapeutics Authentication

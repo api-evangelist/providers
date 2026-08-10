@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.
@@ -84,7 +84,7 @@ plans:
 - name: Got Plans Pricing
   plan_count: 3
   slug: got-plans-pricing
-random_paper: 104
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Got Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/screenshots/got-2026-06-20T182254.png
 slug: got

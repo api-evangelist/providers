@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -156,7 +156,7 @@ overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 20 more developer resources.'
-random_paper: 82
+random_paper: 61
 score:
   band: emerging
   composite: 24.4
@@ -173,7 +173,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/screenshots/cask-data-2026-07-25T204727.png
 security:

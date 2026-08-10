@@ -28,13 +28,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: HTTP API for programmatic interaction with SonarQube Server, enabling management of projects, quality gates, issues, rules, users, and integrations with external tools.
-  name: SonarQube Web API
-  slug: web-api
-artifact_total: 16
+- description: Code issue search and management
+  name: SonarQube Issues API
+  slug: sonarqube-issues-api
+- description: Component metrics and measurement data
+  name: SonarQube Measures API
+  slug: sonarqube-measures-api
+- description: Project creation, search, and management
+  name: SonarQube Projects API
+  slug: sonarqube-projects-api
+- description: Quality gate configuration and status
+  name: SonarQube Quality Gates API
+  slug: sonarqube-quality-gates-api
+- description: Analysis rule search and configuration
+  name: SonarQube Rules API
+  slug: sonarqube-rules-api
+- description: SonarQube server status and health monitoring
+  name: SonarQube System API
+  slug: sonarqube-system-api
+- description: User account management
+  name: SonarQube Users API
+  slug: sonarqube-users-api
+artifact_total: 22
 common:
 - group: build
   title: ''
@@ -145,7 +163,7 @@ modified: '2026-05-19'
 name: SonarQube
 nav: Providers
 network: true
-overview: 'SonarQube publishes 1 API on the [APIs.io](https://apis.io/) network: Web API. Tagged areas include Code Quality, DevOps, Security, and Static Analysis.
+overview: 'SonarQube publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Issues API, Measures API, Projects API, and 4 more. Tagged areas include Code Quality, DevOps, Security, and Static Analysis.
 
 
   The SonarQube catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -156,7 +174,7 @@ plans:
 - name: Sonarqube Plans Pricing
   plan_count: 3
   slug: sonarqube-plans-pricing
-random_paper: 72
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Sonarqube Rate Limits
@@ -180,13 +198,13 @@ rules:
   slug: sonarqube-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 59.9
+  delta: -0.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.9
+    contract_quality: 69.0
     developer_ergonomics: 43.5
-    discoverability: 40.7
+    discoverability: 46.3
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 60.3
@@ -197,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:

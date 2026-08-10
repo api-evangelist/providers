@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](h
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 39
+random_paper: 24
 score:
   band: developing
   composite: 49.6
@@ -325,7 +325,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

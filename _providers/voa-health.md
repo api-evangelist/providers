@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Authentication API from VOA Health — 1 operation(s) for authentication.
@@ -74,7 +74,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/voa-health-rnds-openapi.yml
+  url: openapi/_original/voa-health-rnds-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -151,7 +151,7 @@ overview: 'VOA Health publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   VOA Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 97
+random_paper: 73
 score:
   band: thin
   composite: 31.3
@@ -180,7 +180,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

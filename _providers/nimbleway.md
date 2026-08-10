@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nimbleway-openapi.json
+  url: openapi/_original/nimbleway-openapi.json
 - group: auth
   title: ''
   type: Authentication
@@ -225,7 +225,7 @@ overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits
@@ -253,8 +253,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:
 - kind: authentication
   name: Nimbleway Authentication

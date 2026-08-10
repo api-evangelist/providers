@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
@@ -87,7 +87,7 @@ overview: 'Mienvío publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mienvío''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
   composite: 17.4
@@ -101,8 +101,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/screenshots/mienv-o-2026-08-07T172857.png
 security:
 - kind: domain-security
   name: Mienv O Domain Security

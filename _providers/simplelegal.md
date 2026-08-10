@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-06'
+  score: 44.1
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -115,6 +115,22 @@ common:
   title: ''
   type: Legal Requests
   url: https://info.simplelegal.com/legal-requests-datasheet
+- group: start
+  title: ''
+  type: Login
+  url: https://app.simplelegal.com/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/simplelegal-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/simplelegal-well-known.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/simplelegal-vulnerability-disclosure.yml
 created: '2025-03-01'
 description: SimpleLegal is Onit's mid-market enterprise legal management (ELM) platform trusted by 550+ corporate legal departments. It provides matter management, eBilling, spend management, vendor management, legal requests, and legal operations analytics for in-house legal teams. The SimpleLegal API is organized around REST with predictable, resource-oriented URLs, enabling integration with ERP and finance systems to eliminate duplicate data entry and automate legal operations workflows.
 examples:
@@ -155,7 +171,7 @@ jsonld:
   property_count: 4
   slug: simplelegal-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: SimpleLegal
 nav: Providers
 network: true
@@ -165,12 +181,12 @@ overview: 'SimpleLegal publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The SimpleLegal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SimpleLegal''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 8 more developer resources.'
+  SimpleLegal''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 12 more developer resources.'
 plans:
 - name: Simplelegal Plans Pricing
   plan_count: 3
   slug: simplelegal-plans-pricing
-random_paper: 37
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Simplelegal Rate Limits
@@ -194,15 +210,15 @@ rules:
   slug: simplelegal-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 54.2
+  delta: 5.1
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 52.6
     contract_quality: 67.2
     developer_ergonomics: 26.1
-    discoverability: 74.1
+    discoverability: 85.2
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 47.4
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -212,8 +228,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:
 - kind: authentication

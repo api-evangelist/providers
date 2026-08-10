@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
-random_paper: 90
+random_paper: 60
 scopes:
 - name: Knight Frank Scopes
   scope_count: 2
@@ -229,8 +229,9 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:
 - kind: authentication
   name: Knight Frank Authentication

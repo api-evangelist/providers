@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,27 +59,35 @@ common:
   title: ''
   type: DomainSecurity
   url: security/peanut-app-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.peanut-app.io/help
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://peanut-app.io/download
 created: '2026-07-17'
 description: Peanut is a social networking app connecting women through all stages of womanhood — from fertility and pregnancy to motherhood and menopause. Founded in 2017 by Michelle Kennedy, the platform provides a safe, moderated space where more than five million women find friends, join life-stage communities and groups, ask questions, and access expert content. Peanut is a consumer mobile-first product (iOS and Android) and does not publish a public developer API; this profile was surfaced as a portfolio company of partech and enriched with the artifacts the company genuinely publishes (llms.txt and domain-security posture).
 image: https://www.peanut-app.io/images/social-share.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Peanut App
 nav: Providers
 network: true
 overview: 'Peanut App is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Network, Community, and Women.
 
 
-  Peanut App''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 2
+  Peanut App''s developer surface includes engineering blog, signup flow, support, getting-started guide, and 5 more developer resources.'
+random_paper: 91
 score:
   band: emerging
-  composite: 14.6
-  delta: 0.0
+  composite: 17.2
+  delta: 2.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 17.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
@@ -91,8 +99,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/peanut-app/refs/heads/main/screenshots/peanut-app-2026-08-07T191726.png
 security:
 - kind: domain-security
   name: Peanut App Domain Security

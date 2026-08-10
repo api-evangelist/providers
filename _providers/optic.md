@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Optic CLI provides OpenAPI diffing, linting, and breaking change detection from the command line, comparing two versions of an OpenAPI specification using behavior-aware diffing and applying style
@@ -84,7 +84,7 @@ plans:
 - name: Optic Plans Pricing
   plan_count: 3
   slug: optic-plans-pricing
-random_paper: 91
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Optic Rate Limits
@@ -102,8 +102,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/screenshots/optic-2026-08-07T190759.png
 security:
 - kind: domain-security
   name: Optic Domain Security

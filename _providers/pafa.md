@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 14
 common:
@@ -87,10 +87,6 @@ common:
   title: Visitor services email
   type: ContactEmail
   url: mailto:visitorservices@pafa.org
-- group: operate
-  title: Main phone — (215) 972-7600
-  type: ContactPhone
-  url: tel:+12159727600
 - group: other
   title: 118-128 North Broad Street, Philadelphia, PA 19102
   type: Address
@@ -167,8 +163,8 @@ overview: 'Pennsylvania Academy of the Fine Arts (PAFA) is profiled on the [APIs
   The Pennsylvania Academy of the Fine Arts (PAFA) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Pennsylvania Academy of the Fine Arts (PAFA)''s developer surface includes support, YouTube channel, and 20 more developer resources.'
-random_paper: 69
+  Pennsylvania Academy of the Fine Arts (PAFA)''s developer surface includes support, YouTube channel, and 19 more developer resources.'
+random_paper: 60
 score:
   band: minimal
   composite: 9.8
@@ -182,7 +178,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pafa/refs/heads/main/screenshots/pafa-2026-06-20T191320.png
 security:

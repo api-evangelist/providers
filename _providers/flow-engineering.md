@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Flow Engineering exposes a GraphQL API for programmatic access to the Systems Graph (requirements, design artifacts, test cases, and integrations). The single GraphQL endpoint is served from api.flowe
@@ -108,7 +108,7 @@ overview: 'Flow Engineering publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Flow Engineering''s developer surface includes signup flow, pricing, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 66
+random_paper: 24
 scopes:
 - name: Flow Engineering Scopes
   scope_count: 4
@@ -129,7 +129,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/screenshots/flow-engineering-2026-07-25T214832.png
 security:

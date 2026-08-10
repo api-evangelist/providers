@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -58,7 +58,7 @@ apis:
 - description: Wires API (v2) for originating and managing incoming and outgoing wire transfers, retrieving purpose and reference-data codes, and managing wire account entitlements. OpenAPI 3.0.1, OAuth2 client-cred
   name: Customers Bank Wires API
   slug: customers-bank-wires-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Customers Bank Webhooks
@@ -86,7 +86,7 @@ common:
   url: https://cubiapi.readme.io/docs/getting-started
 - group: agent
   title: ''
-  type: MCP
+  type: MCPServer
   url: https://cubiapi.readme.io/mcp
 - group: agent
   title: ''
@@ -175,6 +175,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
+  name: mcp
+  slug: mcp
+- description: ''
   name: customers-bank-mcp.yml
   slug: customers-bank-mcpyml
 modified: '2026-07-23'
@@ -188,7 +191,7 @@ overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Customers Bank''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, and 20 more developer resources.'
-random_paper: 98
+random_paper: 62
 score:
   band: developing
   composite: 45.5
@@ -213,7 +216,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:

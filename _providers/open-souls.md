@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,7 +63,7 @@ overview: 'Open Souls is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Open Souls'' developer surface includes CLI and 4 more developer resources.'
-random_paper: 28
+random_paper: 1
 score:
   band: minimal
   composite: 8.3
@@ -77,8 +77,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/open-souls/refs/heads/main/screenshots/open-souls-2026-08-07T190531.png
 slug: open-souls
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: How ad slots are interleaved into the feed.
@@ -171,7 +171,7 @@ overview: 'ShortKit publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShortKit''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, sandbox, and 18 more developer resources.'
-random_paper: 97
+random_paper: 76
 score:
   band: developing
   composite: 48.9
@@ -194,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

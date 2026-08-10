@@ -23,11 +23,11 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-06'
+  score: 9.0
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for managing employees, schedules, timesheets, locations, leave, tasks, and sales metrics in the Deputy workforce management platform. Authentication is handled via OAuth 2.0 or a permanent a
@@ -123,26 +123,26 @@ modified: '2026-05-11'
 name: Deputy
 nav: Providers
 network: true
-overview: 'Deputy publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Workforce Management, Employee Scheduling, Time and Attendance, Timesheets, and Human Resources.
+overview: 'Deputy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Workforce Management, Employee Scheduling, Time and Attendance, Timesheets, and Human Resources.
 
 
   Deputy''s developer surface includes documentation, getting-started guide, authentication, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 102
+random_paper: 87
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 29.3
+  delta: -8.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 32.3
+    contract_quality: 0.0
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 37.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/screenshots/deputy-2026-06-20T180004.png
 security:
 - kind: domain-security

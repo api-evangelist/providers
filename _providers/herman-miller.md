@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Herman Miller
 nav: Providers
 network: true
 overview: Herman Miller is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Furniture, Design, Office Furnishings, Workplace, and Contract Furniture.
-random_paper: 82
+random_paper: 49
 score:
   band: minimal
   composite: 4.4
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herman-miller/refs/heads/main/screenshots/herman-miller-2026-07-25T221022.png
 security:

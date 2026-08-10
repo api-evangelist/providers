@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Kodem platform API. The service is reachable at https://api.kodemsecurity.com and is fully authenticated — every path returns HTTP 401 with a JSON {"detail":"Unauthorized"} envelope until a creden
@@ -116,7 +116,7 @@ overview: 'Kodem publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kodem''s developer surface includes documentation, signup flow, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: emerging
   composite: 27.6
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kodem/refs/heads/main/screenshots/kodem-2026-07-25T224243.png
 security:

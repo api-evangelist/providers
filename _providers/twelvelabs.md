@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Twelvelabs Plans Pricing
   plan_count: 3
   slug: twelvelabs-plans-pricing
-random_paper: 64
+random_paper: 37
 rate_limits:
 - limit_count: 6
   name: Twelvelabs Rate Limits
@@ -164,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/screenshots/twelvelabs-2026-06-20T195846.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'RightHand Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   RightHand Robotics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 59
+random_paper: 11
 score:
   band: minimal
   composite: 11.9
@@ -101,7 +101,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 11.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

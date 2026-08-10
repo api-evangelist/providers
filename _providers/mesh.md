@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 9
 apis:
 - description: The Assets API from Mesh — 2 operation(s) for assets.
@@ -199,7 +199,7 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 90
+random_paper: 81
 score:
   band: strong
   composite: 56.2
@@ -228,8 +228,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/screenshots/mesh-2026-08-07T172618.png
 security:
 - kind: authentication
   name: Mesh Authentication

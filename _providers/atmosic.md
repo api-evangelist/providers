@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,7 @@ overview: 'Atmosic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atmosic''s developer surface includes CLI, changelog, documentation, getting-started guide, API reference, support, engineering blog, and 17 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: thin
   composite: 29.8
@@ -147,8 +147,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/screenshots/atmosic-2026-08-07T161852.png
 security:
 - kind: domain-security
   name: Atmosic Domain Security

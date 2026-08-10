@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time prices, reference data, news, analytics, and Terminal functions.
@@ -103,7 +103,7 @@ plans:
 - name: Bloomberg Product Suite Plans Pricing
   plan_count: 3
   slug: bloomberg-product-suite-plans-pricing
-random_paper: 106
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Bloomberg Product Suite Rate Limits
@@ -127,7 +127,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/screenshots/bloomberg-product-suite-2026-06-20T173456.png
 security:

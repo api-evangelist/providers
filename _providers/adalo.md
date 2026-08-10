@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for managing collection records and triggering push notifications inside an Adalo no-code app. Authentication uses a per-app Bearer API key generated from the app's API settings.
@@ -79,7 +79,7 @@ overview: 'Adalo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Adalo''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 11.8
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adalo/refs/heads/main/screenshots/adalo-2026-06-20T164515.png
 security:

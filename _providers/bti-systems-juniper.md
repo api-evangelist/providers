@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ overview: 'BTI Systems (Juniper) is profiled on the [APIs.io](https://apis.io/) 
 
 
   BTI Systems (Juniper)''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
-random_paper: 45
+random_paper: 110
 score:
   band: minimal
   composite: 11.3
@@ -96,7 +96,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bti-systems-juniper/refs/heads/main/screenshots/bti-systems-juniper-2026-07-25T204022.png
 security:

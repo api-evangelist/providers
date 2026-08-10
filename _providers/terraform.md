@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ plans:
 - name: Terraform Plans Pricing
   plan_count: 3
   slug: terraform-plans-pricing
-random_paper: 74
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Terraform Rate Limits
@@ -373,7 +373,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

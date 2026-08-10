@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -368,14 +368,14 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
-random_paper: 68
+random_paper: 41
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 61.5
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.6
+    contract_quality: 69.7
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -398,7 +398,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

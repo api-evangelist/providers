@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,17 +17,29 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-06'
-api_count: 2
+  score: 53.8
+  scored_at: '2026-08-10'
+api_count: 6
 apis:
-- description: Restricted-access REST API that exposes the on-course data powering the Arccos apps — a golfer's rounds, per-round traditional and Strokes Gained stats, paired clubs and smart club distances, user pro
-  name: Arccos On-Course Data API
-  slug: arccos-on-course-data-api
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
   name: Arccos Golf Storefront UCP MCP Server
   slug: arccos-golf-storefront-ucp-mcp-server
-artifact_total: 7
+- description: The Clubs API from Arccos Golf — 2 operation(s) for clubs.
+  name: Arccos Golf Clubs API
+  slug: arccos-golf-clubs-api
+- description: The Courses API from Arccos Golf — 3 operation(s) for courses.
+  name: Arccos Golf Courses API
+  slug: arccos-golf-courses-api
+- description: The Rounds API from Arccos Golf — 3 operation(s) for rounds.
+  name: Arccos Golf Rounds API
+  slug: arccos-golf-rounds-api
+- description: The Users API from Arccos Golf — 1 operation(s) for users.
+  name: Arccos Golf Users API
+  slug: arccos-golf-users-api
+- description: The Webhooks API from Arccos Golf — 2 operation(s) for webhooks.
+  name: Arccos Golf Webhooks API
+  slug: arccos-golf-webhooks-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Arccos Golf Webhooks
@@ -96,7 +108,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/arccos-golf-on-course-data-api-openapi.yml
+  url: openapi/_original/arccos-golf-on-course-data-api-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -169,18 +181,21 @@ mcp_servers:
 - description: ''
   name: arccos-golf-mcp.yml
   slug: arccos-golf-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-06'
 name: Arccos Golf
 nav: Providers
 network: true
-overview: 'Arccos Golf publishes 1 API on the [APIs.io](https://apis.io/) network: Arccos On-Course Data API. Tagged areas include Company, golf, sports-technology, wearables, and iot.
+overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Courses API, Rounds API, and 2 more. Tagged areas include Company, golf, sports-technology, wearables, and iot.
 
 
   The Arccos Golf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Arccos Golf''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 87
+random_paper: 60
 scopes:
 - name: Arccos Golf Scopes
   scope_count: 4
@@ -188,16 +203,29 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.6
+  composite: 47.0
+  delta: 0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.1
-    developer_ergonomics: 71.7
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 57.7
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
+  previous_composite: 46.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:
 - kind: authentication
   name: Arccos Golf Authentication

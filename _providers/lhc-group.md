@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The LHC Group API provides access to platform services and data for enterprise integration and automation.
@@ -72,7 +72,7 @@ plans:
 - name: Lhc Group Plans Pricing
   plan_count: 1
   slug: lhc-group-plans-pricing
-random_paper: 9
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Lhc Group Rate Limits
@@ -96,7 +96,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lhc-group/refs/heads/main/screenshots/lhc-group-2026-06-20T184454.png
 security:

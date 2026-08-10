@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'Rive is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 99
+random_paper: 90
 score:
   band: emerging
   composite: 26.0
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

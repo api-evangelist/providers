@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Vuori is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vuori''s developer surface includes support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 65
+random_paper: 29
 score:
   band: emerging
   composite: 15.6
@@ -109,7 +109,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

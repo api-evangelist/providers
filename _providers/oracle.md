@@ -19,7 +19,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-06'
+  score: 59.5
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 15
   slug: oracle-agentic-access
   summary_line: 15 operations · 7 acting · 1 human-in-the-loop
-api_count: 216
+api_count: 378
 apis:
 - description: REST APIs for Oracle Autonomous Database.
   name: Oracle Database REST APIs
@@ -207,486 +207,972 @@ apis:
 - description: Manage block volume attachments for instances
   name: Oracle Volume Attachments API
   slug: oracle-volume-attachments-api
-- description: Use the Oracle Access Governance API to create, view, and manage GovernanceInstances.
-  name: Oracle Access Governance APIs
-  slug: oracle-access-governance-apis
-- description: Use the Application Dependency Management API to create knowledge bases and vulnerability audits. For more information, see [ADM](/Content/application-dependency-management/home.htm).
-  name: Oracle Application Dependency Management API
-  slug: oracle-application-dependency-management-api
-- description: Use the Cloud Advisor API to find potential inefficiencies in your tenancy and address them. Cloud Advisor can help you save money, improve performance, strengthen system resilience, and improve secur
-  name: Oracle Cloud Advisor API
-  slug: oracle-cloud-advisor-api
-- description: Use the AiDataPlatform Control Plane API to manage Data Lakes.
-  name: Oracle AiDataPlatform Control Plane API
-  slug: oracle-aidataplatform-control-plane-api
-- description: Analytics API.
+- description: The accessGovernanceCP API from Oracle — 10 operation(s) for accessgovernancecp.
+  name: Oracle Access Governance CP API
+  slug: oracle-accessgovernancecp-api
+- description: The accessRequest API from Oracle — 7 operation(s) for accessrequest.
+  name: Oracle Access Request API
+  slug: oracle-accessrequest-api
+- description: The accessRequests API from Oracle — 7 operation(s) for accessrequests.
+  name: Oracle Access Requests API
+  slug: oracle-accessrequests-api
+- description: The Account API from Oracle — 2 operation(s) for account.
+  name: Oracle Account API
+  slug: oracle-account-api
+- description: The AiDataPlatform API from Oracle — 7 operation(s) for aidataplatform.
+  name: Oracle AI Data Platform API
+  slug: oracle-aidataplatform-api
+- description: The AIServiceDocument API from Oracle — 19 operation(s) for aiservicedocument.
+  name: Oracle AI Service Document API
+  slug: oracle-aiservicedocument-api
+- description: API operations for language(NLP)
+  name: Oracle AI Service Language API
+  slug: oracle-aiservicelanguage-api
+- description: The AIServiceSpeech API from Oracle — 13 operation(s) for aiservicespeech.
+  name: Oracle AI Service Speech API
+  slug: oracle-aiservicespeech-api
+- description: The AIServiceVision API from Oracle — 35 operation(s) for aiservicevision.
+  name: Oracle AI Service Vision API
+  slug: oracle-aiservicevision-api
+- description: The analytics API from Oracle — 17 operation(s) for analytics.
   name: Oracle Analytics API
   slug: oracle-analytics-api
-- description: Manage Oracle Cloud Infrastructure console announcements.
-  name: Oracle Announcements Service API
-  slug: oracle-announcements-service-api
-- description: API for the API Gateway service. Use this API to manage gateways, deployments, and related items. For more information, see [Overview of API Gateway](/iaas/Content/APIGateway/Concepts/apigatewayovervi
+- description: The announcement API from Oracle — 4 operation(s) for announcement.
+  name: Oracle Announcement API
+  slug: oracle-announcement-api
+- description: The announcementsPreferences API from Oracle — 2 operation(s) for announcementspreferences.
+  name: Oracle Announcements Preferences API
+  slug: oracle-announcementspreferences-api
+- description: The announcementSubscription API from Oracle — 5 operation(s) for announcementsubscription.
+  name: Oracle Announcement Subscription API
+  slug: oracle-announcementsubscription-api
+- description: The apiGateway API from Oracle — 18 operation(s) for apigateway.
   name: Oracle API Gateway API
-  slug: oracle-api-gateway-api
-- description: Use the Application Performance Monitoring Configuration API to query and set Application Performance Monitoring configuration. For more information, see [Application Performance Monitoring](https://d
-  name: Oracle Application Performance Monitoring Configuration API
-  slug: oracle-application-performance-monitoring-configuration-api
-- description: Use the Application Performance Monitoring Control Plane API to perform operations such as creating, updating, deleting and listing APM domains and monitoring the progress of these operations using th
-  name: Oracle Application Performance Monitoring Control Plane API
-  slug: oracle-application-performance-monitoring-control-plane-api
-- description: Use the APM Availability Monitoring API to query Scripts, Monitors, Dedicated Vantage Points and On-Premise Vantage Points resources. For more information, see [Application Performance Monitoring](htt
-  name: Oracle APM Availability Monitoring API
-  slug: oracle-apm-availability-monitoring-api
-- description: Use the Application Performance Monitoring Trace Explorer API to query traces and associated spans in Trace Explorer. For more information, see [Application Performance Monitoring](https://docs.oracle
-  name: Oracle Application Performance Monitoring Trace Explorer API
-  slug: oracle-application-performance-monitoring-trace-explorer-api
-- description: 'API for the Audit Service. Use this API for compliance monitoring in your tenancy. For more information, see [Overview of Audit](/iaas/Content/Audit/Concepts/auditoverview.htm). **Tip**: This API is g'
+  slug: oracle-apigateway-api
+- description: The apiMetadata API from Oracle — 3 operation(s) for apimetadata.
+  name: Oracle API Metadata API
+  slug: oracle-apimetadata-api
+- description: The apmDomain API from Oracle — 11 operation(s) for apmdomain.
+  name: Oracle Apm Domain API
+  slug: oracle-apmdomain-api
+- description: The apmSynthetic API from Oracle — 13 operation(s) for apmsynthetic.
+  name: Oracle Apm Synthetic API
+  slug: oracle-apmsynthetic-api
+- description: The applicationDependencyManagement API from Oracle — 24 operation(s) for applicationdependencymanagement.
+  name: Oracle Application Dependency Management API
+  slug: oracle-applicationdependencymanagement-api
+- description: The appmgmtControl API from Oracle — 8 operation(s) for appmgmtcontrol.
+  name: Oracle Appmgmt Control API
+  slug: oracle-appmgmtcontrol-api
+- description: The approvalTemplate API from Oracle — 3 operation(s) for approvaltemplate.
+  name: Oracle Approval Template API
+  slug: oracle-approvaltemplate-api
+- description: The artifacts API from Oracle — 17 operation(s) for artifacts.
+  name: Oracle Artifacts API
+  slug: oracle-artifacts-api
+- description: The attributes API from Oracle — 8 operation(s) for attributes.
+  name: Oracle Attributes API
+  slug: oracle-attributes-api
+- description: The Audit API from Oracle — 2 operation(s) for audit.
   name: Oracle Audit API
   slug: oracle-audit-api
-- description: Use the Autoscaling API to dynamically scale compute resources to meet application requirements. For more information about autoscaling, see [Autoscaling](/Content/Compute/Tasks/autoscalinginstancepoo
-  name: Oracle Autoscaling API
+- description: Autoscaling Service
+  name: Oracle Auto Scaling API
   slug: oracle-autoscaling-api
-- description: Use the Bastion API to provide restricted and time-limited access to target resources that don't have public endpoints. Bastions let authorized users connect from specific IP addresses to target resou
+- description: The bastion API from Oracle — 9 operation(s) for bastion.
   name: Oracle Bastion API
   slug: oracle-bastion-api
-- description: Use the Batch Control Plane API to encapsulate and manage all aspects of computationally intensive jobs.
-  name: Oracle Batch API
-  slug: oracle-batch-api
-- description: REST API for Oracle Big Data Service. Use this API to build, deploy, and manage fully elastic Big Data Service clusters. Build on Hadoop, Spark and Data Science distributions, which can be fully integ
-  name: Oracle Big Data Service API
-  slug: oracle-big-data-service-api
-- description: Blockchain Platform Control Plane API
-  name: Oracle Blockchain Platform Control Plane API
-  slug: oracle-blockchain-platform-control-plane-api
-- description: Use the Budgets API to manage budgets and budget alerts. For more information, see [Budgets Overview](/iaas/Content/Billing/Concepts/budgetsoverview.htm).
-  name: Oracle Budgets API
-  slug: oracle-budgets-api
-- description: API for retrieving certificates.
-  name: Oracle Certificates Service Retrieval API
-  slug: oracle-certificates-service-retrieval-api
-- description: API for managing certificates.
-  name: Oracle Certificates Service Management API
-  slug: oracle-certificates-service-management-api
-- description: Use the Cloud Guard and Security Zones API to automate processes that you would otherwise perform through the Cloud Guard Console or the Security Zones Console. For more information on these services,
-  name: Oracle Cloud Guard and Security Zones API
-  slug: oracle-cloud-guard-and-security-zones-api
-- description: API for managing cluster placement groups.
-  name: Oracle Cluster Placement Groups API
-  slug: oracle-cluster-placement-groups-api
-- description: Use the Compute Cloud@Customer API to manage Compute Cloud@Customer infrastructures and upgrade schedules. For more information see [Compute Cloud@Customer documentation](/iaas/compute-cloud-at-custom
-  name: Oracle Compute Cloud@Customer API
-  slug: oracle-compute-cloudcustomer-api
-- description: A description of the Container Instance API
+- description: The batchComputing API from Oracle — 29 operation(s) for batchcomputing.
+  name: Oracle Batch Computing API
+  slug: oracle-batchcomputing-api
+- description: The bds API from Oracle — 74 operation(s) for bds.
+  name: Oracle Bds API
+  slug: oracle-bds-api
+- description: The billingSchedule API from Oracle — 1 operation(s) for billingschedule.
+  name: Oracle Billing Schedule API
+  slug: oracle-billingschedule-api
+- description: The blockchainPlatform API from Oracle — 15 operation(s) for blockchainplatform.
+  name: Oracle Blockchain Platform API
+  slug: oracle-blockchainplatform-api
+- description: The blockstorage API from Oracle — 33 operation(s) for blockstorage.
+  name: Oracle Blockstorage API
+  slug: oracle-blockstorage-api
+- description: The budget API from Oracle — 4 operation(s) for budget.
+  name: Oracle Budget API
+  slug: oracle-budget-api
+- description: The byol API from Oracle — 4 operation(s) for byol.
+  name: Oracle Byol API
+  slug: oracle-byol-api
+- description: The byolAllocation API from Oracle — 3 operation(s) for byolallocation.
+  name: Oracle Byol Allocation API
+  slug: oracle-byolallocation-api
+- description: The cancelEnrichmentJob API from Oracle — 1 operation(s) for cancelenrichmentjob.
+  name: Oracle Cancel Enrichment Job API
+  slug: oracle-cancelenrichmentjob-api
+- description: The capacityManagement API from Oracle — 9 operation(s) for capacitymanagement.
+  name: Oracle Capacity Management API
+  slug: oracle-capacitymanagement-api
+- description: Certificates Service Retrieval API
+  name: Oracle Certificates API
+  slug: oracle-certificates-api
+- description: Certificates Service Management API
+  name: Oracle Certificates Management API
+  slug: oracle-certificatesmanagement-api
+- description: The channels API from Oracle — 6 operation(s) for channels.
+  name: Oracle Channels API
+  slug: oracle-channels-api
+- description: Cloud Account Resource.
+  name: Oracle Cloud Account Resource API
+  slug: oracle-cloudaccountresource-api
+- description: Cloud Account Resource collection.
+  name: Oracle Cloud Accounts Resource API
+  slug: oracle-cloudaccountsresource-api
+- description: The cloudGuard API from Oracle — 101 operation(s) for cloudguard.
+  name: Oracle Cloud Guard API
+  slug: oracle-cloudguard-api
+- description: The cluster API from Oracle — 2 operation(s) for cluster.
+  name: Oracle Cluster API
+  slug: oracle-cluster-api
+- description: The ClusterPlacementGroupsCP API from Oracle — 9 operation(s) for clusterplacementgroupscp.
+  name: Oracle Cluster Placement Groups CP API
+  slug: oracle-clusterplacementgroupscp-api
+- description: The commitment API from Oracle — 2 operation(s) for commitment.
+  name: Oracle Commitment API
+  slug: oracle-commitment-api
+- description: The common API from Oracle — 4 operation(s) for common.
+  name: Oracle Common API
+  slug: oracle-common-api
+- description: The compute API from Oracle — 82 operation(s) for compute.
+  name: Oracle Compute API
+  slug: oracle-compute-api
+- description: The computeCloudAtCustomer API from Oracle — 6 operation(s) for computecloudatcustomer.
+  name: Oracle Compute Cloud At Customer API
+  slug: oracle-computecloudatcustomer-api
+- description: The computedUsage API from Oracle — 3 operation(s) for computedusage.
+  name: Oracle Computed Usage API
+  slug: oracle-computedusage-api
+- description: The computeInstanceAgent API from Oracle — 4 operation(s) for computeinstanceagent.
+  name: Oracle Compute Instance Agent API
+  slug: oracle-computeinstanceagent-api
+- description: The computeManagement API from Oracle — 23 operation(s) for computemanagement.
+  name: Oracle Compute Management API
+  slug: oracle-computemanagement-api
+- description: The config API from Oracle — 9 operation(s) for config.
+  name: Oracle Config API
+  slug: oracle-config-api
+- description: The connectorPlugins API from Oracle — 2 operation(s) for connectorplugins.
+  name: Oracle Connector Plugins API
+  slug: oracle-connectorplugins-api
+- description: API operations for working with the container engine service.
+  name: Oracle Container Engine API
+  slug: oracle-containerengine-api
+- description: The containerInstance API from Oracle — 14 operation(s) for containerinstance.
   name: Oracle Container Instance API
-  slug: oracle-container-instance-api
-- description: OCI Container Registry extension endpoints provide compatibility and extensions for the Docker/Open Container Initiative Distribution Registry HTTP API v2. Use together with the Artifacts and Containe
+  slug: oracle-containerinstance-api
+- description: The ContainerRegistry API from Oracle — 1 operation(s) for containerregistry.
   name: Oracle Container Registry API
-  slug: oracle-container-registry-api
-- description: API for the Kubernetes Engine service (also known as the Container Engine for Kubernetes service). Use this API to build, deploy, and manage cloud-native applications. For more information, see [Overv
-  name: Oracle Kubernetes Engine API
-  slug: oracle-kubernetes-engine-api
-- description: Use the CostAd API to manage cost monitor, cost anomaly events and subscription list. For more information, see [Cost Anomaly Detection Overview](/iaas/Content/Billing/Concepts/costanomalydetectionove
-  name: Oracle CostAd API
+  slug: oracle-containerregistry-api
+- description: The costAd API from Oracle — 9 operation(s) for costad.
+  name: Oracle Cost Ad API
   slug: oracle-costad-api
-- description: Use the Oracle Cloud Infrastructure Dashboards service API to manage dashboards in the Console. Dashboards provide an organized and customizable view of resources and their metrics in the Console. For
-  name: Oracle Dashboards API
-  slug: oracle-dashboards-api
-- description: Use the Data Catalog APIs to collect, organize, find, access, understand, enrich, and activate technical, business, and operational metadata. For more information, see [Data Catalog](https://docs.orac
-  name: Oracle Data Catalog API
-  slug: oracle-data-catalog-api
-- description: Use the Data Flow APIs to run any Apache Spark application at any scale without deploying or managing any infrastructure.
-  name: Oracle Data Flow API
-  slug: oracle-data-flow-api
-- description: Use the Data Integration API to organize your data integration projects, create data flows, pipelines and tasks, and then publish, schedule, and run tasks that extract, transform, and load data. For m
-  name: Oracle Data Integration API
-  slug: oracle-data-integration-api
-- description: APIs for using Oracle Data Safe.
-  name: Oracle Data Safe API
-  slug: oracle-data-safe-api
-- description: Use the Data Science API to organize your data science work, access data and computing resources, and build, train, deploy and manage models and model deployments. For more information, see [Data Scie
-  name: Oracle Data Science API
-  slug: oracle-data-science-api
-- description: Use the Database Management API to monitor and manage resources such as Oracle Databases, MySQL Databases, and External Database Systems. For more information, see [Database Management](/iaas/database
-  name: Oracle Database Management API
-  slug: oracle-database-management-api
-- description: Use the Oracle Cloud Infrastructure Database Migration APIs to perform database migration operations.
+- description: The dashboard API from Oracle — 3 operation(s) for dashboard.
+  name: Oracle Dashboard API
+  slug: oracle-dashboard-api
+- description: The dashboardGroup API from Oracle — 3 operation(s) for dashboardgroup.
+  name: Oracle Dashboard Group API
+  slug: oracle-dashboardgroup-api
+- description: The dashxApis API from Oracle — 12 operation(s) for dashxapis.
+  name: Oracle Dashx APIS API
+  slug: oracle-dashxapis-api
+- description: The database API from Oracle — 308 operation(s) for database.
+  name: Oracle Database API
+  slug: oracle-database-api
+- description: Use the table of contents and search tool to explore the Database Migration API.
   name: Oracle Database Migration API
-  slug: oracle-database-migration-api
-- description: '<b>Microsoft Azure:</b> <br> <b>Oracle Azure Connector Resource:</b>:&nbsp;&nbsp;The Oracle Azure Connector Resource is used to install the Azure Arc Server on an Exadata VM cluster in Oracle Exadata '
-  name: Oracle Database MultiCloud Data Plane Integration
-  slug: oracle-database-multicloud-data-plane-integration
-- description: The API for the Database Service. Use this API to manage resources such as databases and DB Systems. For more information, see [Overview of the Database Service](/iaas/Content/Database/Concepts/databa
-  name: Oracle Database Service API
-  slug: oracle-database-service-api
-- description: Use the Database Tools API to manage connections, private endpoints, and work requests in the Database Tools service.
+  slug: oracle-databasemigration-api
+- description: The databaseRecovery API from Oracle — 20 operation(s) for databaserecovery.
+  name: Oracle Database Recovery API
+  slug: oracle-databaserecovery-api
+- description: The databaseTools API from Oracle — 46 operation(s) for databasetools.
   name: Oracle Database Tools API
-  slug: oracle-database-tools-api
-- description: Use the Database Tools Runtime API to connect to databases through Database Tools Connections.
+  slug: oracle-databasetools-api
+- description: The databaseToolsRuntime API from Oracle — 25 operation(s) for databasetoolsruntime.
   name: Oracle Database Tools Runtime API
-  slug: oracle-database-tools-runtime-api
-- description: API for Data Infrastructure Cloud@Customer Service. Use this API to manage Data Infrastructure VM clusters, Application VMs, and related resources.
-  name: Oracle Data Infrastructure Cloud@Customer Service API
-  slug: oracle-data-infrastructure-cloudcustomer-service-api
-- description: Use Data Labeling API to create Annotations on Images, Texts & Documents, and generate snapshots.
+  slug: oracle-databasetoolsruntime-api
+- description: The dataCatalog API from Oracle — 86 operation(s) for datacatalog.
+  name: Oracle Data Catalog API
+  slug: oracle-datacatalog-api
+- description: The DataFlow API from Oracle — 26 operation(s) for dataflow.
+  name: Oracle Data Flow API
+  slug: oracle-dataflow-api
+- description: The datainfracc API from Oracle — 32 operation(s) for datainfracc.
+  name: Oracle Datainfracc API
+  slug: oracle-datainfracc-api
+- description: The DataIntegration API from Oracle — 85 operation(s) for dataintegration.
+  name: Oracle Data Integration API
+  slug: oracle-dataintegration-api
+- description: The dataLabeling API from Oracle — 9 operation(s) for datalabeling.
   name: Oracle Data Labeling API
-  slug: oracle-data-labeling-api
-- description: Use Data Labeling Management API to create, list, edit & delete datasets.
+  slug: oracle-datalabeling-api
+- description: The dataLabelingManagement API from Oracle — 13 operation(s) for datalabelingmanagement.
   name: Oracle Data Labeling Management API
-  slug: oracle-data-labeling-management-api
-- description: Oracle Delegate Access Control allows customers of Oracle Exadata Database Service on Cloud@Customer (ExaDB-C@C) and Oracle Exadata Database Service on Dedicated Infrastructure (ExaDB-D) to delegate m
+  slug: oracle-datalabelingmanagement-api
+- description: The dataMaskingActivity API from Oracle — 2 operation(s) for datamaskingactivity.
+  name: Oracle Data Masking Activity API
+  slug: oracle-datamaskingactivity-api
+- description: The dataplane API from Oracle — 2 operation(s) for dataplane.
+  name: Oracle Dataplane API
+  slug: oracle-dataplane-api
+- description: The dataSafe API from Oracle — 258 operation(s) for datasafe.
+  name: Oracle Data Safe API
+  slug: oracle-datasafe-api
+- description: The dataScience API from Oracle — 99 operation(s) for datascience.
+  name: Oracle Data Science API
+  slug: oracle-datascience-api
+- description: The datastore API from Oracle — 4 operation(s) for datastore.
+  name: Oracle Datastore API
+  slug: oracle-datastore-api
+- description: The datastoreCluster API from Oracle — 9 operation(s) for datastorecluster.
+  name: Oracle Datastore Cluster API
+  slug: oracle-datastorecluster-api
+- description: The dbBackups API from Oracle — 7 operation(s) for dbbackups.
+  name: Oracle Db Backups API
+  slug: oracle-dbbackups-api
+- description: The dbManagement API from Oracle — 231 operation(s) for dbmanagement.
+  name: Oracle Db Management API
+  slug: oracle-dbmanagement-api
+- description: The DbMulticloudAwsProvider API from Oracle — 9 operation(s) for dbmulticloudawsprovider.
+  name: Oracle Db Multicloud Aws Provider API
+  slug: oracle-dbmulticloudawsprovider-api
+- description: The DbMulticloudGCPProvider API from Oracle — 11 operation(s) for dbmulticloudgcpprovider.
+  name: Oracle Db Multicloud GCP Provider API
+  slug: oracle-dbmulticloudgcpprovider-api
+- description: The dbSystem API from Oracle — 16 operation(s) for dbsystem.
+  name: Oracle Db System API
+  slug: oracle-dbsystem-api
+- description: The delegateAccessControl API from Oracle — 20 operation(s) for delegateaccesscontrol.
   name: Oracle Delegate Access Control API
-  slug: oracle-delegate-access-control-api
-- description: 'Use the DevOps API to create DevOps projects, configure code repositories, add artifacts to deploy, build and test software applications, configure target deployment environments, and deploy software '
-  name: Oracle DevOps API
+  slug: oracle-delegateaccesscontrol-api
+- description: The demandSignal API from Oracle — 7 operation(s) for demandsignal.
+  name: Oracle Demand Signal API
+  slug: oracle-demandsignal-api
+- description: The deployment API from Oracle — 5 operation(s) for deployment.
+  name: Oracle Deployment API
+  slug: oracle-deployment-api
+- description: The desktopService API from Oracle — 15 operation(s) for desktopservice.
+  name: Oracle Desktop Service API
+  slug: oracle-desktopservice-api
+- description: The devops API from Oracle — 91 operation(s) for devops.
+  name: Oracle Devops API
   slug: oracle-devops-api
-- description: API to create and maintain Oracle Digital Assistant service instances.
-  name: Oracle Digital Assistant Service Instance API
-  slug: oracle-digital-assistant-service-instance-api
-- description: Use the Full Stack Disaster Recovery (DR) API to manage disaster recovery for business applications. Full Stack DR is an OCI disaster recovery orchestration and management service that provides compre
-  name: Oracle Full Stack Disaster Recovery API
-  slug: oracle-full-stack-disaster-recovery-api
-- description: Media Services (includes Media Flow and Media Streams) is a fully managed service for processing media (video) source content. Use Media Flow and Media Streams to transcode and package digital video u
-  name: Oracle Media Services API
-  slug: oracle-media-services-api
-- description: API for the DNS service. Use this API to manage DNS zones, records, and other DNS resources. For more information, see [Overview of the DNS Service](/iaas/Content/DNS/Concepts/dnszonemanagement.htm).
-  name: Oracle DNS API
+- description: The diagnosability API from Oracle — 4 operation(s) for diagnosability.
+  name: Oracle Diagnosability API
+  slug: oracle-diagnosability-api
+- description: The disasterRecovery API from Oracle — 23 operation(s) for disasterrecovery.
+  name: Oracle Disaster Recovery API
+  slug: oracle-disasterrecovery-api
+- description: The discovery API from Oracle — 8 operation(s) for discovery.
+  name: Oracle Discovery API
+  slug: oracle-discovery-api
+- description: The DistributedAutonomousDbService API from Oracle — 20 operation(s) for distributedautonomousdbservice.
+  name: Oracle Distributed Autonomous Db Service API
+  slug: oracle-distributedautonomousdbservice-api
+- description: The DistributedDbPrivateEndpointService API from Oracle — 4 operation(s) for distributeddbprivateendpointservice.
+  name: Oracle Distributed Db Private Endpoint Service API
+  slug: oracle-distributeddbprivateendpointservice-api
+- description: The DistributedDbService API from Oracle — 18 operation(s) for distributeddbservice.
+  name: Oracle Distributed Db Service API
+  slug: oracle-distributeddbservice-api
+- description: The DistributedDbWorkRequestService API from Oracle — 4 operation(s) for distributeddbworkrequestservice.
+  name: Oracle Distributed Db Work Request Service API
+  slug: oracle-distributeddbworkrequestservice-api
+- description: The ${dkim-tag} API from Oracle — 2 operation(s) for ${dkim-tag}.
+  name: Oracle ${dkim Tag} API
+  slug: oracle-dkim-tag-api
+- description: The dns API from Oracle — 27 operation(s) for dns.
+  name: Oracle Dns API
   slug: oracle-dns-api
-- description: Document AI helps customers perform various analysis on their documents. If a customer has lots of documents, they can process them in batch using asynchronous API endpoints.
-  name: Oracle Document Understanding API
-  slug: oracle-document-understanding-api
-- description: Use the Exadata Fleet Update service to patch large collections of components directly, as a single entity, orchestrating the maintenance actions to update all chosen components in the stack in a sing
-  name: Oracle Exadata Fleet Update service API
-  slug: oracle-exadata-fleet-update-service-api
-- description: Use the Email Delivery API to do the necessary set up to send high-volume and application-generated emails through the OCI Email Delivery service. For more information, see [Overview of the Email Deli
-  name: Oracle Email Delivery API
-  slug: oracle-email-delivery-api
-- description: Use the Email Delivery API to send high-volume and application-generated emails. For more information, see [Overview of the Email Delivery Service](/iaas/Content/Email/Concepts/overview.htm).
-  name: Oracle Email Delivery Submission API
-  slug: oracle-email-delivery-submission-api
-- description: API for the Events Service. Use this API to manage rules and actions that create automation in your tenancy. For more information, see [Overview of Events](/iaas/Content/Events/Concepts/eventsoverview
+- description: The documentgenerator API from Oracle — 1 operation(s) for documentgenerator.
+  name: Oracle Documentgenerator API
+  slug: oracle-documentgenerator-api
+- description: The domain API from Oracle — 2 operation(s) for domain.
+  name: Oracle Domain API
+  slug: oracle-domain-api
+- description: The domainGovernance API from Oracle — 2 operation(s) for domaingovernance.
+  name: Oracle Domain Governance API
+  slug: oracle-domaingovernance-api
+- description: The dynamicSet API from Oracle — 9 operation(s) for dynamicset.
+  name: Oracle Dynamic Set API
+  slug: oracle-dynamicset-api
+- description: The Ekm API from Oracle — 2 operation(s) for ekm.
+  name: Oracle Ekm API
+  slug: oracle-ekm-api
+- description: The ${email-configuration-tag} API from Oracle — 1 operation(s) for ${email-configuration-tag}.
+  name: Oracle ${email Configuration Tag} API
+  slug: oracle-email-configuration-tag-api
+- description: The ${email-domain-tag} API from Oracle — 5 operation(s) for ${email-domain-tag}.
+  name: Oracle ${email Domain Tag} API
+  slug: oracle-email-domain-tag-api
+- description: The ${email-ippool-tag} API from Oracle — 8 operation(s) for ${email-ippool-tag}.
+  name: Oracle ${email Ippool Tag} API
+  slug: oracle-email-ippool-tag-api
+- description: The ${email-return-path-tag} API from Oracle — 4 operation(s) for ${email-return-path-tag}.
+  name: Oracle ${email Return Path Tag} API
+  slug: oracle-email-return-path-tag-api
+- description: The esxiHost API from Oracle — 8 operation(s) for esxihost.
+  name: Oracle Esxi Host API
+  slug: oracle-esxihost-api
+- description: The event API from Oracle — 5 operation(s) for event.
+  name: Oracle Event API
+  slug: oracle-event-api
+- description: The events API from Oracle — 3 operation(s) for events.
   name: Oracle Events API
   slug: oracle-events-api
-- description: Use the File Storage service API to manage file systems, mount targets, and snapshots. For more information, see [Overview of File Storage](/iaas/Content/File/Concepts/filestorageoverview.htm).
+- description: The fileStorage API from Oracle — 48 operation(s) for filestorage.
   name: Oracle File Storage API
-  slug: oracle-file-storage-api
-- description: Fleet Application Management provides a centralized platform to help you automate resource management tasks, validate patch compliance, and enhance operational efficiency across an enterprise.
-  name: Oracle Fleet Application Management Service API
-  slug: oracle-fleet-application-management-service-api
-- description: API for the Functions service.
-  name: Oracle Functions Service API
-  slug: oracle-functions-service-api
-- description: The Document Generator allows to merge JSON Data and Office Templates to produce documents. For the endpoints, see invokeEndpoint in the [Function Reference](/iaas/api/#/en/functions/20181201/Function
-  name: Oracle Pre-Built Function Document Generator API
-  slug: oracle-pre-built-function-document-generator-api
-- description: Use the Fusion Applications Environment Management API to manage the environments where your Fusion Applications run. For more information, see the [Fusion Applications Environment Management document
-  name: Oracle Fusion Applications Environment Management API
-  slug: oracle-fusion-applications-environment-management-api
-- description: OCI Generative AI Agents is a fully managed service that combines the power of large language models (LLMs) with an intelligent retrieval system to create contextually relevant answers by searching yo
-  name: Oracle Generative AI Agents Client API
-  slug: oracle-generative-ai-agents-client-api
-- description: OCI Generative AI Agents is a fully managed service that combines the power of large language models (LLMs) with an intelligent retrieval system to create contextually relevant answers by searching yo
-  name: Oracle Generative AI Agents Management API
-  slug: oracle-generative-ai-agents-management-api
-- description: OCI Generative AI is a fully managed service that provides a set of state-of-the-art, customizable large language models (LLMs) that cover a wide range of use cases for text generation, summarization,
-  name: Oracle Generative AI Service Inference API
-  slug: oracle-generative-ai-service-inference-api
-- description: A description of the ReferenceService API. in progress
-  name: Oracle Generative AI Service NL2SQL API
-  slug: oracle-generative-ai-service-nl2sql-api
-- description: OCI Generative AI is a fully managed service that provides a set of state-of-the-art, customizable large language models (LLMs) that cover a wide range of use cases for text generation, summarization,
-  name: Oracle Generative AI Service Management API
-  slug: oracle-generative-ai-service-management-api
-- description: Use the Generic Artifacts Content API to upload non-container generic artifacts or blobs to an artifact [repository](#/en/registry/latest/Repository). - To upload container images such as Docker image
+  slug: oracle-filestorage-api
+- description: The fleetAppsManagement API from Oracle — 21 operation(s) for fleetappsmanagement.
+  name: Oracle Fleet Apps Management API
+  slug: oracle-fleetappsmanagement-api
+- description: The fleetAppsManagementAdmin API from Oracle — 15 operation(s) for fleetappsmanagementadmin.
+  name: Oracle Fleet Apps Management Admin API
+  slug: oracle-fleetappsmanagementadmin-api
+- description: The fleetAppsManagementCatalog API from Oracle — 6 operation(s) for fleetappsmanagementcatalog.
+  name: Oracle Fleet Apps Management Catalog API
+  slug: oracle-fleetappsmanagementcatalog-api
+- description: The fleetAppsManagementMaintenanceWindow API from Oracle — 2 operation(s) for fleetappsmanagementmaintenancewindow.
+  name: Oracle Fleet Apps Management Maintenance Window API
+  slug: oracle-fleetappsmanagementmaintenancewindow-api
+- description: The fleetAppsManagementOperations API from Oracle — 27 operation(s) for fleetappsmanagementoperations.
+  name: Oracle Fleet Apps Management Operations API
+  slug: oracle-fleetappsmanagementoperations-api
+- description: The fleetAppsManagementProvision API from Oracle — 3 operation(s) for fleetappsmanagementprovision.
+  name: Oracle Fleet Apps Management Provision API
+  slug: oracle-fleetappsmanagementprovision-api
+- description: The fleetAppsManagementRunbooks API from Oracle — 21 operation(s) for fleetappsmanagementrunbooks.
+  name: Oracle Fleet Apps Management Runbooks API
+  slug: oracle-fleetappsmanagementrunbooks-api
+- description: The fleetAppsManagementWorkRequest API from Oracle — 4 operation(s) for fleetappsmanagementworkrequest.
+  name: Oracle Fleet Apps Management Work Request API
+  slug: oracle-fleetappsmanagementworkrequest-api
+- description: Use the table of contents and search tool to explore the Exadata Fleet Update API.
+  name: Oracle Fleet Software Update API
+  slug: oracle-fleetsoftwareupdate-api
+- description: The functionsInvoke API from Oracle — 1 operation(s) for functionsinvoke.
+  name: Oracle Functions Invoke API
+  slug: oracle-functionsinvoke-api
+- description: The functionsManagement API from Oracle — 10 operation(s) for functionsmanagement.
+  name: Oracle Functions Management API
+  slug: oracle-functionsmanagement-api
+- description: The fusionEnvironment API from Oracle — 13 operation(s) for fusionenvironment.
+  name: Oracle Fusion Environment API
+  slug: oracle-fusionenvironment-api
+- description: The fusionEnvironmentFamily API from Oracle — 5 operation(s) for fusionenvironmentfamily.
+  name: Oracle Fusion Environment Family API
+  slug: oracle-fusionenvironmentfamily-api
+- description: The gateway API from Oracle — 5 operation(s) for gateway.
+  name: Oracle Gateway API
+  slug: oracle-gateway-api
+- description: The generateEnrichmentJob API from Oracle — 1 operation(s) for generateenrichmentjob.
+  name: Oracle Generate Enrichment Job API
+  slug: oracle-generateenrichmentjob-api
+- description: The generateSqlFromNlJob API from Oracle — 1 operation(s) for generatesqlfromnljob.
+  name: Oracle Generate Sql From Nl Job API
+  slug: oracle-generatesqlfromnljob-api
+- description: The GenerativeAi API from Oracle — 50 operation(s) for generativeai.
+  name: Oracle Generative AI API
+  slug: oracle-generativeai-api
+- description: The generativeAiAgent API from Oracle — 23 operation(s) for generativeaiagent.
+  name: Oracle Generative AI Agent API
+  slug: oracle-generativeaiagent-api
+- description: The generativeAiAgentRuntime API from Oracle — 4 operation(s) for generativeaiagentruntime.
+  name: Oracle Generative AI Agent Runtime API
+  slug: oracle-generativeaiagentruntime-api
+- description: The GenerativeAiInference API from Oracle — 7 operation(s) for generativeaiinference.
+  name: Oracle Generative AI Inference API
+  slug: oracle-generativeaiinference-api
+- description: The genericArtifactsContent API from Oracle — 2 operation(s) for genericartifactscontent.
   name: Oracle Generic Artifacts Content API
-  slug: oracle-generic-artifacts-content-api
-- description: Use the Globally Distributed Database service APIs to create and manage the Globally distributed databases.
-  name: Oracle Globally Distributed Database
-  slug: oracle-globally-distributed-database
-- description: Use the Oracle Cloud Infrastructure GoldenGate APIs to perform data replication operations.
-  name: Oracle GoldenGate API
+  slug: oracle-genericartifactscontent-api
+- description: The getEnrichmentJob API from Oracle — 1 operation(s) for getenrichmentjob.
+  name: Oracle Get Enrichment Job API
+  slug: oracle-getenrichmentjob-api
+- description: The goldenGate API from Oracle — 79 operation(s) for goldengate.
+  name: Oracle Golden Gate API
   slug: oracle-goldengate-api
-- description: Use the Health Checks API to manage endpoint probes and monitors. For more information, see [the Health Checks documentation](/iaas/Content/HealthChecks/home.htm).
+- description: The governance API from Oracle — 2 operation(s) for governance.
+  name: Oracle Governance API
+  slug: oracle-governance-api
+- description: The greetings API from Oracle — 2 operation(s) for greetings.
+  name: Oracle Greetings API
+  slug: oracle-greetings-api
+- description: The healthChecks API from Oracle — 11 operation(s) for healthchecks.
   name: Oracle Health Checks API
-  slug: oracle-health-checks-api
-- description: Use the Core Services API to manage resources such as virtual cloud networks (VCNs), compute instances, and block storage volumes. For more information, see the console documentation for the [Networki
-  name: Oracle Core Services API
-  slug: oracle-core-services-api
-- description: Use the Identity Domains API to manage resources within an identity domain, for example, users, dynamic resource groups, groups, and identity providers. For information about managing resources within
+  slug: oracle-healthchecks-api
+- description: The identity API from Oracle — 93 operation(s) for identity.
+  name: Oracle Identity API
+  slug: oracle-identity-api
+- description: The identityDomains API from Oracle — 168 operation(s) for identitydomains.
   name: Oracle Identity Domains API
-  slug: oracle-identity-domains-api
-- description: 'APIs for managing identity data plane services. For example, use these APIs to create a scoped-access security token or a user principal session token (UPST). To manage identity domains (for example, '
-  name: Oracle Identity and Access Management Data Plane API
-  slug: oracle-identity-and-access-management-data-plane-api
-- description: Use the Identity and Access Management Service API to manage users, groups, identity domains, compartments, policies, tagging, and limits. For information about managing users, groups, compartments, a
-  name: Oracle Identity and Access Management Service API
-  slug: oracle-identity-and-access-management-service-api
-- description: 'Use the Support Management API to manage support requests. For more information, see [Getting Help and Contacting Support](/iaas/Content/GSG/Tasks/contactingsupport.htm). **Note**: Before you can crea'
-  name: Oracle Support Management API
-  slug: oracle-support-management-api
-- description: API for the Oracle Cloud Agent software running on compute instances. Oracle Cloud Agent is a lightweight process that monitors and manages compute instances.
-  name: Oracle Cloud Agent API
-  slug: oracle-cloud-agent-api
-- description: Oracle Integration API.
-  name: Oracle Integration API
-  slug: oracle-integration-api
-- description: Use the Internet of Things (IoT) API to manage IoT domain groups, domains, and digital twin resources including models, adapters, instances, and relationships. For more information, see [Internet of T
-  name: Oracle Internet of Things API
-  slug: oracle-internet-of-things-api
-- description: <p>Oracle Cloud My Services API is an Internet facing service that allows customers to access the Oracle Cloud</p>
-  name: Oracle Cloud My Services API
-  slug: oracle-cloud-my-services-api
-- description: The APIs for the [Java Download](https://docs.oracle.com/en-us/iaas/jms/doc/java-download.html) feature of Java Management Service.
-  name: Oracle Java Management Service Java Download API
-  slug: oracle-java-management-service-java-download-api
-- description: The APIs for the [Fleet Management](https://docs.oracle.com/en-us/iaas/jms/doc/fleet-management.html) feature of Java Management Service to monitor and manage the usage of Java in your enterprise. Use
-  name: Oracle Java Management Service Fleets API
-  slug: oracle-java-management-service-fleets-api
-- description: The APIs for Analyze Applications and other utilities of Java Management Service.
-  name: Oracle Java Management Service Utilities API
-  slug: oracle-java-management-service-utilities-api
-- description: Use Oracle Streaming with Apache Kafka Control Plane API to create/update/delete managed Kafka clusters.
-  name: Oracle Streaming with Apache Kafka (OSAK) API
-  slug: oracle-streaming-with-apache-kafka-osak-api
-- description: Use the Key Management API to manage vaults and keys. For more information, see [Managing Vaults](/Content/KeyManagement/Tasks/managingvaults.htm) and [Managing Keys](/Content/KeyManagement/Tasks/mana
-  name: Oracle Vault Key Management API
-  slug: oracle-vault-key-management-api
-- description: OCI Language Service solutions can help enterprise customers integrate AI into their products immediately using our proven, pre-trained and custom models or containers, without a need to set up an hou
-  name: Oracle Language API
-  slug: oracle-language-api
-- description: Use the License Manager API to manage product licenses and license records. For more information, see [License Manager Overview](/iaas/Content/LicenseManager/Concepts/licensemanageroverview.htm).
+  slug: oracle-identitydomains-api
+- description: The Incident API from Oracle — 5 operation(s) for incident.
+  name: Oracle Incident API
+  slug: oracle-incident-api
+- description: The integrationInstance API from Oracle — 19 operation(s) for integrationinstance.
+  name: Oracle Integration Instance API
+  slug: oracle-integrationinstance-api
+- description: The inventory API from Oracle — 10 operation(s) for inventory.
+  name: Oracle Inventory API
+  slug: oracle-inventory-api
+- description: The invoiceSummary API from Oracle — 2 operation(s) for invoicesummary.
+  name: Oracle Invoice Summary API
+  slug: oracle-invoicesummary-api
+- description: The iot API from Oracle — 24 operation(s) for iot.
+  name: Oracle Iot API
+  slug: oracle-iot-api
+- description: Endpoints related to the Java Management Service Download feature
+  name: Oracle Java Download API
+  slug: oracle-javadownload-api
+- description: Endpoints related to the Java Management Service
+  name: Oracle Java Management Service API
+  slug: oracle-javamanagementservice-api
+- description: The jmsUtils API from Oracle — 13 operation(s) for jmsutils.
+  name: Oracle Jms Utils API
+  slug: oracle-jmsutils-api
+- description: The kafkaCluster API from Oracle — 18 operation(s) for kafkacluster.
+  name: Oracle Kafka Cluster API
+  slug: oracle-kafkacluster-api
+- description: The kmsCrypto API from Oracle — 6 operation(s) for kmscrypto.
+  name: Oracle Kms Crypto API
+  slug: oracle-kmscrypto-api
+- description: The kmsHsmCluster API from Oracle — 10 operation(s) for kmshsmcluster.
+  name: Oracle Kms Hsm Cluster API
+  slug: oracle-kmshsmcluster-api
+- description: The kmsManagement API from Oracle — 18 operation(s) for kmsmanagement.
+  name: Oracle Kms Management API
+  slug: oracle-kmsmanagement-api
+- description: The KmsVault API from Oracle — 12 operation(s) for kmsvault.
+  name: Oracle Kms Vault API
+  slug: oracle-kmsvault-api
+- description: The LicenseManager API from Oracle — 11 operation(s) for licensemanager.
   name: Oracle License Manager API
-  slug: oracle-license-manager-api
-- description: Use the Limits Increase API to work with limit increase requests. For more information, see [Working with Limit Increase Requests](/iaas/Content/General/service-limits/requests.htm).
+  slug: oracle-licensemanager-api
+- description: The lifecycleEnvironment API from Oracle — 10 operation(s) for lifecycleenvironment.
+  name: Oracle Lifecycle Environment API
+  slug: oracle-lifecycleenvironment-api
+- description: The limits API from Oracle — 4 operation(s) for limits.
+  name: Oracle Limits API
+  slug: oracle-limits-api
+- description: The LimitsIncrease API from Oracle — 7 operation(s) for limitsincrease.
   name: Oracle Limits Increase API
-  slug: oracle-limits-increase-api
-- description: APIs that interact with the resource limits of a specific resource type.
-  name: Oracle Service Limits APIs
-  slug: oracle-service-limits-apis
-- description: API for the Load Balancing service. Use this API to manage load balancers, backend sets, and related items. For more information, see [Overview of Load Balancing](/iaas/Content/Balance/Concepts/balanc
-  name: Oracle Load Balancing API
-  slug: oracle-load-balancing-api
-- description: The LogAnalytics API for the LogAnalytics service.
-  name: Oracle LogAnalytics API
+  slug: oracle-limitsincrease-api
+- description: The link API from Oracle — 3 operation(s) for link.
+  name: Oracle Link API
+  slug: oracle-link-api
+- description: The linkFeatures API from Oracle — 1 operation(s) for linkfeatures.
+  name: Oracle Link Features API
+  slug: oracle-linkfeatures-api
+- description: The listEnrichmentJobs API from Oracle — 1 operation(s) for listenrichmentjobs.
+  name: Oracle List Enrichment Jobs API
+  slug: oracle-listenrichmentjobs-api
+- description: The loadBalancer API from Oracle — 34 operation(s) for loadbalancer.
+  name: Oracle Load Balancer API
+  slug: oracle-loadbalancer-api
+- description: The lockbox API from Oracle — 5 operation(s) for lockbox.
+  name: Oracle Lockbox API
+  slug: oracle-lockbox-api
+- description: The lockboxAccessContextAttribute API from Oracle — 2 operation(s) for lockboxaccesscontextattribute.
+  name: Oracle Lockbox Access Context Attribute API
+  slug: oracle-lockboxaccesscontextattribute-api
+- description: The logAnalytics API from Oracle — 169 operation(s) for loganalytics.
+  name: Oracle Log Analytics API
   slug: oracle-loganalytics-api
-- description: Use the Logging Ingestion API to ingest your application logs. For more information, see [Logging Overview](/iaas/Content/Logging/Concepts/loggingoverview.htm).
-  name: Oracle Logging Ingestion API
-  slug: oracle-logging-ingestion-api
-- description: Use the Logging Management API to create, read, list, update, move and delete log groups, log objects, log saved searches, and agent configurations. For more information, see [Logging Overview](/iaas/
+- description: The Logging API from Oracle — 1 operation(s) for logging.
+  name: Oracle Logging API
+  slug: oracle-logging-api
+- description: The loggingManagement API from Oracle — 17 operation(s) for loggingmanagement.
   name: Oracle Logging Management API
-  slug: oracle-logging-management-api
-- description: Use the Logging Search API to search for logs in your compartments, log groups, and log objects. For more information, see [Logging Overview](/iaas/Content/Logging/Concepts/loggingoverview.htm).
-  name: Oracle Logging Search API
-  slug: oracle-logging-search-api
-- description: Use the File Storage with Lustre API to manage Lustre file systems and related resources. For more information, see [File Storage with Lustre](/iaas/Content/lustre/home.htm).
-  name: Oracle File Storage with Lustre API
-  slug: oracle-file-storage-with-lustre-api
-- description: Use the Managed Access API to approve access requests, create and manage templates, and manage resource approval settings. For more information, see [Managed Access Overview](https://docs.oracle.com/i
-  name: Oracle Managed Access API
-  slug: oracle-managed-access-api
-- description: Use the Management Agent API to manage your infrastructure's management agents, including their plugins and install keys. For more information, see [Management Agent](https://docs.cloud.oracle.com/iaa
+  slug: oracle-loggingmanagement-api
+- description: The logSearch API from Oracle — 1 operation(s) for logsearch.
+  name: Oracle Log Search API
+  slug: oracle-logsearch-api
+- description: The lustreFileStorage API from Oracle — 19 operation(s) for lustrefilestorage.
+  name: Oracle Lustre File Storage API
+  slug: oracle-lustrefilestorage-api
+- description: The macDevice API from Oracle — 3 operation(s) for macdevice.
+  name: Oracle Mac Device API
+  slug: oracle-macdevice-api
+- description: The macOrder API from Oracle — 7 operation(s) for macorder.
+  name: Oracle Mac Order API
+  slug: oracle-macorder-api
+- description: The managedInstance API from Oracle — 35 operation(s) for managedinstance.
+  name: Oracle Managed Instance API
+  slug: oracle-managedinstance-api
+- description: The managedInstanceGroup API from Oracle — 25 operation(s) for managedinstancegroup.
+  name: Oracle Managed Instance Group API
+  slug: oracle-managedinstancegroup-api
+- description: The managedMySqlDatabases API from Oracle — 15 operation(s) for managedmysqldatabases.
+  name: Oracle Managed My Sql Databases API
+  slug: oracle-managedmysqldatabases-api
+- description: The management API from Oracle — 23 operation(s) for management.
+  name: Oracle Management API
+  slug: oracle-management-api
+- description: The managementAgent API from Oracle — 22 operation(s) for managementagent.
   name: Oracle Management Agent API
-  slug: oracle-management-agent-api
-- description: Use the Management Dashboards API for dashboard and saved search metadata preservation and to perform tasks such as creating a dashboard, creating a saved search, and obtaining a list of dashboards an
-  name: Oracle ManagementDashboard API
-  slug: oracle-managementdashboard-api
-- description: Use the Marketplace API to manage applications in Oracle Cloud Infrastructure Marketplace. For more information, see [Overview of Marketplace](/Content/Marketplace/Concepts/marketoverview.htm)
-  name: Oracle Marketplace Service API
-  slug: oracle-marketplace-service-api
-- description: Use the OCI Managed Services for Mac API to create and manage orders for dedicated, partially-managed Mac servers hosted in an OCI Data Center. To learn more about the service, see the [OCI Managed Se
-  name: Oracle OCI Managed Services for Mac API
-  slug: oracle-oci-managed-services-for-mac-api
-- description: Use the Monitoring API to manage metric queries and alarms for assessing the health, capacity, and performance of your cloud resources. Endpoints vary by operation. For PostMetricData, use the `teleme
+  slug: oracle-managementagent-api
+- description: The managementAppliance API from Oracle — 2 operation(s) for managementappliance.
+  name: Oracle Management Appliance API
+  slug: oracle-managementappliance-api
+- description: The managementStation API from Oracle — 7 operation(s) for managementstation.
+  name: Oracle Management Station API
+  slug: oracle-managementstation-api
+- description: The Marketplace API from Oracle — 21 operation(s) for marketplace.
+  name: Oracle Marketplace API
+  slug: oracle-marketplace-api
+- description: The MarketplacePublisher API from Oracle — 57 operation(s) for marketplacepublisher.
+  name: Oracle Marketplace Publisher API
+  slug: oracle-marketplacepublisher-api
+- description: The mediaServices API from Oracle — 38 operation(s) for mediaservices.
+  name: Oracle Media Services API
+  slug: oracle-mediaservices-api
+- description: The mediaStream API from Oracle — 2 operation(s) for mediastream.
+  name: Oracle Media Stream API
+  slug: oracle-mediastream-api
+- description: The metadata API from Oracle — 3 operation(s) for metadata.
+  name: Oracle Metadata API
+  slug: oracle-metadata-api
+- description: The migration API from Oracle — 27 operation(s) for migration.
+  name: Oracle Migration API
+  slug: oracle-migration-api
+- description: The monitoredRegion API from Oracle — 2 operation(s) for monitoredregion.
+  name: Oracle Monitored Region API
+  slug: oracle-monitoredregion-api
+- description: The monitoring API from Oracle — 13 operation(s) for monitoring.
   name: Oracle Monitoring API
   slug: oracle-monitoring-api
-- description: Use the Oracle Multicloud API to retrieve resource anchors and network anchors, and the metadata mappings related a Cloud Service Provider. For more information, see [Oracle Multicloud Hub](/iaas/Cont
-  name: Oracle Multicloud API
-  slug: oracle-multicloud-api
-- description: The API for the MySQL Database Service
-  name: Oracle MySQL Database Service API
-  slug: oracle-mysql-database-service-api
-- description: Use the Network Monitoring API to troubleshoot routing and security issues for resources such as virtual cloud networks (VCNs) and compute instances. For more information, see the console documentatio
-  name: Oracle Network Monitoring API
-  slug: oracle-network-monitoring-api
-- description: Use the Network Firewall API to create network firewalls and configure policies that regulates network traffic in and across VCNs. For more information, see [Overview of Network Firewall](/iaas/Conten
+- description: The MultiCloudResourceDiscovery API from Oracle — 3 operation(s) for multicloudresourcediscovery.
+  name: Oracle Multi Cloud Resource Discovery API
+  slug: oracle-multicloudresourcediscovery-api
+- description: The multicloudResources API from Oracle — 1 operation(s) for multicloudresources.
+  name: Oracle Multicloud Resources API
+  slug: oracle-multicloudresources-api
+- description: The multiCloudsMetadata API from Oracle — 2 operation(s) for multicloudsmetadata.
+  name: Oracle Multi Clouds Metadata API
+  slug: oracle-multicloudsmetadata-api
+- description: The multicloudsubscriptions API from Oracle — 1 operation(s) for multicloudsubscriptions.
+  name: Oracle Multicloudsubscriptions API
+  slug: oracle-multicloudsubscriptions-api
+- description: The mysqlaas API from Oracle — 4 operation(s) for mysqlaas.
+  name: Oracle Mysqlaas API
+  slug: oracle-mysqlaas-api
+- description: The networkFirewall API from Oracle — 50 operation(s) for networkfirewall.
   name: Oracle Network Firewall API
-  slug: oracle-network-firewall-api
-- description: Use the Network Firewall API to create network firewalls and configure policies that regulates network traffic in and across VCNs. For more information, see [Overview of Network Firewall](/iaas/Conten
-  name: Oracle Network Firewall API
-  slug: oracle-network-firewall-api
-- description: This describes the network load balancer API.
-  name: Oracle NetworkLoadBalancer API
+  slug: oracle-networkfirewall-api
+- description: The networkLoadBalancer API from Oracle — 22 operation(s) for networkloadbalancer.
+  name: Oracle Network Load Balancer API
   slug: oracle-networkloadbalancer-api
-- description: The control plane API for NoSQL Database Cloud Service HTTPS provides endpoints to perform NDCS operations, including creation and deletion of tables and indexes; population and access of data in tabl
-  name: Oracle NoSQL Database API
-  slug: oracle-nosql-database-api
-- description: Use the Notifications API to broadcast messages to distributed components by topic, using a publish-subscribe pattern. For information about managing topics, subscriptions, and messages, see [the Noti
-  name: Oracle Notifications API
-  slug: oracle-notifications-api
-- description: Use Object Storage and Archive Storage APIs to manage buckets, objects, and related resources. For more information, see [Overview of Object Storage](/Content/Object/Concepts/objectstorageoverview.htm
-  name: Oracle Object Storage Service API
-  slug: oracle-object-storage-service-api
-- description: API for Oracle Cloud Bridge service.
-  name: Oracle Cloud Bridge API
-  slug: oracle-cloud-bridge-api
-- description: OCI Control Center (OCC) service enables you to monitor the region-level cloud consumption and provides the region-level capacity data, in realms where OCC is available. Use the OCI Control Center (OC
-  name: Oracle OCI Control Center API
-  slug: oracle-oci-control-center-api
-- description: Use the OCI Control Center Demand Signal API to manage Demand Signals.
-  name: Oracle OCI Control Center Demand Signal API
-  slug: oracle-oci-control-center-demand-signal-api
-- description: OCI Control Center (OCC) Capacity Management enables you to manage capacity requests in realms where OCI Control Center Capacity Management is available. For more information, see [OCI Control Center]
-  name: Oracle OCI Control Center Capacity Management API
-  slug: oracle-oci-control-center-capacity-management-api
-- description: Use the OCI Cache API to create and manage clusters. A cluster is a memory-based storage solution. For more information, see [OCI Cache](/iaas/Content/ocicache/home.htm).
-  name: Oracle OCI Cache API
-  slug: oracle-oci-cache-api
-- description: A description of the Oracle Cloud Migrations API.
-  name: Oracle Cloud Migrations API
-  slug: oracle-cloud-migrations-api
-- description: Process Automation helps you to rapidly design, automate, and manage business processes in the cloud. With the Process Automation design-time (Designer) and the runtime (Workspace) environments, you c
-  name: Oracle Process Automation
-  slug: oracle-process-automation
-- description: The OpenSearch service API provides access to OCI Search Service with OpenSearch.
-  name: Oracle OpenSearch Service API
-  slug: oracle-opensearch-service-api
-- description: Use the Ops Insights API to perform data extraction operations to obtain database resource utilization, performance statistics, and reference information. For more information, see [About Oracle Cloud
-  name: Oracle Ops Insights API
-  slug: oracle-ops-insights-api
-- description: Operator Access Control enables you to control the time duration and the actions an Oracle operator can perform on your Exadata Cloud@Customer infrastructure. Using logging service, you can view a nea
-  name: Oracle Operator Access Control API
-  slug: oracle-operator-access-control-api
-- description: This service is used to restrict the control plane service apis; so that everybody won't be able to access those apis. There are two main resouces defined as a part of this service 1. PrivilegedApiCon
-  name: Oracle API Access Control
-  slug: oracle-api-access-control
-- description: Use the Organizations API to consolidate multiple OCI tenancies into an organization, and centrally manage your tenancies and organization resources. For more information, see [Organization Management
-  name: Oracle Organizations API
-  slug: oracle-organizations-api
-- description: Use the Organizations API to consolidate multiple OCI tenancies into an organization, and centrally manage your tenancies and organization resources. For more information, see [Organization Management
-  name: Oracle Organizations API
-  slug: oracle-organizations-api
-- description: Use the OS Management Hub API to manage and monitor updates and patches for instances in OCI, your private data center, or 3rd-party clouds. For more information, see [Overview of OS Management Hub](h
-  name: Oracle OS Management Hub API
-  slug: oracle-os-management-hub-api
-- description: Use the OCI Database with PostgreSQL API to manage resources such as database systems, database nodes, backups, and configurations. For information, see the user guide documentation for the [service](
-  name: Oracle PGSQL Control Plane API
-  slug: oracle-pgsql-control-plane-api
-- description: 'Use the PrivateServiceAccess Control Plane API to manage Private Service Access (PSA) endpoints. PSA endpoints are used to create private access between resources in a VCN or on-premises and services '
-  name: Oracle PrivateServiceAccess Control Plane API
-  slug: oracle-privateserviceaccess-control-plane-api
-- description: Use the Marketplace Publisher API to manage the publishing of applications in Oracle Cloud Infrastructure Marketplace.
-  name: Oracle MarketplacePublisherService API
-  slug: oracle-marketplacepublisherservice-api
-- description: Use the Queue API to produce and consume messages, create queues, and manage related items. For more information, see [Queue](/iaas/Content/queue/overview.htm).
+- description: The nosql API from Oracle — 16 operation(s) for nosql.
+  name: Oracle Nosql API
+  slug: oracle-nosql-api
+- description: The notificationControlPlane API from Oracle — 13 operation(s) for notificationcontrolplane.
+  name: Oracle Notification Control Plane API
+  slug: oracle-notificationcontrolplane-api
+- description: The notificationDataPlane API from Oracle — 9 operation(s) for notificationdataplane.
+  name: Oracle Notification Data Plane API
+  slug: oracle-notificationdataplane-api
+- description: The objectStorage API from Oracle — 41 operation(s) for objectstorage.
+  name: Oracle Object Storage API
+  slug: oracle-objectstorage-api
+- description: The ocbAgentSvc API from Oracle — 13 operation(s) for ocbagentsvc.
+  name: Oracle Ocb Agent Svc API
+  slug: oracle-ocbagentsvc-api
+- description: The occDemandSignal API from Oracle — 3 operation(s) for occdemandsignal.
+  name: Oracle Occ Demand Signal API
+  slug: oracle-occdemandsignal-api
+- description: The OccMetricAlarm API from Oracle — 3 operation(s) for occmetricalarm.
+  name: Oracle Occ Metric Alarm API
+  slug: oracle-occmetricalarm-api
+- description: The occMetrics API from Oracle — 3 operation(s) for occmetrics.
+  name: Oracle Occ Metrics API
+  slug: oracle-occmetrics-api
+- description: The oceInstance API from Oracle — 7 operation(s) for oceinstance.
+  name: Oracle Oce Instance API
+  slug: oracle-oceinstance-api
+- description: The ociCacheBackup API from Oracle — 4 operation(s) for ocicachebackup.
+  name: Oracle Oci Cache Backup API
+  slug: oracle-ocicachebackup-api
+- description: The ociCacheConfigSet API from Oracle — 4 operation(s) for ocicacheconfigset.
+  name: Oracle Oci Cache Config Set API
+  slug: oracle-ocicacheconfigset-api
+- description: The ociCacheDefaultConfigSet API from Oracle — 2 operation(s) for ocicachedefaultconfigset.
+  name: Oracle Oci Cache Default Config Set API
+  slug: oracle-ocicachedefaultconfigset-api
+- description: The ociCacheUser API from Oracle — 4 operation(s) for ocicacheuser.
+  name: Oracle Oci Cache User API
+  slug: oracle-ocicacheuser-api
+- description: The oda API from Oracle — 11 operation(s) for oda.
+  name: Oracle Oda API
+  slug: oracle-oda-api
+- description: The odapackage API from Oracle — 4 operation(s) for odapackage.
+  name: Oracle Odapackage API
+  slug: oracle-odapackage-api
+- description: The omhubNetworkAnchor API from Oracle — 2 operation(s) for omhubnetworkanchor.
+  name: Oracle Omhub Network Anchor API
+  slug: oracle-omhubnetworkanchor-api
+- description: The omhubResourceAnchor API from Oracle — 2 operation(s) for omhubresourceanchor.
+  name: Oracle Omhub Resource Anchor API
+  slug: oracle-omhubresourceanchor-api
+- description: The onboarding API from Oracle — 11 operation(s) for onboarding.
+  name: Oracle Onboarding API
+  slug: oracle-onboarding-api
+- description: The opaInstance API from Oracle — 7 operation(s) for opainstance.
+  name: Oracle Opa Instance API
+  slug: oracle-opainstance-api
+- description: The opensearchCluster API from Oracle — 16 operation(s) for opensearchcluster.
+  name: Oracle Opensearch Cluster API
+  slug: oracle-opensearchcluster-api
+- description: The opensearchClusterBackup API from Oracle — 2 operation(s) for opensearchclusterbackup.
+  name: Oracle Opensearch Cluster Backup API
+  slug: oracle-opensearchclusterbackup-api
+- description: The opensearchClusterPipeline API from Oracle — 4 operation(s) for opensearchclusterpipeline.
+  name: Oracle Opensearch Cluster Pipeline API
+  slug: oracle-opensearchclusterpipeline-api
+- description: The Operation resource represents an asynchronous task to be performed by back end services.
+  name: Oracle Operation Resource API
+  slug: oracle-operationresource-api
+- description: The operationsInsights API from Oracle — 156 operation(s) for operationsinsights.
+  name: Oracle Operations Insights API
+  slug: oracle-operationsinsights-api
+- description: Operation Resource Collection.
+  name: Oracle Operations Resource API
+  slug: oracle-operationsresource-api
+- description: The operatorActions API from Oracle — 2 operation(s) for operatoractions.
+  name: Oracle Operator Actions API
+  slug: oracle-operatoractions-api
+- description: The operatorControl API from Oracle — 3 operation(s) for operatorcontrol.
+  name: Oracle Operator Control API
+  slug: oracle-operatorcontrol-api
+- description: The operatorControlAssignment API from Oracle — 3 operation(s) for operatorcontrolassignment.
+  name: Oracle Operator Control Assignment API
+  slug: oracle-operatorcontrolassignment-api
+- description: The optimizer API from Oracle — 20 operation(s) for optimizer.
+  name: Oracle Optimizer API
+  slug: oracle-optimizer-api
+- description: The OracleDBAzureBlobContainer API from Oracle — 3 operation(s) for oracledbazureblobcontainer.
+  name: Oracle Oracle DB Azure Blob Container API
+  slug: oracle-oracledbazureblobcontainer-api
+- description: The OracleDBAzureBlobMount API from Oracle — 3 operation(s) for oracledbazureblobmount.
+  name: Oracle Oracle DB Azure Blob Mount API
+  slug: oracle-oracledbazureblobmount-api
+- description: The OracleDBAzureConnector API from Oracle — 4 operation(s) for oracledbazureconnector.
+  name: Oracle Oracle DB Azure Connector API
+  slug: oracle-oracledbazureconnector-api
+- description: The OracleDbAzureKey API from Oracle — 2 operation(s) for oracledbazurekey.
+  name: Oracle Oracle Db Azure Key API
+  slug: oracle-oracledbazurekey-api
+- description: The OracleDbAzureVault API from Oracle — 5 operation(s) for oracledbazurevault.
+  name: Oracle Oracle Db Azure Vault API
+  slug: oracle-oracledbazurevault-api
+- description: The OracleDbAzureVaultAssociation API from Oracle — 4 operation(s) for oracledbazurevaultassociation.
+  name: Oracle Oracle Db Azure Vault Association API
+  slug: oracle-oracledbazurevaultassociation-api
+- description: The orders API from Oracle — 2 operation(s) for orders.
+  name: Oracle Orders API
+  slug: oracle-orders-api
+- description: The organization API from Oracle — 9 operation(s) for organization.
+  name: Oracle Organization API
+  slug: oracle-organization-api
+- description: The organizationSubscription API from Oracle — 1 operation(s) for organizationsubscription.
+  name: Oracle Organization Subscription API
+  slug: oracle-organizationsubscription-api
+- description: The partner API from Oracle — 3 operation(s) for partner.
+  name: Oracle Partner API
+  slug: oracle-partner-api
+- description: The PartnerIntegeration API from Oracle — 6 operation(s) for partnerintegeration.
+  name: Oracle Partner Integeration API
+  slug: oracle-partnerintegeration-api
+- description: The perfhub API from Oracle — 1 operation(s) for perfhub.
+  name: Oracle Perfhub API
+  slug: oracle-perfhub-api
+- description: The plugin API from Oracle — 2 operation(s) for plugin.
+  name: Oracle Plugin API
+  slug: oracle-plugin-api
+- description: The pluginconfig API from Oracle — 1 operation(s) for pluginconfig.
+  name: Oracle Pluginconfig API
+  slug: oracle-pluginconfig-api
+- description: The postgresql API from Oracle — 26 operation(s) for postgresql.
+  name: Oracle Postgresql API
+  slug: oracle-postgresql-api
+- description: The privateServiceAccess API from Oracle — 8 operation(s) for privateserviceaccess.
+  name: Oracle Private Service Access API
+  slug: oracle-privateserviceaccess-api
+- description: The privilegedApiControl API from Oracle — 3 operation(s) for privilegedapicontrol.
+  name: Oracle Privileged API Control API
+  slug: oracle-privilegedapicontrol-api
+- description: The privilegedApiRequests API from Oracle — 6 operation(s) for privilegedapirequests.
+  name: Oracle Privileged API Requests API
+  slug: oracle-privilegedapirequests-api
+- description: The privilegedApiWorkRequest API from Oracle — 4 operation(s) for privilegedapiworkrequest.
+  name: Oracle Privileged API Work Request API
+  slug: oracle-privilegedapiworkrequest-api
+- description: Purchase Entitlement Resource.
+  name: Oracle Purchase Entitlement Resource API
+  slug: oracle-purchaseentitlementresource-api
+- description: Purchase Entitlement Resource Collection.
+  name: Oracle Purchase Entitlements Resource API
+  slug: oracle-purchaseentitlementsresource-api
+- description: The query API from Oracle — 2 operation(s) for query.
+  name: Oracle Query API
+  slug: oracle-query-api
+- description: The queue API from Oracle — 6 operation(s) for queue.
   name: Oracle Queue API
   slug: oracle-queue-api
-- description: Use Oracle Database Autonomous Recovery Service API to manage Protected Databases.
-  name: Oracle Database Autonomous Recovery Service API
-  slug: oracle-database-autonomous-recovery-service-api
-- description: Use the Artifacts and Container Images API to manage container images and non-container generic artifacts. - For container images such as Docker images, use the [ContainerImage](#/en/registry/latest/C
-  name: Oracle Artifacts and Container Images API
-  slug: oracle-artifacts-and-container-images-api
-- description: Use the Resource Analytics API to manage Resource Analytics Instances.
-  name: Oracle Resource Analytics API
-  slug: oracle-resource-analytics-api
-- description: Use the Resource Discovery and Monitoring Control API to get details about monitored instances and perform actions. For more information, see [Resource Discovery and Monitoring](https://docs.oracle.co
-  name: Oracle Resource Discovery and Monitoring Control API
-  slug: oracle-resource-discovery-and-monitoring-control-api
-- description: Use the Resource scheduler API to manage schedules, to perform actions on a collection of resources.
-  name: Oracle Resource Scheduler API
-  slug: oracle-resource-scheduler-api
-- description: Use the Resource Manager API to automate deployment and operations for all Oracle Cloud Infrastructure resources. Using the infrastructure-as-code (IaC) model, the service is based on Terraform, an op
+- description: The queueAdmin API from Oracle — 10 operation(s) for queueadmin.
+  name: Oracle Queue Admin API
+  slug: oracle-queueadmin-api
+- description: The quotas API from Oracle — 4 operation(s) for quotas.
+  name: Oracle Quotas API
+  slug: oracle-quotas-api
+- description: The ratecard API from Oracle — 1 operation(s) for ratecard.
+  name: Oracle Ratecard API
+  slug: oracle-ratecard-api
+- description: The recipientInvitation API from Oracle — 4 operation(s) for recipientinvitation.
+  name: Oracle Recipient Invitation API
+  slug: oracle-recipientinvitation-api
+- description: The redirect API from Oracle — 3 operation(s) for redirect.
+  name: Oracle Redirect API
+  slug: oracle-redirect-api
+- description: The redisCluster API from Oracle — 11 operation(s) for rediscluster.
+  name: Oracle Redis Cluster API
+  slug: oracle-rediscluster-api
+- description: The redisIdentity API from Oracle — 1 operation(s) for redisidentity.
+  name: Oracle Redis Identity API
+  slug: oracle-redisidentity-api
+- description: The refreshActivity API from Oracle — 3 operation(s) for refreshactivity.
+  name: Oracle Refresh Activity API
+  slug: oracle-refreshactivity-api
+- description: The replicas API from Oracle — 2 operation(s) for replicas.
+  name: Oracle Replicas API
+  slug: oracle-replicas-api
+- description: The reportingManagedInstance API from Oracle — 3 operation(s) for reportingmanagedinstance.
+  name: Oracle Reporting Managed Instance API
+  slug: oracle-reportingmanagedinstance-api
+- description: The resourceAnalyticsInstance API from Oracle — 9 operation(s) for resourceanalyticsinstance.
+  name: Oracle Resource Analytics Instance API
+  slug: oracle-resourceanalyticsinstance-api
+- description: Manages infrastructure and other Oracle cloud resources.
   name: Oracle Resource Manager API
-  slug: oracle-resource-manager-api
-- description: A description of the RoverCloudService API.
-  name: Oracle RoverCloudService API
-  slug: oracle-rovercloudservice-api
-- description: Amazon S3 Compatibility API supported by the Oracle Cloud Infrastructure Object Storage Service. See [Understanding Object Storage Namespaces](/Content/Object/Tasks/understandingnamespaces.htm) for in
-  name: Oracle Amazon S3 Compatibility API
-  slug: oracle-amazon-s3-compatibility-api
-- description: Use the Vulnerability Scanning Service (VSS) API to manage scan recipes, targets, and reports. For more information, see [the Vulnerability Scanning documentation](/iaas/scanning/home.htm).
-  name: Oracle Scanning API
-  slug: oracle-scanning-api
-- description: Search for resources in your cloud network.
-  name: Oracle Search Service API
-  slug: oracle-search-service-api
-- description: Use the Secret Management API to manage secrets and secret versions. For more information, see [Managing Secrets](/Content/KeyManagement/Tasks/managingsecrets.htm).
-  name: Oracle Vault Secret Management API
-  slug: oracle-vault-secret-management-api
-- description: Use the Secret Retrieval API to retrieve secrets and secret versions from vaults. For more information, see [Managing Secrets](/Content/KeyManagement/Tasks/managingsecrets.htm).
-  name: Oracle Vault Secret Retrieval API
-  slug: oracle-vault-secret-retrieval-api
-- description: Create and manage cloud-hosted desktops which can be accessed from a web browser or installed client.
-  name: Oracle Secure Desktops API
-  slug: oracle-secure-desktops-api
-- description: Use the Security Attributes API to manage security attributes and security attribute namespaces. For more information, see the documentation for [Security Attributes](/iaas/Content/zero-trust-packet-r
+  slug: oracle-resourcemanager-api
+- description: The resources API from Oracle — 2 operation(s) for resources.
+  name: Oracle Resources API
+  slug: oracle-resources-api
+- description: The ResourceSearch API from Oracle — 3 operation(s) for resourcesearch.
+  name: Oracle Resource Search API
+  slug: oracle-resourcesearch-api
+- description: The rewards API from Oracle — 4 operation(s) for rewards.
+  name: Oracle Rewards API
+  slug: oracle-rewards-api
+- description: The roverCluster API from Oracle — 4 operation(s) for rovercluster.
+  name: Oracle Rover Cluster API
+  slug: oracle-rovercluster-api
+- description: The roverEntitlement API from Oracle — 3 operation(s) for roverentitlement.
+  name: Oracle Rover Entitlement API
+  slug: oracle-roverentitlement-api
+- description: The roverNode API from Oracle — 7 operation(s) for rovernode.
+  name: Oracle Rover Node API
+  slug: oracle-rovernode-api
+- description: The s3ObjectStorage API from Oracle — 3 operation(s) for s3objectstorage.
+  name: Oracle S3 Object Storage API
+  slug: oracle-s3objectstorage-api
+- description: The schedule API from Oracle — 10 operation(s) for schedule.
+  name: Oracle Schedule API
+  slug: oracle-schedule-api
+- description: The scheduledActivity API from Oracle — 2 operation(s) for scheduledactivity.
+  name: Oracle Scheduled Activity API
+  slug: oracle-scheduledactivity-api
+- description: The scheduledJob API from Oracle — 4 operation(s) for scheduledjob.
+  name: Oracle Scheduled Job API
+  slug: oracle-scheduledjob-api
+- description: The sddc API from Oracle — 13 operation(s) for sddc.
+  name: Oracle Sddc API
+  slug: oracle-sddc-api
+- description: Use this API to retrieve secrets and secret versions from vaults.
+  name: Oracle Secrets API
+  slug: oracle-secrets-api
+- description: The securityAttribute API from Oracle — 12 operation(s) for securityattribute.
   name: Oracle Security Attribute API
-  slug: oracle-security-attribute-api
-- description: Use the SELF Service API to manage Subscriptions in Oracle Cloud Infrastructure Marketplace. For more information, see [Overview of Marketplace](/Content/Marketplace/Concepts/marketoverview.htm)
-  name: Oracle SELF Service API
-  slug: oracle-self-service-api
-- description: Use the Service Catalog API to manage solutions in Oracle Cloud Infrastructure Service Catalog. For more information, see [Overview of Service Catalog](/iaas/Content/service-catalog/overview_of_servic
+  slug: oracle-securityattribute-api
+- description: Represents a Service Entitlement Service Configuration Exadata SecurityGroup Resource.
+  name: Oracle SE Exadata Security Group Resource API
+  slug: oracle-seexadatasecuritygroupresource-api
+- description: Represents a Service Entitlement Service Configuration Exadata SecurityGroups Resource.
+  name: Oracle SE Exadata Security Groups Resource API
+  slug: oracle-seexadatasecuritygroupsresource-api
+- description: The ${sender-tag} API from Oracle — 5 operation(s) for ${sender-tag}.
+  name: Oracle ${sender Tag} API
+  slug: oracle-sender-tag-api
+- description: The senderInvitation API from Oracle — 3 operation(s) for senderinvitation.
+  name: Oracle Sender Invitation API
+  slug: oracle-senderinvitation-api
+- description: The service API from Oracle — 1 operation(s) for service.
+  name: Oracle Service API
+  slug: oracle-service-api
+- description: The serviceAttachment API from Oracle — 2 operation(s) for serviceattachment.
+  name: Oracle Service Attachment API
+  slug: oracle-serviceattachment-api
+- description: The serviceCatalog API from Oracle — 18 operation(s) for servicecatalog.
   name: Oracle Service Catalog API
-  slug: oracle-service-catalog-api
-- description: Use the Connector Hub API to transfer data between services in Oracle Cloud Infrastructure. For more information about Connector Hub, see [the Connector Hub documentation](/iaas/Content/connector-hub/
-  name: Oracle Connector Hub API
-  slug: oracle-connector-hub-api
-- description: Use the Service Manager Proxy API to obtain information about SaaS environments provisioned by Service Manager. You can get information such as service types and service environment URLs.
+  slug: oracle-servicecatalog-api
+- description: The serviceConnector API from Oracle — 9 operation(s) for serviceconnector.
+  name: Oracle Service Connector API
+  slug: oracle-serviceconnector-api
+- description: Service Definition Resource.
+  name: Oracle Service Definition Resource API
+  slug: oracle-servicedefinitionresource-api
+- description: Represents a serviceDefinition resource collection.
+  name: Oracle Service Definitions Resource API
+  slug: oracle-servicedefinitionsresource-api
+- description: Service Entitlement Resource.
+  name: Oracle Service Entitlement Resource API
+  slug: oracle-serviceentitlementresource-api
+- description: Service Entitlement resource collection.
+  name: Oracle Service Entitlements Resource API
+  slug: oracle-serviceentitlementsresource-api
+- description: Service Instance Resource.
+  name: Oracle Service Instance Resource API
+  slug: oracle-serviceinstanceresource-api
+- description: Service Instance resource collection.
+  name: Oracle Service Instances Resource API
+  slug: oracle-serviceinstancesresource-api
+- description: The serviceManagerProxy API from Oracle — 2 operation(s) for servicemanagerproxy.
   name: Oracle Service Manager Proxy API
-  slug: oracle-service-manager-proxy-api
-- description: The OCI Speech Service harnesses the power of spoken language by allowing developers to easily convert file-based data containing human speech into highly accurate text transcriptions.
-  name: Oracle Speech API
-  slug: oracle-speech-api
-- description: Stack Monitoring API.
+  slug: oracle-servicemanagerproxy-api
+- description: Represents a Service Entitlement ServiceConfiguration resource.
+  name: Oracle SE Service Configuration Resource API
+  slug: oracle-seserviceconfigurationresource-api
+- description: Represents a Service Entitlement ServiceConfiguration resource collection.
+  name: Oracle SE Service Configurations Resource API
+  slug: oracle-seserviceconfigurationsresource-api
+- description: The shape API from Oracle — 1 operation(s) for shape.
+  name: Oracle Shape API
+  slug: oracle-shape-api
+- description: Represents a Service Instance Service Configuration Exadata Bursting Resource.
+  name: Oracle SI Exadata Bursting Resource API
+  slug: oracle-siexadataburstingresource-api
+- description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignment Resource.
+  name: Oracle SI Exadata Security Group Assignment Resource API
+  slug: oracle-siexadatasecuritygroupassignmentresource-api
+- description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignments Resource.
+  name: Oracle SI Exadata Security Group Assignments Resource API
+  slug: oracle-siexadatasecuritygroupassignmentsresource-api
+- description: Represents a Service Instance ServiceConfiguration resource.
+  name: Oracle SI Service Configuration Resource API
+  slug: oracle-siserviceconfigurationresource-api
+- description: Represents a Service Instance ServiceConfiguration resource collection.
+  name: Oracle SI Service Configurations Resource API
+  slug: oracle-siserviceconfigurationsresource-api
+- description: The softwareSource API from Oracle — 29 operation(s) for softwaresource.
+  name: Oracle Software Source API
+  slug: oracle-softwaresource-api
+- description: The sqlTuning API from Oracle — 16 operation(s) for sqltuning.
+  name: Oracle Sql Tuning API
+  slug: oracle-sqltuning-api
+- description: The stackMonitoring API from Oracle — 42 operation(s) for stackmonitoring.
   name: Oracle Stack Monitoring API
-  slug: oracle-stack-monitoring-api
-- description: Use the Streaming API to produce and consume messages, create streams and stream pools, and manage related items. For more information, see [Streaming](/Content/Streaming/Concepts/streamingoverview.ht
-  name: Oracle Streaming API
-  slug: oracle-streaming-api
-- description: Use the Threat Intelligence API to search for information about known threat indicators, including suspicious IP addresses, domain names, and other digital fingerprints. Threat Intelligence is a manag
-  name: Oracle Threat Intelligence API
-  slug: oracle-threat-intelligence-api
-- description: 'Use the Usage API to view your Oracle Cloud usage and costs. The API allows you to request data that meets the specified filter criteria, and to group that data by the chosen dimension. The Usage API '
-  name: Oracle Usage API
-  slug: oracle-usage-api
-- description: Use the Usage Proxy API to list Oracle Support Rewards, view related detailed usage information, and manage users who redeem rewards. For more information, see [Oracle Support Rewards Overview](/iaas/
-  name: Oracle Usage Proxy API
-  slug: oracle-usage-proxy-api
-- description: Using Vision, you can upload images to detect and classify objects in them. If you have lots of images, you can process them in batch using asynchronous API endpoints. Vision's features are thematical
-  name: Oracle Vision API
-  slug: oracle-vision-api
-- description: Oracle Visual Builder enables developers to quickly build web and mobile applications. With a visual development environment that makes it easy to connect to Oracle data and third-party REST services,
-  name: Oracle Visual Builder API
-  slug: oracle-visual-builder-api
-- description: Oracle Visual Builder Studio (VB Studio) is a robust application development platform that helps your team effectively plan and manage your work throughout all stages of the application development li
-  name: Oracle Visual Builder Studio API
-  slug: oracle-visual-builder-studio-api
-- description: Use the Oracle Cloud VMware API to create SDDCs and manage ESXi hosts and software. For more information, see [Oracle Cloud VMware Solution](/iaas/Content/VMware/Concepts/ocvsoverview.htm).
-  name: Oracle Cloud VMware Solution API
-  slug: oracle-cloud-vmware-solution-api
-- description: Use the Oracle Cloud VMware API to create SDDCs and manage ESXi hosts and software. For more information, see [Oracle Cloud VMware Solution](/iaas/Content/VMware/Concepts/ocvsoverview.htm).
-  name: Oracle Cloud VMware Solution API
-  slug: oracle-cloud-vmware-solution-api
-- description: API for the Web Application Acceleration service. Use this API to manage regional Web App Acceleration policies such as Caching and Compression for accelerating HTTP services.
-  name: Oracle Web Application Acceleration (WAA) API
-  slug: oracle-web-application-acceleration-waa-api
-- description: OCI Web Application Acceleration and Security Services
-  name: Oracle Web Application Acceleration and Security Services API
-  slug: oracle-web-application-acceleration-and-security-services-api
-- description: API for the Web Application Firewall service. Use this API to manage regional Web App Firewalls and corresponding policies for protecting HTTP services.
-  name: Oracle Web Application Firewall (WAF) API
-  slug: oracle-web-application-firewall-waf-api
-- description: WebLogic Management Service is an OCI service that enables a unified view and management of WebLogic domains in Oracle Cloud Infrastructure. Features include on-demand patching of WebLogic domains, ro
-  name: Oracle WebLogic Management Service API
-  slug: oracle-weblogic-management-service-api
-- description: 'API for tracking the progress of long-running operations, such as creating and configuring cloud resources. Many of the API operations that you use to create and configure cloud resources do not take '
+  slug: oracle-stackmonitoring-api
+- description: The stream API from Oracle — 6 operation(s) for stream.
+  name: Oracle Stream API
+  slug: oracle-stream-api
+- description: The streamAdmin API from Oracle — 13 operation(s) for streamadmin.
+  name: Oracle Stream Admin API
+  slug: oracle-streamadmin-api
+- description: The ${submit-email-tag} API from Oracle — 1 operation(s) for ${submit-email-tag}.
+  name: Oracle ${submit Email Tag} API
+  slug: oracle-submit-email-tag-api
+- description: The ${submit-raw-email-tag} API from Oracle — 1 operation(s) for ${submit-raw-email-tag}.
+  name: Oracle ${submit Raw Email Tag} API
+  slug: oracle-submit-raw-email-tag-api
+- description: The subscribedService API from Oracle — 2 operation(s) for subscribedservice.
+  name: Oracle Subscribed Service API
+  slug: oracle-subscribedservice-api
+- description: The subscribers API from Oracle — 5 operation(s) for subscribers.
+  name: Oracle Subscribers API
+  slug: oracle-subscribers-api
+- description: The subscription API from Oracle — 16 operation(s) for subscription.
+  name: Oracle Subscription API
+  slug: oracle-subscription-api
+- description: The ${suppression-tag} API from Oracle — 2 operation(s) for ${suppression-tag}.
+  name: Oracle ${suppression Tag} API
+  slug: oracle-suppression-tag-api
+- description: The tenancyAttachment API from Oracle — 2 operation(s) for tenancyattachment.
+  name: Oracle Tenancy Attachment API
+  slug: oracle-tenancyattachment-api
+- description: The threatintel API from Oracle — 5 operation(s) for threatintel.
+  name: Oracle Threatintel API
+  slug: oracle-threatintel-api
+- description: '"Everything about your trace, related spans, and tags"'
+  name: Oracle Trace API
+  slug: oracle-trace-api
+- description: The usageapi API from Oracle — 18 operation(s) for usageapi.
+  name: Oracle Usageapi API
+  slug: oracle-usageapi-api
+- description: The usagelimits API from Oracle — 1 operation(s) for usagelimits.
+  name: Oracle Usagelimits API
+  slug: oracle-usagelimits-api
+- description: The usagePlans API from Oracle — 5 operation(s) for usageplans.
+  name: Oracle Usage Plans API
+  slug: oracle-usageplans-api
+- description: The vanityDomain API from Oracle — 6 operation(s) for vanitydomain.
+  name: Oracle Vanity Domain API
+  slug: oracle-vanitydomain-api
+- description: The vaults API from Oracle — 11 operation(s) for vaults.
+  name: Oracle Vaults API
+  slug: oracle-vaults-api
+- description: The vbInstance API from Oracle — 10 operation(s) for vbinstance.
+  name: Oracle Vb Instance API
+  slug: oracle-vbinstance-api
+- description: The vbsInstance API from Oracle — 7 operation(s) for vbsinstance.
+  name: Oracle Vbs Instance API
+  slug: oracle-vbsinstance-api
+- description: The virtualNetwork API from Oracle — 176 operation(s) for virtualnetwork.
+  name: Oracle Virtual Network API
+  slug: oracle-virtualnetwork-api
+- description: The vnMonitoring API from Oracle — 9 operation(s) for vnmonitoring.
+  name: Oracle Vn Monitoring API
+  slug: oracle-vnmonitoring-api
+- description: The vulnerabilityScanning API from Oracle — 41 operation(s) for vulnerabilityscanning.
+  name: Oracle Vulnerability Scanning API
+  slug: oracle-vulnerabilityscanning-api
+- description: The waa API from Oracle — 7 operation(s) for waa.
+  name: Oracle Waa API
+  slug: oracle-waa-api
+- description: The waas API from Oracle — 38 operation(s) for waas.
+  name: Oracle Waas API
+  slug: oracle-waas-api
+- description: The waf API from Oracle — 15 operation(s) for waf.
+  name: Oracle Waf API
+  slug: oracle-waf-api
+- description: The weblogicManagementService API from Oracle — 36 operation(s) for weblogicmanagementservice.
+  name: Oracle Weblogic Management Service API
+  slug: oracle-weblogicmanagementservice-api
+- description: The weblogicManagementServiceConfiguration API from Oracle — 1 operation(s) for weblogicmanagementserviceconfiguration.
+  name: Oracle Weblogic Management Service Configuration API
+  slug: oracle-weblogicmanagementserviceconfiguration-api
+- description: The ${work-request-tag} API from Oracle — 4 operation(s) for ${work-request-tag}.
+  name: Oracle ${work Request Tag} API
+  slug: oracle-work-request-tag-api
+- description: The workRequest API from Oracle — 5 operation(s) for workrequest.
+  name: Oracle Work Request API
+  slug: oracle-workrequest-api
+- description: The workRequests API from Oracle — 4 operation(s) for workrequests.
   name: Oracle Work Requests API
-  slug: oracle-work-requests-api
-- description: Use the Zero Trust Packet Routing Control Plane API to manage ZPR configuration and policy. See the [Zero Trust Packet Routing](/iaas/Content/zero-trust-packet-routing/home.htm) documentation for more
-  name: Oracle Zero Trust Packet Routing Control Plane API
-  slug: oracle-zero-trust-packet-routing-control-plane-api
-- description: Use the Zero Trust Packet Routing Tools API to get ZPR Topology. See the [Zero Trust Packet Routing](/iaas/Content/zero-trust-packet-routing/home.htm) documentation for more information.
-  name: Oracle Zero Trust Packet Routing Tools API
-  slug: oracle-zero-trust-packet-routing-tools-api
+  slug: oracle-workrequests-api
+- description: The zpr API from Oracle — 11 operation(s) for zpr.
+  name: Oracle Zpr API
+  slug: oracle-zpr-api
+- description: The zprTopology API from Oracle — 8 operation(s) for zprtopology.
+  name: Oracle Zpr Topology API
+  slug: oracle-zprtopology-api
 arazzos:
 - description: Verify an instance is stopped, capture a custom image from it, then poll until the image is available.
   name: Oracle OCI Create Custom Image from Instance
@@ -730,7 +1216,7 @@ arazzos:
 - description: Read an instance, find an active console connection for it, and if none exists fall back to a diagnostic reboot.
   name: Oracle OCI Troubleshoot Instance via Console Connection
   slug: oracle-troubleshoot-instance-console-workflow
-artifact_total: 379
+artifact_total: 541
 collections:
 - collection_type: postman
   name: Oracle OCI Compute API
@@ -1284,7 +1770,7 @@ modified: '2026-05-19'
 name: Oracle
 nav: Providers
 network: true
-overview: 'Oracle publishes 162 APIs on the [APIs.io](https://apis.io/) network, including Content Management API, OCI API Gateway, Access Governance APIs, and 159 more. Tagged areas include Cloud, Database, Enterprise, Infrastructure, and SaaS.
+overview: 'Oracle publishes 322 APIs on the [APIs.io](https://apis.io/) network, including Access Governance CP API, Access Request API, Access Requests API, and 319 more. Tagged areas include Cloud, Database, Enterprise, Infrastructure, and SaaS.
 
 
   The Oracle catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1336,11 +1822,11 @@ rules:
   slug: oracle-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: 0.0
+  composite: 67.3
+  delta: 0.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 55.5
+    contract_quality: 56.1
     developer_ergonomics: 78.3
     discoverability: 50.0
     governance: 68.8
@@ -1349,12 +1835,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 8.1
       derived: 0
       marker_coverage: 100.0
       total: 161
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:

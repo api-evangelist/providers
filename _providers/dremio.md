@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for Dremio Cloud covering the Open Catalog (sources, folders, tables, views, wikis, tags, lineage), SQL query execution and job management, Reflections, engines, projects, users, roles, grant
@@ -176,7 +176,7 @@ overview: 'Dremio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dremio''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 75
+random_paper: 60
 score:
   band: developing
   composite: 44.3
@@ -193,7 +193,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dremio/refs/heads/main/screenshots/dremio-2026-07-25T212402.png
 security:

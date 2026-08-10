@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Thegamesdb Plans Pricing
   plan_count: 3
   slug: thegamesdb-plans-pricing
-random_paper: 27
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Thegamesdb Rate Limits
@@ -246,25 +246,25 @@ rules:
   slug: thegamesdb-spectral-rules
 score:
   band: developing
-  composite: 45.9
+  composite: 46.9
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.3
+    contract_quality: 62.2
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 45.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/screenshots/thegamesdb-2026-06-20T195247.png
 security:

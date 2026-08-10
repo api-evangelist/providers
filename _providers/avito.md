@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -416,7 +416,7 @@ common:
 - group: design
   title: ''
   type: Webhooks
-  url: openapi/avito-messenger-openapi.json
+  url: openapi/_original/avito-messenger-openapi.json
 created: '2026-07-17'
 description: Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.
 image: https://m.avito.ru/icons/open-graph-default.svg
@@ -433,7 +433,7 @@ overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Avito''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, signup flow, and 49 more developer resources.'
-random_paper: 95
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Avito Rate Limits
@@ -472,7 +472,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

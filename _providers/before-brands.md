@@ -1,6 +1,35 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://forgeglobal.com/before-brands_stock/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/before-brands-inc.
 coverage:
   checked: '2026-08-06'
   detail: Before Brands was absorbed into Nestle Health Science — beforebrands.com now delegates to nestle.com nameservers, resolves to the sitedetour.com parking host and returns 404, while spoonfulone.com 301s to nestlehealthscience.com whose SpoonfulOne brand page itself 301s to a generic brand index, so there is no company surface left to profile.
@@ -26,7 +55,29 @@ modified: '2026-08-06'
 name: Before Brands
 nav: Providers
 network: true
-random_paper: 63
+overview: Before Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Nutrition, and Health.
+random_paper: 30
+score:
+  band: minimal
+  composite: 3.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 46.3
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 3.9
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
 slug: before-brands
 tags:
 - Company
@@ -37,4 +88,5 @@ tags:
 - Allergy
 - Infant Nutrition
 - Acquired
+website: https://forgeglobal.com/before-brands_stock/
 ---

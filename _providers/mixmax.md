@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mixmax''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 95
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Mixmax Rate Limits
@@ -182,8 +182,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:
 - kind: authentication
   name: Mixmax Authentication

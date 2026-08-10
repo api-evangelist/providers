@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Toronto (CA) City Open Data
@@ -63,7 +63,7 @@ overview: 'City, Toronto Open Data publishes 1 API on the [APIs.io](https://apis
 
 
   City, Toronto Open Data''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 62
+random_paper: 5
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/city-toronto-open-data/refs/heads/main/screenshots/city-toronto-open-data-2026-06-20T174423.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -134,7 +134,7 @@ overview: 'Doceree publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Doceree''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: thin
   composite: 32.8
@@ -156,8 +156,9 @@ score:
     regime_id: health
     score: 46.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:
 - kind: authentication
   name: Doceree Authentication

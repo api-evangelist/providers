@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'Moneyhub publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
-random_paper: 80
+random_paper: 59
 scopes:
 - name: Moneyhub Scopes
   scope_count: 108
@@ -245,8 +245,9 @@ score:
     regime_id: banking_open_finance
     score: 84.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:
 - kind: authentication
   name: Moneyhub Authentication

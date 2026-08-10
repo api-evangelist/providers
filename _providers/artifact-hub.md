@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -157,7 +157,7 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 3
   slug: artifact-hub-plans-pricing
-random_paper: 80
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Artifact Hub Rate Limits
@@ -182,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:

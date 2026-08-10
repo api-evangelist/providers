@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 67
+random_paper: 40
 score:
   band: emerging
   composite: 25.7
@@ -139,7 +139,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/screenshots/agencyzoom-2026-06-20T165842.png
 security:

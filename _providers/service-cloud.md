@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: Core REST API for Service Cloud operations including cases, knowledge articles, and customer interactions.
@@ -125,7 +125,7 @@ plans:
 - name: Service Cloud Plans Pricing
   plan_count: 3
   slug: service-cloud-plans-pricing
-random_paper: 90
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Service Cloud Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 40.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:

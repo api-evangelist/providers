@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Musely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Musely''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 106
+random_paper: 91
 score:
   band: emerging
   composite: 13.4
@@ -95,8 +95,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/musely/refs/heads/main/screenshots/musely-2026-08-07T184447.png
 security:
 - kind: domain-security
   name: Musely Domain Security

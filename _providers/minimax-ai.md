@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
   slug: minimax-ai-plans-pricing
-random_paper: 98
+random_paper: 74
 rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits
@@ -161,7 +161,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/screenshots/minimax-ai-2026-06-20T185605.png
 security:

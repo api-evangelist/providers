@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ overview: 'CallRail publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   CallRail''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 45
+random_paper: 24
 score:
   band: thin
   composite: 31.8
@@ -130,7 +130,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/screenshots/callrail-2026-06-20T173850.png
 security:

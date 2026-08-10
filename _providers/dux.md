@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Dux
 nav: Providers
 network: true
 overview: Dux is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Exposure Management.
-random_paper: 111
+random_paper: 105
 score:
   band: minimal
   composite: 7.1
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dux/refs/heads/main/screenshots/dux-2026-07-25T212528.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'HandUp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HandUp''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 75
+random_paper: 60
 score:
   band: emerging
   composite: 15.3
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handup/refs/heads/main/screenshots/handup-2026-07-25T220730.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: MycoMedica
 nav: Providers
 network: true
 overview: MycoMedica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Life Sciences, Drug Development, and Psychedelics.
-random_paper: 34
+random_paper: 7
 score:
   band: minimal
   composite: 4.3
@@ -64,8 +64,9 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mycomedica/refs/heads/main/screenshots/mycomedica-2026-08-07T184511.png
 slug: mycomedica
 tags:
 - Company

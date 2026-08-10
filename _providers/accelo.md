@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ overview: 'Accelo publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Accelo''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 50
+random_paper: 35
 scopes:
 - name: Accelo Scopes
   scope_count: 4
@@ -158,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/screenshots/accelo-2026-06-20T163557.png
 security:

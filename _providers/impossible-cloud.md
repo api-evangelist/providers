@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -177,30 +177,30 @@ overview: 'Impossible Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Impossible Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 77
+random_paper: 35
 score:
   band: developing
-  composite: 47.0
+  composite: 48.0
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 42.6
+    contract_quality: 46.5
     developer_ergonomics: 54.3
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 47.0
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:

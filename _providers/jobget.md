@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
@@ -138,7 +138,7 @@ overview: 'JobGet publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: emerging
   composite: 25.0
@@ -155,8 +155,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/screenshots/jobget-2026-08-07T171009.png
 security:
 - kind: authentication
   name: Jobget Authentication

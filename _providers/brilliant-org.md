@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,20 +115,32 @@ common:
   title: ''
   type: Instagram
   url: https://www.instagram.com/brilliantorg/
+- group: other
+  title: ''
+  type: EducatorApply
+  url: https://educator.brilliant.org/apply
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@brilliantorg
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:help@brilliant.org
 created: '2026-05-25'
 description: Brilliant is an online learning platform for interactive STEM education, covering mathematics, computer science, data, and science. Headquartered in San Francisco and used by over ten million learners worldwide, Brilliant pairs guided, problem-first lessons with adaptive practice that blends classic intelligent tutoring systems, machine-learning recommender systems, and natural-language conversations. The platform is delivered through brilliant.org and native iOS and Android apps, with a freemium model and a Brilliant Premium subscription that unlocks the full course catalog, including expanding AI-powered features such as personalized tutoring conversations and on-the-fly generation of interactive content. Brilliant operates as a direct-to-consumer subscription business with an educator program for classroom access; it does not publish a public developer API, SDK, or partner integration program, and the `github.com/brilliant` org on GitHub is an unrelated namespace of personal
   projects rather than an official Brilliant presence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brilliant-org.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Brilliant
 nav: Providers
 network: true
 overview: 'Brilliant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Learning, Online Learning, Education, STEM, and Mathematics.
 
 
-  Brilliant''s developer surface includes pricing, engineering blog, and 19 more developer resources.'
-random_paper: 91
+  Brilliant''s developer surface includes pricing, engineering blog, YouTube channel, support, and 20 more developer resources.'
+random_paper: 58
 score:
   band: minimal
   composite: 12.6
@@ -142,9 +154,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/brilliant-org/refs/heads/main/screenshots/brilliant-org-2026-06-20T173707.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/brilliant-org/refs/heads/main/screenshots/brilliant-org-2026-06-20T173709.png
 security:
 - kind: domain-security
   name: Brilliant Org Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,7 +80,7 @@ name: Oviva
 nav: Providers
 network: true
 overview: Oviva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Diabetes, and Weight Management.
-random_paper: 97
+random_paper: 85
 score:
   band: emerging
   composite: 17.3
@@ -100,8 +100,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oviva/refs/heads/main/screenshots/oviva-2026-08-07T191144.png
 security:
 - kind: domain-security
   name: Oviva Domain Security

@@ -28,13 +28,34 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: The read-only content API served anonymously by the WordPress REST API on the Life Biosciences corporate site. Sixteen verified GET operations expose press releases and news posts, pages (platform, pi
-  name: Life Biosciences WordPress Content API
-  slug: life-biosciences-wordpress-content-api
-artifact_total: 4
+- description: The Comments API from Life Biosciences — 1 operation(s) for comments.
+  name: Life Biosciences Comments API
+  slug: life-biosciences-comments-api
+- description: The Discovery API from Life Biosciences — 3 operation(s) for discovery.
+  name: Life Biosciences Discovery API
+  slug: life-biosciences-discovery-api
+- description: The Media API from Life Biosciences — 2 operation(s) for media.
+  name: Life Biosciences Media API
+  slug: life-biosciences-media-api
+- description: The oEmbed API from Life Biosciences — 1 operation(s) for oembed.
+  name: Life Biosciences O Embed API
+  slug: life-biosciences-oembed-api
+- description: The Pages API from Life Biosciences — 2 operation(s) for pages.
+  name: Life Biosciences Pages API
+  slug: life-biosciences-pages-api
+- description: The Posts API from Life Biosciences — 2 operation(s) for posts.
+  name: Life Biosciences Posts API
+  slug: life-biosciences-posts-api
+- description: The Search API from Life Biosciences — 1 operation(s) for search.
+  name: Life Biosciences Search API
+  slug: life-biosciences-search-api
+- description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
+  name: Life Biosciences Taxonomies API
+  slug: life-biosciences-taxonomies-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -165,20 +186,20 @@ modified: '2026-08-04'
 name: Life Biosciences
 nav: Providers
 network: true
-overview: 'Life Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress Content API. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Clinical Trials.
+overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Clinical Trials.
 
 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
-random_paper: 38
+random_paper: 112
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.3
+  delta: -0.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 59.7
+    contract_quality: 55.8
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 33.7
@@ -198,8 +219,9 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:
 - kind: authentication
   name: Life Biosciences Authentication

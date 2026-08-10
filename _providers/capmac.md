@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: CapMAC Holdings
 nav: Providers
 network: true
 overview: CapMAC Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Insurance, Financial Guaranty, and Structured Finance.
-random_paper: 48
+random_paper: 33
 score:
   band: minimal
   composite: 4.3
@@ -68,7 +68,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmac/refs/heads/main/screenshots/capmac-2026-07-25T204425.png
 slug: capmac

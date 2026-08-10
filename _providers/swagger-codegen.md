@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-06'
+  score: 38.5
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 10
   slug: swagger-codegen-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 6
+api_count: 5
 apis:
 - description: The Swagger Codegen command-line interface for generating code artifacts locally. Available as a JAR file and Docker image. Supports the same generators as the online API with additional template cust
   name: Swagger Codegen CLI
@@ -53,10 +53,7 @@ apis:
 - description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-- description: The legacy 2.x Swagger Generator service at generator.swagger.io, still maintained alongside the 3.x line (v2.4.52 released 2026-04-15). Generates clients and server stubs from Swagger 1.x/2.0 definit
-  name: Swagger Generator V2 API
-  slug: swagger-generator-v2-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: Swagger Generator API
@@ -246,7 +243,7 @@ modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 2 more. Tagged areas include Client Libraries, Code Generation, Open Source, OpenAPI, and SDK.
+overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 1 more. Tagged areas include Client Libraries, Code Generation, Open Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -257,7 +254,7 @@ plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
   slug: swagger-codegen-plans-pricing
-random_paper: 53
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Swagger Codegen Rate Limits
@@ -281,26 +278,29 @@ rules:
   slug: swagger-codegen-rules
 score:
   band: exemplar
-  composite: 75.4
-  delta: 27.6
+  composite: 74.3
+  delta: -0.1
   facets:
     commercial_clarity: 76.3
-    contract_quality: 61.5
-    developer_ergonomics: 78.3
+    contract_quality: 61.0
+    developer_ergonomics: 73.4
     discoverability: 83.3
     governance: 79.2
     operational_transparency: 86.8
-  previous_composite: 47.8
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
 - kind: authentication

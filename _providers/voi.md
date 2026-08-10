@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -122,27 +122,79 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/voi-llms.txt
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.voiscooters.com/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/voiapp/mobility-data-specification
+- group: other
+  title: ''
+  type: Company
+  url: https://www.voi.com/about
+- group: company
+  title: ''
+  type: About
+  url: https://careers.voi.com/pages/our-voiage-so-far
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.voi.com/
+- group: company
+  title: ''
+  type: PressRoom
+  url: https://www.voi.com/newsroom
+- group: operate
+  title: ''
+  type: Help
+  url: https://www.voi.com/support
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.voi.com/contact
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/voi-technology
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/voi-technology/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/voiscooters
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/voiscooters/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@VoiTechnology
 created: '2026-07-17'
 description: Voi Technology is a Swedish micromobility company founded in Stockholm in 2018 that operates shared e-scooters and e-bikes in more than 100 cities across Europe. Voi publishes a Mobility-as-a-Service partner surface for deep integrations (register users, start and end rentals, pricing, vehicles, and zone areas at partners.voiapp.io), plus MDS provider and flavored GBFS feeds for cities and mobility partners at mds.voiapp.io.
 image: https://raw.githubusercontent.com/voiapp/partner-api-docs/gh-pages/assets/images/user/logo_coral.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Voi
 nav: Providers
 network: true
 overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility-as-a-Service, and Transportation.
 
 
-  Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 13 more developer resources.'
-random_paper: 108
+  Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
+random_paper: 102
 score:
-  band: emerging
-  composite: 27.8
-  delta: 0.0
+  band: thin
+  composite: 29.5
+  delta: 1.7
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 58.7
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 5.3
@@ -150,8 +202,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:
 - kind: authentication
   name: Voi Authentication

@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-06'
+  score: 31.3
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -181,7 +181,7 @@ overview: 'AgiBot publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   AgiBot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 26 more developer resources.'
-random_paper: 65
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Agibot Rate Limits
@@ -193,19 +193,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.2
+  composite: 39.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 87.0
+    developer_ergonomics: 82.1
     discoverability: 83.3
     governance: 3.1
     operational_transparency: 39.5
+  previous_composite: 39.2
   provenance:
     conformance: derived
     mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/screenshots/agibot-2026-08-07T161032.png
 security:
 - kind: authentication
   name: Agibot Authentication

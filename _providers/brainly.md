@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Brainly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Brainly''s developer surface includes pricing and 10 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: emerging
   composite: 15.3
@@ -101,7 +101,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

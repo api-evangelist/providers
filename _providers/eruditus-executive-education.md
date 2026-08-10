@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -28,12 +28,12 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 2
 apis:
-- description: Partner/vendor entry point for submitting enrollment inquiries into Emeritus systems. A single POST endpoint accepts both the consumer (B2C) lead shape and the enterprise/team (B2B) shape, selected by
-  name: Emeritus Leads API
-  slug: leads
-- description: 'Read API over the Emeritus catalog — programs, the partner schools and universities that award them, and the landing page templates used to market them. Authenticated with an Emeritus-issued token in '
-  name: Emeritus Programs API
-  slug: programs
+- description: Enrollment lead submission.
+  name: Eruditus Leads API
+  slug: eruditus-executive-education-leads-api
+- description: Emeritus program catalog resources.
+  name: Eruditus Programs API
+  slug: eruditus-executive-education-programs-api
 artifact_total: 7
 common:
 - group: agent
@@ -156,18 +156,18 @@ modified: '2026-08-04'
 name: Eruditus
 nav: Providers
 network: true
-overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Emeritus Leads API and Emeritus Programs API. Tagged areas include Company, Education, Online Learning, Executive Education, and EdTech.
+overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Leads API and Programs API. Tagged areas include Company, Education, Online Learning, Executive Education, and EdTech.
 
 
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 84
+random_paper: 9
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 45.7
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 68.2
+    contract_quality: 64.3
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
@@ -184,8 +184,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:
 - kind: authentication
   name: Eruditus Executive Education Authentication

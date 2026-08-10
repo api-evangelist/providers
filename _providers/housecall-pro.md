@@ -28,13 +28,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
-- description: The Housecall Pro Public API is a REST + JSON API hosted on Stoplight that gives MAX-plan customers programmatic access to core platform resources — customers, leads, jobs, estimates, invoices, paymen
-  name: Housecall Pro Public API
-  slug: housecall-pro-public-api
-artifact_total: 29
+- description: The Companies API from Housecall Pro — 1 operation(s) for companies.
+  name: Housecall Pro Companies API
+  slug: housecall-pro-companies-api
+- description: The Customers API from Housecall Pro — 2 operation(s) for customers.
+  name: Housecall Pro Customers API
+  slug: housecall-pro-customers-api
+- description: The Employees API from Housecall Pro — 2 operation(s) for employees.
+  name: Housecall Pro Employees API
+  slug: housecall-pro-employees-api
+- description: The Estimates API from Housecall Pro — 2 operation(s) for estimates.
+  name: Housecall Pro Estimates API
+  slug: housecall-pro-estimates-api
+- description: The Invoices API from Housecall Pro — 2 operation(s) for invoices.
+  name: Housecall Pro Invoices API
+  slug: housecall-pro-invoices-api
+- description: The Jobs API from Housecall Pro — 2 operation(s) for jobs.
+  name: Housecall Pro Jobs API
+  slug: housecall-pro-jobs-api
+- description: The Leads API from Housecall Pro — 1 operation(s) for leads.
+  name: Housecall Pro Leads API
+  slug: housecall-pro-leads-api
+- description: The Line Items API from Housecall Pro — 1 operation(s) for line items.
+  name: Housecall Pro Line Items API
+  slug: housecall-pro-line-items-api
+- description: The Payments API from Housecall Pro — 1 operation(s) for payments.
+  name: Housecall Pro Payments API
+  slug: housecall-pro-payments-api
+- description: The Schedule Items API from Housecall Pro — 1 operation(s) for schedule items.
+  name: Housecall Pro Schedule Items API
+  slug: housecall-pro-schedule-items-api
+- description: The Webhooks API from Housecall Pro — 2 operation(s) for webhooks.
+  name: Housecall Pro Webhooks API
+  slug: housecall-pro-webhooks-api
+artifact_total: 39
 common:
 - group: build
   title: ''
@@ -211,7 +241,7 @@ modified: '2026-05-25'
 name: Housecall Pro
 nav: Providers
 network: true
-overview: 'Housecall Pro publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Home Services, Field Service Management, Scheduling, Dispatching, and Invoicing.
+overview: 'Housecall Pro publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Customers API, Employees API, and 8 more. Tagged areas include Home Services, Field Service Management, Scheduling, Dispatching, and Invoicing.
 
 
   The Housecall Pro catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -222,7 +252,7 @@ plans:
 - name: Housecall Pro Plans Pricing
   plan_count: 3
   slug: housecall-pro-plans-pricing
-random_paper: 99
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Housecall Pro Rate Limits
@@ -238,13 +268,13 @@ rules:
   slug: housecall-pro-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 57.9
+  delta: -0.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 71.3
+    contract_quality: 67.4
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 58.3
     operational_transparency: 23.7
   previous_composite: 58.2
@@ -261,7 +291,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Eurostat Plans Pricing
   plan_count: 1
   slug: eurostat-plans-pricing
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Eurostat Rate Limits
@@ -203,7 +203,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
 security:

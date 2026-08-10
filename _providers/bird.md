@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,7 +69,11 @@ apis:
 - description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
   name: Bird SMS Messaging API
   slug: bird-sms-messaging-api
-artifact_total: 25
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Bird API
+  slug: open-bird-com
 common:
 - group: agent
   title: ''
@@ -135,6 +139,10 @@ common:
   title: ''
   type: FinOps
   url: finops/bird-finops.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/messagebird
 created: '2026-06-13'
 description: Bird (formerly MessageBird) is an omnichannel customer communications platform offering REST APIs for email, SMS, WhatsApp, RCS, push notifications, voice, and data management. Trusted by more than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network alongside a full customer engagement and marketing automation suite.
 examples:
@@ -165,7 +173,7 @@ jsonld:
   property_count: 7
   slug: bird-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-08'
 name: Bird
 nav: Providers
 network: true
@@ -175,12 +183,12 @@ overview: 'Bird publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bird''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Bird''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Bird Plans Pricing
   plan_count: 3
   slug: bird-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Bird Rate Limits
@@ -220,7 +228,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/screenshots/bird-2026-06-20T173301.png
 security:

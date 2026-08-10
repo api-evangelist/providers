@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ overview: 'Hustle publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 12 more developer resources.'
-random_paper: 96
+random_paper: 81
 scopes:
 - name: Hustle Scopes
   scope_count: 0
@@ -185,7 +185,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:

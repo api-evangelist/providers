@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 11
 apis:
 - description: The categories API from Leapcure — 2 operation(s) for categories.
@@ -142,7 +142,7 @@ overview: 'Leapcure publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leapcure''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
-random_paper: 58
+random_paper: 37
 score:
   band: thin
   composite: 34.0
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:

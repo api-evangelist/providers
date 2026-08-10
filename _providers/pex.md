@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: DRM, CMS, and content-monitoring API for managing rights assets, collections, and whitelists, tracking infringing copies across platforms, and running takedowns. Bearer API-key authentication; rate li
@@ -150,7 +150,7 @@ overview: 'Pex publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pex''s developer surface includes documentation, API reference, signup flow, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 107
+random_paper: 101
 score:
   band: thin
   composite: 31.9
@@ -168,7 +168,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

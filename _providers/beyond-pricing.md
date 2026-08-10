@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ overview: 'Beyond Pricing publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 78
+random_paper: 42
 scopes:
 - name: Beyond Pricing Scopes
   scope_count: 9
@@ -234,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
 security:

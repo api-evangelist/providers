@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Ezyvet Plans Pricing
   plan_count: 3
   slug: ezyvet-plans-pricing
-random_paper: 1
+random_paper: 99
 rate_limits:
 - limit_count: 3
   name: Ezyvet Rate Limits
@@ -163,7 +163,7 @@ score:
     regime_id: health
     score: 22.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/screenshots/ezyvet-2026-07-25T214103.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -26,51 +26,120 @@ agentic_access:
   operation_count: 150
   slug: outsystems-agentic-access
   summary_line: 150 operations · 56 acting · 3 human-in-the-loop
-api_count: 14
+api_count: 37
 apis:
-- description: REST endpoints for retrieving and managing users, groups, application roles, organization roles, permissions, identity providers, OIDC clients, realms and subjects in an OutSystems Developer Cloud org
-  name: OutSystems ODC User and Access Management API
-  slug: user-access-management-api-v1
-- description: REST endpoints for retrieving information about assets and environments deployed across the stages of an OutSystems Developer Cloud organization.
-  name: OutSystems ODC Portfolio API
-  slug: portfolio-api-v2
-- description: Version 1 of the ODC Portfolio API, superseded by v2. REST endpoints for retrieving information about assets and environments in your organization.
-  name: OutSystems ODC Portfolio API (v1)
-  slug: portfolio-api-v1
-- description: REST endpoints for retrieving information about assets and asset revisions held in the OutSystems Developer Cloud asset repository.
-  name: OutSystems ODC Asset Repository API
-  slug: asset-repository-api-v1
-- description: REST endpoints to get and update global environment settings and to manage configuration for individual agents and applications.
-  name: OutSystems ODC Asset Configurations API
-  slug: asset-configurations-api-v1
-- description: REST endpoints for managing environment (stage) configurations in ODC, covering custom domains, IP filters and private gateways.
-  name: OutSystems ODC Environment Configurations API
-  slug: environment-configurations-api-v1
-- description: REST endpoints to start build operations for ODC assets and retrieve information about their status.
-  name: OutSystems ODC Build Operations API
-  slug: build-operations-api-v1
-- description: REST endpoints for publishing and deploying assets across the environments (stages) in an OutSystems Developer Cloud organization, including rollback.
-  name: OutSystems ODC Deployments API
-  slug: deployments-api-v1
-- description: REST endpoints for launching and retrieving the results of impact analysis for the deployment and deletion of an asset.
-  name: OutSystems ODC Dependency Management API
-  slug: dependency-management-api-v1
-- description: REST endpoints to submit code analysis requests and retrieve code quality findings, application scores and analysis results — the technical-debt surface of the platform.
-  name: OutSystems ODC Code Quality API
-  slug: code-quality-api-v1
-- description: REST endpoints for building and managing native iOS and Android mobile application packages, build versions, validation and extensibility settings.
-  name: OutSystems ODC Native Mobile Build API
-  slug: native-mobile-build-api-v1
-- description: REST endpoints for generating and managing external libraries from high-code .NET packages so ODC apps can consume custom C# logic.
-  name: OutSystems ODC External Library Generation API
-  slug: external-library-generation-api-v1
-- description: REST endpoints for retrieving subscription and entitlement data and usage metrics for an OutSystems Developer Cloud organization.
-  name: OutSystems ODC Subscription API
-  slug: subscription-api-v1
 - description: Official OutSystems remote Model Context Protocol server (early alpha), exposed per tenant over streamable HTTP with OAuth Dynamic Client Registration. Tool domains cover Apps, the read-only Context S
   name: OutSystems Remote MCP Server
   slug: remote-mcp
-artifact_total: 22
+- description: The Analysis Status API from OutSystems — 1 operation(s) for analysis status.
+  name: OutSystems Analysis Status API
+  slug: outsystems-analysis-status-api
+- description: The application-roles API from OutSystems — 2 operation(s) for application-roles.
+  name: OutSystems Application Roles API
+  slug: outsystems-application-roles-api
+- description: The Assets API from OutSystems — 19 operation(s) for assets.
+  name: OutSystems Assets API
+  slug: outsystems-assets-api
+- description: The Assets Quality Metrics API from OutSystems — 1 operation(s) for assets quality metrics.
+  name: OutSystems Assets Quality Metrics API
+  slug: outsystems-assets-quality-metrics-api
+- description: The Build API from OutSystems — 4 operation(s) for build.
+  name: OutSystems Build API
+  slug: outsystems-build-api
+- description: The BuildOperations API from OutSystems — 5 operation(s) for buildoperations.
+  name: OutSystems Build Operations API
+  slug: outsystems-buildoperations-api
+- description: The Code Analyses API from OutSystems — 2 operation(s) for code analyses.
+  name: OutSystems Code Analyses API
+  slug: outsystems-code-analyses-api
+- description: The Deletion Analyses API from OutSystems — 2 operation(s) for deletion analyses.
+  name: OutSystems Deletion Analyses API
+  slug: outsystems-deletion-analyses-api
+- description: The deployed-assets API from OutSystems — 1 operation(s) for deployed-assets.
+  name: OutSystems Deployed Assets API
+  slug: outsystems-deployed-assets-api
+- description: The Deployment Analyses API from OutSystems — 2 operation(s) for deployment analyses.
+  name: OutSystems Deployment Analyses API
+  slug: outsystems-deployment-analyses-api
+- description: The deployment-operations API from OutSystems — 3 operation(s) for deployment-operations.
+  name: OutSystems Deployment Operations API
+  slug: outsystems-deployment-operations-api
+- description: Manage custom domains for environments.
+  name: OutSystems Domains API
+  slug: outsystems-domains-api
+- description: The Environments API from OutSystems — 12 operation(s) for environments.
+  name: OutSystems Environments API
+  slug: outsystems-environments-api
+- description: The Findings API from OutSystems — 1 operation(s) for findings.
+  name: OutSystems Findings API
+  slug: outsystems-findings-api
+- description: The Findings Summary API from OutSystems — 1 operation(s) for findings summary.
+  name: OutSystems Findings Summary API
+  slug: outsystems-findings-summary-api
+- description: The Findings Trend API from OutSystems — 1 operation(s) for findings trend.
+  name: OutSystems Findings Trend API
+  slug: outsystems-findings-trend-api
+- description: The GenerationOperations API from OutSystems — 4 operation(s) for generationoperations.
+  name: OutSystems Generation Operations API
+  slug: outsystems-generationoperations-api
+- description: The groups API from OutSystems — 5 operation(s) for groups.
+  name: OutSystems Groups API
+  slug: outsystems-groups-api
+- description: The identity-providers API from OutSystems — 2 operation(s) for identity-providers.
+  name: OutSystems Identity Providers API
+  slug: outsystems-identity-providers-api
+- description: Create, update, and delete IP filter groups and rules.
+  name: OutSystems IP filters API
+  slug: outsystems-ip-filters-api
+- description: The Libraries API from OutSystems — 1 operation(s) for libraries.
+  name: OutSystems Libraries API
+  slug: outsystems-libraries-api
+- description: The NativeBuilderVersions API from OutSystems — 1 operation(s) for nativebuilderversions.
+  name: OutSystems Native Builder Versions API
+  slug: outsystems-nativebuilderversions-api
+- description: The NativeBuildExtensibilitySettings API from OutSystems — 1 operation(s) for nativebuildextensibilitysettings.
+  name: OutSystems Native Build Extensibility Settings API
+  slug: outsystems-nativebuildextensibilitysettings-api
+- description: The NativeMobileConfigurations API from OutSystems — 2 operation(s) for nativemobileconfigurations.
+  name: OutSystems Native Mobile Configurations API
+  slug: outsystems-nativemobileconfigurations-api
+- description: The Organization API from OutSystems — 3 operation(s) for organization.
+  name: OutSystems Organization API
+  slug: outsystems-organization-api
+- description: The organization-roles API from OutSystems — 3 operation(s) for organization-roles.
+  name: OutSystems Organization Roles API
+  slug: outsystems-organization-roles-api
+- description: The Patterns API from OutSystems — 2 operation(s) for patterns.
+  name: OutSystems Patterns API
+  slug: outsystems-patterns-api
+- description: The permissions API from OutSystems — 2 operation(s) for permissions.
+  name: OutSystems Permissions API
+  slug: outsystems-permissions-api
+- description: The Portfolios API from OutSystems — 2 operation(s) for portfolios.
+  name: OutSystems Portfolios API
+  slug: outsystems-portfolios-api
+- description: Activate, deactivate, and manage private gateways.
+  name: OutSystems Private gateways API
+  slug: outsystems-private-gateways-api
+- description: The Public Elements API from OutSystems — 1 operation(s) for public elements.
+  name: OutSystems Public Elements API
+  slug: outsystems-public-elements-api
+- description: The publish-operations API from OutSystems — 3 operation(s) for publish-operations.
+  name: OutSystems Publish Operations API
+  slug: outsystems-publish-operations-api
+- description: The SourceCodeDownload API from OutSystems — 2 operation(s) for sourcecodedownload.
+  name: OutSystems Source Code Download API
+  slug: outsystems-sourcecodedownload-api
+- description: The Upload API from OutSystems — 1 operation(s) for upload.
+  name: OutSystems Upload API
+  slug: outsystems-upload-api
+- description: The Uploads API from OutSystems — 1 operation(s) for uploads.
+  name: OutSystems Uploads API
+  slug: outsystems-uploads-api
+- description: The users API from OutSystems — 10 operation(s) for users.
+  name: OutSystems Users API
+  slug: outsystems-users-api
+artifact_total: 45
 common:
 - group: auth
   title: ''
@@ -237,11 +306,11 @@ modified: '2026-08-02'
 name: OutSystems
 nav: Providers
 network: true
-overview: 'OutSystems publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ODC User and Access Management API, ODC Portfolio API, ODC Portfolio API (v1), and 10 more. Tagged areas include Company, Low-Code, Application Development, Platform as a Service, and DevOps.
+overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Analysis Status API, Application Roles API, Assets API, and 33 more. Tagged areas include Company, Low-Code, Application Development, Platform as a Service, and DevOps.
 
 
   OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 6
+random_paper: 92
 rate_limits:
 - limit_count: 12
   name: Outsystems Rate Limits
@@ -253,11 +322,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 61.9
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.3
+    contract_quality: 54.6
     developer_ergonomics: 71.2
     discoverability: 92.6
     governance: 11.5
@@ -274,7 +343,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

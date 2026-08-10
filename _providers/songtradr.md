@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -26,12 +26,18 @@ agentic_access:
   operation_count: 19
   slug: songtradr-agentic-access
   summary_line: 19 operations · 8 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 3
 apis:
-- description: 'JWT-authenticated REST API for deep music metadata and auto-tagging. Log in via POST /api/v1/user/login to obtain a bearer JWT, then manage your account and musicube cloud data, initiate presigned-S3 '
-  name: Songtradr API
-  slug: songtradr-api
-artifact_total: 5
+- description: The allowed-values API from Songtradr — 1 operation(s) for allowed-values.
+  name: Songtradr Allowed Values API
+  slug: songtradr-allowed-values-api
+- description: The similarity-vector-controller API from Songtradr — 1 operation(s) for similarity-vector-controller.
+  name: Songtradr Similarity Vector Controller API
+  slug: songtradr-similarity-vector-controller-api
+- description: The user API from Songtradr — 15 operation(s) for user.
+  name: Songtradr User API
+  slug: songtradr-user-api
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -149,24 +155,24 @@ modified: '2026-08-02'
 name: Songtradr
 nav: Providers
 network: true
-overview: 'Songtradr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include music, music-licensing, sync-licensing, music-metadata, and audio-tagging.
+overview: 'Songtradr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Allowed Values API, Similarity Vector Controller API, and User API. Tagged areas include music, music-licensing, sync-licensing, music-metadata, and audio-tagging.
 
 
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Songtradr Rate Limits
   slug: songtradr-rate-limits
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 48.4
+  delta: -0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.6
+    contract_quality: 60.5
     developer_ergonomics: 51.6
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
   previous_composite: 48.7
@@ -181,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

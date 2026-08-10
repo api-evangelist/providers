@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Adialante
 nav: Providers
 network: true
 overview: Adialante is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, MRI, Cancer Screening, and Healthcare.
-random_paper: 27
+random_paper: 3
 score:
   band: minimal
   composite: 4.3
@@ -72,7 +72,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adialante/refs/heads/main/screenshots/adialante-2026-07-25T181628.png
 slug: adialante

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 13
 common:
@@ -112,7 +112,7 @@ overview: 'Roche is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   The Roche catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 77
+random_paper: 65
 score:
   band: minimal
   composite: 11.0
@@ -132,7 +132,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png
 security:

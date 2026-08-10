@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 22
   slug: cresilon-agentic-access
   summary_line: 22 operations
-api_count: 8
+api_count: 10
 apis:
 - description: Public, unauthenticated read access to Cresilon's corporate news and press-release stream — FDA clearance announcements, TRAUMAGEL and VETIGEL launch news, clinical study results, conference presentat
   name: Cresilon News & Press Releases API
@@ -62,7 +62,13 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any cresilon.com URL — the cheapest structured description of a Cresilon page for an agent.
   name: Cresilon SEO Metadata API
   slug: cresilon-seo-api
-artifact_total: 11
+- description: Published authors — 1 at time of capture.
+  name: Cresilon Authors API
+  slug: cresilon-authors-api
+- description: Site comments — anonymously readable, empty at capture.
+  name: Cresilon Comments API
+  slug: cresilon-comments-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -213,18 +219,18 @@ modified: '2026-08-04'
 name: Cresilon
 nav: Providers
 network: true
-overview: 'Cresilon publishes 8 APIs on the [APIs.io](https://apis.io/) network, including News & Press Releases API, Pages API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Medical Devices, Health, and Hemostasis.
+overview: 'Cresilon publishes 10 APIs on the [APIs.io](https://apis.io/) network, including News & Press Releases API, Pages API, Media API, and 7 more. Tagged areas include Company, Biotechnology, Medical Devices, Health, and Hemostasis.
 
 
   Cresilon''s developer surface includes engineering blog, support, signup flow, YouTube channel, authentication, code examples, and 29 more developer resources.'
-random_paper: 72
+random_paper: 51
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 38.1
+  delta: -1.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 61.6
+    contract_quality: 57.1
     developer_ergonomics: 19.0
     discoverability: 92.6
     governance: 11.5
@@ -247,8 +253,9 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/screenshots/cresilon-2026-08-07T163837.png
 security:
 - kind: authentication
   name: Cresilon Authentication

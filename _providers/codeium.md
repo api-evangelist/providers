@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: IDE plugins (VS Code, JetBrains, Vim, Emacs, Visual Studio, Sublime Text, etc.) surfacing autocomplete, chat, command, and Cascade-style agent edits backed by Codeium / Windsurf inference. There is no
@@ -99,7 +99,7 @@ plans:
 - name: Codeium Plans Pricing
   plan_count: 1
   slug: codeium-plans-pricing
-random_paper: 64
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Codeium Rate Limits
@@ -117,7 +117,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/screenshots/codeium-2026-06-20T174702.png
 security:

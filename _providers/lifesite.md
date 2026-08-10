@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'LifeSite is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LifeSite''s developer surface includes engineering blog, support, signup flow, changelog, and 12 more developer resources.'
-random_paper: 62
+random_paper: 41
 score:
   band: emerging
   composite: 18.4
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifesite/refs/heads/main/screenshots/lifesite-2026-07-25T225047.png
 security:

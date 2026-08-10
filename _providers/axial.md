@@ -1,6 +1,79 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/axial-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.axial.net/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://guide.axial.net/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.axial.net/forum/
+- group: start
+  title: ''
+  type: Login
+  url: https://network.axial.net/sign-in
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.axial.net/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.axial.net/legal/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.axial.net/legal/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/axialmarket
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/axial
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/AxialCo
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/axial-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/axial-lifecycle.yml
 coverage:
   checked: '2026-08-06'
   detail: Axial ships its lower-middle-market deal network only as an authenticated end-user application at network.axial.net — api.axial.net resolves in DNS but 404s on every spec path, the app host answers a 15,072-byte SPA shell for any route (so its 200s are a catch-all, not endpoints), and neither the marketing site, the guide.axial.net help center, the published llms.txt nor the Terms of Service mentions an API, SDK or webhook anywhere.
@@ -25,7 +98,32 @@ modified: '2026-08-06'
 name: Axial Networks
 nav: Providers
 network: true
-random_paper: 75
+overview: 'Axial Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mergers and Acquisitions, Private Capital, Deal Sourcing, and Financial Services.
+
+
+  Axial Networks'' developer surface includes engineering blog and 12 more developer resources.'
+random_paper: 63
+score:
+  band: emerging
+  composite: 16.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 16.6
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/axial/refs/heads/main/screenshots/axial-2026-08-07T162034.png
+security:
+- kind: domain-security
+  name: Axial Domain Security
+  slug: axial-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: axial
 tags:
 - Company
@@ -36,4 +134,5 @@ tags:
 - Middle Market
 - Investment Banking
 - Marketplace
+website: https://www.axial.net/
 ---

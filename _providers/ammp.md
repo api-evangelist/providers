@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'AMMP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AMMP''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 88
+random_paper: 79
 score:
   band: emerging
   composite: 19.5
@@ -107,7 +107,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ammp/refs/heads/main/screenshots/ammp-2026-07-25T200104.png
 security:

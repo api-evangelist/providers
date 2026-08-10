@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: 3Plcentral Plans Pricing
   plan_count: 3
   slug: 3plcentral-plans-pricing
-random_paper: 112
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: 3Plcentral Rate Limits
@@ -165,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/screenshots/3plcentral-2026-07-25T181157.png
 security:

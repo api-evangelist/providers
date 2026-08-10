@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Fhenix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fhenix''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: emerging
   composite: 17.9
@@ -109,7 +109,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fhenix/refs/heads/main/screenshots/fhenix-2026-07-25T214400.png
 security:

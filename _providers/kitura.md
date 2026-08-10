@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Kitura is an open source web framework for server-side Swift, originally built by IBM. The project enabled developers to build web applications and REST APIs in Swift with support for databases, WebSo
@@ -57,7 +57,7 @@ plans:
 - name: Kitura Plans Pricing
   plan_count: 3
   slug: kitura-plans-pricing
-random_paper: 91
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Kitura Rate Limits
@@ -75,7 +75,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitura/refs/heads/main/screenshots/kitura-2026-06-20T184053.png
 security:

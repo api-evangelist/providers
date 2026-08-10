@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 68.9
-  scored_at: '2026-08-06'
+  score: 58.8
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -26,71 +26,8 @@ agentic_access:
   operation_count: 375
   slug: altr-agentic-access
   summary_line: 375 operations · 190 acting · 10 human-in-the-loop
-api_count: 24
+api_count: 69
 apis:
-- description: Core ALTR platform configuration API — data sources, databases, policies, users, roles, tags, tokenization settings, and account preferences. The largest of ALTR's public surfaces and the API the ALTR
-  name: ALTR Management API (MAPI)
-  slug: altr-management-api-mapi
-- description: Single API for creating and managing ALTR policies across every policy type (tag-based masking, column-based masking, access management, tokenization) and every supported platform.
-  name: Unified Policy API
-  slug: unified-policy-api
-- description: Creates and revokes grants on roles inside a Snowflake database, giving programmatic control of role-based access to governed objects.
-  name: RBAC API
-  slug: rbac-api
-- description: Manages classifiers, classifier collections, and classification jobs across Snowflake, Databricks and OLTP sources — including GDLP scans, findings-tree navigation, match confidence, and human-in-the-
-  name: ALTR Classification Engine API
-  slug: altr-classification-engine-api
-- description: Applies Snowflake object tags automatically from ALTR classification results so masking policies bind to newly discovered sensitive columns without manual tagging.
-  name: Auto Tagging API
-  slug: auto-tagging-api
-- description: Connects Snowflake tags to ALTR and manages the tag-based masking policies and per-role masking rules applied to tagged columns.
-  name: Tag Masking API
-  slug: tag-masking-api
-- description: Refreshes the tag values ALTR holds for a connected Snowflake account so policy evaluation stays in sync with tag changes made in the warehouse.
-  name: Snowflake Tag Value Refresh API
-  slug: snowflake-tag-value-refresh-api
-- description: Alpha API for registering a Databricks service principal and workspace with ALTR and applying tag-based governance policy pushdown to a Databricks metastore.
-  name: Tag-based Governance Policy on Databricks (alpha)
-  slug: tag-based-governance-policy-on-databricks-alpha
-- description: Reads structural metadata about connected datastores — databases, schemas, tables and columns — so classification and policy tooling can navigate a data source's shape.
-  name: ALTR Datastore Information Service (DIS)
-  slug: altr-datastore-information-service-dis
-- description: Retrieves Snowflake account metadata — databases, schemas, tables, columns, roles and warehouses — that ALTR uses to scope classification and policy.
-  name: Snowflake Metadata API
-  slug: snowflake-metadata-api
-- description: Retrieves query audit records captured by ALTR's database activity monitoring for governed Snowflake queries.
-  name: Query Audits API
-  slug: query-audits-api
-- description: Serves the aggregated query-activity views behind ALTR's database activity monitoring dashboard.
-  name: Query Dashboard API
-  slug: query-dashboard-api
-- description: Manages database-activity-monitoring alert rules, triggered alerts, and alert acknowledgement.
-  name: DAM Alerting API
-  slug: dam-alerting-api
-- description: Creates, schedules and reviews structured audit report definitions and instances — including download URLs, comments, and review sign-offs — for compliance artifacts in PDF and CSV.
-  name: ALTR Audit Report API
-  slug: altr-audit-report-api
-- description: Manages the notification delivery channels ALTR routes alerts and platform events through.
-  name: ALTR Notification Integration API
-  slug: altr-notification-integration-api
-- description: Tokenizes, detokenizes, partially detokenizes and deletes values through ALTR's PCI-compliant critical tokenization service.
-  name: Critical Tokenization API
-  slug: critical-tokenization-api
-- description: Configures the ALTR sidecar proxy estate — agents, agent tasks, repositories, repo users, service users, sidecars, listeners and bindings — for OLTP data sources such as PostgreSQL, MySQL, SQL Server,
-  name: ALTR Sidecar/Agent Configuration API
-  slug: altr-sidecaragent-configuration-api
-- description: Searches the audit records the ALTR sidecar proxy captures for governed OLTP database traffic.
-  name: Sidecar Audit API
-  slug: sidecar-audit-api
-- description: Reports health and telemetry for ALTR sidecar proxy agents and sidecar instances.
-  name: ALTR Telemetry API
-  slug: altr-telemetry-api
-- description: Issues the short-lived access tokens ALTR sidecar components use to authenticate to the sidecar control plane.
-  name: Access Tokens API
-  slug: access-tokens-api
-- description: Manages the service users ALTR uses to connect to and act on governed data sources.
-  name: Service User Service API
-  slug: service-user-service-api
 - description: Tokenizes and detokenizes sensitive data through ALTR's token vault for analytics and transactional workloads, including bring-your-own-key. The public reference endpoint returns HTTP 403 to anonymous
   name: Vaulted Tokenization API
   slug: vaulted-tokenization-api
@@ -100,7 +37,205 @@ apis:
 - description: Official open-source Model Context Protocol server published by ALTR, exposing 156 tools across 13 domains (databases, tags, policies, classification, access management, access requests, audits, audit
   name: ALTR MCP Server
   slug: altr-mcp-server
-artifact_total: 31
+- description: The access_request API from ALTR — 5 operation(s) for access_request.
+  name: ALTR Access Request API
+  slug: altr-access-request-api
+- description: Operations about administrators
+  name: ALTR Administrators API
+  slug: altr-administrators-api
+- description: The Agent API from ALTR — 2 operation(s) for agent.
+  name: ALTR Agent API
+  slug: altr-agent-api
+- description: The Agent Tasks API from ALTR — 2 operation(s) for agent tasks.
+  name: ALTR Agent Tasks API
+  slug: altr-agent-tasks-api
+- description: The Agents API from ALTR — 2 operation(s) for agents.
+  name: ALTR Agents API
+  slug: altr-agents-api
+- description: The Alerts API from ALTR — 4 operation(s) for alerts.
+  name: ALTR Alerts API
+  slug: altr-alerts-api
+- description: The ALTR Managed Collections API from ALTR — 8 operation(s) for altr managed collections.
+  name: ALTR ALTR Managed Collections API
+  slug: altr-altr-managed-collections-api
+- description: Operations about anomalies
+  name: ALTR Anomalies API
+  slug: altr-anomalies-api
+- description: Operations about ApiKeys
+  name: ALTR Apikeys API
+  slug: altr-apikeys-api
+- description: Operations about applications
+  name: ALTR Applications API
+  slug: altr-applications-api
+- description: The Auth API from ALTR — 3 operation(s) for auth.
+  name: ALTR Auth API
+  slug: altr-auth-api
+- description: The Auto Tagging API API from ALTR — 10 operation(s) for auto tagging api.
+  name: ALTR Auto Tagging API API
+  slug: altr-auto-tagging-api-api
+- description: The batch API from ALTR — 3 operation(s) for batch.
+  name: ALTR Batch API
+  slug: altr-batch-api
+- description: Operations about data classification
+  name: ALTR Classification API
+  slug: altr-classification-api
+- description: The Classification Jobs API from ALTR — 21 operation(s) for classification jobs.
+  name: ALTR Classification Jobs API
+  slug: altr-classification-jobs-api
+- description: The Classifiers API from ALTR — 5 operation(s) for classifiers.
+  name: ALTR Classifiers API
+  slug: altr-classifiers-api
+- description: The Collections API from ALTR — 5 operation(s) for collections.
+  name: ALTR Collections API
+  slug: altr-collections-api
+- description: The Comments API from ALTR — 3 operation(s) for comments.
+  name: ALTR Comments API
+  slug: altr-comments-api
+- description: Configuration information for the ALTRNet
+  name: ALTR Configuration API
+  slug: altr-configuration-api
+- description: The Control Plane API from ALTR — 1 operation(s) for control plane.
+  name: ALTR Control Plane API
+  slug: altr-control-plane-api
+- description: Protected, Governed, Tokenized, and FPE Columns Endpoints
+  name: ALTR Data API
+  slug: altr-data-api
+- description: Data Classification/Tagging job endpoints
+  name: ALTR Data Discovery API
+  slug: altr-data-discovery-api
+- description: Access to column info around available masking types
+  name: ALTR Data Masking API
+  slug: altr-data-masking-api
+- description: Information around tagged columns
+  name: ALTR Data Tagging API
+  slug: altr-data-tagging-api
+- description: Operations about data sources
+  name: ALTR Databases API
+  slug: altr-databases-api
+- description: Operations related to applying tag-based governance policies to Databricks
+  name: ALTR Databricks Tag Policy API
+  slug: altr-databricks-tag-policy-api
+- description: The Definitions API from ALTR — 4 operation(s) for definitions.
+  name: ALTR Definitions API
+  slug: altr-definitions-api
+- description: The Instances API from ALTR — 3 operation(s) for instances.
+  name: ALTR Instances API
+  slug: altr-instances-api
+- description: The Integrations API from ALTR — 3 operation(s) for integrations.
+  name: ALTR Integrations API
+  slug: altr-integrations-api
+- description: Operations related to masking policies
+  name: ALTR Maskingpolicies API
+  slug: altr-maskingpolicies-api
+- description: Operations related to the currently logged in administrator
+  name: ALTR Me API
+  slug: altr-me-api
+- description: Operations related to the currently logged in users metadata and current organizations metadata.
+  name: ALTR Metadata API
+  slug: altr-metadata-api
+- description: Operations about organization
+  name: ALTR Organization API
+  slug: altr-organization-api
+- description: Operations related to the features the organization has
+  name: ALTR Plan API
+  slug: altr-plan-api
+- description: The policy API from ALTR — 13 operation(s) for policy.
+  name: ALTR Policy API
+  slug: altr-policy-api
+- description: The Query Audits API API from ALTR — 2 operation(s) for query audits api.
+  name: ALTR Query Audits API API
+  slug: altr-query-audits-api-api
+- description: The Query Dashboard API API from ALTR — 2 operation(s) for query dashboard api.
+  name: ALTR Query Dashboard API API
+  slug: altr-query-dashboard-api-api
+- description: The RBAC API API from ALTR — 11 operation(s) for rbac api.
+  name: ALTR RBAC API API
+  slug: altr-rbac-api-api
+- description: The Refresh Tag Value Job API from ALTR — 2 operation(s) for refresh tag value job.
+  name: ALTR Refresh Tag Value Job API
+  slug: altr-refresh-tag-value-job-api
+- description: The Repo Users API from ALTR — 2 operation(s) for repo users.
+  name: ALTR Repo Users API
+  slug: altr-repo-users-api
+- description: The Repos API from ALTR — 2 operation(s) for repos.
+  name: ALTR Repos API
+  slug: altr-repos-api
+- description: Operations related to row access policy
+  name: ALTR Rowaccess API
+  slug: altr-rowaccess-api
+- description: The Rules API from ALTR — 6 operation(s) for rules.
+  name: ALTR Rules API
+  slug: altr-rules-api
+- description: Operations related to SCIM
+  name: ALTR SCIM API
+  slug: altr-scim-api
+- description: The Service Users API from ALTR — 3 operation(s) for service users.
+  name: ALTR Service Users API
+  slug: altr-service-users-api
+- description: Operations about the setup-guide
+  name: ALTR Setup Guide API
+  slug: altr-setup-guide-api
+- description: The Sidecar API from ALTR — 2 operation(s) for sidecar.
+  name: ALTR Sidecar API
+  slug: altr-sidecar-api
+- description: The Sidecar Audit API API from ALTR — 2 operation(s) for sidecar audit api.
+  name: ALTR Sidecar Audit API API
+  slug: altr-sidecar-audit-api-api
+- description: The Sidecar Listener Port and Repo bindings API from ALTR — 3 operation(s) for sidecar listener port and repo bindings.
+  name: ALTR Sidecar Listener Port and Repo bindings API
+  slug: altr-sidecar-listener-port-and-repo-bindings-api
+- description: The Sidecar Listeners API from ALTR — 2 operation(s) for sidecar listeners.
+  name: ALTR Sidecar Listeners API
+  slug: altr-sidecar-listeners-api
+- description: The Sidecars API from ALTR — 2 operation(s) for sidecars.
+  name: ALTR Sidecars API
+  slug: altr-sidecars-api
+- description: The Sign-Off API from ALTR — 2 operation(s) for sign-off.
+  name: ALTR Sign Off API
+  slug: altr-sign-off-api
+- description: The Snowflake Metadata API API from ALTR — 13 operation(s) for snowflake metadata api.
+  name: ALTR Snowflake Metadata API API
+  slug: altr-snowflake-metadata-api-api
+- description: Operations related to Single Sign-On
+  name: ALTR SSO API
+  slug: altr-sso-api
+- description: The Subscriptions API from ALTR — 3 operation(s) for subscriptions.
+  name: ALTR Subscriptions API
+  slug: altr-subscriptions-api
+- description: Operations related to system audits
+  name: ALTR Systemaudits API
+  slug: altr-systemaudits-api
+- description: Operations related to asynchronously querying system audits
+  name: ALTR Systemaudits/query API
+  slug: altr-systemaudits-query-api
+- description: The Tag Masking API API from ALTR — 3 operation(s) for tag masking api.
+  name: ALTR Tag Masking API API
+  slug: altr-tag-masking-api-api
+- description: Operations related to tags
+  name: ALTR Tags API
+  slug: altr-tags-api
+- description: The Task API from ALTR — 2 operation(s) for task.
+  name: ALTR Task API
+  slug: altr-task-api
+- description: The Tasks API from ALTR — 3 operation(s) for tasks.
+  name: ALTR Tasks API
+  slug: altr-tasks-api
+- description: Operations about thresholds
+  name: ALTR Thresholds API
+  slug: altr-thresholds-api
+- description: The Unsubscribe API from ALTR — 1 operation(s) for unsubscribe.
+  name: ALTR Unsubscribe API
+  slug: altr-unsubscribe-api
+- description: Operations related to user groups
+  name: ALTR Usergroups API
+  slug: altr-usergroups-api
+- description: The Users API from ALTR — 3 operation(s) for users.
+  name: ALTR Users API
+  slug: altr-users-api
+- description: Access DIS job and third party import information.
+  name: ALTR Utility API
+  slug: altr-utility-api
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Altr Events Webhooks
@@ -266,26 +401,40 @@ modified: '2026-08-06'
 name: ALTR
 nav: Providers
 network: true
-overview: 'ALTR publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Management API (MAPI), Unified Policy API, RBAC API, and 18 more. Tagged areas include data-security, data-governance, data-masking, tokenization, and data-classification.
+overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include data-security, data-governance, data-masking, tokenization, and data-classification.
 
 
   The ALTR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 96
+random_paper: 87
 score:
   band: strong
-  composite: 61.5
+  composite: 58.9
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.7
-    developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 65.8
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 39.5
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 57.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:
 - kind: authentication
   name: Altr Authentication

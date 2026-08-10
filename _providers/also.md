@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 6
   slug: also-agentic-access
   summary_line: 6 operations
-api_count: 3
+api_count: 6
 apis:
 - description: 'The Shopify Storefront GraphQL API served on ALSO''s own domain. Open, unauthenticated introspection was confirmed; 35 root queries (products, collections, cart, search, blogs, shop, localization) and '
   name: ALSO Storefront GraphQL API
@@ -34,10 +34,19 @@ apis:
 - description: ALSO's Universal Commerce Protocol (UCP) endpoint, advertised in its own /.well-known/ucp discovery profile and /agents.md. Exposes the dev.ucp.shopping service over MCP transport for agent-driven cat
   name: ALSO UCP Commerce MCP API
   slug: also-ucp-commerce-mcp-api
-- description: The read-only JSON storefront endpoints ALSO documents for agents in its own agents.md - product and collection listings, per-product and per-collection JSON, storefront search, and the live cart reso
-  name: ALSO Storefront JSON API
-  slug: also-storefront-json-api
-artifact_total: 9
+- description: The current session cart.
+  name: Also Cart API
+  slug: also-cart-api
+- description: Collection listings and the products within a collection.
+  name: Also Collections API
+  slug: also-collections-api
+- description: Product catalog listings and per-product detail.
+  name: Also Products API
+  slug: also-products-api
+- description: Storefront search.
+  name: Also Search API
+  slug: also-search-api
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -191,11 +200,11 @@ modified: '2026-08-02'
 name: Also
 nav: Providers
 network: true
-overview: 'Also publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront JSON API. Tagged areas include Company, Micromobility, Electric Vehicles, Transportation, and E-Commerce.
+overview: 'Also publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Products API, and 1 more. Tagged areas include Company, Micromobility, Electric Vehicles, Transportation, and E-Commerce.
 
 
   Also''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 92
+random_paper: 83
 rate_limits:
 - limit_count: 0
   name: Also Rate Limits
@@ -207,11 +216,11 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 44.2
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.3
+    contract_quality: 55.4
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
@@ -228,8 +237,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:
 - kind: authentication
   name: Also Authentication

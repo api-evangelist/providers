@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ overview: 'Due publishes 18 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
-random_paper: 92
+random_paper: 86
 score:
   band: developing
   composite: 47.8
@@ -273,7 +273,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

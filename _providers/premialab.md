@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Client-facing REST API for PremiaLab's portfolio analytics, quantitative strategy database, and risk reporting platform. Protected by OAuth2/OpenID Connect; access is provisioned for institutional cli
@@ -85,7 +85,7 @@ overview: 'PremiaLab publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   PremiaLab''s developer surface includes authentication, engineering blog, support, and 6 more developer resources.'
-random_paper: 37
+random_paper: 13
 scopes:
 - name: Premialab Scopes
   scope_count: 7
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

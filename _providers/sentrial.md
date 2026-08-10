@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Track events within agent sessions.
@@ -147,7 +147,7 @@ overview: 'Sentrial publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sentrial''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 16 more developer resources.'
-random_paper: 75
+random_paper: 54
 score:
   band: developing
   composite: 45.9
@@ -170,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

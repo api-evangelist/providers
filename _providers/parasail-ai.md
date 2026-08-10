@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,41 +10,293 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-08-10'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Parasail Ai Agentic Access
+  operation_count: 20
+  slug: parasail-ai-agentic-access
+  summary_line: 20 operations · 12 acting
 api_count: 7
-artifact_total: 0
+apis:
+- description: Create, list, retrieve, and cancel batch inference jobs.
+  name: Parasail Batch API
+  slug: parasail-ai-batch-api
+- description: Chat completions for conversational LLM workloads.
+  name: Parasail Chat API
+  slug: parasail-ai-chat-api
+- description: Legacy text completions for prompt-only LLM workloads.
+  name: Parasail Completions API
+  slug: parasail-ai-completions-api
+- description: Manage dedicated GPU deployments for custom and reserved-capacity inference.
+  name: Parasail Deployments API
+  slug: parasail-ai-deployments-api
+- description: Vector embeddings for RAG, semantic search, and similarity workloads.
+  name: Parasail Embeddings API
+  slug: parasail-ai-embeddings-api
+- description: Upload and manage input/output JSONL files used by Batch jobs.
+  name: Parasail Files API
+  slug: parasail-ai-files-api
+- description: Discover the models currently exposed on the serverless tier.
+  name: Parasail Models API
+  slug: parasail-ai-models-api
+artifact_total: 41
+collections:
+- collection_type: open
+  name: Parasail Batch API
+  slug: open-parasail-batch-api
+- collection_type: open
+  name: Parasail Dedicated Deployments API
+  slug: open-parasail-dedicated-api
+- collection_type: open
+  name: Parasail Inference API
+  slug: open-parasail-inference-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/parasail-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/parasail-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/parasail-ai-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://parasail.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.parasail.io/parasail-docs/
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.saas.parasail.io/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.saas.parasail.io/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://parasail.io/blogs
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://parasail.io/about-us
+- group: company
+  title: ''
+  type: Careers
+  url: https://job-boards.greenhouse.io/parasail
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://parasail.io/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://parasail.io/legal/terms-of-service
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/parasail-ai
+- group: operate
+  title: ''
+  type: Forums
+  url: https://discord.gg/parasail
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/parasail-ai
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/parasail_io
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/parasail-ai/openai-batch
+- group: build
+  title: ''
+  type: CodeExamples
+  url: https://github.com/parasail-ai/cookbook
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/parasail-ai/kvcached
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/parasail-ai/vllm-public
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/parasail-ai/curator
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/parasail-ai/simple-evals
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/parasail-ai/VLMEvalKit
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/parasail-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/parasail-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/parasail-finops.yml
 created: '2026-05-25T00:00:00.000Z'
-description: 'Parasail is an AI Supercloud — a pay-per-token GPU inference platform aimed at AI
-
-  startups and developers. Parasail orchestrates rented GPU capacity across 40+
-
-  data centers in 15+ countries to serve open-weight LLMs, vision/multimodal models,
-
-  embedding models, and TTS/STT models on a serverless, dedicated, or batch basis.
-
-  The platform exposes OpenAI-compatible /v1 endpoints for chat completions,
-
-  completions, embeddings, batch, and models, plus a control-plane /api/v1 for
-
-  managing dedicated GPU deployments of any Hugging Face or custom model. Parasail
-
-  serves 500B+ tokens per day and is positioned as up to 30x cheaper than legacy
-
-  cloud providers, with no quotas, no rate-limit penalties, and no long-term
-
-  contracts. Co-founded by Mike Henry (ex-Mythic) and Tim Harris (ex-Swift
-
-  Navigation); raised a $32M Series A in April 2026 (Touring Capital and Kindred
-
-  Ventures) bringing total funding to $42M.
-
-  '
+description: Parasail is an AI Supercloud — a pay-per-token GPU inference platform aimed at AI startups and developers. Parasail orchestrates rented GPU capacity across 40+ data centers in 15+ countries to serve open-weight LLMs, vision/multimodal models, embedding models, and TTS/STT models on a serverless, dedicated, or batch basis. The platform exposes OpenAI-compatible /v1 endpoints for chat completions, completions, embeddings, batch, and models, plus a control-plane /api/v1 for managing dedicated GPU deployments of any Hugging Face or custom model. Parasail serves 500B+ tokens per day and is positioned as up to 30x cheaper than legacy cloud providers, with no quotas, no rate-limit penalties, and no long-term contracts. Co-founded by Mike Henry (ex-Mythic) and Tim Harris (ex-Swift Navigation); raised a $32M Series A in April 2026 (Touring Capital and Kindred Ventures) bringing total funding to $42M.
+examples:
+- key_count: 2
+  name: Parasail Chat Completion Example
+  slug: parasail-chat-completion-example
+- key_count: 2
+  name: Parasail Create Batch Example
+  slug: parasail-create-batch-example
+- key_count: 2
+  name: Parasail Create Deployment Example
+  slug: parasail-create-deployment-example
+- key_count: 2
+  name: Parasail Embedding Example
+  slug: parasail-embedding-example
+features:
+- Pay-per-token serverless GPU inference with no quotas or contracts
+- OpenAI-compatible /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/models
+- Batch API at 50% off serverless (plus 30% off cached tokens) with 24-hour window
+- Dedicated and Dedicated Serverless deployments for reserved GPU capacity
+- Bring-your-own model from Hugging Face or custom weights
+- Day-0 support for frontier open-weight LLMs (DeepSeek, Qwen, Llama, OLMo, Kimi)
+- Vision, multimodal, embeddings, and TTS (Resemble, Orpheus) model surfaces
+- Global GPU orchestration across 40+ data centers in 15+ countries
+- 500B+ tokens served per day
+- Sub-500ms latency suitable for voice agents
+- Up to 30x cheaper than legacy cloud providers
+- Speculative decoding (EAGLE) and KV-cache virtualization for performance
+- Free starter credits and usage-tier auto-advancement (5 / 500 / 1000 / 4000 RPM)
+- OpenAI Python and TypeScript SDK compatibility via base_url override
+- $42M total funding (April 2026 Series A) — Touring Capital, Kindred Ventures, Samsung NEXT
+finops:
+- name: Parasail Finops
+  service_category: ''
+  slug: parasail-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parasail-ai.png
+json_schemas:
+- name: Parasail Batch
+  property_count: 12
+  slug: parasail-batch
+- name: Parasail Chat Completion
+  property_count: 6
+  slug: parasail-chat-completion
+- name: Parasail Dedicated Deployment
+  property_count: 10
+  slug: parasail-deployment
+jsonld:
+- class_count: 7
+  name: Parasail Context
+  property_count: 12
+  slug: parasail-context
 layout: provider
 modified: '2026-05-25'
 name: Parasail
 nav: Providers
 network: true
-random_paper: 75
+overview: 'Parasail publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Chat API, Completions API, and 4 more. Tagged areas include AI, Artificial Intelligence, GPU, Inference, and Large Language Models.
+
+
+  The Parasail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Parasail''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, code examples, and 19 more developer resources.'
+plans:
+- name: Parasail Plans Pricing
+  plan_count: 7
+  slug: parasail-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 0
+  name: Parasail Rate Limits
+  slug: parasail-rate-limits
+rules:
+- name: Parasail API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: parasail-ai-jsonschema-spectral-rules
+- name: Parasail API Rules
+  rule_count: 5
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 2
+  slug: parasail-rules
+score:
+  band: strong
+  composite: 56.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 78.3
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 58.3
+    operational_transparency: 5.3
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png
+security:
+- kind: authentication
+  name: Parasail Ai Authentication
+  slug: parasail-ai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Parasail Ai Domain Security
+  slug: parasail-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: parasail-ai
 tags:
 - AI
@@ -60,4 +310,5 @@ tags:
 - Embeddings
 - Tokenmaxxing
 - Supercloud
+website: https://parasail.io
 ---

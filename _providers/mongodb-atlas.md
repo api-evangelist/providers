@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ overview: 'MongoDB Atlas publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   MongoDB Atlas'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 77
+random_paper: 44
 score:
   band: thin
   composite: 30.6
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/screenshots/mongodb-atlas-2026-06-20T185729.png
 security:

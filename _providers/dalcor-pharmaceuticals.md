@@ -18,13 +18,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The anonymously readable WordPress REST API behind dalcorpharma.com. It exposes DalCor's press releases (posts, all in the press-releases category), the corporate and clinical-programme pages (About D
-  name: DalCor Pharmaceuticals Content API
-  slug: dalcor-pharmaceuticals-content-api
-artifact_total: 3
+- description: Post categories
+  name: DalCor Pharmaceuticals Categories API
+  slug: dalcor-pharmaceuticals-categories-api
+- description: Comments on posts (collection is empty on this site)
+  name: DalCor Pharmaceuticals Comments API
+  slug: dalcor-pharmaceuticals-comments-api
+- description: Site index, namespace route index, content types, taxonomies and statuses
+  name: DalCor Pharmaceuticals Discovery API
+  slug: dalcor-pharmaceuticals-discovery-api
+- description: Media library items (logos, poster PDFs/JPEGs, trial imagery)
+  name: DalCor Pharmaceuticals Media API
+  slug: dalcor-pharmaceuticals-media-api
+- description: Corporate, science and clinical-trial pages
+  name: DalCor Pharmaceuticals Pages API
+  slug: dalcor-pharmaceuticals-pages-api
+- description: DalCor press releases and corporate news
+  name: DalCor Pharmaceuticals Posts API
+  slug: dalcor-pharmaceuticals-posts-api
+- description: Cross-content search
+  name: DalCor Pharmaceuticals Search API
+  slug: dalcor-pharmaceuticals-search-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -131,20 +149,20 @@ modified: '2026-08-04'
 name: DalCor Pharmaceuticals
 nav: Providers
 network: true
-overview: 'DalCor Pharmaceuticals publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, pharmaceuticals, biotechnology, cardiovascular, and precision-medicine.
+overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 4 more. Tagged areas include Company, pharmaceuticals, biotechnology, cardiovascular, and precision-medicine.
 
 
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 22 more developer resources.'
-random_paper: 4
+random_paper: 60
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 30.5
+  delta: -0.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 60.6
+    contract_quality: 57.5
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 30.7
@@ -157,8 +175,9 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:
 - kind: authentication
   name: Dalcor Pharmaceuticals Authentication

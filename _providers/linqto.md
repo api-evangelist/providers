@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The linqto.com marketing, blog, and market-insights site runs on WordPress and exposes the standard public WordPress REST API at /wp-json/. The route index reports 472 routes across 19 namespaces (inc
@@ -110,7 +110,7 @@ overview: 'Linqto publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Linqto''s developer surface includes engineering blog, support, FAQ, getting-started guide, signup flow, and 12 more developer resources.'
-random_paper: 98
+random_paper: 83
 score:
   band: emerging
   composite: 19.7
@@ -124,8 +124,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linqto/refs/heads/main/screenshots/linqto-2026-08-07T171717.png
 security:
 - kind: domain-security
   name: Linqto Domain Security

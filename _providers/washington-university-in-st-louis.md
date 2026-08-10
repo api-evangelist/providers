@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'Institutional integration APIs published via MuleSoft Anypoint Exchange ("WashU API Portal"), covering Person, Financial, Supplier, Location, Academic, and Organization data domains. Access is gated: '
@@ -103,7 +103,7 @@ plans:
 - name: Washington University In St Louis Plans Pricing
   plan_count: 2
   slug: washington-university-in-st-louis-plans-pricing
-random_paper: 4
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Washington University In St Louis Rate Limits
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/washington-university-in-st-louis/refs/heads/main/screenshots/washington-university-in-st-louis-2026-06-20T201236.png
 security:

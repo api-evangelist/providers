@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,11 +119,11 @@ overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/)
 
 
   Precision Neuroscience''s developer surface includes product news, engineering blog, and 15 more developer resources.'
-random_paper: 40
+random_paper: 96
 score:
   band: minimal
   composite: 12.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -131,11 +131,11 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 13.7
+  previous_composite: 12.6
   provenance:
     conformance: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

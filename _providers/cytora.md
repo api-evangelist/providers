@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Cytora's production REST API for digital risk processing — the "preferred method" of submission intake described in its own Risk Flow Academy. The gateway is real (api.cytora.com resolves via gateway.
@@ -142,7 +142,7 @@ overview: 'Cytora publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cytora''s developer surface includes documentation, engineering blog, authentication, support, and 21 more developer resources.'
-random_paper: 93
+random_paper: 78
 scopes:
 - name: Cytora Scopes
   scope_count: 14
@@ -169,7 +169,7 @@ score:
     regime_id: insurance
     score: 65.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cytora/refs/heads/main/screenshots/cytora-2026-07-25T211113.png
 security:

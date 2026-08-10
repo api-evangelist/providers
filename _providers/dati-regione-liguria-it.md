@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Liguria Open Data, ~123 datasets. Base URL https://dati.regione.liguria.it/api/3/action/.
@@ -84,7 +84,7 @@ plans:
 - name: Dati Regione Liguria It Plans Pricing
   plan_count: 1
   slug: dati-regione-liguria-it-plans-pricing
-random_paper: 8
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Dati Regione Liguria It Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png
 security:

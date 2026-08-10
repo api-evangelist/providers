@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Digits
 nav: Providers
 network: true
 overview: Digits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, General Ledger, and Financial Reporting.
-random_paper: 40
+random_paper: 114
 score:
   band: minimal
   composite: 5.0
@@ -62,8 +62,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digits-financial/refs/heads/main/screenshots/digits-financial-2026-08-07T164347.png
 slug: digits-financial
 tags:
 - Company

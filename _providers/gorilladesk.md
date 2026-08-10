@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Gorilladesk Plans Pricing
   plan_count: 4
   slug: gorilladesk-plans-pricing
-random_paper: 39
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Gorilladesk Rate Limits
@@ -149,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/screenshots/gorilladesk-2026-07-25T220117.png
 security:

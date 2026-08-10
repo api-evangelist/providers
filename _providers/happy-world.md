@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Happy World is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Happy World''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 13
+random_paper: 99
 score:
   band: minimal
   composite: 11.9
@@ -79,7 +79,7 @@ score:
     regime_id: payments
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happy-world/refs/heads/main/screenshots/happy-world-2026-07-25T220646.png
 slug: happy-world

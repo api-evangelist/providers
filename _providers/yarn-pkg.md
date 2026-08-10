@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -252,7 +252,7 @@ overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 32 more developer resources.'
-random_paper: 18
+random_paper: 113
 rules:
 - name: Yarn API Rules
   rule_count: 5
@@ -275,7 +275,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 30.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn-pkg/refs/heads/main/screenshots/yarn-pkg-2026-06-20T201737.png
 security:

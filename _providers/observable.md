@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ overview: 'Observable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Observable''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, changelog, CLI, and 13 more developer resources.'
-random_paper: 44
+random_paper: 17
 score:
   band: thin
   composite: 29.8
@@ -139,8 +139,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/observable/refs/heads/main/screenshots/observable-2026-08-07T185913.png
 security:
 - kind: domain-security
   name: Observable Domain Security

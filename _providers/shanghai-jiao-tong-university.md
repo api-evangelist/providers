@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: jAccount is SJTU's identity and single sign-on system. It provides OAuth 2.0 and OpenID Connect authorization for third-party member sites, including an authorization endpoint, token endpoint, and use
@@ -123,7 +123,7 @@ plans:
 - name: Shanghai Jiao Tong University Plans Pricing
   plan_count: 2
   slug: shanghai-jiao-tong-university-plans-pricing
-random_paper: 13
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Shanghai Jiao Tong University Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/screenshots/shanghai-jiao-tong-university-2026-06-20T193853.png
 security:

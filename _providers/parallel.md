@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ overview: 'Parallel publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 29 more developer resources.'
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits
@@ -272,8 +272,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-07T191420.png
 security:
 - kind: authentication
   name: Parallel Authentication

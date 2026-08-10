@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,14 +17,122 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 40.8
+  scored_at: '2026-08-10'
+api_count: 37
 apis:
-- description: The Alleva REST API ("Alleva Rest Api", OpenAPI 3.0.1) exposes 424 operations across 37 resource groups covering clients, prospects and intake, appointments and sessions, beds/rooms/occupancy and rese
-  name: Alleva REST API
-  slug: alleva-rest-api
-artifact_total: 6
+- description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
+  name: Alleva Advanced Form API
+  slug: alleva-advancedform-api
+- description: The AdvancedFormDataBackup API from Alleva — 2 operation(s) for advancedformdatabackup.
+  name: Alleva Advanced Form Data Backup API
+  slug: alleva-advancedformdatabackup-api
+- description: The AdvancedFormElement API from Alleva — 2 operation(s) for advancedformelement.
+  name: Alleva Advanced Form Element API
+  slug: alleva-advancedformelement-api
+- description: The AdvancedFormInstance API from Alleva — 2 operation(s) for advancedforminstance.
+  name: Alleva Advanced Form Instance API
+  slug: alleva-advancedforminstance-api
+- description: The Appointments API from Alleva — 4 operation(s) for appointments.
+  name: Alleva Appointments API
+  slug: alleva-appointments-api
+- description: The Bed API from Alleva — 4 operation(s) for bed.
+  name: Alleva Bed API
+  slug: alleva-bed-api
+- description: The BedOccupancy API from Alleva — 28 operation(s) for bedoccupancy.
+  name: Alleva Bed Occupancy API
+  slug: alleva-bedoccupancy-api
+- description: The BedReservation API from Alleva — 20 operation(s) for bedreservation.
+  name: Alleva Bed Reservation API
+  slug: alleva-bedreservation-api
+- description: The ClientDevice API from Alleva — 4 operation(s) for clientdevice.
+  name: Alleva Client Device API
+  slug: alleva-clientdevice-api
+- description: The Clients API from Alleva — 38 operation(s) for clients.
+  name: Alleva Clients API
+  slug: alleva-clients-api
+- description: The DataFacet API from Alleva — 2 operation(s) for datafacet.
+  name: Alleva Data Facet API
+  slug: alleva-datafacet-api
+- description: The DataValue API from Alleva — 4 operation(s) for datavalue.
+  name: Alleva Data Value API
+  slug: alleva-datavalue-api
+- description: The DischargePlan API from Alleva — 4 operation(s) for dischargeplan.
+  name: Alleva Discharge Plan API
+  slug: alleva-dischargeplan-api
+- description: The Document API from Alleva — 6 operation(s) for document.
+  name: Alleva Document API
+  slug: alleva-document-api
+- description: The Facilities API from Alleva — 8 operation(s) for facilities.
+  name: Alleva Facilities API
+  slug: alleva-facilities-api
+- description: The Homework API from Alleva — 8 operation(s) for homework.
+  name: Alleva Homework API
+  slug: alleva-homework-api
+- description: The IncidentReport API from Alleva — 4 operation(s) for incidentreport.
+  name: Alleva Incident Report API
+  slug: alleva-incidentreport-api
+- description: The Intake API from Alleva — 8 operation(s) for intake.
+  name: Alleva Intake API
+  slug: alleva-intake-api
+- description: The LevelOfCare API from Alleva — 4 operation(s) for levelofcare.
+  name: Alleva Level Of Care API
+  slug: alleva-levelofcare-api
+- description: The ManageIntake API from Alleva — 12 operation(s) for manageintake.
+  name: Alleva Manage Intake API
+  slug: alleva-manageintake-api
+- description: The MasterCodes API from Alleva — 2 operation(s) for mastercodes.
+  name: Alleva Master Codes API
+  slug: alleva-mastercodes-api
+- description: The Medications API from Alleva — 4 operation(s) for medications.
+  name: Alleva Medications API
+  slug: alleva-medications-api
+- description: The Organizations API from Alleva — 6 operation(s) for organizations.
+  name: Alleva Organizations API
+  slug: alleva-organizations-api
+- description: The Pronoun API from Alleva — 4 operation(s) for pronoun.
+  name: Alleva Pronoun API
+  slug: alleva-pronoun-api
+- description: The Prospects API from Alleva — 12 operation(s) for prospects.
+  name: Alleva Prospects API
+  slug: alleva-prospects-api
+- description: The ReferralCompanies API from Alleva — 14 operation(s) for referralcompanies.
+  name: Alleva Referral Companies API
+  slug: alleva-referralcompanies-api
+- description: The ReferralContacts API from Alleva — 14 operation(s) for referralcontacts.
+  name: Alleva Referral Contacts API
+  slug: alleva-referralcontacts-api
+- description: The Rehab API from Alleva — 8 operation(s) for rehab.
+  name: Alleva Rehab API
+  slug: alleva-rehab-api
+- description: The Room API from Alleva — 4 operation(s) for room.
+  name: Alleva Room API
+  slug: alleva-room-api
+- description: The Sessions API from Alleva — 1 operation(s) for sessions.
+  name: Alleva Sessions API
+  slug: alleva-sessions-api
+- description: The ShiftRounds API from Alleva — 6 operation(s) for shiftrounds.
+  name: Alleva Shift Rounds API
+  slug: alleva-shiftrounds-api
+- description: The Snapshot API from Alleva — 8 operation(s) for snapshot.
+  name: Alleva Snapshot API
+  slug: alleva-snapshot-api
+- description: The Survey API from Alleva — 6 operation(s) for survey.
+  name: Alleva Survey API
+  slug: alleva-survey-api
+- description: The TreatmentPlans API from Alleva — 10 operation(s) for treatmentplans.
+  name: Alleva Treatment Plans API
+  slug: alleva-treatmentplans-api
+- description: The TreatmentReviews API from Alleva — 4 operation(s) for treatmentreviews.
+  name: Alleva Treatment Reviews API
+  slug: alleva-treatmentreviews-api
+- description: The UserLicense API from Alleva — 4 operation(s) for userlicense.
+  name: Alleva User License API
+  slug: alleva-userlicense-api
+- description: The Users API from Alleva — 20 operation(s) for users.
+  name: Alleva Users API
+  slug: alleva-users-api
+artifact_total: 42
 common:
 - group: company
   title: ''
@@ -139,26 +247,37 @@ modified: '2026-08-06'
 name: Alleva
 nav: Providers
 network: true
-overview: 'Alleva publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include behavioral-health, electronic-health-records, emr, ehr, and substance-use-disorder.
+overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include behavioral-health, electronic-health-records, emr, ehr, and substance-use-disorder.
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 64
+random_paper: 49
 scopes:
 - name: Alleva Scopes
   scope_count: 1
   slug: alleva-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 42.7
+  band: thin
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 38.8
-    developer_ergonomics: 47.8
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 36.4
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 40.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -166,7 +285,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:
 - kind: authentication
   name: Alleva Authentication

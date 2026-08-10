@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -665,6 +665,18 @@ common:
   title: ''
   type: Customer Portal
   url: https://access.redhat.com
+- group: docs
+  title: ''
+  type: API Documentation
+  url: https://console.redhat.com/docs/api
+- group: start
+  title: ''
+  type: Hybrid Cloud Console
+  url: https://console.redhat.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.redhat.com/en/store
 created: '2024-01-15'
 description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
 examples:
@@ -1186,7 +1198,7 @@ mcp_servers:
 - description: ''
   name: red-hat-mcp.yml
   slug: red-hat-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-08'
 name: Red Hat
 nav: Providers
 network: true
@@ -1196,12 +1208,12 @@ overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network,
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 71 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 74 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 112
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1233,12 +1245,12 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 73.8
+  delta: 3.4
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 81.6
     contract_quality: 77.4
-    developer_ergonomics: 78.3
+    developer_ergonomics: 84.8
     discoverability: 59.3
     governance: 53.1
     operational_transparency: 68.4
@@ -1253,9 +1265,9 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192716.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:
 - kind: authentication
   name: Red Hat Authentication

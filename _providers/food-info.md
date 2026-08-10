@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -26,12 +26,15 @@ agentic_access:
   operation_count: 8
   slug: food-info-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
-- description: Nutrition data for millions of foods, merged from six national food-composition datasets
-  name: Food Info API
-  slug: food-info-api
-artifact_total: 8
+- description: The ApiV1 API from Food Info — 6 operation(s) for apiv1.
+  name: Food Info API V1 API
+  slug: food-info-apiv1-api
+- description: The RecipesApi API from Food Info — 2 operation(s) for recipesapi.
+  name: Food Info Recipes API API
+  slug: food-info-recipesapi-api
+artifact_total: 9
 common:
 - group: agent
   title: ''
@@ -157,7 +160,7 @@ modified: '2026-08-04'
 name: Food Info
 nav: Providers
 network: true
-overview: 'Food Info publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Nutrition, Food, Food Composition, Nutrients, and Data.
+overview: 'Food Info publishes 2 APIs on the [APIs.io](https://apis.io/) network: API V1 API and Recipes API API. Tagged areas include Nutrition, Food, Food Composition, Nutrients, and Data.
 
 
   Food Info''s developer surface includes documentation, authentication, support, code examples, and 24 more developer resources.'
@@ -165,18 +168,18 @@ plans:
 - name: Food Info Plans
   plan_count: 0
   slug: food-info-plans
-random_paper: 106
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Food Info Rate Limits
   slug: food-info-rate-limits
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.7
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.9
+    contract_quality: 56.6
     developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 11.5
@@ -199,7 +202,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

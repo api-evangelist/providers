@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -108,14 +108,6 @@ common:
   title: ''
   type: Rules
   url: rules/google-apps-script-spectral-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/apps-script.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/workspace-automation.yaml
 created: '2026-03-13'
 description: The Apps Script API provides programmatic access to manage Google Apps Script projects, deployments, and executions. It enables creating and updating script projects, managing project versions and deployments, monitoring script processes, and remotely executing Apps Script functions. The API is essential for automating Apps Script project management and integrating script execution into external applications.
 examples:
@@ -293,12 +285,12 @@ overview: 'Google Apps Script publishes 4 APIs on the [APIs.io](https://apis.io/
   The Google Apps Script catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 9 more developer resources.'
+  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Google Apps Script Plans Pricing
   plan_count: 3
   slug: google-apps-script-plans-pricing
-random_paper: 16
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Google Apps Script Rate Limits
@@ -340,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:

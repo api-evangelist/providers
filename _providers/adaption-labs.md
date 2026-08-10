@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/adaption-labs-datasets-openapi.yml
+  url: openapi/_original/adaption-labs-datasets-openapi.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -162,7 +162,7 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 68
+random_paper: 35
 score:
   band: thin
   composite: 36.2
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:

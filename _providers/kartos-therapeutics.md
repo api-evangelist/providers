@@ -18,13 +18,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: The anonymously readable WordPress REST API behind kartosthera.com. It exposes the eight published corporate and scientific pages (Home, Science, Research, Presentations & Publications, Advocacy, Abou
+- description: Published pages and the site-wide search index.
   name: Kartos Therapeutics Content API
   slug: kartos-therapeutics-content-api
-artifact_total: 3
+- description: The route index and namespace descriptors the site publishes about itself.
+  name: Kartos Therapeutics Discovery API
+  slug: kartos-therapeutics-discovery-api
+- description: The media library — scientific figures, investor logos and presentation PDFs.
+  name: Kartos Therapeutics Media API
+  slug: kartos-therapeutics-media-api
+- description: The oEmbed 1.0 provider endpoint for kartosthera.com URLs.
+  name: Kartos Therapeutics Oembed API
+  slug: kartos-therapeutics-oembed-api
+- description: The leadership, board and advisor team custom post type.
+  name: Kartos Therapeutics People API
+  slug: kartos-therapeutics-people-api
+- description: The navtemadlin congress presentations and publications custom post type.
+  name: Kartos Therapeutics Science API
+  slug: kartos-therapeutics-science-api
+- description: Registered post types, statuses, taxonomies and terms.
+  name: Kartos Therapeutics Taxonomy API
+  slug: kartos-therapeutics-taxonomy-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -119,20 +137,20 @@ modified: '2026-08-04'
 name: Kartos Therapeutics
 nav: Providers
 network: true
-overview: 'Kartos Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and hematology.
+overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and hematology.
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 19 more developer resources.'
-random_paper: 81
+random_paper: 30
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 19.6
+  delta: 0.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 13.8
+    contract_quality: 14.0
     developer_ergonomics: 16.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 19.0
@@ -145,8 +163,9 @@ score:
       total: 1
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:
 - kind: authentication
   name: Kartos Therapeutics Authentication

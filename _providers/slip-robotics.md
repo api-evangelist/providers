@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Slip Robotics
 nav: Providers
 network: true
 overview: Slip Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Logistics, Supply Chain, and Automation.
-random_paper: 111
+random_paper: 78
 score:
   band: minimal
   composite: 7.5
@@ -82,7 +82,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

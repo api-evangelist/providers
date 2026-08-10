@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -119,7 +119,7 @@ plans:
 - name: Inscribe Plans Pricing
   plan_count: 0
   slug: inscribe-plans-pricing
-random_paper: 56
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Inscribe Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 28.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/screenshots/inscribe-2026-06-20T183404.png
 security:

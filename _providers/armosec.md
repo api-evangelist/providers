@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -134,7 +134,7 @@ plans:
 - name: Armosec Plans Pricing
   plan_count: 4
   slug: armosec-plans-pricing
-random_paper: 68
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Armosec Rate Limits
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/screenshots/armosec-2026-07-25T201225.png
 security:

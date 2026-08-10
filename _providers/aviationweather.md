@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Aviation Weather Center publishes 2 APIs on the [APIs.io](https://api
 
 
   Aviation Weather Center''s developer surface includes documentation, code examples, and 16 more developer resources.'
-random_paper: 29
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Aviationweather Rate Limits
@@ -312,7 +312,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

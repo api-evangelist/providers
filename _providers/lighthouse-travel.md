@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 30 more developer resources.'
-random_paper: 88
+random_paper: 43
 score:
   band: thin
   composite: 29.8
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/screenshots/lighthouse-travel-2026-06-20T184520.png
 security:

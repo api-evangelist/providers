@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rockwell-factorytalk-optix-openapi.yml
+  url: openapi/_original/rockwell-factorytalk-optix-openapi.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -181,7 +181,7 @@ plans:
 - name: Rockwell Factorytalk Plans Pricing
   plan_count: 1
   slug: rockwell-factorytalk-plans-pricing
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Rockwell Factorytalk Rate Limits
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

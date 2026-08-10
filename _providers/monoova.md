@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -210,7 +210,7 @@ overview: 'Monoova publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 30 more developer resources.'
-random_paper: 89
+random_paper: 71
 score:
   band: strong
   composite: 59.9
@@ -240,8 +240,9 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png
 security:
 - kind: authentication
   name: Monoova Authentication

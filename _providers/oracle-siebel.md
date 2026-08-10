@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-06'
-api_count: 7
+  scored_at: '2026-08-10'
+api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
   name: Oracle Siebel SOAP Web Services
@@ -49,10 +49,37 @@ apis:
 - description: Event-driven integration framework enabling real-time communication between Siebel CRM and external systems using Apache Kafka. The Event Pub/Sub API supports publishing events from Siebel to Kafka to
   name: Oracle Siebel Event Pub/Sub API
   slug: oracle-siebel-event-pubsub-api
-- description: The Siebel Rest API from Oracle Siebel — 0 operation(s) for siebel rest.
-  name: Oracle Siebel Siebel Rest API
-  slug: oracle-siebel-rest-api
-artifact_total: 16
+- description: Operations on Account business objects including customer and prospect organizations with associated contacts, opportunities, and addresses
+  name: Oracle Siebel Accounts API
+  slug: oracle-siebel-accounts-api
+- description: Operations on Activity business objects for managing tasks, appointments, call logs, and other scheduled items
+  name: Oracle Siebel Activities API
+  slug: oracle-siebel-activities-api
+- description: Invocation of Siebel business services and their methods for executing server-side business logic including integration object operations
+  name: Oracle Siebel Business Services API
+  slug: oracle-siebel-business-services-api
+- description: Operations on Contact business objects representing individual people associated with accounts and organizations
+  name: Oracle Siebel Contacts API
+  slug: oracle-siebel-contacts-api
+- description: Discovery endpoints that return OpenAPI-compatible metadata describing available resources, fields, and operations
+  name: Oracle Siebel Metadata API
+  slug: oracle-siebel-metadata-api
+- description: Operations on Opportunity business objects for managing sales pipeline, deals, and revenue forecasting
+  name: Oracle Siebel Opportunities API
+  slug: oracle-siebel-opportunities-api
+- description: Operations on Order business objects for managing sales orders, order line items, and order fulfillment
+  name: Oracle Siebel Orders API
+  slug: oracle-siebel-orders-api
+- description: Operations on Product business objects for product catalog management including pricing and product hierarchies
+  name: Oracle Siebel Products API
+  slug: oracle-siebel-products-api
+- description: Access to Siebel repository objects including applets, views, business components, and other metadata through workspace-based paths
+  name: Oracle Siebel Repository API
+  slug: oracle-siebel-repository-api
+- description: Operations on Service Request business objects for customer service case management and issue tracking
+  name: Oracle Siebel Service Requests API
+  slug: oracle-siebel-service-requests-api
+artifact_total: 25
 asyncapis:
 - description: Event-driven integration framework enabling real-time communication between Oracle Siebel CRM and external systems using Apache Kafka. The Event Pub/Sub system supports publishing events from Siebel t
   name: Oracle Siebel CRM Event Pub/Sub
@@ -153,7 +180,7 @@ modified: '2026-04-28'
 name: Oracle Siebel
 nav: Providers
 network: true
-overview: 'Oracle Siebel publishes 1 API on the [APIs.io](https://apis.io/) network: Siebel Rest API. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
+overview: 'Oracle Siebel publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Business Services API, and 7 more. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
 
 
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -164,7 +191,7 @@ plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 60
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Oracle Siebel Rate Limits
@@ -188,11 +215,11 @@ rules:
   slug: oracle-siebel-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 63.6
+  delta: -1.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.4
+    contract_quality: 63.6
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 52.1
@@ -205,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:

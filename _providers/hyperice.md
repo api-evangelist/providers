@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Hyperice publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Hyperice''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 32 more developer resources.'
-random_paper: 66
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Hyperice Rate Limits
@@ -244,8 +244,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png
 security:
 - kind: authentication
   name: Hyperice Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: Open Banking API in the Truist Developer Center covering personal and small-business accounts - account information, balances, and transaction data. Documented in a registration-gated sandbox that ret
@@ -102,7 +102,7 @@ overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Truist''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, support, and 9 more developer resources.'
-random_paper: 5
+random_paper: 103
 score:
   band: emerging
   composite: 23.0
@@ -124,7 +124,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

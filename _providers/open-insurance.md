@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 30 more developer resources.'
-random_paper: 91
+random_paper: 55
 score:
   band: developing
   composite: 48.4
@@ -226,8 +226,9 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:
 - kind: authentication
   name: Open Insurance Authentication

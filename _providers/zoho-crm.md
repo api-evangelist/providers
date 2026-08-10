@@ -27,16 +27,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 3
 apis:
-- description: OAuth 2.0 protected REST API for managing CRM records, modules, users, workflows, notes, attachments, tags, and bulk data operations across the Zoho CRM platform.
-  name: Zoho CRM REST API v8
-  slug: rest-api-v8
 - description: 'Instant Notifications API for Zoho CRM. Subscribers register a channel via POST /crm/v2/actions/watch with a notify_url and a list of module/operation events (for example Leads.create, Contacts.edit, '
   name: Zoho CRM Notifications API v2
   slug: notifications-api-v2
-artifact_total: 7
+- description: The Settings API from Zoho CRM — 2 operation(s) for settings.
+  name: Zoho CRM Settings API
+  slug: zoho-crm-settings-api
+- description: The Zoho CRM API API from Zoho CRM — 2 operation(s) for zoho crm api.
+  name: Zoho CRM Zoho CRM API API
+  slug: zoho-crm-zoho-crm-api-api
+artifact_total: 8
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Zoho CRM Notifications (Instant Notifications) API surface. Subscribers register a notify_url (channel) with Zoho CRM via the REST "actions/watch" endpoint and recei
   name: Zoho CRM Notifications API
@@ -98,14 +101,14 @@ modified: '2026-05-30'
 name: Zoho CRM
 nav: Providers
 network: true
-overview: 'Zoho CRM publishes 2 APIs on the [APIs.io](https://apis.io/) network: REST API v8 and Notifications API v2. Tagged areas include CRM, Sales, Customer Relationship Management, Marketing Automation, and Lead Management.
+overview: 'Zoho CRM publishes 3 APIs on the [APIs.io](https://apis.io/) network: Notifications API v2, Settings API, and Zoho CRM API API. Tagged areas include CRM, Sales, Customer Relationship Management, Marketing Automation, and Lead Management.
 
 
   The Zoho CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Zoho CRM''s developer surface includes documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 24
+random_paper: 3
 rules:
 - name: Zoho CRM API Rules
   rule_count: 7
@@ -117,13 +120,13 @@ rules:
   slug: zoho-crm-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 35.6
+  delta: 0.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 64.0
+    contract_quality: 62.3
     developer_ergonomics: 23.9
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 41.7
     operational_transparency: 5.3
   previous_composite: 35.4
@@ -134,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:

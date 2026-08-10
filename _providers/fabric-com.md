@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -425,7 +425,7 @@ plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
   slug: fabric-com-plans-pricing
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Fabric Com Rate Limits
@@ -473,7 +473,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

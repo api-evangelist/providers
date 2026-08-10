@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ common:
   title: ''
   type: Blog
   url: https://www.scraperapi.com/feed/
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 created: '2026-03-29'
 description: ScraperAPI is a web scraping API that manages proxies, browsers, and CAPTCHAs to extract HTML from any web page with a simple API call.
 finops:
@@ -98,19 +102,19 @@ finops:
   slug: scraper-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scraper-api.png
 layout: provider
-modified: '2026-03-29'
+modified: '2026-08-08'
 name: ScraperAPI
 nav: Providers
 network: true
 overview: 'ScraperAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Structured API and Sync API. Tagged areas include Data Extraction, Proxies, and Scraping.
 
 
-  ScraperAPI''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  ScraperAPI''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Scraper Api Plans Pricing
   plan_count: 3
   slug: scraper-api-plans-pricing
-random_paper: 94
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Scraper Api Rate Limits
@@ -135,9 +139,9 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/screenshots/scraper-api-2026-06-20T193550.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/screenshots/scraper-api-2026-06-20T193553.png
 security:
 - kind: authentication
   name: Scraper Api Authentication

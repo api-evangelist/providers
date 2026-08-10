@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,7 +84,7 @@ overview: 'Daily Harvest is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Daily Harvest''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 98
+random_paper: 65
 scopes:
 - name: Daily Harvest Scopes
   scope_count: 4
@@ -103,8 +103,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/daily-harvest/refs/heads/main/screenshots/daily-harvest-2026-08-07T164023.png
 security:
 - kind: authentication
   name: Daily Harvest Authentication

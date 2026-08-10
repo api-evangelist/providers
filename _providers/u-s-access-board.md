@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 20
 common:
@@ -122,7 +122,7 @@ plans:
 - name: U S Access Board Plans Pricing
   plan_count: 3
   slug: u-s-access-board-plans-pricing
-random_paper: 44
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: U S Access Board Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 28.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/screenshots/u-s-access-board-2026-06-20T195910.png
 security:

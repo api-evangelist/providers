@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -16687,7 +16687,7 @@ plans:
 - name: Factset Plans Pricing
   plan_count: 4
   slug: factset-plans-pricing
-random_paper: 68
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Factset Rate Limits
@@ -16743,7 +16743,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:

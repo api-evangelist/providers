@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1333,11 +1333,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 75.0
-  delta: 0.0
+  composite: 74.2
+  delta: -0.8
   facets:
     commercial_clarity: 81.6
-    contract_quality: 79.7
+    contract_quality: 76.4
     developer_ergonomics: 84.8
     discoverability: 66.7
     governance: 63.5
@@ -1353,7 +1353,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

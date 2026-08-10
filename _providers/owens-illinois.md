@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: O-I Glass, Inc. | News
   url: https://www.otcmarkets.com/stock/OI/news/Owens-Brockway-Glass-Container-Inc-Launches-500-Million-Senior-Notes-Offering?e&id=3458089
-random_paper: 112
+random_paper: 76
 score:
   band: minimal
   composite: 5.4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owens-illinois/refs/heads/main/screenshots/owens-illinois-2026-06-20T191251.png
 security:

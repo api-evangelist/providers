@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Agenta Plans Pricing
   plan_count: 5
   slug: agenta-plans-pricing
-random_paper: 59
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Agenta Rate Limits
@@ -155,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/screenshots/agenta-2026-06-20T170004.png
 security:

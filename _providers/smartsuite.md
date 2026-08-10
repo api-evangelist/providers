@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for managing Solutions, Tables, Records, and Fields in the SmartSuite work management platform. Authentication uses an API Token passed in the Authorization header with the Workspace ID in th
@@ -83,7 +83,7 @@ overview: 'SmartSuite publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   SmartSuite''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 88
+random_paper: 61
 score:
   band: minimal
   composite: 12.7
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartsuite/refs/heads/main/screenshots/smartsuite-2026-06-20T194048.png
 security:

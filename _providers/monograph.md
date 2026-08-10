@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Monograph is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monograph''s developer surface includes support, engineering blog, pricing, getting-started guide, changelog, and 5 more developer resources.'
-random_paper: 67
+random_paper: 43
 score:
   band: emerging
   composite: 19.5
@@ -97,8 +97,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 19.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/monograph/refs/heads/main/screenshots/monograph-2026-08-07T184211.png
 security:
 - kind: domain-security
   name: Monograph Domain Security

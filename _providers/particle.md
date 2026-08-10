@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -114,7 +114,11 @@ apis:
 - description: The User API from Particle — 2 operation(s) for user.
   name: Particle User API
   slug: particle-user-api
-artifact_total: 34
+artifact_total: 35
+collections:
+- collection_type: open
+  name: Particle Cloud API
+  slug: open-particle-io
 common:
 - group: agent
   title: ''
@@ -200,6 +204,34 @@ common:
   title: ''
   type: Blog
   url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/blogs/blogs.json
+- group: other
+  title: ''
+  type: Developer
+  url: https://docs.particle.io/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/particle-iot/particle-api-js
+- group: build
+  title: ''
+  type: CLI
+  url: https://docs.particle.io/reference/developer-tools/cli/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/particle-iot
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.particle.io/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.particle.io/legal/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.particle.io/legal/
 created: '2026-06-12'
 description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functions, read variables, publish and subscribe to events, manage firmware OTA updates, and administer product fleets. Authentication uses OAuth 2.0 bearer tokens, and the platform supports JavaScript, iOS, Android, and Windows SDKs as well as a command-line interface. Particle's pricing model is based on Data Operations consumed per month, with plans ranging from a free prototyping tier through paid block-based plans to enterprise contracts.
 finops:
@@ -217,7 +249,7 @@ jsonld:
   property_count: 21
   slug: particle-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-08-08'
 name: Particle
 nav: Providers
 network: true
@@ -227,24 +259,24 @@ overview: 'Particle publishes 25 APIs on the [APIs.io](https://apis.io/) network
   The Particle catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Particle''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 16 more developer resources.'
+  Particle''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, GitHub presence, and 21 more developer resources.'
 plans:
 - name: Particle Plans Pricing
   plan_count: 5
   slug: particle-plans-pricing
-random_paper: 61
+random_paper: 40
 rate_limits:
 - limit_count: 6
   name: Particle Rate Limits
   slug: particle-rate-limits
 score:
-  band: developing
-  composite: 53.4
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 6.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 71.1
     contract_quality: 75.4
-    developer_ergonomics: 34.8
+    developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 68.4
@@ -257,9 +289,9 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191425.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:
 - kind: authentication
   name: Particle Authentication

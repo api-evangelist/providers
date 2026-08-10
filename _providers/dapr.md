@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -191,10 +191,6 @@ common:
   title: ''
   type: Rules
   url: rules/dapr-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/dapr-capabilities.yml
 - group: agent
   title: ''
   type: LlmsText
@@ -250,12 +246,12 @@ overview: 'Dapr publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Dapr catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Dapr''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 14 more developer resources.'
+  Dapr''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 13 more developer resources.'
 plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 84
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -305,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

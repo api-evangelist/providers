@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 9
 apis:
 - description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
@@ -167,7 +167,7 @@ overview: 'Cedarai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cedarai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 35
+random_paper: 17
 score:
   band: developing
   composite: 45.6
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Naples Open Data, ~36 datasets. Base URL https://dati.comune.napoli.it/api/3/action/.
@@ -84,7 +84,7 @@ plans:
 - name: Dati Comune Napoli It Plans Pricing
   plan_count: 1
   slug: dati-comune-napoli-it-plans-pricing
-random_paper: 30
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Dati Comune Napoli It Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png
 security:

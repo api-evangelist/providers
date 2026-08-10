@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Dagshub Plans Pricing
   plan_count: 1
   slug: dagshub-plans-pricing
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Dagshub Rate Limits
@@ -171,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/screenshots/dagshub-2026-06-20T175441.png
 security:

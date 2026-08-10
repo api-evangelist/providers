@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: RUUT
 nav: Providers
 network: true
 overview: RUUT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Fintech, Investing, and Investment Platform.
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 6.1
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

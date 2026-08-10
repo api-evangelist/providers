@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -95,7 +95,7 @@ overview: 'Token is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Token''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 93
+random_paper: 81
 score:
   band: emerging
   composite: 18.1
@@ -112,7 +112,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

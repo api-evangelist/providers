@@ -28,13 +28,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 4
 apis:
-- description: The VKS JSON REST API provides programmatic access to pull guidebook and production information out of VKS and manage Work Orders and operations. It supports integration with ERP, MES, and other manuf
-  name: VKS API
-  slug: vks-api
-artifact_total: 11
+- description: Access work instruction guidebooks and step-level content
+  name: VKS Integrations Guidebooks API
+  slug: vks-integrations-guidebooks-api
+- description: Manage and track operational steps and production data
+  name: VKS Integrations Operations API
+  slug: vks-integrations-operations-api
+- description: Retrieve production metrics, quality data, and traceability records
+  name: VKS Integrations Production Data API
+  slug: vks-integrations-production-data-api
+- description: Create, retrieve, and manage work orders on the manufacturing floor
+  name: VKS Integrations Work Orders API
+  slug: vks-integrations-work-orders-api
+artifact_total: 14
 common:
 - group: auth
   title: ''
@@ -93,7 +102,7 @@ modified: '2026-05-03'
 name: VKS Integrations
 nav: Providers
 network: true
-overview: 'VKS Integrations publishes 1 API on the [APIs.io](https://apis.io/) network: VKS API. Tagged areas include ERP Integration, Manufacturing, MES, Operations Management, and Quality Management.
+overview: 'VKS Integrations publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Guidebooks API, Operations API, Production Data API, and 1 more. Tagged areas include ERP Integration, Manufacturing, MES, Operations Management, and Quality Management.
 
 
   The VKS Integrations catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -104,7 +113,7 @@ plans:
 - name: Vks Integrations Plans Pricing
   plan_count: 3
   slug: vks-integrations-plans-pricing
-random_paper: 106
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Vks Integrations Rate Limits
@@ -128,13 +137,13 @@ rules:
   slug: vks-integrations-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 48.1
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.6
+    contract_quality: 69.8
     developer_ergonomics: 15.2
-    discoverability: 59.3
+    discoverability: 64.8
     governance: 58.3
     operational_transparency: 31.6
   previous_composite: 48.5
@@ -145,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:

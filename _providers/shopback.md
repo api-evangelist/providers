@@ -18,16 +18,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: The ShopBack Online Payments API (v2.0), also documented as the Online Bespoke API, lets merchants add ShopBack Pay and ShopBack PayLater to any web or app checkout. It covers merchant JWT login, orde
-  name: ShopBack Online Payments API
-  slug: shopback-online-payments-api
-- description: 'The ShopBack In-Store Payments API (v1.4) accepts ShopBack Pay at the point of sale and in customer-facing apps and websites. It supports merchant-presented dynamic QR, customer-presented QR scanning '
-  name: ShopBack In-Store Payments API
-  slug: shopback-in-store-payments-api
-artifact_total: 5
+- description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
+  name: ShopBack Account Linking API
+  slug: shopback-account-linking-api
+- description: The Authentication API from ShopBack — 1 operation(s) for authentication.
+  name: ShopBack Authentication API
+  slug: shopback-authentication-api
+- description: The Notification API from ShopBack — 1 operation(s) for notification.
+  name: ShopBack Notification API
+  slug: shopback-notification-api
+- description: The Orders API from ShopBack — 8 operation(s) for orders.
+  name: ShopBack Orders API
+  slug: shopback-orders-api
+- description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
+  name: ShopBack Pre Auth API
+  slug: shopback-pre-auth-api
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Shopback Payment Notification Webhooks
@@ -166,23 +175,23 @@ modified: '2026-08-02'
 name: ShopBack
 nav: Providers
 network: true
-overview: 'ShopBack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Online Payments API and In-Store Payments API. Tagged areas include Company, Payments, Cashback, Rewards, and Loyalty.
+overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Linking API, Authentication API, Notification API, and 2 more. Tagged areas include Company, Payments, Cashback, Rewards, and Loyalty.
 
 
   The ShopBack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 52
+random_paper: 31
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 54.4
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.4
+    contract_quality: 64.2
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 54.6
@@ -202,7 +211,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,7 +91,7 @@ overview: 'Jobandtalent is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Jobandtalent''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 27
+random_paper: 110
 score:
   band: emerging
   composite: 16.1
@@ -105,7 +105,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobandtalent/refs/heads/main/screenshots/jobandtalent-2026-07-25T223212.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'ConnectDER is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ConnectDER''s developer surface includes FAQ, support, status page, and 15 more developer resources.'
-random_paper: 44
+random_paper: 17
 score:
   band: emerging
   composite: 13.0
@@ -127,8 +127,9 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/connectder/refs/heads/main/screenshots/connectder-2026-08-07T163734.png
 security:
 - kind: domain-security
   name: Connectder Domain Security

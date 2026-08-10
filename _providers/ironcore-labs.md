@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: Assignments between KMS configurations and tenants
@@ -95,7 +95,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/ironcore-labs-vendor-bridge-openapi.yml
+  url: openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -200,7 +200,7 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
-random_paper: 85
+random_paper: 52
 score:
   band: developing
   composite: 55.7
@@ -223,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

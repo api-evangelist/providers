@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Balderton Capital
 nav: Providers
 network: true
-random_paper: 39
+random_paper: 110
 slug: balderton-capital
 tags:
 - Venture Capital

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Kaizen Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kaizen Labs'' developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 88
+random_paper: 61
 score:
   band: emerging
   composite: 18.3
@@ -119,7 +119,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaizen-labs/refs/heads/main/screenshots/kaizen-labs-2026-07-25T223421.png
 security:

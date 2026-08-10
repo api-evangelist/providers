@@ -18,22 +18,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
   name: Apstal MCP Server
   slug: apstal-mcp-server
-artifact_total: 1
+artifact_total: 2
 created: '2026-07-22'
 description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, and heatmaps. Programmatic access is provided through a hosted MCP server exposing analytics tools.
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-22'
 name: Apstal
 nav: Providers
 network: true
 overview: Apstal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include analytics, web-analytics, privacy, session-replay, and heatmaps.
-random_paper: 80
+random_paper: 65
 score:
   band: minimal
   composite: 5.9
@@ -47,7 +51,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 slug: apstal

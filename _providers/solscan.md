@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
   name: Solscan Public API
@@ -37,7 +37,22 @@ apis:
 - description: Commercial Pro API with full account, transaction, token, NFT, DeFi, and analytics endpoints. Higher rate limits, decoded events, and historical depth. Authentication via token header.
   name: Solscan Pro API
   slug: pro-api
-artifact_total: 6
+- description: Solana account data
+  name: Solscan Account API
+  slug: solscan-account-api
+- description: Block lookups
+  name: Solscan Block API
+  slug: solscan-block-api
+- description: NFT collection data
+  name: Solscan NFT API
+  slug: solscan-nft-api
+- description: SPL token data
+  name: Solscan Token API
+  slug: solscan-token-api
+- description: Transaction lookups
+  name: Solscan Transaction API
+  slug: solscan-transaction-api
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -87,7 +102,7 @@ modified: '2026-05-08'
 name: Solscan
 nav: Providers
 network: true
-overview: 'Solscan publishes 1 API on the [APIs.io](https://apis.io/) network: Pro API. Tagged areas include Web3, Solana, Explorer, On-Chain, and Tokens.
+overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, On-Chain, and Tokens.
 
 
   Solscan''s developer surface includes developer portal, documentation, pricing, and 6 more developer resources.'
@@ -95,20 +110,20 @@ plans:
 - name: Solscan Plans Pricing
   plan_count: 5
   slug: solscan-plans-pricing
-random_paper: 77
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Solscan Rate Limits
   slug: solscan-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 39.0
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.4
+    contract_quality: 53.5
     developer_ergonomics: 17.4
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.5
@@ -119,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:

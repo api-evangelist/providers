@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -160,7 +160,7 @@ overview: 'Profluent is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Profluent''s developer surface includes sandbox, YouTube channel, engineering blog, and 26 more developer resources.'
-random_paper: 107
+random_paper: 74
 score:
   band: minimal
   composite: 11.6
@@ -174,7 +174,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/profluent-bio/refs/heads/main/screenshots/profluent-bio-2026-06-20T192142.png
 security:

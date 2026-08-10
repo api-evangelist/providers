@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -309,14 +309,14 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 81
+random_paper: 63
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 46.1
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 61.8
+    contract_quality: 57.9
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
@@ -339,8 +339,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png
 security:
 - kind: authentication
   name: Patsnap Authentication

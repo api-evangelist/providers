@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ overview: 'Azupay publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 26 more developer resources.'
-random_paper: 101
+random_paper: 86
 scopes:
 - name: Azupay Scopes
   scope_count: 1
@@ -239,7 +239,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:

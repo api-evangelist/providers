@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: UW Board of Regents approves UW–Madison proposal to ...
   url: https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/
-random_paper: 74
+random_paper: 29
 score:
   band: minimal
   composite: 5.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/screenshots/computer-sciences-2026-06-20T174837.png
 slug: computer-sciences

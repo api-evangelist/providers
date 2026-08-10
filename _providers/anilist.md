@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -478,7 +478,7 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 21 more developer resources.'
-random_paper: 78
+random_paper: 60
 rules:
 - name: AniList API Rules
   rule_count: 5
@@ -521,7 +521,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:

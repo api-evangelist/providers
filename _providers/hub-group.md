@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Hub Group Using AI, Machine Learning for Real-Time ...
   url: https://www.truckinginfo.com/news/hub-group-using-ai-machine-learning-for-real-time-visibility-of-shipments
-random_paper: 17
+random_paper: 109
 rules:
 - name: HUB Group API Rules
   rule_count: 0
@@ -112,7 +112,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hub-group/refs/heads/main/screenshots/hub-group-2026-06-20T182920.png
 security:

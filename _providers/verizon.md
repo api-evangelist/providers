@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ common:
   title: ''
   type: Website
   url: https://www.verizon.com
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://www.verizon.com/llms.txt
 - group: start
   title: ''
   type: Portal
@@ -458,7 +462,7 @@ overview: 'Verizon publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Verizon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Verizon''s developer surface includes authentication, developer portal, support, FAQ, signup flow, changelog, sandbox, and 35 more developer resources.'
+  Verizon''s developer surface includes authentication, developer portal, support, FAQ, signup flow, changelog, sandbox, and 36 more developer resources.'
 plans:
 - name: Verizon Plans Pricing
   plan_count: 1
@@ -479,7 +483,7 @@ press:
 - date: '2026-05-25'
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
-random_paper: 103
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Verizon Rate Limits
@@ -535,7 +539,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:

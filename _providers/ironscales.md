@@ -18,16 +18,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 10
 apis:
-- description: The public IRONSCALES Management API — a Swagger 2.0 (drf-yasg) contract covering incident retrieval and classification, account-takeover remediation, mitigation and email statistics, escalated emails
-  name: IRONSCALES Management API
-  slug: ironscales-management-api
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
   name: IRONSCALES MCP Server
   slug: ironscales-mcp-server
-artifact_total: 8
+- description: The Authorization API from IRONSCALES — 1 operation(s) for authorization.
+  name: IRONSCALES Authorization API
+  slug: ironscales-authorization-api
+- description: The Campaigns API from IRONSCALES — 3 operation(s) for campaigns.
+  name: IRONSCALES Campaigns API
+  slug: ironscales-campaigns-api
+- description: The Deepfake API from IRONSCALES — 1 operation(s) for deepfake.
+  name: IRONSCALES Deepfake API
+  slug: ironscales-deepfake-api
+- description: The Emails API from IRONSCALES — 1 operation(s) for emails.
+  name: IRONSCALES Emails API
+  slug: ironscales-emails-api
+- description: The Incident API from IRONSCALES — 10 operation(s) for incident.
+  name: IRONSCALES Incident API
+  slug: ironscales-incident-api
+- description: The Mailboxes API from IRONSCALES — 3 operation(s) for mailboxes.
+  name: IRONSCALES Mailboxes API
+  slug: ironscales-mailboxes-api
+- description: The Mitigation API from IRONSCALES — 8 operation(s) for mitigation.
+  name: IRONSCALES Mitigation API
+  slug: ironscales-mitigation-api
+- description: The SAT API from IRONSCALES — 15 operation(s) for sat.
+  name: IRONSCALES SAT API
+  slug: ironscales-sat-api
+- description: The Settings API from IRONSCALES — 4 operation(s) for settings.
+  name: IRONSCALES Settings API
+  slug: ironscales-settings-api
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -174,43 +198,47 @@ mcp_servers:
 - description: ''
   name: ironscales-mcp.yml
   slug: ironscales-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-04'
 name: IRONSCALES
 nav: Providers
 network: true
-overview: 'IRONSCALES publishes 1 API on the [APIs.io](https://apis.io/) network: Management API. Tagged areas include email-security, cybersecurity, phishing, anti-phishing, and business-email-compromise.
+overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 6 more. Tagged areas include email-security, cybersecurity, phishing, anti-phishing, and business-email-compromise.
 
 
   IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 58
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Ironscales Rate Limits
   slug: ironscales-rate-limits
 score:
   band: strong
-  composite: 56.1
-  delta: 0.0
+  composite: 57.5
+  delta: 0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.7
+    contract_quality: 56.1
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 56.1
+  previous_composite: 57.0
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:
 - kind: authentication
   name: Ironscales Authentication

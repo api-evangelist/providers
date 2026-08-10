@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: GoReplay captures and replays live HTTP traffic, enabling developers to test APIs and applications with real production traffic patterns without impacting production systems.
@@ -84,7 +84,7 @@ plans:
 - name: Goreplay Plans Pricing
   plan_count: 3
   slug: goreplay-plans-pricing
-random_paper: 76
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Goreplay Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goreplay/refs/heads/main/screenshots/goreplay-2026-06-20T182250.png
 security:

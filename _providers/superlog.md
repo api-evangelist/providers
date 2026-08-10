@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -174,7 +174,7 @@ overview: 'Superlog publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 90
+random_paper: 69
 scopes:
 - name: Superlog Scopes
   scope_count: 3
@@ -203,7 +203,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

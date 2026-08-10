@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
-random_paper: 89
+random_paper: 62
 rules:
 - name: Limble CMMS API Rules
   rule_count: 5
@@ -357,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:

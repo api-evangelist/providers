@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 18
 common:
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: California Community Colleges Launches Nation's Most ...
   url: https://www.facebook.com/CACommColleges/posts/press-release-california-community-colleges-launches-nations-most-ambitious-ai-i/1205811634924793/
-random_paper: 112
+random_paper: 103
 score:
   band: minimal
   composite: 11.6
@@ -137,7 +137,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/west/refs/heads/main/screenshots/west-2026-06-20T201357.png
 security:

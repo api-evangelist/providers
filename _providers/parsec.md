@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/parsec-teams-openapi.yml
+  url: openapi/_original/parsec-teams-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -212,7 +212,7 @@ overview: 'Parsec publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 73
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
@@ -240,8 +240,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:
 - kind: authentication
   name: Parsec Authentication

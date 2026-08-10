@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -26,15 +26,24 @@ agentic_access:
   operation_count: 23
   slug: positron-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 2
+api_count: 5
 apis:
-- description: OpenAI API-compatible inference endpoint served by Positron's Olivaw serving layer. Lists available models, retrieves a single model, and creates chat completions and raw text completions against mode
-  name: Positron Olivaw OpenAI-Compatible Inference API
-  slug: positron-olivaw-openai-compatible-inference-api
-- description: Administrative API for the Olivaw layer that fronts Positron Atlas hardware. Manages the model catalog (list/create/read/update/delete), the service nodes that back it (Giskard, vLLM or OpenAI backend
-  name: Positron Olivaw Admin API
-  slug: positron-olivaw-admin-api
-artifact_total: 5
+- description: The access_tokens API from Positron — 3 operation(s) for access_tokens.
+  name: Positron Access Tokens API
+  slug: positron-access-tokens-api
+- description: The completion API from Positron — 2 operation(s) for completion.
+  name: Positron Completion API
+  slug: positron-completion-api
+- description: The models API from Positron — 5 operation(s) for models.
+  name: Positron Models API
+  slug: positron-models-api
+- description: The service_nodes API from Positron — 2 operation(s) for service_nodes.
+  name: Positron Service Nodes API
+  slug: positron-service-nodes-api
+- description: The users API from Positron — 3 operation(s) for users.
+  name: Positron Users API
+  slug: positron-users-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -99,11 +108,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/positron-inference-openapi.yml
+  url: openapi/_original/positron-inference-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/positron-admin-openapi.yml
+  url: openapi/_original/positron-admin-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -161,20 +170,20 @@ modified: '2026-08-02'
 name: Positron
 nav: Providers
 network: true
-overview: 'Positron publishes 2 APIs on the [APIs.io](https://apis.io/) network: Olivaw OpenAI-Compatible Inference API and Olivaw Admin API. Tagged areas include artificial-intelligence, ai-inference, inference-hardware, ai-accelerators, and large-language-models.
+overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include artificial-intelligence, ai-inference, inference-hardware, ai-accelerators, and large-language-models.
 
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 103
+random_paper: 82
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 36.5
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.4
+    contract_quality: 51.0
     developer_ergonomics: 51.6
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 37.0
@@ -189,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -122,9 +122,9 @@ common:
   title: ''
   type: StatusPage
   url: https://status.warp.dev/
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://docs.warp.dev/agent-platform/capabilities/mcp/
 - group: commercial
   title: ''
@@ -194,7 +194,7 @@ plans:
 - name: Warp Plans Pricing
   plan_count: 5
   slug: warp-plans-pricing
-random_paper: 103
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Warp Rate Limits
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/screenshots/warp-2026-06-20T201231.png
 security:

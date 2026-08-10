@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,7 +73,7 @@ plans:
 - name: Owner Com Plans Pricing
   plan_count: 3
   slug: owner-com-plans-pricing
-random_paper: 15
+random_paper: 107
 score:
   band: emerging
   composite: 15.2
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/owner-com/refs/heads/main/screenshots/owner-com-2026-08-07T191208.png
 security:
 - kind: domain-security
   name: Owner Com Domain Security

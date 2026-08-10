@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ plans:
 - name: New York Times Company Plans Pricing
   plan_count: 1
   slug: new-york-times-company-plans-pricing
-random_paper: 76
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: New York Times Company Rate Limits
@@ -349,25 +349,25 @@ rules:
   slug: new-york-times-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 49.3
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.0
+    contract_quality: 65.9
     developer_ergonomics: 21.7
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 48.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 15
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png
 security:

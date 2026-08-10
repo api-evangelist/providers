@@ -8,6 +8,26 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Provide numerous capabilities for important testing and monitoring methods for websites
@@ -43,7 +63,22 @@ overview: 'GeekFlare publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   GeekFlare''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 30
+random_paper: 6
+score:
+  band: minimal
+  composite: 6.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.2
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/screenshots/geekflare-2026-06-20T181711.png
 security:
 - kind: domain-security

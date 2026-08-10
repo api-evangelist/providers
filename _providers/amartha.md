@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,10 +84,11 @@ overview: 'Amartha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Amartha''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 12.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -95,6 +96,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: tags
@@ -102,7 +104,9 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amartha/refs/heads/main/screenshots/amartha-2026-08-07T161308.png
 security:
 - kind: domain-security
   name: Amartha Domain Security

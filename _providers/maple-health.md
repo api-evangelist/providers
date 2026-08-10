@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'Maple is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Maple''s developer surface includes engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 72
+random_paper: 42
 score:
   band: emerging
   composite: 23.7
@@ -119,7 +119,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maple-health/refs/heads/main/screenshots/maple-health-2026-07-25T230125.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Partner-facing REST API for the Trax retail intelligence platform: master data (stores, products, regions, retailers, targets, audit cycle sets), visit planning (routes, visit types, tasks, assortment'
@@ -116,7 +116,7 @@ overview: 'Trax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Trax''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 108
+random_paper: 99
 score:
   band: emerging
   composite: 24.0
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

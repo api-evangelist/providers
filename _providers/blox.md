@@ -1,6 +1,67 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bloxbuilt.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.bloxbuilt.com/about
+- group: other
+  title: ''
+  type: Products
+  url: https://www.bloxbuilt.com/products
+- group: company
+  title: ''
+  type: News
+  url: https://www.bloxbuilt.com/news
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.bloxbuilt.com/careers
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.bloxbuilt.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bloxbuilt.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bloxbuilt.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/BLOXBuilt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blox-domain-security.yml
 coverage:
   checked: '2026-08-07'
   detail: BLOX manufactures prefabricated healthcare buildings — its product ships on a truck, and bloxbuilt.com has no /developers, /docs or /api path at all (the site's own 404 handler answers each one), while the BLOXBuilt GitHub org's five public repos are internal 2016 Revit/portal projects, four of them empty.
@@ -25,7 +86,32 @@ modified: '2026-08-07'
 name: Blox
 nav: Providers
 network: true
-random_paper: 98
+overview: 'Blox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Modular Construction, Prefabrication, and Manufacturing.
+
+
+  Blox''s developer surface includes product news and 9 more developer resources.'
+random_paper: 89
+score:
+  band: minimal
+  composite: 9.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 9.9
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blox/refs/heads/main/screenshots/blox-2026-08-07T162639.png
+security:
+- kind: domain-security
+  name: Blox Domain Security
+  slug: blox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: blox
 tags:
 - Company
@@ -36,4 +122,5 @@ tags:
 - Healthcare Facilities
 - Architecture
 - Building Technology
+website: https://www.bloxbuilt.com/
 ---

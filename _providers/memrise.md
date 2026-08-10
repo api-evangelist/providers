@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ overview: 'memrise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   memrise''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 18.5
@@ -125,8 +125,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/memrise/refs/heads/main/screenshots/memrise-2026-08-07T172507.png
 security:
 - kind: domain-security
   name: Memrise Domain Security

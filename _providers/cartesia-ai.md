@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ apis:
 - description: Webhook endpoint registration.
   name: Cartesia Webhooks API
   slug: cartesia-ai-webhooks-api
-artifact_total: 30
+artifact_total: 32
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Cartesia''s **documented public WebSocket API**. Unlike most providers in this catalog, Cartesia publishes a real, bidirectional WebSocket protocol - not Server-Sent Events '
   name: Cartesia Realtime WebSocket API (TTS + STT)
@@ -111,6 +111,9 @@ collections:
 - collection_type: open
   name: Cartesia API
   slug: open-cartesia-ai
+- collection_type: open
+  name: Cartesia API
+  slug: open-cartesia
 common:
 - group: agent
   title: ''
@@ -156,15 +159,43 @@ common:
   title: ''
   type: FinOps
   url: finops/cartesia-ai-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cartesia.ai/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://cartesia.ai/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://cartesia.ai/legal/privacy-policy
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/cartesia
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/cartesia_ai
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.cartesia.ai/llms.txt
 created: '2026-07-02'
 description: Cartesia builds real-time voice AI - the Sonic family of text-to-speech models, Ink speech-to-text models, and a Voice Agents platform for building and deploying telephone and web voice agents. The core generation surface is exposed both as REST (bytes and Server-Sent Events) and as a low-latency, bidirectional WebSocket protocol at wss://api.cartesia.ai for streaming TTS and STT with multiplexed contexts, word/phoneme timestamps, and mid-stream flush and cancel.
 finops:
 - name: Cartesia Ai Finops
   service_category: AI and Machine Learning
   slug: cartesia-ai-finops
+graphqls:
+- description: This document describes a conceptual GraphQL schema for the Cartesia real-time text-to-speech and voice cloning API. Cartesia's native interfaces are REST, server-sent events, and WebSocket; this sche
+  name: Cartesia GraphQL Schema
+  slug: cartesia-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cartesia-ai.png
 layout: provider
-modified: '2026-07-02'
+modified: '2026-08-08'
 name: Cartesia
 nav: Providers
 network: true
@@ -174,12 +205,12 @@ overview: 'Cartesia publishes 21 APIs on the [APIs.io](https://apis.io/) network
   The Cartesia catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Cartesia''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
+  Cartesia''s developer surface includes authentication, engineering blog, documentation, pricing, and 13 more developer resources.'
 plans:
 - name: Cartesia Ai Plans Pricing
   plan_count: 6
   slug: cartesia-ai-plans-pricing
-random_paper: 74
+random_paper: 47
 rate_limits:
 - limit_count: 15
   name: Cartesia Ai Rate Limits
@@ -195,11 +226,11 @@ rules:
   slug: cartesia-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 52.0
+  delta: 6.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.5
+    commercial_clarity: 71.1
+    contract_quality: 67.1
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 41.7
@@ -213,8 +244,8 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:
 - kind: authentication

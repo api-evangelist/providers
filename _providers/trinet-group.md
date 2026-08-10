@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The TriNet Company API provides access to company-level HR data including organizational structure, departments, holiday schedules, workers compensation codes, and company configuration. Used by HR ad
@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: TriNet to launch AI-powered HR suite for small businesses
   url: https://www.investing.com/news/company-news/trinet-to-launch-aipowered-hr-suite-for-small-businesses-93CH-4302017
-random_paper: 21
+random_paper: 104
 rate_limits:
 - limit_count: 1
   name: Trinet Group Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/screenshots/trinet-group-2026-06-20T195719.png
 security:

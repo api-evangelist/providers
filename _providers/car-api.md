@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,7 +93,11 @@ apis:
 - description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
   name: Car API (carapi.app) Years API
   slug: car-api-years-api
-artifact_total: 37
+artifact_total: 38
+collections:
+- collection_type: open
+  name: CarAPI
+  slug: open-carapi
 common:
 - group: agent
   title: ''
@@ -216,7 +220,7 @@ plans:
 - name: Car Api Plans Pricing
   plan_count: 4
   slug: car-api-plans-pricing
-random_paper: 104
+random_paper: 89
 rate_limits:
 - limit_count: 4
   name: Car Api Rate Limits
@@ -250,9 +254,9 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173944.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:
 - kind: authentication
   name: Car Api Authentication

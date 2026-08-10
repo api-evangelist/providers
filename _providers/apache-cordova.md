@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project management and multi-platform builds, a plugin de
@@ -184,7 +184,7 @@ plans:
 - name: Apache Cordova Plans Pricing
   plan_count: 3
   slug: apache-cordova-plans-pricing
-random_paper: 49
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Cordova Rate Limits
@@ -211,7 +211,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 45.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/screenshots/apache-cordova-2026-06-20T172048.png
 security:

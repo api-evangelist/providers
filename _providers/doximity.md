@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/doximity-oauth-openapi.yml
+  url: openapi/_original/doximity-oauth-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -191,7 +191,7 @@ overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Doximity Rate Limits
@@ -230,7 +230,7 @@ score:
     regime_id: health
     score: 72.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ plans:
 - name: Candid Health Plans Pricing
   plan_count: 1
   slug: candid-health-plans-pricing
-random_paper: 43
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Candid Health Rate Limits
@@ -374,7 +374,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-06-20T173925.png
 security:

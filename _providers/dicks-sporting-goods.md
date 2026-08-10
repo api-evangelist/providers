@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: How DICK'S Sporting Goods uses AI to elevate team skills
   url: https://eightfold.ai/blog/how-dicks-sporting-goods-uses-ai-to-elevate-team-skills-in-a-changing-workplace/
-random_paper: 8
+random_paper: 70
 score:
   band: minimal
   composite: 4.8
@@ -86,7 +86,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dicks-sporting-goods/refs/heads/main/screenshots/dicks-sporting-goods-2026-06-20T180011.png
 security:

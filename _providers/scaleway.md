@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1689,7 +1689,7 @@ plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 66
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -1731,7 +1731,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

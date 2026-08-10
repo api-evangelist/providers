@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Hillhouse Investment
 nav: Providers
 network: true
-random_paper: 69
+random_paper: 45
 slug: hillhouse
 tags:
 - Venture Capital

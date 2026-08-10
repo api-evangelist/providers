@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 8
   name: Beazley Rate Limits
@@ -248,7 +248,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 85
+random_paper: 64
 scopes:
 - name: Evermuse Scopes
   scope_count: 3
@@ -200,7 +200,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/screenshots/evermuse-2026-07-25T213734.png
 security:

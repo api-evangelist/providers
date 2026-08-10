@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'State Employees'' Credit Union is profiled on the [APIs.io](https://a
 
 
   State Employees'' Credit Union''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 22
+random_paper: 63
 score:
   band: minimal
   composite: 12.0
@@ -79,7 +79,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

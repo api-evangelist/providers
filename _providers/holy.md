@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'HOLY''s Shopify-powered storefront and its agentic-commerce surface: a hosted Storefront MCP server (product search, cart, policies), a Universal Commerce Protocol (UCP) endpoint, Shopify Customer Acco'
@@ -120,7 +120,7 @@ overview: 'HOLY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HOLY''s developer surface includes support, authentication, and 15 more developer resources.'
-random_paper: 105
+random_paper: 96
 scopes:
 - name: Holy Scopes
   scope_count: 4
@@ -142,8 +142,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/holy/refs/heads/main/screenshots/holy-2026-08-07T170240.png
 security:
 - kind: authentication
   name: Holy Authentication

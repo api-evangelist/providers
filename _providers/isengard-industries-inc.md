@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Isengard Industries Inc
 nav: Providers
 network: true
 overview: Isengard Industries Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-UAS, Counter-Drone, and Autonomous Systems.
-random_paper: 87
+random_paper: 27
 score:
   band: minimal
   composite: 7.5
@@ -82,7 +82,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isengard-industries-inc/refs/heads/main/screenshots/isengard-industries-inc-2026-07-25T222940.png
 security:

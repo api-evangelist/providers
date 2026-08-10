@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Somnigroup to Acquire Leggett & Platt for $2.5 Billion | News
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/somnigroup-to-acquire-leggett-and-platt
-random_paper: 112
+random_paper: 70
 score:
   band: minimal
   composite: 5.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leggett-and-platt/refs/heads/main/screenshots/leggett-and-platt-2026-06-20T184410.png
 security:

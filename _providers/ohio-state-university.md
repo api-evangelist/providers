@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Public REST API for the Knowledge Bank, Ohio State University Libraries' DSpace 7.6 institutional repository. Exposes communities, collections, items, and bitstreams as JSON (HAL) for the digital scho
@@ -106,7 +106,7 @@ plans:
 - name: Ohio State University Plans Pricing
   plan_count: 2
   slug: ohio-state-university-plans-pricing
-random_paper: 41
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Ohio State University Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/screenshots/ohio-state-university-2026-06-20T190643.png
 security:

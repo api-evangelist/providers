@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -63,28 +63,32 @@ common:
   title: ''
   type: Compliance
   url: https://www.nurix.ai/security-and-compliance
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/nurix-llms.txt
 created: '2026-07-17'
 description: Nurix AI is an enterprise agentic AI platform for sales and customer support, delivering AI voice and chat agents that qualify leads, resolve support issues, and automate back-office operations across voice, chat, and messaging channels. Its products include NuPlay (customer-facing conversational AI agents) and NuStack (a workflow automation engine), backed by a library of 400+ pre-built integrations spanning CRM, contact-center (CCaaS), e-commerce/order-management, messaging, and scheduling systems. Nurix is backed by General Catalyst. As of this profile the company exposes no public developer API surface — engagement is via sales/demo and pre-built connectors rather than self-serve API keys or developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nurix.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-08'
 name: Nurix
 nav: Providers
 network: true
 overview: 'Nurix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Agentic AI, and Customer Support.
 
 
-  Nurix''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 1
+  Nurix''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 102
 score:
   band: emerging
-  composite: 15.6
-  delta: 0.0
+  composite: 16.2
+  delta: 0.6
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.6
@@ -95,8 +99,9 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nurix/refs/heads/main/screenshots/nurix-2026-08-07T185747.png
 security:
 - kind: domain-security
   name: Nurix Domain Security

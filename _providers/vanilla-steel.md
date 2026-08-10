@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ name: Vanilla Steel
 nav: Providers
 network: true
 overview: Vanilla Steel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Steel, Metals, Marketplace, and Trading.
-random_paper: 86
+random_paper: 53
 score:
   band: emerging
   composite: 20.9
@@ -114,7 +114,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

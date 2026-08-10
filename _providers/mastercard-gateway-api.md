@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Mastercard Gateway Api Plans Pricing
   plan_count: 3
   slug: mastercard-gateway-api-plans-pricing
-random_paper: 73
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Mastercard Gateway Api Rate Limits
@@ -146,7 +146,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/screenshots/mastercard-gateway-api-2026-06-20T185023.png
 security:

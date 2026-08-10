@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: AI + EV = Can Utilities Generate Enough Power?
   url: https://gabelli.com/research/ai-ev-can-utilities-generate-enough-power/
-random_paper: 3
+random_paper: 59
 score:
   band: minimal
   composite: 3.5
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-future-holdings/refs/heads/main/screenshots/energy-future-holdings-2026-06-20T180703.png
 slug: energy-future-holdings

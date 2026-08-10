@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -71,33 +71,37 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/servicemax-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.ptc.com/en/products/servicemax
 created: '2026-07-17'
 description: ServiceMax is asset-centric field service management (FSM) software that helps equipment manufacturers and service organizations maximize equipment uptime, optimize technician productivity, and streamline service delivery. Its cloud platform, built natively on the Salesforce platform (ServiceMax Core and Asset 360), spans work order and workflow management, scheduling and dispatch (Service Board), preventive and predictive maintenance, contract and entitlement management, parts and inventory, offline-capable mobile tools (ServiceMax Go), real-time technician collaboration (Zinc), and customer self-service (Engage). Founded in 2007 and acquired by PTC in 2023, ServiceMax integrates with PTC's IoT and PLM portfolio (ThingWorx, Windchill) and exposes its data and workflows through the underlying Salesforce API surface rather than a standalone public developer API.
 image: https://ptc-p-001.sitecorecontenthub.cloud/api/public/content/3e1780ab87ea4df98c59075789e76e83?v=ac279162
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: ServiceMax
 nav: Providers
 network: true
 overview: 'ServiceMax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Field Service Management, Asset Management, and Salesforce.
 
 
-  ServiceMax''s developer surface includes support and 9 more developer resources.'
-random_paper: 62
+  ServiceMax''s developer surface includes support, documentation, and 9 more developer resources.'
+random_paper: 35
 score:
   band: emerging
-  composite: 14.1
-  delta: 0.0
+  composite: 15.9
+  delta: 1.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 13.0
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

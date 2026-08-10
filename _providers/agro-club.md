@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ name: Agro Club
 nav: Providers
 network: true
 overview: Agro Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Grain Trading, and Crop Marketing.
-random_paper: 101
+random_paper: 80
 score:
   band: minimal
   composite: 9.9
@@ -70,8 +70,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agro-club/refs/heads/main/screenshots/agro-club-2026-08-07T161046.png
 slug: agro-club
 tags:
 - Company

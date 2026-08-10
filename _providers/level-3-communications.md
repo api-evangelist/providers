@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Level 3 Communications Leads Council to Define New ...
   url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1998/m06/level-3-communications-leads-council-to-define-new-standards-for-network-interconnection.html
-random_paper: 43
+random_paper: 102
 score:
   band: minimal
   composite: 5.5
@@ -92,7 +92,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-3-communications/refs/heads/main/screenshots/level-3-communications-2026-06-20T184432.png
 security:

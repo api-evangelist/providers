@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Portal de Dados Abertos – Prefeitura de Belo Horizonte, a consistent JSON-over-HTTP interface over a catalog of 588 datasets. Standard actions include package_search, package_show,
@@ -84,7 +84,7 @@ plans:
 - name: Dados Pbh Gov Br Plans Pricing
   plan_count: 1
   slug: dados-pbh-gov-br-plans-pricing
-random_paper: 47
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Dados Pbh Gov Br Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dados-pbh-gov-br/refs/heads/main/screenshots/dados-pbh-gov-br-2026-06-20T175429.png
 security:

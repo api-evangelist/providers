@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Order entry and execution for the OneChronos US equities dark ATS over a modern variant of the FIX 4.2 protocol. Standard and Target orders, and Expressive Bids, are submitted electronically via FIX o
@@ -113,7 +113,7 @@ overview: 'OneChronos publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OneChronos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 69
+random_paper: 42
 score:
   band: emerging
   composite: 23.3
@@ -135,8 +135,9 @@ score:
     regime_id: securities_market_data
     score: 25.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/screenshots/onechronos-2026-08-07T190304.png
 security:
 - kind: domain-security
   name: Onechronos Domain Security

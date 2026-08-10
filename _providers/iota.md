@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -191,11 +191,11 @@ common:
 - group: docs
   title: IOTA JSON-RPC OpenAPI 3.0 (75 methods, derived from OpenRPC)
   type: OpenAPI
-  url: openapi/iota-jsonrpc-openapi.json
+  url: openapi/_original/iota-jsonrpc-openapi.json
 - group: docs
   title: IOTA EVM WASP Node REST API OpenAPI 3.0 (59 paths)
   type: OpenAPI
-  url: openapi/iota-evm-wasp-openapi.yaml
+  url: openapi/_original/iota-evm-wasp-openapi.yaml
 - group: other
   title: IOTA JSON-RPC OpenRPC Specification (source)
   type: OpenRPC
@@ -257,7 +257,7 @@ plans:
 - name: Iota Plans
   plan_count: 3
   slug: iota-plans
-random_paper: 90
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Iota Rate Limits
@@ -282,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/screenshots/iota-2026-06-20T183535.png
 security:

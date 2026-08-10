@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs (Salesforc
@@ -83,6 +83,26 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.junipersquare.com/privacy-policy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.junipersquare.com/platform/apis-and-integrations
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.junipersquare.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.junipersquare.com/terms-of-use
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/junipersquare-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/junipersquare-llms.txt
 created: '2026-07-17'
 description: Juniper Square is a fund operating system for the private markets, used by 2,300+ general partners across private equity, venture capital, commercial real estate, and private credit to raise capital, run fund administration and fund accounting, and manage the LP experience. Its GPX platform unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through a developer API (broad read/write coverage delivered as a developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication, permissions, and audit inherited from the customer's existing configuration.
 image: https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326
@@ -91,33 +111,33 @@ mcp_servers:
 - description: ''
   name: junipersquare-mcp.yml
   slug: junipersquare-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Juniper Square
 nav: Providers
 network: true
 overview: 'Juniper Square publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment Management, Private Markets, Fund Administration, and Fund Accounting.
 
 
-  Juniper Square''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 66
+  Juniper Square''s developer surface includes engineering blog, documentation, support, and 14 more developer resources.'
+random_paper: 30
 score:
-  band: emerging
-  composite: 21.4
-  delta: 0.0
+  band: thin
+  composite: 28.4
+  delta: 7.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 21.4
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/screenshots/junipersquare-2026-07-25T223321.png
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/screenshots/junipersquare-2026-07-25T223322.png
 security:
 - kind: domain-security
   name: Junipersquare Domain Security

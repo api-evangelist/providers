@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 5
 common:
@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Sherwin-Williams paint company to buy Valspar for $9.3 ...
   url: https://www.reuters.com/article/business/sherwin-williams-paint-company-to-buy-valspar-for-93-billion-idUSKCN0WM0W1/
-random_paper: 83
+random_paper: 65
 rules:
 - name: Valspar API Rules
   rule_count: 5
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/screenshots/valspar-2026-06-20T200759.png
 security:

@@ -22,19 +22,37 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 22.5
+  scored_at: '2026-08-10'
+api_count: 7
 apis:
-- description: REST API for accessing protein-protein interaction networks, functional enrichment results, homology data, and annotation information from the STRING database. Supports multiple output formats includi
-  name: STRING REST API
-  slug: string-rest-api
-artifact_total: 14
+- description: Functional annotations and term lookup
+  name: STRING Annotation API
+  slug: string-db-annotation-api
+- description: Functional enrichment analysis
+  name: STRING Enrichment API
+  slug: string-db-enrichment-api
+- description: Protein homology and similarity scores
+  name: STRING Homology API
+  slug: string-db-homology-api
+- description: Map protein names and synonyms to STRING identifiers
+  name: STRING Identifiers API
+  slug: string-db-identifiers-api
+- description: Retrieve protein-protein interaction networks
+  name: STRING Network API
+  slug: string-db-network-api
+- description: Utility endpoints (version, links, API key)
+  name: STRING Utility API
+  slug: string-db-utility-api
+- description: Values/Ranks GSEA-like enrichment (requires API key)
+  name: STRING Valuesranks API
+  slug: string-db-valuesranks-api
+artifact_total: 20
 common:
 - group: auth
   title: ''
@@ -99,7 +117,7 @@ modified: 2026-06-13
 name: STRING
 nav: Providers
 network: true
-overview: 'STRING publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Bioinformatics, Proteins, Genomics, Life Sciences, and Research.
+overview: 'STRING publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Annotation API, Enrichment API, Homology API, and 4 more. Tagged areas include Bioinformatics, Proteins, Genomics, Life Sciences, and Research.
 
 
   The STRING catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -107,7 +125,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -123,13 +141,13 @@ rules:
   slug: string-db-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 38.7
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.2
+    contract_quality: 62.6
     developer_ergonomics: 6.5
-    discoverability: 70.4
+    discoverability: 75.9
     governance: 58.3
     operational_transparency: 21.1
   previous_composite: 36.2
@@ -146,7 +164,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

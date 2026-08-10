@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: A curated collection of standards, conventions, and best practices for building RESTful APIs, including HAL, JSON:API, Siren, Collection+JSON, and HATEOAS patterns.
@@ -107,7 +107,7 @@ plans:
 - name: Restful Services Plans Pricing
   plan_count: 3
   slug: restful-services-plans-pricing
-random_paper: 104
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Restful Services Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restful-services/refs/heads/main/screenshots/restful-services-2026-06-20T193027.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: 'The Restate Admin API is the HTTP control plane for a running Restate Server, exposed by default on port 9070. It manages service deployment registration, lists and introspects services and handlers, '
@@ -222,7 +222,7 @@ overview: 'Restate publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Restate''s developer surface includes developer portal, documentation, getting-started guide, tutorials, CLI, pricing, engineering blog, and 16 more developer resources.'
-random_paper: 107
+random_paper: 80
 score:
   band: emerging
   composite: 26.4
@@ -236,7 +236,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate-dev/refs/heads/main/screenshots/restate-dev-2026-06-20T193029.png
 security:

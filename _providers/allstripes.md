@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,10 +65,11 @@ name: AllStripes
 nav: Providers
 network: true
 overview: AllStripes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Rare Disease, Real-World Data, and Real-World Evidence.
-random_paper: 74
+random_paper: 47
 score:
   band: minimal
   composite: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -76,6 +77,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 5.1
   regulatory:
     applies: true
     matched_via: tags
@@ -83,7 +85,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allstripes/refs/heads/main/screenshots/allstripes-2026-08-07T161233.png
 security:
 - kind: domain-security
   name: Allstripes Domain Security

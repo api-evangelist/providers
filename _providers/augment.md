@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/augment-openapi-original.json
+  url: openapi/_original/augment-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -197,7 +197,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 75
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Augment Rate Limits
@@ -225,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:

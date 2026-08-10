@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -113,6 +113,34 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/patch-technology/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/patch-technology
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.patch.io/how-it-works
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.patch.io
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/usepatch
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/patch-io-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/patch-io-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/patch-io-finops.yml
 created: '2026-05-23'
 description: Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly into checkouts, accounting systems, and ESG products. Patch also runs Radius (network-based impact acceleration), Offtake (climate tech funding and long-term credit access), and an RFP tool for carbon credit procurement. Official SDKs are available for Node.js, Python, Ruby, and other languages, and the API is documented with an OpenAPI 3 spec and Swagger UI.
 examples:
@@ -153,7 +181,7 @@ jsonld:
   property_count: 10
   slug: patch-io-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-08-08'
 name: Patch
 nav: Providers
 network: true
@@ -163,12 +191,12 @@ overview: 'Patch publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Patch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Patch''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
+  Patch''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Patch Io Plans Pricing
   plan_count: 1
   slug: patch-io-plans-pricing
-random_paper: 111
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Patch Io Rate Limits
@@ -192,15 +220,15 @@ rules:
   slug: patch-io-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 52.1
+  delta: 4.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 39.5
     contract_quality: 79.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -210,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/screenshots/patch-io-2026-06-20T191438.png
 security:

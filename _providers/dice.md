@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'DICE is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   DICE''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: emerging
   composite: 13.7
@@ -101,7 +101,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 13.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dice/refs/heads/main/screenshots/dice-2026-07-25T211933.png
 security:

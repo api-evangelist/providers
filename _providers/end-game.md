@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/end-game-openapi.json
+  url: openapi/_original/end-game-openapi.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -187,7 +187,7 @@ overview: 'Endgame publishes 1 API on the [APIs.io](https://apis.io/) network: T
 
 
   Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 88
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: End Game Rate Limits
@@ -215,7 +215,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/screenshots/end-game-2026-07-25T213310.png
 security:

@@ -18,25 +18,22 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-06'
-api_count: 5
+  scored_at: '2026-08-10'
+api_count: 4
 apis:
-- description: 'The Operator Backend for the DA Registry. Exposes publicly accessible endpoints that serve the off-ledger information required to advance Utility Daml workflows via explicit contract disclosure — the '
-  name: Digital Asset Utilities API (Operator Backend)
-  slug: utilities
-- description: Canton Token Standard token metadata service. Read-only off-ledger API returning registry information — including the token-standard versions the registry supports — and the instruments a registrar ad
-  name: Digital Asset Token Metadata API (CIP-56)
-  slug: token-metadata-v1
-- description: 'Canton Token Standard transfer-instruction off-ledger API. Returns the transfer factory and choice context needed to execute a direct transfer, and the choice contexts to accept, reject or withdraw a '
-  name: Digital Asset Transfer Instruction API (CIP-56)
-  slug: transfer-instruction-v1
-- description: Canton Token Standard allocation off-ledger API. Returns the choice contexts required to execute the transfer of, withdraw, or cancel an existing allocation — the settlement primitive behind delivery-
-  name: Digital Asset Allocation API (CIP-56)
-  slug: allocation-v1
-- description: Canton Token Standard allocation-instruction off-ledger API. Returns the allocation factory and choice context for creating allocations through the AllocationFactory_Allocate choice.
-  name: Digital Asset Allocation Instruction API (CIP-56)
-  slug: allocation-instruction-v1
-artifact_total: 9
+- description: The common API from Digital Asset — 3 operation(s) for common.
+  name: Digital Asset Common API
+  slug: digital-asset-common-api
+- description: The operator API from Digital Asset — 5 operation(s) for operator.
+  name: Digital Asset Operator API
+  slug: digital-asset-operator-api
+- description: The public API from Digital Asset — 11 operation(s) for public.
+  name: Digital Asset Public API
+  slug: digital-asset-public-api
+- description: The registry API from Digital Asset — 18 operation(s) for registry.
+  name: Digital Asset Registry API
+  slug: digital-asset-registry-api
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -174,18 +171,18 @@ modified: '2026-08-04'
 name: Digital Asset
 nav: Providers
 network: true
-overview: 'Digital Asset publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Utilities API (Operator Backend), Token Metadata API (CIP-56), Transfer Instruction API (CIP-56), and 2 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
+overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 25 more developer resources.'
-random_paper: 80
+random_paper: 47
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 47.6
+  delta: -0.9
   facets:
     commercial_clarity: 26.3
-    contract_quality: 47.1
+    contract_quality: 43.5
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
@@ -201,8 +198,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:
 - kind: authentication
   name: Digital Asset Authentication

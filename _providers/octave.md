@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Octave is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Octave''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: minimal
   composite: 11.1
@@ -91,8 +91,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/octave/refs/heads/main/screenshots/octave-2026-08-07T185939.png
 security:
 - kind: domain-security
   name: Octave Domain Security

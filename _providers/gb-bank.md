@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GB Bank''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
-random_paper: 93
+random_paper: 78
 scopes:
 - name: Gb Bank Scopes
   scope_count: 3
@@ -143,21 +143,21 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.1
+  composite: 36.8
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.1
+    contract_quality: 55.0
     developer_ergonomics: 17.4
     discoverability: 72.2
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 35.1
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 25.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -166,9 +166,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
+    score: 81.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png
 security:

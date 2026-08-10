@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Hitachi Construction Machinery Telematics API provides operational data about construction equipment including location, fuel consumption, operating hours, and diagnostic information, compliant wi
@@ -72,7 +72,7 @@ plans:
 - name: Hitachi Construction Machinery Plans Pricing
   plan_count: 3
   slug: hitachi-construction-machinery-plans-pricing
-random_paper: 52
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Hitachi Construction Machinery Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

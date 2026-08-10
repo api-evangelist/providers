@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'SkenarioLabs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   SkenarioLabs'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 35
+random_paper: 2
 score:
   band: minimal
   composite: 12.4
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

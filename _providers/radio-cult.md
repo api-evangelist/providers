@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ plans:
 - name: Radio Cult Plans Pricing
   plan_count: 3
   slug: radio-cult-plans-pricing
-random_paper: 108
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Radio Cult Rate Limits
@@ -131,7 +131,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/screenshots/radio-cult-2026-06-20T192517.png
 security:

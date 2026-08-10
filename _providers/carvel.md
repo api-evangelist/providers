@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 7
 apis:
 - description: ytt is a templating tool that understands YAML structure, letting you use familiar YAML constructs and Python-like language (Starlark) to template Kubernetes configuration. Supports overlays, data val
@@ -102,7 +102,7 @@ plans:
 - name: Carvel Plans Pricing
   plan_count: 3
   slug: carvel-plans-pricing
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Carvel Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/screenshots/carvel-2026-06-20T174027.png
 security:

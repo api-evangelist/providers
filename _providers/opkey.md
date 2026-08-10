@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-06'
+  score: 29.5
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -26,15 +26,57 @@ agentic_access:
   operation_count: 90
   slug: opkey-agentic-access
   summary_line: 90 operations · 89 acting · 6 human-in-the-loop
-api_count: 2
+api_count: 16
 apis:
-- description: The public REST API for pCloudy, the real-device mobile and browser testing cloud operated by Opkey. It follows resource-oriented URLs, defaults every method to POST except authentication, and returns
-  name: pCloudy Device Cloud API
-  slug: pcloudy-api
 - description: The official pCloudy MCP server, published by pCloudy as the Python package pcloudy-mcp and run over stdio with uvx. It exposes 36 tools across four groups — device booking, browser booking, app manag
   name: pCloudy MCP Server
   slug: pcloudy-mcp
-artifact_total: 6
+- description: The Apk Instrumentation API from Opkey — 3 operation(s) for apk instrumentation.
+  name: Opkey Apk Instrumentation API
+  slug: opkey-apk-instrumentation-api
+- description: The Apk Instrumentation Apis API from Opkey — 3 operation(s) for apk instrumentation apis.
+  name: Opkey Apk Instrumentation Apis API
+  slug: opkey-apk-instrumentation-apis-api
+- description: The App Center Api API from Opkey — 5 operation(s) for app center api.
+  name: Opkey App Center Api API
+  slug: opkey-app-center-api-api
+- description: The App Control API from Opkey — 4 operation(s) for app control.
+  name: Opkey App Control API
+  slug: opkey-app-control-api
+- description: The Appium Automation API from Opkey — 11 operation(s) for appium automation.
+  name: Opkey Appium Automation API
+  slug: opkey-appium-automation-api
+- description: The Authentication API from Opkey — 1 operation(s) for authentication.
+  name: Opkey Authentication API
+  slug: opkey-authentication-api
+- description: The Device Booking & Session API from Opkey — 3 operation(s) for device booking & session.
+  name: Opkey Device Booking & Session API
+  slug: opkey-device-booking-session-api
+- description: The Device Interaction API from Opkey — 8 operation(s) for device interaction.
+  name: Opkey Device Interaction API
+  slug: opkey-device-interaction-api
+- description: The File Management API from Opkey — 2 operation(s) for file management.
+  name: Opkey File Management API
+  slug: opkey-file-management-api
+- description: The Generic API from Opkey — 30 operation(s) for generic.
+  name: Opkey Generic API
+  slug: opkey-generic-api
+- description: The Network Simulation API from Opkey — 5 operation(s) for network simulation.
+  name: Opkey Network Simulation API
+  slug: opkey-network-simulation-api
+- description: The Performance API from Opkey — 1 operation(s) for performance.
+  name: Opkey Performance API
+  slug: opkey-performance-api
+- description: The Resigning Apis API from Opkey — 3 operation(s) for resigning apis.
+  name: Opkey Resigning Apis API
+  slug: opkey-resigning-apis-api
+- description: The Session Media & Logs API from Opkey — 5 operation(s) for session media & logs.
+  name: Opkey Session Media & Logs API
+  slug: opkey-session-media-logs-api
+- description: The Xctest Automation API from Opkey — 6 operation(s) for xctest automation.
+  name: Opkey Xctest Automation API
+  slug: opkey-xctest-automation-api
+artifact_total: 20
 common:
 - group: agent
   title: ''
@@ -149,20 +191,20 @@ modified: '2026-08-04'
 name: Opkey
 nav: Providers
 network: true
-overview: 'Opkey publishes 1 API on the [APIs.io](https://apis.io/) network: pCloudy Device Cloud API. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
+overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api API, and 12 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
 
 
   Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 18 more developer resources.'
-random_paper: 100
+random_paper: 88
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 51.5
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.4
+    contract_quality: 62.8
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 51.8
@@ -177,8 +219,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/screenshots/opkey-2026-08-07T190728.png
 security:
 - kind: authentication
   name: Opkey Authentication

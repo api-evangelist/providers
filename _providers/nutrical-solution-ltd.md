@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nutrical-solution-ltd-openapi.yml
+  url: openapi/_original/nutrical-solution-ltd-openapi.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -182,7 +182,7 @@ overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Nutrical Solution Ltd''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 26
+random_paper: 85
 score:
   band: thin
   composite: 34.3
@@ -212,8 +212,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:
 - kind: authentication
   name: Nutrical Solution Ltd Authentication

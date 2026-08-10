@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Cities Database Api Plans Pricing
   plan_count: 3
   slug: cities-database-api-plans-pricing
-random_paper: 58
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Cities Database Api Rate Limits
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/screenshots/cities-database-api-2026-06-20T174409.png
 security:

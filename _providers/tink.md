@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: REST API for retrieving end-user accounts, transactions, and balances across 3,400+ European banks via PSD2 AISP.
@@ -116,7 +116,7 @@ plans:
 - name: Tink Plans Pricing
   plan_count: 2
   slug: tink-plans-pricing
-random_paper: 99
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Tink Rate Limits
@@ -140,7 +140,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink/refs/heads/main/screenshots/tink-2026-06-20T195408.png
 security:

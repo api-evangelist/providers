@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 5
 common:
@@ -85,7 +85,7 @@ plans:
 - name: Prizepicks Plans Pricing
   plan_count: 1
   slug: prizepicks-plans-pricing
-random_paper: 75
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Prizepicks Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 14.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

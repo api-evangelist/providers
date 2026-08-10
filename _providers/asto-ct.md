@@ -18,13 +18,69 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/asto-ct-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/asto-ct-llms.txt
 - group: company
   title: ''
   type: Website
+  url: https://www.astoct.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.astoct.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.astoct.com/news?format=rss
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.astoct.com/support
+- group: operate
+  title: ''
+  type: ContactInformation
+  url: https://www.astoct.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.astoct.com/privacypolicy
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.astoct.com/questions
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://www.astoct.com/case-studies
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/asto-ct/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/Equina_AstoCT
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCnVpRS5OYk0j-JKxihG0Tbw
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/astoct/
+- group: other
+  title: ''
+  type: SecondaryMarket
   url: https://forgeglobal.com/asto-ct_stock/
 coverage:
   checked: '2026-08-06'
@@ -41,28 +97,48 @@ coverage:
   reason: not-a-software-company
   state: none
 created: '2026-08-06'
-description: 'Asto CT is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Asto CT, Inc. is a Middleton, Wisconsin medical-imaging device manufacturer that designs and builds Equina, a robotically positioned, weight-bearing fan-beam computed tomography (CT) scanner purpose-built for imaging mildly sedated, standing horses. Founded on a 2016 concept and first installed at UW-Madison in 2019, the company sells capital imaging equipment plus installation, training and ongoing clinical support to equine hospitals and veterinary teaching hospitals worldwide, with offices in Middleton, Wisconsin and Crawley, United Kingdom. Asto CT is a hardware company: the Equina system is operated from an on-site console and the company publishes no public developer program, API, SDK or machine-readable interface contract.'
+image: https://static1.squarespace.com/static/561fb278e4b048525fcf098f/t/6830bc104e0f7274d551e013/1748024336785/6.png?format=1500w
 layout: provider
 modified: '2026-08-06'
 name: Asto CT
 nav: Providers
 network: true
-overview: Asto CT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 21
+overview: 'Asto CT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Medical Imaging, Veterinary, and Equine Health.
+
+
+  Asto CT''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
+random_paper: 3
 score:
   band: minimal
-  composite: 3.5
+  composite: 9.1
+  delta: 0.0
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 35.2
+    developer_ergonomics: 6.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/asto-ct/refs/heads/main/screenshots/asto-ct-2026-08-07T161836.png
+security:
+- kind: domain-security
+  name: Asto Ct Domain Security
+  slug: asto-ct-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: asto-ct
 tags:
 - Company
-website: https://forgeglobal.com/asto-ct_stock/
+- Medical Devices
+- Medical Imaging
+- Veterinary
+- Equine Health
+- Computed Tomography
+- Health Care
+- Hardware
+website: https://www.astoct.com/
 ---

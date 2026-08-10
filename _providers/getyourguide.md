@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
@@ -184,7 +184,7 @@ overview: 'GetYourGuide publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 66
+random_paper: 33
 score:
   band: developing
   composite: 43.7
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:

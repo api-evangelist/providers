@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-06'
+  score: 58.3
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -26,15 +26,51 @@ agentic_access:
   operation_count: 46
   slug: arkestro-agentic-access
   summary_line: 46 operations · 22 acting
-api_count: 2
+api_count: 14
 apis:
-- description: Public REST API for managing an Arkestro instance without a user session. Covers the creation and execution of sourcing events, event schedules and awards, event and document submissions, quote submis
-  name: Arkestro API V2
-  slug: arkestro-api-v2
 - description: Remote Model Context Protocol server operated by Arkestro, authorized with OAuth 2.1 authorization code flow and mandatory PKCE S256 against the mcp:read, mcp:write and offline_access scopes. The endp
   name: Arkestro MCP Server
   slug: arkestro-mcp-server
-artifact_total: 9
+- description: The awards API from Arkestro — 1 operation(s) for awards.
+  name: Arkestro Awards API
+  slug: arkestro-awards-api
+- description: The business unit API from Arkestro — 1 operation(s) for business unit.
+  name: Arkestro business unit API
+  slug: arkestro-business-unit-api
+- description: Categories represent item or service groupings used in various reports and programs
+  name: Arkestro corporate categories API
+  slug: arkestro-corporate-categories-api
+- description: Items represent goods or services under agreement in Arkestro.
+  name: Arkestro corporate items API
+  slug: arkestro-corporate-items-api
+- description: Purchase Orders for an organization
+  name: Arkestro corporate purchase orders API
+  slug: arkestro-corporate-purchase-orders-api
+- description: Vendor document submissions for an event
+  name: Arkestro document submissions API
+  slug: arkestro-document-submissions-api
+- description: The event analytics API from Arkestro — 6 operation(s) for event analytics.
+  name: Arkestro event analytics API
+  slug: arkestro-event-analytics-api
+- description: Documents attached to an event for supplier review or submission
+  name: Arkestro event documents API
+  slug: arkestro-event-documents-api
+- description: The events API from Arkestro — 2 operation(s) for events.
+  name: Arkestro Events API
+  slug: arkestro-events-api
+- description: Quote submissions from suppliers on events
+  name: Arkestro quote submissions API
+  slug: arkestro-quote-submissions-api
+- description: The schedules API from Arkestro — 1 operation(s) for schedules.
+  name: Arkestro Schedules API
+  slug: arkestro-schedules-api
+- description: Contacts represent an individual at a supplier organization
+  name: Arkestro supplier contacts API
+  slug: arkestro-supplier-contacts-api
+- description: Supplier organizations represent external companies that supply goods or services
+  name: Arkestro supplier organizations API
+  slug: arkestro-supplier-organizations-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Arkestro Webhooks
@@ -172,14 +208,14 @@ modified: '2026-08-06'
 name: Arkestro
 nav: Providers
 network: true
-overview: 'Arkestro publishes 1 API on the [APIs.io](https://apis.io/) network: API V2. Tagged areas include procurement, sourcing, supply-chain, spend-management, and e-sourcing.
+overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include procurement, sourcing, supply-chain, spend-management, and e-sourcing.
 
 
   The Arkestro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 84
+random_paper: 63
 scopes:
 - name: Arkestro Scopes
   scope_count: 3
@@ -187,16 +223,30 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.9
+  composite: 51.0
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.4
-    developer_ergonomics: 56.5
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 65.0
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 50.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-07T161720.png
 security:
 - kind: authentication
   name: Arkestro Authentication

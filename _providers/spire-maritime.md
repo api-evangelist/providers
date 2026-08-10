@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: GraphQL `vessels` query returning up to 1,000 vessels per page - static data (name, MMSI, IMO, callsign, flag, shipType, dimensions), last position update (lat/long, course, heading, speed, collection
@@ -109,7 +109,7 @@ plans:
 - name: Spire Maritime Plans Pricing
   plan_count: 1
   slug: spire-maritime-plans-pricing
-random_paper: 92
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Spire Maritime Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'The Climate Corporation publishes 8 APIs on the [APIs.io](https://api
 
 
   The Climate Corporation''s developer surface includes documentation, API reference, signup flow, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 86
+random_paper: 26
 scopes:
 - name: The Climate Corporation Scopes
   scope_count: 24
@@ -193,7 +193,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

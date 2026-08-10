@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ overview: 'Jam City is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Jam City''s developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
-random_paper: 7
+random_paper: 102
 score:
   band: minimal
   composite: 12.4
@@ -104,8 +104,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jam-city/refs/heads/main/screenshots/jam-city-2026-08-07T170944.png
 security:
 - kind: domain-security
   name: Jam City Domain Security

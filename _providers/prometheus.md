@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -338,7 +338,7 @@ plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
   slug: prometheus-plans-pricing
-random_paper: 83
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Prometheus Rate Limits
@@ -382,7 +382,7 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

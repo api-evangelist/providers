@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -273,7 +273,7 @@ overview: 'Opply publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Opply''s developer surface includes authentication, engineering blog, and 17 more developer resources.'
-random_paper: 112
+random_paper: 100
 scopes:
 - name: Opply Scopes
   scope_count: 29
@@ -308,8 +308,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/screenshots/opply-2026-08-07T190741.png
 security:
 - kind: authentication
   name: Opply Authentication

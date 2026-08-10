@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Fern Bot
 nav: Providers
 network: true
 overview: Fern Bot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Reinforcement Learning, and World Models.
-random_paper: 6
+random_paper: 101
 score:
   band: minimal
   composite: 5.0
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern-bot/refs/heads/main/screenshots/fern-bot-2026-07-25T214342.png
 security:

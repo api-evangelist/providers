@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Hydro Wind Energy
 nav: Providers
 network: true
 overview: Hydro Wind Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Renewable Energy, Offshore Wind, Energy Storage, and Desalination.
-random_paper: 29
+random_paper: 100
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-wind-energy/refs/heads/main/screenshots/hydro-wind-energy-2026-07-25T221825.png
 security:

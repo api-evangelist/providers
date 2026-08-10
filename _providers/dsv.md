@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 29
 apis:
 - description: OAuth 2.0 token endpoint for the DSV Generic APIs. Exchanges myDSV username/password (sent as client_id/client_secret with grant_type=client_credentials) plus a DSV-Subscription-Key for a 10-minute be
@@ -199,7 +199,7 @@ overview: 'DSV publishes 29 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 12 more developer resources.'
-random_paper: 107
+random_paper: 101
 score:
   band: thin
   composite: 38.8
@@ -219,8 +219,9 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv
 tags:
 - Logistics

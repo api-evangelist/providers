@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -172,9 +172,9 @@ common:
   title: ''
   type: Terraform
   url: https://github.com/prismatic-io/terraform-provider-prismatic
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://github.com/prismatic-io/prism-mcp
 - group: agent
   title: ''
@@ -252,9 +252,9 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/prismatic-io/prismatic-skills
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://github.com/prismatic-io/prism-mcp
 - group: other
   title: ''
@@ -756,7 +756,7 @@ plans:
 - name: Prismatic Plans Pricing
   plan_count: 3
   slug: prismatic-plans-pricing
-random_paper: 68
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Prismatic Rate Limits
@@ -798,7 +798,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/screenshots/prismatic-2026-06-20T192113.png
 security:

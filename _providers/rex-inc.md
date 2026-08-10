@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Rex Inc is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rex Inc''s developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
-random_paper: 16
+random_paper: 114
 score:
   band: emerging
   composite: 13.0
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ press:
 - date: '2026-05-25'
   title: TravelCenters of America and NATSO Foundation Work to ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-and-natso-foundation-work-to-enhance-safety-for-roadside-service-technicians-302112405.html
-random_paper: 62
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Travelcenters Of America Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/screenshots/travelcenters-of-america-2026-06-20T195634.png
 security:

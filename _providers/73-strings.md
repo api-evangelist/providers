@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -28,24 +28,24 @@ agentic_access:
   summary_line: 23 operations · 23 acting
 api_count: 6
 apis:
-- description: RESTful service returning company and entity insights from the 73 Strings platform — entity lists, entity securities, business units, attribute identifiers and version lists — for portfolio management
+- description: The **Asset Info APIs**, a RESTful service on 73 Strings, provides detailed company insights, enabling efficient portfolio management, investment analysis, and seamless data retrieval across an organi
   name: 73 Strings Asset Info API
   slug: 73-strings-asset-info-api
-- description: RESTful service returning capitalization-table data for a portfolio company held in the 73 Strings platform, including security-level ownership detail scoped to an organization.
+- description: The **Captable APIs**, a RESTful service on 73 Strings, provides comprehensive capital table data including securities, equity, cash positions, and key financial metrics for entities within an organiz
   name: 73 Strings Captable API
   slug: 73-strings-captable-api
-- description: RESTful service listing the documents attached to a portfolio company in the 73 Strings platform and returning download details for an individual document by document and company id.
+- description: The **Documents APIs**, a RESTful service on 73 Strings, provides a comprehensive information of the uploaded documents affiliated with the company in the funds across an organization in the 73 String
   name: 73 Strings Documents API
   slug: 73-strings-documents-api
-- description: RESTful service reading and writing entity, business-unit and security-level financial data in the 73 Strings platform, including a v2 streaming variant for entity financial data and an endpoint retur
+- description: 'The **Financial Data APIs**, a RESTful service on 73 Strings, allows to retrieve comprehensive information of attributes and their values on various cash flow dates in several tags of the Financials, '
   name: 73 Strings Financial Data API
   slug: 73-strings-financial-data-api
-- description: RESTful service returning qualitative and general company detail from the 73 Strings platform — general entity details, custom attribute data and qualitative analysis data.
+- description: The **Qualitative Data APIs**, a RESTful service on the 73 Strings platform, provide structured access to narrative-driven company insights, enabling retrieval of qualitative analysis data such as str
   name: 73 Strings Qualitative Data API
   slug: 73-strings-qualitative-data-api
-- description: RESTful service letting external enterprise customers ingest and retrieve transaction-ledger records in the 73 Strings platform. Supports bulk create/update of transaction ledger records with partial-
-  name: 73 Strings Transaction API
-  slug: 73-strings-transaction-api
+- description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
+  name: 73 Strings Transaction API API
+  slug: 73-strings-transaction-api-api
 artifact_total: 12
 common:
 - group: auth
@@ -197,21 +197,23 @@ plans:
 - name: 73 Strings Plans
   plan_count: 4
   slug: 73-strings-plans
-random_paper: 25
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: 73 Strings Rate Limits
   slug: 73-strings-rate-limits
 score:
   band: developing
-  composite: 55.3
+  composite: 54.7
+  delta: -0.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 64.3
+    contract_quality: 62.0
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +225,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:
 - kind: authentication
   name: 73 Strings Authentication

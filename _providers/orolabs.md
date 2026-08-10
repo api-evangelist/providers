@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ overview: 'Orolabs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Orolabs'' developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 17.9
@@ -109,8 +109,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orolabs/refs/heads/main/screenshots/orolabs-2026-08-07T190948.png
 security:
 - kind: domain-security
   name: Orolabs Domain Security

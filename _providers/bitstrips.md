@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OAuth2 (authorization code + PKCE) API for Bitmoji for Developers, providing access to a connected user's avatar ID, sticker packs, and sticker search. Served from bitmoji.api.snapchat.com/direct with
@@ -80,7 +80,7 @@ overview: 'Bitstrips publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bitstrips'' developer surface includes documentation, authentication, and 6 more developer resources.'
-random_paper: 92
+random_paper: 68
 score:
   band: emerging
   composite: 15.2
@@ -102,7 +102,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstrips/refs/heads/main/screenshots/bitstrips-2026-07-25T203209.png
 security:

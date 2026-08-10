@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Build hybrid smart contracts with Chainlink
@@ -64,7 +64,7 @@ name: Chainlink
 nav: Providers
 network: true
 overview: Chainlink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain and Public APIs.
-random_paper: 41
+random_paper: 17
 score:
   band: emerging
   composite: 16.5
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlink/refs/heads/main/screenshots/chainlink-2026-06-20T174200.png
 security:

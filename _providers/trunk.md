@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-06'
+  score: 46.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,11 +53,15 @@ apis:
 - description: Control the Trunk Merge Queue.
   name: Trunk Merge Queue API
   slug: trunk-merge-queue-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Trunk Webhooks
   slug: trunk-webhooks
+collections:
+- collection_type: open
+  name: Trunk API
+  slug: open-trunk-io
 common:
 - group: company
   title: ''
@@ -143,15 +147,31 @@ common:
   title: ''
   type: Security
   url: https://trunk.io/security
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/trunk-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/trunk-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/trunk-finops.yml
 created: '2026-07-17'
 description: Trunk builds developer experience and CI reliability tooling. Its platform spans Code Quality (a meta-linter and static analysis manager driven by the trunk CLI), a flake-aware parallel Merge Queue, and Flaky Tests detection / CI Analytics. Test results are uploaded from CI via the Trunk Analytics CLI / GitHub Action, and an HTTP REST API at api.trunk.io exposes Flaky Tests and Merge Queue control plus Svix-powered outbound webhooks. Trunk is a portfolio company of a16z.
+finops:
+- name: Trunk Finops
+  service_category: Developer Tools
+  slug: trunk-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trunk.png
 layout: provider
 mcp_servers:
 - description: ''
   name: trunk-mcp.yml
   slug: trunk-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-08'
 name: Trunk
 nav: Providers
 network: true
@@ -161,19 +181,27 @@ overview: 'Trunk publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fl
   The Trunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 17 more developer resources.'
-random_paper: 112
+  Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 20 more developer resources.'
+plans:
+- name: Trunk Plans Pricing
+  plan_count: 3
+  slug: trunk-plans-pricing
+random_paper: 100
+rate_limits:
+- limit_count: 3
+  name: Trunk Rate Limits
+  slug: trunk-rate-limits
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: 12.0
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 50.0
     contract_quality: 71.2
     developer_ergonomics: 32.1
     discoverability: 74.1
     governance: 11.5
-    operational_transparency: 23.7
+    operational_transparency: 55.3
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -186,8 +214,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:
 - kind: authentication
   name: Trunk Authentication

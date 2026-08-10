@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-06'
+  score: 30.6
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-06-20'
 name: CometChat
 nav: Providers
 network: true
-overview: 'CometChat publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Realtime & Client SDK, Auth Tokens API, Banned Users API, and 10 more. Tagged areas include Chat, Messaging, Voice, Video, and SDK.
+overview: 'CometChat publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth Tokens API, Banned Users API, Blocked Users API, and 9 more. Tagged areas include Chat, Messaging, Voice, Video, and SDK.
 
 
   CometChat''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -148,18 +148,18 @@ plans:
 - name: Cometchat Plans Pricing
   plan_count: 4
   slug: cometchat-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Cometchat Rate Limits
   slug: cometchat-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 35.1
+  delta: -2.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.1
+    contract_quality: 55.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -179,7 +179,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/screenshots/cometchat-2026-06-20T174808.png
 security:

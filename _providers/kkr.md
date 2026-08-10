@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: KKR Invests in Fresha, the Leading AI-Powered Platform ...
   url: https://lasvegassun.com/news/2026/may/21/kkr-invests-in-fresha-the-leading-ai-powered-platf/
-random_paper: 102
+random_paper: 96
 score:
   band: minimal
   composite: 9.7
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kkr/refs/heads/main/screenshots/kkr-2026-06-20T184054.png
 security:

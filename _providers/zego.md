@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: Match external users to Zego customers.
@@ -103,7 +103,7 @@ overview: 'Zego publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zego''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 98
+random_paper: 89
 score:
   band: thin
   composite: 33.3
@@ -131,7 +131,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

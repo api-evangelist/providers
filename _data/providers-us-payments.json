@@ -1,6 +1,6 @@
 {
- "total": 68,
- "shown": 68,
+ "total": 65,
+ "shown": 65,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 95.1,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -73,7 +73,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -119,7 +119,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -165,7 +165,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -211,7 +211,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -257,7 +257,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -296,7 +296,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -327,8 +327,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 9,
-   "shown": 9,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Spreedly",
@@ -345,7 +345,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -391,7 +391,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -415,52 +415,6 @@
      "rank": 9
     },
     {
-     "name": "Unit",
-     "slug": "unit",
-     "description": "Unit is a US Banking-as-a-Service (BaaS) platform that lets companies embed banking, cards, and payments into their own products. Its REST API — organized around Applications, Customers, Accounts (deposit, credit, wallet/FBO, DACA), Cards, Payments (book, ACH, wire, recurring, received, cash deposit), Checks, Card Authorizations, Disputes, Transactions, Statements, Tax Forms, Fees & Rewards, Credit repayments, Stop Payments, and Webhooks — is authenticated with organization and customer bearer tokens and secured with idempotency keys and resource tagging. Unit publishes a public OpenAPI 3.0.2 specification (openapi-unit-sdk) and generates official Node, Python, Ruby, and Java SDKs from it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png",
-     "score": 63.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 47.3,
-      "governance": 20.8,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 67.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Embedded Finance & BaaS",
-     "rank": 10
-    },
-    {
      "name": "PayPal",
      "slug": "paypal",
      "description": "PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner referrals, payment experience, and webhook notifications.",
@@ -476,7 +430,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -504,12 +458,13 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Payabli",
      "slug": "payabli",
      "description": "Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its \"three Ps\" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), and Pay Ops (boarding, operations, reporting, and money movement). The platform provides card and ACH processing, tokenization, PCI-certified embedded checkout components, subscriptions and recurring billing, invoicing, vendor and customer management, disputes, and a webhook event surface, along with official server SDKs in eight languages, a hosted MCP server, and packaged agent skills.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png",
      "score": 62.3,
      "band": "strong",
      "band_label": "Strong",
@@ -521,7 +476,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -549,7 +504,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Authorize.net",
@@ -567,7 +522,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -595,7 +550,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Dwolla",
@@ -613,7 +568,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -641,7 +596,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "TabaPay",
@@ -658,7 +613,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -686,7 +641,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Cash App",
@@ -704,7 +659,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -732,7 +687,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 16
+     "rank": 15
     }
    ],
    "open": true
@@ -742,8 +697,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 18,
-   "shown": 18,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Circle",
@@ -761,7 +716,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -789,7 +744,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Shift4",
@@ -806,7 +761,7 @@
       "developer_ergonomics": 77.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -834,12 +789,13 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Paxos",
      "slug": "paxos",
      "description": "Paxos is a regulated blockchain and stablecoin infrastructure company that lets enterprises move any asset, any time, through a single API. The Paxos v2 REST/FIX/WebSocket platform covers stablecoin issuance and 1:1 conversion (USDG, PYUSD, USDP, PAXG), crypto brokerage and order-book trading, held-rate quotes, custody, fiat and crypto transfers, identity/KYC and account onboarding, orchestration workflows, rewards, tax forms, and Travel Rule compliance. Authentication is OAuth 2.0 client credentials, errors are RFC 9457 problem+json, and a full sandbox with test tooling is provided. Paxos issues PayPal USD (PYUSD) and the Global Dollar (USDG).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png",
      "score": 54.1,
      "band": "developing",
      "band_label": "Developing",
@@ -851,7 +807,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -879,7 +835,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Block",
@@ -897,7 +853,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -925,6 +881,52 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 19
+    },
+    {
+     "name": "Bridge",
+     "slug": "bridge",
+     "description": "Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 67.4,
+      "governance": 11.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Crypto & Stablecoin Rails",
      "rank": 20
     },
     {
@@ -943,7 +945,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -989,7 +991,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1020,107 +1022,22 @@
      "rank": 22
     },
     {
-     "name": "ACI Worldwide",
-     "slug": "aci-worldwide",
-     "description": "ACI Worldwide (NASDAQ: ACIW) is a US-headquartered payment-software company that builds real-time payment, card, merchant/eCommerce, and bill-payment technology for banks, processors, merchants, and billers around the world. Its enterprise portfolio spans BASE24 card and ATM switching, the ACI Enterprise Payments Platform for real-time and ISO 20022 account-to-account rails, and ACI Speedpay bill payment — most of which ship as licensed, on-premise or hosted software rather than public self-serve APIs. ACI's genuinely API-native surface is the ACI Open Payment Platform (the PAY.ON global payment gateway): a unified RESTful API documented at docs.aciworldwide.com that lets merchants and PSPs accept and manage card and alternative-payment transactions through Server-to-Server, COPYandPAY, Mobile SDK, BackOffice, and Pay By Link integrations, authenticated with an Authorization Bearer access token plus a channel entityId and complemented by PAYMENT and REGISTRATION webhook notifications. Its home market is the United States, inside the deep, fragmented, API-native US payments landscape.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aci-worldwide/refs/heads/main/screenshots/aci-worldwide-2026-07-25T181458.png",
-     "score": 49.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 68.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Acquirers & Processors",
-     "rank": 23
-    },
-    {
-     "name": "Braintree",
-     "slug": "braintree",
-     "description": "Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png",
-     "score": 48.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 76.5,
-      "governance": 41.7,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 38.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 24
-    },
-    {
      "name": "Mastercard",
      "slug": "mastercard",
      "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
-     "score": 48.8,
+     "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 60.9,
+      "contract_quality": 64.3,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1148,58 +1065,98 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 25
+     "rank": 23
     },
     {
-     "name": "Alloy",
-     "slug": "alloy",
-     "description": "Alloy is an identity decisioning platform that provides a single REST API for running KYC/KYB workflows, evaluating applicant risk, automating compliance decisions, and managing ongoing monitoring throughout the customer lifecycle. The platform connects banks and fintechs to more than 85 data sources for fraud prevention, credit underwriting, transaction monitoring, and regulatory compliance via configurable workflow-based evaluations and journey applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-2026-06-20T171540.png",
-     "score": 48.6,
+     "name": "ACI Worldwide",
+     "slug": "aci-worldwide",
+     "description": "ACI Worldwide (NASDAQ: ACIW) is a US-headquartered payment-software company that builds real-time payment, card, merchant/eCommerce, and bill-payment technology for banks, processors, merchants, and billers around the world. Its enterprise portfolio spans BASE24 card and ATM switching, the ACI Enterprise Payments Platform for real-time and ISO 20022 account-to-account rails, and ACI Speedpay bill payment — most of which ship as licensed, on-premise or hosted software rather than public self-serve APIs. ACI's genuinely API-native surface is the ACI Open Payment Platform (the PAY.ON global payment gateway): a unified RESTful API documented at docs.aciworldwide.com that lets merchants and PSPs accept and manage card and alternative-payment transactions through Server-to-Server, COPYandPAY, Mobile SDK, BackOffice, and Pay By Link integrations, authenticated with an Authorization Bearer access token plus a channel entityId and complemented by PAYMENT and REGISTRATION webhook notifications. Its home market is the United States, inside the deep, fragmented, API-native US payments landscape.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aci-worldwide/refs/heads/main/screenshots/aci-worldwide-2026-07-25T181458.png",
+     "score": 49.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 56.4,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 73.7
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 25.3,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
+     "agent_score": 34.2,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Fraud, Risk & Identity",
-     "rank": 26
+     "tier": "Acquirers & Processors",
+     "rank": 24
+    },
+    {
+     "name": "Braintree",
+     "slug": "braintree",
+     "description": "Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 76.5,
+      "governance": 41.7,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 38.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 25
     },
     {
      "name": "Orum",
      "slug": "orum",
      "description": "Orum is a payments infrastructure company that lets businesses move money and verify bank accounts through a single unified API. Its Deliver product provides \"Direct to Fed\" money movement across FedNow, RTP, Same Day ACH, ACH, Wires, and Visa Direct; Verify instantly confirms bank account status, ownership, and control; and Monitor is a portal for orchestrating and reconciling payment operations in real time. The REST API uses OAuth 2.0 client-credentials, offers signed webhooks for money-movement events, and ships a published OpenAPI spec and an OpenAPI-generated MCP server. Orum is backed by Accel, Bain Capital Ventures, and Craft Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/screenshots/orum-2026-08-07T191005.png",
      "score": 46.8,
      "band": "developing",
      "band_label": "Developing",
@@ -1211,7 +1168,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1239,53 +1196,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 27
-    },
-    {
-     "name": "Lithic",
-     "slug": "lithic",
-     "description": "Lithic is a modern card-issuing and program-management platform offering REST APIs for cards, accounts, transactions, authorization control, ACH/wire payments, external bank accounts, account-holder KYC/KYB, 3-D Secure, tokenization, disputes, and webhooks. OpenAPI spec is published via Stainless and powers official SDKs in Node, Python, Go, Java, Kotlin.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithic/refs/heads/main/screenshots/lithic-2026-06-20T184605.png",
-     "score": 45.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 69.5,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 35.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 54.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Issuer-Processors",
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "FIS Global",
@@ -1303,7 +1214,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1331,7 +1242,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 29
+     "rank": 27
     },
     {
      "name": "Affirm",
@@ -1349,7 +1260,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1377,7 +1288,7 @@
       "dry_run_mode": false
      },
      "tier": "Buy Now, Pay Later",
-     "rank": 30
+     "rank": 28
     },
     {
      "name": "Marqeta",
@@ -1395,7 +1306,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1423,7 +1334,7 @@
       "dry_run_mode": false
      },
      "tier": "Issuer-Processors",
-     "rank": 31
+     "rank": 29
     },
     {
      "name": "Brex",
@@ -1441,7 +1352,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -1462,7 +1373,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 32
+     "rank": 30
     },
     {
      "name": "Chargebee",
@@ -1480,7 +1391,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1508,7 +1419,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 33
+     "rank": 31
     },
     {
      "name": "Visa",
@@ -1526,7 +1437,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1554,7 +1465,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 34
+     "rank": 32
     }
    ]
   },
@@ -1582,7 +1493,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1610,7 +1521,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "Modern Treasury",
@@ -1628,7 +1539,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1656,7 +1567,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "Fiserv",
@@ -1674,7 +1585,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1702,7 +1613,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "Basis Theory",
@@ -1720,7 +1631,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1748,7 +1659,7 @@
       "dry_run_mode": false
      },
      "tier": "Fraud, Risk & Identity",
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Tipalti",
@@ -1766,7 +1677,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1787,7 +1698,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "American Express",
@@ -1805,7 +1716,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1833,7 +1744,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Melio",
@@ -1851,7 +1762,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1872,7 +1783,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "FedNow Service",
@@ -1890,7 +1801,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1918,12 +1829,13 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Nacha",
      "slug": "nacha",
      "description": "Nacha (formerly the National Automated Clearing House Association) is the nonprofit, member-governed steward of the ACH Network, the batch-based account-to-account payment rail that moves consumer and business direct deposits, direct payments, bill pay, and B2B transfers across the United States — more than 30 billion payments and over $80 trillion in value annually. Nacha writes and enforces the Nacha Operating Rules that bind the network's participating depository financial institutions, but it is not itself an ACH Operator (the Federal Reserve and The Clearing House clear and settle the files). Nacha is documentation- and rulebook-first rather than a self-serve PSP: it does not operate a public production payments API of its own. Its API posture is delivered through Afinis Interoperability Standards, the Nacha-stewarded group that publishes royalty-free, standardized financial-services API specifications (payment initiation, account validation, transaction status, returns reporting, and directory services) as Swagger/OpenAPI documents on SwaggerHub, and through Phixius, its payment-information exchange platform. Its home market is the United States.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png",
      "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
@@ -1935,7 +1847,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1963,7 +1875,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Worldpay",
@@ -1980,7 +1892,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2008,7 +1920,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "Cross River",
@@ -2026,7 +1938,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2054,7 +1966,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "BILL",
@@ -2072,7 +1984,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2100,7 +2012,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Clover",
@@ -2118,7 +2030,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2146,7 +2058,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Global Payments",
@@ -2164,7 +2076,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2192,7 +2104,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Paymentus",
@@ -2209,7 +2121,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2237,7 +2149,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "Discover",
@@ -2255,7 +2167,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -2276,7 +2188,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "NCR",
@@ -2294,7 +2206,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2322,7 +2234,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Payoneer",
@@ -2340,7 +2252,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2368,7 +2280,7 @@
       "dry_run_mode": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 52
+     "rank": 50
     },
     {
      "name": "Increase",
@@ -2386,7 +2298,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2414,7 +2326,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 53
+     "rank": 51
     },
     {
      "name": "Column",
@@ -2431,7 +2343,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2459,7 +2371,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Zuora",
@@ -2477,7 +2389,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2505,7 +2417,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 55
+     "rank": 53
     }
    ]
   },
@@ -2533,7 +2445,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2561,7 +2473,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "Venmo",
@@ -2578,7 +2490,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2518,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "Remitly",
@@ -2623,7 +2535,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2651,7 +2563,7 @@
       "dry_run_mode": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "The Clearing House (RTP)",
@@ -2668,7 +2580,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2696,7 +2608,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "Maxio",
@@ -2714,7 +2626,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2742,7 +2654,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Billtrust",
@@ -2760,7 +2672,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2781,7 +2693,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Galileo",
@@ -2799,7 +2711,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2827,7 +2739,7 @@
       "dry_run_mode": false
      },
      "tier": "Issuer-Processors",
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "Deluxe Corporation",
@@ -2845,7 +2757,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2873,7 +2785,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 63
+     "rank": 61
     }
    ]
   },
@@ -2882,8 +2794,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "WePay",
@@ -2900,7 +2812,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2928,7 +2840,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "Corpay",
@@ -2946,7 +2858,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -2974,7 +2886,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Ripple",
@@ -2991,7 +2903,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3012,46 +2924,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 66
-    },
-    {
-     "name": "Bridge",
-     "slug": "bridge",
-     "description": "Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 37.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Crypto & Stablecoin Rails",
-     "rank": 67
+     "rank": 64
     },
     {
      "name": "WEX",
@@ -3069,7 +2942,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3090,7 +2963,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 68
+     "rank": 65
     }
    ]
   }

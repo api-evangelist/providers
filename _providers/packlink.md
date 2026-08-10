@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 54
+random_paper: 33
 score:
   band: developing
   composite: 42.4
@@ -193,8 +193,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:
 - kind: authentication
   name: Packlink Authentication

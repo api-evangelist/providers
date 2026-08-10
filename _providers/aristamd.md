@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-06'
+  score: 32.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -26,12 +26,45 @@ agentic_access:
   operation_count: 42
   slug: aristamd-agentic-access
   summary_line: 42 operations · 21 acting
-api_count: 1
+api_count: 12
 apis:
-- description: 'The AristaMD API is the business logic core that serves all AristaMD sites, tools and integrations. It exposes eConsult lifecycle operations (create, retrieve, update, assign, search by status, event '
-  name: AristaMD API
-  slug: api
-artifact_total: 6
+- description: The Comments API from AristaMD — 1 operation(s) for comments.
+  name: AristaMD Comments API
+  slug: aristamd-comments-api
+- description: The Diagnostic API from AristaMD — 1 operation(s) for diagnostic.
+  name: AristaMD Diagnostic API
+  slug: aristamd-diagnostic-api
+- description: The EConsults API from AristaMD — 7 operation(s) for econsults.
+  name: AristaMD E Consults API
+  slug: aristamd-econsults-api
+- description: The Intergy/Patients API from AristaMD — 1 operation(s) for intergy/patients.
+  name: AristaMD Intergy/Patients API
+  slug: aristamd-intergy-patients-api
+- description: The Panelists API from AristaMD — 2 operation(s) for panelists.
+  name: AristaMD Panelists API
+  slug: aristamd-panelists-api
+- description: The Patients API from AristaMD — 7 operation(s) for patients.
+  name: AristaMD Patients API
+  slug: aristamd-patients-api
+- description: The Requests API from AristaMD — 1 operation(s) for requests.
+  name: AristaMD Requests API
+  slug: aristamd-requests-api
+- description: The Reviews API from AristaMD — 2 operation(s) for reviews.
+  name: AristaMD Reviews API
+  slug: aristamd-reviews-api
+- description: The Specialties API from AristaMD — 3 operation(s) for specialties.
+  name: AristaMD Specialties API
+  slug: aristamd-specialties-api
+- description: The Specialty API from AristaMD — 1 operation(s) for specialty.
+  name: AristaMD Specialty API
+  slug: aristamd-specialty-api
+- description: The Users API from AristaMD — 4 operation(s) for users.
+  name: AristaMD Users API
+  slug: aristamd-users-api
+- description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
+  name: AristaMD Workup Checklists API
+  slug: aristamd-workup-checklists-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -133,21 +166,33 @@ modified: '2026-08-06'
 name: AristaMD
 nav: Providers
 network: true
-overview: 'AristaMD publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and eConsult.
+overview: 'AristaMD publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Diagnostic API, E Consults API, and 9 more. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and eConsult.
 
 
   AristaMD''s developer surface includes signup flow, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 62
+random_paper: 41
 score:
   band: thin
-  composite: 37.4
+  composite: 38.9
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 32.3
-    developer_ergonomics: 23.9
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 45.2
+    developer_ergonomics: 19.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 35.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -155,7 +200,9 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:
 - kind: authentication
   name: Aristamd Authentication

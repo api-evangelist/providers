@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'OwnLocal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OwnLocal''s developer surface includes support and 3 more developer resources.'
-random_paper: 72
+random_paper: 51
 score:
   band: minimal
   composite: 6.5
@@ -73,8 +73,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:
 - kind: domain-security
   name: Ownlocal Domain Security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -26,15 +26,18 @@ agentic_access:
   operation_count: 6
   slug: taalas-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 2
+api_count: 3
 apis:
 - description: 'Taalas-native REST interface for running inference against the HC1 hardcore-model silicon. Three operations: a public /health probe reporting server status, queue depth and the currently loaded LoRA a'
   name: Taalas API
   slug: taalas-api
-- description: OpenAI-compatible inference surface served under /v1 on api.taalas.com, so existing OpenAI client libraries can be pointed at Taalas hardcore-model silicon by changing the base URL. Exposes /v1/models
-  name: Taalas API v1 (OpenAI-compatible)
-  slug: taalas-api-v1-openai-compatible
-artifact_total: 6
+- description: The Models API from Taalas — 1 operation(s) for models.
+  name: Taalas Models API
+  slug: taalas-models-api
+- description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
+  name: Taalas Monitoring API
+  slug: taalas-monitoring-api
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -152,20 +155,20 @@ modified: '2026-08-02'
 name: Taalas
 nav: Providers
 network: true
-overview: 'Taalas publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API v1 (OpenAI-compatible), and 1 more. Tagged areas include Company, artificial-intelligence, ai-inference, semiconductors, and ai-accelerator.
+overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, artificial-intelligence, ai-inference, semiconductors, and ai-accelerator.
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 65
+random_paper: 50
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 40.1
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 46.0
     developer_ergonomics: 45.1
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 40.5
@@ -180,7 +183,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

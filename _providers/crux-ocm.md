@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -63,19 +63,23 @@ common:
   title: ''
   type: Conformance
   url: conformance/crux-ocm-conformance.yml
+- group: company
+  title: ''
+  type: About
+  url: https://cruxocm.com/about-us/
 created: '2026-07-17'
 description: CruxOCM builds AI-powered automation software for industrial control-room operations in the energy-infrastructure sector. Its Industrial Automation Hub (IAH) delivers closed-loop automation on top of existing SCADA and DCS systems to increase pipeline throughput, cut operating and energy costs, and improve safety without replacing installed control infrastructure. The product family includes pipeBOT, gatherBOT, draBOT, maxOPT, leanOPT, and powerOPT, supported by a Deployment Manager, Log Analyser, and real-time Status Dashboard. Founded by control-room engineers and operators (CEO Vicki Knott, co-founder Roger Shirt) and headquartered in Calgary, Alberta, the company raised a $17M Series A led by Microsoft's M12 and serves midstream operators including ONEOK, Delek US, Enbridge, HF Sinclair, and Alliance Pipeline. It was surfaced as a Techstars portfolio company and added to the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crux-ocm.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Crux OCM
 nav: Providers
 network: true
 overview: 'Crux OCM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial Automation, Pipeline Operations, Energy, and SCADA.
 
 
-  Crux OCM''s developer surface includes support and 7 more developer resources.'
-random_paper: 23
+  Crux OCM''s developer surface includes support and 8 more developer resources.'
+random_paper: 2
 score:
   band: emerging
   composite: 15.8
@@ -97,9 +101,9 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/crux-ocm/refs/heads/main/screenshots/crux-ocm-2026-07-25T210824.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/crux-ocm/refs/heads/main/screenshots/crux-ocm-2026-07-25T210825.png
 security:
 - kind: domain-security
   name: Crux Ocm Domain Security

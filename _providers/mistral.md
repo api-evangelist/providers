@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,12 +72,36 @@ apis:
 - description: Document OCR and text extraction operations
   name: Mistral AI OCR API
   slug: mistral-ocr-api
-artifact_total: 102
+artifact_total: 126
 asyncapis:
 - description: 'AsyncAPI definition for Mistral AI streaming completion endpoints. Mistral is OpenAI-compatible and delivers streamed completions as Server-Sent Events (SSE) over HTTP when `stream: true` is set on th'
   name: Mistral AI Streaming Completions API
   slug: mistral-asyncapi
 collections:
+- collection_type: postman
+  name: Mistral AI Agents API
+  slug: postman-mistral-agents-api
+- collection_type: postman
+  name: Mistral AI Agents Batch Jobs API
+  slug: postman-mistral-batch-jobs-api
+- collection_type: postman
+  name: Mistral AI Agents Chat Completions API
+  slug: postman-mistral-chat-completions-api
+- collection_type: postman
+  name: Mistral AI Agents Embeddings API
+  slug: postman-mistral-embeddings-api
+- collection_type: postman
+  name: Mistral AI Agents Fine-Tuning Jobs API
+  slug: postman-mistral-fine-tuning-jobs-api
+- collection_type: postman
+  name: Mistral AI Agents Models API
+  slug: postman-mistral-models-api
+- collection_type: postman
+  name: Mistral AI Agents OCR API
+  slug: postman-mistral-ocr-api
+- collection_type: postman
+  name: Mistral AI Agents Training Jobs API
+  slug: postman-mistral-training-jobs-api
 - collection_type: open
   name: Mistral AI Agents API
   slug: open-mistral-agents
@@ -87,6 +111,9 @@ collections:
 - collection_type: open
   name: Mistral AI Batch API
   slug: open-mistral-batch
+- collection_type: open
+  name: Mistral AI Chat Completions API
+  slug: open-mistral-chat-completions
 - collection_type: open
   name: Mistral AI Chat API
   slug: open-mistral-chat
@@ -102,6 +129,9 @@ collections:
 - collection_type: open
   name: Mistral AI Fine-Tuning API
   slug: open-mistral-fine-tuning
+- collection_type: open
+  name: Mistral AI Forge API
+  slug: open-mistral-forge
 - collection_type: open
   name: Mistral AI Models API
   slug: open-mistral-models
@@ -232,6 +262,14 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.mistral.ai/llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/mistralai
+- group: start
+  title: ''
+  type: Login
+  url: https://console.mistral.ai/
 created: '2024'
 description: Mistral AI provides state-of-the-art large language models and AI APIs for developers and enterprises.
 features:
@@ -261,6 +299,9 @@ graphqls:
   slug: mistral-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mistral.png
 json_schemas:
+- name: AgentCompletionChoice
+  property_count: 3
+  slug: mistral-agentcompletionchoice
 - name: AgentCompletionRequest
   property_count: 8
   slug: mistral-agentcompletionrequest
@@ -270,6 +311,9 @@ json_schemas:
 - name: AgentCompletionStreamResponse
   property_count: 5
   slug: mistral-agentcompletionstreamresponse
+- name: Mistral AI Batch Job
+  property_count: 16
+  slug: mistral-batch-job
 - name: BatchJob
   property_count: 16
   slug: mistral-batchjob
@@ -279,6 +323,9 @@ json_schemas:
 - name: Mistral Chat Completion
   property_count: 6
   slug: mistral-chat-completion
+- name: ChatCompletionChoice
+  property_count: 3
+  slug: mistral-chatcompletionchoice
 - name: ChatCompletionRequest
   property_count: 12
   slug: mistral-chatcompletionrequest
@@ -288,6 +335,9 @@ json_schemas:
 - name: ChatCompletionStreamResponse
   property_count: 5
   slug: mistral-chatcompletionstreamresponse
+- name: ChatMessage
+  property_count: 4
+  slug: mistral-chatmessage
 - name: ChatModerationRequest
   property_count: 2
   slug: mistral-chatmoderationrequest
@@ -303,6 +353,9 @@ json_schemas:
 - name: CreateFineTuningJobRequest
   property_count: 7
   slug: mistral-createfinetuningjobrequest
+- name: CreateTrainingJobRequest
+  property_count: 5
+  slug: mistral-createtrainingjobrequest
 - name: DeleteFileResponse
   property_count: 3
   slug: mistral-deletefileresponse
@@ -315,6 +368,9 @@ json_schemas:
 - name: Embedding
   property_count: 3
   slug: mistral-embedding
+- name: EmbeddingObject
+  property_count: 3
+  slug: mistral-embeddingobject
 - name: EmbeddingRequest
   property_count: 3
   slug: mistral-embeddingrequest
@@ -351,6 +407,9 @@ json_schemas:
 - name: FineTuningJobList
   property_count: 2
   slug: mistral-finetuningjoblist
+- name: ForgeHyperparameters
+  property_count: 5
+  slug: mistral-forgehyperparameters
 - name: FunctionDefinition
   property_count: 3
   slug: mistral-functiondefinition
@@ -366,6 +425,12 @@ json_schemas:
 - name: Mistral Model
   property_count: 11
   slug: mistral-model
+- name: ModelCapabilities
+  property_count: 5
+  slug: mistral-modelcapabilities
+- name: ModelConfig
+  property_count: 4
+  slug: mistral-modelconfig
 - name: ModelList
   property_count: 2
   slug: mistral-modellist
@@ -378,6 +443,9 @@ json_schemas:
 - name: ModerationResult
   property_count: 2
   slug: mistral-moderationresult
+- name: Mistral AI OCR Response
+  property_count: 3
+  slug: mistral-ocr-response
 - name: OcrPage
   property_count: 4
   slug: mistral-ocrpage
@@ -387,6 +455,12 @@ json_schemas:
 - name: OcrResponse
   property_count: 3
   slug: mistral-ocrresponse
+- name: OcrUsage
+  property_count: 2
+  slug: mistral-ocrusage
+- name: PageDimensions
+  property_count: 2
+  slug: mistral-pagedimensions
 - name: Segment
   property_count: 5
   slug: mistral-segment
@@ -402,6 +476,12 @@ json_schemas:
 - name: TrainingFile
   property_count: 2
   slug: mistral-trainingfile
+- name: TrainingJob
+  property_count: 8
+  slug: mistral-trainingjob
+- name: TrainingJobList
+  property_count: 2
+  slug: mistral-trainingjoblist
 - name: TranscriptionRequest
   property_count: 8
   slug: mistral-transcriptionrequest
@@ -427,7 +507,7 @@ jsonld:
   property_count: 11
   slug: mistral-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: Mistral AI
 nav: Providers
 network: true
@@ -437,12 +517,12 @@ overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The Mistral AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 23 more developer resources.'
+  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 25 more developer resources.'
 plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 86
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits
@@ -465,11 +545,11 @@ rules:
     warn: 5
   slug: mistral-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 65.6
-  delta: 0.0
+  band: exemplar
+  composite: 68.3
+  delta: 2.7
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 84.2
     contract_quality: 83.1
     developer_ergonomics: 52.2
     discoverability: 63.0
@@ -484,9 +564,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185615.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185616.png
 security:
 - kind: authentication
   name: Mistral Authentication

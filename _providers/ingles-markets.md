@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Ingles Markets publishes investor presentation ahead of ...
   url: https://www.sahmcapital.com/news/content/ingles-markets-publishes-investor-presentation-ahead-of-annual-meeting-2026-04-13
-random_paper: 90
+random_paper: 54
 score:
   band: minimal
   composite: 4.1
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingles-markets/refs/heads/main/screenshots/ingles-markets-2026-06-20T183352.png
 security:

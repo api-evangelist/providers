@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Higress is a next-generation cloud-native API gateway that provides intelligent routing, traffic management, authentication, and observability capabilities for microservices architectures.
@@ -109,7 +109,7 @@ plans:
 - name: Higress Plans Pricing
   plan_count: 3
   slug: higress-plans-pricing
-random_paper: 79
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Higress Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 25.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/screenshots/higress-2026-06-20T182735.png
 security:

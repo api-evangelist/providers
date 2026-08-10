@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Subscribe to VCC event notifications delivered over HTTPS and signed with a Vonage-Signature header.
@@ -103,7 +103,7 @@ overview: 'NewVoiceMedia publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   NewVoiceMedia''s developer surface includes documentation, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 20
+random_paper: 100
 scopes:
 - name: Newvoicemedia Scopes
   scope_count: 10
@@ -122,8 +122,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 30.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/screenshots/newvoicemedia-2026-08-07T185150.png
 security:
 - kind: authentication
   name: Newvoicemedia Authentication

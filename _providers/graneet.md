@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Graneet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Graneet''s developer surface includes support, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: emerging
   composite: 17.3
@@ -97,7 +97,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graneet/refs/heads/main/screenshots/graneet-2026-07-25T220223.png
 security:

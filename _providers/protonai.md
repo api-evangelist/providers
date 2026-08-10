@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 12
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
@@ -133,7 +133,7 @@ overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 85
+random_paper: 64
 score:
   band: developing
   composite: 42.7
@@ -156,7 +156,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

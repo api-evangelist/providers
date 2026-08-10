@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Beengo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Beengo''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 59
+random_paper: 44
 score:
   band: emerging
   composite: 14.5
@@ -103,7 +103,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beengo/refs/heads/main/screenshots/beengo-2026-07-25T202635.png
 security:

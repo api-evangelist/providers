@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -285,7 +285,7 @@ overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 42 more developer resources.'
-random_paper: 59
+random_paper: 26
 score:
   band: thin
   composite: 39.4
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

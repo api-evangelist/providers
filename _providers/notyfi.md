@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -158,7 +158,7 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 100
+random_paper: 85
 score:
   band: developing
   composite: 46.5
@@ -182,8 +182,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:
 - kind: authentication
   name: Notyfi Authentication

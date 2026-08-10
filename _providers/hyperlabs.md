@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The ASP.NET Core backend that powers www.hyperlabs.com — product catalog, product classes, categories, tags and filtering, application notes, datasheets, software/DLL downloads, website content (banne
@@ -169,7 +169,7 @@ overview: 'HYPERLABS publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   HYPERLABS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 23 more developer resources.'
-random_paper: 66
+random_paper: 42
 score:
   band: developing
   composite: 42.7
@@ -192,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png
 security:
 - kind: authentication
   name: Hyperlabs Authentication

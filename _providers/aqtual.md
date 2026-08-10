@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Aqtual is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aqtual''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 83
+random_paper: 68
 score:
   band: minimal
   composite: 9.7
@@ -107,8 +107,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aqtual/refs/heads/main/screenshots/aqtual-2026-08-07T161525.png
 security:
 - kind: domain-security
   name: Aqtual Domain Security

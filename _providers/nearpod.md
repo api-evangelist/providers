@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Nearpod is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nearpod''s developer surface includes engineering blog, pricing, signup flow, support, getting-started guide, and 9 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: emerging
   composite: 22.0
@@ -113,8 +113,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nearpod/refs/heads/main/screenshots/nearpod-2026-08-07T184759.png
 security:
 - kind: domain-security
   name: Nearpod Domain Security

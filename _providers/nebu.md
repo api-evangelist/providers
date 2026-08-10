@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,7 +80,7 @@ name: Nebu
 nav: Providers
 network: true
 overview: Nebu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Cloud, Artificial Intelligence, and AIOps.
-random_paper: 87
+random_paper: 78
 score:
   band: minimal
   composite: 9.1
@@ -94,8 +94,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/screenshots/nebu-2026-08-07T184818.png
 security:
 - kind: domain-security
   name: Nebu Domain Security

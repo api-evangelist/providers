@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Us Senate Plans Pricing
   plan_count: 3
   slug: us-senate-plans-pricing
-random_paper: 13
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Us Senate Rate Limits
@@ -170,7 +170,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/screenshots/us-senate-2026-06-20T200626.png
 security:

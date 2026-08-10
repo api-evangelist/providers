@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Electric is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Electric''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 52
+random_paper: 31
 score:
   band: emerging
   composite: 18.0
@@ -101,7 +101,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electric/refs/heads/main/screenshots/electric-2026-07-25T213101.png
 security:

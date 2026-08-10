@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -114,7 +114,7 @@ overview: 'Vita Mojo International is profiled on the [APIs.io](https://apis.io/
 
 
   Vita Mojo International''s developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 103
+random_paper: 43
 score:
   band: thin
   composite: 36.2
@@ -130,7 +130,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

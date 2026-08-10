@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 23
 apis:
 - description: The API Status API from Nym Technologies — 3 operation(s) for api status.
@@ -254,7 +254,7 @@ overview: 'Nym Technologies publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 27 more developer resources.'
-random_paper: 87
+random_paper: 45
 score:
   band: developing
   composite: 52.7
@@ -277,8 +277,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:
 - kind: authentication
   name: Nym Technologies Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BambooHR''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, and 10 more developer resources.'
-random_paper: 51
+random_paper: 30
 scopes:
 - name: Bamboohr Scopes
   scope_count: 1
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/screenshots/bamboohr-2026-06-20T172934.png
 security:

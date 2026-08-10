@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -103,7 +103,7 @@ overview: 'Vitality publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Vitality''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 25
+random_paper: 111
 scopes:
 - name: Vitality Uk Scopes
   scope_count: 5
@@ -130,7 +130,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

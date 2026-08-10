@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 11
 common:
@@ -107,7 +107,7 @@ name: Rita's Italian Ice
 nav: Providers
 network: true
 overview: Rita's Italian Ice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, Food and Beverage, Frozen Desserts, Franchise, and Quick Service Restaurant.
-random_paper: 98
+random_paper: 56
 score:
   band: minimal
   composite: 9.7
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

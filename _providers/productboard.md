@@ -27,13 +27,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
   name: Productboard Public API
   slug: public-api
-artifact_total: 5
+- description: The Entities API from Productboard — 5 operation(s) for entities.
+  name: Productboard Entities API
+  slug: productboard-entities-api
+- description: The Entity Field Values API from Productboard — 2 operation(s) for entity field values.
+  name: Productboard Entity Field Values API
+  slug: productboard-entity-field-values-api
+- description: The Entity Relationships API from Productboard — 2 operation(s) for entity relationships.
+  name: Productboard Entity Relationships API
+  slug: productboard-entity-relationships-api
+- description: The Jira Integrations API from Productboard — 4 operation(s) for jira integrations.
+  name: Productboard Jira Integrations API
+  slug: productboard-jira-integrations-api
+- description: The Members API from Productboard — 4 operation(s) for members.
+  name: Productboard Members API
+  slug: productboard-members-api
+- description: The Note Relationships API from Productboard — 3 operation(s) for note relationships.
+  name: Productboard Note Relationships API
+  slug: productboard-note-relationships-api
+- description: The Notes API from Productboard — 5 operation(s) for notes.
+  name: Productboard Notes API
+  slug: productboard-notes-api
+- description: The Plugin Integrations API from Productboard — 5 operation(s) for plugin integrations.
+  name: Productboard Plugin Integrations API
+  slug: productboard-plugin-integrations-api
+- description: The Teams API from Productboard — 4 operation(s) for teams.
+  name: Productboard Teams API
+  slug: productboard-teams-api
+- description: The Webhooks API from Productboard — 2 operation(s) for webhooks.
+  name: Productboard Webhooks API
+  slug: productboard-webhooks-api
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -99,20 +129,20 @@ modified: '2026-05-11'
 name: Productboard
 nav: Providers
 network: true
-overview: 'Productboard publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Product Management, Roadmapping, Customer Feedback, Prioritization, and Product Operations.
+overview: 'Productboard publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Public API, Entities API, Entity Field Values API, and 8 more. Tagged areas include Product Management, Roadmapping, Customer Feedback, Prioritization, and Product Operations.
 
 
   Productboard''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 13
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 30.4
+  delta: 0.5
   facets:
     commercial_clarity: 18.4
-    contract_quality: 54.3
+    contract_quality: 54.1
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 29.9
@@ -123,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/screenshots/productboard-2026-06-20T192139.png
 security:

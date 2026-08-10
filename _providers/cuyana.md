@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,7 +92,7 @@ overview: 'Cuyana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cuyana''s developer surface includes support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 76
+random_paper: 61
 scopes:
 - name: Cuyana Scopes
   scope_count: 4
@@ -113,8 +113,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/screenshots/cuyana-2026-08-07T164003.png
 security:
 - kind: authentication
   name: Cuyana Authentication

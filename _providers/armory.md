@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-06'
+  score: 45.3
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -26,15 +26,78 @@ agentic_access:
   operation_count: 56
   slug: armory-agentic-access
   summary_line: 56 operations · 10 acting · 10 human-in-the-loop
-api_count: 2
+api_count: 23
 apis:
-- description: REST surface exposed by Clouddriver when the Armory Scale Agent plugin is installed. Covers the Armory-specific Dynamic Accounts endpoints (/agents/kubernetes/accounts) alongside the Clouddriver appli
-  name: Armory Scale Agent API
-  slug: armory-scale-agent-api
 - description: 'Armory Continuous Deployment ships the Spinnaker Gate API as its programmatic interface. Armory documents how to expose it for automation clients on a second Gate port (8085) secured with x509 client '
   name: Armory Continuous Deployment API (Spinnaker Gate)
   slug: armory-cd-gate-api
-artifact_total: 6
+- description: The agent-accounts-controller API from Armory — 2 operation(s) for agent-accounts-controller.
+  name: Armory Agent Accounts Controller API
+  slug: armory-agent-accounts-controller-api
+- description: The applications-controller API from Armory — 2 operation(s) for applications-controller.
+  name: Armory Applications Controller API
+  slug: armory-applications-controller-api
+- description: The artifact-controller API from Armory — 1 operation(s) for artifact-controller.
+  name: Armory Artifact Controller API
+  slug: armory-artifact-controller-api
+- description: The cache-controller API from Armory — 2 operation(s) for cache-controller.
+  name: Armory Cache Controller API
+  slug: armory-cache-controller-api
+- description: The cluster-controller API from Armory — 8 operation(s) for cluster-controller.
+  name: Armory Cluster Controller API
+  slug: armory-cluster-controller-api
+- description: The credentials-controller API from Armory — 4 operation(s) for credentials-controller.
+  name: Armory Credentials Controller API
+  slug: armory-credentials-controller-api
+- description: The elastic-ip-controller API from Armory — 1 operation(s) for elastic-ip-controller.
+  name: Armory Elastic Ip Controller API
+  slug: armory-elastic-ip-controller-api
+- description: The function-controller API from Armory — 1 operation(s) for function-controller.
+  name: Armory Function Controller API
+  slug: armory-function-controller-api
+- description: The instance-controller API from Armory — 2 operation(s) for instance-controller.
+  name: Armory Instance Controller API
+  slug: armory-instance-controller-api
+- description: The instance-type-controller API from Armory — 1 operation(s) for instance-type-controller.
+  name: Armory Instance Type Controller API
+  slug: armory-instance-type-controller-api
+- description: The job-controller API from Armory — 2 operation(s) for job-controller.
+  name: Armory Job Controller API
+  slug: armory-job-controller-api
+- description: The load-balancer-controller API from Armory — 1 operation(s) for load-balancer-controller.
+  name: Armory Load Balancer Controller API
+  slug: armory-load-balancer-controller-api
+- description: The network-controller API from Armory — 2 operation(s) for network-controller.
+  name: Armory Network Controller API
+  slug: armory-network-controller-api
+- description: The operations-controller API from Armory — 7 operation(s) for operations-controller.
+  name: Armory Operations Controller API
+  slug: armory-operations-controller-api
+- description: The raw-resource-controller API from Armory — 1 operation(s) for raw-resource-controller.
+  name: Armory Raw Resource Controller API
+  slug: armory-raw-resource-controller-api
+- description: The reservation-report-controller API from Armory — 2 operation(s) for reservation-report-controller.
+  name: Armory Reservation Report Controller API
+  slug: armory-reservation-report-controller-api
+- description: The search-controller API from Armory — 1 operation(s) for search-controller.
+  name: Armory Search Controller API
+  slug: armory-search-controller-api
+- description: The security-group-controller API from Armory — 5 operation(s) for security-group-controller.
+  name: Armory Security Group Controller API
+  slug: armory-security-group-controller-api
+- description: The server-group-controller API from Armory — 2 operation(s) for server-group-controller.
+  name: Armory Server Group Controller API
+  slug: armory-server-group-controller-api
+- description: The server-group-manager-controller API from Armory — 1 operation(s) for server-group-manager-controller.
+  name: Armory Server Group Manager Controller API
+  slug: armory-server-group-manager-controller-api
+- description: The subnet-controller API from Armory — 2 operation(s) for subnet-controller.
+  name: Armory Subnet Controller API
+  slug: armory-subnet-controller-api
+- description: The vpc-controller API from Armory — 1 operation(s) for vpc-controller.
+  name: Armory Vpc Controller API
+  slug: armory-vpc-controller-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Armory Webhooks
@@ -188,26 +251,40 @@ modified: '2026-08-06'
 name: Armory
 nav: Providers
 network: true
-overview: 'Armory publishes 1 API on the [APIs.io](https://apis.io/) network: Scale Agent API. Tagged areas include Continuous Delivery, Spinnaker, Kubernetes, DevOps, and Deployment Automation.
+overview: 'Armory publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Accounts Controller API, Applications Controller API, Artifact Controller API, and 19 more. Tagged areas include Continuous Delivery, Spinnaker, Kubernetes, DevOps, and Deployment Automation.
 
 
   The Armory catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Armory''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, authentication, and 28 more developer resources.'
-random_paper: 101
+random_paper: 86
 score:
-  band: developing
-  composite: 42.6
+  band: thin
+  composite: 41.6
+  delta: 1.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.3
-    developer_ergonomics: 69.6
-    discoverability: 77.8
-    governance: 20.8
+    contract_quality: 56.8
+    developer_ergonomics: 64.7
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 36.8
+  previous_composite: 40.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/screenshots/armory-2026-08-07T161731.png
 security:
 - kind: authentication
   name: Armory Authentication

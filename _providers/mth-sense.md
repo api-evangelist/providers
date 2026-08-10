@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ overview: 'mth Sense is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   mth Sense''s developer surface includes support and 3 more developer resources.'
-random_paper: 12
+random_paper: 104
 score:
   band: minimal
   composite: 8.5
@@ -74,8 +74,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mth-sense/refs/heads/main/screenshots/mth-sense-2026-08-07T184420.png
 security:
 - kind: domain-security
   name: Mth Sense Domain Security

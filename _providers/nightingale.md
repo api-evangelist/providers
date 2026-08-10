@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Nightingale REST Client is a modern, resource-friendly REST API client for Windows.
@@ -72,7 +72,7 @@ plans:
 - name: Nightingale Plans Pricing
   plan_count: 3
   slug: nightingale-plans-pricing
-random_paper: 32
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Nightingale Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightingale/refs/heads/main/screenshots/nightingale-2026-06-20T190322.png
 security:

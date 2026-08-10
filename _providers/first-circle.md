@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'First Circle is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   First Circle''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 93
+random_paper: 63
 score:
   band: minimal
   composite: 12.2
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-circle/refs/heads/main/screenshots/first-circle-2026-07-25T214558.png
 security:

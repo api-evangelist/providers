@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: 'PathAI is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   PathAI''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 111
+random_paper: 96
 score:
   band: emerging
   composite: 17.0
@@ -123,8 +123,9 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/path-ai/refs/heads/main/screenshots/path-ai-2026-08-07T191544.png
 security:
 - kind: domain-security
   name: Path Ai Domain Security

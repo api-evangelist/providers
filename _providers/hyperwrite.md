@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 17
 common:
@@ -139,7 +139,7 @@ overview: 'HyperWrite is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HyperWrite''s developer surface includes developer portal, signup flow, pricing, engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 90
+random_paper: 63
 score:
   band: emerging
   composite: 17.0
@@ -153,7 +153,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperwrite/refs/heads/main/screenshots/hyperwrite-2026-06-20T183051.png
 security:

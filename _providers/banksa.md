@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'BankSA publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   BankSA''s developer surface includes authentication, API reference, support, documentation, and 21 more developer resources.'
-random_paper: 59
+random_paper: 44
 scopes:
 - name: Banksa Scopes
   scope_count: 9
@@ -212,7 +212,7 @@ score:
     regime_id: banking_open_finance
     score: 73.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

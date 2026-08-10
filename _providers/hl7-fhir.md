@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/hl7-fhir-r4-openapi.yml
+  url: openapi/_original/hl7-fhir-r4-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -161,7 +161,7 @@ plans:
 - name: Hl7 Fhir Plans Pricing
   plan_count: 3
   slug: hl7-fhir-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Hl7 Fhir Rate Limits
@@ -206,7 +206,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/screenshots/hl7-fhir-2026-06-20T182802.png
 security:

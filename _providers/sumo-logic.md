@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-06'
+  score: 39.2
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -201,11 +201,18 @@ apis:
 - description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
   name: Sumo Logic userManagement API
   slug: sumo-logic-usermanagement-api
-artifact_total: 71
+artifact_total: 74
+asyncapis:
+- description: 'AsyncAPI description of Sumo Logic''s outbound webhook surfaces. Sumo Logic delivers alert and recovery notifications via HTTP POST to user-configured webhook connections. Each connection type targets '
+  name: Sumo Logic Webhook Connections
+  slug: sumo-logic-asyncapi
 collections:
 - collection_type: open
   name: Sumo Logic API
   slug: open-sumo-logic
+- collection_type: open
+  name: Sumo Logic REST API
+  slug: open-sumologic
 common:
 - group: agent
   title: ''
@@ -259,6 +266,26 @@ common:
   title: ''
   type: Blog
   url: https://www.sumologic.com/blog/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/SumoLogic
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.sumologic.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sumo-logic-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sumo-logic-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/sumo-logic-finops.yml
 created: '2025-01-08'
 description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
 examples:
@@ -294,27 +321,35 @@ jsonld:
   property_count: 8
   slug: sumo-logic-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-08'
 name: Sumo Logic
 nav: Providers
 network: true
 overview: 'Sumo Logic publishes 54 APIs on the [APIs.io](https://apis.io/) network, including accessKeyManagement API, accountManagement API, appManagement API, and 51 more. Tagged areas include Logging, Observability, Security, Monitoring, and Analytics.
 
 
-  The Sumo Logic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Sumo Logic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sumo Logic''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 8 more developer resources.'
+  Sumo Logic''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, GitHub presence, status page, and 11 more developer resources.'
 plans:
 - name: Sumo Logic Plans Pricing
   plan_count: 3
   slug: sumo-logic-plans-pricing
-random_paper: 6
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Sumo Logic Rate Limits
   slug: sumo-logic-rate-limits
 rules:
+- name: Sumo Logic API Rules
+  rule_count: 9
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 7
+  slug: sumo-logic-asyncapi-spectral-rules
 - name: Sumo Logic API Rules
   rule_count: 5
   severity_counts:
@@ -333,14 +368,14 @@ rules:
   slug: sumo-logic-rules
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 57.0
+  delta: 0.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 65.8
+    contract_quality: 73.9
     developer_ergonomics: 47.8
     discoverability: 68.5
-    governance: 58.3
+    governance: 47.9
     operational_transparency: 52.6
   previous_composite: 56.2
   provenance:
@@ -351,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

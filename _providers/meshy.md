@@ -28,13 +28,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 3
 apis:
 - description: REST API at https://api.meshy.ai for Text-to-3D (v2 with preview + refine workflow), Image-to-3D, Multi Image-to-3D, Remesh, Rigging, Animation, Retexture, Text-to-Image, Image-to-Image, Multi-Color P
   name: Meshy API
   slug: platform
-artifact_total: 6
+- description: The Image to 3D API from Meshy — 3 operation(s) for image to 3d.
+  name: Meshy Image to 3D API
+  slug: meshy-image-to-3d-api
+- description: The Text to 3D API from Meshy — 3 operation(s) for text to 3d.
+  name: Meshy Text to 3D API
+  slug: meshy-text-to-3d-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -92,7 +98,7 @@ modified: '2026-05-08'
 name: Meshy
 nav: Providers
 network: true
-overview: 'Meshy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, 3D, Generation, Texturing, and Animation.
+overview: 'Meshy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image to 3D API and Text to 3D API. Tagged areas include AI, 3D, Generation, Texturing, and Animation.
 
 
   Meshy''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -100,20 +106,20 @@ plans:
 - name: Meshy Plans Pricing
   plan_count: 4
   slug: meshy-plans-pricing
-random_paper: 98
+random_paper: 86
 rate_limits:
 - limit_count: 7
   name: Meshy Rate Limits
   slug: meshy-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 34.9
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.3
+    contract_quality: 50.4
     developer_ergonomics: 10.9
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.3
@@ -124,7 +130,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshy/refs/heads/main/screenshots/meshy-2026-06-20T185245.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Key-authenticated REST API to ingest content into a knowledge base, run semantic search with AI-generated answers, and generate verified content. Authenticated with an X-API-Key header (keys prefixed '
@@ -128,7 +128,7 @@ overview: 'Senso.ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Senso.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 12 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 23.6
@@ -146,7 +146,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 80
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Picsart Rate Limits
@@ -285,7 +285,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

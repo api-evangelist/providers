@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/river-markets-openapi-original.json
+  url: openapi/_original/river-markets-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -190,7 +190,7 @@ overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   River Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 0
+random_paper: 80
 score:
   band: thin
   composite: 40.5
@@ -220,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

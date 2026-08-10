@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Zillow Group is a leading real estate technology company that operates a suite of online platforms and services designed to make the process of buying, selling, renting, and financing homes easier and
@@ -72,7 +72,7 @@ plans:
 - name: Zillow Group Plans Pricing
   plan_count: 3
   slug: zillow-group-plans-pricing
-random_paper: 32
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Zillow Group Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/screenshots/zillow-group-2026-06-20T201913.png
 security:

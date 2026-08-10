@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The SanDisk iXpand SDK enables third-party iOS application developers to access and manage iXpand Flash Drive storage through the Lightning interface. It provides File System APIs with a familiar file
@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Sandisk Announces Launch of Secondary Offering ...
   url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-announces-launch-secondary-offering-common-stock-0
-random_paper: 71
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Sandisk Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/screenshots/sandisk-2026-06-20T193405.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'IMB Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   IMB Bank''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, support, and 21 more developer resources.'
-random_paper: 91
+random_paper: 73
 scopes:
 - name: Imb Bank Scopes
   scope_count: 12
@@ -224,7 +224,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:

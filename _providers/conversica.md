@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Conversica publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Conversica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 23 more developer resources.'
-random_paper: 52
+random_paper: 25
 score:
   band: developing
   composite: 43.0
@@ -227,8 +227,9 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
 security:
 - kind: authentication
   name: Conversica Authentication

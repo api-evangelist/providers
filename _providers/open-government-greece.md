@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Greece Government Open Data
@@ -63,7 +63,7 @@ overview: 'Open Government, Greece publishes 1 API on the [APIs.io](https://apis
 
 
   Open Government, Greece''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 89
+random_paper: 32
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-government-greece/refs/heads/main/screenshots/open-government-greece-2026-06-20T190800.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -120,7 +120,7 @@ plans:
 - name: Middleware Plans Pricing
   plan_count: 3
   slug: middleware-plans-pricing
-random_paper: 37
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Middleware Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/screenshots/middleware-2026-06-20T185551.png
 security:

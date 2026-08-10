@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -234,7 +234,7 @@ overview: 'Screenpipe publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 24 more developer resources.'
-random_paper: 53
+random_paper: 26
 score:
   band: developing
   composite: 45.9
@@ -258,7 +258,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

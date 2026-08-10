@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: OwnBackup (Own Company) is a SaaS data protection platform providing backup, recovery, and sandbox seeding for Salesforce and other cloud applications.
@@ -76,7 +76,7 @@ plans:
 - name: Ownbackup Plans Pricing
   plan_count: 3
   slug: ownbackup-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Ownbackup Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownbackup/refs/heads/main/screenshots/ownbackup-2026-06-20T191251.png
 security:

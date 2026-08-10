@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ plans:
 - name: Chatsimple Plans
   plan_count: 9
   slug: chatsimple-plans
-random_paper: 49
+random_paper: 22
 score:
   band: thin
   composite: 28.2
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 28.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
 security:

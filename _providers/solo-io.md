@@ -13,30 +13,60 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-06'
-api_count: 5
+  score: 63.1
+  scored_at: '2026-08-10'
+api_count: 15
 apis:
-- description: The Gloo Portal Server REST API backs the Solo.io developer portal for Kgateway Enterprise / Gloo Gateway. It lets portal users look up their session user, browse API products and product versions, cr
-  name: Gloo Portal Server API
-  slug: portal-server
-- description: The portal backend server API for the kgateway 2.x generation of Gloo Portal. It exposes health and readiness probes, the API product catalog and product versions, user and team management, team appli
-  name: Gloo Portal Backend API
-  slug: portal-backend
-- description: The Gloo Platform portal API covers the endpoint specifications for managing user access to the developer portal and to the resources the portal exposes — the current user session, the list of APIs an
-  name: Gloo Platform Portal API
-  slug: gloo-platform-portal
-- description: The IdP Connect SPI that Gloo Portal calls to create and delete OAuth2 clients in the OpenID Connect identity provider protecting Portal APIs, so portal users can provision their own OAuth credentials
-  name: Gloo Portal IdP Connect API
-  slug: portal-idp-connect
-- description: The webhook contract for the Guardrail feature in kgateway, Agentgateway Enterprise, and Gloo Gateway. Two endpoints — /request and /response — intercept prompts on the way to a large language model a
-  name: AI Gateway Guardrail Webhook API
-  slug: ai-guardrail-webhook
-artifact_total: 11
+- description: API key management endpoints
+  name: Solo.io API Keys API
+  slug: solo-io-api-keys-api
+- description: API product catalog endpoints
+  name: Solo.io API Products API
+  slug: solo-io-api-products-api
+- description: The APIs API from Solo.io — 5 operation(s) for apis.
+  name: Solo.io AP Is API
+  slug: solo-io-apis-api
+- description: The Applications API from Solo.io — 8 operation(s) for applications.
+  name: Solo.io Applications API
+  slug: solo-io-applications-api
+- description: Application management endpoints
+  name: Solo.io Apps API
+  slug: solo-io-apps-api
+- description: Authentication redirect endpoints
+  name: Solo.io Auth API
+  slug: solo-io-auth-api
+- description: Health check endpoints
+  name: Solo.io Health API
+  slug: solo-io-health-api
+- description: The Me API from Solo.io — 1 operation(s) for me.
+  name: Solo.io Me API
+  slug: solo-io-me-api
+- description: Internal credential metadata endpoints
+  name: Solo.io Metadata API
+  slug: solo-io-metadata-api
+- description: OAuth credential management endpoints
+  name: Solo.io OAUTH Credentials API
+  slug: solo-io-oauth-credentials-api
+- description: Subscription management endpoints
+  name: Solo.io Subscriptions API
+  slug: solo-io-subscriptions-api
+- description: Team management endpoints
+  name: Solo.io Teams API
+  slug: solo-io-teams-api
+- description: The User API from Solo.io — 1 operation(s) for user.
+  name: Solo.io User API
+  slug: solo-io-user-api
+- description: User management endpoints
+  name: Solo.io Users API
+  slug: solo-io-users-api
+- description: The Webhooks API from Solo.io — 2 operation(s) for webhooks.
+  name: Solo.io Webhooks API
+  slug: solo-io-webhooks-api
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Solo Io Webhooks
@@ -202,37 +232,220 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/solo-io-changelog.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.solo.io/get-started
+- group: learn
+  title: ''
+  type: Academy
+  url: https://www.solo.io/academy
+- group: learn
+  title: ''
+  type: Training
+  url: https://www.solo.io/resources/lab
+- group: learn
+  title: ''
+  type: Webinars
+  url: https://www.solo.io/resources/webinar
+- group: other
+  title: ''
+  type: Customers
+  url: https://www.solo.io/customers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/solo.io
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/soloio_inc
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/soloio
+- group: build
+  title: Solo-Kit Operator Framework
+  type: GitHubRepository
+  url: https://github.com/solo-io/solo-kit
+- group: build
+  title: MCP Flow Examples
+  type: CodeExamples
+  url: https://github.com/solo-io/enterprise-mcp-flow
+- group: design
+  title: Solo.io JSON-LD Context
+  type: JSONLD
+  url: json-ld/solo-io-context.jsonld
+- group: design
+  title: Solo.io Enterprise Platform Vocabulary
+  type: Vocabulary
+  url: vocabulary/solo-io-vocabulary.yml
+crds:
+- name: solo io agentgateway agentgatewaybackends
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewaybackends.yaml
+- name: solo io agentgateway agentgatewayparameters
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewayparameters.yaml
+- name: solo io agentgateway agentgatewaypolicies
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewaypolicies.yaml
+- name: solo io gloo enterprise gloo solo io v1 authconfig
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-enterprise-gloo-solo-io-v1-authconfig.yaml
+- name: solo io gloo gateway gloo solo io directresponses
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-gloo-solo-io-directresponses.yaml
+- name: solo io gloo gateway gloo solo io gatewayparameters
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-gloo-solo-io-gatewayparameters.yaml
+- name: solo io gloo gateway solo io v1 gateway
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-gateway.yaml
+- name: solo io gloo gateway solo io v1 httplisteneroption
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-httplisteneroption.yaml
+- name: solo io gloo gateway solo io v1 listeneroption
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-listeneroption.yaml
+- name: solo io gloo gateway solo io v1 matchablehttpgateway
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-matchablehttpgateway.yaml
+- name: solo io gloo gateway solo io v1 matchabletcpgateway
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-matchabletcpgateway.yaml
+- name: solo io gloo gateway solo io v1 routeoption
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-routeoption.yaml
+- name: solo io gloo gateway solo io v1 routetable
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-routetable.yaml
+- name: solo io gloo gateway solo io v1 virtualhostoption
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-virtualhostoption.yaml
+- name: solo io gloo gateway solo io v1 virtualservice
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-virtualservice.yaml
+- name: solo io gloo gloo solo io v1 proxy
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-proxy.yaml
+- name: solo io gloo gloo solo io v1 settings
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-settings.yaml
+- name: solo io gloo gloo solo io v1 upstream
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-upstream.yaml
+- name: solo io gloo gloo solo io v1 upstreamgroup
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-upstreamgroup.yaml
+- name: solo io gloo ratelimit config
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-ratelimit-config.yaml
+- name: solo io kgateway tcproute crd
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-kgateway-tcproute-crd.yaml
 created: '2026-08-02'
 description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gateway; Solo Enterprise for Istio (formerly Gloo Mesh), a hardened Istio service mesh with ambient mode; Agentgateway Enterprise, a Rust-based AI-native gateway for LLM, MCP, and A2A traffic; Kagent Enterprise, a Kubernetes-native agent runtime; and Agentregistry Enterprise, a registry for agents, MCP servers, and AI tools. Solo.io also ships Gloo Portal, a developer portal whose Portal Server REST API manages API products, teams, apps, subscriptions, API keys, and OAuth credentials, and contributes the kgateway, agentgateway, kagent, and Istio ambient-mesh open-source projects.
+examples:
+- key_count: 5
+  name: Solo Io Agentgateway Backend Example
+  slug: solo-io-agentgateway-backend-example
+- key_count: 5
+  name: Solo Io Gloo Upstream Kube Example
+  slug: solo-io-gloo-upstream-kube-example
+features:
+- description: Native support for the Kubernetes Gateway API standard for traffic management.
+  name: Kubernetes Gateway API
+- description: Built on Envoy Proxy for high-performance traffic handling and extensibility.
+  name: Envoy Proxy
+- description: Sidecar-less service mesh using Istio Ambient mode for simplified operations.
+  name: Istio Ambient Mesh
+- description: Connect and secure services across multiple Kubernetes clusters and clouds.
+  name: Multi-Cluster Networking
+- description: End-to-end mTLS, JWT validation, OAuth, OPA, and external auth for zero-trust architectures.
+  name: Zero Trust Security
+- description: Route, load balance, and apply guardrails to LLM provider traffic.
+  name: AI Gateway
+- description: Connect AI agents to MCP servers and manage agent-to-agent communication.
+  name: MCP Server Connectivity
+- description: Advanced rate limiting for API and AI traffic.
+  name: Rate Limiting
+- description: Built-in tracing, metrics, and access logging via OpenTelemetry.
+  name: OpenTelemetry Observability
+- description: Request and response transformation, header manipulation, and content-based routing.
+  name: Traffic Transformation
+finops:
+- name: Solo Io Finops
+  service_category: API
+  slug: solo-io-finops
 image: https://cdn.prod.website-files.com/66dba20a96c0aa281999f399/6704540db9215a5c14c38c6c_Webclip.png
+integrations:
+- description: Core proxy engine powering kgateway and agentgateway.
+  name: Envoy Proxy
+- description: Service mesh foundation for multi-cluster networking and security.
+  name: Istio
+- description: Native integration with Kubernetes for deployment and configuration.
+  name: Kubernetes
+- description: LLM provider integration for AI gateway routing.
+  name: OpenAI
+- description: Claude LLM provider integration for AI gateway routing.
+  name: Anthropic
+- description: AWS Bedrock LLM provider integration.
+  name: Amazon Bedrock
+- description: Azure-hosted OpenAI LLM provider integration.
+  name: Azure OpenAI
+- description: Google Cloud Vertex AI LLM provider integration.
+  name: Google Vertex AI
+- description: Observability integration for tracing, metrics, and logging.
+  name: OpenTelemetry
+- description: GitOps deployment support for Solo products.
+  name: ArgoCD
+json_schemas:
+- name: AgentgatewayBackend
+  property_count: 5
+  slug: solo-io-agentgateway-backend
+- name: Upstream
+  property_count: 5
+  slug: solo-io-gloo-upstream
+- name: VirtualService
+  property_count: 5
+  slug: solo-io-gloo-virtual-service
+json_structures:
+- name: Solo Io Agentgateway Structure
+  property_count: 0
+  slug: solo-io-agentgateway-structure
+- name: Solo Io Kgateway Structure
+  property_count: 0
+  slug: solo-io-kgateway-structure
+jsonld:
+- class_count: 0
+  name: Solo Io Context
+  property_count: 9
+  slug: solo-io-context
 layout: provider
 mcp_servers:
 - description: ''
   name: solo-io-mcp.yml
   slug: solo-io-mcpyml
-modified: '2026-08-02'
+modified: '2026-08-08'
 name: Solo.io
 nav: Providers
 network: true
-overview: 'Solo.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Gloo Portal Server API, Gloo Portal Backend API, Gloo Platform Portal API, and 2 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
+overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, API Products API, AP Is API, and 12 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
 
 
-  The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 28
+  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
+plans:
+- name: Solo Io Plans Pricing
+  plan_count: 3
+  slug: solo-io-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Solo Io Rate Limits
+  slug: solo-io-rate-limits
+rules:
+- name: Solo.io API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: solo-io-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 0.0
+  band: exemplar
+  composite: 81.9
+  delta: 20.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.9
+    commercial_clarity: 100.0
+    contract_quality: 66.8
     developer_ergonomics: 80.4
     discoverability: 92.6
-    governance: 11.5
-    operational_transparency: 47.4
+    governance: 80.2
+    operational_transparency: 78.9
   previous_composite: 61.2
   provenance:
     conformance: derived
@@ -244,8 +457,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication
   name: Solo Io Authentication
@@ -277,5 +491,16 @@ tags:
 - Developer Portal
 - Cloud Native
 - Open Source
+use_cases:
+- description: Replace legacy API gateways with a Kubernetes-native, Envoy-based gateway.
+  name: API Gateway Modernization
+- description: Adopt Istio service mesh for microservice security and observability.
+  name: Service Mesh Adoption
+- description: Connect services across AWS, GCP, Azure, and on-premises environments.
+  name: Multi-Cloud Connectivity
+- description: Build, deploy, and manage AI agents securely in Kubernetes.
+  name: AI Agent Infrastructure
+- description: Centralize LLM provider access with routing, failover, and cost controls.
+  name: LLM Gateway
 website: https://www.solo.io/
 ---

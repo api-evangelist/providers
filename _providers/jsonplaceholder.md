@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - description: 10 sample users with profile, address, and company metadata
   name: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
-artifact_total: 53
+artifact_total: 58
 collections:
 - collection_type: open
   name: JSONPlaceholder REST API
@@ -118,9 +118,35 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/jsonplaceholder-vocabulary.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://jsonplaceholder.typicode.com/guide/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/typicode
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://jsonplaceholder.typicode.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/typicode
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/jsonplaceholder-finops.yml
 created: '2026-05-28'
 description: JSONPlaceholder is a free, no-auth fake REST API for prototyping, tutorials, and testing. It exposes six relational resources — posts, comments, albums, photos, todos, and users — over six standard REST routes per resource. All write operations (POST, PUT, PATCH, DELETE) are accepted and respond as if successful, but no changes are persisted. The service is built on the open-source json-server engine (also by typicode) and serves billions of requests per month with no rate limits or authentication.
 examples:
+- key_count: 3
+  name: Create Post Request
+  slug: create-post-request
+- key_count: 4
+  name: Create Post Response
+  slug: create-post-response
 - key_count: 3
   name: Jsonplaceholder Album Example
   slug: jsonplaceholder-album-example
@@ -156,6 +182,10 @@ features:
   name: CORS Enabled
 - description: Served exclusively over HTTPS for safe inclusion in modern web tutorials and demos.
   name: HTTPS Only
+finops:
+- name: Jsonplaceholder Finops
+  service_category: ''
+  slug: jsonplaceholder-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jsonplaceholder.png
 integrations:
 - description: The open-source engine that powers JSONPlaceholder — runs the same fake REST API locally with a single command.
@@ -187,6 +217,9 @@ json_schemas:
 - name: User
   property_count: 8
   slug: jsonplaceholder-user
+- name: Post
+  property_count: 4
+  slug: post
 json_structures:
 - name: Jsonplaceholder Album Structure
   property_count: 3
@@ -207,27 +240,31 @@ json_structures:
   property_count: 8
   slug: jsonplaceholder-user-structure
 jsonld:
+- class_count: 1
+  name: context Context
+  property_count: 4
+  slug: context
 - class_count: 9
   name: Jsonplaceholder Context
   property_count: 26
   slug: jsonplaceholder-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-08-08'
 name: JSONPlaceholder
 nav: Providers
 network: true
 overview: 'JSONPlaceholder publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Albums API, Comments API, Photos API, and 3 more. Tagged areas include Development, Testing, Prototyping, Fake API, and Open Source.
 
 
-  The JSONPlaceholder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The JSONPlaceholder catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, and 12 more developer resources.'
+  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, documentation, pricing, and 15 more developer resources.'
 plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
   slug: jsonplaceholder-plans-pricing
-random_paper: 15
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Jsonplaceholder Rate Limits
@@ -251,12 +288,12 @@ rules:
   slug: jsonplaceholder-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 39.6
+  delta: 5.4
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 39.5
     contract_quality: 30.1
-    developer_ergonomics: 13.0
+    developer_ergonomics: 21.7
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 26.3
@@ -269,8 +306,8 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:
 - kind: domain-security

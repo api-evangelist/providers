@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -26,12 +26,63 @@ agentic_access:
   operation_count: 83
   slug: threatlocker-agentic-access
   summary_line: 83 operations · 46 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 18
 apis:
-- description: Public REST API for the ThreatLocker Portal. 83 operations across 18 resource groups — ActionLog, Application, ApprovalRequest, Computer, ComputerCheckin, ComputerGroup, MaintenanceMode, OnlineDevices
-  name: ThreatLocker PortalAPI
-  slug: threatlocker-portalapi
-artifact_total: 7
+- description: The ActionLog API from ThreatLocker — 9 operation(s) for actionlog.
+  name: ThreatLocker Action Log API
+  slug: threatlocker-actionlog-api
+- description: The Application API from ThreatLocker — 6 operation(s) for application.
+  name: ThreatLocker Application API
+  slug: threatlocker-application-api
+- description: The ApprovalRequest API from ThreatLocker — 12 operation(s) for approvalrequest.
+  name: ThreatLocker Approval Request API
+  slug: threatlocker-approvalrequest-api
+- description: The Computer API from ThreatLocker — 21 operation(s) for computer.
+  name: ThreatLocker Computer API
+  slug: threatlocker-computer-api
+- description: The ComputerCheckin API from ThreatLocker — 1 operation(s) for computercheckin.
+  name: ThreatLocker Computer Checkin API
+  slug: threatlocker-computercheckin-api
+- description: The ComputerGroup API from ThreatLocker — 4 operation(s) for computergroup.
+  name: ThreatLocker Computer Group API
+  slug: threatlocker-computergroup-api
+- description: The MaintenanceMode API from ThreatLocker — 4 operation(s) for maintenancemode.
+  name: ThreatLocker Maintenance Mode API
+  slug: threatlocker-maintenancemode-api
+- description: The OnlineDevices API from ThreatLocker — 1 operation(s) for onlinedevices.
+  name: ThreatLocker Online Devices API
+  slug: threatlocker-onlinedevices-api
+- description: The Organization API from ThreatLocker — 3 operation(s) for organization.
+  name: ThreatLocker Organization API
+  slug: threatlocker-organization-api
+- description: The Policy API from ThreatLocker — 1 operation(s) for policy.
+  name: ThreatLocker Policy API
+  slug: threatlocker-policy-api
+- description: The Report API from ThreatLocker — 2 operation(s) for report.
+  name: ThreatLocker Report API
+  slug: threatlocker-report-api
+- description: The SaveSearch API from ThreatLocker — 3 operation(s) for savesearch.
+  name: ThreatLocker Save Search API
+  slug: threatlocker-savesearch-api
+- description: The ScheduledAgentAction API from ThreatLocker — 6 operation(s) for scheduledagentaction.
+  name: ThreatLocker Scheduled Agent Action API
+  slug: threatlocker-scheduledagentaction-api
+- description: The SystemAudit API from ThreatLocker — 3 operation(s) for systemaudit.
+  name: ThreatLocker System Audit API
+  slug: threatlocker-systemaudit-api
+- description: The Tag API from ThreatLocker — 3 operation(s) for tag.
+  name: ThreatLocker Tag API
+  slug: threatlocker-tag-api
+- description: The ThreatLockerVersion API from ThreatLocker — 1 operation(s) for threatlockerversion.
+  name: ThreatLocker Threat Locker Version API
+  slug: threatlocker-threatlockerversion-api
+- description: The UploadRequest API from ThreatLocker — 2 operation(s) for uploadrequest.
+  name: ThreatLocker Upload Request API
+  slug: threatlocker-uploadrequest-api
+- description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
+  name: ThreatLocker VDI Hyper V API
+  slug: threatlocker-vdihyperv-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Threatlocker Webhooks
@@ -177,23 +228,23 @@ modified: '2026-08-02'
 name: ThreatLocker
 nav: Providers
 network: true
-overview: 'ThreatLocker publishes 1 API on the [APIs.io](https://apis.io/) network: PortalAPI. Tagged areas include cybersecurity, zero-trust, endpoint-security, application-control, and allowlisting.
+overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Application API, Approval Request API, and 15 more. Tagged areas include cybersecurity, zero-trust, endpoint-security, application-control, and allowlisting.
 
 
   The ThreatLocker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ThreatLocker''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 45
+random_paper: 12
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 52.9
+  delta: 0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.7
+    contract_quality: 50.8
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 52.8
@@ -208,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

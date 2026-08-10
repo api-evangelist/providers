@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: eqr-def14a_20200625.htm
   url: https://www.sec.gov/Archives/edgar/data/906107/000156459020017733/eqr-def14a_20200625.htm
-random_paper: 82
+random_paper: 34
 score:
   band: minimal
   composite: 4.1
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/screenshots/equity-residential-2026-06-20T180807.png
 security:

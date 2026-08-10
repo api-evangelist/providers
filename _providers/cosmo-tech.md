@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -181,7 +181,7 @@ overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 20 more developer resources.'
-random_paper: 106
+random_paper: 82
 scopes:
 - name: Cosmo Tech Scopes
   scope_count: 0
@@ -210,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

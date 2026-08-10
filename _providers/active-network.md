@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The Activities API from Active Network — 1 operation(s) for activities.
@@ -147,7 +147,7 @@ overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 103
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Active Network Rate Limits
@@ -174,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:

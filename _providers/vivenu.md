@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -378,7 +378,7 @@ overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 104
+random_paper: 89
 score:
   band: developing
   composite: 45.9
@@ -408,7 +408,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

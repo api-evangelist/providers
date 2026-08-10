@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open
 
 
   Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 17 more developer resources.'
-random_paper: 90
+random_paper: 81
 score:
   band: developing
   composite: 53.0
@@ -176,7 +176,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

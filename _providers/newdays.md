@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'NewDays is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NewDays'' developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 85
+random_paper: 67
 score:
   band: minimal
   composite: 10.5
@@ -95,8 +95,9 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newdays/refs/heads/main/screenshots/newdays-2026-08-07T185102.png
 security:
 - kind: domain-security
   name: Newdays Domain Security

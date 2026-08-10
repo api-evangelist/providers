@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -26,18 +26,42 @@ agentic_access:
   operation_count: 43
   slug: salsify-agentic-access
   summary_line: 43 operations · 33 acting
-api_count: 3
+api_count: 11
 apis:
-- description: 'The Salsify REST API gives programmatic access to everything in a Salsify organization: products, records, properties, digital assets, list membership, imports and export runs. All request and respons'
-  name: Salsify REST API
-  slug: rest
 - description: Early-access public GraphQL API for operating on Salsify accounts, organizations, configuration manifests and organization provisioning requests. Authenticated with a bearer API token; introspection r
   name: Salsify GraphQL API
   slug: graphql
 - description: First-party remote Model Context Protocol server hosted by Salsify at app.salsify.com/mcp. Streamable HTTP transport, protected by OAuth 2.1 with RFC 9728 protected-resource metadata pointing at the a
   name: Salsify MCP Server
   slug: mcp
-artifact_total: 13
+- description: The Digital Assets API from Salsify — 5 operation(s) for digital assets.
+  name: Salsify Digital Assets API
+  slug: salsify-digital-assets-api
+- description: The Export Runs API from Salsify — 2 operation(s) for export runs.
+  name: Salsify Export Runs API
+  slug: salsify-export-runs-api
+- description: The Imports API from Salsify — 5 operation(s) for imports.
+  name: Salsify Imports API
+  slug: salsify-imports-api
+- description: The Lists API from Salsify — 1 operation(s) for lists.
+  name: Salsify Lists API
+  slug: salsify-lists-api
+- description: The <org ID> API from Salsify — 1 operation(s) for <org id>.
+  name: Salsify <org ID> API
+  slug: salsify-org-id-api
+- description: The Products API from Salsify — 5 operation(s) for products.
+  name: Salsify Products API
+  slug: salsify-products-api
+- description: The Properties API from Salsify — 4 operation(s) for properties.
+  name: Salsify Properties API
+  slug: salsify-properties-api
+- description: The Record Types API from Salsify — 1 operation(s) for record types.
+  name: Salsify Record Types API
+  slug: salsify-record-types-api
+- description: The Records API from Salsify — 6 operation(s) for records.
+  name: Salsify Records API
+  slug: salsify-records-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Salsify Webhooks
@@ -207,14 +231,14 @@ modified: '2026-08-02'
 name: Salsify
 nav: Providers
 network: true
-overview: 'Salsify publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Product Experience Management, Product Information Management, Digital Asset Management, and Commerce.
+overview: 'Salsify publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Digital Assets API, Export Runs API, Imports API, and 6 more. Tagged areas include Company, Product Experience Management, Product Information Management, Digital Asset Management, and Commerce.
 
 
   The Salsify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 85
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Salsify Rate Limits
@@ -226,11 +250,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 60.3
+  delta: -0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.7
+    contract_quality: 66.4
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
@@ -247,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

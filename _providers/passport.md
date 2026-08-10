@@ -18,13 +18,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: 'REST-like JSON API for international shipping and landed cost. Endpoints cover shipping rate requests including duties and taxes (/rate), shipping label generation (/ship) and voiding (/void/{code}), '
-  name: Passport Global API
-  slug: passport-global-api
-artifact_total: 4
+- description: The Cart API from Passport — 1 operation(s) for cart.
+  name: Passport Cart API
+  slug: passport-cart-api
+- description: The Healthcheck API from Passport — 1 operation(s) for healthcheck.
+  name: Passport Healthcheck API
+  slug: passport-healthcheck-api
+- description: The Order API from Passport — 1 operation(s) for order.
+  name: Passport Order API
+  slug: passport-order-api
+- description: The Product Price API from Passport — 1 operation(s) for product price.
+  name: Passport Product Price API
+  slug: passport-product-price-api
+- description: The Rate API from Passport — 1 operation(s) for rate.
+  name: Passport Rate API
+  slug: passport-rate-api
+- description: The Ship API from Passport — 1 operation(s) for ship.
+  name: Passport Ship API
+  slug: passport-ship-api
+- description: The Tax And Duty API from Passport — 1 operation(s) for tax and duty.
+  name: Passport Tax And Duty API
+  slug: passport-tax-and-duty-api
+- description: The Void API from Passport — 1 operation(s) for void.
+  name: Passport Void API
+  slug: passport-void-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -146,23 +167,23 @@ modified: '2026-08-04'
 name: Passport
 nav: Providers
 network: true
-overview: 'Passport publishes 1 API on the [APIs.io](https://apis.io/) network: Global API. Tagged areas include Company, shipping, logistics, cross-border-ecommerce, and international-shipping.
+overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Healthcheck API, Order API, and 5 more. Tagged areas include Company, shipping, logistics, cross-border-ecommerce, and international-shipping.
 
 
   Passport''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 101
+random_paper: 80
 score:
   band: developing
-  composite: 46.9
-  delta: -1.3
+  composite: 47.3
+  delta: 0.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 49.5
+    contract_quality: 49.2
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     contracts:
@@ -173,8 +194,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:
 - kind: authentication
   name: Passport Authentication

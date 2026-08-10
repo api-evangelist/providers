@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Schnitzer Reports Third Quarter Fiscal 2023 Financial Results
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2023-6-27-schnitzer-reports-third-quarter-fiscal-2023-financial-results
-random_paper: 3
+random_paper: 47
 score:
   band: minimal
   composite: 9.5
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schnitzer-steel-industries/refs/heads/main/screenshots/schnitzer-steel-industries-2026-06-20T193526.png
 security:

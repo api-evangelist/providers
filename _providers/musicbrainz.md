@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -185,10 +185,6 @@ common:
   title: ''
   type: Forums
   url: https://community.metabrainz.org/
-- group: other
-  title: ''
-  type: IRC
-  url: ircs://irc.libera.chat/#musicbrainz
 - group: company
   title: ''
   type: Blog
@@ -362,12 +358,12 @@ overview: 'MusicBrainz publishes 16 APIs on the [APIs.io](https://apis.io/) netw
   The MusicBrainz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 37 more developer resources.'
+  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 36 more developer resources.'
 plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
   slug: musicbrainz-plans-pricing
-random_paper: 61
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Musicbrainz Rate Limits
@@ -420,7 +416,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:

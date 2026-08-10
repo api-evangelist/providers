@@ -28,13 +28,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 11
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
   name: SiliconFlow Cloud Platform API
   slug: platform
-artifact_total: 5
+- description: The Audio API from SiliconFlow — 4 operation(s) for audio.
+  name: SiliconFlow Audio API
+  slug: siliconflow-audio-api
+- description: The Chat API from SiliconFlow — 1 operation(s) for chat.
+  name: SiliconFlow Chat API
+  slug: siliconflow-chat-api
+- description: The Completions API from SiliconFlow — 1 operation(s) for completions.
+  name: SiliconFlow Completions API
+  slug: siliconflow-completions-api
+- description: The Embeddings API from SiliconFlow — 1 operation(s) for embeddings.
+  name: SiliconFlow Embeddings API
+  slug: siliconflow-embeddings-api
+- description: The Images API from SiliconFlow — 1 operation(s) for images.
+  name: SiliconFlow Images API
+  slug: siliconflow-images-api
+- description: The Messages API from SiliconFlow — 1 operation(s) for messages.
+  name: SiliconFlow Messages API
+  slug: siliconflow-messages-api
+- description: The Models API from SiliconFlow — 1 operation(s) for models.
+  name: SiliconFlow Models API
+  slug: siliconflow-models-api
+- description: The Rerank API from SiliconFlow — 1 operation(s) for rerank.
+  name: SiliconFlow Rerank API
+  slug: siliconflow-rerank-api
+- description: The User API from SiliconFlow — 1 operation(s) for user.
+  name: SiliconFlow User API
+  slug: siliconflow-user-api
+- description: The Videos API from SiliconFlow — 2 operation(s) for videos.
+  name: SiliconFlow Videos API
+  slug: siliconflow-videos-api
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -88,7 +118,7 @@ modified: '2026-05-08'
 name: SiliconFlow
 nav: Providers
 network: true
-overview: 'SiliconFlow publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud Platform API. Tagged areas include AI, LLM, Inference, Open Source, and OpenAI Compatible.
+overview: 'SiliconFlow publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 7 more. Tagged areas include AI, LLM, Inference, Open Source, and OpenAI Compatible.
 
 
   SiliconFlow''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -96,20 +126,20 @@ plans:
 - name: Siliconflow Plans Pricing
   plan_count: 1
   slug: siliconflow-plans-pricing
-random_paper: 63
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Siliconflow Rate Limits
   slug: siliconflow-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.3
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.0
+    contract_quality: 58.1
     developer_ergonomics: 10.9
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.7
@@ -120,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

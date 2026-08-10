@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for programmatic access to your Violet data. The Explore endpoint (POST /api/explore) accepts a rich query payload (keyword, filterModel, sort, grouping, pagination) and returns a paginated P
@@ -168,7 +168,7 @@ overview: 'Violetlabs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Violetlabs'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 22 more developer resources.'
-random_paper: 60
+random_paper: 33
 scopes:
 - name: Violetlabs Scopes
   scope_count: 1
@@ -190,7 +190,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,7 +143,7 @@ overview: 'Send Technology is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Send Technology''s developer surface includes engineering blog, YouTube channel, changelog, and 24 more developer resources.'
-random_paper: 86
+random_paper: 47
 score:
   band: emerging
   composite: 20.8
@@ -165,7 +165,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

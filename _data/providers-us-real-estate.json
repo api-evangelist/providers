@@ -26,7 +26,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -64,7 +64,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -91,6 +91,7 @@
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
      "description": "Lone Wolf Technologies is the dominant back-office, transaction-management and forms vendor in North American residential real estate, headquartered in Dallas, Texas and backed by Stone Point Capital. Its software runs the paperwork and money side of the deal rather than the listing feed: brokerage accounting and commission processing (Back Office, the brokerWOLF lineage), transaction management in two editions (zipForm Edition and TransactionDesk Edition), Authentisign and Inkless e-signature, Cloud CMA comparative market analysis, Boost digital advertising (HomeSpotter), Spacio open-house lead capture, and Propertybase/Relationships CRM. Its forms suites are distributed to agents as association member benefits through state REALTOR associations and MLSs, which places it between the MLS layer and the brokerage. On API posture it is one of the strongest surfaces in this sector and an instructive counter-example to the MLS data providers: on 2026-02-02 it launched a public API Portal for the Lone Wolf Foundation platform, and its documentation hub at apidocs.lwolf.com publishes seven complete, anonymously downloadable OpenAPI 3.0 definitions (Transact, Deals, Back Office, Authentisign, TransactionDesk, zipForm and WolfConnect) plus an MCP server endpoint. Documentation is genuinely open; credentials are not. Keys are issued only after an access-request form is reviewed by the integrations team, and the zipForm API is explicitly licensed to third-party application partners. Lone Wolf is not a RESO-certified data distributor and publishes no RESO Web API, Data Dictionary endpoint, OData $metadata document or Universal Property Identifier — RESO certification governs MLS listing feeds, which is not the layer Lone Wolf occupies; it consumes MLS data under MLS agreements (Cloud CMA documents RETS live queries) rather than redistributing it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png",
      "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
@@ -102,7 +103,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
@@ -129,6 +130,7 @@
      "name": "Keller Williams",
      "slug": "keller-williams",
      "description": "Keller Williams Realty, Inc. (KWRI) is an Austin, Texas headquartered residential real estate franchisor and the largest real estate brokerage franchise in the United States by agent count, operating more than 1,000 market centers worldwide through independently owned and operated offices. In the value chain Keller Williams sits at the brokerage and agent-platform layer, not the data-cooperative layer: it franchises brokerages, and it builds and operates KW Command, a proprietary agent operating system for lead, contact, task, listing, opportunity and marketing management, plus the KW Marketplace where third-party vendors sell integrated products to KW agents. Its API posture is real but partner-gated. Keller Williams runs a genuine Apigee-backed developer portal (DevHub) at developer.kw.com with a live gateway at partners.api.kw.com and a sandbox at sandbox.partners.api.kw.com, an OpenID Connect authorization server whose discovery document is publicly readable, and a published API License Agreement. Access is not self-serve: a developer must submit a partnership application through the \"Apply to Integrate\" form, be approved by KWRI, receive a DevHub account, then sign the KW API License Agreement and Terms of Use before receiving an API key and secret. Only one API — KW Worldwide Listings Search — is visible anonymously in the API catalog; the rest of the catalog (Command MC, Contact and Lead Data, Tasks, Opportunity/Deal/ Transaction Data, User/Organization/Role Information, Marketplace Subscription Management, Internal) is behind a SAML member login. On the sector's central question, Keller Williams carries no RESO posture at all: it is absent from the RESO certification directory, no RESO Web API, Data Dictionary, OData $metadata or Universal Property Identifier reference appears anywhere in its developer portal or specification, and its own listings spec states in its description that the service \"is not a substitution for or tied to any Multiple Listings Services database records.\" This is a brokerage's own listing and CRM data behind a commercial partner agreement, not licensed MLS data behind a certified standard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png",
      "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
@@ -140,7 +142,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -185,7 +187,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -224,7 +226,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 45.0,
      "agent_band": "agent-ready",
@@ -262,7 +264,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -301,7 +303,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -339,7 +341,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -366,6 +368,7 @@
      "name": "Offerpad",
      "slug": "offerpad",
      "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-07T190021.png",
      "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
@@ -377,7 +380,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -434,7 +437,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -472,7 +475,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -499,6 +502,7 @@
      "name": "Anywhere Real Estate",
      "slug": "anywhere-real-estate",
      "description": "Anywhere Real Estate Inc. (formerly Realogy Holdings Corp., NYSE: HOUS) is one of the largest residential real estate services companies in the United States, headquartered at 175 Park Avenue, Madison, New Jersey. It franchises and operates Better Homes and Gardens Real Estate, CENTURY 21, Coldwell Banker, Coldwell Banker Commercial, Corcoran, ERA and Sotheby's International Realty; runs the Anywhere Advisors brokerage, the Anywhere Integrated Services title and settlement business, the Anywhere Leads referral network and Cartus relocation. Its own home page states that as of January 9, 2026 Anywhere Real Estate and Compass came together as Compass International Holdings. Unusually for a brokerage, Anywhere operates a genuine Apigee-backed developer portal at developers.anywhere.re that publicly lists 23 documented API products spanning MLS and listing data, marketing syndication, transactions, back office, leads, agent recruiting, earnest money, title settlement, relocation and user access. Anywhere is a RESO consumer rather than a RESO certificant: its MLS Data Service returns listings in \"canonical RESO format\" and its Master Data product uses RESO name space convention, but Anywhere appears nowhere in the RESO Certification Status directory. Access is licensed, not open — every specification, Postman collection and SDK page redirects anonymous visitors to login, and both sandbox and production access require an Anywhere review of up to two business days under a binding API Terms of Use and License Agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/screenshots/anywhere-real-estate-2026-08-07T161434.png",
      "score": 39.8,
      "band": "thin",
      "band_label": "Thin",
@@ -510,7 +514,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -556,7 +560,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -595,7 +599,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -634,7 +638,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -673,7 +677,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -719,7 +723,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -758,7 +762,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -796,7 +800,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -835,7 +839,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -873,7 +877,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -900,6 +904,7 @@
      "name": "MLS Grid",
      "slug": "mls-grid",
      "description": "The MLS Grid is a United States MLS data-distribution cooperative created by a network of Multiple Listing Services to give brokers, MLSs and technology vendors ONE normalized data feed, ONE license agreement and ONE compliance process instead of dozens of per-MLS RETS and Web API feeds. It ingests listing data from participating MLSs, converts it to the RESO Data Dictionary, and republishes it as a single RESO Web API (OData v4) replication surface at https://api.mlsgrid.com/v2/. It sits in the middle of the residential real estate value chain, between the MLSs that own the data and the IDX/VOW sites, portals and proptech applications that display it. Its API posture is the sector archetype: the documentation is genuinely public and complete, and MLS Grid is RESO-certified for Data Dictionary 2.0 and Web API Server Core 2.0.0 in the RESO certification directory (UOI T00000045) — but nothing is reachable without credentials. Every anonymous call to the service root, to /Property and to the OData $metadata document returns HTTP 401. Access requires the MLS Grid Master Data License Agreement plus approval by each originating MLS before a long-lived OAuth 2.0 bearer token is issued in the MLS Grid web application. Certified, documented, and closed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mls-grid/refs/heads/main/screenshots/mls-grid-2026-08-07T183841.png",
      "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
@@ -911,7 +916,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -949,7 +954,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -976,6 +981,7 @@
      "name": "National Association of REALTORS",
      "slug": "nar",
      "description": "The National Association of REALTORS (NAR) is the largest trade association in the United States, representing roughly one million members across residential and commercial real estate. NAR is the industry body that sits above the roughly 500 local Multiple Listing Services, and it is the reason the US residential market has a machine-readable contract at all: MLS Policy Statement 7.90 requires MLS organizations owned and operated by associations of REALTORS to implement the RESO Data Dictionary and the RESO Web API and to stay current within one year of each ratification, with compliance demonstrated through the RESO Certification Process. NAR mandates that standard rather than operating it - RESO is a separate organization, and the listing data behind every certified endpoint is licensed through MLS membership, an IDX or VOW agreement, a broker relationship, or a reseller. NAR itself holds no RESO certification and publishes no self-serve developer portal. Its own API surface is REALTORS M1, the members-first engagement system that replaces NRDS: the M1 Gateway External API is a live, HTTP-Basic-authenticated REST API over member, office, association and data-extract records, whose Swagger 2.0 definition and Postman collection NAR publishes openly on GitHub for external association management system vendors and NAR partners, but whose credentials NAR issues only under a partner relationship.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png",
      "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
@@ -987,7 +993,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -1011,61 +1017,22 @@
      "rank": 25
     },
     {
-     "name": "Follow Up Boss",
-     "slug": "follow-up-boss",
-     "description": "Follow Up Boss is a real estate CRM and lead management platform helping agents and teams capture leads from any source, automate follow-up via texts, emails, and calls, manage pipelines and deals, and track team performance. The Follow Up Boss REST API exposes resources such as people, notes, tasks, deals, calls, text messages, events, and webhooks, secured with HTTP Basic authentication using an API key obtained from the application's admin settings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png",
-     "score": 31.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 54.3,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 27.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Agency CRM & Transaction Technology",
-     "rank": 26
-    },
-    {
      "name": "Clear Capital",
      "slug": "clear-capital",
      "description": "Clear Capital is a real-estate valuation and property data platform serving mortgage lenders, investors, and capital markets. Its developer surface is exposed through two sales-led REST products - the Property Analytics API (ClearAVM automated valuations, comparables ranked by ClearRank, property characteristics, and market trends) and the Property Valuation API (ordering and fulfillment of appraisal and valuation products such as Hybrid/Desktop appraisal, BPO, CDA, and UDC). Access is gated behind a commercial agreement; full reference docs live at docs.api.clearcapital.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png",
-     "score": 30.2,
+     "score": 31.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 32.3,
+      "contract_quality": 37.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -1086,6 +1053,45 @@
       "dry_run_mode": false
      },
      "tier": "Valuation & AVM",
+     "rank": 26
+    },
+    {
+     "name": "Follow Up Boss",
+     "slug": "follow-up-boss",
+     "description": "Follow Up Boss is a real estate CRM and lead management platform helping agents and teams capture leads from any source, automate follow-up via texts, emails, and calls, manage pipelines and deals, and track team performance. The Follow Up Boss REST API exposes resources such as people, notes, tasks, deals, calls, text messages, events, and webhooks, secured with HTTP Basic authentication using an API key obtained from the application's admin settings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png",
+     "score": 31.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 54.3,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-10",
+     "schema_version": "0.9.1",
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Agency CRM & Transaction Technology",
      "rank": 27
     },
     {
@@ -1104,7 +1110,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1150,7 +1156,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1199,7 +1205,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1233,6 +1239,7 @@
      "name": "Homes.com",
      "slug": "homes-com",
      "description": "Homes.com is a United States residential real estate portal owned by CoStar Group, which acquired the property in 2021 and folded the Homesnap agent application into it — homesnap.com now issues an HTTP 301 to www.homes.com. It sits on the consumer-facing portal layer of the US housing value chain, alongside Zillow, Realtor.com, and Redfin: it aggregates for-sale, for-rent, and off-market listings sourced from Multiple Listing Services and broker syndication, and monetises through an agent-first \"your listing, your lead\" advertising and agent-directory product rather than through data distribution. Its API posture is empty in both directions of the RESO question. Homes.com appears in the RESO organization directory as an active Technology Company (OrganizationUniqueId T00000143), but the Data Dictionary and Web API certification columns for that row are blank — it holds no RESO certification of any version, unlike rival Move/Realtor.com (Data Dictionary 1.7 Passed, Web API Core 2.0.0 Passed) or Zillow's Bridge Interactive (Data Dictionary 1.7 and Web API Core 2.0.0, Certified Legacy). Separately, no developer surface is published at all: developer., developers., api., docs., apis., dev., idx., feeds., and data. subdomains of homes.com do not resolve in DNS, and every path on www.homes.com returns HTTP 403 to non-browser clients behind Akamai bot protection. Listing data moves INTO Homes.com from MLSs and brokers via syndication opt-in, not OUT through any documented API. No OpenAPI, no OData $metadata, no webhooks, no SDK, no Postman collection, and no published authentication scheme were found. The GitHub organizations Homesnap and CoStarGroup contain only archived forks of third-party libraries — including libRETS, which is evidence of consuming MLS feeds rather than publishing them. Third-party \"Homes.com APIs\" on RapidAPI, Apify, Parse, and RealtyAPI are unofficial scrapers and are not recorded here as provider APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/screenshots/homes-com-2026-08-07T170252.png",
      "score": 22.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1244,7 +1251,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1283,7 +1290,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1322,7 +1329,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -1361,7 +1368,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1400,7 +1407,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1438,7 +1445,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1465,6 +1472,7 @@
      "name": "Apartments.com",
      "slug": "apartments-com",
      "description": "Apartments.com is the largest United States rental-listings marketplace, owned by CoStar Group since its 2014 acquisition and operated from Arlington, Virginia as the anchor of the Apartments.com Network — a group of consumer rental sites that also includes ApartmentFinder.com, ApartmentHomeLiving.com, ForRent.com, ForRentUniversity.com, WestsideRentals.com, Apartamentos.com, After55.com and CorporateHousing.com. It sits on the demand side of the US residential value chain as an Internet Listing Service (ILS): apartment owners and property managers buy advertising, and their inventory, availability, pricing, media, concessions and fee data flows in from property management systems (Yardi, RealPage, Entrata, MRI, AppFolio, ResMan, Rent Manager, Funnel, EliseAI and others) rather than from any public API, while leads flow back out to the advertiser's CRM. Its API posture is closed. Apartments.com publishes no developer portal, no OpenAPI or OData $metadata contract, no SDK, no webhooks and no Postman collection; developer.apartments.com, developers.apartments.com and docs.apartments.com do not resolve in DNS, and api.apartments.com resolves only to the same Akamai edge that returns HTTP 403 Access Denied to every non-browser request, including robots.txt. The one documented machine-to-machine seam is the Digital Feeds Program — an approval-and-contract path in which an approved third-party feed vendor syndicates a paying advertiser's listings into Apartments.com over FTP using an XML listings feed whose specification guide is available only on request to Feeds@apartments.com. A second inbound seam lets licensed agents opt in to rental-listing syndication through their own MLS (Bright MLS, ARMLS, REcolorado, OneKey MLS, SmartMLS, NorthstarMLS, MLS PIN, Garden State MLS, New Jersey MLS and Aspen Glenwood MLS are documented), which requires MLS membership. On RESO, the honest reading is absence rather than \"certified but unreachable\": Apartments.com does not appear anywhere in the RESO certificates list, and its own property-manager help centre returns zero results for \"RESO\". It is a consumer of MLS rental feeds, not a certified RESO endpoint, and no unlicensed open dataset is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apartments-com/refs/heads/main/screenshots/apartments-com-2026-08-07T161441.png",
      "score": 18.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1476,7 +1484,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1515,7 +1523,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1554,7 +1562,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1581,6 +1589,7 @@
      "name": "Douglas Elliman",
      "slug": "douglas-elliman",
      "description": "Douglas Elliman Inc. (NYSE: DOUG) is a residential real estate brokerage founded in 1911 and headquartered at 575 Madison Avenue, New York City. It is one of the largest brokerages in the New York metropolitan area and among the largest in the United States, with roughly 6,000 agents across New York, Florida, California, Texas, Colorado, Massachusetts, Connecticut, Nevada, New Jersey, Vermont, the Mid-Atlantic, and international outposts in France and Monaco. Its home market is the United States. In the value chain Douglas Elliman sits on the SELL side as a licensed brokerage and MLS participant — it consumes MLS listing data under IDX and broker agreements rather than originating a syndicated feed — and it extends into development marketing, property management, commercial brokerage, title and escrow (Douglas Elliman Title), relocation, and PropTech venture investment through New Valley Ventures. Its API posture is honest and thin: no developer portal, no published API documentation, no OpenAPI or OData $metadata contract, and no published access path of any kind. developer.elliman.com, developers.elliman.com, and docs.elliman.com all resolve to the marketing homepage via a wildcard catch-all rather than to a portal, and api.elliman.com exists as an IIS/ASP.NET host that returns HTTP 403 at its root with no documentation behind it. On RESO, Douglas Elliman Real Estate is listed as a Class D member (Brokers, Agents and Appraisers) on the RESO membership roster but does NOT appear in the RESO certified-organizations directory — it is a RESO member, not a RESO-certified data provider, and it publishes no Web API or Data Dictionary certification, no OData endpoint, and no UPI surface. The single public engineering artifact the company ships is a GitHub fork of a third-party .NET RETS client library, which is consumer-side evidence that Elliman pulls MLS data in rather than producer-side evidence that it exposes any.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/screenshots/douglas-elliman-2026-08-07T164508.png",
      "score": 16.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1592,7 +1601,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1647,7 +1656,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1693,7 +1702,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
@@ -1739,7 +1748,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1777,7 +1786,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1816,7 +1825,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-06",
+     "scored_at": "2026-08-10",
      "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",

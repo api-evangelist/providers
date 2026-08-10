@@ -18,13 +18,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 5
 apis:
-- description: The live WordPress REST API served by the A2 Biotherapeutics corporate website. Route discovery is anonymous and advertises 298 routes across 16 namespaces; published content under wp/v2 (posts, pages
-  name: A2 Biotherapeutics WordPress REST API
-  slug: a2-biotherapeutics-wordpress-rest-api
-artifact_total: 5
+- description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require OAuth 2.1 bearer auth (observed HTTP 401 anonymously).
+  name: A2 Biotherapeutics MCP API
+  slug: a2-biotherapeutics-mcp-api
+- description: oEmbed discovery and proxy endpoints.
+  name: A2 Biotherapeutics Oembed/1.0 API
+  slug: a2-biotherapeutics-oembed-1-0-api
+- description: REST API index / namespace discovery.
+  name: A2 Biotherapeutics Root API
+  slug: a2-biotherapeutics-root-api
+- description: WordPress Abilities API — registry of named abilities an agent may discover and run. Read access is capability-gated (observed HTTP 401 anonymously).
+  name: A2 Biotherapeutics Wp Abilities/v1 API
+  slug: a2-biotherapeutics-wp-abilities-v1-api
+- description: WordPress core content API (posts, pages, media, taxonomies, users, settings).
+  name: A2 Biotherapeutics Wp/v2 API
+  slug: a2-biotherapeutics-wp-v2-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -73,7 +85,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/a2-biotherapeutics-wp-rest-openapi.yml
+  url: openapi/_original/a2-biotherapeutics-wp-rest-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -146,11 +158,11 @@ modified: '2026-08-02'
 name: A2 Biotherapeutics
 nav: Providers
 network: true
-overview: 'A2 Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Company, Biotechnology, Life Sciences, Cell Therapy, and Immuno-Oncology.
+overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Oembed/1.0 API, Root API, and 2 more. Tagged areas include Company, Biotechnology, Life Sciences, Cell Therapy, and Immuno-Oncology.
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 108
+random_paper: 63
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1
@@ -158,13 +170,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 38.6
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.7
+    contract_quality: 55.8
     developer_ergonomics: 23.4
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 39.0
@@ -184,8 +196,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/screenshots/a2-biotherapeutics-2026-08-07T160729.png
 security:
 - kind: authentication
   name: A2 Biotherapeutics Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ overview: 'Allstacks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Allstacks'' developer surface includes engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 58
+random_paper: 34
 scopes:
 - name: Allstacks Scopes
   scope_count: 1
@@ -125,7 +125,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/screenshots/allstacks-2026-07-25T195720.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: OneMain 2026 proxy outlines pay, buybacks, proposals
   url: https://www.stocktitan.net/sec-filings/OMF/def-14a-one-main-holdings-inc-definitive-proxy-statement-b56119e0ab68.html
-random_paper: 62
+random_paper: 20
 score:
   band: minimal
   composite: 4.1
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

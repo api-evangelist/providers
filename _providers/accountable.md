@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,13 +23,23 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
-api_count: 0
-artifact_total: 0
+  score: 16.2
+  scored_at: '2026-08-10'
+api_count: 3
+apis:
+- description: Net asset value per share feeds.
+  name: Accountable NAV API
+  slug: accountable-nav-api
+- description: Collateral and reserve breakdown feeds.
+  name: Accountable Proof of Reserves API
+  slug: accountable-proof-of-reserves-api
+- description: On-chain redemption rate feeds.
+  name: Accountable Redemption API
+  slug: accountable-redemption-api
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -43,17 +53,17 @@ modified: '2026-07-17'
 name: Accountable
 nav: Providers
 network: true
-overview: Accountable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto.
-random_paper: 23
+overview: 'Accountable publishes 3 APIs on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Crypto.'
+random_paper: 109
 score:
-  band: minimal
-  composite: 4.8
-  delta: 0.0
+  band: emerging
+  composite: 17.6
+  delta: 12.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 0.0
+    contract_quality: 48.8
     developer_ergonomics: 0.0
-    discoverability: 48.1
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.8
@@ -64,8 +74,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: flat
+  scored_at: '2026-08-10'
+  trend: rising
 slug: accountable
 tags:
 - Company

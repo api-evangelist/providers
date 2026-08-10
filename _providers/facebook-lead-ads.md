@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ overview: 'Facebook Lead Ads publishes 6 APIs on the [APIs.io](https://apis.io/)
 
 
   Facebook Lead Ads'' developer surface includes authentication, documentation, signup flow, support, and 7 more developer resources.'
-random_paper: 52
+random_paper: 10
 scopes:
 - name: Facebook Lead Ads Scopes
   scope_count: 3
@@ -147,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/screenshots/facebook-lead-ads-2026-06-20T181004.png
 security:

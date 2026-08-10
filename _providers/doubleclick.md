@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,7 +47,7 @@ overview: 'Doubleclick is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Doubleclick''s developer surface includes documentation.'
-random_paper: 23
+random_paper: 109
 score:
   band: minimal
   composite: 6.7
@@ -61,7 +61,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubleclick/refs/heads/main/screenshots/doubleclick-2026-07-25T212332.png
 slug: doubleclick

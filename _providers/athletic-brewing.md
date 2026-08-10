@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-06'
+  score: 35.4
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Athletic Brewing's Shopify storefront serves at https://athleticbrewing.com/api/ucp/mcp. An anonymous MCP (JSON-RPC 2.0) endpoint exposing thirteen too
@@ -130,7 +130,7 @@ overview: 'Athletic Brewing publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Athletic Brewing''s developer surface includes documentation, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 59
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Athletic Brewing Rate Limits
@@ -142,16 +142,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.3
+  composite: 24.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 24.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-brewing/refs/heads/main/screenshots/athletic-brewing-2026-08-07T161840.png
 security:
 - kind: authentication
   name: Athletic Brewing Authentication

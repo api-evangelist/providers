@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Foot Locker – InMoment
   url: https://inmoment.com/customer-stories/foot-locker-uses-ai-npl-text-analytics/
-random_paper: 108
+random_paper: 81
 score:
   band: minimal
   composite: 5.7
@@ -102,7 +102,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

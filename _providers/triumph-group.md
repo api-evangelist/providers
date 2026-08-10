@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -80,10 +80,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/triumph-group-context.jsonld
-- group: other
-  title: ''
-  type: x-profiled
-  url: 2026-05
 created: '2026-03-24'
 description: Triumph Group designs, develops, manufactures, repairs, and overhauls a broad portfolio of aerospace structures, systems, and components for commercial and military aviation customers. A Fortune 1000 company headquartered in Berwyn, Pennsylvania, Triumph serves the full aircraft lifecycle across actuation products, geared solutions, interiors, systems, electronics, and controls. The company operates a developer portal and supplier portal for partners and customers.
 finops:
@@ -133,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
-random_paper: 23
+random_paper: 103
 rate_limits:
 - limit_count: 1
   name: Triumph Group Rate Limits
@@ -160,7 +156,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png
 security:

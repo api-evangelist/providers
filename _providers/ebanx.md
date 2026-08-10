@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
   slug: ebanx-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Ebanx Rate Limits
@@ -212,7 +212,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:

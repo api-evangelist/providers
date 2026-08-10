@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ overview: 'CyberVadis is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CyberVadis'' developer surface includes pricing, support, and 14 more developer resources.'
-random_paper: 51
+random_paper: 24
 score:
   band: emerging
   composite: 22.5
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybervadis/refs/heads/main/screenshots/cybervadis-2026-07-25T211031.png
 security:

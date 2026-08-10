@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Delta API Suite is a partner-facing collection of APIs covering flight search, flight offers and order management, customer journey events, and operational data. Access is restricted to approved p
@@ -60,6 +60,18 @@ common:
   title: ''
   type: Blog
   url: https://news.delta.com/rss.xml
+- group: start
+  title: ''
+  type: Dev Portal
+  url: https://dev-apiportal.delta.com
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://news.delta.com
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.delta.com
 created: '2024-12-03'
 description: Delta Airlines (alias of Delta Air Lines) is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. This repository is an alias of the canonical delta-air-lines profile and points to the same partner developer portal at apiportal.delta.com.
 finops:
@@ -72,19 +84,35 @@ graphqls:
   slug: delta-airlines-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delta-airlines.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-08'
 name: Delta Airlines
 nav: Providers
 network: true
 overview: 'Delta Airlines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Air Travel, Airlines, Aviation, Booking, and Flights.
 
 
-  Delta Airlines'' developer surface includes engineering blog and 5 more developer resources.'
+  Delta Airlines'' developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Delta Airlines Plans Pricing
   plan_count: 1
   slug: delta-airlines-plans-pricing
-random_paper: 66
+press:
+- date: '2026-05-25'
+  title: 'AI meets airfare: Delta''s new pricing and what you need to ...'
+  url: https://www.facebook.com/rossenreports/posts/ai-meets-airfare-deltas-new-pricing-and-what-you-need-to-know-/1545509503603165/
+- date: '2026-05-25'
+  title: Delta unveils AI-powered travel journey with new 'multi- ...
+  url: https://news.delta.com/delta-unveils-ai-powered-travel-journey-new-multi-modal-transportation-options
+- date: '2026-05-25'
+  title: Delta responds to misinformation around AI pricing
+  url: https://news.delta.com/delta-responds-misinformation-around-ai-pricing
+- date: '2026-05-25'
+  title: Delta-AI-Letter.pdf
+  url: https://www.gallego.senate.gov/wp-content/uploads/2025/07/Delta-AI-Letter.pdf
+- date: '2026-05-25'
+  title: Delta Air Lines, Inc – Digital Transformation Strategies
+  url: https://www.globaldata.com/store/report/delta-air-lines-enterprise-tech-analysis/
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Delta Airlines Rate Limits
@@ -102,7 +130,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-airlines/refs/heads/main/screenshots/delta-airlines-2026-07-25T211717.png
 security:

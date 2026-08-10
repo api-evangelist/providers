@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,35 +71,43 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/fifth-dimension-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fifth-dimension-conformance.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/5dai/
 created: '2026-07-17'
 description: Fifth Dimension AI is a London-based decision intelligence platform for real-assets investors and asset managers. Its AI co-worker, Ellie, automates document-heavy real estate workflows — deal screening, underwriting, due diligence, and lease and investment analysis — by reading email bodies and PDF attachments and returning transparent, sourced, auditable reasoning rather than black-box answers. Founded in 2023 by Johnny Morris and Dr. Kate Jarvis, the platform integrates with existing property management, CRM, data room, and financial systems and preserves each fund's institutional knowledge and investment criteria. The company is backed by HV Capital, Seedcamp, Speedinvest and Anthemis, and raised a $26M Series A in 2026.
 image: https://www.fifthdimensionai.com/wp-content/themes/bravestar/images/cover.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-08'
 name: Fifth Dimension
 nav: Providers
 network: true
 overview: 'Fifth Dimension is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Real Estate, PropTech, and Decision Intelligence.
 
 
-  Fifth Dimension''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 71
+  Fifth Dimension''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
+random_paper: 32
 score:
   band: emerging
-  composite: 16.5
-  delta: 0.0
+  composite: 18.0
+  delta: 1.5
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 16.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-dimension/refs/heads/main/screenshots/fifth-dimension-2026-07-25T214430.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-dimension/refs/heads/main/screenshots/fifth-dimension-2026-07-25T214432.png
 security:
 - kind: domain-security
   name: Fifth Dimension Domain Security

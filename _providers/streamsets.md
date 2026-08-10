@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'REST API for IBM StreamSets Control Hub — the cloud-native control plane for designing, deploying, orchestrating, and monitoring StreamSets data pipelines and jobs across engines. Programmatic access '
@@ -99,7 +99,7 @@ overview: 'StreamSets publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   StreamSets'' developer surface includes documentation, pricing, support, signup flow, and 9 more developer resources.'
-random_paper: 82
+random_paper: 55
 score:
   band: emerging
   composite: 20.7
@@ -113,7 +113,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

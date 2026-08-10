@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout and fulf'
@@ -84,6 +84,14 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.beautypie.com/policies/terms-of-service
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.beautypie.com/pages/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://www.beautypie.com/account/login
 created: '2026-07-17'
 description: 'Beauty Pie is a members'' beauty club that sells premium skincare, makeup, hair and bodycare, fragrance and supplements direct from the world''s top labs at close to factory cost, passing the savings to members rather than paying traditional retail markups. Founded by Marcia Kilgour, it operates a direct-to-consumer online store in the UK and US. The storefront is built on Shopify and exposes a modern agent-native commerce surface: a published /llms.txt (agents.md) instruction file, Shopify Customer Accounts OpenID Connect for authentication, and a Universal Commerce Protocol (UCP) MCP endpoint that lets buyer-approved AI shopping agents search the catalog, build carts and complete checkout via Shop Pay. This profile was enriched from those public agent surfaces.'
 image: https://cdn.shopify.com/s/files/1/0732/6475/8967/files/beauty_pie_7fab5e86-48c8-4083-81b5-deacc00fe2d7.jpg?v=1782305542
@@ -92,15 +100,15 @@ mcp_servers:
 - description: ''
   name: beauty-pie-mcp.yml
   slug: beauty-pie-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-08'
 name: Beauty Pie
 nav: Providers
 network: true
 overview: 'Beauty Pie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Cosmetics, and Skincare.
 
 
-  Beauty Pie''s developer surface includes authentication, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 109
+  Beauty Pie''s developer surface includes authentication, engineering blog, signup flow, support, and 10 more developer resources.'
+random_paper: 85
 scopes:
 - name: Beauty Pie Scopes
   scope_count: 4
@@ -121,8 +129,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beauty-pie/refs/heads/main/screenshots/beauty-pie-2026-08-07T162246.png
 security:
 - kind: authentication
   name: Beauty Pie Authentication

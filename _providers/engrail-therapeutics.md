@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The public, anonymously-readable content API exposed by engrail.com at /wp-json/wp/v2. Sixteen read operations over posts, pages, media, categories, tags, comments, and the site's own type/taxonomy/st
@@ -134,7 +134,7 @@ overview: 'Engrail Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Engrail Therapeutics'' developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 46
+random_paper: 108
 scopes:
 - name: Engrail Therapeutics Scopes
   scope_count: 1
@@ -168,8 +168,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:
 - kind: authentication
   name: Engrail Therapeutics Authentication

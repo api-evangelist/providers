@@ -27,13 +27,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 3
 apis:
-- description: REST API for Zoho Desk providing CRUD operations across tickets, threads, contacts, accounts, agents, departments, tasks, calls, events, articles, and knowledge base content. Uses OAuth 2.0 with the Z
-  name: Zoho Desk REST API
-  slug: zoho-desk-api
-artifact_total: 4
+- description: The Agents API from Zoho Desk — 2 operation(s) for agents.
+  name: Zoho Desk Agents API
+  slug: zoho-desk-agents-api
+- description: The Contacts API from Zoho Desk — 2 operation(s) for contacts.
+  name: Zoho Desk Contacts API
+  slug: zoho-desk-contacts-api
+- description: The Tickets API from Zoho Desk — 2 operation(s) for tickets.
+  name: Zoho Desk Tickets API
+  slug: zoho-desk-tickets-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -91,20 +97,20 @@ modified: '2026-05-11'
 name: Zoho Desk
 nav: Providers
 network: true
-overview: 'Zoho Desk publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Customer Support, Help Desk, Ticketing, Knowledge Base, and Customer Service.
+overview: 'Zoho Desk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Contacts API, and Tickets API. Tagged areas include Customer Support, Help Desk, Ticketing, Knowledge Base, and Customer Service.
 
 
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 104
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  delta: 1.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 49.4
+    contract_quality: 54.1
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 27.7
@@ -115,7 +121,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:

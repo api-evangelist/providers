@@ -1,16 +1,212 @@
 ---
-api_count: 3
-artifact_total: 0
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    rate_limit_signal: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-08-10'
+api_count: 8
+apis:
+- description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
+  name: Fullpath MCP Tools
+  slug: fullpath-mcp-tools
+- description: Operations related to activities
+  name: AutoLeadStar Activities API
+  slug: autoleadstar-activities-api
+- description: Operations related to appointments
+  name: AutoLeadStar Appointments API
+  slug: autoleadstar-appointments-api
+- description: Operations related to audiences
+  name: AutoLeadStar Audiences API
+  slug: autoleadstar-audiences-api
+- description: Vendor Consent Management API for listing integrated dealers and reading/writing communication consent. Defaults to `https://fullpath.com/api/v2/external/consent-management`.
+  name: AutoLeadStar Consents API
+  slug: autoleadstar-consents-api
+- description: Operations related to leads
+  name: AutoLeadStar Leads API
+  slug: autoleadstar-leads-api
+- description: Operations related to shoppers
+  name: AutoLeadStar Shoppers API
+  slug: autoleadstar-shoppers-api
+- description: Operations related to tasks
+  name: AutoLeadStar Tasks API
+  slug: autoleadstar-tasks-api
+artifact_total: 14
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/autoleadstar-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fullpath.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.fullpath.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.fullpath.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.fullpath.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fullpath.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://fullpath.zendesk.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.fullpath.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fullpath.com/legal-and-trust/?nav=websiteterms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fullpath.com/legal-and-trust/?nav=privacypolicy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.fullpath.com/feature-releases/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/autoleadstar-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autoleadstar-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/autoleadstar-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/autoleadstar-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.fullpath.com/vulnerability-disclosure-policy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/autoleadstar-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/autoleadstar-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.fullpath.com/legal-and-trust/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/autoleadstar-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/autoleadstar-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/autoleadstar-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://forgeglobal.com/autoleadstar_stock/
 created: '2026-08-06'
 description: AutoLeadStar is an automotive marketing technology company founded in 2015 in Jerusalem, Israel, that rebranded as Fullpath in March 2023 after raising a $40M Series C. It builds an enhanced Customer Data Platform (CDP) and AI ecosystem for franchise car dealerships, unifying first-party data from the dealership CRM, DMS, website, inventory feed and advertising accounts into a single shopper profile, then activating it through digital advertising, VIN-specific campaigns, equity mining, email/SMS audience activation, website personalization and an AI chat agent. The company opened a public API for the platform in November 2022 and today publishes a Scalar-rendered OpenAPI 3.0 reference at developers.fullpath.com covering shoppers, audiences, leads, tasks, appointments, activities and a vendor Consent Management API, alongside a downloadable Model Context Protocol tool manifest. Fullpath reports more than 2,000 dealership clients across North America and 200+ pre-built integrations,
   and was acquired by Cox Automotive.
 image: https://developers.fullpath.com/fullpath-logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: autoleadstar-mcp.yml
+  slug: autoleadstar-mcpyml
 modified: '2026-08-06'
 name: AutoLeadStar
 nav: Providers
 network: true
-random_paper: 46
+overview: 'AutoLeadStar publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 4 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealerships.
+
+
+  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 18 more developer resources.'
+random_paper: 13
+rate_limits:
+- limit_count: 1
+  name: Autoleadstar Rate Limits
+  slug: autoleadstar-rate-limits
+score:
+  band: developing
+  composite: 50.0
+  delta: -0.6
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 62.8
+    developer_ergonomics: 32.1
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 47.4
+  previous_composite: 50.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: unknown
+    skills: derived
+  schema_version: 0.9.1
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
+security:
+- kind: authentication
+  name: Autoleadstar Authentication
+  slug: autoleadstar-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Autoleadstar Domain Security
+  slug: autoleadstar-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Autoleadstar Vulnerability Disclosure
+  slug: autoleadstar-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Autoleadstar Trust Center
+  slug: autoleadstar-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 42001
 slug: autoleadstar
 tags:
 - Company
@@ -23,4 +219,5 @@ tags:
 - Consent Management
 - CRM
 - Israel
+website: https://www.fullpath.com/
 ---

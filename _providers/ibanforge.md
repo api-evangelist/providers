@@ -14,7 +14,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: near-conformant
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     auth_clarity: false
@@ -29,13 +29,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.0
-  scored_at: '2026-08-06'
-api_count: 9
+  score: 46.8
+  scored_at: '2026-08-10'
+api_count: 8
 apis:
-- description: 'Pre-payout IBAN screening: validation, issuing-bank identification, Swiss clearing, bank-level sanctions, SEPA and VoP reachability, and risk scoring.'
-  name: IBANforge
-  slug: ibanforge
 - description: API key management — generate free keys and check usage
   name: IBANforge API Keys API
   slug: ibanforge-api-keys-api
@@ -60,7 +57,7 @@ apis:
 - description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
   name: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -138,23 +135,30 @@ modified: '2026-08-06'
 name: IBANforge
 nav: Providers
 network: true
-overview: 'IBANforge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including IBANforge, API Keys API, BIC API, and 6 more. Tagged areas include Finance, Banking, Compliance, and MCP.
+overview: 'IBANforge publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, BIC API, Compliance API, and 5 more. Tagged areas include Finance, Banking, Compliance, and MCP.
 
 
   IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: thin
-  composite: 34.7
-  delta: 28.5
+  composite: 35.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 60.1
+    contract_quality: 64.0
     developer_ergonomics: 19.6
     discoverability: 90.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 6.2
+  previous_composite: 35.6
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
@@ -162,8 +166,8 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:
 - kind: domain-security

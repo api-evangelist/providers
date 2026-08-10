@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -192,7 +192,7 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 27 more developer resources.'
-random_paper: 87
+random_paper: 72
 score:
   band: developing
   composite: 51.6
@@ -217,8 +217,9 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:
 - kind: authentication
   name: Netomi Authentication

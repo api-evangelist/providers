@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ overview: 'Zenduty publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zenduty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 109
+random_paper: 91
 score:
   band: thin
   composite: 31.3
@@ -223,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/screenshots/zenduty-2026-06-20T201810.png
 security:

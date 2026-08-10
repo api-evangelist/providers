@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Tapestry API provides access to platform services and data for enterprise integration and automation.
@@ -72,7 +72,7 @@ plans:
 - name: Tapestry Plans Pricing
   plan_count: 1
   slug: tapestry-plans-pricing
-random_paper: 101
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Tapestry Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapestry/refs/heads/main/screenshots/tapestry-2026-06-20T194922.png
 security:

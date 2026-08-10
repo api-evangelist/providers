@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 23 more developer resources.'
-random_paper: 86
+random_paper: 53
 score:
   band: thin
   composite: 33.5
@@ -209,8 +209,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:
 - kind: authentication
   name: Gotham Greens Authentication

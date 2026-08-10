@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -39,9 +39,6 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 7
 apis:
-- description: Asynchronous PDF and document OCR via v3/pdf. Submit by URL or multipart upload, poll status, optionally stream via SSE, and download outputs in MMD, Markdown, DOCX, LaTeX (.tex.zip), HTML, PPTX, or p
-  name: Mathpix Document OCR API
-  slug: mathpix-document-ocr-api
 - description: Recognize handwritten math, text, and chemistry from raw stroke coordinates (x/y arrays) via v3/strokes. Pairs with the App Tokens API and strokes_session_id for client-side digital-ink capture in bro
   name: Mathpix Strokes API
   slug: mathpix-strokes-api
@@ -60,6 +57,9 @@ apis:
 - description: Inspect OCR consumption.
   name: Mathpix Usage API
   slug: mathpix-usage-api
+- description: Submit, monitor, and retrieve document OCR jobs.
+  name: Mathpix Documents API
+  slug: mathpix-documents-api
 artifact_total: 35
 collections:
 - collection_type: postman
@@ -278,7 +278,7 @@ modified: '2026-05-25'
 name: Mathpix
 nav: Providers
 network: true
-overview: 'Mathpix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Document OCR API, Strokes API, App Tokens API, and 4 more. Tagged areas include OCR, STEM, Math, Chemistry, and Document Conversion.
+overview: 'Mathpix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Strokes API, App Tokens API, Batches API, and 4 more. Tagged areas include OCR, STEM, Math, Chemistry, and Document Conversion.
 
 
   The Mathpix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -289,7 +289,7 @@ plans:
 - name: Mathpix Plans Pricing
   plan_count: 4
   slug: mathpix-plans-pricing
-random_paper: 85
+random_paper: 67
 rate_limits:
 - limit_count: 7
   name: Mathpix Rate Limits
@@ -313,11 +313,11 @@ rules:
   slug: mathpix-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 63.8
+  delta: -1.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.3
+    contract_quality: 66.4
     developer_ergonomics: 58.7
     discoverability: 55.6
     governance: 68.8
@@ -331,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/screenshots/mathpix-2026-06-20T185033.png
 security:

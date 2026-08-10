@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Hasura-powered GraphQL interface to the complete PokéAPI dataset, providing flexible queries over Pokémon species, moves, abilities, items, evolutions, encounters, and game version data via a single e
@@ -87,7 +87,7 @@ overview: 'PokéAPI GraphQL publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   PokéAPI GraphQL''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 88
+random_paper: 49
 score:
   band: emerging
   composite: 18.0
@@ -107,7 +107,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/screenshots/pokemon-graphql-2026-06-20T191846.png
 security:

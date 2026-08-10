@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,11 @@ apis:
 - description: The Zones API from Electricity Maps — 1 operation(s) for zones.
   name: Electricity Maps Zones API
   slug: electricitymaps-zones-api
-artifact_total: 14
+artifact_total: 15
 collections:
+- collection_type: open
+  name: Electricity Maps API
+  slug: open-electricity-maps
 - collection_type: open
   name: Electricity Maps API
   slug: open-electricitymaps
@@ -106,6 +109,22 @@ common:
   title: ''
   type: FinOps
   url: finops/electricitymaps-finops.yml
+- group: other
+  title: ''
+  type: Application
+  url: https://app.electricitymaps.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.electricitymaps.com/api-pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.electricitymaps.com/blog
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/electricitymaps
 created: '2026-06-21'
 description: Electricity Maps provides electricity grid data - carbon intensity and power production/consumption breakdown - for 200+ zones worldwide, in real time, as historical series, and as 24-72 hour forecasts. The REST API serves the same data behind the live electricity map at app.electricitymap.org, authenticated with an auth-token header.
 finops:
@@ -114,31 +133,31 @@ finops:
   slug: electricitymaps-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/electricitymaps.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-08-08'
 name: Electricity Maps
 nav: Providers
 network: true
 overview: 'Electricity Maps publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Carbon Intensity API, Forecast API, Health API, and 4 more. Tagged areas include Energy, Carbon Intensity, Electricity, Grid, and Sustainability.
 
 
-  Electricity Maps'' developer surface includes authentication, documentation, and 8 more developer resources.'
+  Electricity Maps'' developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Electricitymaps Plans Pricing
   plan_count: 4
   slug: electricitymaps-plans-pricing
-random_paper: 36
+random_paper: 110
 rate_limits:
 - limit_count: 6
   name: Electricitymaps Rate Limits
   slug: electricitymaps-rate-limits
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 38.3
+  delta: 2.1
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 50.0
     contract_quality: 62.7
-    developer_ergonomics: 19.6
+    developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
@@ -157,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:

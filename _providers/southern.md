@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The Southern Company Customer Account API provides access to utility account data for Alabama Power, Georgia Power, and Mississippi Power customers. It supports reading energy usage data, account bala
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Energy Department Announces Partnership to Ensure ...
   url: https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai
-random_paper: 97
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Southern Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/screenshots/southern-2026-06-20T194228.png
 security:

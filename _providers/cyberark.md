@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,10 +151,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/cyberark-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/cyberark-conjur-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -193,12 +189,12 @@ overview: 'CyberArk publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The CyberArk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CyberArk''s developer surface includes authentication, documentation, and 20 more developer resources.'
+  CyberArk''s developer surface includes authentication, documentation, and 19 more developer resources.'
 plans:
 - name: Cyberark Plans Pricing
   plan_count: 4
   slug: cyberark-plans-pricing
-random_paper: 60
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Cyberark Rate Limits
@@ -240,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:

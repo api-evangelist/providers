@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Nakama Plans Pricing
   plan_count: 3
   slug: nakama-plans-pricing
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Nakama Rate Limits
@@ -183,8 +183,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/screenshots/nakama-2026-08-07T184611.png
 security:
 - kind: authentication
   name: Nakama Authentication

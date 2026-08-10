@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-06'
+  score: 56.5
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -26,12 +26,48 @@ agentic_access:
   operation_count: 80
   slug: plansource-agentic-access
   summary_line: 80 operations · 44 acting · 10 human-in-the-loop
-api_count: 1
+api_count: 13
 apis:
-- description: The PlanSource Admin API v2 - a collection of categorized RESTful endpoints that let partners, brokers, organizations and carriers get, create and update employees (subscribers), dependents, beneficia
-  name: PlanSource Benefits Administration API
-  slug: plansource-benefits-administration-api
-artifact_total: 7
+- description: Affordable Care Act data.
+  name: PlanSource ACA API
+  slug: plansource-aca-api
+- description: Administrator Management
+  name: PlanSource Administrators API
+  slug: plansource-administrators-api
+- description: The All API from PlanSource — 62 operation(s) for all.
+  name: PlanSource All API
+  slug: plansource-all-api
+- description: Collections of objects.
+  name: PlanSource Collections API
+  slug: plansource-collections-api
+- description: Objects composed of resources.
+  name: PlanSource Composites API
+  slug: plansource-composites-api
+- description: Coverages, coverage lines, and dependent coverages.
+  name: PlanSource Coverage API
+  slug: plansource-coverage-api
+- description: Subscribers, their dependents and beneficiaries.
+  name: PlanSource Demographic API
+  slug: plansource-demographic-api
+- description: Evidence of Insurability Processing.
+  name: PlanSource EOI API
+  slug: plansource-eoi-api
+- description: Organization page content data.
+  name: PlanSource Page Content API
+  slug: plansource-page-content-api
+- description: Payroll coverages data.
+  name: PlanSource Payroll API
+  slug: plansource-payroll-api
+- description: Endpoints used for processing data, producing a result, and/or running a sequence of actions.
+  name: PlanSource Processing API
+  slug: plansource-processing-api
+- description: Individual objects.
+  name: PlanSource Resources API
+  slug: plansource-resources-api
+- description: Security Functions
+  name: PlanSource Security API
+  slug: plansource-security-api
+artifact_total: 19
 common:
 - group: company
   title: ''
@@ -158,11 +194,11 @@ modified: '2026-08-06'
 name: PlanSource
 nav: Providers
 network: true
-overview: 'PlanSource publishes 1 API on the [APIs.io](https://apis.io/) network: Benefits Administration API. Tagged areas include Employee Benefits, Benefits Administration, Insurance, Human Resources, and Payroll.
+overview: 'PlanSource publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ACA API, Administrators API, All API, and 10 more. Tagged areas include Employee Benefits, Benefits Administration, Insurance, Human Resources, and Payroll.
 
 
   PlanSource''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
-random_paper: 67
+random_paper: 40
 scopes:
 - name: Plansource Scopes
   scope_count: 8
@@ -170,14 +206,26 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.7
+  composite: 53.6
+  delta: -0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.0
-    developer_ergonomics: 78.3
-    discoverability: 87.0
+    contract_quality: 56.3
+    developer_ergonomics: 73.4
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 53.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -185,7 +233,8 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Plansource Authentication

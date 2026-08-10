@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Nymbus Connect is the integration layer of the Nymbus platform — a modern RESTful API for direct product and data access, a client/partner developer portal with a secure compliant sandbox, real-time K
@@ -67,7 +67,7 @@ overview: 'Nymbus publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nymbus'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 105
+random_paper: 90
 score:
   band: minimal
   composite: 9.8
@@ -87,8 +87,9 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nymbus/refs/heads/main/screenshots/nymbus-2026-08-07T185832.png
 security:
 - kind: domain-security
   name: Nymbus Domain Security

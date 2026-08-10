@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 23 more developer resources.'
-random_paper: 74
+random_paper: 53
 scopes:
 - name: Investec Scopes
   scope_count: 4
@@ -224,7 +224,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:

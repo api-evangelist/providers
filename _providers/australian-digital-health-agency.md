@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -165,7 +165,7 @@ overview: 'Australian Digital Health Agency publishes 6 APIs on the [APIs.io](ht
 
 
   Australian Digital Health Agency''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, and 18 more developer resources.'
-random_paper: 42
+random_paper: 74
 scopes:
 - name: Australian Digital Health Agency Scopes
   scope_count: 2
@@ -194,7 +194,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

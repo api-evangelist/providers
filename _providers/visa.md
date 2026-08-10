@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -509,7 +509,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 96
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits
@@ -557,7 +557,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

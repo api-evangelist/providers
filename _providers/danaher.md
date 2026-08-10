@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Danaher | Events and Presentations
   url: https://investors.danaher.com/events-presentations
-random_paper: 45
+random_paper: 27
 score:
   band: minimal
   composite: 5.4
@@ -132,7 +132,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danaher/refs/heads/main/screenshots/danaher-2026-06-20T175445.png
 security:

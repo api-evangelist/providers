@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 18
 apis:
 - description: Authentication and account service for the entire INRIX platform. Exchanges an appId plus a SHA-1 hashToken (or OAuth2 client credentials) for a bearer access token, and manages applications, applicat
@@ -230,31 +230,32 @@ overview: 'INRIX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Us
 
 
   INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 28 more developer resources.'
-random_paper: 102
+random_paper: 90
 score:
   band: developing
-  composite: 50.2
+  composite: 50.8
   delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 39.0
+    contract_quality: 41.6
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 50.2
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/screenshots/inrix-2026-08-07T170714.png
 security:
 - kind: authentication
   name: Inrix Authentication

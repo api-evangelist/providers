@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ overview: 'Rejoni is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rejoni''s developer surface includes product news and 10 more developer resources.'
-random_paper: 82
+random_paper: 67
 score:
   band: minimal
   composite: 9.5
@@ -117,7 +117,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

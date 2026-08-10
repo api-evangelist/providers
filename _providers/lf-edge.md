@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Programmatic access to LF Edge project resources, APIs, and edge computing framework tools.
@@ -80,7 +80,7 @@ plans:
 - name: Lf Edge Plans Pricing
   plan_count: 3
   slug: lf-edge-plans-pricing
-random_paper: 95
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Lf Edge Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-edge/refs/heads/main/screenshots/lf-edge-2026-06-20T184454.png
 security:

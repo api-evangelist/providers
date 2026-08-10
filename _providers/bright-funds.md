@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 4
 common:
@@ -108,7 +108,7 @@ overview: 'Bright Funds is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bright Funds'' developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 99
+random_paper: 69
 scopes:
 - name: Bright Funds Scopes
   scope_count: 7
@@ -129,7 +129,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/screenshots/bright-funds-2026-07-25T203821.png
 security:

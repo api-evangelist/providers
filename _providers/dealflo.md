@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Dealflo
 nav: Providers
 network: true
 overview: Dealflo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Electronic Signature, Digital Agreements, and Identity Verification.
-random_paper: 49
+random_paper: 31
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealflo/refs/heads/main/screenshots/dealflo-2026-07-25T211512.png
 slug: dealflo

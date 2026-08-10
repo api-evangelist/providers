@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -564,7 +564,7 @@ plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
   slug: frontegg-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 8
   name: Frontegg Rate Limits
@@ -678,7 +678,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
 security:

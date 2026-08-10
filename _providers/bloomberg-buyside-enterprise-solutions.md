@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-buyside-enterprise-solutions-plans-pricing
-random_paper: 100
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
@@ -236,7 +236,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:

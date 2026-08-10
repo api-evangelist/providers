@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Client-side JavaScript API for embedding interactive Desmos calculators (Graphing, 3D, Geometry, Scientific, Four-Function) into web pages and apps, controlled through a browser object model.
@@ -124,7 +124,7 @@ overview: 'Desmos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Desmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 86
+random_paper: 71
 score:
   band: thin
   composite: 32.2
@@ -138,7 +138,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 32.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desmos/refs/heads/main/screenshots/desmos-2026-07-25T211755.png
 security:

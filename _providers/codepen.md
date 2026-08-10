@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: Standard oEmbed endpoint that returns a rich embed payload (iframe HTML, thumbnail URL, author metadata) for any public CodePen Pen URL. Supports JSON and JSONP response formats and an optional height
@@ -117,7 +117,7 @@ plans:
 - name: Codepen Plans Pricing
   plan_count: 5
   slug: codepen-plans-pricing
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Codepen Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codepen/refs/heads/main/screenshots/codepen-2026-06-20T174703.png
 security:

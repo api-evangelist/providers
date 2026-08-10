@@ -9,13 +9,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-06'
+  score: 6.3
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,31 +91,43 @@ common:
   title: ''
   type: Facebook
   url: https://www.facebook.com/withalan
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/alan-com-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/alan-com-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://alan.com/.well-known/security.txt
 created: '2026-05-25'
 description: Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance ("mutuelle"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in
   its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alan-com.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Alan
 nav: Providers
 network: true
 overview: 'Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Digital Health, Healthtech, Insurance, and Mutuelle.
 
 
-  Alan''s developer surface includes engineering blog, GitHub presence, and 13 more developer resources.'
-random_paper: 98
+  Alan''s developer surface includes engineering blog, GitHub presence, and 16 more developer resources.'
+random_paper: 80
 score:
   band: minimal
-  composite: 7.9
-  delta: 0.0
+  composite: 10.0
+  delta: 2.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   previous_composite: 7.9
   regulatory:
     applies: true
@@ -124,9 +136,9 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-06-20T171458.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-07-25T195537.png
 security:
 - kind: domain-security
   name: Alan Com Domain Security

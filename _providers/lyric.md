@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,7 +87,7 @@ overview: 'Lyric is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lyric''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 95
+random_paper: 83
 score:
   band: emerging
   composite: 14.9
@@ -101,7 +101,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.9
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyric/refs/heads/main/screenshots/lyric-2026-07-25T225759.png
 security:

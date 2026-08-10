@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,23 @@ common:
   title: ''
   type: Blog
   url: https://newsroom.mtb.com/press-releases?pagetemplate=rss
+- group: other
+  title: ''
+  type: TreasuryManagement
+  url: https://www.mtb.com/commercial/treasury-management
 created: '2025-01-01'
 description: 'M&T Bank is a regional bank holding company headquartered in Buffalo, New York, providing commercial and retail banking services to consumers and businesses across the eastern United States. As a subsidiary of M&T Bank Corporation (NYSE: MTB), it offers checking, savings, lending, mortgage, wealth management, and treasury services.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mandt-bank.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-08'
 name: M&T Bank
 nav: Providers
 network: true
 overview: 'M&T Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Commercial Banking, Financial Services, Mortgage, and Regional Bank.
 
 
-  M&T Bank''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 85
+  M&T Bank''s developer surface includes engineering blog and 12 more developer resources.'
+random_paper: 61
 score:
   band: emerging
   composite: 13.1
@@ -111,7 +115,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mandt-bank/refs/heads/main/screenshots/mandt-bank-2026-06-20T184915.png
 security:

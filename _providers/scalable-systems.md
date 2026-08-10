@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -169,7 +169,7 @@ plans:
 - name: Scalable Systems Plans Pricing
   plan_count: 3
   slug: scalable-systems-plans-pricing
-random_paper: 78
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Scalable Systems Rate Limits
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/screenshots/scalable-systems-2026-06-20T193500.png
 security:

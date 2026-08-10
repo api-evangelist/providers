@@ -8,7 +8,7 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: true
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-06'
+  score: 65.3
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -26,36 +26,315 @@ agentic_access:
   operation_count: 507
   slug: tricentis-agentic-access
   summary_line: 507 operations · 271 acting · 5 human-in-the-loop
-api_count: 9
+api_count: 102
 apis:
-- description: The core Tricentis qTest test management REST API — projects, releases, modules, requirements, test cases, test steps, test cycles, test suites, test runs, test logs, defects, attachments, users, fiel
-  name: qTest Manager API v3
-  slug: qtest-manager
-- description: The Tricentis qTest Parameters REST API for data-driven testing — parameters, parameter values, datasets, dataset rows and asynchronous tasks, scoped per qTest project.
-  name: qTest Parameters API
-  slug: qtest-parameters
-- description: The Tricentis qTest Pulse REST API for event-driven test automation orchestration — rules, triggers, actions, constants, executions and projects.
-  name: qTest Pulse API
-  slug: qtest-pulse
-- description: The Tricentis qTest Scenario REST API for BDD/Gherkin assets — features and steps synchronized between qTest and Jira.
-  name: qTest Scenario API
-  slug: qtest-scenario
-- description: The Tricentis qTest Explorer Sessions REST API for exploratory testing — sessions, screens, application and system information, resources, coverage, view settings and script generation.
-  name: qTest Explorer Sessions API
-  slug: qtest-sessions
-- description: The Tricentis qTest Data Export API, which issues signed access to exported qTest data files for downstream analytics and reporting warehouses.
-  name: qTest Data Export API
-  slug: qtest-data-export
-- description: The Tricentis Analytics OData v4 API exposing quality-engineering entity sets — projects, releases, builds, defects, folders, execution summaries, test runs, run logs, requirements and traceability li
-  name: Tricentis Analytics API
-  slug: analytics
-- description: The Tricentis NeoLoad Web REST API for continuous performance testing — workspaces, projects, test settings, test results, scenarios, SLA profiles, monitors, infrastructure providers, zones and resour
-  name: NeoLoad API v3
-  slug: neoload
-- description: The Tricentis Test Management for Jira (TTM4J) REST API — test-case folders, test cases, test-case search (including JQL), requirements linking, automation results, test cycles and jobs, scoped by Jir
-  name: Tricentis Test Management for Jira API
-  slug: ttm4j
-artifact_total: 17
+- description: The AccessFiles API from Tricentis — 2 operation(s) for accessfiles.
+  name: Tricentis Access Files API
+  slug: tricentis-accessfiles-api
+- description: Action API
+  name: Tricentis Action API
+  slug: tricentis-action-api
+- description: The Administration of users API from Tricentis — 1 operation(s) for administration of users.
+  name: Tricentis Administration of users API
+  slug: tricentis-administration-of-users-api
+- description: Attachment API
+  name: Tricentis Attachment API
+  slug: tricentis-attachment-api
+- description: The Attachments API from Tricentis — 4 operation(s) for attachments.
+  name: Tricentis Attachments API
+  slug: tricentis-attachments-api
+- description: Authentication Systems API
+  name: Tricentis Auth Systems API
+  slug: tricentis-auth-systems-api
+- description: Authentication public APIs
+  name: Tricentis Authentication API
+  slug: tricentis-authentication-api
+- description: Automation Job API
+  name: Tricentis Automation Job API
+  slug: tricentis-automation-job-api
+- description: The bridgerequirementsetlinks API from Tricentis — 2 operation(s) for bridgerequirementsetlinks.
+  name: Tricentis Bridgerequirementsetlinks API
+  slug: tricentis-bridgerequirementsetlinks-api
+- description: Build API
+  name: Tricentis Build API
+  slug: tricentis-build-api
+- description: The builds API from Tricentis — 2 operation(s) for builds.
+  name: Tricentis Builds API
+  slug: tricentis-builds-api
+- description: Common API
+  name: Tricentis Common API
+  slug: tricentis-common-api
+- description: Constant API
+  name: Tricentis Constant API
+  slug: tricentis-constant-api
+- description: The Cycles API from Tricentis — 3 operation(s) for cycles.
+  name: Tricentis Cycles API
+  slug: tricentis-cycles-api
+- description: Dataset public APIs
+  name: Tricentis Datasets API
+  slug: tricentis-datasets-api
+- description: Defect API
+  name: Tricentis Defect API
+  slug: tricentis-defect-api
+- description: The defects API from Tricentis — 4 operation(s) for defects.
+  name: Tricentis Defects API
+  slug: tricentis-defects-api
+- description: The defecttestrunlogs API from Tricentis — 2 operation(s) for defecttestrunlogs.
+  name: Tricentis Defecttestrunlogs API
+  slug: tricentis-defecttestrunlogs-api
+- description: The Deletion Policies API from Tricentis — 2 operation(s) for deletion policies.
+  name: Tricentis Deletion Policies API
+  slug: tricentis-deletion-policies-api
+- description: Execution API
+  name: Tricentis Execution API
+  slug: tricentis-execution-api
+- description: The executionsummaries API from Tricentis — 2 operation(s) for executionsummaries.
+  name: Tricentis Executionsummaries API
+  slug: tricentis-executionsummaries-api
+- description: Field API
+  name: Tricentis Field API
+  slug: tricentis-field-api
+- description: The folderhierarchies API from Tricentis — 2 operation(s) for folderhierarchies.
+  name: Tricentis Folderhierarchies API
+  slug: tricentis-folderhierarchies-api
+- description: The folders API from Tricentis — 4 operation(s) for folders.
+  name: Tricentis Folders API
+  slug: tricentis-folders-api
+- description: User Group API
+  name: Tricentis Groups API
+  slug: tricentis-groups-api
+- description: The Information API from Tricentis — 2 operation(s) for information.
+  name: Tricentis Information API
+  slug: tricentis-information-api
+- description: The Infrastructure Providers API from Tricentis — 1 operation(s) for infrastructure providers.
+  name: Tricentis Infrastructure Providers API
+  slug: tricentis-infrastructure-providers-api
+- description: Integration Settings
+  name: Tricentis Integration Settings API
+  slug: tricentis-integration-settings-api
+- description: The latestrunlogs API from Tricentis — 2 operation(s) for latestrunlogs.
+  name: Tricentis Latestrunlogs API
+  slug: tricentis-latestrunlogs-api
+- description: The latesttestrunstatuses API from Tricentis — 2 operation(s) for latesttestrunstatuses.
+  name: Tricentis Latesttestrunstatuses API
+  slug: tricentis-latesttestrunstatuses-api
+- description: Login API
+  name: Tricentis Login API
+  slug: tricentis-login-api
+- description: Module API
+  name: Tricentis Module API
+  slug: tricentis-module-api
+- description: Object Link API
+  name: Tricentis Object Link API
+  slug: tricentis-object-link-api
+- description: Parameter public APIs
+  name: Tricentis Parameters API
+  slug: tricentis-parameters-api
+- description: Project API
+  name: Tricentis Project API
+  slug: tricentis-project-api
+- description: The projects API from Tricentis — 3 operation(s) for projects.
+  name: Tricentis Projects API
+  slug: tricentis-projects-api
+- description: Release API
+  name: Tricentis Release API
+  slug: tricentis-release-api
+- description: The releases API from Tricentis — 2 operation(s) for releases.
+  name: Tricentis Releases API
+  slug: tricentis-releases-api
+- description: Requirement API
+  name: Tricentis Requirement API
+  slug: tricentis-requirement-api
+- description: The requirementreleases API from Tricentis — 2 operation(s) for requirementreleases.
+  name: Tricentis Requirementreleases API
+  slug: tricentis-requirementreleases-api
+- description: The requirements API from Tricentis — 5 operation(s) for requirements.
+  name: Tricentis Requirements API
+  slug: tricentis-requirements-api
+- description: The requirementsets API from Tricentis — 2 operation(s) for requirementsets.
+  name: Tricentis Requirementsets API
+  slug: tricentis-requirementsets-api
+- description: The requirementtestcases API from Tricentis — 2 operation(s) for requirementtestcases.
+  name: Tricentis Requirementtestcases API
+  slug: tricentis-requirementtestcases-api
+- description: The Resources|Reservations API from Tricentis — 2 operation(s) for resources|reservations.
+  name: Tricentis Resources|Reservations API
+  slug: tricentis-resources-reservations-api
+- description: The Resources|Zones API from Tricentis — 1 operation(s) for resources|zones.
+  name: Tricentis Resources|Zones API
+  slug: tricentis-resources-zones-api
+- description: The Results API from Tricentis — 5 operation(s) for results.
+  name: Tricentis Results API
+  slug: tricentis-results-api
+- description: The Results|Elements API from Tricentis — 8 operation(s) for results|elements.
+  name: Tricentis Results|Elements API
+  slug: tricentis-results-elements-api
+- description: The Results|Events API from Tricentis — 2 operation(s) for results|events.
+  name: Tricentis Results|Events API
+  slug: tricentis-results-events-api
+- description: The Results|Monitors API from Tricentis — 4 operation(s) for results|monitors.
+  name: Tricentis Results|Monitors API
+  slug: tricentis-results-monitors-api
+- description: The Results|Reporting API from Tricentis — 3 operation(s) for results|reporting.
+  name: Tricentis Results|Reporting API
+  slug: tricentis-results-reporting-api
+- description: The Results|SLAs API from Tricentis — 3 operation(s) for results|slas.
+  name: Tricentis Results|SL As API
+  slug: tricentis-results-slas-api
+- description: Rule API
+  name: Tricentis Rule API
+  slug: tricentis-rule-api
+- description: Search API
+  name: Tricentis Search API
+  slug: tricentis-search-api
+- description: Site Templates API
+  name: Tricentis Site Templates API
+  slug: tricentis-site-templates-api
+- description: The Status API from Tricentis — 1 operation(s) for status.
+  name: Tricentis Status API
+  slug: tricentis-status-api
+- description: Tasks public APIs
+  name: Tricentis Tasks API
+  slug: tricentis-tasks-api
+- description: Test Case API
+  name: Tricentis Test Case API
+  slug: tricentis-test-case-api
+- description: The Test Cases API from Tricentis — 7 operation(s) for test cases.
+  name: Tricentis Test Cases API
+  slug: tricentis-test-cases-api
+- description: Test Cycle API
+  name: Tricentis Test Cycle API
+  slug: tricentis-test-cycle-api
+- description: Test Log API
+  name: Tricentis Test Log API
+  slug: tricentis-test-log-api
+- description: Test Run API
+  name: Tricentis Test Run API
+  slug: tricentis-test-run-api
+- description: The Test Runs API from Tricentis — 4 operation(s) for test runs.
+  name: Tricentis Test Runs API
+  slug: tricentis-test-runs-api
+- description: The Test Runs Fields API from Tricentis — 2 operation(s) for test runs fields.
+  name: Tricentis Test Runs Fields API
+  slug: tricentis-test-runs-fields-api
+- description: Test Suite API
+  name: Tricentis Test Suite API
+  slug: tricentis-test-suite-api
+- description: The testcases API from Tricentis — 2 operation(s) for testcases.
+  name: Tricentis Testcases API
+  slug: tricentis-testcases-api
+- description: The testrunlogs API from Tricentis — 2 operation(s) for testrunlogs.
+  name: Tricentis Testrunlogs API
+  slug: tricentis-testrunlogs-api
+- description: The testruns API from Tricentis — 2 operation(s) for testruns.
+  name: Tricentis Testruns API
+  slug: tricentis-testruns-api
+- description: The Tests API from Tricentis — 2 operation(s) for tests.
+  name: Tricentis Tests API
+  slug: tricentis-tests-api
+- description: The Tests|Projects API from Tricentis — 1 operation(s) for tests|projects.
+  name: Tricentis Tests|Projects API
+  slug: tricentis-tests-projects-api
+- description: The Tests|Runtime API from Tricentis — 2 operation(s) for tests|runtime.
+  name: Tricentis Tests|Runtime API
+  slug: tricentis-tests-runtime-api
+- description: The Tests|Test Analysis API from Tricentis — 1 operation(s) for tests|test analysis.
+  name: Tricentis Tests|Test Analysis API
+  slug: tricentis-tests-test-analysis-api
+- description: The testsuites API from Tricentis — 2 operation(s) for testsuites.
+  name: Tricentis Testsuites API
+  slug: tricentis-testsuites-api
+- description: Tosca Integration API
+  name: Tricentis Tosca API
+  slug: tricentis-tosca-api
+- description: Trigger API
+  name: Tricentis Trigger API
+  slug: tricentis-trigger-api
+- description: User API
+  name: Tricentis User API
+  slug: tricentis-user-api
+- description: User Profile API
+  name: Tricentis User Profile API
+  slug: tricentis-user-profile-api
+- description: The users API from Tricentis — 2 operation(s) for users.
+  name: Tricentis Users API
+  slug: tricentis-users-api
+- description: Application Information V2 APIs
+  name: Tricentis V2 Application Information API
+  slug: tricentis-v2-application-information-api
+- description: Coverage V2 APIs
+  name: Tricentis V2 Coverage API
+  slug: tricentis-v2-coverage-api
+- description: Project V2 APIs
+  name: Tricentis V2 Project API
+  slug: tricentis-v2-project-api
+- description: Project settings V2 APIs
+  name: Tricentis V2 Project Settings API
+  slug: tricentis-v2-project-settings-api
+- description: Resource V2 APIs
+  name: Tricentis V2 Resource API
+  slug: tricentis-v2-resource-api
+- description: Screen V2 APIs
+  name: Tricentis V2 Screen API
+  slug: tricentis-v2-screen-api
+- description: Plugin V2 APIs
+  name: Tricentis V2 Script Generator Plugin API
+  slug: tricentis-v2-script-generator-plugin-api
+- description: Session V2 APIs
+  name: Tricentis V2 Session API
+  slug: tricentis-v2-session-api
+- description: System Information V2 APIs
+  name: Tricentis V2 System Information API
+  slug: tricentis-v2-system-information-api
+- description: view settings V2 APIs
+  name: Tricentis V2 View Setting API
+  slug: tricentis-v2-view-setting-api
+- description: Application Information V3 APIs
+  name: Tricentis V3 Application Information API
+  slug: tricentis-v3-application-information-api
+- description: Config V3 APIs
+  name: Tricentis V3 Config API
+  slug: tricentis-v3-config-api
+- description: Coverage V3 APIs
+  name: Tricentis V3 Coverage API
+  slug: tricentis-v3-coverage-api
+- description: Export V3 APIs
+  name: Tricentis V3 Export API
+  slug: tricentis-v3-export-api
+- description: Project settings V3 APIs
+  name: Tricentis V3 Project Settings API
+  slug: tricentis-v3-project-settings-api
+- description: Query V3 APIs
+  name: Tricentis V3 Query API
+  slug: tricentis-v3-query-api
+- description: Resource V3 APIs
+  name: Tricentis V3 Resource API
+  slug: tricentis-v3-resource-api
+- description: Screen V3 APIs
+  name: Tricentis V3 Screen API
+  slug: tricentis-v3-screen-api
+- description: Search V3 APIs
+  name: Tricentis V3 Search API
+  slug: tricentis-v3-search-api
+- description: Session V3 APIs
+  name: Tricentis V3 Session API
+  slug: tricentis-v3-session-api
+- description: System Information V3 APIs
+  name: Tricentis V3 System Information API
+  slug: tricentis-v3-system-information-api
+- description: Upload V3 APIs
+  name: Tricentis V3 Upload API
+  slug: tricentis-v3-upload-api
+- description: Query V4 APIs
+  name: Tricentis V4 Query API
+  slug: tricentis-v4-query-api
+- description: Webhook
+  name: Tricentis Webhook API
+  slug: tricentis-webhook-api
+- description: The Workspaces API from Tricentis — 5 operation(s) for workspaces.
+  name: Tricentis Workspaces API
+  slug: tricentis-workspaces-api
+artifact_total: 110
 asyncapis:
 - description: ''
   name: Tricentis Qtest Webhooks
@@ -241,14 +520,14 @@ modified: '2026-08-02'
 name: Tricentis
 nav: Providers
 network: true
-overview: 'Tricentis publishes 9 APIs on the [APIs.io](https://apis.io/) network, including qTest Manager API v3, qTest Parameters API, qTest Pulse API, and 6 more. Tagged areas include Company, Testing, Test Automation, Quality Engineering, and Test Management.
+overview: 'Tricentis publishes 102 APIs on the [APIs.io](https://apis.io/) network, including Access Files API, Action API, Administration of users API, and 99 more. Tagged areas include Company, Testing, Test Automation, Quality Engineering, and Test Management.
 
 
   The Tricentis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
-random_paper: 77
+random_paper: 53
 scopes:
 - name: Tricentis Scopes
   scope_count: 1
@@ -256,28 +535,28 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 63.1
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.9
+    contract_quality: 61.1
     developer_ergonomics: 87.0
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 62.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 12.5
+      callable: 87.5
       derived: 0
       marker_coverage: 0.0
       total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

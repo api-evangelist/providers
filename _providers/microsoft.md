@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 178
   slug: microsoft-agentic-access
   summary_line: 178 operations · 88 acting
-api_count: 55
+api_count: 59
 apis:
 - description: Manage business accounts
   name: Microsoft Accounts API
@@ -204,7 +204,19 @@ apis:
 - description: Manage work items and queries
   name: Microsoft Work Items API
   slug: microsoft-work-items-api
-artifact_total: 185
+- description: LinkedIn Marketing APIs
+  name: Microsoft Marketing API
+  slug: microsoft-marketing-api
+- description: Manage organization pages
+  name: Microsoft Organizations API
+  slug: microsoft-organizations-api
+- description: Create and manage posts
+  name: Microsoft Posts API
+  slug: microsoft-posts-api
+- description: Access member profile information
+  name: Microsoft Profile API
+  slug: microsoft-profile-api
+artifact_total: 189
 collections:
 - collection_type: postman
   name: Microsoft Azure Cognitive Services Accounts API
@@ -617,7 +629,7 @@ modified: '2026-05-19'
 name: Microsoft
 nav: Providers
 network: true
-overview: 'Microsoft publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Audio API, and 52 more. Tagged areas include Fortune 100.
+overview: 'Microsoft publishes 59 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Audio API, and 56 more. Tagged areas include Fortune 100.
 
 
   The Microsoft catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -644,7 +656,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Microsoft Rate Limits
@@ -665,11 +677,11 @@ scopes:
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 59.1
+  delta: -0.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 78.9
+    contract_quality: 75.5
     developer_ergonomics: 39.1
     discoverability: 57.4
     governance: 58.3
@@ -683,7 +695,7 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

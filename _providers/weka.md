@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -291,14 +291,14 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 85
+random_paper: 76
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 49.1
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.3
+    contract_quality: 55.0
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
@@ -315,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

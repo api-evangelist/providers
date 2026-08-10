@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Skylo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Skylo''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 110
+random_paper: 98
 score:
   band: minimal
   composite: 10.1
@@ -91,7 +91,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

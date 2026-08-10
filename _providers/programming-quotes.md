@@ -27,13 +27,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-06'
-api_count: 1
+  scored_at: '2026-08-10'
+api_count: 2
 apis:
-- description: Public read endpoints (no auth) plus authenticated write endpoints over a MongoDB-backed corpus of programming quotes. Provides random quote lookups, paginated lists, author filtering, and full CRUD f
-  name: Programming Quotes
-  slug: programming-quotes
-artifact_total: 23
+- description: Programming Quotes — JWT login / register exchange.
+  name: Programming Quotes Authentication API
+  slug: programming-quotes-authentication-api
+- description: Programming Quotes — Public read and authenticated write endpoints for quotes.
+  name: Programming Quotes Quotes API
+  slug: programming-quotes-quotes-api
+artifact_total: 24
 common:
 - group: auth
   title: ''
@@ -141,11 +144,11 @@ modified: '2026-05-30'
 name: Programming Quotes
 nav: Providers
 network: true
-overview: 'Programming Quotes publishes 1 API on the [APIs.io](https://apis.io/) network: Programming Quotes. Tagged areas include Personality, Public APIs, Open Source, Quotes, and Programming.
+overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Quotes API. Tagged areas include Personality, Public APIs, Open Source, Quotes, and Programming.
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 97
+random_paper: 49
 rules:
 - name: Programming Quotes API Rules
   rule_count: 5
@@ -165,11 +168,11 @@ rules:
   slug: programming-quotes-rules
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 23.6
+  delta: -0.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.2
+    contract_quality: 31.3
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 68.8
@@ -182,7 +185,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:

@@ -18,15 +18,15 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
-- description: The Ocient HTTP Query API executes SQL statements against an Ocient System over HTTPS and returns results as JSON. It runs on the SQL Nodes of an Ocient deployment behind an OpenAPI-enabled connectivi
-  name: Ocient HTTP Query API
-  slug: http-query-api
-- description: Read-only REST endpoints exposed by Ocient System nodes for operational visibility. They return the software version, the running status of the node, per-node database statistics, the JSON configurati
-  name: Ocient System Information REST Endpoints
-  slug: system-information-rest-endpoints
+- description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
+  name: Ocient Ocient HTTP Query API API
+  slug: ocient-ocient-http-query-api-api
+- description: The System Information REST Endpoints API from Ocient — 6 operation(s) for system information rest endpoints.
+  name: Ocient System Information REST Endpoints API
+  slug: ocient-system-information-rest-endpoints-api
 artifact_total: 6
 common:
 - group: auth
@@ -96,7 +96,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/ocient-http-query-api-openapi-original.json
+  url: openapi/_original/ocient-http-query-api-openapi-original.json
 - group: build
   title: ''
   type: Packages
@@ -185,18 +185,18 @@ modified: '2026-08-02'
 name: Ocient
 nav: Providers
 network: true
-overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: HTTP Query API and System Information REST Endpoints. Tagged areas include Company, Data, Analytics, Data Warehouse, and Database.
+overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ocient HTTP Query API API and System Information REST Endpoints API. Tagged areas include Company, Data, Analytics, Data Warehouse, and Database.
 
 
   Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 51.7
+  delta: -1.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 52.7
+    contract_quality: 48.8
     developer_ergonomics: 80.4
     discoverability: 87.0
     governance: 20.8
@@ -212,8 +212,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
 security:
 - kind: authentication
   name: Ocient Authentication

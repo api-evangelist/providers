@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Golem Cloud Plans Pricing
   plan_count: 4
   slug: golem-cloud-plans-pricing
-random_paper: 95
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Golem Cloud Rate Limits
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/screenshots/golem-cloud-2026-06-20T181950.png
 security:

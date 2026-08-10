@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 3
 apis:
 - description: Part of Cuscal's CMS REST API family for card issuers. Enables instant digital card issuance and provisioning of cards into mobile and digital wallets (the 'Pays') for online and in-store transactions
@@ -116,7 +116,7 @@ overview: 'Cuscal publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cuscal''s developer surface includes documentation, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: thin
   composite: 32.0
@@ -138,7 +138,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/screenshots/cuscal-2026-07-25T211000.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Styleseat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Styleseat''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 86
+random_paper: 62
 score:
   band: minimal
   composite: 9.5
@@ -83,7 +83,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) server operated by Cerapedics at mcp.cerapedics.com. The endpoint publishes RFC 9728 protected-resource metadata and RFC 8414 authorization-server metad
@@ -114,7 +114,7 @@ overview: 'Cerapedics publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cerapedics'' developer surface includes authentication, engineering blog, and 16 more developer resources.'
-random_paper: 26
+random_paper: 115
 scopes:
 - name: Cerapedics Scopes
   scope_count: 4
@@ -142,8 +142,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cerapedics/refs/heads/main/screenshots/cerapedics-2026-08-07T163308.png
 security:
 - kind: authentication
   name: Cerapedics Authentication

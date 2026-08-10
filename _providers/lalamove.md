@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'The Lalamove Delivery API (v3) is a REST API for on-demand and scheduled courier delivery. Partners request a quotation for a route of stops, place an order against that quotation, retrieve order and '
@@ -159,7 +159,7 @@ overview: 'Lalamove publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Lalamove''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 58
+random_paper: 37
 score:
   band: developing
   composite: 48.0
@@ -177,7 +177,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/screenshots/lalamove-2026-07-25T224438.png
 security:

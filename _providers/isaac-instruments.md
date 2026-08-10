@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
 - description: 'Modeled interface for retrieving fleet vehicles and tractor/trailer assets configured on the ISAAC platform, including identifiers, VIN, and unit metadata used to correlate telematics data. Endpoints '
@@ -92,7 +92,7 @@ overview: 'ISAAC Instruments publishes 8 APIs on the [APIs.io](https://apis.io/)
 
 
   ISAAC Instruments'' developer surface includes documentation and 5 more developer resources.'
-random_paper: 91
+random_paper: 46
 score:
   band: minimal
   composite: 8.2
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isaac-instruments/refs/heads/main/screenshots/isaac-instruments-2026-07-25T222933.png
 security:

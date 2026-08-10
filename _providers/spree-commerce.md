@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -420,7 +420,7 @@ plans:
 - name: Spree Commerce Plans Pricing
   plan_count: 2
   slug: spree-commerce-plans-pricing
-random_paper: 75
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Spree Commerce Rate Limits
@@ -445,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 78
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:

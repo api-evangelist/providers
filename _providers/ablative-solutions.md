@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,10 +87,11 @@ name: Ablative Solutions
 nav: Providers
 network: true
 overview: Ablative Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Hypertension, and Renal Denervation.
-random_paper: 85
+random_paper: 37
 score:
   band: minimal
   composite: 10.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -98,6 +99,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: tags
@@ -105,7 +107,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ablative-solutions/refs/heads/main/screenshots/ablative-solutions-2026-08-07T160739.png
 security:
 - kind: domain-security
   name: Ablative Solutions Domain Security

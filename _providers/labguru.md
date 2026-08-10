@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -876,7 +876,7 @@ plans:
 - name: Labguru Plans Pricing
   plan_count: 3
   slug: labguru-plans-pricing
-random_paper: 76
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Labguru Rate Limits
@@ -916,7 +916,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png
 security:

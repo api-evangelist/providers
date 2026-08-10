@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -96,7 +96,7 @@ plans:
 - name: Administrative Conference Of The United States Plans Pricing
   plan_count: 3
   slug: administrative-conference-of-the-united-states-plans-pricing
-random_paper: 104
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Administrative Conference Of The United States Rate Limits
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

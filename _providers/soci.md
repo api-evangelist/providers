@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: SOCi's customer-facing REST API, reachable at https://app.meetsoci.com/api. Authentication uses a per-user SOCi API key issued from User Settings inside the platform, together with the customer's orga
@@ -142,10 +142,11 @@ overview: 'SOCi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SOCi''s developer surface includes engineering blog, changelog, support, and 20 more developer resources.'
-random_paper: 91
+random_paper: 82
 score:
   band: emerging
   composite: 25.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -153,10 +154,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
+  previous_composite: 25.6
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
 security:
 - kind: authentication
   name: Soci Authentication

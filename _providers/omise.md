@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Omise Plans Pricing
   plan_count: 3
   slug: omise-plans-pricing
-random_paper: 89
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Omise Rate Limits
@@ -179,8 +179,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/screenshots/omise-2026-08-07T190141.png
 security:
 - kind: authentication
   name: Omise Authentication

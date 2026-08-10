@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 5
 apis:
 - description: The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
@@ -100,7 +100,7 @@ plans:
 - name: Intermedia Plans Pricing
   plan_count: 3
   slug: intermedia-plans-pricing
-random_paper: 41
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Intermedia Rate Limits
@@ -124,7 +124,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/screenshots/intermedia-2026-06-20T183449.png
 security:

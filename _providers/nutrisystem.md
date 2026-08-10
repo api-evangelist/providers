@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 14
 common:
@@ -67,14 +67,6 @@ common:
   title: ''
   type: ContactUs
   url: https://www.nutrisystem.com/jsps_hmr/contact_us/contact_us.jsp
-- group: operate
-  title: 1-800-435-4074 (main support)
-  type: SupportPhone
-  url: tel:+18004354074
-- group: other
-  title: 1-800-585-5483 (cancellation)
-  type: CancellationPhone
-  url: tel:+18005855483
 - group: other
   title: Nutrisystem app — iOS (food logging, weight tracking, journal, meal plan)
   type: MobileApp
@@ -146,8 +138,8 @@ overview: 'Nutrisystem (Wellina by Nutrisystem) is profiled on the [APIs.io](htt
   The Nutrisystem (Wellina by Nutrisystem) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Nutrisystem (Wellina by Nutrisystem)''s developer surface includes FAQ and 16 more developer resources.'
-random_paper: 109
+  Nutrisystem (Wellina by Nutrisystem)''s developer surface includes FAQ and 14 more developer resources.'
+random_paper: 79
 score:
   band: minimal
   composite: 11.6
@@ -161,7 +153,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.6
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrisystem/refs/heads/main/screenshots/nutrisystem-2026-06-20T190532.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 5
 common:
@@ -120,7 +120,7 @@ overview: 'Bonsai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bonsai''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 71
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Bonsai Rate Limits
@@ -140,7 +140,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonsai/refs/heads/main/screenshots/bonsai-2026-07-25T203600.png
 security:

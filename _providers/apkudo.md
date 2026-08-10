@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -150,7 +150,7 @@ overview: 'Apkudo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Apkudo''s developer surface includes engineering blog, support, legal docs, and 26 more developer resources.'
-random_paper: 79
+random_paper: 64
 score:
   band: emerging
   composite: 23.6
@@ -172,8 +172,9 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apkudo/refs/heads/main/screenshots/apkudo-2026-08-07T161451.png
 security:
 - kind: domain-security
   name: Apkudo Domain Security

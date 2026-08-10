@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -112,9 +112,9 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.vendure.io/llms.txt
-- group: agent
+- group: docs
   title: ''
-  type: MCP
+  type: Documentation
   url: https://docs.vendure.io/mcp
 - group: commercial
   title: ''
@@ -206,7 +206,7 @@ plans:
 - name: Vendure Plans Pricing
   plan_count: 3
   slug: vendure-plans-pricing
-random_paper: 83
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Vendure Rate Limits
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/screenshots/vendure-2026-06-20T200911.png
 security:

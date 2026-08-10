@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,7 +144,7 @@ overview: 'Duolingo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Duolingo''s developer surface includes GitHub presence, support, YouTube channel, engineering blog, and 20 more developer resources.'
-random_paper: 74
+random_paper: 53
 score:
   band: emerging
   composite: 17.8
@@ -158,7 +158,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duolingo/refs/heads/main/screenshots/duolingo-2026-07-25T212508.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -337,7 +337,7 @@ plans:
 - name: Prefect Plans Pricing
   plan_count: 3
   slug: prefect-plans-pricing
-random_paper: 67
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Prefect Rate Limits
@@ -362,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:

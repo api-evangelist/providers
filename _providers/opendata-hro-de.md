@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for OpenData.HRO - Portal für offene Data der Hansestadt Rostock, a consistent JSON-over-HTTP interface over a catalog of 281 datasets. Standard actions include package_search, package
@@ -84,7 +84,7 @@ plans:
 - name: Opendata Hro De Plans Pricing
   plan_count: 1
   slug: opendata-hro-de-plans-pricing
-random_paper: 108
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Opendata Hro De Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-hro-de/refs/heads/main/screenshots/opendata-hro-de-2026-06-20T190940.png
 security:

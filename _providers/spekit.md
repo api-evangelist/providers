@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Spekit is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spekit''s developer surface includes engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 91
+random_paper: 76
 score:
   band: emerging
   composite: 24.4
@@ -128,7 +128,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

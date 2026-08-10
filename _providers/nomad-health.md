@@ -18,16 +18,13 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-06'
-api_count: 2
+  scored_at: '2026-08-10'
+api_count: 1
 apis:
-- description: The Nomad Health production platform API, documented by a live Swagger 2.0 contract served at https://nomadhealth.com/swagger.json and rendered by a Swagger UI at https://nomadhealth.com/api. 384 path
-  name: Nomad Health Platform API
-  slug: platform-api
-- description: A second live Swagger 2.0 contract served at https://nomadhealth.com/api/swagger.json with basePath /api, covering 18 paths / 22 operations for job application submission, facility detail, facility au
-  name: Nomad Health Marketplace API
-  slug: marketplace-api
-artifact_total: 5
+- description: Default namespace
+  name: Nomad Health Default API
+  slug: nomad-health-default-api
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -130,27 +127,27 @@ modified: '2026-08-04'
 name: Nomad Health
 nav: Providers
 network: true
-overview: 'Nomad Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platform API and Marketplace API. Tagged areas include Company, Healthcare, Staffing, Jobs, and Marketplace.
+overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) network: Default API. Tagged areas include Company, Healthcare, Staffing, Jobs, and Marketplace.
 
 
   Nomad Health''s developer surface includes API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 72
+random_paper: 42
 score:
   band: thin
-  composite: 31.8
-  delta: -2.9
+  composite: 31.9
+  delta: -0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 34.9
+    contract_quality: 35.3
     developer_ergonomics: 27.7
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 34.7
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -163,8 +160,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:
 - kind: authentication
   name: Nomad Health Authentication

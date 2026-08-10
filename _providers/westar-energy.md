@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 11
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Evergy Announces Second Quarter 2025 Results ...
   url: https://investors.evergy.com/news-releases/news-release-details/evergy-announces-second-quarter-2025-results-declares-quarterly
-random_paper: 1
+random_paper: 81
 score:
   band: minimal
   composite: 8.4
@@ -112,7 +112,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westar-energy/refs/heads/main/screenshots/westar-energy-2026-06-20T201356.png
 security:

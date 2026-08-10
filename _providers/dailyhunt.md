@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -26,15 +26,33 @@ agentic_access:
   operation_count: 15
   slug: dailyhunt-agentic-access
   summary_line: 15 operations · 4 acting
-api_count: 2
+api_count: 8
 apis:
-- description: The partner-facing API that syndicates Dailyhunt's editorial catalogue into a partner's own app, browser, device home screen or PWA. It covers channel discovery (news, location, video and DailyShare/v
-  name: Dailyhunt Content Syndication API
-  slug: content-syndication
-- description: Lets a registered commerce vendor create a product catalog inside the Dailyhunt system and batch-submit CREATE/UPDATE/DELETE product rows against it, each carrying the standard product-feed attributes
-  name: Dailyhunt E-Commerce Shopping Catalog API
-  slug: shopping-catalog
-artifact_total: 7
+- description: Create and read a vendor catalog.
+  name: Dailyhunt Catalog API
+  slug: dailyhunt-catalog-api
+- description: Discovery of the content channels a partner is entitled to consume.
+  name: Dailyhunt Channels API
+  slug: dailyhunt-channels-api
+- description: Paginated retrieval of the content cards inside a channel, plus keyword search.
+  name: Dailyhunt Content Fetch API
+  slug: dailyhunt-content-fetch-api
+- description: Live cricket match score and commentary streaming.
+  name: Dailyhunt Cricket API
+  slug: dailyhunt-cricket-api
+- description: Fetch the feedback options to display to a user and submit the user's selection.
+  name: Dailyhunt Feedback API
+  slug: dailyhunt-feedback-api
+- description: The languages Dailyhunt's content feeds support.
+  name: Dailyhunt Languages API
+  slug: dailyhunt-languages-api
+- description: Batch create, update and delete products inside a catalog, and poll batch status.
+  name: Dailyhunt Products API
+  slug: dailyhunt-products-api
+- description: Partner callback reporting which cards a user actually saw.
+  name: Dailyhunt Tracking API
+  slug: dailyhunt-tracking-api
+artifact_total: 13
 collections:
 - collection_type: postman
   name: Dailyhunt Content Syndication
@@ -173,20 +191,20 @@ modified: '2026-08-04'
 name: Dailyhunt
 nav: Providers
 network: true
-overview: 'Dailyhunt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content Syndication API and E-Commerce Shopping Catalog API. Tagged areas include Company, News, Media, Content Syndication, and Content.
+overview: 'Dailyhunt publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Channels API, Content Fetch API, and 5 more. Tagged areas include Company, News, Media, Content Syndication, and Content.
 
 
   Dailyhunt''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 74
+random_paper: 50
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 48.5
+  delta: -0.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.8
+    contract_quality: 59.7
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 48.7
@@ -201,8 +219,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/screenshots/dailyhunt-2026-08-07T164025.png
 security:
 - kind: authentication
   name: Dailyhunt Authentication

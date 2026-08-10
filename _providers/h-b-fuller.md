@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: The H.B. Fuller Company API provides access to platform services and data for enterprise integration and automation.
@@ -48,6 +48,26 @@ common:
   title: ''
   type: Website
   url: https://www.hbfuller.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.hbfuller.com/en/about-us
+- group: company
+  title: ''
+  type: Investor Relations
+  url: https://investors.hbfuller.com/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.hbfuller.com/en/newsroom
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.hbfuller.com/en/about-us/contact-us
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://www.hbfuller.com/llms.txt
 created: '2026-04-19'
 description: H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
@@ -56,7 +76,7 @@ finops:
   slug: h-b-fuller-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/h-b-fuller.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-08'
 name: H.B. Fuller Company
 nav: Providers
 network: true
@@ -65,7 +85,23 @@ plans:
 - name: H B Fuller Plans Pricing
   plan_count: 1
   slug: h-b-fuller-plans-pricing
-random_paper: 38
+press:
+- date: '2026-05-25'
+  title: H.B. Fuller Releases 2023 Sustainability Report
+  url: https://newsroom.hbfuller.com/press-releases/press-release-details/2024/H.B.-Fuller-Releases-2023-Sustainability-Report/default.aspx
+- date: '2026-05-25'
+  title: H.B. Fuller Unveils Innovative Duo of Solution and ...
+  url: https://www.prnewswire.com/news-releases/hb-fuller-unveils-innovative-duo-of-solution-and-technology-services-in-eimea-300913455.html
+- date: '2026-05-25'
+  title: 'AI in Manufacturing: How to Stay Ahead'
+  url: https://www.hbfuller.com/en/blog/thegluetalkblog/2020/september/ai-in-manufacturing-how-to-stay-ahead
+- date: '2026-05-25'
+  title: H.B. Fuller - Governance - Executive Management
+  url: https://investors.hbfuller.com/governance/executive-management/default.aspx
+- date: '2026-05-25'
+  title: H. B. Fuller Company (FUL) reports earnings - Quartz
+  url: https://qz.com/h-b-fuller-company-ful-reports-earnings-1851746632
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: H B Fuller Rate Limits
@@ -83,9 +119,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182448.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182546.png
 security:
 - kind: domain-security
   name: H B Fuller Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API for programmatic access to LocalClarity platform data including Google Business Profiles, local rankings, review management, and business listing data. API keys are issued upon request and pr
@@ -112,7 +112,7 @@ plans:
 - name: Localclarity Plans Pricing
   plan_count: 3
   slug: localclarity-plans-pricing
-random_paper: 40
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Localclarity Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/screenshots/localclarity-2026-06-20T184634.png
 security:

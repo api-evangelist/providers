@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,34 +17,34 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-06'
+  score: 39.0
+  scored_at: '2026-08-10'
 api_count: 8
 apis:
-- description: 'The organization root of the Akuity Platform: organizations, workspaces, members, teams, invitations, API keys, audit logs and archives, SSO and OIDC mapping, quotas, billing and plans, notification c'
-  name: Akuity Platform API — Organizations, Workspaces and Kubernetes Inventory
-  slug: akuity-platform-api-organizations-workspaces-and-kubernetes-inventory
-- description: 'Managed Argo CD control planes: instance create/update/delete/apply/export, target cluster registration and agent manifests, cluster addons and addon repositories, repositories, notification settings '
-  name: Akuity Platform API — Argo CD
-  slug: akuity-platform-api-argo-cd
-- description: 'Managed Kargo control planes for multi-stage progressive promotion: instance lifecycle, Kargo agent creation and manifests, credential rotation, maintenance mode, agent version upgrades, promotion eve'
-  name: Akuity Platform API — Kargo
-  slug: akuity-platform-api-kargo
-- description: 'The anonymous, unauthenticated corner of the platform: platform build version, system status and settings, available Argo CD / Kargo / Akuity Agent / image-updater versions, agent size specs, the anno'
-  name: Akuity Platform API — System
-  slug: akuity-platform-api-system
-- description: Lifecycle of the AKUITY_API_KEY_ID / AKUITY_API_KEY_SECRET credential pair — get, delete and secret regeneration, at both organization and workspace scope. 6 operations.
-  name: Akuity Platform API — API Keys
-  slug: akuity-platform-api-api-keys
-- description: Named authorization policies attached to an organization or workspace, used to narrow an API key beyond the coarse Owner/Member roles. 5 operations.
-  name: Akuity Platform API — Custom Roles
-  slug: akuity-platform-api-custom-roles
-- description: The OAuth 2.0 Device Authorization Grant (RFC 8628) endpoints behind `akuity login`, plus OIDC provider details. Published in Akuity's own client module but not documented for third-party clients — ma
-  name: Akuity Platform API — Authentication
-  slug: akuity-platform-api-authentication
-- description: The `/ext-api/v1/` surface that backs Akuity's UI extensions inside the managed Argo CD web UI — per-application audit records, sync-operation events and stats, Kargo analysis-run logs and extension s
-  name: Akuity Platform API — Argo CD UI Extensions
-  slug: akuity-platform-api-argo-cd-ui-extensions
+- description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
+  name: Akuity API Key Service API
+  slug: akuity-apikeyservice-api
+- description: The ArgoCDService API from Akuity — 111 operation(s) for argocdservice.
+  name: Akuity Argo CD Service API
+  slug: akuity-argocdservice-api
+- description: The AuthService API from Akuity — 4 operation(s) for authservice.
+  name: Akuity Auth Service API
+  slug: akuity-authservice-api
+- description: The CustomRoleService API from Akuity — 2 operation(s) for customroleservice.
+  name: Akuity Custom Role Service API
+  slug: akuity-customroleservice-api
+- description: The ExtensionService API from Akuity — 6 operation(s) for extensionservice.
+  name: Akuity Extension Service API
+  slug: akuity-extensionservice-api
+- description: The KargoService API from Akuity — 39 operation(s) for kargoservice.
+  name: Akuity Kargo Service API
+  slug: akuity-kargoservice-api
+- description: The OrganizationService API from Akuity — 153 operation(s) for organizationservice.
+  name: Akuity Organization Service API
+  slug: akuity-organizationservice-api
+- description: The SystemService API from Akuity — 14 operation(s) for systemservice.
+  name: Akuity System Service API
+  slug: akuity-systemservice-api
 artifact_total: 14
 asyncapis:
 - description: ''
@@ -207,7 +207,7 @@ modified: '2026-08-06'
 name: Akuity
 nav: Providers
 network: true
-overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Platform API — Organizations, Workspaces and Kubernetes Inventory, Platform API — Argo CD, Platform API — Kargo, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, Argo CD, and Kargo.
+overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, Argo CD, and Kargo.
 
 
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,19 +218,32 @@ plans:
 - name: Akuity Plans
   plan_count: 3
   slug: akuity-plans
-random_paper: 98
+random_paper: 83
 score:
   band: exemplar
-  composite: 67.8
+  composite: 66.8
+  delta: -0.6
   facets:
     commercial_clarity: 92.1
     contract_quality: 64.3
-    developer_ergonomics: 71.7
+    developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
+  previous_composite: 67.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 60.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:
 - kind: authentication
   name: Akuity Authentication

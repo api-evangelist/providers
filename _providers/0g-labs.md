@@ -18,12 +18,9 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-06'
-api_count: 4
+  scored_at: '2026-08-10'
+api_count: 9
 apis:
-- description: 'OpenAI- and Anthropic-compatible API gateway sitting in front of the entire 0G Compute Provider network. One endpoint and one API key reach every model: chat completions (streaming, tool calling, JSON'
-  name: 0G Compute Router API
-  slug: 0g-compute-router-api
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
   name: 0G Chain JSON-RPC
   slug: 0g-chain-json-rpc
@@ -33,7 +30,25 @@ apis:
 - description: 'Indexer service for the 0G Storage network. It locates the storage nodes holding a file''s segments, brokers uploads and downloads addressed by Merkle root hash, and handles the on-chain Flow contract '
   name: 0G Storage Indexer
   slug: 0g-storage-indexer
-artifact_total: 8
+- description: The Account API from 0G Labs — 5 operation(s) for account.
+  name: 0G Labs Account API
+  slug: 0g-labs-account-api
+- description: The API Key API from 0G Labs — 2 operation(s) for api key.
+  name: 0G Labs API Key API
+  slug: 0g-labs-api-key-api
+- description: The Inference API from 0G Labs — 11 operation(s) for inference.
+  name: 0G Labs Inference API
+  slug: 0g-labs-inference-api
+- description: The Models API from 0G Labs — 1 operation(s) for models.
+  name: 0G Labs Models API
+  slug: 0g-labs-models-api
+- description: The Provider API from 0G Labs — 1 operation(s) for provider.
+  name: 0G Labs Provider API
+  slug: 0g-labs-provider-api
+- description: The Service Types API from 0G Labs — 1 operation(s) for service types.
+  name: 0G Labs Service Types API
+  slug: 0g-labs-service-types-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -94,7 +109,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/0g-labs-router-openapi.yml
+  url: openapi/_original/0g-labs-router-openapi.yml
 - group: build
   title: ''
   type: Packages
@@ -208,25 +223,27 @@ modified: '2026-08-05'
 name: 0G Labs
 nav: Providers
 network: true
-overview: '0G Labs publishes 1 API on the [APIs.io](https://apis.io/) network: 0G Compute Router API. Tagged areas include artificial-intelligence, ai-inference, llm, gpu-compute, and decentralized-compute.
+overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Key API, Inference API, and 3 more. Tagged areas include artificial-intelligence, ai-inference, llm, gpu-compute, and decentralized-compute.
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 33 more developer resources.'
-random_paper: 49
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: 0G Labs Rate Limits
   slug: 0g-labs-rate-limits
 score:
   band: developing
-  composite: 52.6
+  composite: 51.3
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.6
+    contract_quality: 51.6
     developer_ergonomics: 80.4
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 44.7
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -237,7 +254,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:
 - kind: authentication
   name: 0G Labs Authentication

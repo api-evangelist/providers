@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: Homeward Health
 nav: Providers
 network: true
 overview: Homeward Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Rural Health, Value-Based Care, and Medicare Advantage.
-random_paper: 61
+random_paper: 22
 score:
   band: minimal
   composite: 12.0
@@ -88,7 +88,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homeward-health/refs/heads/main/screenshots/homeward-health-2026-07-25T221350.png
 security:

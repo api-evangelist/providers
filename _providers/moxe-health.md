@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 30 more developer resources.'
-random_paper: 99
+random_paper: 72
 scopes:
 - name: Moxe Health Scopes
   scope_count: 4
@@ -246,8 +246,9 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:
 - kind: authentication
   name: Moxe Health Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: The University of Copenhagen Research Portal (researchprofiles.ku.dk) is built on the Elsevier Pure research information system, locally branded CURIS. Pure platforms conventionally expose research me
@@ -99,7 +99,7 @@ plans:
 - name: University Of Copenhagen Plans Pricing
   plan_count: 2
   slug: university-of-copenhagen-plans-pricing
-random_paper: 100
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: University Of Copenhagen Rate Limits
@@ -117,7 +117,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/screenshots/university-of-copenhagen-2026-06-20T200145.png
 security:

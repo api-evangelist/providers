@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: SoftBank Vision Fund
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 67
 slug: softbank-vision-fund
 tags:
 - Venture Capital

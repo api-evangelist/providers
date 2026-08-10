@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ overview: 'Algbra publishes 1 API on the [APIs.io](https://apis.io/) network: Ac
 
 
   Algbra''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 52
+random_paper: 37
 scopes:
 - name: Algbra Scopes
   scope_count: 4
@@ -226,7 +226,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

@@ -27,23 +27,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
   name: Listings API
   slug: listings-api
-artifact_total: 1
+artifact_total: 2
 created: '2026-07-12'
 description: REST API and agent-native platform for managing business listings, citations, reviews, Google Business Profile posts, and local analytics across major publisher directories (Google, Facebook, Bing, Yelp, TripAdvisor). A facade over Synup's federated GraphQL backend, with first-party Python and Node SDKs, a hosted MCP server, and llms.txt.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/listings-api.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-07-12'
 name: Listings API
 nav: Providers
 network: true
 overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include business-listings, local-seo, locations, reviews, and google-business-profile.'
-random_paper: 106
+random_paper: 76
 score:
   band: emerging
   composite: 14.4
@@ -57,7 +61,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/screenshots/listings-api-2026-07-25T225325.png
 slug: listings-api

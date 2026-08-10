@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Prudential - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-prudential/
-random_paper: 24
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Prudential Financial Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Basware Plans Pricing
   plan_count: 4
   slug: basware-plans-pricing
-random_paper: 63
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Basware Rate Limits
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:

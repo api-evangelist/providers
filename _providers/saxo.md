@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -325,7 +325,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 104
+random_paper: 95
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -361,7 +361,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/screenshots/saxo-2026-06-20T193446.png
 security:

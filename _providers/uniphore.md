@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 2
 apis:
 - description: 'The Business AI Cloud platform API. The publicly documented surface is the customer-deployed BAIC distribution: a machine-to-machine token exchange at POST /auth/m2m-token, a retrieval-augmented quest'
@@ -162,7 +162,7 @@ overview: 'Uniphore publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Uniphore''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, changelog, and 23 more developer resources.'
-random_paper: 83
+random_paper: 62
 scopes:
 - name: Uniphore Scopes
   scope_count: 14
@@ -183,7 +183,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

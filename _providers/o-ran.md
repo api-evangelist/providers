@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: Programmatic access to O-RAN Software Community open interface specifications, RAN intelligence APIs, near-real-time RIC (RICAPP), Non-RT RIC (NONRTRIC), and network virtualization tools.
@@ -88,7 +88,7 @@ plans:
 - name: O Ran Plans Pricing
   plan_count: 3
   slug: o-ran-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: O Ran Rate Limits
@@ -112,7 +112,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/o-ran/refs/heads/main/screenshots/o-ran-2026-06-20T190544.png
 security:

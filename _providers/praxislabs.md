@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Praxis Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Praxis Labs'' developer surface includes engineering blog, documentation, and 7 more developer resources.'
-random_paper: 64
+random_paper: 37
 score:
   band: emerging
   composite: 14.1
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 4
 apis:
 - description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
@@ -118,25 +118,25 @@ plans:
 - name: Snorkel Ai Plans Pricing
   plan_count: 3
   slug: snorkel-ai-plans-pricing
-random_paper: 109
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Snorkel Ai Rate Limits
   slug: snorkel-ai-rate-limits
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 34.4
+  delta: 1.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 32.3
+    contract_quality: 37.2
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.2
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

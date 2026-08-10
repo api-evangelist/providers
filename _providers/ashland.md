@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -102,7 +102,7 @@ press:
 - date: ''
   title: Pomerantz Law Firm Investigates Claims On Behalf of ...
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ashland-inc
-random_paper: 53
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Ashland Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.5
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: domain-security

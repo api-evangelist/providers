@@ -12,10 +12,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -23,20 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-06'
-api_count: 1
+  score: 23.2
+  scored_at: '2026-08-10'
+api_count: 2
 apis:
-- description: The hosted OpenAPI Generator Online API — a seven-operation REST service that lists the available client generators and server frameworks, returns each generator's configuration options, generates a c
-  name: OpenAPI Generator Online
-  slug: openapi-generator
-artifact_total: 7
+- description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
+  name: OpenAPI Generator Clients API
+  slug: openapi-generator-clients-api
+- description: The servers API from OpenAPI Generator — 3 operation(s) for servers.
+  name: OpenAPI Generator Servers API
+  slug: openapi-generator-servers-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -162,7 +165,7 @@ modified: '2026-08-06'
 name: OpenAPI Generator
 nav: Providers
 network: true
-overview: 'OpenAPI Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Online. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
+overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
 
 
   OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
@@ -170,26 +173,30 @@ plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
   slug: openapi-generator-plans-pricing
-random_paper: 65
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Openapi Generator Rate Limits
   slug: openapi-generator-rate-limits
 score:
-  band: developing
-  composite: 42.9
-  delta: 22.1
+  band: thin
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 44.2
-    developer_ergonomics: 63.0
+    developer_ergonomics: 51.6
     discoverability: 75.9
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 20.8
+  previous_composite: 39.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
-  trend: rising
+  scored_at: '2026-08-10'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:
 - kind: authentication

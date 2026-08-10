@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: CKAN Action API for Datos Turismo y Deportes Argentina, a consistent JSON-over-HTTP interface over a catalog of 15 datasets. Standard actions include package_search, package_show, package_list, organi
@@ -84,7 +84,7 @@ plans:
 - name: Datos Yvera Tur Ar Plans Pricing
   plan_count: 1
   slug: datos-yvera-tur-ar-plans-pricing
-random_paper: 88
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Datos Yvera Tur Ar Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-yvera-tur-ar/refs/heads/main/screenshots/datos-yvera-tur-ar-2026-06-20T175728.png
 security:

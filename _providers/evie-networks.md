@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Evie Networks is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Evie Networks'' developer surface includes engineering blog, support, FAQ, and 13 more developer resources.'
-random_paper: 7
+random_paper: 87
 score:
   band: emerging
   composite: 16.2
@@ -121,8 +121,9 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/evie-networks/refs/heads/main/screenshots/evie-networks-2026-08-07T165052.png
 security:
 - kind: domain-security
   name: Evie Networks Domain Security

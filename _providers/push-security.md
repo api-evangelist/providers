@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 1
 apis:
 - description: REST/JSON API to programmatically administer the Push platform (accounts, apps, findings, integrations) plus webhooks for real-time platform events.
@@ -163,7 +163,7 @@ overview: 'Push Security publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Push Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 25
+random_paper: 105
 score:
   band: developing
   composite: 49.3
@@ -177,7 +177,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 49.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

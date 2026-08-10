@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Cabana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cabana''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
-random_paper: 33
+random_paper: 18
 score:
   band: minimal
   composite: 11.8
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabana/refs/heads/main/screenshots/cabana-2026-07-25T204156.png
 security:

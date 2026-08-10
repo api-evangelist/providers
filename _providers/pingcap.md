@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -26,39 +26,105 @@ agentic_access:
   operation_count: 192
   slug: pingcap-agentic-access
   summary_line: 192 operations · 93 acting · 5 human-in-the-loop
-api_count: 10
+api_count: 32
 apis:
-- description: 'REST API for managing TiDB Cloud Starter and TiDB Cloud Essential instances: cluster lifecycle, database branches, data export tasks and data import tasks. HTTPS-only, JSON entities, HTTP Digest authe'
-  name: TiDB Cloud Starter and Essential API (v1beta1)
-  slug: tidb-cloud-starter-and-essential-api-v1beta1
-- description: 'REST API for managing TiDB Cloud Dedicated clusters: cluster CRUD, pause/resume, root password reset, node quota, regions and node specs, private endpoint connections, data imports, third-party integr'
-  name: TiDB Cloud Dedicated API (v1beta1)
-  slug: tidb-cloud-dedicated-api-v1beta1
-- description: 'REST API for TiDB Cloud identity and access management: create, list, update and delete organization API keys, list audit logs, and manage organization members and their roles including batch updates '
-  name: TiDB Cloud IAM API (v1beta1)
-  slug: tidb-cloud-iam-api-v1beta1
-- description: 'REST API for TiDB Cloud billing: retrieve the monthly bill for an organization, retrieve line-item bill details, and query the cost explorer with supported grouping and filter arguments.'
-  name: TiDB Cloud Billing API (v1beta1)
-  slug: tidb-cloud-billing-api-v1beta1
-- description: 'REST API for TiDB Cloud Data Service: manage Data Apps, data sources, custom HTTP endpoints backed by SQL, deployments and Data API keys. Data Service also generates an OpenAPI 3.0 specification per D'
-  name: TiDB Cloud Data Service API (v1beta1)
-  slug: tidb-cloud-data-service-api-v1beta1
-- description: 'The original TiDB Cloud administrative REST API covering projects, clusters, backups, restores and the deprecated import surface. Superseded by the v1beta1 tier-specific APIs but still documented and '
-  name: TiDB Cloud API (v1beta, legacy)
-  slug: tidb-cloud-api-v1beta-legacy
-- description: Unauthenticated REST API that provisions a disposable, MySQL-compatible TiDB database in a single call. Instances auto-expire after 30 days unless claimed into a regular TiDB Cloud Starter instance. U
-  name: TiDB Cloud Zero API (v1alpha1)
-  slug: tidb-cloud-zero-api-v1alpha1
-- description: OpenAPI 3.0 control-plane API for TiDB Data Migration, the platform that replicates MySQL-compatible upstreams into TiDB. Covers upstream source registration, relay log control, migration task lifecyc
-  name: TiDB Data Migration (DM) OpenAPI
-  slug: tidb-data-migration-dm-openapi
-- description: Public read-only REST API behind OSS Insight, the PingCAP-built open-source analytics service that queries billions of GitHub events stored in TiDB. Exposes repository, developer, organization, collec
-  name: OSS Insight Public API
-  slug: oss-insight-public-api
 - description: Official Model Context Protocol server maintained by PingCAP that exposes a TiDB or TiDB Cloud database to MCP-capable agents and IDEs. Ships in the pytidb package, runs over stdio by default or SSE w
   name: TiDB MCP Server
   slug: tidb-mcp-server
-artifact_total: 17
+- description: The API Key API from PingCAP — 2 operation(s) for api key.
+  name: PingCAP API Key API
+  slug: pingcap-api-key-api
+- description: The Audit Log API from PingCAP — 1 operation(s) for audit log.
+  name: PingCAP Audit Log API
+  slug: pingcap-audit-log-api
+- description: Create, get, modify, and delete backups for TiDB clusters. For TiDB Cloud Starter instances, you cannot create or manage backups via API. You can use [Dumpling](https://docs.pingcap.com/tidb/stable/du
+  name: PingCAP Backup API
+  slug: pingcap-backup-api
+- description: The Billing API from PingCAP — 4 operation(s) for billing.
+  name: PingCAP Billing API
+  slug: pingcap-billing-api
+- description: The Branch API from PingCAP — 3 operation(s) for branch.
+  name: PingCAP Branch API
+  slug: pingcap-branch-api
+- description: List changefeed RCU options, list changefeeds, create a changefeed, get a changefeed, delete a changefeed, update a changefeed downstream config, pause a changefeed, resume a changefeed, and scale a c
+  name: PingCAP Changefeed API
+  slug: pingcap-changefeed-api
+- description: The Chat2Query API from PingCAP — 1 operation(s) for chat2query.
+  name: PingCAP Chat2 Query API
+  slug: pingcap-chat2query-api
+- description: Create, get, update, delete, pause, resume, reset the root password, and list node quotas of a cluster.
+  name: PingCAP Cluster API
+  slug: pingcap-cluster-api
+- description: The Collections API from PingCAP — 6 operation(s) for collections.
+  name: PingCAP Collections API
+  slug: pingcap-collections-api
+- description: Create, get, update, delete, and list Data API keys of a Data App. The Data API key in Data Service is different from the key used in the [TiDB Cloud API](https://docs.pingcap.com/tidbcloud/api/v1beta
+  name: PingCAP Data API Key API
+  slug: pingcap-data-api-key-api
+- description: Create, get, update, delete, and list Data Apps.
+  name: PingCAP Data App API
+  slug: pingcap-data-app-api
+- description: Create, get, delete, and list data sources of a Data App.
+  name: PingCAP Data Source API
+  slug: pingcap-data-source-api
+- description: Create, get, and list deployments of a Data App.
+  name: PingCAP Deployment API
+  slug: pingcap-deployment-api
+- description: The doc API from PingCAP — 2 operation(s) for doc.
+  name: PingCAP Doc API
+  slug: pingcap-doc-api
+- description: Create, get, delete, list, and test endpoints of a Data App.
+  name: PingCAP Endpoint API
+  slug: pingcap-endpoint-api
+- description: The Export API from PingCAP — 3 operation(s) for export.
+  name: PingCAP Export API
+  slug: pingcap-export-api
+- description: List import tasks, create an import task, get an import task, and cancel an import task.
+  name: PingCAP Import API
+  slug: pingcap-import-api
+- description: List integrations, create an integration, and delete an integration.
+  name: PingCAP Integration API
+  slug: pingcap-integration-api
+- description: The Issue Creators API from PingCAP — 4 operation(s) for issue creators.
+  name: PingCAP Issue Creators API
+  slug: pingcap-issue-creators-api
+- description: The Member API from PingCAP — 4 operation(s) for member.
+  name: PingCAP Member API
+  slug: pingcap-member-api
+- description: Get the OpenAPI specification of a Data App.
+  name: PingCAP OpenAPI Specification API
+  slug: pingcap-openapi-specification-api
+- description: Get private link service for a TiDB node group, create a private endpoint connection, list private endpoint connections, get a private endpoint connection, and delete a private endpoint connection.
+  name: PingCAP Private Endpoint Connection API
+  slug: pingcap-private-endpoint-connection-api
+- description: List projects.
+  name: PingCAP Project API
+  slug: pingcap-project-api
+- description: The PublicShadowPoolService API from PingCAP — 1 operation(s) for publicshadowpoolservice.
+  name: PingCAP Public Shadow Pool Service API
+  slug: pingcap-publicshadowpoolservice-api
+- description: The Pull Request Creators API from PingCAP — 4 operation(s) for pull request creators.
+  name: PingCAP Pull Request Creators API
+  slug: pingcap-pull-request-creators-api
+- description: List regions, get a region, and list cloud providers and node specs of a region.
+  name: PingCAP Region API
+  slug: pingcap-region-api
+- description: Get and create restore tasks for TiDB clusters. You can only restore data to a new cluster. For more information on restoration on TiDB Cloud, refer to [Restore](https://docs.pingcap.com/tidbcloud/bac
+  name: PingCAP Restore API
+  slug: pingcap-restore-api
+- description: source
+  name: PingCAP Source API
+  slug: pingcap-source-api
+- description: The Stargazers API from PingCAP — 3 operation(s) for stargazers.
+  name: PingCAP Stargazers API
+  slug: pingcap-stargazers-api
+- description: task
+  name: PingCAP Task API
+  slug: pingcap-task-api
+- description: The Trends API from PingCAP — 1 operation(s) for trends.
+  name: PingCAP Trends API
+  slug: pingcap-trends-api
+artifact_total: 39
 common:
 - group: agent
   title: ''
@@ -248,39 +314,39 @@ modified: '2026-08-02'
 name: PingCAP
 nav: Providers
 network: true
-overview: 'PingCAP publishes 9 APIs on the [APIs.io](https://apis.io/) network, including TiDB Cloud Starter and Essential API (v1beta1), TiDB Cloud Dedicated API (v1beta1), TiDB Cloud IAM API (v1beta1), and 6 more. Tagged areas include distributed-sql, database, tidb, htap, and mysql-compatible.
+overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include distributed-sql, database, tidb, htap, and mysql-compatible.
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
-random_paper: 60
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Pingcap Rate Limits
   slug: pingcap-rate-limits
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 60.9
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 45.7
+    contract_quality: 49.0
     developer_ergonomics: 87.0
-    discoverability: 92.6
+    discoverability: 77.8
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 61.6
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 11.1
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 9
     mcp: first-party
     skills: first-party
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -226,7 +226,7 @@ arazzos:
 - description: List recent video views in a timeframe, then fetch the full detail of the first matching view.
   name: Mux Video View Drilldown
   slug: mux-com-video-view-drilldown-workflow
-artifact_total: 115
+artifact_total: 116
 collections:
 - collection_type: postman
   name: Mux API
@@ -527,6 +527,10 @@ common:
   title: ''
   type: LlmsText
   url: https://www.mux.com/llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://www.mux.com/api-spec.json
 created: '2026-05-25'
 description: Mux is a video infrastructure platform that gives developers an end-to-end API for ingesting, encoding, storing, delivering, and analyzing video. The platform spans Mux Video (on-demand and live streaming), Mux Data (quality-of-experience analytics), Mux Robots (AI workflows for captions, chapters, summarization, and moderation), and Mux Player (drop-in playback components). Mux exposes a unified REST API at api.mux.com plus delivery hosts at stream.mux.com, image.mux.com, and stats.mux.com, backed by official SDKs in Node, Python, Ruby, PHP, Go, and Elixir, a CLI, and player integrations across web, iOS, Android, Roku, and major HTML5 players.
 features:
@@ -562,6 +566,10 @@ finops:
 - name: Mux Com Finops
   service_category: Video Infrastructure
   slug: mux-com-finops
+graphqls:
+- description: Mux does not currently offer a public GraphQL API. All Mux Video and Mux Data operations are available exclusively through the Mux REST API, served from `https://api.mux.com` and authenticated via HTT
+  name: Mux GraphQL
+  slug: mux-com-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mux-com.png
 integrations:
 - description: First-party next-video package for adding video components to Next.js apps.
@@ -600,7 +608,7 @@ jsonld:
   property_count: 4
   slug: mux-com-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-08'
 name: Mux
 nav: Providers
 network: true
@@ -610,12 +618,12 @@ overview: 'Mux publishes 35 APIs on the [APIs.io](https://apis.io/) network, inc
   The Mux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Mux''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 66 more developer resources.'
+  Mux''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 67 more developer resources.'
 plans:
 - name: Mux Com Plans Pricing
   plan_count: 11
   slug: mux-com-plans-pricing
-random_paper: 32
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Mux Com Rate Limits
@@ -631,11 +639,11 @@ rules:
   slug: mux-com-rules
 score:
   band: exemplar
-  composite: 73.6
-  delta: 0.0
+  composite: 73.8
+  delta: 0.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.9
+    contract_quality: 72.8
     developer_ergonomics: 76.1
     discoverability: 68.5
     governance: 62.5
@@ -649,8 +657,9 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:
 - kind: authentication
   name: Mux Com Authentication

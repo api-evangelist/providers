@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Constantinople is profiled on the [APIs.io](https://apis.io/) network
 
 
   Constantinople''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 52
+random_paper: 13
 score:
   band: emerging
   composite: 20.5
@@ -121,7 +121,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/screenshots/constantinople-2026-07-25T210312.png
 security:

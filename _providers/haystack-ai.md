@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Manage workspaces that isolate pipelines and data.
   name: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: deepset Cloud API (deepset AI Platform)
@@ -107,38 +107,46 @@ common:
   title: ''
   type: Blog
   url: https://haystack.deepset.ai/blog
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.haystack.deepset.ai/llms.txt
 created: '2026-06-20'
 description: Haystack is deepset's open-source Python framework for building context-engineered, production-ready LLM applications - modular Pipelines and agent workflows assembled from 100+ Components and document stores for RAG, semantic search, and agents. Haystack pipelines deploy as REST services via Hayhooks, and the commercial deepset AI Platform (deepset Cloud) exposes a hosted REST API at api.cloud.deepset.ai for pipelines, search, files, and workspaces.
 finops:
 - name: Haystack Ai Finops
   service_category: AI and Machine Learning
   slug: haystack-ai-finops
+graphqls:
+- description: Haystack is an open-source NLP framework. The Deepset Cloud API covers pipeline management, document store operations, querying, user management, evaluation sets, and deployment of NLP search and QA p
+  name: Haystack GraphQL API
+  slug: haystack-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/haystack-ai.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-08-08'
 name: Haystack / deepset
 nav: Providers
 network: true
 overview: 'Haystack / deepset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Files API, Pipelines API, Search API, and 1 more. Tagged areas include AI, LLM, RAG, Open Source, and Orchestration.
 
 
-  Haystack / deepset''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Haystack / deepset''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Haystack Ai Plans Pricing
   plan_count: 2
   slug: haystack-ai-plans-pricing
-random_paper: 86
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Haystack Ai Rate Limits
   slug: haystack-ai-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 37.3
+  delta: 0.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.0
+    contract_quality: 59.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -152,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/screenshots/haystack-ai-2026-06-20T182543.png
 security:

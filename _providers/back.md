@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Back is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Back''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: emerging
   composite: 15.3
@@ -93,8 +93,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.3
   schema_version: 0.9.1
-  scored_at: '2026-08-06'
+  scored_at: '2026-08-10'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/back/refs/heads/main/screenshots/back-2026-08-07T174748.png
 security:
 - kind: domain-security
   name: Back Domain Security
